@@ -1,0 +1,25 @@
+{
+  "name": "CesiumCityGMLExp",
+  "version": "1.0.0",
+  "description": "Sensor observation data experiements with kalasatama citygml models",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saknet/CesiumCityGMLExp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saknet/CesiumCityGMLExp/issues"
+  },
+  "homepage": "https://github.com/Saknet/CesiumCityGMLExp#readme",
+  "dependencies": {
+    "cesium": "^1.74.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1"
+  }
+}
