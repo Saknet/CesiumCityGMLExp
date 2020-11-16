@@ -50,6 +50,7 @@
 		"citygml_address{}.xlink_href" : {},
 		"BREC_BuildingHeightNN" : {},
 		"BREC_RoofNames" : {},
+		"BuildingHeightNN" : {},
 		"CODE" : {},
 		"C_KAYTTARK" : {},
 		"GroundLevel" : {},
