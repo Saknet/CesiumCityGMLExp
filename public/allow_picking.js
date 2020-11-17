@@ -73,18 +73,6 @@ function active3DTilePicker() {
             } else {
                 Cesium.Color.clone(picked3DtileFeature.color, selected.originalColor);
             }
-            // Highlight newly selected feature
-            var result = picked3DtileFeature.getProperty('result');
-            console.log(result);
-            if (result > 100) {
-                picked3DtileFeature.color = Cesium.Color.BLUE;
-            } 
-            if (result > 1000) {
-                picked3DtileFeature.color = Cesium.Color.HOTPINK;
-            } 
-            if (result < 101 ) {
-                picked3DtileFeature.color = Cesium.Color.LIME;
-            }
 
             // Set feature infobox description
             var gml_id = picked3DtileFeature.getProperty('gml_id');
@@ -97,7 +85,11 @@ function active3DTilePicker() {
                 '<tr><th>Kerroksia</th><td>' + picked3DtileFeature.getProperty('Kerroksia') + '</td></tr>' +
                 '<tr><th>Kerrosala</th><td>' + picked3DtileFeature.getProperty('Kerrosala') + '</td></tr>' +
                 '<tr><th>Valmistunut</th><td>' + picked3DtileFeature.getProperty('Valmistunut') + '</td></tr>' +
-                '<tr><th>Result</th><td>' + picked3DtileFeature.getProperty('result') + '</td></tr>' +
+                '<tr><th>Bel_SPL</th><td>' + picked3DtileFeature.getProperty('Bel_SPL') + '</td></tr>' +
+                '<tr><th>V</th><td>' + picked3DtileFeature.getProperty('V') + '</td></tr>' +
+                '<tr><th>A</th><td>' + picked3DtileFeature.getProperty('A') + '</td></tr>' +
+                '<tr><th>W</th><td>' + picked3DtileFeature.getProperty('W') + '</td></tr>' +
+                '<tr><th>J</th><td>' + picked3DtileFeature.getProperty('J') + '</td></tr>' +
                 '</tbody></table>';
         }
     }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
