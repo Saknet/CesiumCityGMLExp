@@ -10,9 +10,6 @@ function active3DTilePicker() {
         originalColor: new Cesium.Color()
     };
 
-    // An entity object which will hold info about the currently selected feature for infobox display
-    var selectedEntity = new Cesium.Entity();
-
     // Get default left click handler for when a feature is not picked on left click
     var clickHandler = viewer.screenSpaceEventHandler.getInputAction(Cesium.ScreenSpaceEventType.LEFT_CLICK);
     // Color a feature yellow on hover.
@@ -74,24 +71,66 @@ function active3DTilePicker() {
                 Cesium.Color.clone(picked3DtileFeature.color, selected.originalColor);
             }
 
-            // Set feature infobox description
-            var gml_id = picked3DtileFeature.getProperty('gml_id');
-            selectedEntity.name = "GML_ID: " + gml_id + "";
-            selectedEntity.description = 'Loading <div class="cesium-infoBox-loading"></div>';
-            viewer.selectedEntity = selectedEntity;
-            selectedEntity.description = '<table class="cesium-infoBox-defaultTable"><tbody>' +
-                '<tr><th>ID</th><td>' + picked3DtileFeature.getProperty('ID') + '</td></tr>' +
-                '<tr><th>HighestRoof</th><td>' + picked3DtileFeature.getProperty('HighestRoof') + '</td></tr>' +
-                '<tr><th>Kerroksia</th><td>' + picked3DtileFeature.getProperty('Kerroksia') + '</td></tr>' +
-                '<tr><th>Kerrosala</th><td>' + picked3DtileFeature.getProperty('Kerrosala') + '</td></tr>' +
-                '<tr><th>Valmistunut</th><td>' + picked3DtileFeature.getProperty('Valmistunut') + '</td></tr>' +
-                '<tr><th>Bel_SPL</th><td>' + picked3DtileFeature.getProperty('Bel_SPL') + '</td></tr>' +
-                '<tr><th>V</th><td>' + picked3DtileFeature.getProperty('V') + '</td></tr>' +
-                '<tr><th>A</th><td>' + picked3DtileFeature.getProperty('A') + '</td></tr>' +
-                '<tr><th>W</th><td>' + picked3DtileFeature.getProperty('W') + '</td></tr>' +
-                '<tr><th>J</th><td>' + picked3DtileFeature.getProperty('J') + '</td></tr>' +
-                '</tbody></table>';
+            generateFeatureInfoTable(picked3DtileFeature);
+
         }
     }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
 }
-active3DTilePicker()
+
+function generateFeatureInfoTable(picked3DtileFeature) {
+    var selectedEntity = new Cesium.Entity();
+    let gml_id = picked3DtileFeature.getProperty('gml_id');
+    let highestRoof =  picked3DtileFeature.getProperty('HighestRoof');
+    let kerroksia =  picked3DtileFeature.getProperty('Kerroksia');
+    let kerrosala =  picked3DtileFeature.getProperty('Kerrosala');
+    let valmistunut =  picked3DtileFeature.getProperty('Valmistunut');
+    let bel_spl =  picked3DtileFeature.getProperty('Bel_SPL');
+    let volt =  picked3DtileFeature.getProperty('V');
+    let ampere =  picked3DtileFeature.getProperty('A');
+    let watt =  picked3DtileFeature.getProperty('W');
+    let joule =  picked3DtileFeature.getProperty('J');
+
+    selectedEntity.name = "GML_ID: " + gml_id + "";
+    selectedEntity.description = 'Loading <div class="cesium-infoBox-loading"></div>';
+    viewer.selectedEntity = selectedEntity;
+    selectedEntity.description = '<table class="cesium-infoBox-defaultTable"><tbody>' 
+        + '<tr><th>ID</th><td>' + picked3DtileFeature.getProperty('ID') + '</td></tr>';
+
+    if (highestRoof !== undefined && highestRoof !== null ) {
+        selectedEntity.description += '<tr><th>HighestRoof</th><td>' + highestRoof + '</td></tr>';
+    }                 
+
+    if (kerroksia !== undefined && kerroksia !== null ) {
+        selectedEntity.description += '<tr><th>Kerroksia</th><td>' + kerroksia + '</td></tr>';
+    } 
+
+    if (kerrosala !== undefined && kerrosala !== null ) {
+        selectedEntity.description += '<tr><th>Kerrosala</th><td>' + kerrosala + '</td></tr>';
+    }  
+            
+    if (valmistunut !== undefined && valmistunut !== null ) {
+        selectedEntity.description += '<tr><th>Valmistunut</th><td>' + valmistunut + '</td></tr>';
+    }
+
+    if (bel_spl !== undefined && bel_spl !== null ) {
+        selectedEntity.description += '<tr><th>Bel_SPL</th><td>' + bel_spl + '</td></tr>';
+    }
+            
+    if (volt !== undefined && volt !== null ) {
+         selectedEntity.description += '<tr><th>V</th><td>' + volt + '</td></tr>';
+    }
+            
+    if (ampere !== undefined && ampere !== null ) {
+        selectedEntity.description += '<tr><th>A</th><td>' + ampere + '</td></tr>';
+    }  
+            
+    if (watt !== undefined && watt !== null ) {
+        selectedEntity.description += '<tr><th>W</th><td>' + watt + '</td></tr>';
+    }
+            
+    if (joule !== undefined && joule !== null ) {
+        selectedEntity.description += '<tr><th>J</th><td>' + joule + '</td></tr>';
+    } 
+}
+
+active3DTilePicker();
