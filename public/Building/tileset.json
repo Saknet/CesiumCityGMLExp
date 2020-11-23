@@ -78,11 +78,12 @@
 		"UUID" : {},
 		"VTJ_PRT" : {},
 		"Valmistunut" : {},
+		"result" : {},
+		"A" : {},
 		"Bel_SPL" : {},
-		"V\t" : {},
-		"A\t" : {},
-		"W" : {},
-		"J" : {}
+		"J" : {},
+		"V" : {},
+		"W" : {}
 	},
 	"geometricError" : 122.37325126957148,
 	"root" : {
