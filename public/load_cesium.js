@@ -107,9 +107,9 @@ function watt() {
                 ['Number(${W}) >= 250', 'color("red")'],
                 ['Number(${W}) >= 225', 'color("orange")'],
                 ['Number(${W}) >= 200', 'color("yellow")'],
-                ['Number(${W}) >= 175', 'color("blue")'],
-                ['Number(${W}) >= 150', 'color("green")'],
-                ['Number(${W}) >= 125', 'color("teal")'],
+                ['Number(${W}) >= 100', 'color("blue")'],
+                ['Number(${W}) >= 5', 'color("green")'],
+                ['Number(${W}) >= 0', 'color("teal")'],
                 ['true', 'color("cyan")']
             ]
         }

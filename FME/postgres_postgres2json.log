@@ -116,3 +116,727 @@
 2020-11-25 23:11:18|  36.2|  0.2|INFORM|Spatial Index: Adding 45369 features
 2020-11-25 23:11:18|  36.3|  0.0|INFORM|FFS writer: Writing 54631 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7_3.fts'
 2020-11-25 23:11:18|  36.5|  0.2|INFORM|Spatial Index: Adding 54631 features
+2020-11-25 23:11:20|  37.6|  1.2|INFORM|POSTGRES reader: Read 420000 features
+2020-11-25 23:11:25|  42.0|  4.4|INFORM|POSTGRES reader: Read 500000 features
+2020-11-25 23:11:25|  42.0|  0.0|INFORM|FFS writer: Writing 100000 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.observation -1 2 -1  0  f16197bc05a75137414e2e423e315d37f7a5dcb1_4.fts'
+2020-11-25 23:11:25|  42.3|  0.2|INFORM|Spatial Index: Adding 100000 features
+2020-11-25 23:11:27|  44.3|  2.1|INFORM|FFS writer: Writing 52926 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 1 FAILED  0  52ae6db919c93e80fb457c67f924350de3899c74_4.fts'
+2020-11-25 23:11:27|  44.6|  0.3|INFORM|Spatial Index: Adding 52926 features
+2020-11-25 23:11:27|  44.7|  0.0|INFORM|FFS writer: Writing 47074 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7_4.fts'
+2020-11-25 23:11:28|  44.8|  0.1|INFORM|Spatial Index: Adding 47074 features
+2020-11-25 23:11:30|  47.1|  2.3|INFORM|POSTGRES reader: Read 540000 features
+2020-11-25 23:11:34|  50.5|  3.4|INFORM|FFS writer: Writing 100000 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.observation -1 2 -1  0  f16197bc05a75137414e2e423e315d37f7a5dcb1_5.fts'
+2020-11-25 23:11:34|  50.7|  0.2|INFORM|Spatial Index: Adding 100000 features
+2020-11-25 23:11:37|  53.3|  2.7|INFORM|FFS writer: Writing 60683 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7_5.fts'
+2020-11-25 23:11:37|  53.6|  0.3|INFORM|Spatial Index: Adding 60683 features
+2020-11-25 23:11:37|  53.7|  0.1|INFORM|FFS writer: Writing 39317 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 1 FAILED  0  52ae6db919c93e80fb457c67f924350de3899c74_5.fts'
+2020-11-25 23:11:37|  53.9|  0.2|INFORM|Spatial Index: Adding 39317 features
+2020-11-25 23:11:38|  54.5|  0.7|INFORM|POSTGRES reader: Read 610000 features
+2020-11-25 23:11:43|  58.8|  4.3|INFORM|POSTGRES reader: Read 690000 features
+2020-11-25 23:11:43|  59.4|  0.5|INFORM|FFS writer: Writing 100000 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.observation -1 2 -1  0  f16197bc05a75137414e2e423e315d37f7a5dcb1_6.fts'
+2020-11-25 23:11:44|  59.6|  0.2|INFORM|Spatial Index: Adding 100000 features
+2020-11-25 23:11:46|  61.8|  2.2|INFORM|FFS writer: Writing 30201 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 1 FAILED  0  52ae6db919c93e80fb457c67f924350de3899c74_6.fts'
+2020-11-25 23:11:46|  62.0|  0.2|INFORM|Spatial Index: Adding 30201 features
+2020-11-25 23:11:46|  62.0|  0.0|INFORM|FFS writer: Writing 69799 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7_6.fts'
+2020-11-25 23:11:46|  62.2|  0.2|INFORM|Spatial Index: Adding 69799 features
+2020-11-25 23:11:48|  63.9|  1.7|INFORM|POSTGRES reader: Read 730000 features
+2020-11-25 23:11:52|  68.0|  4.1|INFORM|FFS writer: Writing 100000 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.observation -1 2 -1  0  f16197bc05a75137414e2e423e315d37f7a5dcb1_7.fts'
+2020-11-25 23:11:53|  68.2|  0.2|INFORM|Spatial Index: Adding 100000 features
+2020-11-25 23:11:55|  70.5|  2.2|INFORM|FFS writer: Writing 72921 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7_7.fts'
+2020-11-25 23:11:55|  70.8|  0.3|INFORM|Spatial Index: Adding 72921 features
+2020-11-25 23:11:55|  70.8|  0.0|INFORM|FFS writer: Writing 27079 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 1 FAILED  0  52ae6db919c93e80fb457c67f924350de3899c74_7.fts'
+2020-11-25 23:11:55|  70.9|  0.1|INFORM|Spatial Index: Adding 27079 features
+2020-11-25 23:11:56|  71.6|  0.6|INFORM|POSTGRES reader: Read 810000 features
+2020-11-25 23:12:01|  76.0|  4.4|INFORM|POSTGRES reader: Read 890000 features
+2020-11-25 23:12:01|  76.5|  0.5|INFORM|FFS writer: Writing 100000 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.observation -1 2 -1  0  f16197bc05a75137414e2e423e315d37f7a5dcb1_8.fts'
+2020-11-25 23:12:02|  76.7|  0.2|INFORM|Spatial Index: Adding 100000 features
+2020-11-25 23:12:04|  78.9|  2.3|INFORM|FFS writer: Writing 70107 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7_8.fts'
+2020-11-25 23:12:04|  79.2|  0.3|INFORM|Spatial Index: Adding 70107 features
+2020-11-25 23:12:04|  79.3|  0.1|INFORM|FFS writer: Writing 29893 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 1 FAILED  0  52ae6db919c93e80fb457c67f924350de3899c74_8.fts'
+2020-11-25 23:12:04|  79.4|  0.1|INFORM|Spatial Index: Adding 29893 features
+2020-11-25 23:12:06|  80.6|  1.2|INFORM|POSTGRES reader: Read 920000 features
+2020-11-25 23:12:10|  84.9|  4.3|INFORM|FFS writer: Writing 100000 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.observation -1 2 -1  0  f16197bc05a75137414e2e423e315d37f7a5dcb1_9.fts'
+2020-11-25 23:12:11|  85.1|  0.2|INFORM|Spatial Index: Adding 100000 features
+2020-11-25 23:12:13|  87.3|  2.3|INFORM|FFS writer: Writing 73616 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7_9.fts'
+2020-11-25 23:12:13|  87.6|  0.3|INFORM|Spatial Index: Adding 73616 features
+2020-11-25 23:12:13|  87.7|  0.1|INFORM|FFS writer: Writing 26384 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 1 FAILED  0  52ae6db919c93e80fb457c67f924350de3899c74_9.fts'
+2020-11-25 23:12:13|  87.8|  0.1|INFORM|Spatial Index: Adding 26384 features
+2020-11-25 23:12:14|  88.4|  0.6|INFORM|POSTGRES reader: Read 1010000 features
+2020-11-25 23:12:19|  92.8|  4.4|INFORM|POSTGRES reader: Read 1090000 features
+2020-11-25 23:12:20|  93.4|  0.6|INFORM|FFS writer: Writing 100000 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.observation -1 2 -1  0  f16197bc05a75137414e2e423e315d37f7a5dcb1_10.fts'
+2020-11-25 23:12:20|  93.6|  0.2|INFORM|Spatial Index: Adding 100000 features
+2020-11-25 23:12:22|  95.8|  2.2|INFORM|FFS writer: Writing 70986 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7_10.fts'
+2020-11-25 23:12:22|  96.1|  0.3|INFORM|Spatial Index: Adding 70986 features
+2020-11-25 23:12:22|  96.1|  0.0|INFORM|FFS writer: Writing 29014 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 1 FAILED  0  52ae6db919c93e80fb457c67f924350de3899c74_10.fts'
+2020-11-25 23:12:23|  96.3|  0.1|INFORM|Spatial Index: Adding 29014 features
+2020-11-25 23:12:24|  97.4|  1.1|INFORM|POSTGRES reader: Read 1120000 features
+2020-11-25 23:12:29| 101.8|  4.5|INFORM|POSTGRES reader: Read 1200000 features
+2020-11-25 23:12:29| 101.8|  0.0|INFORM|FFS writer: Writing 100000 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.observation -1 2 -1  0  f16197bc05a75137414e2e423e315d37f7a5dcb1_11.fts'
+2020-11-25 23:12:29| 102.0|  0.2|INFORM|Spatial Index: Adding 100000 features
+2020-11-25 23:12:31| 104.2|  2.2|INFORM|FFS writer: Writing 28137 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 1 FAILED  0  52ae6db919c93e80fb457c67f924350de3899c74_11.fts'
+2020-11-25 23:12:31| 104.4|  0.2|INFORM|Spatial Index: Adding 28137 features
+2020-11-25 23:12:31| 104.4|  0.0|INFORM|FFS writer: Writing 71863 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7_11.fts'
+2020-11-25 23:12:31| 104.6|  0.2|INFORM|Spatial Index: Adding 71863 features
+2020-11-25 23:12:34| 106.9|  2.3|INFORM|POSTGRES reader: Read 1240000 features
+2020-11-25 23:12:38| 110.2|  3.3|INFORM|FFS writer: Writing 100000 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.observation -1 2 -1  0  f16197bc05a75137414e2e423e315d37f7a5dcb1_12.fts'
+2020-11-25 23:12:38| 110.4|  0.2|INFORM|Spatial Index: Adding 100000 features
+2020-11-25 23:12:40| 112.6|  2.3|INFORM|FFS writer: Writing 25108 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 1 FAILED  0  52ae6db919c93e80fb457c67f924350de3899c74_12.fts'
+2020-11-25 23:12:40| 112.9|  0.2|INFORM|Spatial Index: Adding 25108 features
+2020-11-25 23:12:40| 112.9|  0.0|INFORM|FFS writer: Writing 74892 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7_12.fts'
+2020-11-25 23:12:40| 113.1|  0.2|INFORM|Spatial Index: Adding 74892 features
+2020-11-25 23:12:41| 113.7|  0.6|INFORM|POSTGRES reader: Read 1310000 features
+2020-11-25 23:12:46| 118.0|  4.3|INFORM|POSTGRES reader: Read 1390000 features
+2020-11-25 23:12:47| 118.6|  0.6|INFORM|FFS writer: Writing 100000 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.observation -1 2 -1  0  f16197bc05a75137414e2e423e315d37f7a5dcb1_13.fts'
+2020-11-25 23:12:47| 118.7|  0.2|INFORM|Spatial Index: Adding 100000 features
+2020-11-25 23:12:49| 120.9|  2.2|INFORM|FFS writer: Writing 72273 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7_13.fts'
+2020-11-25 23:12:49| 121.2|  0.3|INFORM|Spatial Index: Adding 72273 features
+2020-11-25 23:12:49| 121.3|  0.0|INFORM|FFS writer: Writing 27727 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 1 FAILED  0  52ae6db919c93e80fb457c67f924350de3899c74_13.fts'
+2020-11-25 23:12:49| 121.4|  0.1|INFORM|Spatial Index: Adding 27727 features
+2020-11-25 23:12:51| 122.5|  1.1|INFORM|POSTGRES reader: Read 1420000 features
+2020-11-25 23:12:55| 126.9|  4.4|INFORM|FFS writer: Writing 100000 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.observation -1 2 -1  0  f16197bc05a75137414e2e423e315d37f7a5dcb1_14.fts'
+2020-11-25 23:12:56| 127.1|  0.2|INFORM|Spatial Index: Adding 100000 features
+2020-11-25 23:12:58| 129.2|  2.2|INFORM|FFS writer: Writing 71731 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7_14.fts'
+2020-11-25 23:12:58| 129.5|  0.3|INFORM|Spatial Index: Adding 71731 features
+2020-11-25 23:12:58| 129.6|  0.1|INFORM|FFS writer: Writing 28269 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 1 FAILED  0  52ae6db919c93e80fb457c67f924350de3899c74_14.fts'
+2020-11-25 23:12:58| 129.7|  0.1|INFORM|Spatial Index: Adding 28269 features
+2020-11-25 23:12:59| 130.3|  0.6|INFORM|POSTGRES reader: Read 1510000 features
+2020-11-25 23:13:01| 132.5|  2.2|INFORM|FFS writer: Writing 51209 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.observation -1 2 -1  0  f16197bc05a75137414e2e423e315d37f7a5dcb1_15.fts'
+2020-11-25 23:13:01| 132.6|  0.1|INFORM|Spatial Index: Adding 51209 features
+2020-11-25 23:13:03| 133.8|  1.2|INFORM|FFS writer: Writing 37438 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7_15.fts'
+2020-11-25 23:13:03| 133.9|  0.2|INFORM|Spatial Index: Adding 37438 features
+2020-11-25 23:13:03| 134.0|  0.0|INFORM|FFS writer: Writing 13771 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 1 FAILED  0  52ae6db919c93e80fb457c67f924350de3899c74_15.fts'
+2020-11-25 23:13:03| 134.1|  0.1|INFORM|Spatial Index: Adding 13771 features
+2020-11-25 23:13:03| 134.1|  0.0|INFORM|Successfully closed POSTGRES database reader
+2020-11-25 23:13:03| 134.2|  0.1|INFORM|Successfully closed POSTGRES database reader
+2020-11-25 23:13:03| 134.2|  0.0|INFORM|Creating reader for format: CityGML
+2020-11-25 23:13:03| 134.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CITYGML'
+2020-11-25 23:13:03| 134.2|  0.0|INFORM|Loaded module 'CITYGML' from file 'C:\Program Files\FME\plugins/CITYGML.dll'
+2020-11-25 23:13:03| 134.2|  0.0|INFORM|FME API version of module 'CITYGML' matches current internal version (3.8 20200115)
+2020-11-25 23:13:03| 134.2|  0.0|INFORM|Opening the CITYGML reader with source dataset 'C:\Users\Demo\CesiumCityGMLExp\FME_data_in\2549_6674.gml'
+2020-11-25 23:13:03| 134.2|  0.0|INFORM|Parsing XML document 'C:\Users\Demo\CesiumCityGMLExp\FME_data_in\2549_6674.gml'
+2020-11-25 23:13:03| 134.2|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2020-11-25 23:13:03| 134.2|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2020-11-25 23:13:03| 134.2|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2020-11-25 23:13:03| 134.2|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2020-11-25 23:13:03| 134.2|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2020-11-25 23:13:03| 134.2|  0.0|INFORM|CityGML Reader: Using cached xfMap 'C:\Users\Demo\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1606331479026_14564.xfmap'
+2020-11-25 23:13:03| 134.2|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2020-11-25 23:13:03| 134.3|  0.0|INFORM|The XML Reader is using xfMap 'C:\Users\Demo\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1606331479026_14564.xfmap'
+2020-11-25 23:13:03| 134.3|  0.0|INFORM|Parsing XML document 'C:\Users\Demo\CesiumCityGMLExp\FME_data_in\2549_6674.gml'
+2020-11-25 23:13:04| 135.1|  0.8|INFORM|FME Configuration: Source coordinate system for reader CITYGML_1[CITYGML] set to `EPSG:3879' as read from input data
+2020-11-25 23:13:04| 135.1|  0.0|INFORM|Coordinate System `EPSG:3879' parameters: CS_NAME=`ETRS89.FinGK-25/10_FME' DESC_NM=`ETRS89 / ETRS-GK25FIN 2010' DT_NAME=`ETRS89/01' GROUP=`FINLAND' MAP_SCL=`1' MAX_LAT=`68.9' MAX_LNG=`25.5' MIN_LAT=`60' MIN_LNG=`24.5' PARM1=`25' PROJ=`TM' QUAD=`1' SCL_RED=`1' SOURCE=`EPSG' UNIT=`Meter' X_OFF=`25500000' ZERO_X=`0.001' ZERO_Y=`0.001'
+2020-11-25 23:13:04| 135.1|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_WallSurface -1 4 -1  0  a9c356f0529f485dfa0cb53f01c7c69ca950364f.ffsupdating'
+2020-11-25 23:13:04| 135.1|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_RoofSurface -1 5 -1  0  24effb2ec58e1a6436c41bd25b72ff7e01b1c4c7.ffsupdating'
+2020-11-25 23:13:04| 135.2|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_GroundSurface -1 6 -1  0  182f7fdad3a6f92e90ee351db04819bcb93c8c3f.ffsupdating'
+2020-11-25 23:13:04| 135.2|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Address -1 9 -1  0  a6f852b7c433952445cce2730ac11cb9281e0ce1.ffsupdating'
+2020-11-25 23:13:04| 135.2|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Building -1 8 -1  0  e17534844a234b567d43af9a9f43e02a3c6ee997.ffsupdating'
+2020-11-25 23:13:04| 135.6|  0.4|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_CityModel -1 7 -1  0  167993d0ab89b82ffb86e503cde585c18649d22b.ffsupdating'
+2020-11-25 23:13:04| 135.6|  0.0|INFORM|Creating reader for format: Microsoft Excel
+2020-11-25 23:13:04| 135.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XLSXR'
+2020-11-25 23:13:04| 135.6|  0.0|INFORM|Loaded module 'XLSXR' from file 'C:\Program Files\FME\plugins/xlsx.dll'
+2020-11-25 23:13:04| 135.6|  0.0|INFORM|FME API version of module 'XLSXR' matches current internal version (3.8 20200115)
+2020-11-25 23:13:04| 135.6|  0.0|INFORM|XLSXR reader: Building features into bulk mode features
+2020-11-25 23:13:04| 135.6|  0.0|INFORM|Excel Reader: Output cell formulas: 'false'
+2020-11-25 23:13:04| 135.6|  0.0|INFORM|Excel Reader: Output cell formatting: 'false'
+2020-11-25 23:13:04| 135.6|  0.0|INFORM|Excel Reader: Output cell comments: 'false'
+2020-11-25 23:13:04| 135.6|  0.0|INFORM|Excel Reader: Force full datetime values: 'false'
+2020-11-25 23:13:04| 135.6|  0.0|INFORM|Excel Reader: Opening dataset 'C:\Users\Demo\CesiumCityGMLExp\FME_data_in\KalasatamaCityGML.xlsx'...
+2020-11-25 23:13:04| 135.6|  0.0|INFORM|Excel Reader: Reading sheet 'Sheet1'...
+2020-11-25 23:13:04| 135.6|  0.0|INFORM|Excel Reader: Sheet 'Sheet1' range: Start Row '1', Start Column 'A', End Row '76', End Column 'B'
+2020-11-25 23:13:04| 135.6|  0.0|INFORM|fme-binary
+2020-11-25 23:13:04| 135.6|  0.0|INFORM|fme-binary
+2020-11-25 23:13:04| 135.6|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Sheet1 -1 16 -1  0  eafd923993afb480457b90bc6834231c644df320.ffsupdating'
+2020-11-25 23:13:04| 135.7|  0.0|INFORM|FFS writer: Writing 75 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Sheet1 -1 16 -1  0  eafd923993afb480457b90bc6834231c644df320.fts'
+2020-11-25 23:13:04| 135.7|  0.0|INFORM|Excel Reader: Closing dataset 'C:\Users\Demo\CesiumCityGMLExp\FME_data_in\KalasatamaCityGML.xlsx'...
+2020-11-25 23:13:04| 135.7|  0.0|INFORM|Styles created: 4
+2020-11-25 23:13:04| 135.7|  0.0|INFORM|Excel Reader: Closing dataset 'C:\Users\Demo\CesiumCityGMLExp\FME_data_in\KalasatamaCityGML.xlsx'...
+2020-11-25 23:13:04| 135.7|  0.0|INFORM|FME Configuration: Using connection values from 'featureofintrestlocal' for POSTGRES_2
+2020-11-25 23:13:04| 135.7|  0.0|INFORM|Creating reader for format: PostgreSQL
+2020-11-25 23:13:04| 135.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `POSTGRES'
+2020-11-25 23:13:04| 135.7|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20200115)
+2020-11-25 23:13:04| 135.7|  0.0|INFORM|Opening POSTGRES reader for dataset 'postgres'
+2020-11-25 23:13:04| 135.7|  0.0|INFORM|PostGIS client encoding: 'UTF8'
+2020-11-25 23:13:05| 135.7|  0.0|INFORM|PostgreSQL 12.5 (Debian 12.5-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit
+2020-11-25 23:13:05| 135.7|  0.0|INFORM|POSTGRES reader: Building features into bulk mode features
+2020-11-25 23:13:05| 135.7|  0.0|INFORM|Executing data query: 'declare "public_FeatureOfInterest_crsr" cursor for select "id","linkeddata","datastream_id" from "public"."FeatureOfInterest"'
+2020-11-25 23:13:05| 135.7|  0.0|INFORM|Reading POSTGRES table: 'public.FeatureOfInterest'...
+2020-11-25 23:13:05| 135.7|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.FeatureOfInterest -1 64 -1  0  787e6c36a2e04c0b03317c34c5eccbc219ccb083.ffsupdating'
+2020-11-25 23:13:05| 135.7|  0.0|INFORM|FFS writer: Writing 75 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.FeatureOfInterest -1 64 -1  0  787e6c36a2e04c0b03317c34c5eccbc219ccb083.fts'
+2020-11-25 23:13:05| 135.7|  0.0|INFORM|Spatial Index: Adding 75 features
+2020-11-25 23:13:05| 135.7|  0.0|INFORM|JSONExtractor_2 (JSONQueryFactory): Splitting bulk mode features into features
+2020-11-25 23:13:05| 135.7|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_JSONExtractor_2 -1 65 fo 0 EVALUATED  0  968258dca7a92010e38dd6aa342eae82ad0da99d.ffsupdating'
+2020-11-25 23:13:05| 135.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_AttributeKeeper_2 -1 68 fo 0 OUTPUT  0  6750a59b41da82f4a1d187646c6c6c6a2c436f1c.ffsupdating'
+2020-11-25 23:13:05| 135.8|  0.0|INFORM|Successfully closed POSTGRES database reader
+2020-11-25 23:13:05| 135.8|  0.0|INFORM|Successfully closed POSTGRES database reader
+2020-11-25 23:13:05| 135.8|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 1552626 features from 4 readers
+2020-11-25 23:13:05| 135.8|  0.0|INFORM|Emptying factory pipeline
+2020-11-25 23:13:05| 135.8|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 1552626 input feature(s), wrote 1552626 output feature(s): 1552626 matched merge filters, 1552626 were routed to output, 0 could not be routed.
+2020-11-25 23:13:05| 135.8|  0.0|STATS |Unexpected Input Remover Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |public.observation_POSTGRES_1 Splitter (TeeFactory): Cloned 1551209 input feature(s) into 1551209 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |public.observation_POSTGRES_1 Feature Counter -1 30 (TeeFactory): Cloned 1551209 input feature(s) into 1551209 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |WallSurface_CITYGML_1 Splitter (TeeFactory): Cloned 850 input feature(s) into 850 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |WallSurface_CITYGML_1 Feature Counter -1 31 (TeeFactory): Cloned 850 input feature(s) into 850 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |RoofSurface_CITYGML_1 Splitter (TeeFactory): Cloned 192 input feature(s) into 192 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |RoofSurface_CITYGML_1 Feature Counter -1 32 (TeeFactory): Cloned 192 input feature(s) into 192 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |GroundSurface_CITYGML_1 Splitter (TeeFactory): Cloned 61 input feature(s) into 61 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |GroundSurface_CITYGML_1 Feature Counter -1 33 (TeeFactory): Cloned 61 input feature(s) into 61 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |CityModel_CITYGML_1 Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |CityModel_CITYGML_1 Feature Counter -1 34 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |Building_CITYGML_1 Splitter (TeeFactory): Cloned 61 input feature(s) into 61 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |Building_CITYGML_1 Feature Counter -1 35 (TeeFactory): Cloned 61 input feature(s) into 61 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |Address_CITYGML_1 Splitter (TeeFactory): Cloned 102 input feature(s) into 102 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |Address_CITYGML_1 Feature Counter -1 36 (TeeFactory): Cloned 102 input feature(s) into 102 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |Sheet1_XLSXR_1 Splitter (TeeFactory): Cloned 75 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |public.FeatureOfInterest_POSTGRES_2 Splitter (TeeFactory): Cloned 75 input feature(s) into 75 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |public.FeatureOfInterest_POSTGRES_2 Feature Counter -1 67 (TeeFactory): Cloned 75 input feature(s) into 75 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |JSONExtractor_2_EVALUATED Feature Counter -1 69 (TeeFactory): Cloned 75 input feature(s) into 75 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |JSONExtractor_2_<REJECTED> Feature Counter -1 2147680321 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |AttributeKeeper_2_OUTPUT Feature Counter -1 70 (TeeFactory): Cloned 75 input feature(s) into 75 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |Observation_tester (TestFactory): Tested 1551209 input feature(s) -- 989627 feature(s) passed and 561582 feature(s) failed
+2020-11-25 23:13:05| 135.8|  0.0|STATS |Observation_tester_PASSED Feature Counter -1 40 (TeeFactory): Cloned 989627 input feature(s) into 989627 output feature(s)
+2020-11-25 23:13:05| 135.8|  0.0|STATS |Observation_tester_FAILED Feature Counter -1 2147680278 (TeeFactory): Cloned 561582 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:10| 140.9|  5.1|INFORM|Sorting: Loaded 960000 of 989627 features
+2020-11-25 23:13:10| 141.0|  0.1|INFORM|Sorting: Loaded 989627 of 989627 features
+2020-11-25 23:13:13| 144.3|  3.4|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Sorter -1 29 fo 0 SORTED  0  0c7ee41ba7ecfe4e39924711109355a9a857d136.ffsupdating'
+2020-11-25 23:13:15| 146.3|  2.0|INFORM|Spatial Index: Adding 989627 features
+2020-11-25 23:13:18| 149.5|  3.2|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_DuplicateFilter -1 28 fo 0 UNIQUE  0  c8577139e76ab57522593466cad2ae367cba389a.ffsupdating'
+2020-11-25 23:13:19| 149.5|  0.1|INFORM|Spatial Index: Adding 146 features
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|DatabaseJoiner (JoinFactory): Splitting bulk mode features into features
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|Creating reader for format: PostgreSQL
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `POSTGRES'
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20200115)
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|Successfully closed POSTGRES database reader
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|FME Configuration: Using connection values from 'db01fvh' for R_2
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|Creating reader for format: PostgreSQL
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `POSTGRES'
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20200115)
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|FME Configuration: Using connection values from 'db01fvh' for R_2
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|Creating reader for format: PostgreSQL
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `POSTGRES'
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|FME API version of module 'POSTGRES' matches current internal version (3.8 20200115)
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|Opening POSTGRES reader for dataset 'kafka'
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|PostGIS client encoding: 'UTF8'
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|PostgreSQL 12.4 (Ubuntu 12.4-0ubuntu0.20.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.3.0-10ubuntu2) 9.3.0, 64-bit
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|Successfully closed POSTGRES database reader
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|Successfully closed POSTGRES database reader
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|Opened table `DatabaseJoiner:public.datastream' for input with server type `POSTGRES', server name `db01fvh', user name `', database name = `';
+2020-11-25 23:13:19| 149.6|  0.0|INFORM|Opening POSTGRES reader for dataset 'kafka'
+2020-11-25 23:13:19| 149.7|  0.0|INFORM|PostGIS client encoding: 'UTF8'
+2020-11-25 23:13:19| 149.7|  0.0|INFORM|PostgreSQL 12.4 (Ubuntu 12.4-0ubuntu0.20.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.3.0-10ubuntu2) 9.3.0, 64-bit
+2020-11-25 23:13:19| 149.7|  0.0|INFORM|POSTGRES reader: Building features into bulk mode features
+2020-11-25 23:13:19| 149.7|  0.0|INFORM|Executing custom data query: 'select * from "public"."datastream"'
+2020-11-25 23:13:19| 149.7|  0.0|INFORM|POSTGRES reader: Splitting bulk mode features into features
+2020-11-25 23:13:19| 149.8|  0.0|INFORM|@Relate: Database table reader cached all 193 rows returned from exhaustive prefetch query '+select * from "public"."datastream"' for table 'public.datastream'
+2020-11-25 23:13:19| 149.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_DatabaseJoiner -1 18 fo 0 JOINED  0  d97ab776f38379dfd2c49f2f1c343acc7fdc4d76.ffsupdating'
+2020-11-25 23:13:19| 149.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Datastream_tester -1 21 fo 1 FAILED  0  3330fd5783345b62dde90d9c958f02a474be8593.ffsupdating'
+2020-11-25 23:13:19| 149.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Datastream_tester -1 21 fo 0 PASSED  0  d073e6b2aa3367fc0d7e809842ec57f66d2ea887.ffsupdating'
+2020-11-25 23:13:19| 149.8|  0.1|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_DuplicateFilter -1 28 fo 1 DUPLICATE  0  79e075df9e68c4dcbaaa611c63c16684c5208ace.ffsupdating'
+2020-11-25 23:13:21| 151.9|  2.1|INFORM|Spatial Index: Adding 989481 features
+2020-11-25 23:13:22| 152.8|  0.9|STATS |Sorter (SortFactory): Finished sorting a total of 989627 features.
+2020-11-25 23:13:22| 152.8|  0.0|STATS |Sorter_SORTED Feature Counter -1 48 (TeeFactory): Cloned 989627 input feature(s) into 989627 output feature(s)
+2020-11-25 23:13:22| 152.8|  0.0|STATS |DuplicateFilter_UNIQUE Feature Counter -1 46 (TeeFactory): Cloned 146 input feature(s) into 146 output feature(s)
+2020-11-25 23:13:22| 152.8|  0.0|STATS |DuplicateFilter_DUPLICATE Feature Counter -1 2147680284 (TeeFactory): Cloned 989481 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:22| 152.8|  0.0|STATS |DatabaseJoiner_JOINED Feature Counter -1 38 (TeeFactory): Cloned 146 input feature(s) into 146 output feature(s)
+2020-11-25 23:13:22| 152.8|  0.0|STATS |DatabaseJoiner_UNJOINED Feature Counter -1 2147680274 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:22| 152.8|  0.0|STATS |DatabaseJoiner_<REJECTED> Feature Counter -1 2147745810 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:22| 152.8|  0.0|STATS |Datastream_tester (TestFactory): Tested 146 input feature(s) -- 126 feature(s) passed and 20 feature(s) failed
+2020-11-25 23:13:22| 152.8|  0.0|STATS |Datastream_tester_PASSED Feature Counter -1 41 (TeeFactory): Cloned 126 input feature(s) into 126 output feature(s)
+2020-11-25 23:13:22| 152.8|  0.0|STATS |Datastream_tester_FAILED Feature Counter -1 2147680277 (TeeFactory): Cloned 20 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:22| 152.9|  0.1|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureJoiner -1 23 fo 0 JOINED  0  b0a514972c86a2bd31fa80155622ee18f5ae72f2.ffsupdating'
+2020-11-25 23:13:22| 152.9|  0.0|INFORM|FFS writer: Writing 74 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureJoiner -1 23 fo 0 JOINED  0  b0a514972c86a2bd31fa80155622ee18f5ae72f2.fts'
+2020-11-25 23:13:22| 153.0|  0.0|INFORM|Creating writer for format: JSON (JavaScript Object Notation)
+2020-11-25 23:13:22| 153.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `JSON'
+2020-11-25 23:13:22| 153.0|  0.0|INFORM|Loaded module 'JSON' from file 'C:\Program Files\FME\plugins/JSON.dll'
+2020-11-25 23:13:22| 153.0|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20200115)
+2020-11-25 23:13:22| 153.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2020-11-25 23:13:22| 153.0|  0.0|INFORM|JSON writer: Splitting bulk mode features into features
+2020-11-25 23:13:22| 153.0|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20200115)
+2020-11-25 23:13:22| 153.0|  0.0|INFORM|Writer `JSON_1' of type `JSON' using group definition keyword `JSON_1_DEF'
+2020-11-25 23:13:22| 153.0|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20200115)
+2020-11-25 23:13:22| 153.0|  0.0|INFORM|Opening the JSON writer with destination dataset 'C:\Users\Demo\FME Data out\kalasatamapart\obs.json'
+2020-11-25 23:13:22| 153.0|  0.0|INFORM|PythonCaller_2 (PythonFactory): Splitting bulk mode features into features
+2020-11-25 23:13:22| 153.0|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_PythonCaller_2 -1 59 fo 0 OUTPUT  0  88709a1c9747a032edb707729b5ed3773ef5d163.ffsupdating'
+2020-11-25 23:13:23| 153.0|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2084 bytes
+2020-11-25 23:13:23| 153.0|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2084 bytes
+2020-11-25 23:13:23| 153.0|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2084 bytes', DNS lookup time: '0.01914 seconds', total transfer time: '0.084951 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar418&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.0|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_HTTPCaller -1 19 fo 0 Output  0  e76c5eee5d92778d588af0f30a834a751121e20f.ffsupdating'
+2020-11-25 23:13:23| 153.1|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_AttributeKeeper -1 26 fo 0 OUTPUT  0  cae52755ef9602cdde43a9271b07cb9e1e9fbb64.ffsupdating'
+2020-11-25 23:13:23| 153.1|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_JSONExtractor -1 25 fo 0 EVALUATED  0  433d19d20be3c7e78200c4908b2eebeadf0fee3f.ffsupdating'
+2020-11-25 23:13:23| 153.1|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_PythonCaller -1 27 fo 0 OUTPUT  0  89493ff49aa4239b682e8a1508900883929642a3.ffsupdating'
+2020-11-25 23:13:23| 153.1|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Tester -1 61 fo 0 PASSED  0  eddf2220b6a240a8a7eee6cde71edaa81a251698.ffsupdating'
+2020-11-25 23:13:23| 153.1|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2084 bytes
+2020-11-25 23:13:23| 153.1|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2084 bytes
+2020-11-25 23:13:23| 153.1|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2084 bytes', DNS lookup time: '1.8e-5 seconds', total transfer time: '0.007179 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar418&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.1|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Create_UnitOfMeasurement_column -1 55 fo 0 OUTPUT  0  82f155c5de91a6660e65d5e165c7eb711fec34e1.ffsupdating'
+2020-11-25 23:13:23| 153.2|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_AttributeRemover -1 54 fo 0 OUTPUT  0  061c2f9ba914356e7cc106fed12bcdca1c7b530a.ffsupdating'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2084 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2084 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2084 bytes', DNS lookup time: '3.3e-5 seconds', total transfer time: '0.007962 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar418&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2084 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2084 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2084 bytes', DNS lookup time: '1.9e-5 seconds', total transfer time: '0.004617 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar418&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2084 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2084 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2084 bytes', DNS lookup time: '1.8e-5 seconds', total transfer time: '0.004701 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar418&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.064582 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '2.2e-5 seconds', total transfer time: '0.056232 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '1.9e-5 seconds', total transfer time: '0.08275 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2044 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2044 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2044 bytes', DNS lookup time: '1.9e-5 seconds', total transfer time: '0.056931 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar57&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2044 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2044 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2044 bytes', DNS lookup time: '2.1e-5 seconds', total transfer time: '0.004624 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar57&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '1.9e-5 seconds', total transfer time: '0.004397 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '2.7e-5 seconds', total transfer time: '0.004549 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.9e-5 seconds', total transfer time: '0.005097 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.9e-5 seconds', total transfer time: '0.004252 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.8e-5 seconds', total transfer time: '0.004852 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '1.8e-5 seconds', total transfer time: '0.004647 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2044 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2044 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2044 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.004371 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar57&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.8e-5 seconds', total transfer time: '0.004844 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.6e-5 seconds', total transfer time: '0.004324 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.006789 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2044 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2044 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2044 bytes', DNS lookup time: '3.2e-5 seconds', total transfer time: '0.004124 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar57&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2044 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2044 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2044 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.003974 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar57&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.2|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.6e-5 seconds', total transfer time: '0.004091 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.004104 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.8e-5 seconds', total transfer time: '0.00412 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.006852 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.8e-5 seconds', total transfer time: '0.003942 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.004398 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.8e-5 seconds', total transfer time: '0.004305 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '3.5e-5 seconds', total transfer time: '0.004484 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.004094 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2044 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2044 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2044 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.004153 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar57&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2044 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2044 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2044 bytes', DNS lookup time: '1.8e-5 seconds', total transfer time: '0.006878 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar57&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '3.6e-5 seconds', total transfer time: '0.004154 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.004625 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.6e-5 seconds', total transfer time: '0.004254 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.004183 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '2e-5 seconds', total transfer time: '0.004052 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '3.9e-5 seconds', total transfer time: '0.004409 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '2.6e-5 seconds', total transfer time: '0.004315 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.9e-5 seconds', total transfer time: '0.003961 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.8e-5 seconds', total transfer time: '0.003976 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '1.6e-5 seconds', total transfer time: '0.00417 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.6e-5 seconds', total transfer time: '0.004201 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '1.8e-5 seconds', total transfer time: '0.004572 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '3e-5 seconds', total transfer time: '0.006574 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.9e-5 seconds', total transfer time: '0.004172 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.8e-5 seconds', total transfer time: '0.004015 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.004455 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.6e-5 seconds', total transfer time: '0.004461 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.004262 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '1.6e-5 seconds', total transfer time: '0.003252 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.007082 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.004156 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.6e-5 seconds', total transfer time: '0.004056 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '1.9e-5 seconds', total transfer time: '0.004052 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '2e-5 seconds', total transfer time: '0.004062 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.8e-5 seconds', total transfer time: '0.003975 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '2.1e-5 seconds', total transfer time: '0.006664 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '2e-5 seconds', total transfer time: '0.004103 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.3|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.9e-5 seconds', total transfer time: '0.004157 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.6e-5 seconds', total transfer time: '0.004015 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.8e-5 seconds', total transfer time: '0.003912 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2055 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2055 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2055 bytes', DNS lookup time: '1.8e-5 seconds', total transfer time: '0.00404 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar63&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2056 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2056 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2056 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.004113 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar61&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '1.9e-5 seconds', total transfer time: '0.00677 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '2e-5 seconds', total transfer time: '0.00393 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '1.6e-5 seconds', total transfer time: '0.003116 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '1.7e-5 seconds', total transfer time: '0.003966 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '1.5e-5 seconds', total transfer time: '0.004306 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '1.5e-5 seconds', total transfer time: '0.002797 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '1.5e-5 seconds', total transfer time: '0.002988 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '3.9e-5 seconds', total transfer time: '0.00412 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): Starting HTTP download from 'finto.fi'. Expected transfer size: 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP Download: received 2042 bytes
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|HTTPCaller (HTTPFactory): HTTP transfer summary - status code: 200, download size: '2042 bytes', DNS lookup time: '2.1e-5 seconds', total transfer time: '0.004309 seconds', url: 'http://finto.fi/rest/v1/ucum/data?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&format=application/ld%2Bjson'
+2020-11-25 23:13:23| 153.4|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureJoiner -1 23 fo 1 UNJOINED_LEFT  0  8fcd2a0a45108697ec6a11f0eef5244c0ead2edb.ffsupdating'
+2020-11-25 23:13:23| 153.4|  0.0|INFORM|FFS writer: Writing 66 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureJoiner -1 23 fo 1 UNJOINED_LEFT  0  8fcd2a0a45108697ec6a11f0eef5244c0ead2edb.fts'
+2020-11-25 23:13:23| 153.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureJoiner -1 23 fo 2 UNJOINED_RIGHT  0  3a3613017c84fb3b3af76765da50c4ee6261327a.ffsupdating'
+2020-11-25 23:13:23| 153.5|  0.0|INFORM|FFS writer: Writing 1 feature(s) to file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureJoiner -1 23 fo 2 UNJOINED_RIGHT  0  3a3613017c84fb3b3af76765da50c4ee6261327a.fts'
+2020-11-25 23:13:23| 153.5|  0.0|STATS |FeatureJoiner JOINED Splitter (TeeFactory): Cloned 74 input feature(s) into 148 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |FeatureJoiner_JOINED_0_M7XHS11qut0= Feature Counter -1 42 (TeeFactory): Cloned 74 input feature(s) into 74 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |FeatureJoiner_JOINED_1_EKwMyi3FWMs= Feature Counter -1 66 (TeeFactory): Cloned 74 input feature(s) into 74 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |FeatureJoiner_UNJOINED_LEFT Feature Counter -1 2147680279 (TeeFactory): Cloned 66 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |FeatureJoiner_UNJOINED_RIGHT Feature Counter -1 2147745815 (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |FeatureJoiner_<REJECTED> Feature Counter -1 2147811351 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|INFORM|Optional `close' method not present; not called
+2020-11-25 23:13:23| 153.5|  0.0|STATS |PythonCaller_2_OUTPUT Feature Counter -1 60 (TeeFactory): Cloned 74 input feature(s) into 74 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |HTTPCaller_Output Feature Counter -1 39 (TeeFactory): Cloned 74 input feature(s) into 74 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |HTTPCaller_<REJECTED> Feature Counter -1 2147680275 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |AttributeKeeper_OUTPUT Feature Counter -1 47 (TeeFactory): Cloned 74 input feature(s) into 74 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |JSONExtractor_EVALUATED Feature Counter -1 45 (TeeFactory): Cloned 74 input feature(s) into 74 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |JSONExtractor_<REJECTED> Feature Counter -1 2147680281 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|INFORM|Optional `close' method not present; not called
+2020-11-25 23:13:23| 153.5|  0.0|STATS |PythonCaller_OUTPUT Feature Counter -1 62 (TeeFactory): Cloned 74 input feature(s) into 74 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |Tester (TestFactory): Tested 74 input feature(s) -- 74 feature(s) passed and 0 feature(s) failed
+2020-11-25 23:13:23| 153.5|  0.0|STATS |Tester_PASSED Feature Counter -1 63 (TeeFactory): Cloned 74 input feature(s) into 74 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |Tester_FAILED Feature Counter -1 2147680317 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |Create_UnitOfMeasurement_column_OUTPUT Feature Counter -1 58 (TeeFactory): Cloned 74 input feature(s) into 74 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |AttributeRemover (TeeFactory): Cloned 74 input feature(s) into 74 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |AttributeRemover_OUTPUT Feature Counter -1 57 (TeeFactory): Cloned 74 input feature(s) into 74 output feature(s)
+2020-11-25 23:13:23| 153.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureMerger -1 24 fo 0 MERGED  0  bd6b6b24621112c929ee46df531e1c39889dd336.ffsupdating'
+2020-11-25 23:13:23| 153.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureMerger -1 24 fo 1 UNMERGED_REQUESTOR  0  96b2b6f786e746fd25ee87177d6ec424528b6aa9.ffsupdating'
+2020-11-25 23:13:24| 153.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureMerger -1 24 fo 2 USED_SUPPLIER  0  0b9420e4c3b33c5c8caf1528d2431179b75aaff3.ffsupdating'
+2020-11-25 23:13:24| 153.5|  0.0|STATS |FeatureMerger (ReferenceFactory): Total Results: 59 Complete Feature(s), 2 Incomplete Feature(s), 74 Referenced Feature(s), 0 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
+2020-11-25 23:13:24| 153.5|  0.0|STATS |Stored 74 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_JSONExtractor -1 25 fo 0 EVALUATED  0  433d19d20be3c7e78200c4908b2eebeadf0fee3f.ffsupdating'
+2020-11-25 23:13:24| 153.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_JSONExtractor -1 25 fo 0 EVALUATED  0  433d19d20be3c7e78200c4908b2eebeadf0fee3f.fsi'
+2020-11-25 23:13:24| 153.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_JSONExtractor -1 25 fo 0 EVALUATED  0  433d19d20be3c7e78200c4908b2eebeadf0fee3f.fsi'
+2020-11-25 23:13:24| 153.5|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Sheet1 -1 16 -1  0  eafd923993afb480457b90bc6834231c644df320.ffsupdating'
+2020-11-25 23:13:24| 153.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Sheet1 -1 16 -1  0  eafd923993afb480457b90bc6834231c644df320.fsi'
+2020-11-25 23:13:24| 153.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Sheet1 -1 16 -1  0  eafd923993afb480457b90bc6834231c644df320.fsi'
+2020-11-25 23:13:24| 153.5|  0.0|STATS |Stored 102 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Address -1 9 -1  0  a6f852b7c433952445cce2730ac11cb9281e0ce1.ffsupdating'
+2020-11-25 23:13:24| 153.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Address -1 9 -1  0  a6f852b7c433952445cce2730ac11cb9281e0ce1.fsi'
+2020-11-25 23:13:24| 153.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Address -1 9 -1  0  a6f852b7c433952445cce2730ac11cb9281e0ce1.fsi'
+2020-11-25 23:13:24| 153.5|  0.0|STATS |Stored 16 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.observation -1 2 -1  0  f16197bc05a75137414e2e423e315d37f7a5dcb1.ffsupdating'
+2020-11-25 23:13:24| 153.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.observation -1 2 -1  0  f16197bc05a75137414e2e423e315d37f7a5dcb1.fsi'
+2020-11-25 23:13:24| 153.7|  0.2|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.observation -1 2 -1  0  f16197bc05a75137414e2e423e315d37f7a5dcb1.fsi'
+2020-11-25 23:13:24| 153.7|  0.0|STATS |Stored 16 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 1 FAILED  0  52ae6db919c93e80fb457c67f924350de3899c74.ffsupdating'
+2020-11-25 23:13:24| 153.7|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 1 FAILED  0  52ae6db919c93e80fb457c67f924350de3899c74.fsi'
+2020-11-25 23:13:24| 153.8|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 1 FAILED  0  52ae6db919c93e80fb457c67f924350de3899c74.fsi'
+2020-11-25 23:13:24| 153.8|  0.0|STATS |Stored 16 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7.ffsupdating'
+2020-11-25 23:13:24| 153.8|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7.fsi'
+2020-11-25 23:13:24| 153.9|  0.1|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Observation_tester -1 22 fo 0 PASSED  0  16b0895de76b3de774b1bcf9d34ec409a0b45eb7.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|STATS |Stored 850 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_WallSurface -1 4 -1  0  a9c356f0529f485dfa0cb53f01c7c69ca950364f.ffsupdating'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_WallSurface -1 4 -1  0  a9c356f0529f485dfa0cb53f01c7c69ca950364f.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_WallSurface -1 4 -1  0  a9c356f0529f485dfa0cb53f01c7c69ca950364f.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|STATS |Stored 192 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_RoofSurface -1 5 -1  0  24effb2ec58e1a6436c41bd25b72ff7e01b1c4c7.ffsupdating'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_RoofSurface -1 5 -1  0  24effb2ec58e1a6436c41bd25b72ff7e01b1c4c7.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_RoofSurface -1 5 -1  0  24effb2ec58e1a6436c41bd25b72ff7e01b1c4c7.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|STATS |Stored 74 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_AttributeKeeper -1 26 fo 0 OUTPUT  0  cae52755ef9602cdde43a9271b07cb9e1e9fbb64.ffsupdating'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_AttributeKeeper -1 26 fo 0 OUTPUT  0  cae52755ef9602cdde43a9271b07cb9e1e9fbb64.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_AttributeKeeper -1 26 fo 0 OUTPUT  0  cae52755ef9602cdde43a9271b07cb9e1e9fbb64.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|STATS |Stored 61 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_GroundSurface -1 6 -1  0  182f7fdad3a6f92e90ee351db04819bcb93c8c3f.ffsupdating'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_GroundSurface -1 6 -1  0  182f7fdad3a6f92e90ee351db04819bcb93c8c3f.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_GroundSurface -1 6 -1  0  182f7fdad3a6f92e90ee351db04819bcb93c8c3f.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|STATS |Stored 20 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Datastream_tester -1 21 fo 1 FAILED  0  3330fd5783345b62dde90d9c958f02a474be8593.ffsupdating'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Datastream_tester -1 21 fo 1 FAILED  0  3330fd5783345b62dde90d9c958f02a474be8593.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Datastream_tester -1 21 fo 1 FAILED  0  3330fd5783345b62dde90d9c958f02a474be8593.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|STATS |Stored 61 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Building -1 8 -1  0  e17534844a234b567d43af9a9f43e02a3c6ee997.ffsupdating'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Building -1 8 -1  0  e17534844a234b567d43af9a9f43e02a3c6ee997.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Building -1 8 -1  0  e17534844a234b567d43af9a9f43e02a3c6ee997.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_CityModel -1 7 -1  0  167993d0ab89b82ffb86e503cde585c18649d22b.ffsupdating'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_CityModel -1 7 -1  0  167993d0ab89b82ffb86e503cde585c18649d22b.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_CityModel -1 7 -1  0  167993d0ab89b82ffb86e503cde585c18649d22b.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.FeatureOfInterest -1 64 -1  0  787e6c36a2e04c0b03317c34c5eccbc219ccb083.ffsupdating'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.FeatureOfInterest -1 64 -1  0  787e6c36a2e04c0b03317c34c5eccbc219ccb083.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_public.FeatureOfInterest -1 64 -1  0  787e6c36a2e04c0b03317c34c5eccbc219ccb083.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|STATS |Stored 75 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_JSONExtractor_2 -1 65 fo 0 EVALUATED  0  968258dca7a92010e38dd6aa342eae82ad0da99d.ffsupdating'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_JSONExtractor_2 -1 65 fo 0 EVALUATED  0  968258dca7a92010e38dd6aa342eae82ad0da99d.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_JSONExtractor_2 -1 65 fo 0 EVALUATED  0  968258dca7a92010e38dd6aa342eae82ad0da99d.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|STATS |Stored 75 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_AttributeKeeper_2 -1 68 fo 0 OUTPUT  0  6750a59b41da82f4a1d187646c6c6c6a2c436f1c.ffsupdating'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_AttributeKeeper_2 -1 68 fo 0 OUTPUT  0  6750a59b41da82f4a1d187646c6c6c6a2c436f1c.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_AttributeKeeper_2 -1 68 fo 0 OUTPUT  0  6750a59b41da82f4a1d187646c6c6c6a2c436f1c.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|STATS |Stored 74 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Tester -1 61 fo 0 PASSED  0  eddf2220b6a240a8a7eee6cde71edaa81a251698.ffsupdating'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Tester -1 61 fo 0 PASSED  0  eddf2220b6a240a8a7eee6cde71edaa81a251698.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Tester -1 61 fo 0 PASSED  0  eddf2220b6a240a8a7eee6cde71edaa81a251698.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|STATS |Stored 126 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Datastream_tester -1 21 fo 0 PASSED  0  d073e6b2aa3367fc0d7e809842ec57f66d2ea887.ffsupdating'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Datastream_tester -1 21 fo 0 PASSED  0  d073e6b2aa3367fc0d7e809842ec57f66d2ea887.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Datastream_tester -1 21 fo 0 PASSED  0  d073e6b2aa3367fc0d7e809842ec57f66d2ea887.fsi'
+2020-11-25 23:13:24| 153.9|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Sorter -1 29 fo 0 SORTED  0  0c7ee41ba7ecfe4e39924711109355a9a857d136.ffsupdating'
+2020-11-25 23:13:24| 153.9|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Sorter -1 29 fo 0 SORTED  0  0c7ee41ba7ecfe4e39924711109355a9a857d136.fsi'
+2020-11-25 23:13:24| 154.0|  0.1|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Sorter -1 29 fo 0 SORTED  0  0c7ee41ba7ecfe4e39924711109355a9a857d136.fsi'
+2020-11-25 23:13:24| 154.0|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_DuplicateFilter -1 28 fo 0 UNIQUE  0  c8577139e76ab57522593466cad2ae367cba389a.ffsupdating'
+2020-11-25 23:13:24| 154.0|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_DuplicateFilter -1 28 fo 0 UNIQUE  0  c8577139e76ab57522593466cad2ae367cba389a.fsi'
+2020-11-25 23:13:24| 154.0|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_DuplicateFilter -1 28 fo 0 UNIQUE  0  c8577139e76ab57522593466cad2ae367cba389a.fsi'
+2020-11-25 23:13:24| 154.0|  0.0|STATS |Stored 59 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureMerger -1 24 fo 0 MERGED  0  bd6b6b24621112c929ee46df531e1c39889dd336.ffsupdating'
+2020-11-25 23:13:24| 154.0|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureMerger -1 24 fo 0 MERGED  0  bd6b6b24621112c929ee46df531e1c39889dd336.fsi'
+2020-11-25 23:13:24| 154.0|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureMerger -1 24 fo 0 MERGED  0  bd6b6b24621112c929ee46df531e1c39889dd336.fsi'
+2020-11-25 23:13:24| 154.0|  0.0|STATS |Stored 146 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_DatabaseJoiner -1 18 fo 0 JOINED  0  d97ab776f38379dfd2c49f2f1c343acc7fdc4d76.ffsupdating'
+2020-11-25 23:13:24| 154.0|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_DatabaseJoiner -1 18 fo 0 JOINED  0  d97ab776f38379dfd2c49f2f1c343acc7fdc4d76.fsi'
+2020-11-25 23:13:24| 154.0|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_DatabaseJoiner -1 18 fo 0 JOINED  0  d97ab776f38379dfd2c49f2f1c343acc7fdc4d76.fsi'
+2020-11-25 23:13:24| 154.0|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_DuplicateFilter -1 28 fo 1 DUPLICATE  0  79e075df9e68c4dcbaaa611c63c16684c5208ace.ffsupdating'
+2020-11-25 23:13:24| 154.0|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_DuplicateFilter -1 28 fo 1 DUPLICATE  0  79e075df9e68c4dcbaaa611c63c16684c5208ace.fsi'
+2020-11-25 23:13:24| 154.1|  0.1|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_DuplicateFilter -1 28 fo 1 DUPLICATE  0  79e075df9e68c4dcbaaa611c63c16684c5208ace.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureJoiner -1 23 fo 0 JOINED  0  b0a514972c86a2bd31fa80155622ee18f5ae72f2.ffsupdating'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureJoiner -1 23 fo 0 JOINED  0  b0a514972c86a2bd31fa80155622ee18f5ae72f2.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureJoiner -1 23 fo 0 JOINED  0  b0a514972c86a2bd31fa80155622ee18f5ae72f2.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|STATS |Stored 74 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_PythonCaller_2 -1 59 fo 0 OUTPUT  0  88709a1c9747a032edb707729b5ed3773ef5d163.ffsupdating'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_PythonCaller_2 -1 59 fo 0 OUTPUT  0  88709a1c9747a032edb707729b5ed3773ef5d163.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_PythonCaller_2 -1 59 fo 0 OUTPUT  0  88709a1c9747a032edb707729b5ed3773ef5d163.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|STATS |Stored 74 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_HTTPCaller -1 19 fo 0 Output  0  e76c5eee5d92778d588af0f30a834a751121e20f.ffsupdating'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_HTTPCaller -1 19 fo 0 Output  0  e76c5eee5d92778d588af0f30a834a751121e20f.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_HTTPCaller -1 19 fo 0 Output  0  e76c5eee5d92778d588af0f30a834a751121e20f.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|STATS |Stored 74 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_PythonCaller -1 27 fo 0 OUTPUT  0  89493ff49aa4239b682e8a1508900883929642a3.ffsupdating'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_PythonCaller -1 27 fo 0 OUTPUT  0  89493ff49aa4239b682e8a1508900883929642a3.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_PythonCaller -1 27 fo 0 OUTPUT  0  89493ff49aa4239b682e8a1508900883929642a3.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|STATS |Stored 74 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Create_UnitOfMeasurement_column -1 55 fo 0 OUTPUT  0  82f155c5de91a6660e65d5e165c7eb711fec34e1.ffsupdating'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Create_UnitOfMeasurement_column -1 55 fo 0 OUTPUT  0  82f155c5de91a6660e65d5e165c7eb711fec34e1.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_Create_UnitOfMeasurement_column -1 55 fo 0 OUTPUT  0  82f155c5de91a6660e65d5e165c7eb711fec34e1.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|STATS |Stored 74 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_AttributeRemover -1 54 fo 0 OUTPUT  0  061c2f9ba914356e7cc106fed12bcdca1c7b530a.ffsupdating'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_AttributeRemover -1 54 fo 0 OUTPUT  0  061c2f9ba914356e7cc106fed12bcdca1c7b530a.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_AttributeRemover -1 54 fo 0 OUTPUT  0  061c2f9ba914356e7cc106fed12bcdca1c7b530a.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureJoiner -1 23 fo 1 UNJOINED_LEFT  0  8fcd2a0a45108697ec6a11f0eef5244c0ead2edb.ffsupdating'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureJoiner -1 23 fo 1 UNJOINED_LEFT  0  8fcd2a0a45108697ec6a11f0eef5244c0ead2edb.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureJoiner -1 23 fo 1 UNJOINED_LEFT  0  8fcd2a0a45108697ec6a11f0eef5244c0ead2edb.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureJoiner -1 23 fo 2 UNJOINED_RIGHT  0  3a3613017c84fb3b3af76765da50c4ee6261327a.ffsupdating'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureJoiner -1 23 fo 2 UNJOINED_RIGHT  0  3a3613017c84fb3b3af76765da50c4ee6261327a.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureJoiner -1 23 fo 2 UNJOINED_RIGHT  0  3a3613017c84fb3b3af76765da50c4ee6261327a.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|STATS |Stored 2 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureMerger -1 24 fo 1 UNMERGED_REQUESTOR  0  96b2b6f786e746fd25ee87177d6ec424528b6aa9.ffsupdating'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureMerger -1 24 fo 1 UNMERGED_REQUESTOR  0  96b2b6f786e746fd25ee87177d6ec424528b6aa9.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureMerger -1 24 fo 1 UNMERGED_REQUESTOR  0  96b2b6f786e746fd25ee87177d6ec424528b6aa9.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|STATS |Stored 74 feature(s) to FME feature store file `C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureMerger -1 24 fo 2 USED_SUPPLIER  0  0b9420e4c3b33c5c8caf1528d2431179b75aaff3.ffsupdating'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureMerger -1 24 fo 2 USED_SUPPLIER  0  0b9420e4c3b33c5c8caf1528d2431179b75aaff3.fsi'
+2020-11-25 23:13:24| 154.1|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Demo\AppData\Local\Temp\wb-cache-postgres_postgres2json-SDpjiS\Main_FeatureMerger -1 24 fo 2 USED_SUPPLIER  0  0b9420e4c3b33c5c8caf1528d2431179b75aaff3.fsi'
+2020-11-25 23:13:25| 154.1|  0.0|STATS |FeatureMerger_MERGED Feature Counter -1 44 (TeeFactory): Cloned 59 input feature(s) into 59 output feature(s)
+2020-11-25 23:13:25| 154.1|  0.0|STATS |FeatureMerger_UNMERGED_REQUESTOR Feature Counter -1 50 (TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2020-11-25 23:13:25| 154.1|  0.0|STATS |FeatureMerger_USED_SUPPLIER Feature Counter -1 2147745816 (TeeFactory): Cloned 74 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:25| 154.1|  0.0|STATS |FeatureMerger_UNUSED_SUPPLIER Feature Counter -1 2147811352 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:25| 154.1|  0.0|STATS |FeatureMerger_<REJECTED> Feature Counter -1 2147876888 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:25| 154.1|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 1341 input feature(s), wrote 1341 output feature(s): 0 matched merge filters, 1341 were routed to output, 0 could not be routed.
+2020-11-25 23:13:25| 154.1|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|Successfully closed POSTGRES database reader
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|Successfully closed POSTGRES database reader
+2020-11-25 23:13:25| 154.1|  0.0|STATS |@Relate: Database query statistics for table `DatabaseJoiner:public.datastream': 146 queries made of which 0 were sequential duplicates and 146 hit the record cache of 193 records (100% overall cache hit)
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|Closing the JSON writer
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|Feature output statistics for `JSON' writer using keyword `JSON_1':
+2020-11-25 23:13:25| 154.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-11-25 23:13:25| 154.1|  0.0|STATS |                               Features Written
+2020-11-25 23:13:25| 154.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-11-25 23:13:25| 154.1|  0.0|STATS |public.observation                                                          74
+2020-11-25 23:13:25| 154.1|  0.0|STATS |==============================================================================
+2020-11-25 23:13:25| 154.1|  0.0|STATS |Total Features Written                                                      74
+2020-11-25 23:13:25| 154.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Started outputting features
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|Creating writer for format: CityGML
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `CITYGML'
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|FME API version of module 'CITYGML' matches current internal version (3.8 20200115)
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|FME API version of module 'CITYGML' matches current internal version (3.8 20200115)
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|Writer `CITYGML_2' of type `CITYGML' using group definition keyword `CITYGML_2_DEF'
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|FME API version of module 'CITYGML' matches current internal version (3.8 20200115)
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|URI 'CityGML.xsd' mapped to 'file:///C:/Program Files/FME/xml/schemas/CityGML/CityGML/2.0/CityGML.xsd'
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|Parsing schema document 'file:///C:/Program Files/FME/xml/schemas/CityGML/CityGML/2.0/CityGML.xsd' ...
+2020-11-25 23:13:25| 154.1|  0.0|INFORM|A <schemaLocation> in the uri-map is overriding the namespace 'http://www.w3.org/1999/xlink' xsd location from '../xlink/xlinks.xsd' to 'xlink.xsd'
+2020-11-25 23:13:25| 154.2|  0.1|INFORM|Using XSD semantics configuration file 'file:///C:/Program Files/FME/xml/CityGML/CityGML_config.xml'.
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'xlink' for uri 'http://www.w3.org/1999/xlink'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'gml' for uri 'http://www.opengis.net/gml'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'sch' for uri 'http://www.ascc.net/xml/schematron'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'smil20' for uri 'http://www.w3.org/2001/SMIL20/'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'xsi' for uri 'http://www.w3.org/2001/XMLSchema-instance'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'core' for uri 'http://www.opengis.net/citygml/2.0'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'smil20lang' for uri 'http://www.w3.org/2001/SMIL20/Language'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'grp' for uri 'http://www.opengis.net/citygml/cityobjectgroup/2.0'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'tun' for uri 'http://www.opengis.net/citygml/tunnel/2.0'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'bldg' for uri 'http://www.opengis.net/citygml/building/2.0'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'xAL' for uri 'urn:oasis:names:tc:ciq:xsdschema:xAL:2.0'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'pbase' for uri 'http://www.opengis.net/citygml/profiles/base/2.0'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'gen' for uri 'http://www.opengis.net/citygml/generics/2.0'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'luse' for uri 'http://www.opengis.net/citygml/landuse/2.0'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'app' for uri 'http://www.opengis.net/citygml/appearance/2.0'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'dem' for uri 'http://www.opengis.net/citygml/relief/2.0'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'tex' for uri 'http://www.opengis.net/citygml/texturedsurface/2.0'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'veg' for uri 'http://www.opengis.net/citygml/vegetation/2.0'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'frn' for uri 'http://www.opengis.net/citygml/cityfurniture/2.0'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'wtr' for uri 'http://www.opengis.net/citygml/waterbody/2.0'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'brid' for uri 'http://www.opengis.net/citygml/bridge/2.0'
+2020-11-25 23:13:25| 154.2|  0.0|INFORM|Using prefix 'tran' for uri 'http://www.opengis.net/citygml/transportation/2.0'
+2020-11-25 23:13:25| 154.7|  0.5|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2020-11-25 23:13:25| 154.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2020-11-25 23:13:25| 154.7|  0.0|INFORM|Loaded module 'XML' from file 'C:\Program Files\FME\plugins/XML.dll'
+2020-11-25 23:13:25| 154.7|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20200115)
+2020-11-25 23:13:25| 154.7|  0.0|INFORM|Opening the XML reader with source dataset 'C:\Users\Demo\AppData\Local\Temp\wbrun_1606213268660_15680\fmetmp_1606338639028_15680\FME_1606338805580_18096.xfmap'
+2020-11-25 23:13:25| 154.7|  0.0|INFORM|The XML Reader is using xfMap 'C:\Program Files\FME\xml\CityGML\CityGML_meta_schema_xfmap.xml'
+2020-11-25 23:13:25| 154.7|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2020-11-25 23:13:25| 154.7|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2020-11-25 23:13:25| 154.7|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2020-11-25 23:13:25| 154.7|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2020-11-25 23:13:25| 154.7|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2020-11-25 23:13:25| 154.7|  0.0|INFORM|Parsing XML document 'C:\Users\Demo\AppData\Local\Temp\wbrun_1606213268660_15680\fmetmp_1606338639028_15680\FME_1606338805580_18096.xfmap'
+2020-11-25 23:13:25| 154.9|  0.1|INFORM|FME Configuration: Destination coordinate system set to input coordinate system `EPSG:3879'
+2020-11-25 23:13:25| 154.9|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Writing feature 1000 
+2020-11-25 23:13:26| 155.1|  0.3|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-11-25 23:13:26| 155.1|  0.0|INFORM|Feature output statistics for `CITYGML' writer using keyword `CITYGML_2':
+2020-11-25 23:13:26| 155.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-11-25 23:13:26| 155.1|  0.0|STATS |                               Features Written
+2020-11-25 23:13:26| 155.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-11-25 23:13:26| 155.1|  0.0|STATS |Address                                                                    102
+2020-11-25 23:13:26| 155.1|  0.0|STATS |Building                                                                    61
+2020-11-25 23:13:26| 155.1|  0.0|STATS |CityModel                                                                    1
+2020-11-25 23:13:26| 155.1|  0.0|STATS |GroundSurface                                                               61
+2020-11-25 23:13:26| 155.1|  0.0|STATS |RoofSurface                                                                192
+2020-11-25 23:13:26| 155.1|  0.0|STATS |WallSurface                                                                850
+2020-11-25 23:13:26| 155.1|  0.0|STATS |==============================================================================
+2020-11-25 23:13:26| 155.1|  0.0|STATS |Total Features Written                                                    1267
+2020-11-25 23:13:26| 155.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-11-25 23:13:26| 155.1|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': done writing 1267 feature(s) 
+2020-11-25 23:13:26| 155.1|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020-11-25 23:13:26| 155.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-11-25 23:13:26| 155.1|  0.0|STATS |                            Features Read Summary
+2020-11-25 23:13:26| 155.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-11-25 23:13:26| 155.1|  0.0|STATS |Address                                                                    102
+2020-11-25 23:13:26| 155.1|  0.0|STATS |Building                                                                    61
+2020-11-25 23:13:26| 155.1|  0.0|STATS |CityModel                                                                    1
+2020-11-25 23:13:26| 155.1|  0.0|STATS |GroundSurface                                                               61
+2020-11-25 23:13:26| 155.1|  0.0|STATS |RoofSurface                                                                192
+2020-11-25 23:13:26| 155.1|  0.0|STATS |Sheet1                                                                      75
+2020-11-25 23:13:26| 155.1|  0.0|STATS |WallSurface                                                                850
+2020-11-25 23:13:26| 155.1|  0.0|STATS |public.FeatureOfInterest                                                    75
+2020-11-25 23:13:26| 155.1|  0.0|STATS |public.observation                                                     1551209
+2020-11-25 23:13:26| 155.1|  0.0|STATS |==============================================================================
+2020-11-25 23:13:26| 155.1|  0.0|STATS |Total Features Read                                                    1552626
+2020-11-25 23:13:26| 155.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-11-25 23:13:26| 155.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-11-25 23:13:26| 155.1|  0.0|STATS |                           Features Written Summary
+2020-11-25 23:13:26| 155.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-11-25 23:13:26| 155.1|  0.0|STATS |Address                                                                    102
+2020-11-25 23:13:26| 155.1|  0.0|STATS |Building                                                                    61
+2020-11-25 23:13:26| 155.1|  0.0|STATS |CityModel                                                                    1
+2020-11-25 23:13:26| 155.1|  0.0|STATS |GroundSurface                                                               61
+2020-11-25 23:13:26| 155.1|  0.0|STATS |RoofSurface                                                                192
+2020-11-25 23:13:26| 155.1|  0.0|STATS |WallSurface                                                                850
+2020-11-25 23:13:26| 155.1|  0.0|STATS |public.observation                                                          74
+2020-11-25 23:13:26| 155.1|  0.0|STATS |==============================================================================
+2020-11-25 23:13:26| 155.1|  0.0|STATS |Total Features Written                                                    1341
+2020-11-25 23:13:26| 155.1|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-11-25 23:13:26| 155.1|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2020-11-25 23:13:26| 155.1|  0.0|WARN  |-~                                                                             ~-
+2020-11-25 23:13:26| 155.1|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2020-11-25 23:13:26| 155.1|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2020-11-25 23:13:26| 155.1|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2020-11-25 23:13:26| 155.1|  0.0|WARN  |-~                                                                             ~-
+2020-11-25 23:13:26| 155.1|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2020-11-25 23:13:26| 155.1|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (1341 feature(s) output)
+2020-11-25 23:13:26| 155.1|  0.0|INFORM|FME Session Duration: 2 minutes 46.9 seconds. (CPU: 147.9s user, 6.8s system)
+2020-11-25 23:13:26| 155.1|  0.0|INFORM|END - ProcessID: 18096, peak process memory usage: 1199668 kB, current process memory usage: 145060 kB
