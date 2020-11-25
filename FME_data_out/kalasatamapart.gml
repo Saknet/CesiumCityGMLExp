@@ -66,6 +66,21 @@
 <gen:stringAttribute name="VTJ_PRT">
 <gen:value>103557252H</gen:value>
 </gen:stringAttribute>
+<gen:stringAttribute name="resulttime">
+<gen:value>20201125190337.665</gen:value>
+</gen:stringAttribute>
+<gen:intAttribute name="datastream_id">
+<gen:value>831</gen:value>
+</gen:intAttribute>
+<gen:stringAttribute name="featureofintrest_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="W">
+<gen:value>0.34</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="J">
+<gen:value>12644444.0</gen:value>
+</gen:stringAttribute>
 <bldg:roofType>2100</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">23.4</bldg:measuredHeight>
 <bldg:lod2Solid>
@@ -83,46 +98,34 @@
 </gml:Solid>
 </bldg:lod2Solid>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_04b55dd6-c136-49a6-b142-723c0eb5ee89_9ccf283c-66d3-43d6-8444-c36bf0867b16_2">
+<bldg:GroundSurface gml:id="BID_04b55dd6-c136-49a6-b142-723c0eb5ee89_bb19b86f-2fc4-4a52-9b04-f53ffecbb625_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>935.5</gen:value>
+<gen:value>583.4</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>9ccf283c-66d3-43d6-8444-c36bf0867b16</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>23.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>26.2</gen:value>
+<gen:value>bb19b86f-2fc4-4a52-9b04-f53ffecbb625</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>-0.0</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMinASL">
-<gen:value>3.0</gen:value>
+<gen:value>3.2</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_948373c0-adfe-4d65-bee3-5f146390b1ba" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_1ec87938-bbb7-4081-9493-9b123ae2b5d4" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_04b55dd6-c136-49a6-b142-723c0eb5ee89_9ccf283c-66d3-43d6-8444-c36bf0867b16_2_poly">
+<gml:Polygon gml:id="BID_04b55dd6-c136-49a6-b142-723c0eb5ee89_bb19b86f-2fc4-4a52-9b04-f53ffecbb625_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_04b55dd6-c136-49a6-b142-723c0eb5ee89_9ccf283c-66d3-43d6-8444-c36bf0867b16_2_poly_0_">
-<gml:posList>25499065.9855 6674607.2558 3.1805 25499065.9855 6674607.2558 26.2048 25499071.1217 6674559.9382 19.4647 25499071.1217 6674559.9382 3.1805 25499065.9855 6674607.2558 3.1805</gml:posList>
+<gml:LinearRing gml:id="BID_04b55dd6-c136-49a6-b142-723c0eb5ee89_bb19b86f-2fc4-4a52-9b04-f53ffecbb625_2_poly_0_">
+<gml:posList>25499054.1699 6674605.9733 3.1805 25499065.9855 6674607.2558 3.1805 25499071.1217 6674559.9382 3.1805 25499059.6279 6674555.691 3.1805 25499054.1699 6674605.9733 3.1805</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:WallSurface>
+</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_04b55dd6-c136-49a6-b142-723c0eb5ee89_57978a93-46af-4718-a0ea-5f42823d9f63_2">
@@ -167,34 +170,46 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_04b55dd6-c136-49a6-b142-723c0eb5ee89_bb19b86f-2fc4-4a52-9b04-f53ffecbb625_2">
+<bldg:WallSurface gml:id="BID_04b55dd6-c136-49a6-b142-723c0eb5ee89_9ccf283c-66d3-43d6-8444-c36bf0867b16_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>583.4</gen:value>
+<gen:value>935.5</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>bb19b86f-2fc4-4a52-9b04-f53ffecbb625</gen:value>
+<gen:value>9ccf283c-66d3-43d6-8444-c36bf0867b16</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>23.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>26.2</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>-0.0</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMinASL">
-<gen:value>3.2</gen:value>
+<gen:value>3.0</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_1ec87938-bbb7-4081-9493-9b123ae2b5d4" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_948373c0-adfe-4d65-bee3-5f146390b1ba" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_04b55dd6-c136-49a6-b142-723c0eb5ee89_bb19b86f-2fc4-4a52-9b04-f53ffecbb625_2_poly">
+<gml:Polygon gml:id="BID_04b55dd6-c136-49a6-b142-723c0eb5ee89_9ccf283c-66d3-43d6-8444-c36bf0867b16_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_04b55dd6-c136-49a6-b142-723c0eb5ee89_bb19b86f-2fc4-4a52-9b04-f53ffecbb625_2_poly_0_">
-<gml:posList>25499054.1699 6674605.9733 3.1805 25499065.9855 6674607.2558 3.1805 25499071.1217 6674559.9382 3.1805 25499059.6279 6674555.691 3.1805 25499054.1699 6674605.9733 3.1805</gml:posList>
+<gml:LinearRing gml:id="BID_04b55dd6-c136-49a6-b142-723c0eb5ee89_9ccf283c-66d3-43d6-8444-c36bf0867b16_2_poly_0_">
+<gml:posList>25499065.9855 6674607.2558 3.1805 25499065.9855 6674607.2558 26.2048 25499071.1217 6674559.9382 19.4647 25499071.1217 6674559.9382 3.1805 25499065.9855 6674607.2558 3.1805</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:GroundSurface>
+</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_04b55dd6-c136-49a6-b142-723c0eb5ee89_1aff91d9-040f-4128-86a4-620b227950ba_2">
@@ -449,6 +464,129 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_24fd7027-2846-46ba-92f9-3188c3a7f154_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>324.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>24fd7027-2846-46ba-92f9-3188c3a7f154</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>2.73</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_47aaf88a-68c9-4ee2-bfad-4e20e1132a50" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_24fd7027-2846-46ba-92f9-3188c3a7f154_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_24fd7027-2846-46ba-92f9-3188c3a7f154_2_poly_0_">
+<gml:posList>25498945.28 6674509.293 2.73 25498944.34 6674507.641 2.73 25498938.604 6674510.905 2.73 25498937.664 6674509.253 2.73 25498931.928 6674512.517 2.73 25498930.988 6674510.865 2.73 25498925.251 6674514.129 2.73 25498924.312 6674512.478 2.73 25498920.816 6674514.464 2.73 25498922.939 6674523.837 2.73 25498926.72 6674521.686 2.73 25498927.69 6674523.39 2.73 25498928.72 6674522.804 2.73 25498930.161 6674525.337 2.73 25498957.532 6674509.766 2.73 25498954.876 6674505.099 2.73 25498951.56 6674506.985 2.73 25498951.016 6674506.029 2.73 25498945.28 6674509.293 2.73</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_f1254b59-14a6-45fa-945d-894c77927cc7_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>123.48</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>f1254b59-14a6-45fa-945d-894c77927cc7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>119.64</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>82.94</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.46</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>20.19</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>13.75</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.48</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_927fbd05-4f76-4493-ade1-33a47e433cf3" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_f1254b59-14a6-45fa-945d-894c77927cc7_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_f1254b59-14a6-45fa-945d-894c77927cc7_2_poly_0_">
+<gml:posList>25498946.327 6674508.697 17.617 25498951.016 6674506.029 16.949 25498951.56 6674506.985 16.949 25498954.876 6674505.099 16.477 25498957.532 6674509.766 16.477 25498931.485 6674524.584 20.187 25498946.327 6674508.697 17.617</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_c2db5b46-5b58-4775-947f-71346d3198c5_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>188.75</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>c2db5b46-5b58-4775-947f-71346d3198c5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>200.57</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>75.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.52</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>20.25</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>13.78</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.5</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_5de4adf7-7b5f-4582-8c85-5cd43e037da0" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_c2db5b46-5b58-4775-947f-71346d3198c5_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_c2db5b46-5b58-4775-947f-71346d3198c5_2_poly_0_0_">
+<gml:posList>25498931.928 6674512.517 17.223 25498937.664 6674509.253 16.946 25498938.604 6674510.905 17.445 25498944.34 6674507.641 17.169 25498945.28 6674509.293 17.668 25498946.327 6674508.697 17.617 25498931.485 6674524.584 20.187 25498930.161 6674525.337 20.25 25498928.72 6674522.804 19.485 25498927.69 6674523.39 19.534 25498926.72 6674521.686 19.02 25498926.443 6674521.844 19.033 25498921.079 6674514.315 16.656 25498924.312 6674512.478 16.501 25498925.251 6674514.129 17 25498930.988 6674510.865 16.724 25498931.928 6674512.517 17.223</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_c2db5b46-5b58-4775-947f-71346d3198c5_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_c2db5b46-5b58-4775-947f-71346d3198c5_2_poly_1_0_">
+<gml:posList>25498921.079 6674514.315 16.656 25498926.443 6674521.844 19.033 25498922.939 6674523.837 19.078 25498920.816 6674514.464 16.66 25498921.079 6674514.315 16.656</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_f251e459-3a25-4798-b375-5f450509e52a_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -744,48 +882,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_f1254b59-14a6-45fa-945d-894c77927cc7_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>123.48</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>f1254b59-14a6-45fa-945d-894c77927cc7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>119.64</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>82.94</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.46</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>20.19</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>13.75</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.48</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_927fbd05-4f76-4493-ade1-33a47e433cf3" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_f1254b59-14a6-45fa-945d-894c77927cc7_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_f1254b59-14a6-45fa-945d-894c77927cc7_2_poly_0_">
-<gml:posList>25498946.327 6674508.697 17.617 25498951.016 6674506.029 16.949 25498951.56 6674506.985 16.949 25498954.876 6674505.099 16.477 25498957.532 6674509.766 16.477 25498931.485 6674524.584 20.187 25498946.327 6674508.697 17.617</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_c7d6433c-0d6e-4c9a-875f-75d2bcd574f8_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -921,57 +1017,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_c2db5b46-5b58-4775-947f-71346d3198c5_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>188.75</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c2db5b46-5b58-4775-947f-71346d3198c5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>200.57</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>75.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.52</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>20.25</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>13.78</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.5</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_5de4adf7-7b5f-4582-8c85-5cd43e037da0" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_c2db5b46-5b58-4775-947f-71346d3198c5_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_c2db5b46-5b58-4775-947f-71346d3198c5_2_poly_0_0_">
-<gml:posList>25498931.928 6674512.517 17.223 25498937.664 6674509.253 16.946 25498938.604 6674510.905 17.445 25498944.34 6674507.641 17.169 25498945.28 6674509.293 17.668 25498946.327 6674508.697 17.617 25498931.485 6674524.584 20.187 25498930.161 6674525.337 20.25 25498928.72 6674522.804 19.485 25498927.69 6674523.39 19.534 25498926.72 6674521.686 19.02 25498926.443 6674521.844 19.033 25498921.079 6674514.315 16.656 25498924.312 6674512.478 16.501 25498925.251 6674514.129 17 25498930.988 6674510.865 16.724 25498931.928 6674512.517 17.223</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_c2db5b46-5b58-4775-947f-71346d3198c5_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_c2db5b46-5b58-4775-947f-71346d3198c5_2_poly_1_0_">
-<gml:posList>25498921.079 6674514.315 16.656 25498926.443 6674521.844 19.033 25498922.939 6674523.837 19.078 25498920.816 6674514.464 16.66 25498921.079 6674514.315 16.656</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_29e74308-9f24-483e-99f4-7d82c7903d85_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -1054,36 +1099,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_24fd7027-2846-46ba-92f9-3188c3a7f154_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>324.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>24fd7027-2846-46ba-92f9-3188c3a7f154</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>2.73</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_47aaf88a-68c9-4ee2-bfad-4e20e1132a50" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_24fd7027-2846-46ba-92f9-3188c3a7f154_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_24fd7027-2846-46ba-92f9-3188c3a7f154_2_poly_0_">
-<gml:posList>25498945.28 6674509.293 2.73 25498944.34 6674507.641 2.73 25498938.604 6674510.905 2.73 25498937.664 6674509.253 2.73 25498931.928 6674512.517 2.73 25498930.988 6674510.865 2.73 25498925.251 6674514.129 2.73 25498924.312 6674512.478 2.73 25498920.816 6674514.464 2.73 25498922.939 6674523.837 2.73 25498926.72 6674521.686 2.73 25498927.69 6674523.39 2.73 25498928.72 6674522.804 2.73 25498930.161 6674525.337 2.73 25498957.532 6674509.766 2.73 25498954.876 6674505.099 2.73 25498951.56 6674506.985 2.73 25498951.016 6674506.029 2.73 25498945.28 6674509.293 2.73</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_059d0a21-a2a7-4aa5-b427-2975517f09ba_ce1f49a4-e652-4e15-bd92-56a272ce22bc_2">
@@ -1399,7 +1414,7 @@
 <gen:value>2013-08-15</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123114850.861</gen:value>
+<gen:value>20201125190817.869</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>842</gen:value>
@@ -1409,6 +1424,12 @@
 </gen:stringAttribute>
 <gen:stringAttribute name="Bel_SPL">
 <gen:value>37.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="W">
+<gen:value>0.01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="A">
+<gen:value>0.03</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">26.49</bldg:measuredHeight>
@@ -1443,6 +1464,180 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_ab022454-9506-4faa-9dc3-0a83af5d0b1c_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1048.53</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>ab022454-9506-4faa-9dc3-0a83af5d0b1c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.21</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_f322bace-7b6f-4e2a-9748-dd0601db4186" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_ab022454-9506-4faa-9dc3-0a83af5d0b1c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_ab022454-9506-4faa-9dc3-0a83af5d0b1c_2_poly_0_">
+<gml:posList>25499081.574 6674764.446 3.21 25499081.16 6674768.307 3.21 25499067.785 6674771.324 3.21 25499043.901 6674776.56 3.21 25499045.412 6674762.642 3.21 25499043.427 6674761.465 3.21 25499037.687 6674757.824 3.21 25499034.751 6674784.871 3.21 25499035.516 6674787.466 3.21 25499034.443 6674787.709 3.21 25499035.813 6674793.775 3.21 25499092.595 6674780.956 3.21 25499093.332 6674774.413 3.21 25499091.161 6674774.923 3.21 25499090.555 6674772.344 3.21 25499093.652 6674771.573 3.21 25499094.293 6674765.879 3.21 25499081.574 6674764.446 3.21</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_63bcddf3-ee4a-439b-8500-11021039b319_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>54.23</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>63bcddf3-ee4a-439b-8500-11021039b319</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>186.01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>74.92</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>25.73</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>28.94</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>22.39</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>25.6</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_ba4c84d4-c204-4f21-ba56-d83696b79015" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_63bcddf3-ee4a-439b-8500-11021039b319_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_63bcddf3-ee4a-439b-8500-11021039b319_2_poly_0_">
+<gml:posList>25499035.573 6674777.295 28.917 25499045.277 6674763.889 25.599 25499043.907 6674776.502 28.94 25499035.564 6674777.38 28.94 25499035.573 6674777.295 28.917</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_8f4eae3d-99f4-4f8b-8538-72c66ddf7115_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>86.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>8f4eae3d-99f4-4f8b-8538-72c66ddf7115</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>143.84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>78.66</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>25.71</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>28.92</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>22.17</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>25.38</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_d0c51321-4106-4b4c-8935-6bb6b956ee99" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_8f4eae3d-99f4-4f8b-8538-72c66ddf7115_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_8f4eae3d-99f4-4f8b-8538-72c66ddf7115_2_poly_0_">
+<gml:posList>25499037.687 6674757.824 25.515 25499043.427 6674761.465 25.426 25499045.412 6674762.642 25.381 25499045.277 6674763.889 25.599 25499035.573 6674777.295 28.917 25499037.687 6674757.824 25.515</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_e868c452-dd1e-4247-bb14-f6fc30ba4e09_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>831.16</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>e868c452-dd1e-4247-bb14-f6fc30ba4e09</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>192.61</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>83.21</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>27.52</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>30.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>25.73</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>28.94</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_a94fed0f-5141-44bf-819a-fe7e40b3f4ee" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_e868c452-dd1e-4247-bb14-f6fc30ba4e09_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_e868c452-dd1e-4247-bb14-f6fc30ba4e09_2_poly_0_0_">
+<gml:posList>25499067.785 6674771.324 28.953 25499081.16 6674768.307 28.944 25499081.166 6674768.255 28.938 25499092.7 6674765.7 28.941 25499094.293 6674765.879 29.004 25499093.652 6674771.573 29.653 25499090.555 6674772.344 29.662 25499091.161 6674774.923 29.98 25499093.332 6674774.413 29.977 25499092.595 6674780.956 30.722 25499035.813 6674793.775 30.724 25499035.299 6674791.498 30.448 25499043.924 6674776.555 28.946 25499067.785 6674771.324 28.953</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_e868c452-dd1e-4247-bb14-f6fc30ba4e09_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_e868c452-dd1e-4247-bb14-f6fc30ba4e09_2_poly_1_0_">
+<gml:posList>25499035.516 6674787.466 30.019 25499034.751 6674784.871 29.732 25499035.564 6674777.38 28.94 25499043.907 6674776.502 28.94 25499043.901 6674776.56 28.946 25499043.924 6674776.555 28.946 25499035.299 6674791.498 30.448 25499034.443 6674787.709 30.032 25499035.516 6674787.466 30.019</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_e868c452-dd1e-4247-bb14-f6fc30ba4e09_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_e868c452-dd1e-4247-bb14-f6fc30ba4e09_2_poly_2_0_">
+<gml:posList>25499081.574 6674764.446 28.94 25499092.7 6674765.7 28.941 25499081.166 6674768.255 28.938 25499081.574 6674764.446 28.94</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_d97af438-0c41-4eb3-9d73-7252904f86e9_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -1546,90 +1741,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_63bcddf3-ee4a-439b-8500-11021039b319_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>54.23</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>63bcddf3-ee4a-439b-8500-11021039b319</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>186.01</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>74.92</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>25.73</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>28.94</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>22.39</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>25.6</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_ba4c84d4-c204-4f21-ba56-d83696b79015" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_63bcddf3-ee4a-439b-8500-11021039b319_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_63bcddf3-ee4a-439b-8500-11021039b319_2_poly_0_">
-<gml:posList>25499035.573 6674777.295 28.917 25499045.277 6674763.889 25.599 25499043.907 6674776.502 28.94 25499035.564 6674777.38 28.94 25499035.573 6674777.295 28.917</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_8f4eae3d-99f4-4f8b-8538-72c66ddf7115_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>86.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>8f4eae3d-99f4-4f8b-8538-72c66ddf7115</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>143.84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>78.66</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>25.71</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>28.92</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>22.17</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>25.38</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_d0c51321-4106-4b4c-8935-6bb6b956ee99" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_8f4eae3d-99f4-4f8b-8538-72c66ddf7115_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_8f4eae3d-99f4-4f8b-8538-72c66ddf7115_2_poly_0_">
-<gml:posList>25499037.687 6674757.824 25.515 25499043.427 6674761.465 25.426 25499045.412 6674762.642 25.381 25499045.277 6674763.889 25.599 25499035.573 6674777.295 28.917 25499037.687 6674757.824 25.515</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_66a70a61-fb5e-42a5-a8cb-48ad2b7715b0_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -1670,36 +1781,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_ab022454-9506-4faa-9dc3-0a83af5d0b1c_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1048.53</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>ab022454-9506-4faa-9dc3-0a83af5d0b1c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.21</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_f322bace-7b6f-4e2a-9748-dd0601db4186" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_ab022454-9506-4faa-9dc3-0a83af5d0b1c_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_ab022454-9506-4faa-9dc3-0a83af5d0b1c_2_poly_0_">
-<gml:posList>25499081.574 6674764.446 3.21 25499081.16 6674768.307 3.21 25499067.785 6674771.324 3.21 25499043.901 6674776.56 3.21 25499045.412 6674762.642 3.21 25499043.427 6674761.465 3.21 25499037.687 6674757.824 3.21 25499034.751 6674784.871 3.21 25499035.516 6674787.466 3.21 25499034.443 6674787.709 3.21 25499035.813 6674793.775 3.21 25499092.595 6674780.956 3.21 25499093.332 6674774.413 3.21 25499091.161 6674774.923 3.21 25499090.555 6674772.344 3.21 25499093.652 6674771.573 3.21 25499094.293 6674765.879 3.21 25499081.574 6674764.446 3.21</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_b551f826-05e6-4ed0-8bae-1e8259cf7102_2">
@@ -2122,66 +2203,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_e868c452-dd1e-4247-bb14-f6fc30ba4e09_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>831.16</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>e868c452-dd1e-4247-bb14-f6fc30ba4e09</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>192.61</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>83.21</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>27.52</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>30.72</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>25.73</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>28.94</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_a94fed0f-5141-44bf-819a-fe7e40b3f4ee" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_e868c452-dd1e-4247-bb14-f6fc30ba4e09_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_e868c452-dd1e-4247-bb14-f6fc30ba4e09_2_poly_0_0_">
-<gml:posList>25499067.785 6674771.324 28.953 25499081.16 6674768.307 28.944 25499081.166 6674768.255 28.938 25499092.7 6674765.7 28.941 25499094.293 6674765.879 29.004 25499093.652 6674771.573 29.653 25499090.555 6674772.344 29.662 25499091.161 6674774.923 29.98 25499093.332 6674774.413 29.977 25499092.595 6674780.956 30.722 25499035.813 6674793.775 30.724 25499035.299 6674791.498 30.448 25499043.924 6674776.555 28.946 25499067.785 6674771.324 28.953</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_e868c452-dd1e-4247-bb14-f6fc30ba4e09_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_e868c452-dd1e-4247-bb14-f6fc30ba4e09_2_poly_1_0_">
-<gml:posList>25499035.516 6674787.466 30.019 25499034.751 6674784.871 29.732 25499035.564 6674777.38 28.94 25499043.907 6674776.502 28.94 25499043.901 6674776.56 28.946 25499043.924 6674776.555 28.946 25499035.299 6674791.498 30.448 25499034.443 6674787.709 30.032 25499035.516 6674787.466 30.019</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_e868c452-dd1e-4247-bb14-f6fc30ba4e09_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_e868c452-dd1e-4247-bb14-f6fc30ba4e09_2_poly_2_0_">
-<gml:posList>25499081.574 6674764.446 28.94 25499092.7 6674765.7 28.941 25499081.166 6674768.255 28.938 25499081.574 6674764.446 28.94</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0a3a6049-77d6-4c9e-8486-c3469fe49cc7_c4e2f34a-e6af-4568-8dff-ba7a55c6f79b_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -2315,7 +2336,7 @@
 <gen:value>0b3e6442-6beb-4d51-9da5-2f92c5264482</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125140849.749</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>687</gen:value>
@@ -2324,7 +2345,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.67</gen:value>
+<gen:value>0.05</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">26.2</bldg:measuredHeight>
@@ -2369,6 +2390,129 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b66d157e-01b3-4a5c-8c3a-e45fa1a75e9e_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>940.84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>b66d157e-01b3-4a5c-8c3a-e45fa1a75e9e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.45</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_83814b54-e52e-48f0-a2af-e19220e7149d" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b66d157e-01b3-4a5c-8c3a-e45fa1a75e9e_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b66d157e-01b3-4a5c-8c3a-e45fa1a75e9e_2_poly_0_">
+<gml:posList>25499042.462 6674713.835 3.45 25499042.552 6674714.204 3.45 25499055.868 6674715.661 3.45 25499056.579 6674705.117 3.45 25499059.214 6674705.403 3.45 25499059.708 6674700.851 3.45 25499059.36 6674700.813 3.45 25499059.835 6674696.435 3.45 25499060.183 6674696.473 3.45 25499060.677 6674691.92 3.45 25499058.043 6674691.634 3.45 25499058.739 6674685.222 3.45 25499064.555 6674681.918 3.45 25499065.858 6674684.226 3.45 25499069.759 6674682.005 3.45 25499069.586 6674681.701 3.45 25499073.413 6674679.523 3.45 25499073.586 6674679.827 3.45 25499077.549 6674677.552 3.45 25499076.247 6674675.244 3.45 25499080.074 6674673.085 3.45 25499081.886 6674656.998 3.45 25499069.547 6674664.017 3.45 25499069.824 6674664.504 3.45 25499067.303 6674665.294 3.45 25499046.443 6674677.161 3.45 25499044.975 6674690.682 3.45 25499045.502 6674690.739 3.45 25499044.717 6674693.061 3.45 25499042.462 6674713.835 3.45</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b6ba565e-81f1-409c-b3d1-bffb6f7653d4_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>610.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>b6ba565e-81f1-409c-b3d1-bffb6f7653d4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>29.64</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>82.76</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>27.57</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>31.01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>25.57</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>29.01</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_dc95de08-3308-4c3f-af95-e7176e114874" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b6ba565e-81f1-409c-b3d1-bffb6f7653d4_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b6ba565e-81f1-409c-b3d1-bffb6f7653d4_2_poly_0_0_">
+<gml:posList>25499077.549 6674677.552 29.016 25499073.586 6674679.827 29.014 25499073.413 6674679.523 29.058 25499069.586 6674681.701 29.058 25499069.759 6674682.005 29.013 25499065.858 6674684.226 29.013 25499064.555 6674681.918 29.35 25499058.739 6674685.222 29.351 25499058.414 6674688.218 29.04 25499044.376 6674696.205 29.04 25499044.717 6674693.061 29.366 25499045.502 6674690.739 29.573 25499044.975 6674690.682 29.612 25499046.443 6674677.161 31.014 25499067.303 6674665.294 31.014 25499069.824 6674664.504 30.943 25499069.547 6674664.017 31.014 25499081.886 6674656.998 31.014 25499080.074 6674673.085 29.351 25499076.247 6674675.244 29.353 25499077.549 6674677.552 29.016</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b6ba565e-81f1-409c-b3d1-bffb6f7653d4_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b6ba565e-81f1-409c-b3d1-bffb6f7653d4_2_poly_1_0_">
+<gml:posList>25499044.376 6674696.205 29.04 25499058.414 6674688.218 29.04 25499058.081 6674691.284 28.73 25499042.509 6674714.028 27.234 25499042.462 6674713.835 27.257 25499044.376 6674696.205 29.04</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b412f69a-1b1d-427e-b8de-7fd39d42088e_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>197.53</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>b412f69a-1b1d-427e-b8de-7fd39d42088e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>353.76</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>86.48</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>25.28</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>28.73</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>23.78</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>27.22</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_ac6d8255-1177-4a27-9490-be300dcd2c13" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b412f69a-1b1d-427e-b8de-7fd39d42088e_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b412f69a-1b1d-427e-b8de-7fd39d42088e_2_poly_0_">
+<gml:posList>25499059.214 6674705.403 27.873 25499056.579 6674705.117 27.873 25499055.868 6674715.661 27.223 25499042.552 6674714.204 27.223 25499042.509 6674714.028 27.234 25499058.081 6674691.284 28.73 25499058.043 6674691.634 28.708 25499060.677 6674691.92 28.708 25499060.183 6674696.473 28.427 25499059.835 6674696.435 28.427 25499059.36 6674700.813 28.155 25499059.708 6674700.851 28.155 25499059.214 6674705.403 27.873</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_32c8548c-14ab-4d3b-9312-7428a7e9c9de_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -2649,57 +2793,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b6ba565e-81f1-409c-b3d1-bffb6f7653d4_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>610.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>b6ba565e-81f1-409c-b3d1-bffb6f7653d4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>29.64</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>82.76</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>27.57</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>31.01</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>25.57</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>29.01</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_dc95de08-3308-4c3f-af95-e7176e114874" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b6ba565e-81f1-409c-b3d1-bffb6f7653d4_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b6ba565e-81f1-409c-b3d1-bffb6f7653d4_2_poly_0_0_">
-<gml:posList>25499077.549 6674677.552 29.016 25499073.586 6674679.827 29.014 25499073.413 6674679.523 29.058 25499069.586 6674681.701 29.058 25499069.759 6674682.005 29.013 25499065.858 6674684.226 29.013 25499064.555 6674681.918 29.35 25499058.739 6674685.222 29.351 25499058.414 6674688.218 29.04 25499044.376 6674696.205 29.04 25499044.717 6674693.061 29.366 25499045.502 6674690.739 29.573 25499044.975 6674690.682 29.612 25499046.443 6674677.161 31.014 25499067.303 6674665.294 31.014 25499069.824 6674664.504 30.943 25499069.547 6674664.017 31.014 25499081.886 6674656.998 31.014 25499080.074 6674673.085 29.351 25499076.247 6674675.244 29.353 25499077.549 6674677.552 29.016</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b6ba565e-81f1-409c-b3d1-bffb6f7653d4_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b6ba565e-81f1-409c-b3d1-bffb6f7653d4_2_poly_1_0_">
-<gml:posList>25499044.376 6674696.205 29.04 25499058.414 6674688.218 29.04 25499058.081 6674691.284 28.73 25499042.509 6674714.028 27.234 25499042.462 6674713.835 27.257 25499044.376 6674696.205 29.04</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_4783b93f-2ce6-4e88-a60c-1ff7372f1e0a_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -2884,36 +2977,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b66d157e-01b3-4a5c-8c3a-e45fa1a75e9e_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>940.84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>b66d157e-01b3-4a5c-8c3a-e45fa1a75e9e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.45</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_83814b54-e52e-48f0-a2af-e19220e7149d" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b66d157e-01b3-4a5c-8c3a-e45fa1a75e9e_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b66d157e-01b3-4a5c-8c3a-e45fa1a75e9e_2_poly_0_">
-<gml:posList>25499042.462 6674713.835 3.45 25499042.552 6674714.204 3.45 25499055.868 6674715.661 3.45 25499056.579 6674705.117 3.45 25499059.214 6674705.403 3.45 25499059.708 6674700.851 3.45 25499059.36 6674700.813 3.45 25499059.835 6674696.435 3.45 25499060.183 6674696.473 3.45 25499060.677 6674691.92 3.45 25499058.043 6674691.634 3.45 25499058.739 6674685.222 3.45 25499064.555 6674681.918 3.45 25499065.858 6674684.226 3.45 25499069.759 6674682.005 3.45 25499069.586 6674681.701 3.45 25499073.413 6674679.523 3.45 25499073.586 6674679.827 3.45 25499077.549 6674677.552 3.45 25499076.247 6674675.244 3.45 25499080.074 6674673.085 3.45 25499081.886 6674656.998 3.45 25499069.547 6674664.017 3.45 25499069.824 6674664.504 3.45 25499067.303 6674665.294 3.45 25499046.443 6674677.161 3.45 25499044.975 6674690.682 3.45 25499045.502 6674690.739 3.45 25499044.717 6674693.061 3.45 25499042.462 6674713.835 3.45</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_5b98918e-8d5d-4c70-8970-7dc3a0dd9ad7_2">
@@ -3171,48 +3234,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b412f69a-1b1d-427e-b8de-7fd39d42088e_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>197.53</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>b412f69a-1b1d-427e-b8de-7fd39d42088e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>353.76</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>86.48</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>25.28</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>28.73</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>23.78</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>27.22</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_ac6d8255-1177-4a27-9490-be300dcd2c13" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b412f69a-1b1d-427e-b8de-7fd39d42088e_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b412f69a-1b1d-427e-b8de-7fd39d42088e_2_poly_0_">
-<gml:posList>25499059.214 6674705.403 27.873 25499056.579 6674705.117 27.873 25499055.868 6674715.661 27.223 25499042.552 6674714.204 27.223 25499042.509 6674714.028 27.234 25499058.081 6674691.284 28.73 25499058.043 6674691.634 28.708 25499060.677 6674691.92 28.708 25499060.183 6674696.473 28.427 25499059.835 6674696.435 28.427 25499059.36 6674700.813 28.155 25499059.708 6674700.851 28.155 25499059.214 6674705.403 27.873</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0b3e6442-6beb-4d51-9da5-2f92c5264482_b1dd07c6-f868-4d38-ae14-d4c39c29a4b6_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -3406,7 +3427,7 @@
 <gen:value>103520365L</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125111548.824</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>690</gen:value>
@@ -3415,7 +3436,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>132.16</gen:value>
+<gen:value>0.09</gen:value>
 </gen:stringAttribute>
 <bldg:function>011</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -3446,6 +3467,162 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_d7cb03c5-a198-4c93-9a21-0d67bc5f5d2e_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>82.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>d7cb03c5-a198-4c93-9a21-0d67bc5f5d2e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>-0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.5</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_ff3ef569-6b67-4acf-afb0-1369428a7cd9" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_d7cb03c5-a198-4c93-9a21-0d67bc5f5d2e_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_d7cb03c5-a198-4c93-9a21-0d67bc5f5d2e_2_poly_0_">
+<gml:posList>25498942.3701 6674480.8825 3.52 25498936.0513 6674482.4066 3.52 25498939.0879 6674494.9965 3.52 25498943.0884 6674494.031699999 3.52 25498942.8486 6674493.0392 3.52 25498944.8834 6674492.5598 3.52 25498945.1202 6674493.541699999 3.52 25498945.4067 6674493.4725 3.52 25498942.3701 6674480.8825 3.52</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_7e69c2f4-5192-437b-8a6c-2638e592e7c8_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>14.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>7e69c2f4-5192-437b-8a6c-2638e592e7c8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>12.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>15.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>12.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>15.5</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_116782ba-d3e1-4843-8707-d7cd91993e49" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_7e69c2f4-5192-437b-8a6c-2638e592e7c8_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_7e69c2f4-5192-437b-8a6c-2638e592e7c8_2_poly_0_">
+<gml:posList>25498942.3476 6674490.6703 15.5 25498942.9153 6674493.0235 15.5 25498942.8486 6674493.0392 15.5 25498943.0884 6674494.031699999 15.5 25498939.0879 6674494.9965 15.5 25498938.281 6674491.6512 15.5 25498942.3476 6674490.6703 15.5</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_043fb225-0845-4cfe-aa17-560a220f6fa2_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>52.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>043fb225-0845-4cfe-aa17-560a220f6fa2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>15.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>18.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>15.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>18.9</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_28f9da31-1563-4342-b7fe-29160c4b75e8" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_043fb225-0845-4cfe-aa17-560a220f6fa2_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_043fb225-0845-4cfe-aa17-560a220f6fa2_2_poly_0_">
+<gml:posList>25498939.5096 6674484.8123 18.86 25498939.189 6674483.4835 18.86 25498942.7881 6674482.6154 18.86 25498945.4067 6674493.4725 18.86 25498945.1202 6674493.541699999 18.86 25498944.8834 6674492.5598 18.86 25498942.9153 6674493.0235 18.86 25498942.3476 6674490.6703 18.86 25498938.281 6674491.6512 18.86 25498936.7898 6674485.4683 18.86 25498939.5096 6674484.8123 18.86</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_32a9aebc-7efc-4566-9813-73c599c15d8b_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>15.4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>32a9aebc-7efc-4566-9813-73c599c15d8b</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>12.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>15.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>12.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>15.5</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_3f627f61-acf2-466f-8faf-ec72810e0cde" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_32a9aebc-7efc-4566-9813-73c599c15d8b_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_32a9aebc-7efc-4566-9813-73c599c15d8b_2_poly_0_">
+<gml:posList>25498942.3701 6674480.8825 15.5 25498942.7881 6674482.6154 15.5 25498939.189 6674483.4835 15.5 25498939.5096 6674484.8123 15.5 25498936.7898 6674485.4683 15.5 25498936.0513 6674482.4066 15.5 25498942.3701 6674480.8825 15.5</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_b8a95253-d749-4f46-8272-547926a738e1_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -3571,36 +3748,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_d7cb03c5-a198-4c93-9a21-0d67bc5f5d2e_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>82.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>d7cb03c5-a198-4c93-9a21-0d67bc5f5d2e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>-0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.5</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_ff3ef569-6b67-4acf-afb0-1369428a7cd9" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_d7cb03c5-a198-4c93-9a21-0d67bc5f5d2e_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_d7cb03c5-a198-4c93-9a21-0d67bc5f5d2e_2_poly_0_">
-<gml:posList>25498942.3701 6674480.8825 3.52 25498936.0513 6674482.4066 3.52 25498939.0879 6674494.9965 3.52 25498943.0884 6674494.031699999 3.52 25498942.8486 6674493.0392 3.52 25498944.8834 6674492.5598 3.52 25498945.1202 6674493.541699999 3.52 25498945.4067 6674493.4725 3.52 25498942.3701 6674480.8825 3.52</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_7e42f272-a27b-442e-89f3-759f80143dda_2">
@@ -4022,132 +4169,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_7e69c2f4-5192-437b-8a6c-2638e592e7c8_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>14.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>7e69c2f4-5192-437b-8a6c-2638e592e7c8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>12.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>15.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>12.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>15.5</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_116782ba-d3e1-4843-8707-d7cd91993e49" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_7e69c2f4-5192-437b-8a6c-2638e592e7c8_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_7e69c2f4-5192-437b-8a6c-2638e592e7c8_2_poly_0_">
-<gml:posList>25498942.3476 6674490.6703 15.5 25498942.9153 6674493.0235 15.5 25498942.8486 6674493.0392 15.5 25498943.0884 6674494.031699999 15.5 25498939.0879 6674494.9965 15.5 25498938.281 6674491.6512 15.5 25498942.3476 6674490.6703 15.5</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_043fb225-0845-4cfe-aa17-560a220f6fa2_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>52.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>043fb225-0845-4cfe-aa17-560a220f6fa2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>15.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>18.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>15.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>18.9</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_28f9da31-1563-4342-b7fe-29160c4b75e8" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_043fb225-0845-4cfe-aa17-560a220f6fa2_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_043fb225-0845-4cfe-aa17-560a220f6fa2_2_poly_0_">
-<gml:posList>25498939.5096 6674484.8123 18.86 25498939.189 6674483.4835 18.86 25498942.7881 6674482.6154 18.86 25498945.4067 6674493.4725 18.86 25498945.1202 6674493.541699999 18.86 25498944.8834 6674492.5598 18.86 25498942.9153 6674493.0235 18.86 25498942.3476 6674490.6703 18.86 25498938.281 6674491.6512 18.86 25498936.7898 6674485.4683 18.86 25498939.5096 6674484.8123 18.86</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_32a9aebc-7efc-4566-9813-73c599c15d8b_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>15.4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>32a9aebc-7efc-4566-9813-73c599c15d8b</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>12.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>15.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>12.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>15.5</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_3f627f61-acf2-466f-8faf-ec72810e0cde" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_32a9aebc-7efc-4566-9813-73c599c15d8b_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0d2d4f78-8d7e-43fd-aa44-ed3a5145c8ff_32a9aebc-7efc-4566-9813-73c599c15d8b_2_poly_0_">
-<gml:posList>25498942.3701 6674480.8825 15.5 25498942.7881 6674482.6154 15.5 25498939.189 6674483.4835 15.5 25498939.5096 6674484.8123 15.5 25498936.7898 6674485.4683 15.5 25498936.0513 6674482.4066 15.5 25498942.3701 6674480.8825 15.5</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -4202,7 +4223,7 @@
 <gen:value>SÃ¶rnÃ¤istenniemi</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125190332.797</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>685</gen:value>
@@ -4211,7 +4232,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>232.05</gen:value>
+<gen:value>233.6</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000;3500;2100;2100;3500;2100</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.5</bldg:measuredHeight>
@@ -4271,6 +4292,36 @@
 </gml:Solid>
 </bldg:lod2Solid>
 <bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_dbd8a22a-4901-46ca-8d61-574d09e6a01c_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1808.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>dbd8a22a-4901-46ca-8d61-574d09e6a01c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.1</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_a9bf18fc-131d-4a35-97b4-2eb61775b32b" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_dbd8a22a-4901-46ca-8d61-574d09e6a01c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_dbd8a22a-4901-46ca-8d61-574d09e6a01c_2_poly_0_">
+<gml:posList>25498819.775 6674587.2225 4.05 25498815.8204 6674577.9535 4.05 25498791.0697 6674570.792699999 4.05 25498778.8066 6674577.753899999 4.05 25498791.0447 6674595.9925 4.05 25498800.014299996 6674601.9681 4.05 25498800.1516 6674609.5406 4.05 25498809.7949 6674623.886999999 4.05 25498837.7891 6674607.9812 4.05 25498835.8679 6674604.6129 4.05 25498839.9898 6674602.2659 4.05 25498845.349 6674582.22 4.05 25498819.775 6674587.2225 4.05</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_00ef176e-e033-4b62-b2e3-9544cc5e59a9_2">
 <core:creationDate>2019-01-28</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -4311,42 +4362,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_88d1d0f1-a6b0-4800-af44-afc56e804ba2_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>260.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>88d1d0f1-a6b0-4800-af44-afc56e804ba2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>10.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.0</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_9cdfff86-9454-465b-949d-0be7b3c01d46" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_88d1d0f1-a6b0-4800-af44-afc56e804ba2_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_88d1d0f1-a6b0-4800-af44-afc56e804ba2_2_poly_0_">
-<gml:posList>25498791.0697 6674570.792699999 4.05 25498815.8204 6674577.9535 4.05 25498815.8204 6674577.9535 13.69 25498803.350099996 6674574.3456 14.59 25498791.0697 6674570.792699999 13.7037 25498791.0697 6674570.792699999 4.05</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_7c134a9e-93fb-4e14-a9cc-d5cdd3b52e13_2">
@@ -4895,114 +4910,6 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_5be9c880-4aed-46bc-98bd-9932fbaa7104_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>15.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>5be9c880-4aed-46bc-98bd-9932fbaa7104</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>11.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>15.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>9.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>14.0</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_5de048b7-f95a-4b36-8611-68c4b518810c" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_5be9c880-4aed-46bc-98bd-9932fbaa7104_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_5be9c880-4aed-46bc-98bd-9932fbaa7104_2_poly_0_">
-<gml:posList>25498819.6704 6674587.1816 14.588099999999999 25498819.6704 6674587.1816 15.59 25498803.3058 6674614.2331 13.69 25498819.6704 6674587.1816 14.588099999999999</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_44a3d3af-6780-44b6-b80b-24ed4b48b77c_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>44a3d3af-6780-44b6-b80b-24ed4b48b77c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>10.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>9.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>14.0</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_9876567b-9a31-4b4c-aaae-7de8eb462e76" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_44a3d3af-6780-44b6-b80b-24ed4b48b77c_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_44a3d3af-6780-44b6-b80b-24ed4b48b77c_2_poly_0_">
-<gml:posList>25498819.6363 6674587.1819 13.69 25498819.6363 6674587.1819 14.5877 25498819.6949 6674587.1076 14.59 25498819.6363 6674587.1819 13.69</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_a6c09a5e-dba7-46e0-a7bf-d1fcdd029fb1_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>221.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>a6c09a5e-dba7-46e0-a7bf-d1fcdd029fb1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>10.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.0</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_65ecc54d-c393-42fb-9983-6e5687ea67a9" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_a6c09a5e-dba7-46e0-a7bf-d1fcdd029fb1_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_a6c09a5e-dba7-46e0-a7bf-d1fcdd029fb1_2_poly_0_">
-<gml:posList>25498778.8066 6674577.753899999 4.05 25498778.8066 6674577.753899999 13.6906 25498791.0447 6674595.9925 14.5882 25498791.0447 6674595.9925 4.05 25498778.8066 6674577.753899999 4.05</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_b969f6b0-18e8-4e4d-ab06-9c364d8d00b4_2">
 <core:creationDate>2019-01-28</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -5549,6 +5456,192 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_3d4deab7-7af2-4064-ad7a-af670ad465ae_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>114.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>3d4deab7-7af2-4064-ad7a-af670ad465ae</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>11.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>15.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>11.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>15.6</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_c82d3447-444c-4582-924c-f92a8840b314" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_3d4deab7-7af2-4064-ad7a-af670ad465ae_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_3d4deab7-7af2-4064-ad7a-af670ad465ae_2_poly_0_">
+<gml:posList>25498819.6704 6674587.1816 15.59 25498819.725999996 6674587.1811 15.59 25498814.5908 6674621.162 15.59 25498809.7949 6674623.886999999 15.59 25498808.265 6674621.611 15.59 25498819.6704 6674587.1816 15.59</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_88d1d0f1-a6b0-4800-af44-afc56e804ba2_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>260.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>88d1d0f1-a6b0-4800-af44-afc56e804ba2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>10.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.0</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_9cdfff86-9454-465b-949d-0be7b3c01d46" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_88d1d0f1-a6b0-4800-af44-afc56e804ba2_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_88d1d0f1-a6b0-4800-af44-afc56e804ba2_2_poly_0_">
+<gml:posList>25498791.0697 6674570.792699999 4.05 25498815.8204 6674577.9535 4.05 25498815.8204 6674577.9535 13.69 25498803.350099996 6674574.3456 14.59 25498791.0697 6674570.792699999 13.7037 25498791.0697 6674570.792699999 4.05</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_5be9c880-4aed-46bc-98bd-9932fbaa7104_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>15.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>5be9c880-4aed-46bc-98bd-9932fbaa7104</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>11.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>15.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>9.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>14.0</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_5de048b7-f95a-4b36-8611-68c4b518810c" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_5be9c880-4aed-46bc-98bd-9932fbaa7104_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_5be9c880-4aed-46bc-98bd-9932fbaa7104_2_poly_0_">
+<gml:posList>25498819.6704 6674587.1816 14.588099999999999 25498819.6704 6674587.1816 15.59 25498803.3058 6674614.2331 13.69 25498819.6704 6674587.1816 14.588099999999999</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_44a3d3af-6780-44b6-b80b-24ed4b48b77c_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>44a3d3af-6780-44b6-b80b-24ed4b48b77c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>10.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>9.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>14.0</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_9876567b-9a31-4b4c-aaae-7de8eb462e76" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_44a3d3af-6780-44b6-b80b-24ed4b48b77c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_44a3d3af-6780-44b6-b80b-24ed4b48b77c_2_poly_0_">
+<gml:posList>25498819.6363 6674587.1819 13.69 25498819.6363 6674587.1819 14.5877 25498819.6949 6674587.1076 14.59 25498819.6363 6674587.1819 13.69</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_a6c09a5e-dba7-46e0-a7bf-d1fcdd029fb1_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>221.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>a6c09a5e-dba7-46e0-a7bf-d1fcdd029fb1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>10.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.0</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_65ecc54d-c393-42fb-9983-6e5687ea67a9" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_a6c09a5e-dba7-46e0-a7bf-d1fcdd029fb1_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_a6c09a5e-dba7-46e0-a7bf-d1fcdd029fb1_2_poly_0_">
+<gml:posList>25498778.8066 6674577.753899999 4.05 25498778.8066 6674577.753899999 13.6906 25498791.0447 6674595.9925 14.5882 25498791.0447 6674595.9925 4.05 25498778.8066 6674577.753899999 4.05</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_1bf808a5-4e09-4c10-a3fc-1d18f9f22743_2">
 <core:creationDate>2019-01-28</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -5873,78 +5966,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_3d4deab7-7af2-4064-ad7a-af670ad465ae_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>114.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>3d4deab7-7af2-4064-ad7a-af670ad465ae</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>11.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>15.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>11.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>15.6</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_c82d3447-444c-4582-924c-f92a8840b314" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_3d4deab7-7af2-4064-ad7a-af670ad465ae_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_3d4deab7-7af2-4064-ad7a-af670ad465ae_2_poly_0_">
-<gml:posList>25498819.6704 6674587.1816 15.59 25498819.725999996 6674587.1811 15.59 25498814.5908 6674621.162 15.59 25498809.7949 6674623.886999999 15.59 25498808.265 6674621.611 15.59 25498819.6704 6674587.1816 15.59</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_dbd8a22a-4901-46ca-8d61-574d09e6a01c_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1808.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>dbd8a22a-4901-46ca-8d61-574d09e6a01c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.1</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_a9bf18fc-131d-4a35-97b4-2eb61775b32b" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_dbd8a22a-4901-46ca-8d61-574d09e6a01c_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_dbd8a22a-4901-46ca-8d61-574d09e6a01c_2_poly_0_">
-<gml:posList>25498819.775 6674587.2225 4.05 25498815.8204 6674577.9535 4.05 25498791.0697 6674570.792699999 4.05 25498778.8066 6674577.753899999 4.05 25498791.0447 6674595.9925 4.05 25498800.014299996 6674601.9681 4.05 25498800.1516 6674609.5406 4.05 25498809.7949 6674623.886999999 4.05 25498837.7891 6674607.9812 4.05 25498835.8679 6674604.6129 4.05 25498839.9898 6674602.2659 4.05 25498845.349 6674582.22 4.05 25498819.775 6674587.2225 4.05</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0f7ae73a-0cd8-4fb8-8f79-fb3caa6c79af_359a9d30-ba2e-46c8-bf45-b438b943ca87_2">
 <core:creationDate>2019-01-28</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -6205,7 +6226,7 @@
 <gen:value>1017733410</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125140849.749</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>688</gen:value>
@@ -6214,7 +6235,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.72</gen:value>
+<gen:value>0.05</gen:value>
 </gen:stringAttribute>
 <bldg:function>039</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -6265,6 +6286,204 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_3cf8f0da-0897-4d54-a4e7-361ce9d76289_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>856.4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>3cf8f0da-0897-4d54-a4e7-361ce9d76289</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>-0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>2.7</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_e665c219-1d0e-4610-839b-3243476bc4ba" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_3cf8f0da-0897-4d54-a4e7-361ce9d76289_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_3cf8f0da-0897-4d54-a4e7-361ce9d76289_2_poly_0_">
+<gml:posList>25498870.2485 6674478.7025 2.71 25498868.3951 6674479.121 2.71 25498867.9547 6674477.1701 2.71 25498869.808 6674476.7516 2.71 25498866.4144 6674461.7196 2.71 25498864.4635 6674462.16 2.71 25498863.8028 6674459.2337 2.71 25498855.062799998 6674461.2069 2.71 25498855.7234 6674464.1332 2.71 25498853.7725 6674464.5736 2.71 25498855.469099995 6674472.0885 2.71 25498853.5611 6674472.5193 2.71 25498854.7415 6674477.7477 2.71 25498852.8003 6674478.1859 2.71 25498857.0708 6674497.1018 2.71 25498860.919999998 6674496.2329 2.71 25498861.5132 6674498.8607 2.71 25498854.578899994 6674500.4262 2.71 25498855.0194 6674502.3771 2.71 25498851.9266 6674503.0751 2.71 25498854.497399997 6674513.7308 2.71 25498877.0092 6674508.6489 2.71 25498874.0583 6674495.5778 2.71 25498872.4975 6674495.9302 2.71 25498872.0571 6674493.9793 2.71 25498873.6178 6674493.6269 2.71 25498870.2485 6674478.7025 2.71</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_038791ab-83ca-4ec2-9308-f6ab85c2eb89_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>118.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>038791ab-83ca-4ec2-9308-f6ab85c2eb89</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>20.4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>17.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>20.4</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_a9bb8b32-e5e5-49b7-866e-f7c997a4ed53" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_038791ab-83ca-4ec2-9308-f6ab85c2eb89_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_038791ab-83ca-4ec2-9308-f6ab85c2eb89_2_poly_0_">
+<gml:posList>25498863.8028 6674459.2337 20.43 25498864.4635 6674462.16 20.43 25498866.4144 6674461.7196 20.43 25498869.808 6674476.7516 20.43 25498867.9547 6674477.1701 20.43 25498868.3951 6674479.121 20.43 25498870.2485 6674478.7025 20.43 25498872.3686 6674488.093399999 20.43 25498868.8574 6674488.8861 20.43 25498862.8319 6674462.1964 20.43 25498855.6521 6674463.8173 20.43 25498855.062799998 6674461.2069 20.43 25498863.8028 6674459.2337 20.43</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_01956396-3e56-4420-afd4-6d21a83b2806_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>266.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>01956396-3e56-4420-afd4-6d21a83b2806</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>21.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>24.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>21.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>24.3</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_a449be9c-1178-4e0d-83af-530741527dfa" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_01956396-3e56-4420-afd4-6d21a83b2806_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_01956396-3e56-4420-afd4-6d21a83b2806_2_poly_0_">
+<gml:posList>25498855.469099995 6674472.0885 24.32 25498853.7725 6674464.5736 24.32 25498855.7234 6674464.1332 24.32 25498855.6521 6674463.8173 24.32 25498862.8319 6674462.1964 24.32 25498868.8574 6674488.8861 24.32 25498859.6779 6674490.958499999 24.32 25498856.5791 6674477.2324 24.32 25498854.7199 6674477.6521 24.32 25498853.5611 6674472.5193 24.32 25498855.469099995 6674472.0885 24.32</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_e93127b0-3da6-474a-bf21-99ac014af8c4_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>75.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>e93127b0-3da6-474a-bf21-99ac014af8c4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>7.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>10.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>7.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>10.7</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_8b7b9ecd-51ac-4127-ae1c-e7aa21812af0" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_e93127b0-3da6-474a-bf21-99ac014af8c4_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_e93127b0-3da6-474a-bf21-99ac014af8c4_2_poly_0_">
+<gml:posList>25498860.8712 6674496.2439 10.650599999999999 25498857.0708 6674497.1018 10.650599999999999 25498852.8003 6674478.1859 10.650599999999999 25498854.7415 6674477.7477 10.650599999999999 25498854.7199 6674477.6521 10.650599999999999 25498856.5791 6674477.2324 10.650599999999999 25498860.8712 6674496.2439 10.650599999999999</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_4b2ac793-7e98-4eca-b835-d27fdae83226_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>396.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>4b2ac793-7e98-4eca-b835-d27fdae83226</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>20.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>17.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>20.6</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_1e2043f0-86db-4446-8e83-1cf8c9813db9" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_4b2ac793-7e98-4eca-b835-d27fdae83226_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_4b2ac793-7e98-4eca-b835-d27fdae83226_2_poly_0_">
+<gml:posList>25498855.0194 6674502.3771 20.64 25498854.578899994 6674500.4262 20.64 25498861.5132 6674498.8607 20.64 25498860.919999998 6674496.2329 20.64 25498860.8712 6674496.2439 20.64 25498859.6779 6674490.958499999 20.64 25498868.8574 6674488.8861 20.64 25498872.3686 6674488.093399999 20.64 25498873.6178 6674493.6269 20.64 25498872.0571 6674493.9793 20.64 25498872.4975 6674495.9302 20.64 25498874.0583 6674495.5778 20.64 25498877.0092 6674508.6489 20.64 25498854.497399997 6674513.7308 20.64 25498851.9266 6674503.0751 20.64 25498855.0194 6674502.3771 20.64</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_56994e3d-7f6c-4ed1-a893-39f54b9314fc_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -6474,36 +6693,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_3cf8f0da-0897-4d54-a4e7-361ce9d76289_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>856.4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>3cf8f0da-0897-4d54-a4e7-361ce9d76289</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>-0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>2.7</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e665c219-1d0e-4610-839b-3243476bc4ba" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_3cf8f0da-0897-4d54-a4e7-361ce9d76289_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_3cf8f0da-0897-4d54-a4e7-361ce9d76289_2_poly_0_">
-<gml:posList>25498870.2485 6674478.7025 2.71 25498868.3951 6674479.121 2.71 25498867.9547 6674477.1701 2.71 25498869.808 6674476.7516 2.71 25498866.4144 6674461.7196 2.71 25498864.4635 6674462.16 2.71 25498863.8028 6674459.2337 2.71 25498855.062799998 6674461.2069 2.71 25498855.7234 6674464.1332 2.71 25498853.7725 6674464.5736 2.71 25498855.469099995 6674472.0885 2.71 25498853.5611 6674472.5193 2.71 25498854.7415 6674477.7477 2.71 25498852.8003 6674478.1859 2.71 25498857.0708 6674497.1018 2.71 25498860.919999998 6674496.2329 2.71 25498861.5132 6674498.8607 2.71 25498854.578899994 6674500.4262 2.71 25498855.0194 6674502.3771 2.71 25498851.9266 6674503.0751 2.71 25498854.497399997 6674513.7308 2.71 25498877.0092 6674508.6489 2.71 25498874.0583 6674495.5778 2.71 25498872.4975 6674495.9302 2.71 25498872.0571 6674493.9793 2.71 25498873.6178 6674493.6269 2.71 25498870.2485 6674478.7025 2.71</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_7d4032c0-9182-44eb-8c92-27a52f77d3b6_2">
@@ -6966,174 +7155,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_038791ab-83ca-4ec2-9308-f6ab85c2eb89_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>118.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>038791ab-83ca-4ec2-9308-f6ab85c2eb89</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>20.4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>17.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>20.4</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_a9bb8b32-e5e5-49b7-866e-f7c997a4ed53" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_038791ab-83ca-4ec2-9308-f6ab85c2eb89_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_038791ab-83ca-4ec2-9308-f6ab85c2eb89_2_poly_0_">
-<gml:posList>25498863.8028 6674459.2337 20.43 25498864.4635 6674462.16 20.43 25498866.4144 6674461.7196 20.43 25498869.808 6674476.7516 20.43 25498867.9547 6674477.1701 20.43 25498868.3951 6674479.121 20.43 25498870.2485 6674478.7025 20.43 25498872.3686 6674488.093399999 20.43 25498868.8574 6674488.8861 20.43 25498862.8319 6674462.1964 20.43 25498855.6521 6674463.8173 20.43 25498855.062799998 6674461.2069 20.43 25498863.8028 6674459.2337 20.43</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_01956396-3e56-4420-afd4-6d21a83b2806_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>266.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>01956396-3e56-4420-afd4-6d21a83b2806</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>21.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>24.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>21.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>24.3</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_a449be9c-1178-4e0d-83af-530741527dfa" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_01956396-3e56-4420-afd4-6d21a83b2806_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_01956396-3e56-4420-afd4-6d21a83b2806_2_poly_0_">
-<gml:posList>25498855.469099995 6674472.0885 24.32 25498853.7725 6674464.5736 24.32 25498855.7234 6674464.1332 24.32 25498855.6521 6674463.8173 24.32 25498862.8319 6674462.1964 24.32 25498868.8574 6674488.8861 24.32 25498859.6779 6674490.958499999 24.32 25498856.5791 6674477.2324 24.32 25498854.7199 6674477.6521 24.32 25498853.5611 6674472.5193 24.32 25498855.469099995 6674472.0885 24.32</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_e93127b0-3da6-474a-bf21-99ac014af8c4_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>75.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>e93127b0-3da6-474a-bf21-99ac014af8c4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>7.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>10.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>7.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>10.7</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_8b7b9ecd-51ac-4127-ae1c-e7aa21812af0" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_e93127b0-3da6-474a-bf21-99ac014af8c4_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_e93127b0-3da6-474a-bf21-99ac014af8c4_2_poly_0_">
-<gml:posList>25498860.8712 6674496.2439 10.650599999999999 25498857.0708 6674497.1018 10.650599999999999 25498852.8003 6674478.1859 10.650599999999999 25498854.7415 6674477.7477 10.650599999999999 25498854.7199 6674477.6521 10.650599999999999 25498856.5791 6674477.2324 10.650599999999999 25498860.8712 6674496.2439 10.650599999999999</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_4b2ac793-7e98-4eca-b835-d27fdae83226_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>396.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>4b2ac793-7e98-4eca-b835-d27fdae83226</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>20.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>17.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>20.6</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_1e2043f0-86db-4446-8e83-1cf8c9813db9" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_4b2ac793-7e98-4eca-b835-d27fdae83226_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_4b2ac793-7e98-4eca-b835-d27fdae83226_2_poly_0_">
-<gml:posList>25498855.0194 6674502.3771 20.64 25498854.578899994 6674500.4262 20.64 25498861.5132 6674498.8607 20.64 25498860.919999998 6674496.2329 20.64 25498860.8712 6674496.2439 20.64 25498859.6779 6674490.958499999 20.64 25498868.8574 6674488.8861 20.64 25498872.3686 6674488.093399999 20.64 25498873.6178 6674493.6269 20.64 25498872.0571 6674493.9793 20.64 25498872.4975 6674495.9302 20.64 25498874.0583 6674495.5778 20.64 25498877.0092 6674508.6489 20.64 25498854.497399997 6674513.7308 20.64 25498851.9266 6674503.0751 20.64 25498855.0194 6674502.3771 20.64</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0f7bfad2-a770-470d-96ae-4a965f68429d_5664421c-fb42-47d9-a8af-13caa4a80866_2">
@@ -7900,7 +7921,7 @@
 <gen:value>2014-02-25</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125103508.996</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>691</gen:value>
@@ -7909,7 +7930,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>137.18</gen:value>
+<gen:value>30.57</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.89</bldg:measuredHeight>
@@ -7937,6 +7958,36 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_3f7ffdfd-53ec-4302-8eaf-a662597b5409_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>79.42</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>3f7ffdfd-53ec-4302-8eaf-a662597b5409</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.81</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_ce794768-e3d6-449d-ad26-63f927d44132" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_3f7ffdfd-53ec-4302-8eaf-a662597b5409_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_3f7ffdfd-53ec-4302-8eaf-a662597b5409_2_poly_0_">
+<gml:posList>25498961.882 6674643.182 4.81 25498968.299 6674654.463 4.81 25498968.593 6674654.293 4.81 25498968.127 6674653.44 4.81 25498970.516 6674652.074 4.81 25498970.995 6674652.951 4.81 25498973.989 6674651.239 4.81 25498967.565 6674639.946 4.81 25498963.869 6674642.053 4.81 25498964.602 6674643.345 4.81 25498962.95 6674644.283 4.81 25498962.217 6674642.992 4.81 25498961.882 6674643.182 4.81</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_09fe5c0b-2a1a-4a53-ac03-eb36577d99b6_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -7971,6 +8022,48 @@
 <gml:exterior>
 <gml:LinearRing gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_09fe5c0b-2a1a-4a53-ac03-eb36577d99b6_2_poly_0_">
 <gml:posList>25498969.293 6674642.983 16.69 25498973.989 6674651.239 16.69 25498970.995 6674652.951 16.69 25498970.516 6674652.074 16.69 25498968.127 6674653.44 16.69 25498968.593 6674654.293 16.69 25498968.299 6674654.463 16.69 25498963.615 6674646.229 16.69 25498969.293 6674642.983 16.69</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_4386f8ce-ba39-4fa2-aeac-a5c0a97dfc68_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>20.06</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>4386f8ce-ba39-4fa2-aeac-a5c0a97dfc68</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>7.79</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>12.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>7.79</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>12.6</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_8dc4c8cd-c747-4c2c-b503-a83593c9a29e" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_4386f8ce-ba39-4fa2-aeac-a5c0a97dfc68_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_4386f8ce-ba39-4fa2-aeac-a5c0a97dfc68_2_poly_0_">
+<gml:posList>25498962.217 6674642.992 12.6 25498962.95 6674644.283 12.6 25498964.602 6674643.345 12.6 25498963.869 6674642.053 12.6 25498967.565 6674639.946 12.6 25498969.293 6674642.983 12.6 25498963.615 6674646.229 12.6 25498961.882 6674643.182 12.6 25498962.217 6674642.992 12.6</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
@@ -8184,36 +8277,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_3f7ffdfd-53ec-4302-8eaf-a662597b5409_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>79.42</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>3f7ffdfd-53ec-4302-8eaf-a662597b5409</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.81</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_ce794768-e3d6-449d-ad26-63f927d44132" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_3f7ffdfd-53ec-4302-8eaf-a662597b5409_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_3f7ffdfd-53ec-4302-8eaf-a662597b5409_2_poly_0_">
-<gml:posList>25498961.882 6674643.182 4.81 25498968.299 6674654.463 4.81 25498968.593 6674654.293 4.81 25498968.127 6674653.44 4.81 25498970.516 6674652.074 4.81 25498970.995 6674652.951 4.81 25498973.989 6674651.239 4.81 25498967.565 6674639.946 4.81 25498963.869 6674642.053 4.81 25498964.602 6674643.345 4.81 25498962.95 6674644.283 4.81 25498962.217 6674642.992 4.81 25498961.882 6674643.182 4.81</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_b4822942-f0c2-4d2c-bc36-adb2cabaa975_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -8338,48 +8401,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_4386f8ce-ba39-4fa2-aeac-a5c0a97dfc68_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>20.06</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>4386f8ce-ba39-4fa2-aeac-a5c0a97dfc68</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>7.79</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>12.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>7.79</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>12.6</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_8dc4c8cd-c747-4c2c-b503-a83593c9a29e" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_4386f8ce-ba39-4fa2-aeac-a5c0a97dfc68_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_4386f8ce-ba39-4fa2-aeac-a5c0a97dfc68_2_poly_0_">
-<gml:posList>25498962.217 6674642.992 12.6 25498962.95 6674644.283 12.6 25498964.602 6674643.345 12.6 25498963.869 6674642.053 12.6 25498967.565 6674639.946 12.6 25498969.293 6674642.983 12.6 25498963.615 6674646.229 12.6 25498961.882 6674643.182 12.6 25498962.217 6674642.992 12.6</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_13005811-5a00-43ba-b755-2a1e42572656_01fd427c-3da0-4d10-bcec-efa9cda26da8_2">
@@ -8548,7 +8569,7 @@
 <gen:value>13923f39-b605-4f81-9173-c14c21630685</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125190332.797</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>701</gen:value>
@@ -8557,7 +8578,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="J">
-<gen:value>11071161.0</gen:value>
+<gen:value>11072765.0</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">10.33</bldg:measuredHeight>
@@ -8604,25 +8625,13 @@
 </gml:Solid>
 </bldg:lod2Solid>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_e2289720-4659-46c1-9897-b6f69183279b_2">
+<bldg:GroundSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_160e6a6c-e550-469b-aafd-a7d2af0767d9_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>224.62</gen:value>
+<gen:value>2285.66</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>e2289720-4659-46c1-9897-b6f69183279b</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>9.73</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>13.86</gen:value>
+<gen:value>160e6a6c-e550-469b-aafd-a7d2af0767d9</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>0.0</gen:value>
@@ -8631,19 +8640,19 @@
 <gen:value>4.13</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_585162fc-ae13-4301-a881-06139e11c64f" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_2db8d6be-c4db-4fbd-be26-b84040bdd3ff" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_e2289720-4659-46c1-9897-b6f69183279b_2_poly">
+<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_160e6a6c-e550-469b-aafd-a7d2af0767d9_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_e2289720-4659-46c1-9897-b6f69183279b_2_poly_0_">
-<gml:posList>25498858.927 6674573.453 4.13 25498871.664 6674554.015 4.13 25498871.664 6674554.015 13.703 25498871.469 6674554.313 13.72 25498871.231 6674554.676 13.736 25498858.927 6674573.453 13.86 25498858.927 6674573.453 4.13</gml:posList>
+<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_160e6a6c-e550-469b-aafd-a7d2af0767d9_2_poly_0_">
+<gml:posList>25498889.76 6674567.045 4.13 25498879.606 6674522.067 4.13 25498868.681 6674528.282 4.13 25498867.883 6674524.746 4.13 25498845.03 6674529.905 4.13 25498853.718 6674545.176 4.13 25498863.477 6674539.624 4.13 25498871.664 6674554.015 4.13 25498858.927 6674573.453 4.13 25498847.311 6674580.062 4.13 25498841.122 6674600.432 4.13 25498843.758 6674612.089 4.13 25498851.776 6674607.527 4.13 25498850.84 6674603.377 4.13 25498864.455 6674600.309 4.13 25498893.435 6674583.822 4.13 25498885.326 6674569.567 4.13 25498889.76 6674567.045 4.13</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:WallSurface>
+</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_0fe0f96b-48b1-4aeb-865a-c27b7efd80a7_2">
@@ -8730,48 +8739,6 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6f3d83d9-f614-4d1b-823e-899e4aa731cc_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>55.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>6f3d83d9-f614-4d1b-823e-899e4aa731cc</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>10.97</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>15.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.13</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_c7d9d248-06bd-417e-a95c-b9a69d360ec5" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6f3d83d9-f614-4d1b-823e-899e4aa731cc_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6f3d83d9-f614-4d1b-823e-899e4aa731cc_2_poly_0_">
-<gml:posList>25498889.76 6674567.045 4.13 25498885.326 6674569.567 4.13 25498885.326 6674569.567 15.1 25498885.829 6674569.281 15.1 25498889.76 6674567.045 15.075 25498889.76 6674567.045 4.13</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_9e28063f-4419-46c3-ab2d-265b18e86e85_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -8854,90 +8821,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_d86756d4-36af-4562-9784-ae6c90e6db30_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>214.18</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>d86756d4-36af-4562-9784-ae6c90e6db30</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>10.86</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.99</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.13</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_70da390c-0d34-4eb1-aaa8-343f2acd4283" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_d86756d4-36af-4562-9784-ae6c90e6db30_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_d86756d4-36af-4562-9784-ae6c90e6db30_2_poly_0_">
-<gml:posList>25498845.03 6674529.905 4.13 25498867.883 6674524.746 4.13 25498867.883 6674524.746 14.219 25498859.078 6674526.734 14.99 25498859.049 6674526.74 14.975 25498845.03 6674529.905 9.889 25498845.03 6674529.905 4.13</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_3a64db4d-2ab2-4a6b-b422-b80d871d144d_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>95.54</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>3a64db4d-2ab2-4a6b-b422-b80d871d144d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>10.86</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.99</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.13</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_0731fead-3c1a-430a-897c-05f4be3811b2" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_3a64db4d-2ab2-4a6b-b422-b80d871d144d_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_3a64db4d-2ab2-4a6b-b422-b80d871d144d_2_poly_0_">
-<gml:posList>25498863.477 6674539.624 4.13 25498853.718 6674545.176 4.13 25498853.718 6674545.176 9.889 25498862.704 6674540.064 14.99 25498862.85 6674539.981 14.976 25498863.477 6674539.624 14.945 25498863.477 6674539.624 4.13</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_f9c05133-b185-48dc-bffd-aa037b331f3a_2">
@@ -9024,57 +8907,6 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_53ff04cb-0fe9-4344-a08e-fed933f1e292_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>405.49</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>53ff04cb-0fe9-4344-a08e-fed933f1e292</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>15.73</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>19.86</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.13</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_78bb01a3-fb79-4ee1-a764-69ad167f3748" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_53ff04cb-0fe9-4344-a08e-fed933f1e292_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_53ff04cb-0fe9-4344-a08e-fed933f1e292_2_poly_0_0_">
-<gml:posList>25498864.455 6674600.309 4.13 25498864.455 6674600.309 19.776 25498864.958 6674600.022 19.854 25498865.037 6674599.977 19.863 25498865.053 6674599.968 19.863 25498875.227 6674594.18 16.57 25498875.227 6674594.18 15.1 25498893.435 6674583.822 15.1 25498893.435 6674583.822 4.13 25498864.455 6674600.309 4.13</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_53ff04cb-0fe9-4344-a08e-fed933f1e292_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_53ff04cb-0fe9-4344-a08e-fed933f1e292_2_poly_1_0_">
-<gml:posList>25498843.758 6674612.089 4.13 25498843.758 6674612.089 16.577 25498851.776 6674607.527 17.817 25498851.776 6674607.527 4.13 25498843.758 6674612.089 4.13</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_450e5fe1-f240-4f00-8b1b-c7a35adaeede_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -9117,78 +8949,6 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_160e6a6c-e550-469b-aafd-a7d2af0767d9_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>2285.66</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>160e6a6c-e550-469b-aafd-a7d2af0767d9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.13</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_2db8d6be-c4db-4fbd-be26-b84040bdd3ff" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_160e6a6c-e550-469b-aafd-a7d2af0767d9_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_160e6a6c-e550-469b-aafd-a7d2af0767d9_2_poly_0_">
-<gml:posList>25498889.76 6674567.045 4.13 25498879.606 6674522.067 4.13 25498868.681 6674528.282 4.13 25498867.883 6674524.746 4.13 25498845.03 6674529.905 4.13 25498853.718 6674545.176 4.13 25498863.477 6674539.624 4.13 25498871.664 6674554.015 4.13 25498858.927 6674573.453 4.13 25498847.311 6674580.062 4.13 25498841.122 6674600.432 4.13 25498843.758 6674612.089 4.13 25498851.776 6674607.527 4.13 25498850.84 6674603.377 4.13 25498864.455 6674600.309 4.13 25498893.435 6674583.822 4.13 25498885.326 6674569.567 4.13 25498889.76 6674567.045 4.13</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_f1511c48-daff-4b9f-89b5-e84d11f333be_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>168.91</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>f1511c48-daff-4b9f-89b5-e84d11f333be</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>10.86</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.99</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.13</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_fdb2c5d0-afb4-4cdc-a825-af961136389d" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_f1511c48-daff-4b9f-89b5-e84d11f333be_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_f1511c48-daff-4b9f-89b5-e84d11f333be_2_poly_0_">
-<gml:posList>25498863.477 6674539.624 4.13 25498863.477 6674539.624 14.945 25498863.662 6674539.951 14.99 25498871.228 6674553.249 13.716 25498871.445 6674553.631 13.67 25498871.664 6674554.015 13.703 25498871.664 6674554.015 4.13 25498863.477 6674539.624 4.13</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_d7ea2089-76d4-4182-974b-3f1967e8b535_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -9229,48 +8989,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_1ef492dd-39e7-4797-82dc-364af4748a74_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>466.97</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>1ef492dd-39e7-4797-82dc-364af4748a74</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>10.94</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>15.08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.13</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_2341332a-80c1-422e-bc2f-fc1673967aab" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_1ef492dd-39e7-4797-82dc-364af4748a74_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_1ef492dd-39e7-4797-82dc-364af4748a74_2_poly_0_">
-<gml:posList>25498889.76 6674567.045 4.13 25498889.76 6674567.045 15.075 25498889.459 6674565.712 14.982 25498885.665 6674548.909 13.67 25498883.167 6674537.844 14.881 25498882.895 6674536.639 14.99 25498879.802 6674522.935 13.194 25498879.606 6674522.067 13.191 25498879.606 6674522.067 4.13 25498889.76 6674567.045 4.13</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_27928638-813e-4026-866f-2f0015b03c3c_2">
@@ -9357,6 +9075,453 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_1546468c-6071-4276-9890-ebe89e80027d_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>107.81</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>1546468c-6071-4276-9890-ebe89e80027d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>284.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>82.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>15.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>19.85</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>12.44</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.58</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_99f02465-90f4-42e6-9209-13eb2f6e498f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_1546468c-6071-4276-9890-ebe89e80027d_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_1546468c-6071-4276-9890-ebe89e80027d_2_poly_0_">
+<gml:posList>25498864.958 6674600.022 19.854 25498864.455 6674600.309 19.776 25498850.84 6674603.377 17.835 25498851.776 6674607.527 17.817 25498843.758 6674612.089 16.577 25498841.179 6674600.684 16.627 25498864.958 6674600.022 19.854</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_611a94b2-a00d-406d-bf10-f6b174eb856d_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>89.03</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>611a94b2-a00d-406d-bf10-f6b174eb856d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>18.37</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>83.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>10.75</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>9.54</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>13.67</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_2c5d1691-777a-41b9-a635-6a62e34d20fe" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_611a94b2-a00d-406d-bf10-f6b174eb856d_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_611a94b2-a00d-406d-bf10-f6b174eb856d_2_poly_0_0_">
+<gml:posList>25498883.167 6674537.844 14.881 25498885.665 6674548.909 13.67 25498871.445 6674553.631 13.67 25498871.228 6674553.249 13.716 25498883.167 6674537.844 14.881</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_611a94b2-a00d-406d-bf10-f6b174eb856d_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_611a94b2-a00d-406d-bf10-f6b174eb856d_2_poly_1_0_">
+<gml:posList>25498882.895 6674536.639 14.99 25498883.167 6674537.844 14.881 25498871.228 6674553.249 13.716 25498863.662 6674539.951 14.99 25498882.895 6674536.639 14.99</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6989e126-9077-47c9-b2ec-de29979f9f68_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>134.76</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>6989e126-9077-47c9-b2ec-de29979f9f68</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>198.37</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>85.62</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>10.85</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.98</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>9.54</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>13.67</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_44e0047d-4107-4752-a4bb-7be973240ac5" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6989e126-9077-47c9-b2ec-de29979f9f68_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6989e126-9077-47c9-b2ec-de29979f9f68_2_poly_0_0_">
+<gml:posList>25498885.665 6674548.909 13.67 25498889.459 6674565.712 14.982 25498871.469 6674554.313 13.72 25498871.664 6674554.015 13.703 25498871.445 6674553.631 13.67 25498885.665 6674548.909 13.67</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6989e126-9077-47c9-b2ec-de29979f9f68_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6989e126-9077-47c9-b2ec-de29979f9f68_2_poly_1_0_">
+<gml:posList>25498871.469 6674554.313 13.72 25498889.459 6674565.712 14.982 25498889.76 6674567.045 15.075 25498885.829 6674569.281 15.1 25498881.075 6674571.515 15.1 25498871.231 6674554.676 13.736 25498871.469 6674554.313 13.72</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_e2289720-4659-46c1-9897-b6f69183279b_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>224.62</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>e2289720-4659-46c1-9897-b6f69183279b</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>9.73</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>13.86</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.13</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_585162fc-ae13-4301-a881-06139e11c64f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_e2289720-4659-46c1-9897-b6f69183279b_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_e2289720-4659-46c1-9897-b6f69183279b_2_poly_0_">
+<gml:posList>25498858.927 6674573.453 4.13 25498871.664 6674554.015 4.13 25498871.664 6674554.015 13.703 25498871.469 6674554.313 13.72 25498871.231 6674554.676 13.736 25498858.927 6674573.453 13.86 25498858.927 6674573.453 4.13</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6f3d83d9-f614-4d1b-823e-899e4aa731cc_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>55.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>6f3d83d9-f614-4d1b-823e-899e4aa731cc</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>10.97</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>15.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.13</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_c7d9d248-06bd-417e-a95c-b9a69d360ec5" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6f3d83d9-f614-4d1b-823e-899e4aa731cc_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6f3d83d9-f614-4d1b-823e-899e4aa731cc_2_poly_0_">
+<gml:posList>25498889.76 6674567.045 4.13 25498885.326 6674569.567 4.13 25498885.326 6674569.567 15.1 25498885.829 6674569.281 15.1 25498889.76 6674567.045 15.075 25498889.76 6674567.045 4.13</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_d86756d4-36af-4562-9784-ae6c90e6db30_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>214.18</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>d86756d4-36af-4562-9784-ae6c90e6db30</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>10.86</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.99</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.13</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_70da390c-0d34-4eb1-aaa8-343f2acd4283" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_d86756d4-36af-4562-9784-ae6c90e6db30_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_d86756d4-36af-4562-9784-ae6c90e6db30_2_poly_0_">
+<gml:posList>25498845.03 6674529.905 4.13 25498867.883 6674524.746 4.13 25498867.883 6674524.746 14.219 25498859.078 6674526.734 14.99 25498859.049 6674526.74 14.975 25498845.03 6674529.905 9.889 25498845.03 6674529.905 4.13</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_3a64db4d-2ab2-4a6b-b422-b80d871d144d_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>95.54</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>3a64db4d-2ab2-4a6b-b422-b80d871d144d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>10.86</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.99</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.13</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_0731fead-3c1a-430a-897c-05f4be3811b2" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_3a64db4d-2ab2-4a6b-b422-b80d871d144d_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_3a64db4d-2ab2-4a6b-b422-b80d871d144d_2_poly_0_">
+<gml:posList>25498863.477 6674539.624 4.13 25498853.718 6674545.176 4.13 25498853.718 6674545.176 9.889 25498862.704 6674540.064 14.99 25498862.85 6674539.981 14.976 25498863.477 6674539.624 14.945 25498863.477 6674539.624 4.13</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_53ff04cb-0fe9-4344-a08e-fed933f1e292_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>405.49</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>53ff04cb-0fe9-4344-a08e-fed933f1e292</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>15.73</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>19.86</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.13</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_78bb01a3-fb79-4ee1-a764-69ad167f3748" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_53ff04cb-0fe9-4344-a08e-fed933f1e292_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_53ff04cb-0fe9-4344-a08e-fed933f1e292_2_poly_0_0_">
+<gml:posList>25498864.455 6674600.309 4.13 25498864.455 6674600.309 19.776 25498864.958 6674600.022 19.854 25498865.037 6674599.977 19.863 25498865.053 6674599.968 19.863 25498875.227 6674594.18 16.57 25498875.227 6674594.18 15.1 25498893.435 6674583.822 15.1 25498893.435 6674583.822 4.13 25498864.455 6674600.309 4.13</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_53ff04cb-0fe9-4344-a08e-fed933f1e292_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_53ff04cb-0fe9-4344-a08e-fed933f1e292_2_poly_1_0_">
+<gml:posList>25498843.758 6674612.089 4.13 25498843.758 6674612.089 16.577 25498851.776 6674607.527 17.817 25498851.776 6674607.527 4.13 25498843.758 6674612.089 4.13</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_f1511c48-daff-4b9f-89b5-e84d11f333be_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>168.91</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>f1511c48-daff-4b9f-89b5-e84d11f333be</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>10.86</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.99</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.13</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_fdb2c5d0-afb4-4cdc-a825-af961136389d" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_f1511c48-daff-4b9f-89b5-e84d11f333be_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_f1511c48-daff-4b9f-89b5-e84d11f333be_2_poly_0_">
+<gml:posList>25498863.477 6674539.624 4.13 25498863.477 6674539.624 14.945 25498863.662 6674539.951 14.99 25498871.228 6674553.249 13.716 25498871.445 6674553.631 13.67 25498871.664 6674554.015 13.703 25498871.664 6674554.015 4.13 25498863.477 6674539.624 4.13</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_1ef492dd-39e7-4797-82dc-364af4748a74_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>466.97</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>1ef492dd-39e7-4797-82dc-364af4748a74</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>10.94</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>15.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.13</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_2341332a-80c1-422e-bc2f-fc1673967aab" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_1ef492dd-39e7-4797-82dc-364af4748a74_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_1ef492dd-39e7-4797-82dc-364af4748a74_2_poly_0_">
+<gml:posList>25498889.76 6674567.045 4.13 25498889.76 6674567.045 15.075 25498889.459 6674565.712 14.982 25498885.665 6674548.909 13.67 25498883.167 6674537.844 14.881 25498882.895 6674536.639 14.99 25498879.802 6674522.935 13.194 25498879.606 6674522.067 13.191 25498879.606 6674522.067 4.13 25498889.76 6674567.045 4.13</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_39015f23-0134-4c4e-a936-710a4e3b1ed9_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -9439,48 +9604,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_1546468c-6071-4276-9890-ebe89e80027d_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>107.81</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>1546468c-6071-4276-9890-ebe89e80027d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>284.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>82.08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>15.72</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>19.85</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>12.44</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.58</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_99f02465-90f4-42e6-9209-13eb2f6e498f" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_1546468c-6071-4276-9890-ebe89e80027d_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_1546468c-6071-4276-9890-ebe89e80027d_2_poly_0_">
-<gml:posList>25498864.958 6674600.022 19.854 25498864.455 6674600.309 19.776 25498850.84 6674603.377 17.835 25498851.776 6674607.527 17.817 25498843.758 6674612.089 16.577 25498841.179 6674600.684 16.627 25498864.958 6674600.022 19.854</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_4bef9c08-3505-4ba0-ae2e-0bf0b9655db7_2">
@@ -9777,108 +9900,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_611a94b2-a00d-406d-bf10-f6b174eb856d_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>89.03</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>611a94b2-a00d-406d-bf10-f6b174eb856d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>18.37</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>83.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>10.75</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>9.54</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>13.67</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_2c5d1691-777a-41b9-a635-6a62e34d20fe" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_611a94b2-a00d-406d-bf10-f6b174eb856d_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_611a94b2-a00d-406d-bf10-f6b174eb856d_2_poly_0_0_">
-<gml:posList>25498883.167 6674537.844 14.881 25498885.665 6674548.909 13.67 25498871.445 6674553.631 13.67 25498871.228 6674553.249 13.716 25498883.167 6674537.844 14.881</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_611a94b2-a00d-406d-bf10-f6b174eb856d_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_611a94b2-a00d-406d-bf10-f6b174eb856d_2_poly_1_0_">
-<gml:posList>25498882.895 6674536.639 14.99 25498883.167 6674537.844 14.881 25498871.228 6674553.249 13.716 25498863.662 6674539.951 14.99 25498882.895 6674536.639 14.99</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6989e126-9077-47c9-b2ec-de29979f9f68_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>134.76</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>6989e126-9077-47c9-b2ec-de29979f9f68</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>198.37</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>85.62</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>10.85</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.98</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>9.54</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>13.67</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_44e0047d-4107-4752-a4bb-7be973240ac5" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6989e126-9077-47c9-b2ec-de29979f9f68_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6989e126-9077-47c9-b2ec-de29979f9f68_2_poly_0_0_">
-<gml:posList>25498885.665 6674548.909 13.67 25498889.459 6674565.712 14.982 25498871.469 6674554.313 13.72 25498871.664 6674554.015 13.703 25498871.445 6674553.631 13.67 25498885.665 6674548.909 13.67</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6989e126-9077-47c9-b2ec-de29979f9f68_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_6989e126-9077-47c9-b2ec-de29979f9f68_2_poly_1_0_">
-<gml:posList>25498871.469 6674554.313 13.72 25498889.459 6674565.712 14.982 25498889.76 6674567.045 15.075 25498885.829 6674569.281 15.1 25498881.075 6674571.515 15.1 25498871.231 6674554.676 13.736 25498871.469 6674554.313 13.72</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_13923f39-b605-4f81-9173-c14c21630685_44c440d6-faab-47ea-bb34-abe9ba0a6c0d_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -10024,7 +10045,7 @@
 <gen:value>2013-11-28</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125190332.797</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>702</gen:value>
@@ -10033,7 +10054,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="J">
-<gen:value>1453.85</gen:value>
+<gen:value>19.29</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.85</bldg:measuredHeight>
@@ -10061,6 +10082,36 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_aa40d354-8173-4515-8b71-7d2d8d34cd27_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>79.58</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>aa40d354-8173-4515-8b71-7d2d8d34cd27</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.84</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_996cd7dd-6654-4bb8-bd05-5cb937858880" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_aa40d354-8173-4515-8b71-7d2d8d34cd27_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_aa40d354-8173-4515-8b71-7d2d8d34cd27_2_poly_0_">
+<gml:posList>25498978.935 6674633.481 4.84 25498985.358 6674644.771 4.84 25498985.66 6674644.598 4.84 25498985.194 6674643.745 4.84 25498987.521 6674642.414 4.84 25498988 6674643.291 4.84 25498991.048 6674641.547 4.84 25498984.615 6674630.239 4.84 25498980.92 6674632.353 4.84 25498981.653 6674633.645 4.84 25498980.001 6674634.583 4.84 25498979.268 6674633.292 4.84 25498978.935 6674633.481 4.84</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_dfe029d4-d4d2-49e0-b218-ef668d1411ce_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -10095,6 +10146,48 @@
 <gml:exterior>
 <gml:LinearRing gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_dfe029d4-d4d2-49e0-b218-ef668d1411ce_2_poly_0_">
 <gml:posList>25498979.268 6674633.292 12.6 25498980.001 6674634.583 12.6 25498981.653 6674633.645 12.6 25498980.92 6674632.353 12.6 25498984.615 6674630.239 12.6 25498986.329 6674633.253 12.6 25498980.653 6674636.5 12.6 25498978.935 6674633.481 12.6 25498979.268 6674633.292 12.6</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_bddbae55-d3f8-4df0-ac4b-f79b3783420c_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>59.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>bddbae55-d3f8-4df0-ac4b-f79b3783420c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>11.85</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.69</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>11.85</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.69</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_e14b92a2-a1a1-431f-9d1f-a63fa325c82c" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_bddbae55-d3f8-4df0-ac4b-f79b3783420c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_bddbae55-d3f8-4df0-ac4b-f79b3783420c_2_poly_0_">
+<gml:posList>25498986.329 6674633.253 16.69 25498991.048 6674641.547 16.69 25498988 6674643.291 16.69 25498987.521 6674642.414 16.69 25498985.194 6674643.745 16.69 25498985.66 6674644.598 16.69 25498985.358 6674644.771 16.69 25498980.653 6674636.5 16.69 25498986.329 6674633.253 16.69</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
@@ -10266,36 +10359,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_aa40d354-8173-4515-8b71-7d2d8d34cd27_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>79.58</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>aa40d354-8173-4515-8b71-7d2d8d34cd27</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.84</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_996cd7dd-6654-4bb8-bd05-5cb937858880" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_aa40d354-8173-4515-8b71-7d2d8d34cd27_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_aa40d354-8173-4515-8b71-7d2d8d34cd27_2_poly_0_">
-<gml:posList>25498978.935 6674633.481 4.84 25498985.358 6674644.771 4.84 25498985.66 6674644.598 4.84 25498985.194 6674643.745 4.84 25498987.521 6674642.414 4.84 25498988 6674643.291 4.84 25498991.048 6674641.547 4.84 25498984.615 6674630.239 4.84 25498980.92 6674632.353 4.84 25498981.653 6674633.645 4.84 25498980.001 6674634.583 4.84 25498979.268 6674633.292 4.84 25498978.935 6674633.481 4.84</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_9ff34ab8-d8a6-4ad7-a4b0-1b6655a05c5e_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -10378,48 +10441,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_bddbae55-d3f8-4df0-ac4b-f79b3783420c_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>59.72</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>bddbae55-d3f8-4df0-ac4b-f79b3783420c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>11.85</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>11.85</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.69</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e14b92a2-a1a1-431f-9d1f-a63fa325c82c" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_bddbae55-d3f8-4df0-ac4b-f79b3783420c_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_bddbae55-d3f8-4df0-ac4b-f79b3783420c_2_poly_0_">
-<gml:posList>25498986.329 6674633.253 16.69 25498991.048 6674641.547 16.69 25498988 6674643.291 16.69 25498987.521 6674642.414 16.69 25498985.194 6674643.745 16.69 25498985.66 6674644.598 16.69 25498985.358 6674644.771 16.69 25498980.653 6674636.5 16.69 25498986.329 6674633.253 16.69</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_1a5fce29-0583-4330-9ca2-a6995352a15c_5ad95c2b-f77c-4e94-924a-3f433795c4fb_2">
@@ -10647,6 +10668,21 @@
 <gen:stringAttribute name="UUID">
 <gen:value>1b33d422-98b1-4781-82f2-243f308b4505</gen:value>
 </gen:stringAttribute>
+<gen:stringAttribute name="resulttime">
+<gen:value>20201125190337.665</gen:value>
+</gen:stringAttribute>
+<gen:intAttribute name="datastream_id">
+<gen:value>828</gen:value>
+</gen:intAttribute>
+<gen:stringAttribute name="featureofintrest_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="W">
+<gen:value>9.14</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="A">
+<gen:value>0.02</gen:value>
+</gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">9.0</bldg:measuredHeight>
 <bldg:lod2Solid>
@@ -10664,25 +10700,13 @@
 </gml:Solid>
 </bldg:lod2Solid>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_1b33d422-98b1-4781-82f2-243f308b4505_e58577d3-68bf-40e2-8050-8433e7cb9e0c_2">
+<bldg:GroundSurface gml:id="BID_1b33d422-98b1-4781-82f2-243f308b4505_ff16edde-b77d-409c-a345-9f2b581e9026_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>58.17</gen:value>
+<gen:value>44.6</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>e58577d3-68bf-40e2-8050-8433e7cb9e0c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>9.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.83</gen:value>
+<gen:value>ff16edde-b77d-409c-a345-9f2b581e9026</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>0.0</gen:value>
@@ -10691,19 +10715,19 @@
 <gen:value>7.83</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_0ca68fd9-679b-46d5-b30a-0c97d3331cfb" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_0f3c51be-5f7a-4fd4-a0c4-342b5301a64b" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_1b33d422-98b1-4781-82f2-243f308b4505_e58577d3-68bf-40e2-8050-8433e7cb9e0c_2_poly">
+<gml:Polygon gml:id="BID_1b33d422-98b1-4781-82f2-243f308b4505_ff16edde-b77d-409c-a345-9f2b581e9026_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_1b33d422-98b1-4781-82f2-243f308b4505_e58577d3-68bf-40e2-8050-8433e7cb9e0c_2_poly_0_">
-<gml:posList>25498942.789 6674772.928 16.829 25498937.293 6674776.328 16.829 25498937.293 6674776.328 7.829 25498942.789 6674772.928 7.829 25498942.789 6674772.928 16.829</gml:posList>
+<gml:LinearRing gml:id="BID_1b33d422-98b1-4781-82f2-243f308b4505_ff16edde-b77d-409c-a345-9f2b581e9026_2_poly_0_">
+<gml:posList>25498946.363 6674778.798 7.829 25498942.789 6674772.928 7.829 25498937.293 6674776.328 7.829 25498941.035 6674782.285 7.829 25498946.363 6674778.798 7.829</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:WallSurface>
+</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_1b33d422-98b1-4781-82f2-243f308b4505_3a6d868e-a353-4fbe-8d10-9807ff688812_2">
@@ -10746,6 +10770,48 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_1b33d422-98b1-4781-82f2-243f308b4505_e58577d3-68bf-40e2-8050-8433e7cb9e0c_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>58.17</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>e58577d3-68bf-40e2-8050-8433e7cb9e0c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>9.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.83</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>7.83</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_0ca68fd9-679b-46d5-b30a-0c97d3331cfb" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_1b33d422-98b1-4781-82f2-243f308b4505_e58577d3-68bf-40e2-8050-8433e7cb9e0c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_1b33d422-98b1-4781-82f2-243f308b4505_e58577d3-68bf-40e2-8050-8433e7cb9e0c_2_poly_0_">
+<gml:posList>25498942.789 6674772.928 16.829 25498937.293 6674776.328 16.829 25498937.293 6674776.328 7.829 25498942.789 6674772.928 7.829 25498942.789 6674772.928 16.829</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_1b33d422-98b1-4781-82f2-243f308b4505_5f609ab8-8a01-4036-9a75-f737b73fa540_2">
@@ -10873,36 +10939,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_1b33d422-98b1-4781-82f2-243f308b4505_ff16edde-b77d-409c-a345-9f2b581e9026_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>44.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>ff16edde-b77d-409c-a345-9f2b581e9026</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>7.83</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_0f3c51be-5f7a-4fd4-a0c4-342b5301a64b" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_1b33d422-98b1-4781-82f2-243f308b4505_ff16edde-b77d-409c-a345-9f2b581e9026_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_1b33d422-98b1-4781-82f2-243f308b4505_ff16edde-b77d-409c-a345-9f2b581e9026_2_poly_0_">
-<gml:posList>25498946.363 6674778.798 7.829 25498942.789 6674772.928 7.829 25498937.293 6674776.328 7.829 25498941.035 6674782.285 7.829 25498946.363 6674778.798 7.829</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -10995,7 +11031,7 @@
 <gen:value>103520366M</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125190331.82</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>661</gen:value>
@@ -11004,7 +11040,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>233.67</gen:value>
+<gen:value>235.22</gen:value>
 </gen:stringAttribute>
 <bldg:function>011</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -11024,6 +11060,78 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_27c83168-ae3b-4a24-be52-89d624145acf_d7023fc1-0fc0-40ba-8999-04643c0a4cb0_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>90.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>d7023fc1-0fc0-40ba-8999-04643c0a4cb0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>-0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.7</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_5334034d-775f-46dc-b685-ba25c7d78288" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_27c83168-ae3b-4a24-be52-89d624145acf_d7023fc1-0fc0-40ba-8999-04643c0a4cb0_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_27c83168-ae3b-4a24-be52-89d624145acf_d7023fc1-0fc0-40ba-8999-04643c0a4cb0_2_poly_0_">
+<gml:posList>25498922.9278 6674485.5718 3.7199999999999998 25498925.9645 6674498.1618 3.7199999999999998 25498932.7692 6674496.5206 3.7199999999999998 25498929.7326 6674483.9305 3.7199999999999998 25498922.9278 6674485.5718 3.7199999999999998</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_27c83168-ae3b-4a24-be52-89d624145acf_95da4404-c318-4562-a33c-a41a42fa73f8_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>90.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>95da4404-c318-4562-a33c-a41a42fa73f8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>12.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>15.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>12.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>15.9</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_c5a1fa55-1674-421c-b18a-070a1501303b" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_27c83168-ae3b-4a24-be52-89d624145acf_95da4404-c318-4562-a33c-a41a42fa73f8_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_27c83168-ae3b-4a24-be52-89d624145acf_95da4404-c318-4562-a33c-a41a42fa73f8_2_poly_0_">
+<gml:posList>25498929.7326 6674483.9305 15.9 25498932.7692 6674496.5206 15.9 25498925.9645 6674498.1618 15.9 25498922.9278 6674485.5718 15.9 25498929.7326 6674483.9305 15.9</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_27c83168-ae3b-4a24-be52-89d624145acf_89720e6f-b06c-465c-a32d-238cd86472ac_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -11192,78 +11300,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_27c83168-ae3b-4a24-be52-89d624145acf_d7023fc1-0fc0-40ba-8999-04643c0a4cb0_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>90.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>d7023fc1-0fc0-40ba-8999-04643c0a4cb0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>-0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.7</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_5334034d-775f-46dc-b685-ba25c7d78288" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_27c83168-ae3b-4a24-be52-89d624145acf_d7023fc1-0fc0-40ba-8999-04643c0a4cb0_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_27c83168-ae3b-4a24-be52-89d624145acf_d7023fc1-0fc0-40ba-8999-04643c0a4cb0_2_poly_0_">
-<gml:posList>25498922.9278 6674485.5718 3.7199999999999998 25498925.9645 6674498.1618 3.7199999999999998 25498932.7692 6674496.5206 3.7199999999999998 25498929.7326 6674483.9305 3.7199999999999998 25498922.9278 6674485.5718 3.7199999999999998</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_27c83168-ae3b-4a24-be52-89d624145acf_95da4404-c318-4562-a33c-a41a42fa73f8_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>90.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>95da4404-c318-4562-a33c-a41a42fa73f8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>12.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>15.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>12.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>15.9</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_c5a1fa55-1674-421c-b18a-070a1501303b" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_27c83168-ae3b-4a24-be52-89d624145acf_95da4404-c318-4562-a33c-a41a42fa73f8_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_27c83168-ae3b-4a24-be52-89d624145acf_95da4404-c318-4562-a33c-a41a42fa73f8_2_poly_0_">
-<gml:posList>25498929.7326 6674483.9305 15.9 25498932.7692 6674496.5206 15.9 25498925.9645 6674498.1618 15.9 25498922.9278 6674485.5718 15.9 25498929.7326 6674483.9305 15.9</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -11345,7 +11381,7 @@
 <gen:value>1017733421</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125134822.323</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>664</gen:value>
@@ -11354,7 +11390,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.98</gen:value>
+<gen:value>0.05</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">23.1</bldg:measuredHeight>
@@ -11429,6 +11465,204 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_c481fba5-0dd2-4c90-ba69-e445695915e2_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1046.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>c481fba5-0dd2-4c90-ba69-e445695915e2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>-0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>1.8</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_849c6d25-9707-4462-b0ad-557f3dc2c8bc" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_c481fba5-0dd2-4c90-ba69-e445695915e2_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_c481fba5-0dd2-4c90-ba69-e445695915e2_2_poly_0_">
+<gml:posList>25498763.8231 6674499.2047 1.8379999999999999 25498770.3616 6674494.946299999 1.8379999999999999 25498846.2407 6674476.6443 1.8379999999999999 25498843.7718 6674466.4083 1.8379999999999999 25498840.0383 6674467.3344 1.8379999999999999 25498839.4374 6674464.9435 1.8379999999999999 25498835.1885 6674465.9683 1.8379999999999999 25498835.7618 6674468.3633 1.8379999999999999 25498832.6376 6674469.1137 1.8379999999999999 25498832.0629 6674466.7222 1.8379999999999999 25498828.3959 6674467.6066 1.8379999999999999 25498828.9798 6674469.9879 1.8379999999999999 25498825.8401 6674470.7461 1.8379999999999999 25498825.265599996 6674468.3617 1.8379999999999999 25498821.0204 6674469.3856 1.8379999999999999 25498821.5791 6674471.7673 1.8379999999999999 25498818.4471 6674472.5177 1.8379999999999999 25498817.8696 6674470.1455 1.8379999999999999 25498813.6162 6674471.1714 1.8379999999999999 25498814.209299996 6674473.5466 1.8379999999999999 25498811.0541 6674474.3125 1.8379999999999999 25498810.4833 6674471.927 1.8379999999999999 25498806.8251 6674472.8094 1.8379999999999999 25498807.3963 6674475.1867 1.8379999999999999 25498804.2952 6674475.9294 1.8379999999999999 25498803.7147 6674473.559599999 1.8379999999999999 25498799.3291 6674474.6174 1.8379999999999999 25498799.8796 6674476.997 1.8379999999999999 25498796.7553 6674477.7551 1.8379999999999999 25498796.1802 6674475.3769 1.8379999999999999 25498791.9463 6674476.3981 1.8379999999999999 25498792.5252 6674478.7686 1.8379999999999999 25498789.3701 6674479.5268 1.8379999999999999 25498788.8029 6674477.1562 1.8379999999999999 25498785.146399997 6674478.0382 1.8379999999999999 25498785.72 6674480.4087 1.8379999999999999 25498782.5571 6674481.1746 1.8379999999999999 25498781.9889 6674478.7997 1.8379999999999999 25498777.738199998 6674479.825 1.8379999999999999 25498778.3038 6674482.203499999 1.8379999999999999 25498775.1718 6674482.9384 1.8379999999999999 25498774.6094 6674480.579599999 1.8379999999999999 25498770.3644 6674481.6035 1.8379999999999999 25498770.926299997 6674483.9751 1.8379999999999999 25498767.7866 6674484.7333 1.8379999999999999 25498767.2175 6674482.3625 1.8379999999999999 25498765.1528 6674482.8604999995 1.8379999999999999 25498763.1514 6674484.164 1.8379999999999999 25498764.4922 6674486.1799 1.8379999999999999 25498761.7856 6674487.9593 1.8379999999999999 25498760.4476 6674485.9249 1.8379999999999999 25498756.7448 6674488.3365 1.8379999999999999 25498763.8231 6674499.2047 1.8379999999999999</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_94c27135-4303-4412-9347-b4c3f79df050_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>477.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>94c27135-4303-4412-9347-b4c3f79df050</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>19.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>21.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>21.2</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_a6432b71-11a9-4d1c-b492-e7b2becabe70" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_94c27135-4303-4412-9347-b4c3f79df050_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_94c27135-4303-4412-9347-b4c3f79df050_2_poly_0_">
+<gml:posList>25498807.3963 6674475.1867 21.1595 25498806.8251 6674472.8094 21.1595 25498810.4833 6674471.927 21.1595 25498811.0541 6674474.3125 21.1595 25498814.209299996 6674473.5466 21.1595 25498813.6162 6674471.1714 21.1595 25498817.8696 6674470.1455 21.1595 25498818.4471 6674472.5177 21.1595 25498821.5791 6674471.7673 21.1595 25498821.0204 6674469.3856 21.1595 25498825.265599996 6674468.3617 21.1595 25498825.8401 6674470.7461 21.1595 25498828.9798 6674469.9879 21.1595 25498828.3959 6674467.6066 21.1595 25498832.0629 6674466.7222 21.1595 25498832.6376 6674469.1137 21.1595 25498835.7618 6674468.3633 21.1595 25498835.1885 6674465.9683 21.1595 25498839.4374 6674464.9435 21.1595 25498840.0383 6674467.3344 21.1595 25498843.7718 6674466.4083 21.1595 25498846.2407 6674476.6443 21.1595 25498806.7642 6674486.166 21.1595 25498805.1873 6674479.628 21.1595 25498804.2952 6674475.9294 21.1595 25498807.3963 6674475.1867 21.1595</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_618617fe-dff3-4e69-acc3-a8392bbdf666_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>182.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>618617fe-dff3-4e69-acc3-a8392bbdf666</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>19.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>20.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>20.9</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_2a216a43-d387-48a5-9cba-215c95f56ea4" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_618617fe-dff3-4e69-acc3-a8392bbdf666_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_618617fe-dff3-4e69-acc3-a8392bbdf666_2_poly_0_">
+<gml:posList>25498767.2175 6674482.3625 20.94 25498767.7866 6674484.7333 20.94 25498770.926299997 6674483.9751 20.94 25498770.3644 6674481.6035 20.94 25498774.6094 6674480.579599999 20.94 25498775.1718 6674482.9384 20.94 25498778.3038 6674482.203499999 20.94 25498777.738199998 6674479.825 20.94 25498781.9889 6674478.7997 20.94 25498782.5571 6674481.1746 20.94 25498785.72 6674480.4087 20.94 25498785.146399997 6674478.0382 20.94 25498788.8029 6674477.1562 20.94 25498789.3701 6674479.5268 20.94 25498792.5252 6674478.7686 20.94 25498791.9463 6674476.3981 20.94 25498796.1802 6674475.3769 20.94 25498796.7553 6674477.7551 20.94 25498799.8796 6674476.997 20.94 25498799.3291 6674474.6174 20.94 25498803.7147 6674473.559599999 20.94 25498804.2952 6674475.9294 20.94 25498805.1873 6674479.628 20.94 25498779.0843 6674485.924 20.94 25498778.651 6674484.127899999 20.94 25498766.933 6674486.9543 20.94 25498765.1528 6674482.8604999995 20.94 25498767.2175 6674482.3625 20.94</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_25532227-1947-4b6c-a4f7-37623ed1b908_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>366.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>25532227-1947-4b6c-a4f7-37623ed1b908</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>23.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>25.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>23.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>25.0</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_cad7fc6d-0ee1-45b2-a8d3-80bb356c0574" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_25532227-1947-4b6c-a4f7-37623ed1b908_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_25532227-1947-4b6c-a4f7-37623ed1b908_2_poly_0_">
+<gml:posList>25498778.651 6674484.127899999 24.98 25498779.0843 6674485.924 24.98 25498805.1873 6674479.628 24.98 25498806.7642 6674486.166 24.98 25498770.3616 6674494.946299999 24.98 25498763.8231 6674499.2047 24.98 25498757.349999998 6674489.2657 24.98 25498778.651 6674484.127899999 24.98</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_2d87fb6b-e775-4b70-b36f-99f92a9703f6_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>19.4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>2d87fb6b-e775-4b70-b36f-99f92a9703f6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>19.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>20.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>20.8</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_18287bb2-6188-4684-be2f-a82eda04159b" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_2d87fb6b-e775-4b70-b36f-99f92a9703f6_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_2d87fb6b-e775-4b70-b36f-99f92a9703f6_2_poly_0_">
+<gml:posList>25498760.4476 6674485.9249 20.819 25498761.7856 6674487.9593 20.819 25498764.4922 6674486.1799 20.819 25498763.1514 6674484.164 20.819 25498765.1528 6674482.8604999995 20.819 25498766.933 6674486.9543 20.819 25498757.349999998 6674489.2657 20.819 25498756.7448 6674488.3365 20.819 25498760.4476 6674485.9249 20.819</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_2e4e28ab-9e8e-4a8d-b0ac-48a2c363ecb5_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -11764,174 +11998,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_94c27135-4303-4412-9347-b4c3f79df050_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>477.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>94c27135-4303-4412-9347-b4c3f79df050</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>19.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>21.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>21.2</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_a6432b71-11a9-4d1c-b492-e7b2becabe70" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_94c27135-4303-4412-9347-b4c3f79df050_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_94c27135-4303-4412-9347-b4c3f79df050_2_poly_0_">
-<gml:posList>25498807.3963 6674475.1867 21.1595 25498806.8251 6674472.8094 21.1595 25498810.4833 6674471.927 21.1595 25498811.0541 6674474.3125 21.1595 25498814.209299996 6674473.5466 21.1595 25498813.6162 6674471.1714 21.1595 25498817.8696 6674470.1455 21.1595 25498818.4471 6674472.5177 21.1595 25498821.5791 6674471.7673 21.1595 25498821.0204 6674469.3856 21.1595 25498825.265599996 6674468.3617 21.1595 25498825.8401 6674470.7461 21.1595 25498828.9798 6674469.9879 21.1595 25498828.3959 6674467.6066 21.1595 25498832.0629 6674466.7222 21.1595 25498832.6376 6674469.1137 21.1595 25498835.7618 6674468.3633 21.1595 25498835.1885 6674465.9683 21.1595 25498839.4374 6674464.9435 21.1595 25498840.0383 6674467.3344 21.1595 25498843.7718 6674466.4083 21.1595 25498846.2407 6674476.6443 21.1595 25498806.7642 6674486.166 21.1595 25498805.1873 6674479.628 21.1595 25498804.2952 6674475.9294 21.1595 25498807.3963 6674475.1867 21.1595</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_618617fe-dff3-4e69-acc3-a8392bbdf666_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>182.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>618617fe-dff3-4e69-acc3-a8392bbdf666</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>19.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>20.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>20.9</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_2a216a43-d387-48a5-9cba-215c95f56ea4" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_618617fe-dff3-4e69-acc3-a8392bbdf666_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_618617fe-dff3-4e69-acc3-a8392bbdf666_2_poly_0_">
-<gml:posList>25498767.2175 6674482.3625 20.94 25498767.7866 6674484.7333 20.94 25498770.926299997 6674483.9751 20.94 25498770.3644 6674481.6035 20.94 25498774.6094 6674480.579599999 20.94 25498775.1718 6674482.9384 20.94 25498778.3038 6674482.203499999 20.94 25498777.738199998 6674479.825 20.94 25498781.9889 6674478.7997 20.94 25498782.5571 6674481.1746 20.94 25498785.72 6674480.4087 20.94 25498785.146399997 6674478.0382 20.94 25498788.8029 6674477.1562 20.94 25498789.3701 6674479.5268 20.94 25498792.5252 6674478.7686 20.94 25498791.9463 6674476.3981 20.94 25498796.1802 6674475.3769 20.94 25498796.7553 6674477.7551 20.94 25498799.8796 6674476.997 20.94 25498799.3291 6674474.6174 20.94 25498803.7147 6674473.559599999 20.94 25498804.2952 6674475.9294 20.94 25498805.1873 6674479.628 20.94 25498779.0843 6674485.924 20.94 25498778.651 6674484.127899999 20.94 25498766.933 6674486.9543 20.94 25498765.1528 6674482.8604999995 20.94 25498767.2175 6674482.3625 20.94</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_25532227-1947-4b6c-a4f7-37623ed1b908_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>366.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>25532227-1947-4b6c-a4f7-37623ed1b908</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>23.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>25.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>23.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>25.0</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_cad7fc6d-0ee1-45b2-a8d3-80bb356c0574" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_25532227-1947-4b6c-a4f7-37623ed1b908_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_25532227-1947-4b6c-a4f7-37623ed1b908_2_poly_0_">
-<gml:posList>25498778.651 6674484.127899999 24.98 25498779.0843 6674485.924 24.98 25498805.1873 6674479.628 24.98 25498806.7642 6674486.166 24.98 25498770.3616 6674494.946299999 24.98 25498763.8231 6674499.2047 24.98 25498757.349999998 6674489.2657 24.98 25498778.651 6674484.127899999 24.98</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_2d87fb6b-e775-4b70-b36f-99f92a9703f6_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>19.4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>2d87fb6b-e775-4b70-b36f-99f92a9703f6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>19.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>20.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>20.8</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_18287bb2-6188-4684-be2f-a82eda04159b" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_2d87fb6b-e775-4b70-b36f-99f92a9703f6_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_2d87fb6b-e775-4b70-b36f-99f92a9703f6_2_poly_0_">
-<gml:posList>25498760.4476 6674485.9249 20.819 25498761.7856 6674487.9593 20.819 25498764.4922 6674486.1799 20.819 25498763.1514 6674484.164 20.819 25498765.1528 6674482.8604999995 20.819 25498766.933 6674486.9543 20.819 25498757.349999998 6674489.2657 20.819 25498756.7448 6674488.3365 20.819 25498760.4476 6674485.9249 20.819</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_a9dd1b6d-52d5-4870-848f-42093cb0c76b_2">
@@ -13278,36 +13344,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_c481fba5-0dd2-4c90-ba69-e445695915e2_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1046.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c481fba5-0dd2-4c90-ba69-e445695915e2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>-0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>1.8</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_849c6d25-9707-4462-b0ad-557f3dc2c8bc" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_c481fba5-0dd2-4c90-ba69-e445695915e2_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_c481fba5-0dd2-4c90-ba69-e445695915e2_2_poly_0_">
-<gml:posList>25498763.8231 6674499.2047 1.8379999999999999 25498770.3616 6674494.946299999 1.8379999999999999 25498846.2407 6674476.6443 1.8379999999999999 25498843.7718 6674466.4083 1.8379999999999999 25498840.0383 6674467.3344 1.8379999999999999 25498839.4374 6674464.9435 1.8379999999999999 25498835.1885 6674465.9683 1.8379999999999999 25498835.7618 6674468.3633 1.8379999999999999 25498832.6376 6674469.1137 1.8379999999999999 25498832.0629 6674466.7222 1.8379999999999999 25498828.3959 6674467.6066 1.8379999999999999 25498828.9798 6674469.9879 1.8379999999999999 25498825.8401 6674470.7461 1.8379999999999999 25498825.265599996 6674468.3617 1.8379999999999999 25498821.0204 6674469.3856 1.8379999999999999 25498821.5791 6674471.7673 1.8379999999999999 25498818.4471 6674472.5177 1.8379999999999999 25498817.8696 6674470.1455 1.8379999999999999 25498813.6162 6674471.1714 1.8379999999999999 25498814.209299996 6674473.5466 1.8379999999999999 25498811.0541 6674474.3125 1.8379999999999999 25498810.4833 6674471.927 1.8379999999999999 25498806.8251 6674472.8094 1.8379999999999999 25498807.3963 6674475.1867 1.8379999999999999 25498804.2952 6674475.9294 1.8379999999999999 25498803.7147 6674473.559599999 1.8379999999999999 25498799.3291 6674474.6174 1.8379999999999999 25498799.8796 6674476.997 1.8379999999999999 25498796.7553 6674477.7551 1.8379999999999999 25498796.1802 6674475.3769 1.8379999999999999 25498791.9463 6674476.3981 1.8379999999999999 25498792.5252 6674478.7686 1.8379999999999999 25498789.3701 6674479.5268 1.8379999999999999 25498788.8029 6674477.1562 1.8379999999999999 25498785.146399997 6674478.0382 1.8379999999999999 25498785.72 6674480.4087 1.8379999999999999 25498782.5571 6674481.1746 1.8379999999999999 25498781.9889 6674478.7997 1.8379999999999999 25498777.738199998 6674479.825 1.8379999999999999 25498778.3038 6674482.203499999 1.8379999999999999 25498775.1718 6674482.9384 1.8379999999999999 25498774.6094 6674480.579599999 1.8379999999999999 25498770.3644 6674481.6035 1.8379999999999999 25498770.926299997 6674483.9751 1.8379999999999999 25498767.7866 6674484.7333 1.8379999999999999 25498767.2175 6674482.3625 1.8379999999999999 25498765.1528 6674482.8604999995 1.8379999999999999 25498763.1514 6674484.164 1.8379999999999999 25498764.4922 6674486.1799 1.8379999999999999 25498761.7856 6674487.9593 1.8379999999999999 25498760.4476 6674485.9249 1.8379999999999999 25498756.7448 6674488.3365 1.8379999999999999 25498763.8231 6674499.2047 1.8379999999999999</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_1414245b-1796-4bac-a3af-a4bc9046773e_4a1c77d0-e98a-46f5-a8e9-97199a3e4264_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -14159,16 +14195,16 @@
 <gen:value>2014-01-30</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123114850.861</gen:value>
+<gen:value>20201125130748.549</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
-<gen:value>842</gen:value>
+<gen:value>738</gen:value>
 </gen:intAttribute>
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="Bel_SPL">
-<gen:value>37.2</gen:value>
+<gen:stringAttribute name="V">
+<gen:value>203.9</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.91</bldg:measuredHeight>
@@ -14196,6 +14232,120 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_16afc1a4-72b7-492d-9cd3-b995fef4fb7a_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>79.49</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>16afc1a4-72b7-492d-9cd3-b995fef4fb7a</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.9</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_7bbbfed8-2d2b-4544-bee5-be6d862501b9" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_16afc1a4-72b7-492d-9cd3-b995fef4fb7a_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_16afc1a4-72b7-492d-9cd3-b995fef4fb7a_2_poly_0_">
+<gml:posList>25498967.565 6674639.946 4.9 25498973.989 6674651.239 4.9 25498974.313 6674651.054 4.9 25498973.838 6674650.185 4.9 25498976.174 6674648.852 4.9 25498976.653 6674649.729 4.9 25498979.674 6674648.005 4.9 25498973.248 6674636.71 4.9 25498969.549 6674638.818 4.9 25498970.282 6674640.11 4.9 25498968.63 6674641.048 4.9 25498967.897 6674639.757 4.9 25498967.565 6674639.946 4.9</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_d1b3d7f6-4bdc-437a-ac31-ff7919e0eeb1_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>19.98</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>d1b3d7f6-4bdc-437a-ac31-ff7919e0eeb1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>7.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>12.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>7.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>12.6</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_8be5f7ba-f41e-4b3e-996a-ff30ee3c86bc" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_d1b3d7f6-4bdc-437a-ac31-ff7919e0eeb1_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_d1b3d7f6-4bdc-437a-ac31-ff7919e0eeb1_2_poly_0_">
+<gml:posList>25498967.897 6674639.757 12.6 25498968.63 6674641.048 12.6 25498970.282 6674640.11 12.6 25498969.549 6674638.818 12.6 25498973.248 6674636.71 12.6 25498974.971 6674639.738 12.6 25498969.291 6674642.98 12.6 25498967.565 6674639.946 12.6 25498967.897 6674639.757 12.6</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_c8e45a77-e548-4431-be62-bef2eac0a364_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>59.51</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>c8e45a77-e548-4431-be62-bef2eac0a364</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>11.79</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.69</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>11.79</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.69</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_eaccd145-e824-41b6-9412-724cc36c3ba5" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_c8e45a77-e548-4431-be62-bef2eac0a364_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_c8e45a77-e548-4431-be62-bef2eac0a364_2_poly_0_">
+<gml:posList>25498974.971 6674639.738 16.69 25498979.674 6674648.005 16.69 25498976.653 6674649.729 16.69 25498976.174 6674648.852 16.69 25498973.838 6674650.185 16.69 25498974.313 6674651.054 16.69 25498973.989 6674651.239 16.69 25498969.291 6674642.98 16.69 25498974.971 6674639.738 16.69</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_e6dfaa01-0f32-43cd-9648-ee0ac5b0586c_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -14279,48 +14429,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_d1b3d7f6-4bdc-437a-ac31-ff7919e0eeb1_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>19.98</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>d1b3d7f6-4bdc-437a-ac31-ff7919e0eeb1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>7.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>12.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>7.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>12.6</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_8be5f7ba-f41e-4b3e-996a-ff30ee3c86bc" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_d1b3d7f6-4bdc-437a-ac31-ff7919e0eeb1_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_d1b3d7f6-4bdc-437a-ac31-ff7919e0eeb1_2_poly_0_">
-<gml:posList>25498967.897 6674639.757 12.6 25498968.63 6674641.048 12.6 25498970.282 6674640.11 12.6 25498969.549 6674638.818 12.6 25498973.248 6674636.71 12.6 25498974.971 6674639.738 12.6 25498969.291 6674642.98 12.6 25498967.565 6674639.946 12.6 25498967.897 6674639.757 12.6</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_66ce303f-41a0-4fcb-8974-143c428c8023_2">
@@ -14611,36 +14719,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_16afc1a4-72b7-492d-9cd3-b995fef4fb7a_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>79.49</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>16afc1a4-72b7-492d-9cd3-b995fef4fb7a</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.9</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_7bbbfed8-2d2b-4544-bee5-be6d862501b9" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_16afc1a4-72b7-492d-9cd3-b995fef4fb7a_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_16afc1a4-72b7-492d-9cd3-b995fef4fb7a_2_poly_0_">
-<gml:posList>25498967.565 6674639.946 4.9 25498973.989 6674651.239 4.9 25498974.313 6674651.054 4.9 25498973.838 6674650.185 4.9 25498976.174 6674648.852 4.9 25498976.653 6674649.729 4.9 25498979.674 6674648.005 4.9 25498973.248 6674636.71 4.9 25498969.549 6674638.818 4.9 25498970.282 6674640.11 4.9 25498968.63 6674641.048 4.9 25498967.897 6674639.757 4.9 25498967.565 6674639.946 4.9</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_b4c2ccc7-17ec-45ef-9ce1-3bb7c1ddecb3_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -14681,48 +14759,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_c8e45a77-e548-4431-be62-bef2eac0a364_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>59.51</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c8e45a77-e548-4431-be62-bef2eac0a364</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>11.79</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>11.79</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.69</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_eaccd145-e824-41b6-9412-724cc36c3ba5" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_c8e45a77-e548-4431-be62-bef2eac0a364_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3850179f-e8cf-4bd4-ae00-54caa080655c_c8e45a77-e548-4431-be62-bef2eac0a364_2_poly_0_">
-<gml:posList>25498974.971 6674639.738 16.69 25498979.674 6674648.005 16.69 25498976.653 6674649.729 16.69 25498976.174 6674648.852 16.69 25498973.838 6674650.185 16.69 25498974.313 6674651.054 16.69 25498973.989 6674651.239 16.69 25498969.291 6674642.98 16.69 25498974.971 6674639.738 16.69</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
@@ -14807,16 +14843,16 @@
 <gen:value>2c6d3819-a3c3-4477-af31-9d73be2ca30b</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123114850.861</gen:value>
+<gen:value>20201125130748.549</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
-<gen:value>842</gen:value>
+<gen:value>739</gen:value>
 </gen:intAttribute>
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="Bel_SPL">
-<gen:value>37.2</gen:value>
+<gen:stringAttribute name="A">
+<gen:value>0.01</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">19.83</bldg:measuredHeight>
@@ -14878,25 +14914,13 @@
 </gml:Solid>
 </bldg:lod2Solid>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_b29dfdae-fa29-49b0-9759-f258315c03c2_2">
+<bldg:GroundSurface gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_b2b84034-e8be-4dfa-84fc-5dd8275aeffa_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>404.3</gen:value>
+<gen:value>930.36</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>b29dfdae-fa29-49b0-9759-f258315c03c2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.26</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>22.87</gen:value>
+<gen:value>b2b84034-e8be-4dfa-84fc-5dd8275aeffa</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>0.0</gen:value>
@@ -14905,19 +14929,19 @@
 <gen:value>2.61</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_7a0bcc22-463c-469c-a8e3-7a73a588c7b2" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_d7812ca4-000d-4b58-ad53-7af551c0a1b2" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_b29dfdae-fa29-49b0-9759-f258315c03c2_2_poly">
+<gml:Polygon gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_b2b84034-e8be-4dfa-84fc-5dd8275aeffa_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_b29dfdae-fa29-49b0-9759-f258315c03c2_2_poly_0_">
-<gml:posList>25498913.878 6674577.303 2.61 25498913.878 6674577.303 22.87 25498931.222 6674567.434 22.87 25498931.222 6674567.434 2.61 25498913.878 6674577.303 2.61</gml:posList>
+<gml:LinearRing gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_b2b84034-e8be-4dfa-84fc-5dd8275aeffa_2_poly_0_">
+<gml:posList>25498913.262 6674528.381 2.61 25498923.392 6674525.938 2.61 25498920.529 6674513.256 2.61 25498916.929 6674514.129 2.61 25498917.424 6674516.17 2.61 25498914.401 6674516.903 2.61 25498913.906 6674514.863 2.61 25498909.933 6674515.826 2.61 25498910.428 6674517.867 2.61 25498907.114 6674518.671 2.61 25498906.619 6674516.63 2.61 25498900.515 6674518.111 2.61 25498901.456 6674522.28 2.61 25498898.702 6674522.902 2.61 25498900.408 6674530.46 2.61 25498903.162 6674529.838 2.61 25498903.92 6674533.194 2.61 25498901.164 6674533.816 2.61 25498902.924 6674541.61 2.61 25498905.679 6674540.988 2.61 25498906.463 6674544.46 2.61 25498903.708 6674545.082 2.61 25498905.425 6674552.691 2.61 25498908.181 6674552.069 2.61 25498908.965 6674555.541 2.61 25498906.209 6674556.163 2.61 25498907.936 6674563.811 2.61 25498910.691 6674563.189 2.61 25498911.484 6674566.7 2.61 25498908.729 6674567.323 2.61 25498910.44 6674574.902 2.61 25498913.195 6674574.28 2.61 25498913.878 6674577.303 2.61 25498931.222 6674567.434 2.61 25498924.815 6674556.123 2.61 25498920.129 6674558.789 2.61 25498913.262 6674528.381 2.61</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:WallSurface>
+</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_295c09a9-061b-48eb-ad38-e6b86f8c7af8_2">
@@ -14962,48 +14986,6 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_5e333a75-c7b2-48a5-b274-b320cef5e7b3_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>54.47</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>5e333a75-c7b2-48a5-b274-b320cef5e7b3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>19.28</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>21.89</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>2.61</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_d99639d8-ab10-4da0-86c5-8cf1fb05a883" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_5e333a75-c7b2-48a5-b274-b320cef5e7b3_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_5e333a75-c7b2-48a5-b274-b320cef5e7b3_2_poly_0_">
-<gml:posList>25498903.92 6674533.194 21.89 25498901.164 6674533.816 21.89 25498901.164 6674533.816 2.61 25498903.92 6674533.194 2.61 25498903.92 6674533.194 21.89</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_17f13a4b-4119-43e4-a402-85da89569e3c_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -15044,6 +15026,132 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_66268880-9c78-4f89-9c85-c199dbdd17a0_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>307.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>66268880-9c78-4f89-9c85-c199dbdd17a0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>19.28</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>21.89</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.28</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>21.89</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_1c11fa6b-fd25-4993-9f4b-cf2b4a78f7d9" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_66268880-9c78-4f89-9c85-c199dbdd17a0_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_66268880-9c78-4f89-9c85-c199dbdd17a0_2_poly_0_">
+<gml:posList>25498901.164 6674533.816 21.89 25498903.92 6674533.194 21.89 25498903.162 6674529.838 21.89 25498900.408 6674530.46 21.89 25498898.702 6674522.902 21.89 25498901.456 6674522.28 21.89 25498900.515 6674518.111 21.89 25498906.619 6674516.63 21.89 25498907.114 6674518.671 21.89 25498910.428 6674517.867 21.89 25498909.933 6674515.826 21.89 25498913.906 6674514.863 21.89 25498914.401 6674516.903 21.89 25498917.424 6674516.17 21.89 25498916.929 6674514.129 21.89 25498920.529 6674513.256 21.89 25498923.392 6674525.938 21.89 25498913.311 6674528.369 21.89 25498913.088 6674527.384 21.89 25498916.544 6674526.545 21.89 25498915.685 6674522.74 21.89 25498908.264 6674524.474 21.89 25498909.138 6674528.342 21.89 25498905.099 6674529.322 21.89 25498909.288 6674547.872 21.89 25498904.578 6674548.936 21.89 25498903.708 6674545.082 21.89 25498906.463 6674544.46 21.89 25498905.679 6674540.988 21.89 25498902.924 6674541.61 21.89 25498901.164 6674533.816 21.89</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_b29dfdae-fa29-49b0-9759-f258315c03c2_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>404.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>b29dfdae-fa29-49b0-9759-f258315c03c2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.26</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>22.87</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>2.61</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_7a0bcc22-463c-469c-a8e3-7a73a588c7b2" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_b29dfdae-fa29-49b0-9759-f258315c03c2_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_b29dfdae-fa29-49b0-9759-f258315c03c2_2_poly_0_">
+<gml:posList>25498913.878 6674577.303 2.61 25498913.878 6674577.303 22.87 25498931.222 6674567.434 22.87 25498931.222 6674567.434 2.61 25498913.878 6674577.303 2.61</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_5e333a75-c7b2-48a5-b274-b320cef5e7b3_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>54.47</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>5e333a75-c7b2-48a5-b274-b320cef5e7b3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>19.28</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>21.89</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>2.61</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_d99639d8-ab10-4da0-86c5-8cf1fb05a883" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_5e333a75-c7b2-48a5-b274-b320cef5e7b3_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_5e333a75-c7b2-48a5-b274-b320cef5e7b3_2_poly_0_">
+<gml:posList>25498903.92 6674533.194 21.89 25498901.164 6674533.816 21.89 25498901.164 6674533.816 2.61 25498903.92 6674533.194 2.61 25498903.92 6674533.194 21.89</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_e80b6664-b142-471b-a2f9-86625b627da8_2">
@@ -15439,48 +15547,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_66268880-9c78-4f89-9c85-c199dbdd17a0_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>307.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>66268880-9c78-4f89-9c85-c199dbdd17a0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>19.28</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>21.89</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.28</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>21.89</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_1c11fa6b-fd25-4993-9f4b-cf2b4a78f7d9" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_66268880-9c78-4f89-9c85-c199dbdd17a0_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_66268880-9c78-4f89-9c85-c199dbdd17a0_2_poly_0_">
-<gml:posList>25498901.164 6674533.816 21.89 25498903.92 6674533.194 21.89 25498903.162 6674529.838 21.89 25498900.408 6674530.46 21.89 25498898.702 6674522.902 21.89 25498901.456 6674522.28 21.89 25498900.515 6674518.111 21.89 25498906.619 6674516.63 21.89 25498907.114 6674518.671 21.89 25498910.428 6674517.867 21.89 25498909.933 6674515.826 21.89 25498913.906 6674514.863 21.89 25498914.401 6674516.903 21.89 25498917.424 6674516.17 21.89 25498916.929 6674514.129 21.89 25498920.529 6674513.256 21.89 25498923.392 6674525.938 21.89 25498913.311 6674528.369 21.89 25498913.088 6674527.384 21.89 25498916.544 6674526.545 21.89 25498915.685 6674522.74 21.89 25498908.264 6674524.474 21.89 25498909.138 6674528.342 21.89 25498905.099 6674529.322 21.89 25498909.288 6674547.872 21.89 25498904.578 6674548.936 21.89 25498903.708 6674545.082 21.89 25498906.463 6674544.46 21.89 25498905.679 6674540.988 21.89 25498902.924 6674541.61 21.89 25498901.164 6674533.816 21.89</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_b285a3b1-609d-45f1-86ee-ade4e4f66f81_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -15521,36 +15587,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_b2b84034-e8be-4dfa-84fc-5dd8275aeffa_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>930.36</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>b2b84034-e8be-4dfa-84fc-5dd8275aeffa</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>2.61</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_d7812ca4-000d-4b58-ad53-7af551c0a1b2" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_b2b84034-e8be-4dfa-84fc-5dd8275aeffa_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_b2b84034-e8be-4dfa-84fc-5dd8275aeffa_2_poly_0_">
-<gml:posList>25498913.262 6674528.381 2.61 25498923.392 6674525.938 2.61 25498920.529 6674513.256 2.61 25498916.929 6674514.129 2.61 25498917.424 6674516.17 2.61 25498914.401 6674516.903 2.61 25498913.906 6674514.863 2.61 25498909.933 6674515.826 2.61 25498910.428 6674517.867 2.61 25498907.114 6674518.671 2.61 25498906.619 6674516.63 2.61 25498900.515 6674518.111 2.61 25498901.456 6674522.28 2.61 25498898.702 6674522.902 2.61 25498900.408 6674530.46 2.61 25498903.162 6674529.838 2.61 25498903.92 6674533.194 2.61 25498901.164 6674533.816 2.61 25498902.924 6674541.61 2.61 25498905.679 6674540.988 2.61 25498906.463 6674544.46 2.61 25498903.708 6674545.082 2.61 25498905.425 6674552.691 2.61 25498908.181 6674552.069 2.61 25498908.965 6674555.541 2.61 25498906.209 6674556.163 2.61 25498907.936 6674563.811 2.61 25498910.691 6674563.189 2.61 25498911.484 6674566.7 2.61 25498908.729 6674567.323 2.61 25498910.44 6674574.902 2.61 25498913.195 6674574.28 2.61 25498913.878 6674577.303 2.61 25498931.222 6674567.434 2.61 25498924.815 6674556.123 2.61 25498920.129 6674558.789 2.61 25498913.262 6674528.381 2.61</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_2c6d3819-a3c3-4477-af31-9d73be2ca30b_71aa7bac-8ebf-4da4-8682-a51f6451c9fe_2">
@@ -16358,7 +16394,7 @@
 <gen:value>Suvilahti</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123114904.179</gen:value>
+<gen:value>20201125190812</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>837</gen:value>
@@ -16394,6 +16430,204 @@
 </gml:Solid>
 </bldg:lod2Solid>
 <bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_b6984185-28ef-4303-b627-cc3002fc4069_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>414.4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>b6984185-28ef-4303-b627-cc3002fc4069</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>-0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.0</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_bb187a6b-84cb-4264-a44d-8607d6881ce2" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_b6984185-28ef-4303-b627-cc3002fc4069_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_b6984185-28ef-4303-b627-cc3002fc4069_2_poly_0_">
+<gml:posList>25498973.3915 6674541.8012 3.956 25498968.2693 6674532.7961 3.956 25498933.5005 6674552.5732 3.956 25498938.6228 6674561.5783 3.956 25498973.3915 6674541.8012 3.956</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_f2f6cd02-9035-41ba-b087-2f53e0eb1230_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>35.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>f2f6cd02-9035-41ba-b087-2f53e0eb1230</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>7.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>11.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>7.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>11.9</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_5d2692e8-6a76-4883-aa0b-343ce0c0fc8f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_f2f6cd02-9035-41ba-b087-2f53e0eb1230_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_f2f6cd02-9035-41ba-b087-2f53e0eb1230_2_poly_0_">
+<gml:posList>25498968.2693 6674532.7961 11.9 25498973.3915 6674541.8012 11.9 25498970.4454 6674543.476999999 11.9 25498965.3231 6674534.471899999 11.9 25498968.2693 6674532.7961 11.9</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_fd29a40d-0a59-47d7-8c7e-b37b3c4614e1_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>84.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>fd29a40d-0a59-47d7-8c7e-b37b3c4614e1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>7.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>11.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>7.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>11.9</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_640aa4ee-b569-4570-a725-8c4801fb686c" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_fd29a40d-0a59-47d7-8c7e-b37b3c4614e1_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_fd29a40d-0a59-47d7-8c7e-b37b3c4614e1_2_poly_0_">
+<gml:posList>25498961.9251 6674536.404699999 11.898 25498963.556799997 6674539.2732 11.898 25498941.3039 6674551.9311 11.898 25498939.6722 6674549.062599999 11.898 25498961.9251 6674536.404699999 11.898</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_257f9b47-5430-4306-b1fa-46225807b144_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>257.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>257f9b47-5430-4306-b1fa-46225807b144</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>12.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>12.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.0</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_4830fcf1-ac37-4822-aa55-ec9d96371ff6" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_257f9b47-5430-4306-b1fa-46225807b144_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_257f9b47-5430-4306-b1fa-46225807b144_2_poly_0_">
+<gml:posList>25498939.6722 6674549.062599999 15.95 25498941.3039 6674551.9311 15.95 25498963.556799997 6674539.2732 15.95 25498961.9251 6674536.404699999 15.95 25498965.3231 6674534.471899999 15.95 25498970.4454 6674543.476999999 15.95 25498941.751099996 6674559.798899999 15.95 25498936.6289 6674550.793799999 15.95 25498939.6722 6674549.062599999 15.95</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_3a035e62-4a87-40e0-aea5-aa8cd11083c7_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>37.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>3a035e62-4a87-40e0-aea5-aa8cd11083c7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>7.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>11.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>7.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>11.9</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_31ab1247-8c69-45c7-9871-84cb05a2cd14" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_3a035e62-4a87-40e0-aea5-aa8cd11083c7_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_3a035e62-4a87-40e0-aea5-aa8cd11083c7_2_poly_0_">
+<gml:posList>25498936.6289 6674550.793799999 11.9 25498941.751099996 6674559.798899999 11.9 25498938.6228 6674561.5783 11.9 25498933.5005 6674552.5732 11.9 25498936.6289 6674550.793799999 11.9</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_700f123b-7f4c-41c1-8671-da5f07ae693f_2">
 <core:creationDate>2019-01-28</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -16428,36 +16662,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_b6984185-28ef-4303-b627-cc3002fc4069_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>414.4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>b6984185-28ef-4303-b627-cc3002fc4069</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>-0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.0</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_bb187a6b-84cb-4264-a44d-8607d6881ce2" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_b6984185-28ef-4303-b627-cc3002fc4069_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_b6984185-28ef-4303-b627-cc3002fc4069_2_poly_0_">
-<gml:posList>25498973.3915 6674541.8012 3.956 25498968.2693 6674532.7961 3.956 25498933.5005 6674552.5732 3.956 25498938.6228 6674561.5783 3.956 25498973.3915 6674541.8012 3.956</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_e3627693-630b-458d-adb1-bb302e56198a_2">
@@ -16747,174 +16951,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_f2f6cd02-9035-41ba-b087-2f53e0eb1230_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>35.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>f2f6cd02-9035-41ba-b087-2f53e0eb1230</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>7.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>11.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>7.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>11.9</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_5d2692e8-6a76-4883-aa0b-343ce0c0fc8f" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_f2f6cd02-9035-41ba-b087-2f53e0eb1230_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_f2f6cd02-9035-41ba-b087-2f53e0eb1230_2_poly_0_">
-<gml:posList>25498968.2693 6674532.7961 11.9 25498973.3915 6674541.8012 11.9 25498970.4454 6674543.476999999 11.9 25498965.3231 6674534.471899999 11.9 25498968.2693 6674532.7961 11.9</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_fd29a40d-0a59-47d7-8c7e-b37b3c4614e1_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>84.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>fd29a40d-0a59-47d7-8c7e-b37b3c4614e1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>7.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>11.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>7.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>11.9</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_640aa4ee-b569-4570-a725-8c4801fb686c" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_fd29a40d-0a59-47d7-8c7e-b37b3c4614e1_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_fd29a40d-0a59-47d7-8c7e-b37b3c4614e1_2_poly_0_">
-<gml:posList>25498961.9251 6674536.404699999 11.898 25498963.556799997 6674539.2732 11.898 25498941.3039 6674551.9311 11.898 25498939.6722 6674549.062599999 11.898 25498961.9251 6674536.404699999 11.898</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_257f9b47-5430-4306-b1fa-46225807b144_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>257.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>257f9b47-5430-4306-b1fa-46225807b144</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>12.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>12.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.0</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_4830fcf1-ac37-4822-aa55-ec9d96371ff6" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_257f9b47-5430-4306-b1fa-46225807b144_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_257f9b47-5430-4306-b1fa-46225807b144_2_poly_0_">
-<gml:posList>25498939.6722 6674549.062599999 15.95 25498941.3039 6674551.9311 15.95 25498963.556799997 6674539.2732 15.95 25498961.9251 6674536.404699999 15.95 25498965.3231 6674534.471899999 15.95 25498970.4454 6674543.476999999 15.95 25498941.751099996 6674559.798899999 15.95 25498936.6289 6674550.793799999 15.95 25498939.6722 6674549.062599999 15.95</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_3a035e62-4a87-40e0-aea5-aa8cd11083c7_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>37.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>3a035e62-4a87-40e0-aea5-aa8cd11083c7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>7.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>11.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>7.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>11.9</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_31ab1247-8c69-45c7-9871-84cb05a2cd14" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_3a035e62-4a87-40e0-aea5-aa8cd11083c7_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3a388dda-e29d-4854-a461-97ae446bce38_3a035e62-4a87-40e0-aea5-aa8cd11083c7_2_poly_0_">
-<gml:posList>25498936.6289 6674550.793799999 11.9 25498941.751099996 6674559.798899999 11.9 25498938.6228 6674561.5783 11.9 25498933.5005 6674552.5732 11.9 25498936.6289 6674550.793799999 11.9</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -16996,16 +17032,16 @@
 <gen:value>103509649X</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123114850.861</gen:value>
+<gen:value>20201125112557.452</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
-<gen:value>842</gen:value>
+<gen:value>740</gen:value>
 </gen:intAttribute>
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="Bel_SPL">
-<gen:value>37.2</gen:value>
+<gen:stringAttribute name="A">
+<gen:value>0.01</gen:value>
 </gen:stringAttribute>
 <bldg:function>039</bldg:function>
 <bldg:roofType>2100;1000</bldg:roofType>
@@ -17033,6 +17069,36 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_4acc7a42-94b1-4dc0-a36a-00c4d0a9f87f_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>832.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>4acc7a42-94b1-4dc0-a36a-00c4d0a9f87f</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>-0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.3</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_ac1dd082-2baa-4311-aa5e-e357e4b17e82" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_4acc7a42-94b1-4dc0-a36a-00c4d0a9f87f_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_4acc7a42-94b1-4dc0-a36a-00c4d0a9f87f_2_poly_0_">
+<gml:posList>25499066.0004 6674607.2575 3.2599999999999993 25499054.1699 6674605.9733 3.2599999999999993 25499049.1047 6674652.6362 3.2599999999999993 25499093.2016 6674627.5494 3.2599999999999993 25499088.2509 6674618.8471 3.2599999999999993 25499063.195099995 6674633.1014 3.2599999999999993 25499066.0004 6674607.2575 3.2599999999999993</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_f9809f9a-9ed8-4c1a-8b9a-4f4f1e75a2c2_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -17067,6 +17133,132 @@
 <gml:exterior>
 <gml:LinearRing gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_f9809f9a-9ed8-4c1a-8b9a-4f4f1e75a2c2_2_poly_0_">
 <gml:posList>25499050.443999995 6674640.298 31.05 25499054.1636 6674606.0311 26.6185 25499063.2173 6674632.896699999 31.031499999999998 25499063.2018 6674633.0401 31.05 25499058.9492 6674635.4594 31.05 25499050.443999995 6674640.298 31.05</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_b2beabdf-c031-4f27-bf42-dbcac701158e_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>337.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>b2beabdf-c031-4f27-bf42-dbcac701158e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>29.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>32.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>29.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>32.3</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_d0700213-9e77-4ca9-8027-10346c055f43" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_b2beabdf-c031-4f27-bf42-dbcac701158e_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_b2beabdf-c031-4f27-bf42-dbcac701158e_2_poly_0_">
+<gml:posList>25499063.2018 6674633.0401 32.33 25499063.195099995 6674633.1014 32.33 25499088.2509 6674618.8471 32.33 25499093.2016 6674627.5494 32.33 25499063.9246 6674644.205099999 32.33 25499062.7363 6674642.1163 32.33 25499058.9492 6674635.4594 32.33 25499063.2018 6674633.0401 32.33</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_eca1a516-bcd4-41c8-b710-1045cdb4a70b_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>156.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>eca1a516-bcd4-41c8-b710-1045cdb4a70b</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>173.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>80.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>27.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>31.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>23.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>26.6</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_99082a29-807e-41f8-b001-fa6efdddc0e2" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_eca1a516-bcd4-41c8-b710-1045cdb4a70b_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_eca1a516-bcd4-41c8-b710-1045cdb4a70b_2_poly_0_">
+<gml:posList>25499054.1699 6674605.9733 26.6086 25499066.0004 6674607.2575 26.6086 25499063.2173 6674632.896699999 31.031499999999998 25499054.1636 6674606.0311 26.6185 25499054.1699 6674605.9733 26.6086</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_256c728b-ba40-41ab-a571-e45ca6cfc937_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>136.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>256c728b-ba40-41ab-a571-e45ca6cfc937</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>209.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>80.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>29.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>32.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>27.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>31.1</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_39202976-22f2-4460-8ed6-12b0d5e2c6f4" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_256c728b-ba40-41ab-a571-e45ca6cfc937_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_256c728b-ba40-41ab-a571-e45ca6cfc937_2_poly_0_">
+<gml:posList>25499050.443999995 6674640.298 31.05 25499058.9492 6674635.4594 31.05 25499062.7363 6674642.1163 32.33 25499063.9246 6674644.205099999 32.7316 25499049.1047 6674652.6362 32.7316 25499050.443999995 6674640.298 31.05</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
@@ -17158,36 +17350,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_4acc7a42-94b1-4dc0-a36a-00c4d0a9f87f_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>832.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>4acc7a42-94b1-4dc0-a36a-00c4d0a9f87f</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>-0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.3</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_ac1dd082-2baa-4311-aa5e-e357e4b17e82" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_4acc7a42-94b1-4dc0-a36a-00c4d0a9f87f_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_4acc7a42-94b1-4dc0-a36a-00c4d0a9f87f_2_poly_0_">
-<gml:posList>25499066.0004 6674607.2575 3.2599999999999993 25499054.1699 6674605.9733 3.2599999999999993 25499049.1047 6674652.6362 3.2599999999999993 25499093.2016 6674627.5494 3.2599999999999993 25499088.2509 6674618.8471 3.2599999999999993 25499063.195099995 6674633.1014 3.2599999999999993 25499066.0004 6674607.2575 3.2599999999999993</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_3e101d26-509e-49c1-9adc-aa614ea9c4c2_2">
@@ -17483,132 +17645,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_b2beabdf-c031-4f27-bf42-dbcac701158e_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>337.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>b2beabdf-c031-4f27-bf42-dbcac701158e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>29.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>32.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>29.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>32.3</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_d0700213-9e77-4ca9-8027-10346c055f43" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_b2beabdf-c031-4f27-bf42-dbcac701158e_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_b2beabdf-c031-4f27-bf42-dbcac701158e_2_poly_0_">
-<gml:posList>25499063.2018 6674633.0401 32.33 25499063.195099995 6674633.1014 32.33 25499088.2509 6674618.8471 32.33 25499093.2016 6674627.5494 32.33 25499063.9246 6674644.205099999 32.33 25499062.7363 6674642.1163 32.33 25499058.9492 6674635.4594 32.33 25499063.2018 6674633.0401 32.33</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_eca1a516-bcd4-41c8-b710-1045cdb4a70b_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>156.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>eca1a516-bcd4-41c8-b710-1045cdb4a70b</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>173.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>80.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>27.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>31.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>23.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>26.6</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_99082a29-807e-41f8-b001-fa6efdddc0e2" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_eca1a516-bcd4-41c8-b710-1045cdb4a70b_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_eca1a516-bcd4-41c8-b710-1045cdb4a70b_2_poly_0_">
-<gml:posList>25499054.1699 6674605.9733 26.6086 25499066.0004 6674607.2575 26.6086 25499063.2173 6674632.896699999 31.031499999999998 25499054.1636 6674606.0311 26.6185 25499054.1699 6674605.9733 26.6086</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_256c728b-ba40-41ab-a571-e45ca6cfc937_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>136.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>256c728b-ba40-41ab-a571-e45ca6cfc937</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>209.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>80.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>29.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>32.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>27.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>31.1</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_39202976-22f2-4460-8ed6-12b0d5e2c6f4" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_256c728b-ba40-41ab-a571-e45ca6cfc937_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_44a7f916-3b44-434b-8676-50058ffc8329_256c728b-ba40-41ab-a571-e45ca6cfc937_2_poly_0_">
-<gml:posList>25499050.443999995 6674640.298 31.05 25499058.9492 6674635.4594 31.05 25499062.7363 6674642.1163 32.33 25499063.9246 6674644.205099999 32.7316 25499049.1047 6674652.6362 32.7316 25499050.443999995 6674640.298 31.05</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -17705,7 +17741,7 @@
 <gen:value>2015-03-23</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123114904.179</gen:value>
+<gen:value>20201125190812</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>837</gen:value>
@@ -17770,6 +17806,459 @@
 </gml:Solid>
 </bldg:lod2Solid>
 <bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_8c145143-7b7c-42e8-8c85-fb0acbf08595_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>794.35</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>8c145143-7b7c-42e8-8c85-fb0acbf08595</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>2.91</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_3d2432e5-c1f7-43f1-a7d0-645f29a91d38" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_8c145143-7b7c-42e8-8c85-fb0acbf08595_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_8c145143-7b7c-42e8-8c85-fb0acbf08595_2_poly_0_">
+<gml:posList>25498964.78 6674434.223 2.91 25498974.403 6674474.119 2.91 25498963.724 6674476.695 2.91 25498966.302 6674487.383 2.91 25498987.913 6674482.171 2.91 25498986.4 6674475.901 2.91 25498988.286 6674475.446 2.91 25498977.598 6674431.131 2.91 25498964.78 6674434.223 2.91</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>16.92</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>0be8b470-c680-4b21-8ee0-ac92ba37352a</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>14.15</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>17.06</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>14.15</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>17.06</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_89440cf7-c1cf-4f3e-a30d-caba3fd0189d" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_0_0_">
+<gml:posList>25498986.241 6674466.967 17.065 25498988.286 6674475.446 17.065 25498986.4 6674475.901 17.065 25498984.355 6674467.422 17.065 25498986.241 6674466.967 17.065</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_1_0_">
+<gml:posList>25498965.236 6674436.112 17.02 25498964.78 6674434.223 17.02 25498975.712 6674431.586 17.02 25498976.168 6674433.476 17.02 25498965.236 6674436.112 17.02</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_2_0_">
+<gml:posList>25498979.043 6674437.122 17.165 25498981.158 6674445.893 17.165 25498979.272 6674446.348 17.165 25498977.254 6674437.979 17.165 25498979.043 6674437.122 17.165</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_3_0_">
+<gml:posList>25498980.893 6674453.066 16.742 25498982.779 6674452.611 16.742 25498984.541 6674459.918 16.742 25498982.655 6674460.373 16.742 25498980.893 6674453.066 16.742</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_bbaef11f-b251-48a2-b606-ef2c62f1a952_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>16.26</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>bbaef11f-b251-48a2-b606-ef2c62f1a952</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>23.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>20.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.72</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_288e4633-c64e-4cf7-b545-e77a244ae261" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_bbaef11f-b251-48a2-b606-ef2c62f1a952_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_bbaef11f-b251-48a2-b606-ef2c62f1a952_2_poly_0_">
+<gml:posList>25498972.506 6674441.306 23.719 25498973.578 6674445.752 23.719 25498970.122 6674446.586 23.719 25498969.05 6674442.139 23.719 25498972.506 6674441.306 23.719</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_87e7b428-41c0-481b-a2fa-cff0fe10b17f_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>40.17</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>87e7b428-41c0-481b-a2fa-cff0fe10b17f</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.82</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>20.73</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>17.82</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>20.73</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_0fb70768-d864-4a02-99b5-c7b9fccde453" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_87e7b428-41c0-481b-a2fa-cff0fe10b17f_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_87e7b428-41c0-481b-a2fa-cff0fe10b17f_2_poly_0_">
+<gml:posList>25498976.139 6674481.529 20.733 25498969.308 6674483.176 20.733 25498967.967 6674477.619 20.733 25498974.798 6674475.971 20.733 25498976.139 6674481.529 20.733</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_6d546567-1efb-4b41-b1b5-cc261fde5dbf_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>72.85</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>6d546567-1efb-4b41-b1b5-cc261fde5dbf</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.25</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>23.16</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>20.25</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.16</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_2e7ac1ef-eb07-48f4-b523-d0376d42a699" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_6d546567-1efb-4b41-b1b5-cc261fde5dbf_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_6d546567-1efb-4b41-b1b5-cc261fde5dbf_2_poly_0_0_">
+<gml:posList>25498975.42 6674478.549 23.161 25498986.4 6674475.901 23.161 25498987.913 6674482.171 23.161 25498976.932 6674484.819 23.161 25498975.42 6674478.549 23.161</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_6d546567-1efb-4b41-b1b5-cc261fde5dbf_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_6d546567-1efb-4b41-b1b5-cc261fde5dbf_2_poly_1_0_">
+<gml:posList>25498970.922 6674434.741 23.2 25498972.506 6674441.306 23.2 25498969.05 6674442.139 23.2 25498970.122 6674446.586 23.2 25498967.892 6674447.124 23.2 25498965.236 6674436.112 23.2 25498970.922 6674434.741 23.2</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_62e6a695-70e7-470d-89eb-da7f281d40d8_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>38.17</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>62e6a695-70e7-470d-89eb-da7f281d40d8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>103.56</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>79.21</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.89</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>23.81</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.86</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>22.78</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_ce86abf4-1377-4247-a88d-5763ff0a09f0" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_62e6a695-70e7-470d-89eb-da7f281d40d8_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_62e6a695-70e7-470d-89eb-da7f281d40d8_2_poly_0_">
+<gml:posList>25498980.049 6674449.569 22.78 25498980.893 6674453.066 22.78 25498981.679 6674456.325 22.78 25498976.433 6674457.59 23.808 25498974.804 6674450.834 23.808 25498980.049 6674449.569 22.78</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_f6e1c041-7b05-4fbc-8c2d-3734be58f539_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>12.36</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>f6e1c041-7b05-4fbc-8c2d-3734be58f539</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>16.41</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>19.32</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>16.41</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>19.32</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_9ae8e8ec-bd3f-42c3-887b-1a6324378bd8" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_f6e1c041-7b05-4fbc-8c2d-3734be58f539_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_f6e1c041-7b05-4fbc-8c2d-3734be58f539_2_poly_0_">
+<gml:posList>25498977.598 6674431.131 19.32 25498979.043 6674437.122 19.32 25498977.254 6674437.979 19.32 25498976.168 6674433.476 19.32 25498975.712 6674431.586 19.32 25498977.598 6674431.131 19.32</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0956bcea-45dc-4c47-aecd-1ac825bc1ca7_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>14.07</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>0956bcea-45dc-4c47-aecd-1ac825bc1ca7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>19.43</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>22.35</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.43</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>22.35</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_eed6b80f-21d6-4e7d-9c74-86baf4955418" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0956bcea-45dc-4c47-aecd-1ac825bc1ca7_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0956bcea-45dc-4c47-aecd-1ac825bc1ca7_2_poly_0_0_">
+<gml:posList>25498984.541 6674459.918 22.348 25498986.241 6674466.967 22.348 25498984.355 6674467.422 22.348 25498982.655 6674460.373 22.348 25498984.541 6674459.918 22.348</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0956bcea-45dc-4c47-aecd-1ac825bc1ca7_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0956bcea-45dc-4c47-aecd-1ac825bc1ca7_2_poly_1_0_">
+<gml:posList>25498981.158 6674445.893 22.068 25498982.779 6674452.611 22.068 25498980.893 6674453.066 22.78 25498980.049 6674449.569 22.78 25498979.272 6674446.348 22.78 25498981.158 6674445.893 22.068</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_7f83b62f-5f97-431b-8997-81cdfd598eaf_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>387.22</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>7f83b62f-5f97-431b-8997-81cdfd598eaf</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>23.64</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>26.55</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>23.64</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>26.55</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_e5e9d750-e0eb-4337-9b36-71fc73d80fe3" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_7f83b62f-5f97-431b-8997-81cdfd598eaf_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_7f83b62f-5f97-431b-8997-81cdfd598eaf_2_poly_0_">
+<gml:posList>25498973.578 6674445.752 26.55 25498970.922 6674434.741 26.55 25498976.168 6674433.476 26.55 25498980.049 6674449.569 26.55 25498974.804 6674450.834 26.55 25498976.433 6674457.59 26.55 25498981.679 6674456.325 26.55 25498986.4 6674475.901 26.55 25498975.42 6674478.549 26.55 25498974.354 6674474.131 26.55 25498974.403 6674474.119 26.55 25498967.892 6674447.124 26.55 25498973.578 6674445.752 26.55</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_28083c6e-6bad-4810-9da3-6f5db6680834_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>80.06</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>28083c6e-6bad-4810-9da3-6f5db6680834</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.27</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>20.18</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>17.27</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>20.18</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_d3267513-8948-4dcb-ab50-706177942304" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_28083c6e-6bad-4810-9da3-6f5db6680834_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_28083c6e-6bad-4810-9da3-6f5db6680834_2_poly_0_">
+<gml:posList>25498974.354 6674474.131 20.18 25498974.798 6674475.971 20.18 25498967.967 6674477.619 20.18 25498969.308 6674483.176 20.18 25498976.139 6674481.529 20.18 25498976.932 6674484.819 20.18 25498966.302 6674487.383 20.18 25498963.724 6674476.695 20.18 25498974.354 6674474.131 20.18</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_177bb069-5a5c-4f47-b1ba-ccf88a29c6eb_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -17810,36 +18299,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_8c145143-7b7c-42e8-8c85-fb0acbf08595_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>794.35</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>8c145143-7b7c-42e8-8c85-fb0acbf08595</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>2.91</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_3d2432e5-c1f7-43f1-a7d0-645f29a91d38" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_8c145143-7b7c-42e8-8c85-fb0acbf08595_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_8c145143-7b7c-42e8-8c85-fb0acbf08595_2_poly_0_">
-<gml:posList>25498964.78 6674434.223 2.91 25498974.403 6674474.119 2.91 25498963.724 6674476.695 2.91 25498966.302 6674487.383 2.91 25498987.913 6674482.171 2.91 25498986.4 6674475.901 2.91 25498988.286 6674475.446 2.91 25498977.598 6674431.131 2.91 25498964.78 6674434.223 2.91</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_3911261e-8ccb-49f4-a6f1-72610a7c184b_2">
@@ -18355,75 +18814,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>16.92</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>0be8b470-c680-4b21-8ee0-ac92ba37352a</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>14.15</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>17.06</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>14.15</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>17.06</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_89440cf7-c1cf-4f3e-a30d-caba3fd0189d" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_0_0_">
-<gml:posList>25498986.241 6674466.967 17.065 25498988.286 6674475.446 17.065 25498986.4 6674475.901 17.065 25498984.355 6674467.422 17.065 25498986.241 6674466.967 17.065</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_1_0_">
-<gml:posList>25498965.236 6674436.112 17.02 25498964.78 6674434.223 17.02 25498975.712 6674431.586 17.02 25498976.168 6674433.476 17.02 25498965.236 6674436.112 17.02</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_2_0_">
-<gml:posList>25498979.043 6674437.122 17.165 25498981.158 6674445.893 17.165 25498979.272 6674446.348 17.165 25498977.254 6674437.979 17.165 25498979.043 6674437.122 17.165</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0be8b470-c680-4b21-8ee0-ac92ba37352a_2_poly_3_0_">
-<gml:posList>25498980.893 6674453.066 16.742 25498982.779 6674452.611 16.742 25498984.541 6674459.918 16.742 25498982.655 6674460.373 16.742 25498980.893 6674453.066 16.742</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_8e427ab4-314f-4bf8-9be7-d264278c00bc_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -18592,90 +18982,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_bbaef11f-b251-48a2-b606-ef2c62f1a952_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>16.26</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>bbaef11f-b251-48a2-b606-ef2c62f1a952</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>23.72</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>20.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.72</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_288e4633-c64e-4cf7-b545-e77a244ae261" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_bbaef11f-b251-48a2-b606-ef2c62f1a952_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_bbaef11f-b251-48a2-b606-ef2c62f1a952_2_poly_0_">
-<gml:posList>25498972.506 6674441.306 23.719 25498973.578 6674445.752 23.719 25498970.122 6674446.586 23.719 25498969.05 6674442.139 23.719 25498972.506 6674441.306 23.719</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_87e7b428-41c0-481b-a2fa-cff0fe10b17f_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>40.17</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>87e7b428-41c0-481b-a2fa-cff0fe10b17f</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.82</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>20.73</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>17.82</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>20.73</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_0fb70768-d864-4a02-99b5-c7b9fccde453" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_87e7b428-41c0-481b-a2fa-cff0fe10b17f_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_87e7b428-41c0-481b-a2fa-cff0fe10b17f_2_poly_0_">
-<gml:posList>25498976.139 6674481.529 20.733 25498969.308 6674483.176 20.733 25498967.967 6674477.619 20.733 25498974.798 6674475.971 20.733 25498976.139 6674481.529 20.733</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0d940800-602b-4629-9bab-c153b5db014a_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -18716,141 +19022,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_6d546567-1efb-4b41-b1b5-cc261fde5dbf_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>72.85</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>6d546567-1efb-4b41-b1b5-cc261fde5dbf</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.25</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>23.16</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>20.25</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.16</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_2e7ac1ef-eb07-48f4-b523-d0376d42a699" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_6d546567-1efb-4b41-b1b5-cc261fde5dbf_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_6d546567-1efb-4b41-b1b5-cc261fde5dbf_2_poly_0_0_">
-<gml:posList>25498975.42 6674478.549 23.161 25498986.4 6674475.901 23.161 25498987.913 6674482.171 23.161 25498976.932 6674484.819 23.161 25498975.42 6674478.549 23.161</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_6d546567-1efb-4b41-b1b5-cc261fde5dbf_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_6d546567-1efb-4b41-b1b5-cc261fde5dbf_2_poly_1_0_">
-<gml:posList>25498970.922 6674434.741 23.2 25498972.506 6674441.306 23.2 25498969.05 6674442.139 23.2 25498970.122 6674446.586 23.2 25498967.892 6674447.124 23.2 25498965.236 6674436.112 23.2 25498970.922 6674434.741 23.2</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_62e6a695-70e7-470d-89eb-da7f281d40d8_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>38.17</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>62e6a695-70e7-470d-89eb-da7f281d40d8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>103.56</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>79.21</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.89</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>23.81</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.86</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>22.78</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_ce86abf4-1377-4247-a88d-5763ff0a09f0" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_62e6a695-70e7-470d-89eb-da7f281d40d8_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_62e6a695-70e7-470d-89eb-da7f281d40d8_2_poly_0_">
-<gml:posList>25498980.049 6674449.569 22.78 25498980.893 6674453.066 22.78 25498981.679 6674456.325 22.78 25498976.433 6674457.59 23.808 25498974.804 6674450.834 23.808 25498980.049 6674449.569 22.78</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_f6e1c041-7b05-4fbc-8c2d-3734be58f539_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>12.36</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>f6e1c041-7b05-4fbc-8c2d-3734be58f539</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>16.41</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>19.32</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>16.41</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>19.32</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_9ae8e8ec-bd3f-42c3-887b-1a6324378bd8" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_f6e1c041-7b05-4fbc-8c2d-3734be58f539_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_f6e1c041-7b05-4fbc-8c2d-3734be58f539_2_poly_0_">
-<gml:posList>25498977.598 6674431.131 19.32 25498979.043 6674437.122 19.32 25498977.254 6674437.979 19.32 25498976.168 6674433.476 19.32 25498975.712 6674431.586 19.32 25498977.598 6674431.131 19.32</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_39104394-1cb7-411f-a41c-863c494660f8_2">
@@ -18895,57 +19066,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0956bcea-45dc-4c47-aecd-1ac825bc1ca7_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>14.07</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>0956bcea-45dc-4c47-aecd-1ac825bc1ca7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>19.43</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>22.35</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.43</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>22.35</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_eed6b80f-21d6-4e7d-9c74-86baf4955418" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0956bcea-45dc-4c47-aecd-1ac825bc1ca7_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0956bcea-45dc-4c47-aecd-1ac825bc1ca7_2_poly_0_0_">
-<gml:posList>25498984.541 6674459.918 22.348 25498986.241 6674466.967 22.348 25498984.355 6674467.422 22.348 25498982.655 6674460.373 22.348 25498984.541 6674459.918 22.348</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0956bcea-45dc-4c47-aecd-1ac825bc1ca7_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_0956bcea-45dc-4c47-aecd-1ac825bc1ca7_2_poly_1_0_">
-<gml:posList>25498981.158 6674445.893 22.068 25498982.779 6674452.611 22.068 25498980.893 6674453.066 22.78 25498980.049 6674449.569 22.78 25498979.272 6674446.348 22.78 25498981.158 6674445.893 22.068</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_8fda89ef-d450-42fc-8f6c-7376eff585d2_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -18986,90 +19106,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_7f83b62f-5f97-431b-8997-81cdfd598eaf_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>387.22</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>7f83b62f-5f97-431b-8997-81cdfd598eaf</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>23.64</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>26.55</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>23.64</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>26.55</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e5e9d750-e0eb-4337-9b36-71fc73d80fe3" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_7f83b62f-5f97-431b-8997-81cdfd598eaf_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_7f83b62f-5f97-431b-8997-81cdfd598eaf_2_poly_0_">
-<gml:posList>25498973.578 6674445.752 26.55 25498970.922 6674434.741 26.55 25498976.168 6674433.476 26.55 25498980.049 6674449.569 26.55 25498974.804 6674450.834 26.55 25498976.433 6674457.59 26.55 25498981.679 6674456.325 26.55 25498986.4 6674475.901 26.55 25498975.42 6674478.549 26.55 25498974.354 6674474.131 26.55 25498974.403 6674474.119 26.55 25498967.892 6674447.124 26.55 25498973.578 6674445.752 26.55</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_28083c6e-6bad-4810-9da3-6f5db6680834_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>80.06</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>28083c6e-6bad-4810-9da3-6f5db6680834</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.27</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>20.18</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>17.27</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>20.18</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_d3267513-8948-4dcb-ab50-706177942304" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_28083c6e-6bad-4810-9da3-6f5db6680834_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_28083c6e-6bad-4810-9da3-6f5db6680834_2_poly_0_">
-<gml:posList>25498974.354 6674474.131 20.18 25498974.798 6674475.971 20.18 25498967.967 6674477.619 20.18 25498969.308 6674483.176 20.18 25498976.139 6674481.529 20.18 25498976.932 6674484.819 20.18 25498966.302 6674487.383 20.18 25498963.724 6674476.695 20.18 25498974.354 6674474.131 20.18</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_3e957ce2-fbf4-457d-8610-5f29b97b59e9_4428326e-c28d-4377-b745-7fd5be9eca22_2">
@@ -19337,16 +19373,16 @@
 <gen:value>2012-11-27</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123114850.861</gen:value>
+<gen:value>20201125130748.549</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
-<gen:value>842</gen:value>
+<gen:value>741</gen:value>
 </gen:intAttribute>
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="Bel_SPL">
-<gen:value>37.2</gen:value>
+<gen:stringAttribute name="A">
+<gen:value>0.01</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">21.8</bldg:measuredHeight>
@@ -19386,25 +19422,13 @@
 </gml:Solid>
 </bldg:lod2Solid>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_8e5f19ff-ab16-4307-8985-c05bacbb083b_2">
+<bldg:GroundSurface gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_c570736d-4fab-4e12-a7c1-195b8e4378be_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>189.33</gen:value>
+<gen:value>644.69</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>8e5f19ff-ab16-4307-8985-c05bacbb083b</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>21.81</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>25.57</gen:value>
+<gen:value>c570736d-4fab-4e12-a7c1-195b8e4378be</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>0.0</gen:value>
@@ -19413,28 +19437,19 @@
 <gen:value>3.76</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_0c697b59-f11a-4006-918c-71d91ff88b46" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_f9f1fc24-5207-412e-8f20-41d757eb4e29" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_8e5f19ff-ab16-4307-8985-c05bacbb083b_2_poly_0">
+<gml:Polygon gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_c570736d-4fab-4e12-a7c1-195b8e4378be_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_8e5f19ff-ab16-4307-8985-c05bacbb083b_2_poly_0_0_">
-<gml:posList>25499008.822 6674716.836 3.756 25499008.822 6674716.836 25.569 25499007.885 6674725.466 25.569 25499007.885 6674725.466 3.756 25499008.822 6674716.836 3.756</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_8e5f19ff-ab16-4307-8985-c05bacbb083b_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_8e5f19ff-ab16-4307-8985-c05bacbb083b_2_poly_1_0_">
-<gml:posList>25499005.535 6674745.449 3.756 25499005.535 6674745.449 25.568 25499005.398 6674746.71 25.568 25499005.398 6674746.71 3.756 25499005.535 6674745.449 3.756</gml:posList>
+<gml:LinearRing gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_c570736d-4fab-4e12-a7c1-195b8e4378be_2_poly_0_">
+<gml:posList>25499008.738 6674698.611 3.756 25499008.308 6674702.578 3.756 25499006.394 6674702.37 3.756 25499005.161 6674713.723 3.756 25499007.125 6674713.936 3.756 25499006.834 6674716.621 3.756 25499008.822 6674716.836 3.756 25499007.885 6674725.466 3.756 25499005.897 6674725.25 3.756 25499005.605 6674727.934 3.756 25499003.642 6674727.721 3.756 25499001.762 6674745.039 3.756 25499005.535 6674745.449 3.756 25499005.398 6674746.71 3.756 25499013.441 6674744.894 3.756 25499013.696 6674742.541 3.756 25499016.182 6674742.811 3.756 25499021.438 6674694.386 3.756 25499017.009 6674693.905 3.756 25499008.738 6674698.611 3.756</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:WallSurface>
+</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_9dd1e69e-30a7-4b12-80de-2ec503736376_2">
@@ -19486,6 +19501,99 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_171ba970-2baf-4d9f-8270-131fa4ce3a90_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>189.31</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>171ba970-2baf-4d9f-8270-131fa4ce3a90</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>24.48</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>28.24</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>24.48</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>28.24</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_75a9cd7d-fe2a-41b6-97d3-8a32016c7bd6" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_171ba970-2baf-4d9f-8270-131fa4ce3a90_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_171ba970-2baf-4d9f-8270-131fa4ce3a90_2_poly_0_">
+<gml:posList>25499008.308 6674702.578 28.24 25499008.738 6674698.611 28.24 25499009.425 6674698.221 28.24 25499015.947 6674698.556 28.24 25499016.415 6674694.243 28.24 25499017.009 6674693.905 28.24 25499021.438 6674694.386 28.24 25499019.76 6674709.848 28.24 25499010.467 6674714.895 28.24 25499006.744 6674702.408 28.24 25499008.308 6674702.578 28.24</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_8e5f19ff-ab16-4307-8985-c05bacbb083b_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>189.33</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>8e5f19ff-ab16-4307-8985-c05bacbb083b</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>21.81</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>25.57</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.76</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_0c697b59-f11a-4006-918c-71d91ff88b46" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_8e5f19ff-ab16-4307-8985-c05bacbb083b_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_8e5f19ff-ab16-4307-8985-c05bacbb083b_2_poly_0_0_">
+<gml:posList>25499008.822 6674716.836 3.756 25499008.822 6674716.836 25.569 25499007.885 6674725.466 25.569 25499007.885 6674725.466 3.756 25499008.822 6674716.836 3.756</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_8e5f19ff-ab16-4307-8985-c05bacbb083b_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_8e5f19ff-ab16-4307-8985-c05bacbb083b_2_poly_1_0_">
+<gml:posList>25499005.535 6674745.449 3.756 25499005.535 6674745.449 25.568 25499005.398 6674746.71 25.568 25499005.398 6674746.71 3.756 25499005.535 6674745.449 3.756</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_134bedd6-bf53-438a-a2cb-a48426bb3d27_2">
@@ -19588,78 +19696,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_c570736d-4fab-4e12-a7c1-195b8e4378be_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>644.69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c570736d-4fab-4e12-a7c1-195b8e4378be</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.76</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_f9f1fc24-5207-412e-8f20-41d757eb4e29" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_c570736d-4fab-4e12-a7c1-195b8e4378be_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_c570736d-4fab-4e12-a7c1-195b8e4378be_2_poly_0_">
-<gml:posList>25499008.738 6674698.611 3.756 25499008.308 6674702.578 3.756 25499006.394 6674702.37 3.756 25499005.161 6674713.723 3.756 25499007.125 6674713.936 3.756 25499006.834 6674716.621 3.756 25499008.822 6674716.836 3.756 25499007.885 6674725.466 3.756 25499005.897 6674725.25 3.756 25499005.605 6674727.934 3.756 25499003.642 6674727.721 3.756 25499001.762 6674745.039 3.756 25499005.535 6674745.449 3.756 25499005.398 6674746.71 3.756 25499013.441 6674744.894 3.756 25499013.696 6674742.541 3.756 25499016.182 6674742.811 3.756 25499021.438 6674694.386 3.756 25499017.009 6674693.905 3.756 25499008.738 6674698.611 3.756</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_171ba970-2baf-4d9f-8270-131fa4ce3a90_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>189.31</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>171ba970-2baf-4d9f-8270-131fa4ce3a90</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>24.48</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>28.24</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>24.48</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>28.24</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_75a9cd7d-fe2a-41b6-97d3-8a32016c7bd6" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_171ba970-2baf-4d9f-8270-131fa4ce3a90_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_171ba970-2baf-4d9f-8270-131fa4ce3a90_2_poly_0_">
-<gml:posList>25499008.308 6674702.578 28.24 25499008.738 6674698.611 28.24 25499009.425 6674698.221 28.24 25499015.947 6674698.556 28.24 25499016.415 6674694.243 28.24 25499017.009 6674693.905 28.24 25499021.438 6674694.386 28.24 25499019.76 6674709.848 28.24 25499010.467 6674714.895 28.24 25499006.744 6674702.408 28.24 25499008.308 6674702.578 28.24</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_45df470a-9e9f-4bb4-82b0-d7b2874f97a6_3f6f5548-3ee6-4ac7-a57c-51e0616936bd_2">
@@ -20425,7 +20461,7 @@
 <gen:value>46f83126-ec43-4819-b7a1-cd2da959b5cb</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123114904.179</gen:value>
+<gen:value>20201125190812</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>837</gen:value>
@@ -20501,6 +20537,150 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_9ad0d200-b4c9-4fcd-a9ee-9d53e923d720_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>0.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>9ad0d200-b4c9-4fcd-a9ee-9d53e923d720</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>22.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>20.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>22.8</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_0131bbfe-1865-4075-b89d-67ec6dd6de06" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_9ad0d200-b4c9-4fcd-a9ee-9d53e923d720_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_9ad0d200-b4c9-4fcd-a9ee-9d53e923d720_2_poly_0_0_">
+<gml:posList>25498992.285 6674532.695 22.796 25498992.07 6674532.817 22.796 25498991.279 6674531.427 22.796 25498992.285 6674532.695 22.796</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_9ad0d200-b4c9-4fcd-a9ee-9d53e923d720_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_9ad0d200-b4c9-4fcd-a9ee-9d53e923d720_2_poly_1_0_">
+<gml:posList>25498979.85 6674498.948 22.8 25498982.169 6674509.221 22.8 25498973.753 6674511.251 22.8 25498971.284 6674501.014 22.8 25498979.85 6674498.948 22.8</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_9ad0d200-b4c9-4fcd-a9ee-9d53e923d720_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_9ad0d200-b4c9-4fcd-a9ee-9d53e923d720_2_poly_2_0_">
+<gml:posList>25498985.567 6674524.172 22.796 25498991.279 6674531.427 22.796 25498989.211 6674532.604 22.796 25498990.002 6674533.994 22.796 25498982.323 6674538.363 22.796 25498977.017 6674529.037 22.796 25498985.567 6674524.172 22.796</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_713e8604-a2c6-4b72-a973-524991353630_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>217.17</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>713e8604-a2c6-4b72-a973-524991353630</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>26.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>29.39</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>26.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>29.39</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_0eed2dc9-8204-4e61-ace7-8832cb806bab" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_713e8604-a2c6-4b72-a973-524991353630_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_713e8604-a2c6-4b72-a973-524991353630_2_poly_0_">
+<gml:posList>25498979.873 6674498.943 29.39 25498980.248 6674500.498 29.39 25498982.596 6674499.932 29.39 25498982.221 6674498.376 29.39 25498987.481 6674497.108 29.39 25498995.148 6674531.067 29.39 25498992.285 6674532.695 29.39 25498991.279 6674531.427 29.39 25498985.567 6674524.172 29.39 25498987.648 6674522.989 29.39 25498984.417 6674508.678 29.39 25498982.169 6674509.221 29.39 25498979.85 6674498.948 29.39 25498979.873 6674498.943 29.39</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_3a8466e3-79b6-4b4e-b0c7-3f97c862f0e7_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>192.84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>3a8466e3-79b6-4b4e-b0c7-3f97c862f0e7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>23.04</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>25.83</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>23.04</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>25.83</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_78719891-d1ec-4abd-9555-383eaa723a19" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_3a8466e3-79b6-4b4e-b0c7-3f97c862f0e7_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_3a8466e3-79b6-4b4e-b0c7-3f97c862f0e7_2_poly_0_">
+<gml:posList>25498992.997 6674495.777 25.833 25499000.302 6674528.135 25.833 25498995.148 6674531.067 25.833 25498987.481 6674497.108 25.833 25498992.997 6674495.777 25.833</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_a0d3fa3d-bfd1-4dba-8f84-9e579efac2a7_2">
@@ -20720,66 +20900,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_9ad0d200-b4c9-4fcd-a9ee-9d53e923d720_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>0.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>9ad0d200-b4c9-4fcd-a9ee-9d53e923d720</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>22.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>20.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>22.8</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_0131bbfe-1865-4075-b89d-67ec6dd6de06" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_9ad0d200-b4c9-4fcd-a9ee-9d53e923d720_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_9ad0d200-b4c9-4fcd-a9ee-9d53e923d720_2_poly_0_0_">
-<gml:posList>25498992.285 6674532.695 22.796 25498992.07 6674532.817 22.796 25498991.279 6674531.427 22.796 25498992.285 6674532.695 22.796</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_9ad0d200-b4c9-4fcd-a9ee-9d53e923d720_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_9ad0d200-b4c9-4fcd-a9ee-9d53e923d720_2_poly_1_0_">
-<gml:posList>25498979.85 6674498.948 22.8 25498982.169 6674509.221 22.8 25498973.753 6674511.251 22.8 25498971.284 6674501.014 22.8 25498979.85 6674498.948 22.8</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_9ad0d200-b4c9-4fcd-a9ee-9d53e923d720_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_9ad0d200-b4c9-4fcd-a9ee-9d53e923d720_2_poly_2_0_">
-<gml:posList>25498985.567 6674524.172 22.796 25498991.279 6674531.427 22.796 25498989.211 6674532.604 22.796 25498990.002 6674533.994 22.796 25498982.323 6674538.363 22.796 25498977.017 6674529.037 22.796 25498985.567 6674524.172 22.796</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_b637f252-fb70-4544-8eb5-e20790d3c0a3_2">
@@ -21008,90 +21128,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_713e8604-a2c6-4b72-a973-524991353630_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>217.17</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>713e8604-a2c6-4b72-a973-524991353630</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>26.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>29.39</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>26.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>29.39</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_0eed2dc9-8204-4e61-ace7-8832cb806bab" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_713e8604-a2c6-4b72-a973-524991353630_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_713e8604-a2c6-4b72-a973-524991353630_2_poly_0_">
-<gml:posList>25498979.873 6674498.943 29.39 25498980.248 6674500.498 29.39 25498982.596 6674499.932 29.39 25498982.221 6674498.376 29.39 25498987.481 6674497.108 29.39 25498995.148 6674531.067 29.39 25498992.285 6674532.695 29.39 25498991.279 6674531.427 29.39 25498985.567 6674524.172 29.39 25498987.648 6674522.989 29.39 25498984.417 6674508.678 29.39 25498982.169 6674509.221 29.39 25498979.85 6674498.948 29.39 25498979.873 6674498.943 29.39</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_3a8466e3-79b6-4b4e-b0c7-3f97c862f0e7_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>192.84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>3a8466e3-79b6-4b4e-b0c7-3f97c862f0e7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>23.04</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>25.83</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>23.04</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>25.83</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_78719891-d1ec-4abd-9555-383eaa723a19" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_3a8466e3-79b6-4b4e-b0c7-3f97c862f0e7_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_3a8466e3-79b6-4b4e-b0c7-3f97c862f0e7_2_poly_0_">
-<gml:posList>25498992.997 6674495.777 25.833 25499000.302 6674528.135 25.833 25498995.148 6674531.067 25.833 25498987.481 6674497.108 25.833 25498992.997 6674495.777 25.833</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_46f83126-ec43-4819-b7a1-cd2da959b5cb_25cec11b-c4e4-477d-99e0-4e8b5b47cfd5_2">
@@ -21413,7 +21449,7 @@
 <gen:value>103520368P</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125190331.82</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>670</gen:value>
@@ -21422,7 +21458,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>322.38</gen:value>
+<gen:value>6.67</gen:value>
 </gen:stringAttribute>
 <bldg:function>011</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -21451,6 +21487,36 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_4e333fb8-4e25-41b4-a9ff-ff34d8c10dd3_7de7619e-98eb-4a24-8e3e-69d2771f488f_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>82.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>7de7619e-98eb-4a24-8e3e-69d2771f488f</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.5</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_531238fc-70dc-469c-ae9e-9555303d4b18" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_4e333fb8-4e25-41b4-a9ff-ff34d8c10dd3_7de7619e-98eb-4a24-8e3e-69d2771f488f_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_4e333fb8-4e25-41b4-a9ff-ff34d8c10dd3_7de7619e-98eb-4a24-8e3e-69d2771f488f_2_poly_0_">
+<gml:posList>25498948.6888 6674479.3584 3.5099999999999993 25498942.3701 6674480.8825 3.5099999999999993 25498945.4067 6674493.4725 3.5099999999999993 25498949.4251 6674492.498399999 3.5099999999999993 25498949.1907 6674491.5263 3.5099999999999993 25498951.2186 6674491.0205 3.5099999999999993 25498951.4569 6674492.008399999 3.5099999999999993 25498951.7254 6674491.9484 3.5099999999999993 25498948.6888 6674479.3584 3.5099999999999993</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_4e333fb8-4e25-41b4-a9ff-ff34d8c10dd3_8433b321-252d-4614-a5d7-6c12b417810a_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -21527,6 +21593,48 @@
 <gml:exterior>
 <gml:LinearRing gml:id="BID_4e333fb8-4e25-41b4-a9ff-ff34d8c10dd3_aeafc93b-5772-4033-b53b-3f26724a6e90_2_poly_0_">
 <gml:posList>25498948.6888 6674479.3584 15.5 25498949.5752 6674483.0334 15.5 25498943.2565 6674484.5575 15.5 25498942.3701 6674480.8825 15.5 25498948.6888 6674479.3584 15.5</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_4e333fb8-4e25-41b4-a9ff-ff34d8c10dd3_1552f4d9-1ce8-410e-ae53-ef60a920d1e1_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>12.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>1552f4d9-1ce8-410e-ae53-ef60a920d1e1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>12.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>15.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>12.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>15.5</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_2cb0c6ac-6d48-43de-baf2-19d853db5184" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_4e333fb8-4e25-41b4-a9ff-ff34d8c10dd3_1552f4d9-1ce8-410e-ae53-ef60a920d1e1_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_4e333fb8-4e25-41b4-a9ff-ff34d8c10dd3_1552f4d9-1ce8-410e-ae53-ef60a920d1e1_2_poly_0_">
+<gml:posList>25498947.8754 6674489.2251 15.5 25498948.7069 6674492.6725 15.5 25498945.4067 6674493.4725 15.5 25498944.5743 6674490.0213 15.5 25498947.8754 6674489.2251 15.5</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
@@ -21660,36 +21768,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_4e333fb8-4e25-41b4-a9ff-ff34d8c10dd3_7de7619e-98eb-4a24-8e3e-69d2771f488f_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>82.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>7de7619e-98eb-4a24-8e3e-69d2771f488f</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.5</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_531238fc-70dc-469c-ae9e-9555303d4b18" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_4e333fb8-4e25-41b4-a9ff-ff34d8c10dd3_7de7619e-98eb-4a24-8e3e-69d2771f488f_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_4e333fb8-4e25-41b4-a9ff-ff34d8c10dd3_7de7619e-98eb-4a24-8e3e-69d2771f488f_2_poly_0_">
-<gml:posList>25498948.6888 6674479.3584 3.5099999999999993 25498942.3701 6674480.8825 3.5099999999999993 25498945.4067 6674493.4725 3.5099999999999993 25498949.4251 6674492.498399999 3.5099999999999993 25498949.1907 6674491.5263 3.5099999999999993 25498951.2186 6674491.0205 3.5099999999999993 25498951.4569 6674492.008399999 3.5099999999999993 25498951.7254 6674491.9484 3.5099999999999993 25498948.6888 6674479.3584 3.5099999999999993</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_4e333fb8-4e25-41b4-a9ff-ff34d8c10dd3_0fcbe7b3-845c-49b3-8524-8afccdd65909_2">
@@ -22027,48 +22105,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_4e333fb8-4e25-41b4-a9ff-ff34d8c10dd3_1552f4d9-1ce8-410e-ae53-ef60a920d1e1_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>12.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>1552f4d9-1ce8-410e-ae53-ef60a920d1e1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>12.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>15.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>12.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>15.5</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_2cb0c6ac-6d48-43de-baf2-19d853db5184" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_4e333fb8-4e25-41b4-a9ff-ff34d8c10dd3_1552f4d9-1ce8-410e-ae53-ef60a920d1e1_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_4e333fb8-4e25-41b4-a9ff-ff34d8c10dd3_1552f4d9-1ce8-410e-ae53-ef60a920d1e1_2_poly_0_">
-<gml:posList>25498947.8754 6674489.2251 15.5 25498948.7069 6674492.6725 15.5 25498945.4067 6674493.4725 15.5 25498944.5743 6674490.0213 15.5 25498947.8754 6674489.2251 15.5</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -22153,7 +22189,7 @@
 <gen:value>103520362H</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125134822.323</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>673</gen:value>
@@ -22162,7 +22198,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.68</gen:value>
+<gen:value>0.03</gen:value>
 </gen:stringAttribute>
 <bldg:function>011</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -22473,7 +22509,7 @@
 <gen:value>56a3eb26-dc20-431b-8ed8-67ac3af46f13</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125134822.323</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>676</gen:value>
@@ -22482,7 +22518,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>220.67</gen:value>
+<gen:value>3.36</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">1.68</bldg:measuredHeight>
@@ -22500,6 +22536,78 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_56a3eb26-dc20-431b-8ed8-67ac3af46f13_966a9503-5b08-45a7-89a0-99426fdbde01_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>20.92</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>966a9503-5b08-45a7-89a0-99426fdbde01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>7.8</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_c7c0212e-d19d-4565-a8c2-067356aae34f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_56a3eb26-dc20-431b-8ed8-67ac3af46f13_966a9503-5b08-45a7-89a0-99426fdbde01_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_56a3eb26-dc20-431b-8ed8-67ac3af46f13_966a9503-5b08-45a7-89a0-99426fdbde01_2_poly_0_">
+<gml:posList>25498986.224 6674777.204 7.803 25498983.263 6674777.925 7.803 25498984.684 6674784.542 7.803 25498987.733 6674783.794 7.803 25498986.224 6674777.204 7.803</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_56a3eb26-dc20-431b-8ed8-67ac3af46f13_31c9fcab-3e51-4cbf-9195-c439545b27ae_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>21.38</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>31c9fcab-3e51-4cbf-9195-c439545b27ae</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>282.12</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>78.11</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>2.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>9.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>1.34</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>9.14</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_f2fa0a20-d3bb-4c29-ac62-2753edde8fe4" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_56a3eb26-dc20-431b-8ed8-67ac3af46f13_31c9fcab-3e51-4cbf-9195-c439545b27ae_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_56a3eb26-dc20-431b-8ed8-67ac3af46f13_31c9fcab-3e51-4cbf-9195-c439545b27ae_2_poly_0_">
+<gml:posList>25498986.224 6674777.204 9.784 25498987.733 6674783.794 9.803 25498984.684 6674784.542 9.142 25498983.263 6674777.925 9.142 25498986.224 6674777.204 9.784</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_56a3eb26-dc20-431b-8ed8-67ac3af46f13_d2439503-f210-4d3a-afcf-0b46cc7ecc74_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -22668,78 +22776,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_56a3eb26-dc20-431b-8ed8-67ac3af46f13_31c9fcab-3e51-4cbf-9195-c439545b27ae_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>21.38</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>31c9fcab-3e51-4cbf-9195-c439545b27ae</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>282.12</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>78.11</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>2.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>9.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>1.34</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>9.14</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_f2fa0a20-d3bb-4c29-ac62-2753edde8fe4" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_56a3eb26-dc20-431b-8ed8-67ac3af46f13_31c9fcab-3e51-4cbf-9195-c439545b27ae_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_56a3eb26-dc20-431b-8ed8-67ac3af46f13_31c9fcab-3e51-4cbf-9195-c439545b27ae_2_poly_0_">
-<gml:posList>25498986.224 6674777.204 9.784 25498987.733 6674783.794 9.803 25498984.684 6674784.542 9.142 25498983.263 6674777.925 9.142 25498986.224 6674777.204 9.784</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_56a3eb26-dc20-431b-8ed8-67ac3af46f13_966a9503-5b08-45a7-89a0-99426fdbde01_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>20.92</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>966a9503-5b08-45a7-89a0-99426fdbde01</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>7.8</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_c7c0212e-d19d-4565-a8c2-067356aae34f" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_56a3eb26-dc20-431b-8ed8-67ac3af46f13_966a9503-5b08-45a7-89a0-99426fdbde01_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_56a3eb26-dc20-431b-8ed8-67ac3af46f13_966a9503-5b08-45a7-89a0-99426fdbde01_2_poly_0_">
-<gml:posList>25498986.224 6674777.204 7.803 25498983.263 6674777.925 7.803 25498984.684 6674784.542 7.803 25498987.733 6674783.794 7.803 25498986.224 6674777.204 7.803</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -22799,7 +22835,7 @@
 <gen:value>5559c323-540f-4a4a-8ccc-adcb94ca5804</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125190331.82</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>671</gen:value>
@@ -22808,7 +22844,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>376.24</gen:value>
+<gen:value>9.91</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">1.69</bldg:measuredHeight>
@@ -22826,6 +22862,78 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_5559c323-540f-4a4a-8ccc-adcb94ca5804_2b28f064-3a68-4dfe-92ee-659c54146547_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>16.77</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>2b28f064-3a68-4dfe-92ee-659c54146547</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>7.79</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_645b708a-6dc6-4f22-8782-e5ae800dcafc" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_5559c323-540f-4a4a-8ccc-adcb94ca5804_2b28f064-3a68-4dfe-92ee-659c54146547_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_5559c323-540f-4a4a-8ccc-adcb94ca5804_2b28f064-3a68-4dfe-92ee-659c54146547_2_poly_0_">
+<gml:posList>25498980.871 6674767.365 7.788 25498981.98 6674772.569 7.788 25498985.063 6674771.835 7.788 25498983.912 6674766.629 7.788 25498980.871 6674767.365 7.788</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_5559c323-540f-4a4a-8ccc-adcb94ca5804_c17d7212-4658-4951-a1b1-35388cf29ef3_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>17.13</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>c17d7212-4658-4951-a1b1-35388cf29ef3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>282.47</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>78.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>2.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>9.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>1.35</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>9.14</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_3b9ce2c6-cdd5-469d-8aae-a4cbffc7c640" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_5559c323-540f-4a4a-8ccc-adcb94ca5804_c17d7212-4658-4951-a1b1-35388cf29ef3_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_5559c323-540f-4a4a-8ccc-adcb94ca5804_c17d7212-4658-4951-a1b1-35388cf29ef3_2_poly_0_">
+<gml:posList>25498983.912 6674766.629 9.805 25498985.063 6674771.835 9.805 25498981.98 6674772.569 9.143 25498980.871 6674767.365 9.151 25498983.912 6674766.629 9.805</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_5559c323-540f-4a4a-8ccc-adcb94ca5804_eb86bc0c-3483-41d3-a06d-f9268363ea38_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -22911,48 +23019,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_5559c323-540f-4a4a-8ccc-adcb94ca5804_c17d7212-4658-4951-a1b1-35388cf29ef3_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>17.13</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c17d7212-4658-4951-a1b1-35388cf29ef3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>282.47</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>78.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>2.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>9.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>1.35</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>9.14</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_3b9ce2c6-cdd5-469d-8aae-a4cbffc7c640" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_5559c323-540f-4a4a-8ccc-adcb94ca5804_c17d7212-4658-4951-a1b1-35388cf29ef3_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_5559c323-540f-4a4a-8ccc-adcb94ca5804_c17d7212-4658-4951-a1b1-35388cf29ef3_2_poly_0_">
-<gml:posList>25498983.912 6674766.629 9.805 25498985.063 6674771.835 9.805 25498981.98 6674772.569 9.143 25498980.871 6674767.365 9.151 25498983.912 6674766.629 9.805</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_5559c323-540f-4a4a-8ccc-adcb94ca5804_9187ff72-b089-4899-8ca4-84cc6f24dd51_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -22993,36 +23059,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_5559c323-540f-4a4a-8ccc-adcb94ca5804_2b28f064-3a68-4dfe-92ee-659c54146547_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>16.77</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>2b28f064-3a68-4dfe-92ee-659c54146547</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>7.79</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_645b708a-6dc6-4f22-8782-e5ae800dcafc" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_5559c323-540f-4a4a-8ccc-adcb94ca5804_2b28f064-3a68-4dfe-92ee-659c54146547_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_5559c323-540f-4a4a-8ccc-adcb94ca5804_2b28f064-3a68-4dfe-92ee-659c54146547_2_poly_0_">
-<gml:posList>25498980.871 6674767.365 7.788 25498981.98 6674772.569 7.788 25498985.063 6674771.835 7.788 25498983.912 6674766.629 7.788 25498980.871 6674767.365 7.788</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_5559c323-540f-4a4a-8ccc-adcb94ca5804_d81540eb-93f7-433b-b0d0-e0f70eb765c0_2">
@@ -23170,7 +23206,7 @@
 <gen:value>2013-04-23</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125134822.323</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>674</gen:value>
@@ -23179,7 +23215,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.69</gen:value>
+<gen:value>0.01</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">20.7</bldg:measuredHeight>
@@ -23233,6 +23269,273 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_d7441abe-8629-482b-93f8-af4435e09034_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1287.06</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>d7441abe-8629-482b-93f8-af4435e09034</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.35</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_38fdac60-d308-4710-9ae2-9cb35ae6cce9" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_d7441abe-8629-482b-93f8-af4435e09034_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_d7441abe-8629-482b-93f8-af4435e09034_2_poly_0_">
+<gml:posList>25498990.276 6674667.688 4.35 25498972.68 6674677.7 4.35 25498975.142 6674682.051 4.35 25498961.72 6674689.687 4.35 25498948.211 6674665.942 4.35 25498955.307 6674661.904 4.35 25498948.867 6674650.583 4.35 25498945.086 6674652.734 4.35 25498946.065 6674654.455 4.35 25498938.274 6674658.888 4.35 25498937.295 6674657.167 4.35 25498930.006 6674661.314 4.35 25498935.581 6674671.108 4.35 25498937.319 6674670.118 4.35 25498939.858 6674674.576 4.35 25498938.119 6674675.566 4.35 25498955.399 6674705.916 4.35 25498984.789 6674689.206 4.35 25498983.776 6674687.424 4.35 25498991.241 6674683.179 4.35 25498992.255 6674684.962 4.35 25499001.228 6674679.859 4.35 25498995.791 6674670.303 4.35 25498992.749 6674672.034 4.35 25498990.276 6674667.688 4.35</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_e47e3239-b7ea-411d-b93e-1205ced40ece_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>6.84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>e47e3239-b7ea-411d-b93e-1205ced40ece</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>19.42</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>23.77</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.42</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.77</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_c6309a75-99ce-44f6-ad52-93e32fa62097" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_e47e3239-b7ea-411d-b93e-1205ced40ece_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_e47e3239-b7ea-411d-b93e-1205ced40ece_2_poly_0_0_">
+<gml:posList>25498987.159 6674669.462 23.77 25498988.579 6674671.533 23.77 25498986.268 6674672.849 23.77 25498984.72 6674670.849 23.77 25498987.159 6674669.462 23.77</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_e47e3239-b7ea-411d-b93e-1205ced40ece_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_e47e3239-b7ea-411d-b93e-1205ced40ece_2_poly_1_0_">
+<gml:posList>25498981.396 6674672.741 23.77 25498982.634 6674674.916 23.77 25498977.384 6674677.903 23.77 25498976.364 6674675.604 23.77 25498981.396 6674672.741 23.77</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_8ba68ce5-8367-419e-a584-0aa7f3071c22_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>8.71</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>8ba68ce5-8367-419e-a584-0aa7f3071c22</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>13.52</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>17.87</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>13.52</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>17.87</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_ab3a0878-b111-4da5-9ce7-9ab43c685c78" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_8ba68ce5-8367-419e-a584-0aa7f3071c22_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_8ba68ce5-8367-419e-a584-0aa7f3071c22_2_poly_0_0_">
+<gml:posList>25498990.276 6674667.688 17.87 25498991.514 6674669.864 17.87 25498988.579 6674671.533 17.87 25498987.159 6674669.462 17.87 25498990.276 6674667.688 17.87</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_8ba68ce5-8367-419e-a584-0aa7f3071c22_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_8ba68ce5-8367-419e-a584-0aa7f3071c22_2_poly_1_0_">
+<gml:posList>25498976.364 6674675.604 17.87 25498977.384 6674677.903 17.87 25498973.913 6674679.878 17.87 25498972.68 6674677.7 17.87 25498976.364 6674675.604 17.87</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_8ba68ce5-8367-419e-a584-0aa7f3071c22_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_8ba68ce5-8367-419e-a584-0aa7f3071c22_2_poly_2_0_">
+<gml:posList>25498984.72 6674670.849 17.87 25498986.268 6674672.849 17.87 25498982.634 6674674.916 17.87 25498981.396 6674672.741 17.87 25498984.72 6674670.849 17.87</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_c679817a-10fe-41da-a3c9-d8f5d453ffa1_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>634.68</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>c679817a-10fe-41da-a3c9-d8f5d453ffa1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.74</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>25.09</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>20.74</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>25.09</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_b93fb44d-b1a0-4037-ae2a-d0b97f576f90" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_c679817a-10fe-41da-a3c9-d8f5d453ffa1_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_c679817a-10fe-41da-a3c9-d8f5d453ffa1_2_poly_0_">
+<gml:posList>25498991.514 6674669.864 25.09 25498992.749 6674672.034 25.09 25498995.791 6674670.303 25.09 25499001.228 6674679.859 25.09 25498992.255 6674684.962 25.09 25498991.241 6674683.179 25.09 25498983.776 6674687.424 25.09 25498984.789 6674689.206 25.09 25498955.399 6674705.916 25.09 25498949.939 6674696.327 25.09 25498957.915 6674691.792 25.09 25498955.442 6674687.449 25.09 25498959.223 6674685.298 25.09 25498961.72 6674689.687 25.09 25498975.142 6674682.051 25.09 25498973.913 6674679.878 25.09 25498991.514 6674669.864 25.09</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_c4c1dbad-5102-4d78-a32a-4b2f642bbadc_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>503.4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>c4c1dbad-5102-4d78-a32a-4b2f642bbadc</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.56</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>21.91</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>17.56</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>21.91</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_38668b06-37ee-455a-b3ce-ec9cb5927e12" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_c4c1dbad-5102-4d78-a32a-4b2f642bbadc_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_c4c1dbad-5102-4d78-a32a-4b2f642bbadc_2_poly_0_">
+<gml:posList>25498937.295 6674657.167 21.91 25498938.274 6674658.888 21.91 25498942.786 6674656.321 21.91 25498948.25 6674665.919 21.91 25498948.211 6674665.942 21.91 25498959.223 6674685.298 21.91 25498955.442 6674687.449 21.91 25498957.915 6674691.792 21.91 25498949.939 6674696.327 21.91 25498938.119 6674675.566 21.91 25498939.858 6674674.576 21.91 25498937.319 6674670.118 21.91 25498935.581 6674671.108 21.91 25498930.006 6674661.314 21.91 25498937.295 6674657.167 21.91</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_359115d3-e444-4cda-abb3-ec8240881399_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>98.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>359115d3-e444-4cda-abb3-ec8240881399</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>8.65</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>13.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>8.65</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>13.0</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_e2d6f561-7ad9-4ebc-9cd1-311a328049ed" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_359115d3-e444-4cda-abb3-ec8240881399_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_359115d3-e444-4cda-abb3-ec8240881399_2_poly_0_">
+<gml:posList>25498946.065 6674654.455 12.999 25498945.086 6674652.734 12.999 25498948.867 6674650.583 12.999 25498955.307 6674661.904 12.999 25498948.25 6674665.919 12.999 25498942.786 6674656.321 12.999 25498946.065 6674654.455 12.999</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_355476c5-6865-4399-bc62-3d2c1eaca752_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -23400,36 +23703,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_d7441abe-8629-482b-93f8-af4435e09034_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1287.06</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>d7441abe-8629-482b-93f8-af4435e09034</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.35</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_38fdac60-d308-4710-9ae2-9cb35ae6cce9" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_d7441abe-8629-482b-93f8-af4435e09034_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_d7441abe-8629-482b-93f8-af4435e09034_2_poly_0_">
-<gml:posList>25498990.276 6674667.688 4.35 25498972.68 6674677.7 4.35 25498975.142 6674682.051 4.35 25498961.72 6674689.687 4.35 25498948.211 6674665.942 4.35 25498955.307 6674661.904 4.35 25498948.867 6674650.583 4.35 25498945.086 6674652.734 4.35 25498946.065 6674654.455 4.35 25498938.274 6674658.888 4.35 25498937.295 6674657.167 4.35 25498930.006 6674661.314 4.35 25498935.581 6674671.108 4.35 25498937.319 6674670.118 4.35 25498939.858 6674674.576 4.35 25498938.119 6674675.566 4.35 25498955.399 6674705.916 4.35 25498984.789 6674689.206 4.35 25498983.776 6674687.424 4.35 25498991.241 6674683.179 4.35 25498992.255 6674684.962 4.35 25499001.228 6674679.859 4.35 25498995.791 6674670.303 4.35 25498992.749 6674672.034 4.35 25498990.276 6674667.688 4.35</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_6b79aefb-50b0-40fc-8f46-326e09c82cb6_2">
@@ -23954,57 +24227,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_e47e3239-b7ea-411d-b93e-1205ced40ece_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>6.84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>e47e3239-b7ea-411d-b93e-1205ced40ece</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>19.42</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>23.77</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.42</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.77</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_c6309a75-99ce-44f6-ad52-93e32fa62097" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_e47e3239-b7ea-411d-b93e-1205ced40ece_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_e47e3239-b7ea-411d-b93e-1205ced40ece_2_poly_0_0_">
-<gml:posList>25498987.159 6674669.462 23.77 25498988.579 6674671.533 23.77 25498986.268 6674672.849 23.77 25498984.72 6674670.849 23.77 25498987.159 6674669.462 23.77</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_e47e3239-b7ea-411d-b93e-1205ced40ece_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_e47e3239-b7ea-411d-b93e-1205ced40ece_2_poly_1_0_">
-<gml:posList>25498981.396 6674672.741 23.77 25498982.634 6674674.916 23.77 25498977.384 6674677.903 23.77 25498976.364 6674675.604 23.77 25498981.396 6674672.741 23.77</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_8efc2265-c4e5-4a49-b45b-25303c2bf567_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -24116,66 +24338,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_8ba68ce5-8367-419e-a584-0aa7f3071c22_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>8.71</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>8ba68ce5-8367-419e-a584-0aa7f3071c22</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>13.52</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>17.87</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>13.52</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>17.87</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_ab3a0878-b111-4da5-9ce7-9ab43c685c78" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_8ba68ce5-8367-419e-a584-0aa7f3071c22_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_8ba68ce5-8367-419e-a584-0aa7f3071c22_2_poly_0_0_">
-<gml:posList>25498990.276 6674667.688 17.87 25498991.514 6674669.864 17.87 25498988.579 6674671.533 17.87 25498987.159 6674669.462 17.87 25498990.276 6674667.688 17.87</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_8ba68ce5-8367-419e-a584-0aa7f3071c22_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_8ba68ce5-8367-419e-a584-0aa7f3071c22_2_poly_1_0_">
-<gml:posList>25498976.364 6674675.604 17.87 25498977.384 6674677.903 17.87 25498973.913 6674679.878 17.87 25498972.68 6674677.7 17.87 25498976.364 6674675.604 17.87</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_8ba68ce5-8367-419e-a584-0aa7f3071c22_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_8ba68ce5-8367-419e-a584-0aa7f3071c22_2_poly_2_0_">
-<gml:posList>25498984.72 6674670.849 17.87 25498986.268 6674672.849 17.87 25498982.634 6674674.916 17.87 25498981.396 6674672.741 17.87 25498984.72 6674670.849 17.87</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_4f04eca3-905e-4e55-94ab-cbe6fb2ac400_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -24216,48 +24378,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_c679817a-10fe-41da-a3c9-d8f5d453ffa1_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>634.68</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c679817a-10fe-41da-a3c9-d8f5d453ffa1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.74</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>25.09</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>20.74</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>25.09</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_b93fb44d-b1a0-4037-ae2a-d0b97f576f90" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_c679817a-10fe-41da-a3c9-d8f5d453ffa1_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_c679817a-10fe-41da-a3c9-d8f5d453ffa1_2_poly_0_">
-<gml:posList>25498991.514 6674669.864 25.09 25498992.749 6674672.034 25.09 25498995.791 6674670.303 25.09 25499001.228 6674679.859 25.09 25498992.255 6674684.962 25.09 25498991.241 6674683.179 25.09 25498983.776 6674687.424 25.09 25498984.789 6674689.206 25.09 25498955.399 6674705.916 25.09 25498949.939 6674696.327 25.09 25498957.915 6674691.792 25.09 25498955.442 6674687.449 25.09 25498959.223 6674685.298 25.09 25498961.72 6674689.687 25.09 25498975.142 6674682.051 25.09 25498973.913 6674679.878 25.09 25498991.514 6674669.864 25.09</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_7e80e524-c227-42e9-9694-618ab47cfa6a_2">
@@ -24488,48 +24608,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_c4c1dbad-5102-4d78-a32a-4b2f642bbadc_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>503.4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c4c1dbad-5102-4d78-a32a-4b2f642bbadc</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.56</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>21.91</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>17.56</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>21.91</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_38668b06-37ee-455a-b3ce-ec9cb5927e12" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_c4c1dbad-5102-4d78-a32a-4b2f642bbadc_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_c4c1dbad-5102-4d78-a32a-4b2f642bbadc_2_poly_0_">
-<gml:posList>25498937.295 6674657.167 21.91 25498938.274 6674658.888 21.91 25498942.786 6674656.321 21.91 25498948.25 6674665.919 21.91 25498948.211 6674665.942 21.91 25498959.223 6674685.298 21.91 25498955.442 6674687.449 21.91 25498957.915 6674691.792 21.91 25498949.939 6674696.327 21.91 25498938.119 6674675.566 21.91 25498939.858 6674674.576 21.91 25498937.319 6674670.118 21.91 25498935.581 6674671.108 21.91 25498930.006 6674661.314 21.91 25498937.295 6674657.167 21.91</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_ffa73003-3a9d-4ece-9691-c2692c5db47f_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -24612,48 +24690,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_359115d3-e444-4cda-abb3-ec8240881399_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>98.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>359115d3-e444-4cda-abb3-ec8240881399</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>8.65</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>13.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>8.65</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>13.0</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e2d6f561-7ad9-4ebc-9cd1-311a328049ed" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_359115d3-e444-4cda-abb3-ec8240881399_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_5908c7b2-2810-4659-a241-cd31fddaf19b_359115d3-e444-4cda-abb3-ec8240881399_2_poly_0_">
-<gml:posList>25498946.065 6674654.455 12.999 25498945.086 6674652.734 12.999 25498948.867 6674650.583 12.999 25498955.307 6674661.904 12.999 25498948.25 6674665.919 12.999 25498942.786 6674656.321 12.999 25498946.065 6674654.455 12.999</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
@@ -24759,7 +24795,7 @@
 <gen:value>2014-12-19</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125134822.323</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>677</gen:value>
@@ -24768,7 +24804,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>257.87</gen:value>
+<gen:value>1.27</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">20.18</bldg:measuredHeight>
@@ -24842,6 +24878,321 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_cef00cb9-19e7-41fe-b8f8-59f21cb74aef_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1475.37</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>cef00cb9-19e7-41fe-b8f8-59f21cb74aef</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.37</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_7aee5a9d-ccf2-4af6-803a-299e482581fc" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_cef00cb9-19e7-41fe-b8f8-59f21cb74aef_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_cef00cb9-19e7-41fe-b8f8-59f21cb74aef_2_poly_0_">
+<gml:posList>25498889.855 6674452.294 3.37 25498890.38 6674454.467 3.37 25498883.672 6674456.085 3.37 25498888.103 6674474.458 3.37 25498890.276 6674473.934 3.37 25498891.792 6674480.219 3.37 25498889.619 6674480.743 3.37 25498895.349 6674504.497 3.37 25498917.547 6674499.143 3.37 25498914.983 6674488.512 3.37 25498905.476 6674490.806 3.37 25498898.853 6674463.518 3.37 25498959.824 6674448.812 3.37 25498957.296 6674438.327 3.37 25498949.859 6674440.121 3.37 25498949.335 6674437.948 3.37 25498940.795 6674440.008 3.37 25498941.319 6674442.181 3.37 25498920.661 6674447.163 3.37 25498920.137 6674444.991 3.37 25498911.874 6674446.984 3.37 25498912.398 6674449.156 3.37 25498898.497 6674452.509 3.37 25498897.973 6674450.337 3.37 25498889.855 6674452.294 3.37</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>18.66</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>380de1e5-3153-43f3-bfcc-82a7da18e53c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>13.63</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>17.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>13.63</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>17.0</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_5b07545c-a5e3-4af5-a6b2-6453c8d3f8f6" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_0_0_">
+<gml:posList>25498889.855 6674452.294 17 25498897.973 6674450.337 17 25498898.497 6674452.509 17 25498890.38 6674454.467 17 25498889.855 6674452.294 17</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_1_0_">
+<gml:posList>25498896.144 6674498.264 17.019 25498897.521 6674503.973 17.019 25498895.349 6674504.497 17.019 25498893.972 6674498.788 17.019 25498896.144 6674498.264 17.019</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_2_0_">
+<gml:posList>25498920.137 6674444.991 17 25498920.661 6674447.163 17 25498912.398 6674449.156 17 25498911.874 6674446.984 17 25498920.137 6674444.991 17</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_3_0_">
+<gml:posList>25498949.335 6674437.948 17 25498949.859 6674440.121 17 25498941.319 6674442.181 17 25498940.795 6674440.008 17 25498949.335 6674437.948 17</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_4">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_4_0_">
+<gml:posList>25498957.296 6674438.327 17 25498959.824 6674448.812 17 25498956.077 6674449.715 17 25498953.549 6674439.231 17 25498957.296 6674438.327 17</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>214.74</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.19</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>23.56</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>20.19</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.56</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_4cf29742-5eeb-4f30-8815-a657084bd092" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66_2_poly_0_0_">
+<gml:posList>25498953.549 6674439.231 23.561 25498956.077 6674449.715 23.561 25498936.721 6674454.384 23.561 25498934.192 6674443.9 23.561 25498953.549 6674439.231 23.561</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66_2_poly_1_0_">
+<gml:posList>25498905.919 6674450.719 23.56 25498907.018 6674455.274 23.56 25498913.497 6674453.711 23.56 25498912.398 6674449.156 23.56 25498924.274 6674446.292 23.56 25498925.373 6674450.847 23.56 25498921.785 6674451.712 23.56 25498923.215 6674457.642 23.56 25498898.853 6674463.518 23.56 25498898.865 6674463.566 23.56 25498892.92 6674465 23.56 25498891.478 6674459.022 23.56 25498888.905 6674459.643 23.56 25498887.806 6674455.088 23.56 25498905.919 6674450.719 23.56</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66_2_poly_2_0_">
+<gml:posList>25498897.273 6674483.047 23.54 25498895.314 6674474.924 23.54 25498901.272 6674473.487 23.54 25498905.476 6674490.806 23.54 25498905.932 6674490.695 23.54 25498908.496 6674501.326 23.54 25498897.521 6674503.973 23.54 25498892.738 6674484.141 23.54 25498897.273 6674483.047 23.54</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_70b18bfa-450a-4dc3-9d56-485284c42ac9_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>52.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>70b18bfa-450a-4dc3-9d56-485284c42ac9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>20.57</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>17.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>20.57</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_7cc65e60-b241-48af-9a37-04b491d00037" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_70b18bfa-450a-4dc3-9d56-485284c42ac9_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_70b18bfa-450a-4dc3-9d56-485284c42ac9_2_poly_0_0_">
+<gml:posList>25498925.373 6674450.847 20.57 25498935.291 6674448.455 20.57 25498936.168 6674452.093 20.57 25498922.662 6674455.351 20.57 25498921.785 6674451.712 20.57 25498925.373 6674450.847 20.57</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_70b18bfa-450a-4dc3-9d56-485284c42ac9_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_70b18bfa-450a-4dc3-9d56-485284c42ac9_2_poly_1_0_">
+<gml:posList>25498891.478 6674459.022 20.68 25498892.92 6674465 20.68 25498895.67 6674464.337 20.68 25498898.064 6674474.261 20.68 25498895.314 6674474.924 20.68 25498897.273 6674483.047 20.68 25498894.7 6674483.668 20.68 25498888.905 6674459.643 20.68 25498891.478 6674459.022 20.68</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_70b18bfa-450a-4dc3-9d56-485284c42ac9_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_70b18bfa-450a-4dc3-9d56-485284c42ac9_2_poly_2_0_">
+<gml:posList>25498911.419 6674489.372 20.617 25498913.077 6674496.243 20.617 25498907.589 6674497.567 20.617 25498905.932 6674490.695 20.617 25498911.419 6674489.372 20.617</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>47.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>56a48b02-db33-4550-9769-c877ae900750</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>16.64</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>20.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>16.64</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>20.02</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_e8fdabab-1a05-4086-bfcf-1abb763a2338" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_0_0_">
+<gml:posList>25498934.192 6674443.9 20.016 25498935.291 6674448.455 20.016 25498925.373 6674450.847 20.016 25498924.274 6674446.292 20.016 25498934.192 6674443.9 20.016</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_1_0_">
+<gml:posList>25498894.7 6674483.668 20.15 25498892.738 6674484.141 20.15 25498896.144 6674498.264 20.15 25498893.972 6674498.788 20.15 25498889.619 6674480.743 20.15 25498891.792 6674480.219 20.15 25498890.276 6674473.934 20.15 25498888.103 6674474.458 20.15 25498883.672 6674456.085 20.15 25498887.806 6674455.088 20.15 25498894.7 6674483.668 20.15</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_2_0_">
+<gml:posList>25498898.865 6674463.566 20.133 25498901.272 6674473.487 20.133 25498898.064 6674474.261 20.133 25498895.67 6674464.337 20.133 25498898.865 6674463.566 20.133</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_3_0_">
+<gml:posList>25498912.398 6674449.156 20.093 25498913.497 6674453.711 20.093 25498907.018 6674455.274 20.093 25498905.919 6674450.719 20.093 25498912.398 6674449.156 20.093</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_4">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_4_0_">
+<gml:posList>25498913.077 6674496.243 20.14 25498911.419 6674489.372 20.14 25498914.983 6674488.512 20.14 25498917.547 6674499.143 20.14 25498908.496 6674501.326 20.14 25498907.589 6674497.567 20.14 25498913.077 6674496.243 20.14</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_5">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_5_0_">
+<gml:posList>25498936.168 6674452.093 20.02 25498936.721 6674454.384 20.02 25498923.215 6674457.642 20.02 25498922.662 6674455.351 20.02 25498936.168 6674452.093 20.02</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_189d9a31-5685-4186-aa9b-b6242d4b8cdc_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -24925,84 +25276,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>18.66</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>380de1e5-3153-43f3-bfcc-82a7da18e53c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>13.63</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>17.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>13.63</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>17.0</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_5b07545c-a5e3-4af5-a6b2-6453c8d3f8f6" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_0_0_">
-<gml:posList>25498889.855 6674452.294 17 25498897.973 6674450.337 17 25498898.497 6674452.509 17 25498890.38 6674454.467 17 25498889.855 6674452.294 17</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_1_0_">
-<gml:posList>25498896.144 6674498.264 17.019 25498897.521 6674503.973 17.019 25498895.349 6674504.497 17.019 25498893.972 6674498.788 17.019 25498896.144 6674498.264 17.019</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_2_0_">
-<gml:posList>25498920.137 6674444.991 17 25498920.661 6674447.163 17 25498912.398 6674449.156 17 25498911.874 6674446.984 17 25498920.137 6674444.991 17</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_3_0_">
-<gml:posList>25498949.335 6674437.948 17 25498949.859 6674440.121 17 25498941.319 6674442.181 17 25498940.795 6674440.008 17 25498949.335 6674437.948 17</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_4">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_380de1e5-3153-43f3-bfcc-82a7da18e53c_2_poly_4_0_">
-<gml:posList>25498957.296 6674438.327 17 25498959.824 6674448.812 17 25498956.077 6674449.715 17 25498953.549 6674439.231 17 25498957.296 6674438.327 17</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_025ba29f-b417-4809-81fb-f19b101fa65e_2">
@@ -26130,66 +26403,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>214.74</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.19</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>23.56</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>20.19</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.56</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_4cf29742-5eeb-4f30-8815-a657084bd092" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66_2_poly_0_0_">
-<gml:posList>25498953.549 6674439.231 23.561 25498956.077 6674449.715 23.561 25498936.721 6674454.384 23.561 25498934.192 6674443.9 23.561 25498953.549 6674439.231 23.561</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66_2_poly_1_0_">
-<gml:posList>25498905.919 6674450.719 23.56 25498907.018 6674455.274 23.56 25498913.497 6674453.711 23.56 25498912.398 6674449.156 23.56 25498924.274 6674446.292 23.56 25498925.373 6674450.847 23.56 25498921.785 6674451.712 23.56 25498923.215 6674457.642 23.56 25498898.853 6674463.518 23.56 25498898.865 6674463.566 23.56 25498892.92 6674465 23.56 25498891.478 6674459.022 23.56 25498888.905 6674459.643 23.56 25498887.806 6674455.088 23.56 25498905.919 6674450.719 23.56</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_a7ec2d59-ffa8-4890-a03b-c2b07e8ccd66_2_poly_2_0_">
-<gml:posList>25498897.273 6674483.047 23.54 25498895.314 6674474.924 23.54 25498901.272 6674473.487 23.54 25498905.476 6674490.806 23.54 25498905.932 6674490.695 23.54 25498908.496 6674501.326 23.54 25498897.521 6674503.973 23.54 25498892.738 6674484.141 23.54 25498897.273 6674483.047 23.54</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_6500f207-03da-4aea-b095-28c036246318_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -26358,66 +26571,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_70b18bfa-450a-4dc3-9d56-485284c42ac9_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>52.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>70b18bfa-450a-4dc3-9d56-485284c42ac9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>20.57</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>17.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>20.57</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_7cc65e60-b241-48af-9a37-04b491d00037" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_70b18bfa-450a-4dc3-9d56-485284c42ac9_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_70b18bfa-450a-4dc3-9d56-485284c42ac9_2_poly_0_0_">
-<gml:posList>25498925.373 6674450.847 20.57 25498935.291 6674448.455 20.57 25498936.168 6674452.093 20.57 25498922.662 6674455.351 20.57 25498921.785 6674451.712 20.57 25498925.373 6674450.847 20.57</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_70b18bfa-450a-4dc3-9d56-485284c42ac9_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_70b18bfa-450a-4dc3-9d56-485284c42ac9_2_poly_1_0_">
-<gml:posList>25498891.478 6674459.022 20.68 25498892.92 6674465 20.68 25498895.67 6674464.337 20.68 25498898.064 6674474.261 20.68 25498895.314 6674474.924 20.68 25498897.273 6674483.047 20.68 25498894.7 6674483.668 20.68 25498888.905 6674459.643 20.68 25498891.478 6674459.022 20.68</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_70b18bfa-450a-4dc3-9d56-485284c42ac9_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_70b18bfa-450a-4dc3-9d56-485284c42ac9_2_poly_2_0_">
-<gml:posList>25498911.419 6674489.372 20.617 25498913.077 6674496.243 20.617 25498907.589 6674497.567 20.617 25498905.932 6674490.695 20.617 25498911.419 6674489.372 20.617</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_1166a50b-7221-49bc-ad2c-95128593b382_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -26458,123 +26611,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>47.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>56a48b02-db33-4550-9769-c877ae900750</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>16.64</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>20.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>16.64</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>20.02</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e8fdabab-1a05-4086-bfcf-1abb763a2338" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_0_0_">
-<gml:posList>25498934.192 6674443.9 20.016 25498935.291 6674448.455 20.016 25498925.373 6674450.847 20.016 25498924.274 6674446.292 20.016 25498934.192 6674443.9 20.016</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_1_0_">
-<gml:posList>25498894.7 6674483.668 20.15 25498892.738 6674484.141 20.15 25498896.144 6674498.264 20.15 25498893.972 6674498.788 20.15 25498889.619 6674480.743 20.15 25498891.792 6674480.219 20.15 25498890.276 6674473.934 20.15 25498888.103 6674474.458 20.15 25498883.672 6674456.085 20.15 25498887.806 6674455.088 20.15 25498894.7 6674483.668 20.15</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_2_0_">
-<gml:posList>25498898.865 6674463.566 20.133 25498901.272 6674473.487 20.133 25498898.064 6674474.261 20.133 25498895.67 6674464.337 20.133 25498898.865 6674463.566 20.133</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_3_0_">
-<gml:posList>25498912.398 6674449.156 20.093 25498913.497 6674453.711 20.093 25498907.018 6674455.274 20.093 25498905.919 6674450.719 20.093 25498912.398 6674449.156 20.093</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_4">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_4_0_">
-<gml:posList>25498913.077 6674496.243 20.14 25498911.419 6674489.372 20.14 25498914.983 6674488.512 20.14 25498917.547 6674499.143 20.14 25498908.496 6674501.326 20.14 25498907.589 6674497.567 20.14 25498913.077 6674496.243 20.14</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_5">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_56a48b02-db33-4550-9769-c877ae900750_2_poly_5_0_">
-<gml:posList>25498936.168 6674452.093 20.02 25498936.721 6674454.384 20.02 25498923.215 6674457.642 20.02 25498922.662 6674455.351 20.02 25498936.168 6674452.093 20.02</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_cef00cb9-19e7-41fe-b8f8-59f21cb74aef_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1475.37</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>cef00cb9-19e7-41fe-b8f8-59f21cb74aef</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.37</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_7aee5a9d-ccf2-4af6-803a-299e482581fc" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_cef00cb9-19e7-41fe-b8f8-59f21cb74aef_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_609039c8-7b22-4349-8f6b-8d0c76d5970a_cef00cb9-19e7-41fe-b8f8-59f21cb74aef_2_poly_0_">
-<gml:posList>25498889.855 6674452.294 3.37 25498890.38 6674454.467 3.37 25498883.672 6674456.085 3.37 25498888.103 6674474.458 3.37 25498890.276 6674473.934 3.37 25498891.792 6674480.219 3.37 25498889.619 6674480.743 3.37 25498895.349 6674504.497 3.37 25498917.547 6674499.143 3.37 25498914.983 6674488.512 3.37 25498905.476 6674490.806 3.37 25498898.853 6674463.518 3.37 25498959.824 6674448.812 3.37 25498957.296 6674438.327 3.37 25498949.859 6674440.121 3.37 25498949.335 6674437.948 3.37 25498940.795 6674440.008 3.37 25498941.319 6674442.181 3.37 25498920.661 6674447.163 3.37 25498920.137 6674444.991 3.37 25498911.874 6674446.984 3.37 25498912.398 6674449.156 3.37 25498898.497 6674452.509 3.37 25498897.973 6674450.337 3.37 25498889.855 6674452.294 3.37</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
@@ -26680,7 +26716,7 @@
 <gen:value>2014-02-25</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125190331.82</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>672</gen:value>
@@ -26689,7 +26725,10 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>313.11</gen:value>
+<gen:value>9.46</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="A">
+<gen:value>0.03</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.86</bldg:measuredHeight>
@@ -26717,6 +26756,120 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_923569ca-238c-495d-b3ea-9cc53a328c99_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>79.53</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>923569ca-238c-495d-b3ea-9cc53a328c99</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.85</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_266cb791-08c8-4af2-8e89-cb0e7a17c156" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_923569ca-238c-495d-b3ea-9cc53a328c99_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_923569ca-238c-495d-b3ea-9cc53a328c99_2_poly_0_">
+<gml:posList>25498973.248 6674636.71 4.85 25498979.674 6674648.005 4.85 25498979.987 6674647.826 4.85 25498979.518 6674646.967 4.85 25498981.841 6674645.635 4.85 25498982.32 6674646.512 4.85 25498985.358 6674644.771 4.85 25498978.935 6674633.481 4.85 25498975.237 6674635.579 4.85 25498975.97 6674636.871 4.85 25498974.318 6674637.809 4.85 25498973.585 6674636.518 4.85 25498973.248 6674636.71 4.85</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_d5f52dbc-a2b6-4787-b668-05af6ec1a9c1_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>19.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>d5f52dbc-a2b6-4787-b668-05af6ec1a9c1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>7.75</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>12.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>7.75</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>12.6</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_1d3b7639-b93b-4f49-b2a3-1b9c5fd26d8f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_d5f52dbc-a2b6-4787-b668-05af6ec1a9c1_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_d5f52dbc-a2b6-4787-b668-05af6ec1a9c1_2_poly_0_">
+<gml:posList>25498973.585 6674636.518 12.6 25498974.318 6674637.809 12.6 25498975.97 6674636.871 12.6 25498975.237 6674635.579 12.6 25498978.935 6674633.481 12.6 25498980.645 6674636.486 12.6 25498974.97 6674639.737 12.6 25498973.248 6674636.71 12.6 25498973.585 6674636.518 12.6</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_0fdd84b6-ec0e-4e62-a356-cdb7348dc016_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>59.66</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>0fdd84b6-ec0e-4e62-a356-cdb7348dc016</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>11.84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.69</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>11.84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.69</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_6bc4b48b-43af-4d09-9959-2775b1bf893a" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_0fdd84b6-ec0e-4e62-a356-cdb7348dc016_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_0fdd84b6-ec0e-4e62-a356-cdb7348dc016_2_poly_0_">
+<gml:posList>25498980.645 6674636.486 16.69 25498985.358 6674644.771 16.69 25498982.32 6674646.512 16.69 25498981.841 6674645.635 16.69 25498979.518 6674646.967 16.69 25498979.987 6674647.826 16.69 25498979.674 6674648.005 16.69 25498974.97 6674639.737 16.69 25498980.645 6674636.486 16.69</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_00723ca2-157c-4f3d-8513-e728e2030ae0_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -26844,36 +26997,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_923569ca-238c-495d-b3ea-9cc53a328c99_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>79.53</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>923569ca-238c-495d-b3ea-9cc53a328c99</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.85</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_266cb791-08c8-4af2-8e89-cb0e7a17c156" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_923569ca-238c-495d-b3ea-9cc53a328c99_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_923569ca-238c-495d-b3ea-9cc53a328c99_2_poly_0_">
-<gml:posList>25498973.248 6674636.71 4.85 25498979.674 6674648.005 4.85 25498979.987 6674647.826 4.85 25498979.518 6674646.967 4.85 25498981.841 6674645.635 4.85 25498982.32 6674646.512 4.85 25498985.358 6674644.771 4.85 25498978.935 6674633.481 4.85 25498975.237 6674635.579 4.85 25498975.97 6674636.871 4.85 25498974.318 6674637.809 4.85 25498973.585 6674636.518 4.85 25498973.248 6674636.71 4.85</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_3af61ec4-6ce8-4f8a-9138-d15eff91a775_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -26998,48 +27121,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_d5f52dbc-a2b6-4787-b668-05af6ec1a9c1_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>19.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>d5f52dbc-a2b6-4787-b668-05af6ec1a9c1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>7.75</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>12.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>7.75</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>12.6</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_1d3b7639-b93b-4f49-b2a3-1b9c5fd26d8f" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_d5f52dbc-a2b6-4787-b668-05af6ec1a9c1_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_d5f52dbc-a2b6-4787-b668-05af6ec1a9c1_2_poly_0_">
-<gml:posList>25498973.585 6674636.518 12.6 25498974.318 6674637.809 12.6 25498975.97 6674636.871 12.6 25498975.237 6674635.579 12.6 25498978.935 6674633.481 12.6 25498980.645 6674636.486 12.6 25498974.97 6674639.737 12.6 25498973.248 6674636.71 12.6 25498973.585 6674636.518 12.6</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_e2c2e1b1-738e-41e0-a18b-860dd6354296_2">
@@ -27203,48 +27284,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_0fdd84b6-ec0e-4e62-a356-cdb7348dc016_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>59.66</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>0fdd84b6-ec0e-4e62-a356-cdb7348dc016</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>11.84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>11.84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.69</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_6bc4b48b-43af-4d09-9959-2775b1bf893a" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_0fdd84b6-ec0e-4e62-a356-cdb7348dc016_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_61fd8e16-42cf-44cf-b397-22d229fb597b_0fdd84b6-ec0e-4e62-a356-cdb7348dc016_2_poly_0_">
-<gml:posList>25498980.645 6674636.486 16.69 25498985.358 6674644.771 16.69 25498982.32 6674646.512 16.69 25498981.841 6674645.635 16.69 25498979.518 6674646.967 16.69 25498979.987 6674647.826 16.69 25498979.674 6674648.005 16.69 25498974.97 6674639.737 16.69 25498980.645 6674636.486 16.69</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -27312,18 +27351,6 @@
 <gen:stringAttribute name="VTJ_PRT">
 <gen:value>1036517561</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
-</gen:stringAttribute>
-<gen:intAttribute name="datastream_id">
-<gen:value>675</gen:value>
-</gen:intAttribute>
-<gen:stringAttribute name="featureofintrest_link">
-<gen:value></gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.7</gen:value>
-</gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">12.6</bldg:measuredHeight>
 <bldg:lod2Solid>
@@ -27356,6 +27383,78 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_63ed77d0-d840-4d64-8de4-9df4b004416e_867e3103-218d-49ef-b24b-5208d55ed260_2">
+<core:creationDate>2019-10-09</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>419.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>867e3103-218d-49ef-b24b-5208d55ed260</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>-0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.9</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_ecd4429f-8a41-40e0-ab1e-877ddded789c" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_63ed77d0-d840-4d64-8de4-9df4b004416e_867e3103-218d-49ef-b24b-5208d55ed260_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_63ed77d0-d840-4d64-8de4-9df4b004416e_867e3103-218d-49ef-b24b-5208d55ed260_2_poly_0_">
+<gml:posList>25498937.0531 6674552.98 3.94 25498941.8298 6674561.3763 3.94 25498945.1521 6674559.486199999 3.94 25498947.1142 6674559.4493 3.94 25498947.082799997 6674558.387799999 3.94 25498950.6742 6674556.3447 3.94 25498952.6393 6674556.3176 3.94 25498952.6291 6674555.2326 3.94 25498960.3445 6674550.843199999 3.94 25498962.2732 6674550.821699999 3.94 25498962.2537 6674549.7571 3.94 25498966.199 6674547.5126 3.94 25498968.1471 6674547.4999 3.94 25498968.1247 6674546.417 3.94 25498971.3474 6674544.5837 3.94 25498966.5707 6674536.1873 3.94 25498963.3547 6674538.0169 3.94 25498961.7229 6674535.1486 3.94 25498938.6373 6674548.2821 3.94 25498940.269099995 6674551.1504 3.94 25498937.0531 6674552.98 3.94</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_63ed77d0-d840-4d64-8de4-9df4b004416e_fdabaf78-bfc5-4c0e-bfb5-3e6b60f94e3d_2">
+<core:creationDate>2019-10-09</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>419.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>fdabaf78-bfc5-4c0e-bfb5-3e6b60f94e3d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>12.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>12.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.6</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_2caf5cf3-7df6-4665-ad37-25ad205b371f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_63ed77d0-d840-4d64-8de4-9df4b004416e_fdabaf78-bfc5-4c0e-bfb5-3e6b60f94e3d_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_63ed77d0-d840-4d64-8de4-9df4b004416e_fdabaf78-bfc5-4c0e-bfb5-3e6b60f94e3d_2_poly_0_">
+<gml:posList>25498940.269099995 6674551.1504 16.55 25498938.6373 6674548.2821 16.55 25498961.7229 6674535.1486 16.55 25498963.3547 6674538.0169 16.55 25498966.5707 6674536.1873 16.55 25498971.3474 6674544.5837 16.55 25498968.1247 6674546.417 16.55 25498968.1471 6674547.4999 16.55 25498966.199 6674547.5126 16.55 25498962.2537 6674549.7571 16.55 25498962.2732 6674550.821699999 16.55 25498960.3445 6674550.843199999 16.55 25498952.6291 6674555.2326 16.55 25498952.6393 6674556.3176 16.55 25498950.6742 6674556.3447 16.55 25498947.082799997 6674558.387799999 16.55 25498947.1142 6674559.4493 16.55 25498945.1521 6674559.486199999 16.55 25498941.8298 6674561.3763 16.55 25498937.0531 6674552.98 16.55 25498940.269099995 6674551.1504 16.55</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_63ed77d0-d840-4d64-8de4-9df4b004416e_0908842b-02fd-45e0-ab70-a789388bf710_2">
 <core:creationDate>2019-10-09</core:creationDate>
@@ -27753,78 +27852,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_63ed77d0-d840-4d64-8de4-9df4b004416e_fdabaf78-bfc5-4c0e-bfb5-3e6b60f94e3d_2">
-<core:creationDate>2019-10-09</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>419.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>fdabaf78-bfc5-4c0e-bfb5-3e6b60f94e3d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>12.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>12.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.6</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_2caf5cf3-7df6-4665-ad37-25ad205b371f" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_63ed77d0-d840-4d64-8de4-9df4b004416e_fdabaf78-bfc5-4c0e-bfb5-3e6b60f94e3d_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_63ed77d0-d840-4d64-8de4-9df4b004416e_fdabaf78-bfc5-4c0e-bfb5-3e6b60f94e3d_2_poly_0_">
-<gml:posList>25498940.269099995 6674551.1504 16.55 25498938.6373 6674548.2821 16.55 25498961.7229 6674535.1486 16.55 25498963.3547 6674538.0169 16.55 25498966.5707 6674536.1873 16.55 25498971.3474 6674544.5837 16.55 25498968.1247 6674546.417 16.55 25498968.1471 6674547.4999 16.55 25498966.199 6674547.5126 16.55 25498962.2537 6674549.7571 16.55 25498962.2732 6674550.821699999 16.55 25498960.3445 6674550.843199999 16.55 25498952.6291 6674555.2326 16.55 25498952.6393 6674556.3176 16.55 25498950.6742 6674556.3447 16.55 25498947.082799997 6674558.387799999 16.55 25498947.1142 6674559.4493 16.55 25498945.1521 6674559.486199999 16.55 25498941.8298 6674561.3763 16.55 25498937.0531 6674552.98 16.55 25498940.269099995 6674551.1504 16.55</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_63ed77d0-d840-4d64-8de4-9df4b004416e_867e3103-218d-49ef-b24b-5208d55ed260_2">
-<core:creationDate>2019-10-09</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>419.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>867e3103-218d-49ef-b24b-5208d55ed260</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>-0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.9</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_ecd4429f-8a41-40e0-ab1e-877ddded789c" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_63ed77d0-d840-4d64-8de4-9df4b004416e_867e3103-218d-49ef-b24b-5208d55ed260_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_63ed77d0-d840-4d64-8de4-9df4b004416e_867e3103-218d-49ef-b24b-5208d55ed260_2_poly_0_">
-<gml:posList>25498937.0531 6674552.98 3.94 25498941.8298 6674561.3763 3.94 25498945.1521 6674559.486199999 3.94 25498947.1142 6674559.4493 3.94 25498947.082799997 6674558.387799999 3.94 25498950.6742 6674556.3447 3.94 25498952.6393 6674556.3176 3.94 25498952.6291 6674555.2326 3.94 25498960.3445 6674550.843199999 3.94 25498962.2732 6674550.821699999 3.94 25498962.2537 6674549.7571 3.94 25498966.199 6674547.5126 3.94 25498968.1471 6674547.4999 3.94 25498968.1247 6674546.417 3.94 25498971.3474 6674544.5837 3.94 25498966.5707 6674536.1873 3.94 25498963.3547 6674538.0169 3.94 25498961.7229 6674535.1486 3.94 25498938.6373 6674548.2821 3.94 25498940.269099995 6674551.1504 3.94 25498937.0531 6674552.98 3.94</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_63ed77d0-d840-4d64-8de4-9df4b004416e_ce9d74f3-0b75-43a9-8874-84a7dfabc002_2">
 <core:creationDate>2019-10-09</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -28202,16 +28229,19 @@
 <gen:value>Suvilahti</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125190337.665</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
-<gen:value>670</gen:value>
+<gen:value>834</gen:value>
 </gen:intAttribute>
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>322.38</gen:value>
+<gen:value>6.67</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="J">
+<gen:value>2.91</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">64.8</bldg:measuredHeight>
@@ -28234,6 +28264,120 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_0f2a87a0-d5dd-4768-8ff7-c6904d7eec73_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1493.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>0f2a87a0-d5dd-4768-8ff7-c6904d7eec73</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>2.7</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_2a269d02-d657-4593-b94f-a0b56eb35ec0" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_0f2a87a0-d5dd-4768-8ff7-c6904d7eec73_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_0f2a87a0-d5dd-4768-8ff7-c6904d7eec73_2_poly_0_">
+<gml:posList>25498911.9971 6674778.2378 2.67 25498937.6524 6674816.4249 2.67 25498946.0876 6674814.440999999 2.67 25498930.1168 6674743.5014 2.67 25498907.851099998 6674756.1585 2.67 25498897.3188 6674755.5132 2.67 25498911.9971 6674778.2378 2.67</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_5422a4c3-0792-4316-beab-7b19181afbd4_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1147.4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>5422a4c3-0792-4316-beab-7b19181afbd4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>18.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>21.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>18.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>21.3</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_54511ccb-5252-4cba-8e30-21dc8fa314f4" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_5422a4c3-0792-4316-beab-7b19181afbd4_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_5422a4c3-0792-4316-beab-7b19181afbd4_2_poly_0_">
+<gml:posList>25498917.8593 6674781.579 21.3 25498918.8987 6674749.8785 21.3 25498930.1168 6674743.5014 21.3 25498946.0876 6674814.440999999 21.3 25498937.6524 6674816.4249 21.3 25498912.5866 6674779.1151 21.3 25498917.8593 6674781.579 21.3</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_5009e952-88e4-4513-917f-69143c5e57bc_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>346.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>5009e952-88e4-4513-917f-69143c5e57bc</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>64.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>67.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>64.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>67.5</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_2d0efff1-6eea-4ed3-8e94-c48cf63a1461" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_5009e952-88e4-4513-917f-69143c5e57bc_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_5009e952-88e4-4513-917f-69143c5e57bc_2_poly_0_">
+<gml:posList>25498907.851099998 6674756.1585 67.5 25498918.8987 6674749.8785 67.5 25498917.8593 6674781.579 67.5 25498912.5866 6674779.1151 67.5 25498911.9971 6674778.2378 67.5 25498897.3188 6674755.5132 67.5 25498907.851099998 6674756.1585 67.5</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_51f39681-9348-4a42-bd35-c77329a77332_2">
 <core:creationDate>2019-01-28</core:creationDate>
@@ -28413,120 +28557,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_5422a4c3-0792-4316-beab-7b19181afbd4_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1147.4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>5422a4c3-0792-4316-beab-7b19181afbd4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>18.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>21.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>18.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>21.3</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_54511ccb-5252-4cba-8e30-21dc8fa314f4" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_5422a4c3-0792-4316-beab-7b19181afbd4_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_5422a4c3-0792-4316-beab-7b19181afbd4_2_poly_0_">
-<gml:posList>25498917.8593 6674781.579 21.3 25498918.8987 6674749.8785 21.3 25498930.1168 6674743.5014 21.3 25498946.0876 6674814.440999999 21.3 25498937.6524 6674816.4249 21.3 25498912.5866 6674779.1151 21.3 25498917.8593 6674781.579 21.3</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_5009e952-88e4-4513-917f-69143c5e57bc_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>346.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>5009e952-88e4-4513-917f-69143c5e57bc</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>64.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>67.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>64.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>67.5</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_2d0efff1-6eea-4ed3-8e94-c48cf63a1461" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_5009e952-88e4-4513-917f-69143c5e57bc_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_5009e952-88e4-4513-917f-69143c5e57bc_2_poly_0_">
-<gml:posList>25498907.851099998 6674756.1585 67.5 25498918.8987 6674749.8785 67.5 25498917.8593 6674781.579 67.5 25498912.5866 6674779.1151 67.5 25498911.9971 6674778.2378 67.5 25498897.3188 6674755.5132 67.5 25498907.851099998 6674756.1585 67.5</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_0f2a87a0-d5dd-4768-8ff7-c6904d7eec73_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1493.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>0f2a87a0-d5dd-4768-8ff7-c6904d7eec73</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>2.7</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_2a269d02-d657-4593-b94f-a0b56eb35ec0" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_0f2a87a0-d5dd-4768-8ff7-c6904d7eec73_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_0f2a87a0-d5dd-4768-8ff7-c6904d7eec73_2_poly_0_">
-<gml:posList>25498911.9971 6674778.2378 2.67 25498937.6524 6674816.4249 2.67 25498946.0876 6674814.440999999 2.67 25498930.1168 6674743.5014 2.67 25498907.851099998 6674756.1585 2.67 25498897.3188 6674755.5132 2.67 25498911.9971 6674778.2378 2.67</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_6e5c165d-9eb9-4b3d-9a4b-76958e13b4df_7305fe41-7b41-4223-9312-81266c31d52b_2">
@@ -28729,7 +28759,7 @@
 <gen:value>2014-01-09</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125134822.323</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>673</gen:value>
@@ -28738,7 +28768,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.68</gen:value>
+<gen:value>0.03</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">12.35</bldg:measuredHeight>
@@ -28764,6 +28794,171 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_bc63eb42-75f7-4ff1-96ec-8cd2a34b1c70_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>401.65</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>bc63eb42-75f7-4ff1-96ec-8cd2a34b1c70</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.16</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_2d3f17da-6709-40dd-b28c-f61cc7a9cfd0" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_bc63eb42-75f7-4ff1-96ec-8cd2a34b1c70_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_bc63eb42-75f7-4ff1-96ec-8cd2a34b1c70_2_poly_0_">
+<gml:posList>25498941.794 6674578.677 4.158 25498946.785 6674587.449 4.158 25498981.378 6674567.768 4.158 25498976.388 6674558.997 4.158 25498941.794 6674578.677 4.158</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_82621b6c-4b85-45c4-a922-edd5609f3300_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>251.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>82621b6c-4b85-45c4-a922-edd5609f3300</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>12.36</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.52</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>12.36</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.52</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_66fc6232-81b1-4c4b-8ab0-434a4c4d208e" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_82621b6c-4b85-45c4-a922-edd5609f3300_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_82621b6c-4b85-45c4-a922-edd5609f3300_2_poly_0_">
+<gml:posList>25498973.788 6674560.475 16.52 25498978.779 6674569.247 16.52 25498974.704 6674571.565 16.52 25498972.87 6674568.343 16.52 25498951.388 6674580.564 16.52 25498953.221 6674583.787 16.52 25498949.267 6674586.037 16.52 25498944.276 6674577.265 16.52 25498973.788 6674560.475 16.52</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_07d1cfe4-c838-48c7-b217-f2604a3d1e24_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>91.63</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>07d1cfe4-c838-48c7-b217-f2604a3d1e24</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>8.85</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>13.01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>8.85</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>13.01</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_8abd62e8-00ed-4724-94fa-c63e6bb02c85" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_07d1cfe4-c838-48c7-b217-f2604a3d1e24_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_07d1cfe4-c838-48c7-b217-f2604a3d1e24_2_poly_0_0_">
+<gml:posList>25498972.87 6674568.343 13.012 25498974.704 6674571.565 13.012 25498953.221 6674583.787 13.012 25498951.388 6674580.564 13.012 25498972.87 6674568.343 13.012</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_07d1cfe4-c838-48c7-b217-f2604a3d1e24_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_07d1cfe4-c838-48c7-b217-f2604a3d1e24_2_poly_1_0_">
+<gml:posList>25498944.276 6674577.265 13.02 25498949.267 6674586.037 13.02 25498946.785 6674587.449 12.765 25498941.794 6674578.677 12.765 25498944.276 6674577.265 13.02</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_e186faf4-55b0-41d1-90b0-586688ac182c_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>30.32</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>e186faf4-55b0-41d1-90b0-586688ac182c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>119.64</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>84.46</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>8.95</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>13.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>8.66</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>12.81</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_52851098-1369-4743-8df3-02f4a726ec2f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_e186faf4-55b0-41d1-90b0-586688ac182c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_e186faf4-55b0-41d1-90b0-586688ac182c_2_poly_0_">
+<gml:posList>25498976.388 6674558.997 12.813 25498981.378 6674567.768 12.813 25498978.779 6674569.247 13.103 25498973.788 6674560.475 13.103 25498976.388 6674558.997 12.813</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_013aecf7-123b-4656-a59e-4655b8f3e166_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -28889,36 +29084,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_bc63eb42-75f7-4ff1-96ec-8cd2a34b1c70_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>401.65</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>bc63eb42-75f7-4ff1-96ec-8cd2a34b1c70</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.16</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_2d3f17da-6709-40dd-b28c-f61cc7a9cfd0" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_bc63eb42-75f7-4ff1-96ec-8cd2a34b1c70_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_bc63eb42-75f7-4ff1-96ec-8cd2a34b1c70_2_poly_0_">
-<gml:posList>25498941.794 6674578.677 4.158 25498946.785 6674587.449 4.158 25498981.378 6674567.768 4.158 25498976.388 6674558.997 4.158 25498941.794 6674578.677 4.158</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_c06a2e74-0141-4f31-a81c-7f657e082c72_2">
@@ -29089,48 +29254,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_82621b6c-4b85-45c4-a922-edd5609f3300_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>251.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>82621b6c-4b85-45c4-a922-edd5609f3300</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>12.36</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.52</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>12.36</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.52</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_66fc6232-81b1-4c4b-8ab0-434a4c4d208e" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_82621b6c-4b85-45c4-a922-edd5609f3300_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_82621b6c-4b85-45c4-a922-edd5609f3300_2_poly_0_">
-<gml:posList>25498973.788 6674560.475 16.52 25498978.779 6674569.247 16.52 25498974.704 6674571.565 16.52 25498972.87 6674568.343 16.52 25498951.388 6674580.564 16.52 25498953.221 6674583.787 16.52 25498949.267 6674586.037 16.52 25498944.276 6674577.265 16.52 25498973.788 6674560.475 16.52</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_e40ca0e9-729f-4ee6-8f26-5f923f351f8f_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -29213,99 +29336,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_07d1cfe4-c838-48c7-b217-f2604a3d1e24_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>91.63</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>07d1cfe4-c838-48c7-b217-f2604a3d1e24</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>8.85</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>13.01</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>8.85</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>13.01</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_8abd62e8-00ed-4724-94fa-c63e6bb02c85" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_07d1cfe4-c838-48c7-b217-f2604a3d1e24_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_07d1cfe4-c838-48c7-b217-f2604a3d1e24_2_poly_0_0_">
-<gml:posList>25498972.87 6674568.343 13.012 25498974.704 6674571.565 13.012 25498953.221 6674583.787 13.012 25498951.388 6674580.564 13.012 25498972.87 6674568.343 13.012</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_07d1cfe4-c838-48c7-b217-f2604a3d1e24_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_07d1cfe4-c838-48c7-b217-f2604a3d1e24_2_poly_1_0_">
-<gml:posList>25498944.276 6674577.265 13.02 25498949.267 6674586.037 13.02 25498946.785 6674587.449 12.765 25498941.794 6674578.677 12.765 25498944.276 6674577.265 13.02</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_e186faf4-55b0-41d1-90b0-586688ac182c_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>30.32</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>e186faf4-55b0-41d1-90b0-586688ac182c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>119.64</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>84.46</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>8.95</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>13.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>8.66</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>12.81</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_52851098-1369-4743-8df3-02f4a726ec2f" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_e186faf4-55b0-41d1-90b0-586688ac182c_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_707cb3d8-9ae3-4d3f-ba03-4884735b9fc8_e186faf4-55b0-41d1-90b0-586688ac182c_2_poly_0_">
-<gml:posList>25498976.388 6674558.997 12.813 25498981.378 6674567.768 12.813 25498978.779 6674569.247 13.103 25498973.788 6674560.475 13.103 25498976.388 6674558.997 12.813</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
@@ -29411,7 +29441,7 @@
 <gen:value>2012-09-27</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125134822.323</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>676</gen:value>
@@ -29420,7 +29450,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>220.67</gen:value>
+<gen:value>3.36</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">17.24</bldg:measuredHeight>
@@ -29461,6 +29491,180 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_ae366466-5316-4f99-833f-f497dfa32745_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1659.73</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>ae366466-5316-4f99-833f-f497dfa32745</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>2.86</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_15e0073d-aa97-4d7c-a467-269dc37fd0d2" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_ae366466-5316-4f99-833f-f497dfa32745_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_ae366466-5316-4f99-833f-f497dfa32745_2_poly_0_">
+<gml:posList>25498996.928 6674790.242 2.858 25498978.726 6674794.351 2.858 25498971.856 6674763.919 2.858 25498970.188 6674764.295 2.858 25498969.976 6674763.359 2.858 25498967.216 6674763.981 2.858 25498967.427 6674764.918 2.858 25498962.354 6674766.062 2.858 25498961.797 6674763.595 2.858 25498953.381 6674765.454 2.858 25498960.818 6674798.395 2.858 25498959.491 6674798.694 2.858 25498962.16 6674810.517 2.858 25499010.005 6674799.715 2.858 25499014.638 6674756.915 2.858 25499008.156 6674756.213 2.858 25499007.94 6674758.202 2.858 25499000.484 6674757.394 2.858 25498996.928 6674790.242 2.858</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_df12a053-b0e4-4599-98c9-20b234144ea2_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>109.81</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>df12a053-b0e4-4599-98c9-20b234144ea2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>14.17</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>17.03</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>14.17</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>17.03</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_4b5fcad9-6995-41d0-a13d-dcad3b90936d" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_df12a053-b0e4-4599-98c9-20b234144ea2_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_df12a053-b0e4-4599-98c9-20b234144ea2_2_poly_0_">
+<gml:posList>25498996.877 6674790.254 17.03 25498996.018 6674798.191 17.03 25499010.018 6674799.596 17.03 25499010.005 6674799.715 17.03 25498991.485 6674803.896 17.03 25498988.816 6674792.074 17.03 25498996.877 6674790.254 17.03</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_5399520f-837f-49b5-9b69-fccd7f5c0e38_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>296.13</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>5399520f-837f-49b5-9b69-fccd7f5c0e38</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.19</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>20.05</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>17.19</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>20.05</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_6917b443-ce89-4b93-9413-12bfee0584ab" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_5399520f-837f-49b5-9b69-fccd7f5c0e38_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_5399520f-837f-49b5-9b69-fccd7f5c0e38_2_poly_0_0_">
+<gml:posList>25499000.484 6674757.394 20.053 25499007.94 6674758.202 20.053 25499008.156 6674756.213 20.053 25499014.638 6674756.915 20.053 25499012.272 6674778.773 20.053 25498998.289 6674777.675 20.053 25499000.484 6674757.394 20.053</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_5399520f-837f-49b5-9b69-fccd7f5c0e38_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_5399520f-837f-49b5-9b69-fccd7f5c0e38_2_poly_1_0_">
+<gml:posList>25498961.797 6674763.595 20.131 25498962.354 6674766.062 20.131 25498967.427 6674764.918 20.131 25498967.216 6674763.981 20.131 25498969.976 6674763.359 20.131 25498970.188 6674764.295 20.131 25498971.856 6674763.919 20.131 25498978.715 6674794.303 20.131 25498960.807 6674798.346 20.131 25498953.381 6674765.454 20.131 25498961.797 6674763.595 20.131</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_fc6e7270-0345-4d23-8449-c40e53381b4b_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>291.92</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>fc6e7270-0345-4d23-8449-c40e53381b4b</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>26.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>29.06</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>26.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>29.06</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_30964834-b1a5-49e8-9ded-33c989ebe121" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_fc6e7270-0345-4d23-8449-c40e53381b4b_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_fc6e7270-0345-4d23-8449-c40e53381b4b_2_poly_0_0_">
+<gml:posList>25498996.877 6674790.254 29.059 25498996.928 6674790.242 29.059 25498998.289 6674777.675 29.059 25499012.272 6674778.773 29.059 25499010.018 6674799.596 29.059 25498996.018 6674798.191 29.059 25498996.877 6674790.254 29.059</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_fc6e7270-0345-4d23-8449-c40e53381b4b_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_fc6e7270-0345-4d23-8449-c40e53381b4b_2_poly_1_0_">
+<gml:posList>25498960.818 6674798.395 29.091 25498960.807 6674798.346 29.091 25498978.715 6674794.303 29.091 25498978.726 6674794.351 29.091 25498988.816 6674792.074 29.091 25498991.485 6674803.896 29.091 25498962.16 6674810.517 29.091 25498959.491 6674798.694 29.091 25498960.818 6674798.395 29.091</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_51ef1369-90e8-4506-b4c6-6754ce878c68_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -29807,150 +30011,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_df12a053-b0e4-4599-98c9-20b234144ea2_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>109.81</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>df12a053-b0e4-4599-98c9-20b234144ea2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>14.17</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>17.03</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>14.17</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>17.03</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_4b5fcad9-6995-41d0-a13d-dcad3b90936d" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_df12a053-b0e4-4599-98c9-20b234144ea2_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_df12a053-b0e4-4599-98c9-20b234144ea2_2_poly_0_">
-<gml:posList>25498996.877 6674790.254 17.03 25498996.018 6674798.191 17.03 25499010.018 6674799.596 17.03 25499010.005 6674799.715 17.03 25498991.485 6674803.896 17.03 25498988.816 6674792.074 17.03 25498996.877 6674790.254 17.03</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_5399520f-837f-49b5-9b69-fccd7f5c0e38_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>296.13</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>5399520f-837f-49b5-9b69-fccd7f5c0e38</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.19</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>20.05</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>17.19</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>20.05</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_6917b443-ce89-4b93-9413-12bfee0584ab" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_5399520f-837f-49b5-9b69-fccd7f5c0e38_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_5399520f-837f-49b5-9b69-fccd7f5c0e38_2_poly_0_0_">
-<gml:posList>25499000.484 6674757.394 20.053 25499007.94 6674758.202 20.053 25499008.156 6674756.213 20.053 25499014.638 6674756.915 20.053 25499012.272 6674778.773 20.053 25498998.289 6674777.675 20.053 25499000.484 6674757.394 20.053</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_5399520f-837f-49b5-9b69-fccd7f5c0e38_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_5399520f-837f-49b5-9b69-fccd7f5c0e38_2_poly_1_0_">
-<gml:posList>25498961.797 6674763.595 20.131 25498962.354 6674766.062 20.131 25498967.427 6674764.918 20.131 25498967.216 6674763.981 20.131 25498969.976 6674763.359 20.131 25498970.188 6674764.295 20.131 25498971.856 6674763.919 20.131 25498978.715 6674794.303 20.131 25498960.807 6674798.346 20.131 25498953.381 6674765.454 20.131 25498961.797 6674763.595 20.131</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_fc6e7270-0345-4d23-8449-c40e53381b4b_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>291.92</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>fc6e7270-0345-4d23-8449-c40e53381b4b</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>26.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>29.06</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>26.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>29.06</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_30964834-b1a5-49e8-9ded-33c989ebe121" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_fc6e7270-0345-4d23-8449-c40e53381b4b_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_fc6e7270-0345-4d23-8449-c40e53381b4b_2_poly_0_0_">
-<gml:posList>25498996.877 6674790.254 29.059 25498996.928 6674790.242 29.059 25498998.289 6674777.675 29.059 25499012.272 6674778.773 29.059 25499010.018 6674799.596 29.059 25498996.018 6674798.191 29.059 25498996.877 6674790.254 29.059</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_fc6e7270-0345-4d23-8449-c40e53381b4b_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_fc6e7270-0345-4d23-8449-c40e53381b4b_2_poly_1_0_">
-<gml:posList>25498960.818 6674798.395 29.091 25498960.807 6674798.346 29.091 25498978.715 6674794.303 29.091 25498978.726 6674794.351 29.091 25498988.816 6674792.074 29.091 25498991.485 6674803.896 29.091 25498962.16 6674810.517 29.091 25498959.491 6674798.694 29.091 25498960.818 6674798.395 29.091</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_8510d421-3498-4590-8e1d-dc4a6f91cdbc_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -30201,36 +30261,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_ae366466-5316-4f99-833f-f497dfa32745_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1659.73</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>ae366466-5316-4f99-833f-f497dfa32745</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>2.86</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_15e0073d-aa97-4d7c-a467-269dc37fd0d2" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_ae366466-5316-4f99-833f-f497dfa32745_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_ae366466-5316-4f99-833f-f497dfa32745_2_poly_0_">
-<gml:posList>25498996.928 6674790.242 2.858 25498978.726 6674794.351 2.858 25498971.856 6674763.919 2.858 25498970.188 6674764.295 2.858 25498969.976 6674763.359 2.858 25498967.216 6674763.981 2.858 25498967.427 6674764.918 2.858 25498962.354 6674766.062 2.858 25498961.797 6674763.595 2.858 25498953.381 6674765.454 2.858 25498960.818 6674798.395 2.858 25498959.491 6674798.694 2.858 25498962.16 6674810.517 2.858 25499010.005 6674799.715 2.858 25499014.638 6674756.915 2.858 25499008.156 6674756.213 2.858 25499007.94 6674758.202 2.858 25499000.484 6674757.394 2.858 25498996.928 6674790.242 2.858</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150_9ec4f9c4-1c13-4a6a-99c7-2732d89ced0a_2">
@@ -30537,7 +30567,7 @@
 <gen:value>1037724446</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125190331.82</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>671</gen:value>
@@ -30546,7 +30576,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>376.24</gen:value>
+<gen:value>9.91</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>3500</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.4</bldg:measuredHeight>
@@ -30565,6 +30595,36 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_7be9f4fb-8647-430f-8f08-a7e16d255d93_c6b3a07f-f43d-4060-8fed-013d66e11383_2">
+<core:creationDate>2019-11-20</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>558.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>c6b3a07f-f43d-4060-8fed-013d66e11383</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>-0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>2.6</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_4f9ea107-c89f-4c3c-a9fc-c76ac13626e4" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_7be9f4fb-8647-430f-8f08-a7e16d255d93_c6b3a07f-f43d-4060-8fed-013d66e11383_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_7be9f4fb-8647-430f-8f08-a7e16d255d93_c6b3a07f-f43d-4060-8fed-013d66e11383_2_poly_0_">
+<gml:posList>25498928.721 6674800.286 2.64 25498942.343 6674791.066 2.64 25498923.395 6674762.859 2.64 25498909.772999994 6674772.079 2.64 25498928.721 6674800.286 2.64</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_7be9f4fb-8647-430f-8f08-a7e16d255d93_a2240221-fc1a-4436-a40a-b69394a003bd_2">
 <core:creationDate>2019-11-20</core:creationDate>
@@ -30793,36 +30853,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_7be9f4fb-8647-430f-8f08-a7e16d255d93_c6b3a07f-f43d-4060-8fed-013d66e11383_2">
-<core:creationDate>2019-11-20</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>558.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c6b3a07f-f43d-4060-8fed-013d66e11383</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>-0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>2.6</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_4f9ea107-c89f-4c3c-a9fc-c76ac13626e4" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_7be9f4fb-8647-430f-8f08-a7e16d255d93_c6b3a07f-f43d-4060-8fed-013d66e11383_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_7be9f4fb-8647-430f-8f08-a7e16d255d93_c6b3a07f-f43d-4060-8fed-013d66e11383_2_poly_0_">
-<gml:posList>25498928.721 6674800.286 2.64 25498942.343 6674791.066 2.64 25498923.395 6674762.859 2.64 25498909.772999994 6674772.079 2.64 25498928.721 6674800.286 2.64</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -30898,7 +30928,7 @@
 <gen:value>70d040f6-af90-4106-bc61-1f94ebebcfd6</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125134822.323</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>674</gen:value>
@@ -30907,7 +30937,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.69</gen:value>
+<gen:value>0.01</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">16.43</bldg:measuredHeight>
@@ -30937,6 +30967,120 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_e9f2e522-87b8-4a79-8f04-ce2a96bbfd15_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>604.38</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>e9f2e522-87b8-4a79-8f04-ce2a96bbfd15</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>5.06</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_9294bd3f-b1ab-47f9-8af4-cedbc99a3828" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_e9f2e522-87b8-4a79-8f04-ce2a96bbfd15_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_e9f2e522-87b8-4a79-8f04-ce2a96bbfd15_2_poly_0_">
+<gml:posList>25498865.673 6674621.992 5.055 25498866.476 6674623.399 5.055 25498868.698 6674622.13 5.055 25498870.548 6674625.369 5.055 25498868.325 6674626.639 5.055 25498869.068 6674627.941 5.055 25498871.291 6674626.672 5.055 25498873.099 6674629.838 5.055 25498904.432 6674630.028 5.055 25498898.4 6674603.308 5.055 25498897.097 6674604.052 5.055 25498897.747 6674606.93 5.055 25498895.508 6674607.437 5.055 25498895.013 6674605.242 5.055 25498865.673 6674621.992 5.055</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_d63a75e2-ec08-4bc1-bbba-00fd1bb7331e_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>254.42</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>d63a75e2-ec08-4bc1-bbba-00fd1bb7331e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.03</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>25.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>20.03</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>25.08</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_3b7512ef-700b-4422-8a10-d523117cfd73" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_d63a75e2-ec08-4bc1-bbba-00fd1bb7331e_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_d63a75e2-ec08-4bc1-bbba-00fd1bb7331e_2_poly_0_">
+<gml:posList>25498895.013 6674605.242 25.083 25498895.508 6674607.437 25.083 25498897.747 6674606.93 25.083 25498897.097 6674604.052 25.083 25498898.4 6674603.308 25.083 25498904.432 6674630.028 25.083 25498893.539 6674629.962 25.083 25498888.763 6674608.81 25.083 25498895.013 6674605.242 25.083</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_534d2ecb-2aab-4c2d-a41c-08eb84655f75_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>349.96</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>534d2ecb-2aab-4c2d-a41c-08eb84655f75</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>16.43</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>21.48</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>16.43</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>21.48</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_6226ac08-6508-42ef-a5ba-59de4fb61a1a" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_534d2ecb-2aab-4c2d-a41c-08eb84655f75_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_534d2ecb-2aab-4c2d-a41c-08eb84655f75_2_poly_0_">
+<gml:posList>25498888.763 6674608.81 21.482 25498893.539 6674629.962 21.482 25498873.099 6674629.838 21.482 25498871.291 6674626.672 21.482 25498869.068 6674627.941 21.482 25498868.325 6674626.639 21.482 25498870.548 6674625.369 21.482 25498868.698 6674622.13 21.482 25498866.476 6674623.399 21.482 25498865.673 6674621.992 21.482 25498888.763 6674608.81 21.482</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_dc9d2e1a-2e10-4e5a-88bc-d15f89d43133_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -31232,48 +31376,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_d63a75e2-ec08-4bc1-bbba-00fd1bb7331e_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>254.42</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>d63a75e2-ec08-4bc1-bbba-00fd1bb7331e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.03</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>25.08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>20.03</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>25.08</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_3b7512ef-700b-4422-8a10-d523117cfd73" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_d63a75e2-ec08-4bc1-bbba-00fd1bb7331e_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_d63a75e2-ec08-4bc1-bbba-00fd1bb7331e_2_poly_0_">
-<gml:posList>25498895.013 6674605.242 25.083 25498895.508 6674607.437 25.083 25498897.747 6674606.93 25.083 25498897.097 6674604.052 25.083 25498898.4 6674603.308 25.083 25498904.432 6674630.028 25.083 25498893.539 6674629.962 25.083 25498888.763 6674608.81 25.083 25498895.013 6674605.242 25.083</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_0f4b356a-4335-447c-ae9e-20dab6586558_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -31510,78 +31612,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_534d2ecb-2aab-4c2d-a41c-08eb84655f75_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>349.96</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>534d2ecb-2aab-4c2d-a41c-08eb84655f75</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>16.43</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>21.48</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>16.43</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>21.48</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_6226ac08-6508-42ef-a5ba-59de4fb61a1a" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_534d2ecb-2aab-4c2d-a41c-08eb84655f75_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_534d2ecb-2aab-4c2d-a41c-08eb84655f75_2_poly_0_">
-<gml:posList>25498888.763 6674608.81 21.482 25498893.539 6674629.962 21.482 25498873.099 6674629.838 21.482 25498871.291 6674626.672 21.482 25498869.068 6674627.941 21.482 25498868.325 6674626.639 21.482 25498870.548 6674625.369 21.482 25498868.698 6674622.13 21.482 25498866.476 6674623.399 21.482 25498865.673 6674621.992 21.482 25498888.763 6674608.81 21.482</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_e9f2e522-87b8-4a79-8f04-ce2a96bbfd15_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>604.38</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>e9f2e522-87b8-4a79-8f04-ce2a96bbfd15</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>5.06</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_9294bd3f-b1ab-47f9-8af4-cedbc99a3828" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_e9f2e522-87b8-4a79-8f04-ce2a96bbfd15_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_70d040f6-af90-4106-bc61-1f94ebebcfd6_e9f2e522-87b8-4a79-8f04-ce2a96bbfd15_2_poly_0_">
-<gml:posList>25498865.673 6674621.992 5.055 25498866.476 6674623.399 5.055 25498868.698 6674622.13 5.055 25498870.548 6674625.369 5.055 25498868.325 6674626.639 5.055 25498869.068 6674627.941 5.055 25498871.291 6674626.672 5.055 25498873.099 6674629.838 5.055 25498904.432 6674630.028 5.055 25498898.4 6674603.308 5.055 25498897.097 6674604.052 5.055 25498897.747 6674606.93 5.055 25498895.508 6674607.437 5.055 25498895.013 6674605.242 5.055 25498865.673 6674621.992 5.055</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -31644,7 +31674,7 @@
 <gen:value>Redi</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123114904.179</gen:value>
+<gen:value>20201125190812</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>837</gen:value>
@@ -31656,16 +31686,16 @@
 <gen:value>42.7</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>366.29</gen:value>
+<gen:value>154.19</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>257.87</gen:value>
+<gen:value>1.27</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="J">
 <gen:value>26172823</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.73</gen:value>
+<gen:value>0.06</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">118.1</bldg:measuredHeight>
@@ -31715,6 +31745,90 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_82f80d92-7993-4faf-b01f-d9fb45cea613_c20e3a20-957d-4951-a114-a5ada5a5a867_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>46.4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>c20e3a20-957d-4951-a114-a5ada5a5a867</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>80.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>81.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>80.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>81.5</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_d0e7d21c-f5d8-4693-ab4f-d297000b37b3" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_82f80d92-7993-4faf-b01f-d9fb45cea613_c20e3a20-957d-4951-a114-a5ada5a5a867_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_82f80d92-7993-4faf-b01f-d9fb45cea613_c20e3a20-957d-4951-a114-a5ada5a5a867_2_poly_0_">
+<gml:posList>25498846.2188 6674800.8149 81.5 25498848.4969 6674800.1016 81.5 25498857.9163 6674831.2008 81.5 25498845.7687 6674800.9505 81.5 25498846.2188 6674800.8149 81.5</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_82f80d92-7993-4faf-b01f-d9fb45cea613_4069d6ba-ad5e-46e2-8594-90c4f29b1f5e_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>747.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>4069d6ba-ad5e-46e2-8594-90c4f29b1f5e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>118.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>119.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>118.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>119.1</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_00263810-1072-49a2-abcb-68b10913894c" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_82f80d92-7993-4faf-b01f-d9fb45cea613_4069d6ba-ad5e-46e2-8594-90c4f29b1f5e_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_82f80d92-7993-4faf-b01f-d9fb45cea613_4069d6ba-ad5e-46e2-8594-90c4f29b1f5e_2_poly_0_">
+<gml:posList>25498834.5142 6674840.2183 119.082 25498826.8802 6674806.6405 119.082 25498845.7687 6674800.9505 119.082 25498857.9163 6674831.2008 119.082 25498834.5142 6674840.2183 119.082</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_82f80d92-7993-4faf-b01f-d9fb45cea613_13ecbf5a-4ed9-4d64-89eb-a91c4b38fc5a_2">
@@ -31932,90 +32046,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_82f80d92-7993-4faf-b01f-d9fb45cea613_c20e3a20-957d-4951-a114-a5ada5a5a867_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>46.4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c20e3a20-957d-4951-a114-a5ada5a5a867</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>80.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>81.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>80.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>81.5</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_d0e7d21c-f5d8-4693-ab4f-d297000b37b3" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_82f80d92-7993-4faf-b01f-d9fb45cea613_c20e3a20-957d-4951-a114-a5ada5a5a867_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_82f80d92-7993-4faf-b01f-d9fb45cea613_c20e3a20-957d-4951-a114-a5ada5a5a867_2_poly_0_">
-<gml:posList>25498846.2188 6674800.8149 81.5 25498848.4969 6674800.1016 81.5 25498857.9163 6674831.2008 81.5 25498845.7687 6674800.9505 81.5 25498846.2188 6674800.8149 81.5</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_82f80d92-7993-4faf-b01f-d9fb45cea613_4069d6ba-ad5e-46e2-8594-90c4f29b1f5e_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>747.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>4069d6ba-ad5e-46e2-8594-90c4f29b1f5e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>118.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>119.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>118.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>119.1</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_00263810-1072-49a2-abcb-68b10913894c" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_82f80d92-7993-4faf-b01f-d9fb45cea613_4069d6ba-ad5e-46e2-8594-90c4f29b1f5e_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_82f80d92-7993-4faf-b01f-d9fb45cea613_4069d6ba-ad5e-46e2-8594-90c4f29b1f5e_2_poly_0_">
-<gml:posList>25498834.5142 6674840.2183 119.082 25498826.8802 6674806.6405 119.082 25498845.7687 6674800.9505 119.082 25498857.9163 6674831.2008 119.082 25498834.5142 6674840.2183 119.082</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -32064,7 +32094,7 @@
 <gen:value>83581717-fe0f-4ccd-8ef1-9ba487bbf1a9</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125190331.82</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>672</gen:value>
@@ -32073,7 +32103,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>313.11</gen:value>
+<gen:value>9.46</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">9.0</bldg:measuredHeight>
@@ -32091,6 +32121,78 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_83581717-fe0f-4ccd-8ef1-9ba487bbf1a9_1d5c281c-32a0-4e49-93bf-aa78a3b17f22_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>25.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>1d5c281c-32a0-4e49-93bf-aa78a3b17f22</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>7.86</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_86b4091e-ce12-46d7-b228-d39acfb63c4a" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_83581717-fe0f-4ccd-8ef1-9ba487bbf1a9_1d5c281c-32a0-4e49-93bf-aa78a3b17f22_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_83581717-fe0f-4ccd-8ef1-9ba487bbf1a9_1d5c281c-32a0-4e49-93bf-aa78a3b17f22_2_poly_0_">
+<gml:posList>25498855.839 6674752.525 7.858 25498853.387 6674748.32 7.858 25498848.996 6674750.88 7.858 25498851.317 6674755.152 7.858 25498855.839 6674752.525 7.858</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_83581717-fe0f-4ccd-8ef1-9ba487bbf1a9_dee2098e-c101-495a-bb8e-1288dbc3e0e8_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>25.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>dee2098e-c101-495a-bb8e-1288dbc3e0e8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>9.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.86</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>9.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.86</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_e01bc6c7-bd53-4dda-9dcc-37b757c91260" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_83581717-fe0f-4ccd-8ef1-9ba487bbf1a9_dee2098e-c101-495a-bb8e-1288dbc3e0e8_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_83581717-fe0f-4ccd-8ef1-9ba487bbf1a9_dee2098e-c101-495a-bb8e-1288dbc3e0e8_2_poly_0_">
+<gml:posList>25498851.317 6674755.152 16.858 25498848.996 6674750.88 16.858 25498853.387 6674748.32 16.858 25498855.839 6674752.525 16.858 25498851.317 6674755.152 16.858</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_83581717-fe0f-4ccd-8ef1-9ba487bbf1a9_6752db48-c1b3-4e2e-8786-ebf72a37c26f_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -32176,36 +32278,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_83581717-fe0f-4ccd-8ef1-9ba487bbf1a9_1d5c281c-32a0-4e49-93bf-aa78a3b17f22_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>25.08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>1d5c281c-32a0-4e49-93bf-aa78a3b17f22</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>7.86</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_86b4091e-ce12-46d7-b228-d39acfb63c4a" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_83581717-fe0f-4ccd-8ef1-9ba487bbf1a9_1d5c281c-32a0-4e49-93bf-aa78a3b17f22_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_83581717-fe0f-4ccd-8ef1-9ba487bbf1a9_1d5c281c-32a0-4e49-93bf-aa78a3b17f22_2_poly_0_">
-<gml:posList>25498855.839 6674752.525 7.858 25498853.387 6674748.32 7.858 25498848.996 6674750.88 7.858 25498851.317 6674755.152 7.858 25498855.839 6674752.525 7.858</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_83581717-fe0f-4ccd-8ef1-9ba487bbf1a9_a39afd0c-0cd5-4dac-9deb-306241852c94_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -32246,48 +32318,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_83581717-fe0f-4ccd-8ef1-9ba487bbf1a9_dee2098e-c101-495a-bb8e-1288dbc3e0e8_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>25.08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>dee2098e-c101-495a-bb8e-1288dbc3e0e8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>9.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.86</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>9.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.86</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e01bc6c7-bd53-4dda-9dcc-37b757c91260" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_83581717-fe0f-4ccd-8ef1-9ba487bbf1a9_dee2098e-c101-495a-bb8e-1288dbc3e0e8_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_83581717-fe0f-4ccd-8ef1-9ba487bbf1a9_dee2098e-c101-495a-bb8e-1288dbc3e0e8_2_poly_0_">
-<gml:posList>25498851.317 6674755.152 16.858 25498848.996 6674750.88 16.858 25498853.387 6674748.32 16.858 25498855.839 6674752.525 16.858 25498851.317 6674755.152 16.858</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_83581717-fe0f-4ccd-8ef1-9ba487bbf1a9_02225107-ccb8-424c-950e-30e3d375f89c_2">
@@ -32420,7 +32450,7 @@
 <gen:value>1032851589</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125134822.323</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>675</gen:value>
@@ -32429,7 +32459,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.7</gen:value>
+<gen:value>0.03</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">14.6</bldg:measuredHeight>
@@ -32447,6 +32477,78 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_87552cc2-eb82-4e36-aa52-9e478985d931_b9969746-dc86-487f-80a2-ad25496bc211_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>585.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>b9969746-dc86-487f-80a2-ad25496bc211</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>2.6</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_5ee9163b-f263-4ec0-81f1-40ade85880ec" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_87552cc2-eb82-4e36-aa52-9e478985d931_b9969746-dc86-487f-80a2-ad25496bc211_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_87552cc2-eb82-4e36-aa52-9e478985d931_b9969746-dc86-487f-80a2-ad25496bc211_2_poly_0_">
+<gml:posList>25498790.8836 6674517.6927 2.566 25498793.478 6674528.4493 2.566 25498844.8741 6674516.0528 2.566 25498842.2797 6674505.2963 2.566 25498790.8836 6674517.6927 2.566</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_87552cc2-eb82-4e36-aa52-9e478985d931_0ef6733a-aba9-41e8-b4c4-52051f270d6b_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>585.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>0ef6733a-aba9-41e8-b4c4-52051f270d6b</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>14.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>17.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>14.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>17.2</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_b95ab6ff-3163-43d8-b7d4-a1696bc05bcc" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_87552cc2-eb82-4e36-aa52-9e478985d931_0ef6733a-aba9-41e8-b4c4-52051f270d6b_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_87552cc2-eb82-4e36-aa52-9e478985d931_0ef6733a-aba9-41e8-b4c4-52051f270d6b_2_poly_0_">
+<gml:posList>25498842.2797 6674505.2963 17.1863 25498844.8741 6674516.0528 17.1863 25498793.478 6674528.4493 17.1863 25498790.8836 6674517.6927 17.1863 25498842.2797 6674505.2963 17.1863</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_87552cc2-eb82-4e36-aa52-9e478985d931_a4f69349-a51e-47cb-81d8-8ba067a26b83_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -32615,78 +32717,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_87552cc2-eb82-4e36-aa52-9e478985d931_b9969746-dc86-487f-80a2-ad25496bc211_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>585.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>b9969746-dc86-487f-80a2-ad25496bc211</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>2.6</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_5ee9163b-f263-4ec0-81f1-40ade85880ec" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_87552cc2-eb82-4e36-aa52-9e478985d931_b9969746-dc86-487f-80a2-ad25496bc211_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_87552cc2-eb82-4e36-aa52-9e478985d931_b9969746-dc86-487f-80a2-ad25496bc211_2_poly_0_">
-<gml:posList>25498790.8836 6674517.6927 2.566 25498793.478 6674528.4493 2.566 25498844.8741 6674516.0528 2.566 25498842.2797 6674505.2963 2.566 25498790.8836 6674517.6927 2.566</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_87552cc2-eb82-4e36-aa52-9e478985d931_0ef6733a-aba9-41e8-b4c4-52051f270d6b_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>585.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>0ef6733a-aba9-41e8-b4c4-52051f270d6b</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>14.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>17.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>14.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>17.2</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_b95ab6ff-3163-43d8-b7d4-a1696bc05bcc" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_87552cc2-eb82-4e36-aa52-9e478985d931_0ef6733a-aba9-41e8-b4c4-52051f270d6b_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_87552cc2-eb82-4e36-aa52-9e478985d931_0ef6733a-aba9-41e8-b4c4-52051f270d6b_2_poly_0_">
-<gml:posList>25498842.2797 6674505.2963 17.1863 25498844.8741 6674516.0528 17.1863 25498793.478 6674528.4493 17.1863 25498790.8836 6674517.6927 17.1863 25498842.2797 6674505.2963 17.1863</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -32738,7 +32768,7 @@
 <gen:value>904cdd41-311a-4ff7-a3c1-110630c81954</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125134822.323</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>678</gen:value>
@@ -32747,7 +32777,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>218.22</gen:value>
+<gen:value>2.87</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">9.0</bldg:measuredHeight>
@@ -32766,6 +32796,78 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_904cdd41-311a-4ff7-a3c1-110630c81954_2db6e63d-2a45-4db6-91c1-e4e202a848a2_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>45.49</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>2db6e63d-2a45-4db6-91c1-e4e202a848a2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>7.51</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_409e0327-6b0f-49bd-a7fa-5966153a6954" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_904cdd41-311a-4ff7-a3c1-110630c81954_2db6e63d-2a45-4db6-91c1-e4e202a848a2_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_904cdd41-311a-4ff7-a3c1-110630c81954_2db6e63d-2a45-4db6-91c1-e4e202a848a2_2_poly_0_">
+<gml:posList>25498845.048 6674541.559 7.508 25498845.5 6674538.199 7.508 25498843.491 6674536.36 7.508 25498842.179 6674530.549 7.508 25498834.833 6674532.207 7.508 25498845.048 6674541.559 7.508</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_904cdd41-311a-4ff7-a3c1-110630c81954_fb6fe824-ab3e-4687-b2d6-3f1469cd8727_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>45.49</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>fb6fe824-ab3e-4687-b2d6-3f1469cd8727</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>9.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.51</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>9.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.51</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_82eb4792-47e2-40a2-870d-91d5c444c86f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_904cdd41-311a-4ff7-a3c1-110630c81954_fb6fe824-ab3e-4687-b2d6-3f1469cd8727_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_904cdd41-311a-4ff7-a3c1-110630c81954_fb6fe824-ab3e-4687-b2d6-3f1469cd8727_2_poly_0_">
+<gml:posList>25498834.833 6674532.207 16.508 25498842.179 6674530.549 16.508 25498843.491 6674536.36 16.508 25498845.5 6674538.199 16.508 25498845.048 6674541.559 16.508 25498834.833 6674532.207 16.508</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_904cdd41-311a-4ff7-a3c1-110630c81954_3f415a7f-dd38-426b-b462-8cae2a4cc015_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -32935,36 +33037,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_904cdd41-311a-4ff7-a3c1-110630c81954_2db6e63d-2a45-4db6-91c1-e4e202a848a2_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>45.49</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>2db6e63d-2a45-4db6-91c1-e4e202a848a2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>7.51</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_409e0327-6b0f-49bd-a7fa-5966153a6954" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_904cdd41-311a-4ff7-a3c1-110630c81954_2db6e63d-2a45-4db6-91c1-e4e202a848a2_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_904cdd41-311a-4ff7-a3c1-110630c81954_2db6e63d-2a45-4db6-91c1-e4e202a848a2_2_poly_0_">
-<gml:posList>25498845.048 6674541.559 7.508 25498845.5 6674538.199 7.508 25498843.491 6674536.36 7.508 25498842.179 6674530.549 7.508 25498834.833 6674532.207 7.508 25498845.048 6674541.559 7.508</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_904cdd41-311a-4ff7-a3c1-110630c81954_c3861bdc-f6f5-4632-aba2-20691a23bb54_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -33005,48 +33077,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_904cdd41-311a-4ff7-a3c1-110630c81954_fb6fe824-ab3e-4687-b2d6-3f1469cd8727_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>45.49</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>fb6fe824-ab3e-4687-b2d6-3f1469cd8727</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>9.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.51</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>9.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.51</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_82eb4792-47e2-40a2-870d-91d5c444c86f" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_904cdd41-311a-4ff7-a3c1-110630c81954_fb6fe824-ab3e-4687-b2d6-3f1469cd8727_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_904cdd41-311a-4ff7-a3c1-110630c81954_fb6fe824-ab3e-4687-b2d6-3f1469cd8727_2_poly_0_">
-<gml:posList>25498834.833 6674532.207 16.508 25498842.179 6674530.549 16.508 25498843.491 6674536.36 16.508 25498845.5 6674538.199 16.508 25498845.048 6674541.559 16.508 25498834.833 6674532.207 16.508</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
@@ -33152,7 +33182,7 @@
 <gen:value>2013-10-22</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125190331.82</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>661</gen:value>
@@ -33161,7 +33191,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>233.67</gen:value>
+<gen:value>235.22</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">21.09</bldg:measuredHeight>
@@ -33241,6 +33271,360 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_57843749-93b7-4bc9-a5c0-5a296318ca57_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>973.06</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>57843749-93b7-4bc9-a5c0-5a296318ca57</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.97</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_937c31b5-d8ef-4869-969f-a76498c23453" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_57843749-93b7-4bc9-a5c0-5a296318ca57_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_57843749-93b7-4bc9-a5c0-5a296318ca57_2_poly_0_">
+<gml:posList>25499022.329 6674638.013 3.969 25499024.764 6674636.631 3.969 25499023.603 6674631.46 3.969 25499021.831 6674632.479 3.969 25499020.598 6674630.305 3.969 25499023.033 6674628.923 3.969 25499021.861 6674623.703 3.969 25499020.09 6674624.722 3.969 25499018.856 6674622.548 3.969 25499021.292 6674621.166 3.969 25499019.531 6674613.324 3.969 25499017.756 6674614.331 3.969 25499016.523 6674612.157 3.969 25499011.475 6674615.02 3.969 25499012.452 6674616.742 3.969 25499003.652 6674621.734 3.969 25499002.675 6674620.011 3.969 25498998.822 6674622.197 3.969 25499005.125 6674633.241 3.969 25499011.694 6674629.459 3.969 25499014.498 6674634.306 3.969 25499014.562 6674634.415 3.969 25499008.069 6674638.156 3.969 25499018.891 6674657.185 3.969 25499009.936 6674662.235 3.969 25499007.465 6674657.936 3.969 25498995.886 6674664.591 3.969 25498998.378 6674668.926 3.969 25498995.791 6674670.303 3.969 25499001.228 6674679.859 3.969 25499006.471 6674676.913 3.969 25499005.462 6674675.146 3.969 25499012.369 6674671.209 3.969 25499013.377 6674672.977 3.969 25499024.423 6674666.659 3.969 25499025.899 6674653.133 3.969 25499026.542 6674647.247 3.969 25499026.735 6674645.407 3.969 25499025.334 6674639.168 3.969 25499023.562 6674640.187 3.969 25499022.329 6674638.013 3.969</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>11.25</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>5cfe123d-ddb2-4b52-a379-77357d741ef0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>122.49</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>83.99</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>23.59</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>27.56</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>23.14</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>27.11</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_5daec4d1-4550-4d7d-ac00-8031648fe522" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_0_0_">
+<gml:posList>25499017.154 6674632.23 27.559 25499014.312 6674627.767 27.559 25499018.156 6674625.931 27.114 25499017.154 6674632.23 27.559</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_1_0_">
+<gml:posList>25499017.344 6674624.52 27.114 25499014.312 6674627.767 27.559 25499013.519 6674626.521 27.559 25499017.344 6674624.52 27.114</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_2_0_">
+<gml:posList>25499017.344 6674624.52 27.114 25499018.156 6674625.931 27.114 25499014.312 6674627.767 27.559 25499017.344 6674624.52 27.114</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_3_0_">
+<gml:posList>25499020.626 6674630.23 27.114 25499017.894 6674633.392 27.559 25499017.154 6674632.23 27.559 25499020.626 6674630.23 27.114</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_4">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_4_0_">
+<gml:posList>25499018.156 6674625.931 27.114 25499020.626 6674630.23 27.114 25499017.154 6674632.23 27.559 25499018.156 6674625.931 27.114</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_5">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_5_0_">
+<gml:posList>25499020.626 6674630.23 27.114 25499020.652 6674630.274 27.114 25499020.598 6674630.305 27.121 25499021.18 6674631.331 27.122 25499017.894 6674633.392 27.559 25499020.626 6674630.23 27.114</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_ad74bea5-e1b2-4d88-8728-b06d753729b5_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>6.79</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>ad74bea5-e1b2-4d88-8728-b06d753729b5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>7.93</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>11.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>7.93</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>11.9</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_77e73a92-f122-4043-805c-9671b0dcb304" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_ad74bea5-e1b2-4d88-8728-b06d753729b5_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_ad74bea5-e1b2-4d88-8728-b06d753729b5_2_poly_0_0_">
+<gml:posList>25498999.85 6674664.595 11.9 25498996.872 6674666.306 11.9 25498995.886 6674664.591 11.9 25498998.864 6674662.88 11.9 25498999.85 6674664.595 11.9</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_ad74bea5-e1b2-4d88-8728-b06d753729b5_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_ad74bea5-e1b2-4d88-8728-b06d753729b5_2_poly_1_0_">
+<gml:posList>25499023.018 6674628.853 11.9 25499023.033 6674628.923 11.9 25499020.652 6674630.274 11.9 25499020.626 6674630.23 11.9 25499023.018 6674628.853 11.9</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_ad74bea5-e1b2-4d88-8728-b06d753729b5_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_ad74bea5-e1b2-4d88-8728-b06d753729b5_2_poly_2_0_">
+<gml:posList>25499008.451 6674659.651 11.9 25499002.366 6674663.148 11.9 25499001.38 6674661.434 11.9 25499007.465 6674657.936 11.9 25499008.451 6674659.651 11.9</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_37c819af-69a8-4e39-9b8b-18d3d8bd8f5c_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>88.26</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>37c819af-69a8-4e39-9b8b-18d3d8bd8f5c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>14.96</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>18.92</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>14.96</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>18.92</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_ad34d505-9ea5-4f14-86f8-1c61083e9c22" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_37c819af-69a8-4e39-9b8b-18d3d8bd8f5c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_37c819af-69a8-4e39-9b8b-18d3d8bd8f5c_2_poly_0_">
+<gml:posList>25499011.552 6674629.541 18.924 25499005.125 6674633.241 18.924 25498998.822 6674622.197 18.924 25499002.675 6674620.011 18.924 25499003.652 6674621.734 18.924 25499006.262 6674620.253 18.924 25499011.552 6674629.541 18.924</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_8badbc8c-844c-44cf-bcfb-681409f92162_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>43.37</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>8badbc8c-844c-44cf-bcfb-681409f92162</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>29.65</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>80.99</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>23.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>27.85</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>22.79</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>26.76</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_7161a42d-a937-4654-bd37-7e31e48dc51a" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_8badbc8c-844c-44cf-bcfb-681409f92162_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_8badbc8c-844c-44cf-bcfb-681409f92162_2_poly_0_">
+<gml:posList>25499008.618 6674667.77 27.85 25499011.033 6674671.971 27.081 25499005.462 6674675.146 27.081 25499006.471 6674676.913 26.758 25499004.985 6674677.748 26.759 25499001.559 6674671.788 27.85 25499008.618 6674667.77 27.85</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_abeb190c-cb1b-48d5-a35e-4553d35f0a93_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>40.17</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>abeb190c-cb1b-48d5-a35e-4553d35f0a93</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>13.96</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>17.93</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>13.96</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>17.93</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_4a3881b0-f9a5-461e-b28a-ef9b7f207ff7" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_abeb190c-cb1b-48d5-a35e-4553d35f0a93_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_abeb190c-cb1b-48d5-a35e-4553d35f0a93_2_poly_0_0_">
+<gml:posList>25499008.451 6674659.651 17.93 25499009.891 6674662.156 17.93 25498999.441 6674668.103 17.93 25498998.027 6674665.642 17.93 25498999.85 6674664.595 17.93 25498998.864 6674662.88 17.93 25499001.38 6674661.434 17.93 25499002.366 6674663.148 17.93 25499008.451 6674659.651 17.93</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_abeb190c-cb1b-48d5-a35e-4553d35f0a93_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_abeb190c-cb1b-48d5-a35e-4553d35f0a93_2_poly_1_0_">
+<gml:posList>25498998.027 6674665.642 17.93 25498999.441 6674668.103 17.93 25498998.284 6674668.762 17.934 25498996.872 6674666.306 17.934 25498998.027 6674665.642 17.93</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_65609918-e559-4d44-9af3-74ecc5dc3c6c_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>744.33</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>65609918-e559-4d44-9af3-74ecc5dc3c6c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>21.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>25.05</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>21.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>25.05</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_8f269f2a-7e6c-423b-aee0-7f89feb290a6" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_65609918-e559-4d44-9af3-74ecc5dc3c6c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_65609918-e559-4d44-9af3-74ecc5dc3c6c_2_poly_0_">
+<gml:posList>25498998.378 6674668.926 25.049 25498998.284 6674668.762 25.049 25499009.891 6674662.156 25.05 25499009.936 6674662.235 25.05 25499018.891 6674657.185 25.05 25499008.069 6674638.156 25.05 25499014.562 6674634.415 25.05 25499014.498 6674634.306 25.05 25499011.694 6674629.459 25.05 25499011.552 6674629.541 25.05 25499006.262 6674620.253 25.05 25499012.452 6674616.742 25.05 25499011.475 6674615.02 25.05 25499016.523 6674612.157 25.05 25499017.756 6674614.331 25.05 25499019.531 6674613.324 25.05 25499021.292 6674621.166 25.05 25499018.856 6674622.548 25.05 25499020.09 6674624.722 25.05 25499021.861 6674623.703 25.05 25499023.018 6674628.853 25.05 25499020.626 6674630.23 25.05 25499017.344 6674624.52 25.05 25499013.519 6674626.521 25.05 25499017.894 6674633.392 25.05 25499021.18 6674631.331 25.05 25499021.831 6674632.479 25.05 25499023.603 6674631.46 25.05 25499024.764 6674636.631 25.05 25499022.329 6674638.013 25.05 25499023.562 6674640.187 25.05 25499025.334 6674639.168 25.05 25499026.735 6674645.407 25.05 25499026.542 6674647.247 25.05 25499024.423 6674666.659 25.05 25499013.377 6674672.977 25.05 25499012.369 6674671.209 25.05 25499011.033 6674671.971 25.05 25499008.618 6674667.77 25.05 25499001.559 6674671.788 25.049 25499004.985 6674677.748 25.05 25499001.228 6674679.859 25.047 25498995.791 6674670.303 25.05 25498998.378 6674668.926 25.049</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_0dc6acb0-2729-4eb6-906f-d29a24cd4c65_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -33678,237 +34062,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>11.25</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>5cfe123d-ddb2-4b52-a379-77357d741ef0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>122.49</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>83.99</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>23.59</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>27.56</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>23.14</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>27.11</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_5daec4d1-4550-4d7d-ac00-8031648fe522" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_0_0_">
-<gml:posList>25499017.154 6674632.23 27.559 25499014.312 6674627.767 27.559 25499018.156 6674625.931 27.114 25499017.154 6674632.23 27.559</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_1_0_">
-<gml:posList>25499017.344 6674624.52 27.114 25499014.312 6674627.767 27.559 25499013.519 6674626.521 27.559 25499017.344 6674624.52 27.114</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_2_0_">
-<gml:posList>25499017.344 6674624.52 27.114 25499018.156 6674625.931 27.114 25499014.312 6674627.767 27.559 25499017.344 6674624.52 27.114</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_3_0_">
-<gml:posList>25499020.626 6674630.23 27.114 25499017.894 6674633.392 27.559 25499017.154 6674632.23 27.559 25499020.626 6674630.23 27.114</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_4">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_4_0_">
-<gml:posList>25499018.156 6674625.931 27.114 25499020.626 6674630.23 27.114 25499017.154 6674632.23 27.559 25499018.156 6674625.931 27.114</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_5">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_5cfe123d-ddb2-4b52-a379-77357d741ef0_2_poly_5_0_">
-<gml:posList>25499020.626 6674630.23 27.114 25499020.652 6674630.274 27.114 25499020.598 6674630.305 27.121 25499021.18 6674631.331 27.122 25499017.894 6674633.392 27.559 25499020.626 6674630.23 27.114</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_ad74bea5-e1b2-4d88-8728-b06d753729b5_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>6.79</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>ad74bea5-e1b2-4d88-8728-b06d753729b5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>7.93</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>11.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>7.93</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>11.9</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_77e73a92-f122-4043-805c-9671b0dcb304" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_ad74bea5-e1b2-4d88-8728-b06d753729b5_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_ad74bea5-e1b2-4d88-8728-b06d753729b5_2_poly_0_0_">
-<gml:posList>25498999.85 6674664.595 11.9 25498996.872 6674666.306 11.9 25498995.886 6674664.591 11.9 25498998.864 6674662.88 11.9 25498999.85 6674664.595 11.9</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_ad74bea5-e1b2-4d88-8728-b06d753729b5_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_ad74bea5-e1b2-4d88-8728-b06d753729b5_2_poly_1_0_">
-<gml:posList>25499023.018 6674628.853 11.9 25499023.033 6674628.923 11.9 25499020.652 6674630.274 11.9 25499020.626 6674630.23 11.9 25499023.018 6674628.853 11.9</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_ad74bea5-e1b2-4d88-8728-b06d753729b5_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_ad74bea5-e1b2-4d88-8728-b06d753729b5_2_poly_2_0_">
-<gml:posList>25499008.451 6674659.651 11.9 25499002.366 6674663.148 11.9 25499001.38 6674661.434 11.9 25499007.465 6674657.936 11.9 25499008.451 6674659.651 11.9</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_37c819af-69a8-4e39-9b8b-18d3d8bd8f5c_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>88.26</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>37c819af-69a8-4e39-9b8b-18d3d8bd8f5c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>14.96</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>18.92</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>14.96</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>18.92</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_ad34d505-9ea5-4f14-86f8-1c61083e9c22" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_37c819af-69a8-4e39-9b8b-18d3d8bd8f5c_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_37c819af-69a8-4e39-9b8b-18d3d8bd8f5c_2_poly_0_">
-<gml:posList>25499011.552 6674629.541 18.924 25499005.125 6674633.241 18.924 25498998.822 6674622.197 18.924 25499002.675 6674620.011 18.924 25499003.652 6674621.734 18.924 25499006.262 6674620.253 18.924 25499011.552 6674629.541 18.924</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_8badbc8c-844c-44cf-bcfb-681409f92162_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>43.37</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>8badbc8c-844c-44cf-bcfb-681409f92162</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>29.65</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>80.99</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>23.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>27.85</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>22.79</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>26.76</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_7161a42d-a937-4654-bd37-7e31e48dc51a" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_8badbc8c-844c-44cf-bcfb-681409f92162_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_8badbc8c-844c-44cf-bcfb-681409f92162_2_poly_0_">
-<gml:posList>25499008.618 6674667.77 27.85 25499011.033 6674671.971 27.081 25499005.462 6674675.146 27.081 25499006.471 6674676.913 26.758 25499004.985 6674677.748 26.759 25499001.559 6674671.788 27.85 25499008.618 6674667.77 27.85</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_79273726-10e2-4226-81f8-8baca7a4d60c_2">
@@ -34742,57 +34895,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_abeb190c-cb1b-48d5-a35e-4553d35f0a93_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>40.17</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>abeb190c-cb1b-48d5-a35e-4553d35f0a93</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>13.96</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>17.93</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>13.96</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>17.93</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_4a3881b0-f9a5-461e-b28a-ef9b7f207ff7" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_abeb190c-cb1b-48d5-a35e-4553d35f0a93_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_abeb190c-cb1b-48d5-a35e-4553d35f0a93_2_poly_0_0_">
-<gml:posList>25499008.451 6674659.651 17.93 25499009.891 6674662.156 17.93 25498999.441 6674668.103 17.93 25498998.027 6674665.642 17.93 25498999.85 6674664.595 17.93 25498998.864 6674662.88 17.93 25499001.38 6674661.434 17.93 25499002.366 6674663.148 17.93 25499008.451 6674659.651 17.93</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_abeb190c-cb1b-48d5-a35e-4553d35f0a93_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_abeb190c-cb1b-48d5-a35e-4553d35f0a93_2_poly_1_0_">
-<gml:posList>25498998.027 6674665.642 17.93 25498999.441 6674668.103 17.93 25498998.284 6674668.762 17.934 25498996.872 6674666.306 17.934 25498998.027 6674665.642 17.93</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_8e3a79e6-3abe-439e-9d79-e5c67523ffb3_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -35180,36 +35282,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_57843749-93b7-4bc9-a5c0-5a296318ca57_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>973.06</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>57843749-93b7-4bc9-a5c0-5a296318ca57</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.97</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_937c31b5-d8ef-4869-969f-a76498c23453" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_57843749-93b7-4bc9-a5c0-5a296318ca57_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_57843749-93b7-4bc9-a5c0-5a296318ca57_2_poly_0_">
-<gml:posList>25499022.329 6674638.013 3.969 25499024.764 6674636.631 3.969 25499023.603 6674631.46 3.969 25499021.831 6674632.479 3.969 25499020.598 6674630.305 3.969 25499023.033 6674628.923 3.969 25499021.861 6674623.703 3.969 25499020.09 6674624.722 3.969 25499018.856 6674622.548 3.969 25499021.292 6674621.166 3.969 25499019.531 6674613.324 3.969 25499017.756 6674614.331 3.969 25499016.523 6674612.157 3.969 25499011.475 6674615.02 3.969 25499012.452 6674616.742 3.969 25499003.652 6674621.734 3.969 25499002.675 6674620.011 3.969 25498998.822 6674622.197 3.969 25499005.125 6674633.241 3.969 25499011.694 6674629.459 3.969 25499014.498 6674634.306 3.969 25499014.562 6674634.415 3.969 25499008.069 6674638.156 3.969 25499018.891 6674657.185 3.969 25499009.936 6674662.235 3.969 25499007.465 6674657.936 3.969 25498995.886 6674664.591 3.969 25498998.378 6674668.926 3.969 25498995.791 6674670.303 3.969 25499001.228 6674679.859 3.969 25499006.471 6674676.913 3.969 25499005.462 6674675.146 3.969 25499012.369 6674671.209 3.969 25499013.377 6674672.977 3.969 25499024.423 6674666.659 3.969 25499025.899 6674653.133 3.969 25499026.542 6674647.247 3.969 25499026.735 6674645.407 3.969 25499025.334 6674639.168 3.969 25499023.562 6674640.187 3.969 25499022.329 6674638.013 3.969</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_32a0a190-5fe1-4ce9-b72c-4c43540eb394_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -35250,48 +35322,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_65609918-e559-4d44-9af3-74ecc5dc3c6c_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>744.33</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>65609918-e559-4d44-9af3-74ecc5dc3c6c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>21.08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>25.05</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>21.08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>25.05</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_8f269f2a-7e6c-423b-aee0-7f89feb290a6" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_65609918-e559-4d44-9af3-74ecc5dc3c6c_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_84c0879b-667d-4052-b22c-870ed33a4005_65609918-e559-4d44-9af3-74ecc5dc3c6c_2_poly_0_">
-<gml:posList>25498998.378 6674668.926 25.049 25498998.284 6674668.762 25.049 25499009.891 6674662.156 25.05 25499009.936 6674662.235 25.05 25499018.891 6674657.185 25.05 25499008.069 6674638.156 25.05 25499014.562 6674634.415 25.05 25499014.498 6674634.306 25.05 25499011.694 6674629.459 25.05 25499011.552 6674629.541 25.05 25499006.262 6674620.253 25.05 25499012.452 6674616.742 25.05 25499011.475 6674615.02 25.05 25499016.523 6674612.157 25.05 25499017.756 6674614.331 25.05 25499019.531 6674613.324 25.05 25499021.292 6674621.166 25.05 25499018.856 6674622.548 25.05 25499020.09 6674624.722 25.05 25499021.861 6674623.703 25.05 25499023.018 6674628.853 25.05 25499020.626 6674630.23 25.05 25499017.344 6674624.52 25.05 25499013.519 6674626.521 25.05 25499017.894 6674633.392 25.05 25499021.18 6674631.331 25.05 25499021.831 6674632.479 25.05 25499023.603 6674631.46 25.05 25499024.764 6674636.631 25.05 25499022.329 6674638.013 25.05 25499023.562 6674640.187 25.05 25499025.334 6674639.168 25.05 25499026.735 6674645.407 25.05 25499026.542 6674647.247 25.05 25499024.423 6674666.659 25.05 25499013.377 6674672.977 25.05 25499012.369 6674671.209 25.05 25499011.033 6674671.971 25.05 25499008.618 6674667.77 25.05 25499001.559 6674671.788 25.049 25499004.985 6674677.748 25.05 25499001.228 6674679.859 25.047 25498995.791 6674670.303 25.05 25498998.378 6674668.926 25.049</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
@@ -35397,16 +35427,19 @@
 <gen:value>2013-12-20</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125190337.665</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
-<gen:value>664</gen:value>
+<gen:value>826</gen:value>
 </gen:intAttribute>
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
+<gen:stringAttribute name="V">
+<gen:value>30.26</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.98</gen:value>
+<gen:value>0.05</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">20.92</bldg:measuredHeight>
@@ -35469,6 +35502,240 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_b4f8ec89-8cb0-4c67-91d7-53da471f5b75_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>819.38</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>b4f8ec89-8cb0-4c67-91d7-53da471f5b75</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.94</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_3ceb6b2c-9128-42a2-9b38-25967edfd006" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_b4f8ec89-8cb0-4c67-91d7-53da471f5b75_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_b4f8ec89-8cb0-4c67-91d7-53da471f5b75_2_poly_0_">
+<gml:posList>25499013.422 6674586.252 3.94 25499010.472 6674586.919 3.94 25499009.558 6674582.87 3.94 25499012.509 6674582.204 3.94 25499012.15 6674580.614 3.94 25499012.626 6674580.409 3.94 25499011.496 6674577.717 3.94 25499009.474 6674568.763 3.94 25499009.949 6674568.553 3.94 25499008.824 6674565.885 3.94 25499007.781 6674561.262 3.94 25499004.83 6674561.928 3.94 25499003.909 6674557.85 3.94 25499006.86 6674557.184 3.94 25499003.754 6674543.428 3.94 25498983.429 6674554.991 3.94 25498989.301 6674565.313 3.94 25498995.615 6674561.72 3.94 25499001.626 6674588.343 3.94 25499000.455 6674588.607 3.94 25499000.742 6674589.875 3.94 25499001.912 6674589.611 3.94 25499002.882 6674593.908 3.94 25499000.848 6674595.118 3.94 25498999.226 6674592.267 3.94 25498992.313 6674596.2 3.94 25498997.646 6674605.575 3.94 25499015.493 6674595.421 3.94 25499016.016 6674595.124 3.94 25499014.749 6674592.129 3.94 25499013.422 6674586.252 3.94</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>123.14</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>89.98</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.94</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>24.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>20.94</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>24.88</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_a755d5a4-d4ea-4cf9-828c-12b722a37061" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_0_0_">
+<gml:posList>25498992.509 6674549.825 24.883 25499003.754 6674543.428 24.88 25499006.86 6674557.184 24.88 25499003.958 6674557.839 24.882 25499003.203 6674554.494 24.883 25498994.224 6674557.419 24.885 25498992.509 6674549.825 24.883</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_1_0_">
+<gml:posList>25499002.321 6674597.606 24.4 25499004.803 6674596.193 24.4 25499006.5 6674600.537 24.4 25499004.603 6674601.617 24.4 25499002.321 6674597.606 24.4</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_2_0_">
+<gml:posList>25499006.5 6674600.537 25.1 25499004.803 6674596.193 25.1 25499014.43 6674590.717 25.1 25499014.749 6674592.129 25.1 25499016.016 6674595.124 25.1 25499006.5 6674600.537 25.1</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_3_0_">
+<gml:posList>25499005.796 6674565.981 24.93 25499004.879 6674561.917 24.931 25499007.781 6674561.262 24.934 25499008.824 6674565.885 24.934 25499009.949 6674568.553 24.934 25499009.474 6674568.763 24.934 25499011.496 6674577.717 24.934 25499012.626 6674580.409 24.934 25499012.15 6674580.614 24.934 25499012.509 6674582.204 24.934 25499009.607 6674582.859 24.931 25499008.457 6674577.768 24.93 25499002.428 6674579.129 24.93 25498999.831 6674567.624 24.93 25499005.796 6674565.981 24.93</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_a81b51a1-a244-44f0-be53-8e16212efc84_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>14.35</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>a81b51a1-a244-44f0-be53-8e16212efc84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.13</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>24.07</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>20.13</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>24.07</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_137f7b4b-90e5-4642-8606-c95e6ab02eaa" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_a81b51a1-a244-44f0-be53-8e16212efc84_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_a81b51a1-a244-44f0-be53-8e16212efc84_2_poly_0_">
+<gml:posList>25498992.509 6674549.825 24.07 25498994.224 6674557.419 24.07 25498992.418 6674558.008 24.07 25498990.791 6674550.802 24.07 25498992.509 6674549.825 24.07</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_8063f5cf-d754-4085-9b01-c68be32f3cd6_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>314.75</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>8063f5cf-d754-4085-9b01-c68be32f3cd6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>24.36</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>28.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>24.36</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>28.3</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_696411e3-b3a3-4549-8b3f-384ee1dc43c8" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_8063f5cf-d754-4085-9b01-c68be32f3cd6_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_8063f5cf-d754-4085-9b01-c68be32f3cd6_2_poly_0_">
+<gml:posList>25499003.203 6674554.494 28.3 25499003.958 6674557.839 28.3 25499003.909 6674557.85 28.3 25499004.83 6674561.928 28.3 25499004.879 6674561.917 28.3 25499005.796 6674565.981 28.3 25498999.831 6674567.624 28.3 25499002.428 6674579.129 28.3 25499008.457 6674577.768 28.3 25499009.607 6674582.859 28.3 25499009.558 6674582.87 28.3 25499010.472 6674586.919 28.3 25499013.422 6674586.252 28.3 25499014.43 6674590.717 28.3 25499002.321 6674597.606 28.3 25499000.891 6674595.093 28.3 25499002.882 6674593.908 28.3 25499001.912 6674589.611 28.3 25499000.742 6674589.875 28.3 25499000.455 6674588.607 28.3 25499001.626 6674588.343 28.3 25498995.615 6674561.72 28.3 25498993.755 6674562.779 28.3 25498992.418 6674558.008 28.3 25499003.203 6674554.494 28.3</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_e8d4a766-d29f-4832-a623-a8813e7f96be_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>86.16</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>e8d4a766-d29f-4832-a623-a8813e7f96be</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.98</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>21.93</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>17.98</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>21.93</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_1c64ef31-b904-4458-88e6-1a9c7d43723d" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_e8d4a766-d29f-4832-a623-a8813e7f96be_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_e8d4a766-d29f-4832-a623-a8813e7f96be_2_poly_0_0_">
+<gml:posList>25499004.603 6674601.617 21.926 25498997.646 6674605.575 21.926 25498992.313 6674596.2 21.926 25498999.226 6674592.267 21.926 25499000.848 6674595.118 21.926 25499000.891 6674595.093 21.926 25499004.603 6674601.617 21.926</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_e8d4a766-d29f-4832-a623-a8813e7f96be_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_e8d4a766-d29f-4832-a623-a8813e7f96be_2_poly_1_0_">
+<gml:posList>25498990.791 6674550.802 21.9 25498992.418 6674558.008 21.9 25498993.755 6674562.779 21.9 25498989.301 6674565.313 21.9 25498983.429 6674554.991 21.9 25498990.791 6674550.802 21.9</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_88163d63-4931-4865-a04d-7dc500de269f_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -35714,36 +35981,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_b4f8ec89-8cb0-4c67-91d7-53da471f5b75_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>819.38</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>b4f8ec89-8cb0-4c67-91d7-53da471f5b75</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.94</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_3ceb6b2c-9128-42a2-9b38-25967edfd006" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_b4f8ec89-8cb0-4c67-91d7-53da471f5b75_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_b4f8ec89-8cb0-4c67-91d7-53da471f5b75_2_poly_0_">
-<gml:posList>25499013.422 6674586.252 3.94 25499010.472 6674586.919 3.94 25499009.558 6674582.87 3.94 25499012.509 6674582.204 3.94 25499012.15 6674580.614 3.94 25499012.626 6674580.409 3.94 25499011.496 6674577.717 3.94 25499009.474 6674568.763 3.94 25499009.949 6674568.553 3.94 25499008.824 6674565.885 3.94 25499007.781 6674561.262 3.94 25499004.83 6674561.928 3.94 25499003.909 6674557.85 3.94 25499006.86 6674557.184 3.94 25499003.754 6674543.428 3.94 25498983.429 6674554.991 3.94 25498989.301 6674565.313 3.94 25498995.615 6674561.72 3.94 25499001.626 6674588.343 3.94 25499000.455 6674588.607 3.94 25499000.742 6674589.875 3.94 25499001.912 6674589.611 3.94 25499002.882 6674593.908 3.94 25499000.848 6674595.118 3.94 25498999.226 6674592.267 3.94 25498992.313 6674596.2 3.94 25498997.646 6674605.575 3.94 25499015.493 6674595.421 3.94 25499016.016 6674595.124 3.94 25499014.749 6674592.129 3.94 25499013.422 6674586.252 3.94</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_50abd25c-9d5d-43a2-8e55-156a2f451668_2">
@@ -36160,75 +36397,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>123.14</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>89.98</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.94</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>24.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>20.94</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>24.88</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_a755d5a4-d4ea-4cf9-828c-12b722a37061" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_0_0_">
-<gml:posList>25498992.509 6674549.825 24.883 25499003.754 6674543.428 24.88 25499006.86 6674557.184 24.88 25499003.958 6674557.839 24.882 25499003.203 6674554.494 24.883 25498994.224 6674557.419 24.885 25498992.509 6674549.825 24.883</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_1_0_">
-<gml:posList>25499002.321 6674597.606 24.4 25499004.803 6674596.193 24.4 25499006.5 6674600.537 24.4 25499004.603 6674601.617 24.4 25499002.321 6674597.606 24.4</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_2_0_">
-<gml:posList>25499006.5 6674600.537 25.1 25499004.803 6674596.193 25.1 25499014.43 6674590.717 25.1 25499014.749 6674592.129 25.1 25499016.016 6674595.124 25.1 25499006.5 6674600.537 25.1</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_134b5ef5-cbcc-4ae1-baed-83a5ebf24c4d_2_poly_3_0_">
-<gml:posList>25499005.796 6674565.981 24.93 25499004.879 6674561.917 24.931 25499007.781 6674561.262 24.934 25499008.824 6674565.885 24.934 25499009.949 6674568.553 24.934 25499009.474 6674568.763 24.934 25499011.496 6674577.717 24.934 25499012.626 6674580.409 24.934 25499012.15 6674580.614 24.934 25499012.509 6674582.204 24.934 25499009.607 6674582.859 24.931 25499008.457 6674577.768 24.93 25499002.428 6674579.129 24.93 25498999.831 6674567.624 24.93 25499005.796 6674565.981 24.93</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_971b81ad-9a4f-4070-9701-e6cf3837a8c3_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -36269,141 +36437,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_a81b51a1-a244-44f0-be53-8e16212efc84_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>14.35</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>a81b51a1-a244-44f0-be53-8e16212efc84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.13</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>24.07</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>20.13</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>24.07</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_137f7b4b-90e5-4642-8606-c95e6ab02eaa" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_a81b51a1-a244-44f0-be53-8e16212efc84_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_a81b51a1-a244-44f0-be53-8e16212efc84_2_poly_0_">
-<gml:posList>25498992.509 6674549.825 24.07 25498994.224 6674557.419 24.07 25498992.418 6674558.008 24.07 25498990.791 6674550.802 24.07 25498992.509 6674549.825 24.07</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_8063f5cf-d754-4085-9b01-c68be32f3cd6_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>314.75</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>8063f5cf-d754-4085-9b01-c68be32f3cd6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>24.36</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>28.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>24.36</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>28.3</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_696411e3-b3a3-4549-8b3f-384ee1dc43c8" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_8063f5cf-d754-4085-9b01-c68be32f3cd6_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_8063f5cf-d754-4085-9b01-c68be32f3cd6_2_poly_0_">
-<gml:posList>25499003.203 6674554.494 28.3 25499003.958 6674557.839 28.3 25499003.909 6674557.85 28.3 25499004.83 6674561.928 28.3 25499004.879 6674561.917 28.3 25499005.796 6674565.981 28.3 25498999.831 6674567.624 28.3 25499002.428 6674579.129 28.3 25499008.457 6674577.768 28.3 25499009.607 6674582.859 28.3 25499009.558 6674582.87 28.3 25499010.472 6674586.919 28.3 25499013.422 6674586.252 28.3 25499014.43 6674590.717 28.3 25499002.321 6674597.606 28.3 25499000.891 6674595.093 28.3 25499002.882 6674593.908 28.3 25499001.912 6674589.611 28.3 25499000.742 6674589.875 28.3 25499000.455 6674588.607 28.3 25499001.626 6674588.343 28.3 25498995.615 6674561.72 28.3 25498993.755 6674562.779 28.3 25498992.418 6674558.008 28.3 25499003.203 6674554.494 28.3</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_e8d4a766-d29f-4832-a623-a8813e7f96be_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>86.16</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>e8d4a766-d29f-4832-a623-a8813e7f96be</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.98</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>21.93</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>17.98</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>21.93</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_1c64ef31-b904-4458-88e6-1a9c7d43723d" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_e8d4a766-d29f-4832-a623-a8813e7f96be_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_e8d4a766-d29f-4832-a623-a8813e7f96be_2_poly_0_0_">
-<gml:posList>25499004.603 6674601.617 21.926 25498997.646 6674605.575 21.926 25498992.313 6674596.2 21.926 25498999.226 6674592.267 21.926 25499000.848 6674595.118 21.926 25499000.891 6674595.093 21.926 25499004.603 6674601.617 21.926</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_e8d4a766-d29f-4832-a623-a8813e7f96be_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_e8d4a766-d29f-4832-a623-a8813e7f96be_2_poly_1_0_">
-<gml:posList>25498990.791 6674550.802 21.9 25498992.418 6674558.008 21.9 25498993.755 6674562.779 21.9 25498989.301 6674565.313 21.9 25498983.429 6674554.991 21.9 25498990.791 6674550.802 21.9</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_95c19986-26fe-47ea-8181-469586a18581_a47c082c-5b55-436c-a563-490295a9aac9_2">
@@ -37175,7 +37208,7 @@
 <gen:value>2015-06-15</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125105528.864</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>667</gen:value>
@@ -37184,7 +37217,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>211.24</gen:value>
+<gen:value>0.16</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">17.58</bldg:measuredHeight>
@@ -37208,6 +37241,129 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2a640f96-0186-4908-a44d-7e367faa99db_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>445.48</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>2a640f96-0186-4908-a44d-7e367faa99db</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.45</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_5fc74cab-885a-4966-8e8e-13af1b3a9c8a" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2a640f96-0186-4908-a44d-7e367faa99db_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2a640f96-0186-4908-a44d-7e367faa99db_2_poly_0_">
+<gml:posList>25498914.135 6674673.074 4.45 25498890.569 6674686.48 4.45 25498901.47 6674695.028 4.45 25498904.295 6674693.421 4.45 25498903.929 6674696.957 4.45 25498910.054 6674701.76 4.45 25498920.106 6674699.487 4.45 25498914.135 6674673.074 4.45</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_7805411b-2a5b-41b5-b4ac-1dd9936ca55d_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>230.65</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>7805411b-2a5b-41b5-b4ac-1dd9936ca55d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.57</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>22.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>17.57</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>22.02</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_8cd5ba57-20c6-4187-aa85-2c21d1b5141a" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_7805411b-2a5b-41b5-b4ac-1dd9936ca55d_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_7805411b-2a5b-41b5-b4ac-1dd9936ca55d_2_poly_0_">
+<gml:posList>25498908.438 6674676.315 22.02 25498910.037 6674701.747 22.02 25498903.929 6674696.957 22.02 25498904.295 6674693.421 22.02 25498901.47 6674695.028 22.02 25498890.569 6674686.48 22.02 25498908.438 6674676.315 22.02</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2e695f74-91ec-4736-8655-44cf50be6189_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>84.22</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>2e695f74-91ec-4736-8655-44cf50be6189</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>209.63</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>87.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>21.83</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>26.28</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>20.84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>25.29</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_98ec1361-9f0f-4330-ac20-f42b2551feae" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2e695f74-91ec-4736-8655-44cf50be6189_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2e695f74-91ec-4736-8655-44cf50be6189_2_poly_0_0_">
+<gml:posList>25498914.135 6674673.074 25.292 25498920.073 6674699.341 26.282 25498908.457 6674676.304 25.292 25498914.135 6674673.074 25.292</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2e695f74-91ec-4736-8655-44cf50be6189_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2e695f74-91ec-4736-8655-44cf50be6189_2_poly_1_0_">
+<gml:posList>25498908.457 6674676.304 25.292 25498920.073 6674699.341 26.282 25498920.106 6674699.487 26.288 25498910.054 6674701.76 26.288 25498910.037 6674701.747 26.287 25498908.438 6674676.315 25.292 25498908.457 6674676.304 25.292</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_d7dfa387-94d7-4e02-94e4-a87aeccb6891_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -37377,36 +37533,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2a640f96-0186-4908-a44d-7e367faa99db_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>445.48</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>2a640f96-0186-4908-a44d-7e367faa99db</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.45</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_5fc74cab-885a-4966-8e8e-13af1b3a9c8a" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2a640f96-0186-4908-a44d-7e367faa99db_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2a640f96-0186-4908-a44d-7e367faa99db_2_poly_0_">
-<gml:posList>25498914.135 6674673.074 4.45 25498890.569 6674686.48 4.45 25498901.47 6674695.028 4.45 25498904.295 6674693.421 4.45 25498903.929 6674696.957 4.45 25498910.054 6674701.76 4.45 25498920.106 6674699.487 4.45 25498914.135 6674673.074 4.45</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_caabbb71-e3ce-4221-80f4-ed323578b9b7_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -37498,99 +37624,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_7805411b-2a5b-41b5-b4ac-1dd9936ca55d_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>230.65</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>7805411b-2a5b-41b5-b4ac-1dd9936ca55d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.57</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>22.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>17.57</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>22.02</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_8cd5ba57-20c6-4187-aa85-2c21d1b5141a" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_7805411b-2a5b-41b5-b4ac-1dd9936ca55d_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_7805411b-2a5b-41b5-b4ac-1dd9936ca55d_2_poly_0_">
-<gml:posList>25498908.438 6674676.315 22.02 25498910.037 6674701.747 22.02 25498903.929 6674696.957 22.02 25498904.295 6674693.421 22.02 25498901.47 6674695.028 22.02 25498890.569 6674686.48 22.02 25498908.438 6674676.315 22.02</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2e695f74-91ec-4736-8655-44cf50be6189_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>84.22</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>2e695f74-91ec-4736-8655-44cf50be6189</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>209.63</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>87.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>21.83</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>26.28</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>20.84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>25.29</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_98ec1361-9f0f-4330-ac20-f42b2551feae" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2e695f74-91ec-4736-8655-44cf50be6189_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2e695f74-91ec-4736-8655-44cf50be6189_2_poly_0_0_">
-<gml:posList>25498914.135 6674673.074 25.292 25498920.073 6674699.341 26.282 25498908.457 6674676.304 25.292 25498914.135 6674673.074 25.292</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2e695f74-91ec-4736-8655-44cf50be6189_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_2e695f74-91ec-4736-8655-44cf50be6189_2_poly_1_0_">
-<gml:posList>25498908.457 6674676.304 25.292 25498920.073 6674699.341 26.282 25498920.106 6674699.487 26.288 25498910.054 6674701.76 26.288 25498910.037 6674701.747 26.287 25498908.438 6674676.315 25.292 25498908.457 6674676.304 25.292</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_aaf93473-8f29-4ff0-8571-a40875316561_27e4978b-5f39-48fb-aa82-d2b96596dbec_2">
@@ -37738,7 +37771,7 @@
 <gen:value>2013-08-19</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125190331.82</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>662</gen:value>
@@ -37747,7 +37780,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>234.13</gen:value>
+<gen:value>235.61</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">25.83</bldg:measuredHeight>
@@ -37802,6 +37835,198 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_a8ead33f-e027-4798-85d1-f63ca089db66_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1036.62</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>a8ead33f-e027-4798-85d1-f63ca089db66</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.17</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_310105a5-50a1-4898-9f76-421adf57359c" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_a8ead33f-e027-4798-85d1-f63ca089db66_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_a8ead33f-e027-4798-85d1-f63ca089db66_2_poly_0_">
+<gml:posList>25498866.628 6674665.927 4.166 25498857.16 6674669.559 4.166 25498844.781 6674651.182 4.166 25498853.774 6674643.37 4.166 25498849.286 6674635.493 4.166 25498845.857 6674637.729 4.166 25498843.67 6674634.486 4.166 25498823.189 6674646.162 4.166 25498827.92 6674653.186 4.166 25498829.156 6674652.354 4.166 25498830.898 6674654.941 4.166 25498829.663 6674655.774 4.166 25498851.748 6674688.562 4.166 25498870.403 6674677.933 4.166 25498868.612 6674675.133 4.166 25498870.959 6674673.527 4.166 25498866.628 6674665.927 4.166</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>47.82</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>b55f81c7-afce-4075-aa01-821113939723</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>22.07</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>17.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>22.07</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_8263068d-c601-4135-a2e5-1be0648fc1c2" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_0_0_">
+<gml:posList>25498869.625 6674671.187 22.07 25498870.959 6674673.527 22.07 25498868.612 6674675.133 22.07 25498870.403 6674677.933 22.07 25498864.952 6674681.039 22.07 25498861.454 6674675.845 22.07 25498869.625 6674671.187 22.07</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_1_0_">
+<gml:posList>25498827.708 6674643.586 22.17 25498832.125 6674650.143 22.17 25498830.031 6674651.337 22.17 25498832.338 6674654.763 22.17 25498834.432 6674653.569 22.17 25498839.944 6674661.752 22.17 25498837.85 6674662.946 22.17 25498839.586 6674665.524 22.17 25498841.681 6674664.33 22.17 25498847.097 6674672.372 22.17 25498845.003 6674673.566 22.17 25498847.135 6674676.731 22.17 25498849.23 6674675.537 22.17 25498856.268 6674685.987 22.17 25498851.748 6674688.562 22.17 25498829.663 6674655.774 22.17 25498830.898 6674654.941 22.17 25498829.156 6674652.354 22.17 25498827.92 6674653.186 22.17 25498823.189 6674646.162 22.17 25498827.708 6674643.586 22.17</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_2_0_">
+<gml:posList>25498838.576 6674641.88 22.12 25498836.391 6674638.636 22.12 25498843.67 6674634.486 22.12 25498845.524 6674637.234 22.12 25498838.576 6674641.88 22.12</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_3_0_">
+<gml:posList>25498845.438 6674640.87 22.41 25498843.804 6674638.384 22.41 25498845.524 6674637.234 22.41 25498845.857 6674637.729 22.41 25498849.286 6674635.493 22.41 25498853.774 6674643.37 22.41 25498844.819 6674651.149 22.41 25498839.988 6674643.977 22.41 25498845.438 6674640.87 22.41</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_4">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_4_0_">
+<gml:posList>25498866.628 6674665.927 22.268 25498869.625 6674671.187 22.268 25498861.454 6674675.845 22.268 25498857.208 6674669.541 22.268 25498866.628 6674665.927 22.268</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_9728b9ef-7a4d-4986-a67f-5723af76c328_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>17.26</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>9728b9ef-7a4d-4986-a67f-5723af76c328</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>19.05</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>23.22</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.05</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.22</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_a92e2be6-e552-4dae-b0ee-947cf9078c62" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_9728b9ef-7a4d-4986-a67f-5723af76c328_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_9728b9ef-7a4d-4986-a67f-5723af76c328_2_poly_0_">
+<gml:posList>25498843.804 6674638.384 23.22 25498845.438 6674640.87 23.22 25498839.988 6674643.977 23.22 25498838.576 6674641.88 23.22 25498843.804 6674638.384 23.22</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_36a927ed-d46b-4f6c-812d-e00de79619aa_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>535.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>36a927ed-d46b-4f6c-812d-e00de79619aa</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>25.82</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>29.99</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>25.82</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>29.99</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_89423027-7ee0-48a0-bb7f-16f0d55f0fe6" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_36a927ed-d46b-4f6c-812d-e00de79619aa_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_36a927ed-d46b-4f6c-812d-e00de79619aa_2_poly_0_">
+<gml:posList>25498844.819 6674651.149 29.99 25498844.781 6674651.182 29.99 25498857.16 6674669.559 29.99 25498857.208 6674669.541 29.99 25498864.952 6674681.039 29.99 25498856.268 6674685.987 29.99 25498849.23 6674675.537 29.99 25498847.135 6674676.731 29.99 25498845.003 6674673.566 29.99 25498847.097 6674672.372 29.99 25498841.681 6674664.33 29.99 25498839.586 6674665.524 29.99 25498837.85 6674662.946 29.99 25498839.944 6674661.752 29.99 25498834.432 6674653.569 29.99 25498832.338 6674654.763 29.99 25498830.031 6674651.337 29.99 25498832.125 6674650.143 29.99 25498827.708 6674643.586 29.99 25498836.391 6674638.636 29.99 25498844.819 6674651.149 29.99</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_f773da89-3442-4809-8356-26ba7e10216a_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -37971,84 +38196,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>47.82</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>b55f81c7-afce-4075-aa01-821113939723</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>22.07</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>17.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>22.07</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_8263068d-c601-4135-a2e5-1be0648fc1c2" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_0_0_">
-<gml:posList>25498869.625 6674671.187 22.07 25498870.959 6674673.527 22.07 25498868.612 6674675.133 22.07 25498870.403 6674677.933 22.07 25498864.952 6674681.039 22.07 25498861.454 6674675.845 22.07 25498869.625 6674671.187 22.07</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_1_0_">
-<gml:posList>25498827.708 6674643.586 22.17 25498832.125 6674650.143 22.17 25498830.031 6674651.337 22.17 25498832.338 6674654.763 22.17 25498834.432 6674653.569 22.17 25498839.944 6674661.752 22.17 25498837.85 6674662.946 22.17 25498839.586 6674665.524 22.17 25498841.681 6674664.33 22.17 25498847.097 6674672.372 22.17 25498845.003 6674673.566 22.17 25498847.135 6674676.731 22.17 25498849.23 6674675.537 22.17 25498856.268 6674685.987 22.17 25498851.748 6674688.562 22.17 25498829.663 6674655.774 22.17 25498830.898 6674654.941 22.17 25498829.156 6674652.354 22.17 25498827.92 6674653.186 22.17 25498823.189 6674646.162 22.17 25498827.708 6674643.586 22.17</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_2_0_">
-<gml:posList>25498838.576 6674641.88 22.12 25498836.391 6674638.636 22.12 25498843.67 6674634.486 22.12 25498845.524 6674637.234 22.12 25498838.576 6674641.88 22.12</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_3_0_">
-<gml:posList>25498845.438 6674640.87 22.41 25498843.804 6674638.384 22.41 25498845.524 6674637.234 22.41 25498845.857 6674637.729 22.41 25498849.286 6674635.493 22.41 25498853.774 6674643.37 22.41 25498844.819 6674651.149 22.41 25498839.988 6674643.977 22.41 25498845.438 6674640.87 22.41</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_4">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b55f81c7-afce-4075-aa01-821113939723_2_poly_4_0_">
-<gml:posList>25498866.628 6674665.927 22.268 25498869.625 6674671.187 22.268 25498861.454 6674675.845 22.268 25498857.208 6674669.541 22.268 25498866.628 6674665.927 22.268</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_8fecea0c-6132-400b-8714-131779025a07_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -38215,48 +38362,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_9728b9ef-7a4d-4986-a67f-5723af76c328_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>17.26</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>9728b9ef-7a4d-4986-a67f-5723af76c328</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>19.05</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>23.22</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.05</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.22</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_a92e2be6-e552-4dae-b0ee-947cf9078c62" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_9728b9ef-7a4d-4986-a67f-5723af76c328_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_9728b9ef-7a4d-4986-a67f-5723af76c328_2_poly_0_">
-<gml:posList>25498843.804 6674638.384 23.22 25498845.438 6674640.87 23.22 25498839.988 6674643.977 23.22 25498838.576 6674641.88 23.22 25498843.804 6674638.384 23.22</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_482d446a-0926-4826-a2a8-ab818e146a72_2">
@@ -38554,48 +38659,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_36a927ed-d46b-4f6c-812d-e00de79619aa_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>535.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>36a927ed-d46b-4f6c-812d-e00de79619aa</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>25.82</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>29.99</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>25.82</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>29.99</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_89423027-7ee0-48a0-bb7f-16f0d55f0fe6" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_36a927ed-d46b-4f6c-812d-e00de79619aa_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_36a927ed-d46b-4f6c-812d-e00de79619aa_2_poly_0_">
-<gml:posList>25498844.819 6674651.149 29.99 25498844.781 6674651.182 29.99 25498857.16 6674669.559 29.99 25498857.208 6674669.541 29.99 25498864.952 6674681.039 29.99 25498856.268 6674685.987 29.99 25498849.23 6674675.537 29.99 25498847.135 6674676.731 29.99 25498845.003 6674673.566 29.99 25498847.097 6674672.372 29.99 25498841.681 6674664.33 29.99 25498839.586 6674665.524 29.99 25498837.85 6674662.946 29.99 25498839.944 6674661.752 29.99 25498834.432 6674653.569 29.99 25498832.338 6674654.763 29.99 25498830.031 6674651.337 29.99 25498832.125 6674650.143 29.99 25498827.708 6674643.586 29.99 25498836.391 6674638.636 29.99 25498844.819 6674651.149 29.99</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_efb7ee6c-00f9-489a-94b9-8787e16a5d98_2">
@@ -39045,36 +39108,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_a8ead33f-e027-4798-85d1-f63ca089db66_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1036.62</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>a8ead33f-e027-4798-85d1-f63ca089db66</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.17</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_310105a5-50a1-4898-9f76-421adf57359c" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_a8ead33f-e027-4798-85d1-f63ca089db66_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_a8ead33f-e027-4798-85d1-f63ca089db66_2_poly_0_">
-<gml:posList>25498866.628 6674665.927 4.166 25498857.16 6674669.559 4.166 25498844.781 6674651.182 4.166 25498853.774 6674643.37 4.166 25498849.286 6674635.493 4.166 25498845.857 6674637.729 4.166 25498843.67 6674634.486 4.166 25498823.189 6674646.162 4.166 25498827.92 6674653.186 4.166 25498829.156 6674652.354 4.166 25498830.898 6674654.941 4.166 25498829.663 6674655.774 4.166 25498851.748 6674688.562 4.166 25498870.403 6674677.933 4.166 25498868.612 6674675.133 4.166 25498870.959 6674673.527 4.166 25498866.628 6674665.927 4.166</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_a12c5958-35a0-482d-a6d4-452b2cfb0d77_b3a69881-6210-408b-9be8-8724ea631fbc_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -39250,7 +39283,7 @@
 <gen:value>ade71a63-c4aa-4420-a894-ebeba4e2dcfb</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125134822.323</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>665</gen:value>
@@ -39259,7 +39292,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.96</gen:value>
+<gen:value>0.07</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">23.34</bldg:measuredHeight>
@@ -39288,6 +39321,129 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_42a83020-d5f9-4020-aace-af02518c4798_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>378.39</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>42a83020-d5f9-4020-aace-af02518c4798</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.81</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_f88bbbe8-e75d-4712-80bb-cf33f88a16de" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_42a83020-d5f9-4020-aace-af02518c4798_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_42a83020-d5f9-4020-aace-af02518c4798_2_poly_0_">
+<gml:posList>25498924.06 6674716.966 3.81 25498921.819 6674717.48 3.81 25498921.284 6674715.152 3.81 25498923.526 6674714.637 3.81 25498921.614 6674706.307 3.81 25498910.745 6674713.21 3.81 25498903.866 6674717.567 3.81 25498905.272 6674720.038 3.81 25498899.428 6674723.74 3.81 25498905.465 6674734.353 3.81 25498925.422 6674723 3.81 25498926.987 6674722.111 3.81 25498924.06 6674716.966 3.81</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_518aa907-dfe2-4442-9081-8d090adac094_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>78.62</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>518aa907-dfe2-4442-9081-8d090adac094</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>212.38</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>87.55</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>23.64</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>27.46</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>23.03</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>26.84</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_5f790bc4-4e3d-4da0-9e81-413f7b71eafe" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_518aa907-dfe2-4442-9081-8d090adac094_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_518aa907-dfe2-4442-9081-8d090adac094_2_poly_0_0_">
+<gml:posList>25498921.614 6674706.307 26.842 25498923.526 6674714.637 27.186 25498921.284 6674715.152 27.154 25498921.819 6674717.48 27.25 25498924.06 6674716.966 27.283 25498926.074 6674720.506 27.457 25498910.993 6674713.052 26.842 25498921.614 6674706.307 26.842</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_518aa907-dfe2-4442-9081-8d090adac094_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_518aa907-dfe2-4442-9081-8d090adac094_2_poly_1_0_">
+<gml:posList>25498910.993 6674713.052 26.842 25498926.074 6674720.506 27.457 25498926.987 6674722.111 27.538 25498925.422 6674723 27.538 25498911.474 6674730.934 27.538 25498910.937 6674713.088 26.843 25498910.993 6674713.052 26.842</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_f134b7c9-85e0-4996-87c0-c8b424bd59d3_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>149.82</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>f134b7c9-85e0-4996-87c0-c8b424bd59d3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.22</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>24.03</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>20.22</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>24.03</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_1b5d0fd8-d8c2-44de-a664-99bdd4459b4d" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_f134b7c9-85e0-4996-87c0-c8b424bd59d3_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_f134b7c9-85e0-4996-87c0-c8b424bd59d3_2_poly_0_">
+<gml:posList>25498905.272 6674720.038 24.034 25498903.866 6674717.567 24.034 25498910.745 6674713.21 24.034 25498910.937 6674713.088 24.034 25498911.474 6674730.934 24.034 25498905.465 6674734.353 24.034 25498899.428 6674723.74 24.034 25498905.272 6674720.038 24.034</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_3564766e-29f2-4541-8503-f8c6cf6ee950_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -39634,57 +39790,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_518aa907-dfe2-4442-9081-8d090adac094_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>78.62</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>518aa907-dfe2-4442-9081-8d090adac094</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>212.38</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>87.55</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>23.64</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>27.46</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>23.03</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>26.84</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_5f790bc4-4e3d-4da0-9e81-413f7b71eafe" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_518aa907-dfe2-4442-9081-8d090adac094_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_518aa907-dfe2-4442-9081-8d090adac094_2_poly_0_0_">
-<gml:posList>25498921.614 6674706.307 26.842 25498923.526 6674714.637 27.186 25498921.284 6674715.152 27.154 25498921.819 6674717.48 27.25 25498924.06 6674716.966 27.283 25498926.074 6674720.506 27.457 25498910.993 6674713.052 26.842 25498921.614 6674706.307 26.842</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_518aa907-dfe2-4442-9081-8d090adac094_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_518aa907-dfe2-4442-9081-8d090adac094_2_poly_1_0_">
-<gml:posList>25498910.993 6674713.052 26.842 25498926.074 6674720.506 27.457 25498926.987 6674722.111 27.538 25498925.422 6674723 27.538 25498911.474 6674730.934 27.538 25498910.937 6674713.088 26.843 25498910.993 6674713.052 26.842</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_2933daaa-f9f6-4bf4-afa0-edb0bc660ccd_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -39767,78 +39872,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_42a83020-d5f9-4020-aace-af02518c4798_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>378.39</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>42a83020-d5f9-4020-aace-af02518c4798</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.81</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_f88bbbe8-e75d-4712-80bb-cf33f88a16de" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_42a83020-d5f9-4020-aace-af02518c4798_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_42a83020-d5f9-4020-aace-af02518c4798_2_poly_0_">
-<gml:posList>25498924.06 6674716.966 3.81 25498921.819 6674717.48 3.81 25498921.284 6674715.152 3.81 25498923.526 6674714.637 3.81 25498921.614 6674706.307 3.81 25498910.745 6674713.21 3.81 25498903.866 6674717.567 3.81 25498905.272 6674720.038 3.81 25498899.428 6674723.74 3.81 25498905.465 6674734.353 3.81 25498925.422 6674723 3.81 25498926.987 6674722.111 3.81 25498924.06 6674716.966 3.81</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_f134b7c9-85e0-4996-87c0-c8b424bd59d3_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>149.82</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>f134b7c9-85e0-4996-87c0-c8b424bd59d3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.22</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>24.03</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>20.22</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>24.03</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_1b5d0fd8-d8c2-44de-a664-99bdd4459b4d" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_f134b7c9-85e0-4996-87c0-c8b424bd59d3_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_f134b7c9-85e0-4996-87c0-c8b424bd59d3_2_poly_0_">
-<gml:posList>25498905.272 6674720.038 24.034 25498903.866 6674717.567 24.034 25498910.745 6674713.21 24.034 25498910.937 6674713.088 24.034 25498911.474 6674730.934 24.034 25498905.465 6674734.353 24.034 25498899.428 6674723.74 24.034 25498905.272 6674720.038 24.034</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_ade71a63-c4aa-4420-a894-ebeba4e2dcfb_dec3db2a-73fb-409b-928c-b209fffefcf9_2">
@@ -39950,7 +39983,7 @@
 <gen:value>b218c435-e0b1-4baa-b216-cfbeeefc168b</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125111547.875</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>668</gen:value>
@@ -39959,7 +39992,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>203.51</gen:value>
+<gen:value>0.06</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">9.0</bldg:measuredHeight>
@@ -39977,6 +40010,36 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_b218c435-e0b1-4baa-b216-cfbeeefc168b_6b4daaae-f93b-4eb6-893f-0cc756860eee_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>171.32</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>6b4daaae-f93b-4eb6-893f-0cc756860eee</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>7.83</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_3d14893e-317b-4a97-9ff2-1a4072528f2c" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_b218c435-e0b1-4baa-b216-cfbeeefc168b_6b4daaae-f93b-4eb6-893f-0cc756860eee_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_b218c435-e0b1-4baa-b216-cfbeeefc168b_6b4daaae-f93b-4eb6-893f-0cc756860eee_2_poly_0_">
+<gml:posList>25498920.371 6674768.016 7.827 25498932.915 6674787.501 7.827 25498939.213 6674783.315 7.827 25498926.387 6674764.016 7.827 25498920.371 6674768.016 7.827</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_b218c435-e0b1-4baa-b216-cfbeeefc168b_b1592606-15dd-444b-ac12-e18d1528ee13_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -40146,36 +40209,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_b218c435-e0b1-4baa-b216-cfbeeefc168b_6b4daaae-f93b-4eb6-893f-0cc756860eee_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>171.32</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>6b4daaae-f93b-4eb6-893f-0cc756860eee</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>7.83</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_3d14893e-317b-4a97-9ff2-1a4072528f2c" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_b218c435-e0b1-4baa-b216-cfbeeefc168b_6b4daaae-f93b-4eb6-893f-0cc756860eee_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_b218c435-e0b1-4baa-b216-cfbeeefc168b_6b4daaae-f93b-4eb6-893f-0cc756860eee_2_poly_0_">
-<gml:posList>25498920.371 6674768.016 7.827 25498932.915 6674787.501 7.827 25498939.213 6674783.315 7.827 25498926.387 6674764.016 7.827 25498920.371 6674768.016 7.827</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_b218c435-e0b1-4baa-b216-cfbeeefc168b_726b9378-ff7e-4990-9d77-fd4f29b1e999_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -40309,7 +40342,7 @@
 <gen:value>103520367N</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125190331.82</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>663</gen:value>
@@ -40318,7 +40351,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>232.19</gen:value>
+<gen:value>233.67</gen:value>
 </gen:stringAttribute>
 <bldg:function>011</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -40346,6 +40379,162 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_7737878d-1f9a-454e-ba4d-20cb14b1191a_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>82.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>7737878d-1f9a-454e-ba4d-20cb14b1191a</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>-0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.6</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_fb3d28bb-7d0d-4234-abcd-9cb05830a40e" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_7737878d-1f9a-454e-ba4d-20cb14b1191a_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_7737878d-1f9a-454e-ba4d-20cb14b1191a_2_poly_0_">
+<gml:posList>25498936.0513 6674482.4066 3.56 25498929.7326 6674483.9305 3.56 25498932.7692 6674496.5206 3.56 25498936.7696 6674495.555699999 3.56 25498936.5301 6674494.5632 3.56 25498938.562 6674494.0731 3.56 25498938.801399995 6674495.065699999 3.56 25498939.0879 6674494.9965 3.56 25498936.0513 6674482.4066 3.56</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_03afb9b3-3ffd-47dc-aa6f-ae832ca1e9d6_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>29.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>03afb9b3-3ffd-47dc-aa6f-ae832ca1e9d6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>11.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>15.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>11.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>15.5</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_f7eea3d9-a919-4cd5-9414-d2ab2d141e1d" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_03afb9b3-3ffd-47dc-aa6f-ae832ca1e9d6_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_03afb9b3-3ffd-47dc-aa6f-ae832ca1e9d6_2_poly_0_">
+<gml:posList>25498937.9544 6674490.297 15.5 25498939.0879 6674494.9965 15.5 25498938.801399995 6674495.065699999 15.5 25498938.562 6674494.0731 15.5 25498936.5301 6674494.5632 15.5 25498936.7696 6674495.555699999 15.5 25498932.7692 6674496.5206 15.5 25498931.6357 6674491.821 15.5 25498937.9544 6674490.297 15.5</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_03b44344-4d8e-4c95-a27c-2257bb8262b7_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>27.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>03b44344-4d8e-4c95-a27c-2257bb8262b7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>15.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>18.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>15.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>18.8</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_e431dd7b-b929-4997-b7b9-3ec200400591" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_03b44344-4d8e-4c95-a27c-2257bb8262b7_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_03b44344-4d8e-4c95-a27c-2257bb8262b7_2_poly_0_">
+<gml:posList>25498936.949399997 6674486.1303 18.8436 25498937.9544 6674490.297 18.8436 25498931.6357 6674491.821 18.8436 25498930.6307 6674487.6543 18.8436 25498936.949399997 6674486.1303 18.8436</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_ddc81fd6-3330-45c3-a0e8-7b3e7e9ebaca_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>24.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>ddc81fd6-3330-45c3-a0e8-7b3e7e9ebaca</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>11.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>15.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>11.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>15.5</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_f37e7fca-d42b-467c-8121-0789cb4cfb64" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_ddc81fd6-3330-45c3-a0e8-7b3e7e9ebaca_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_ddc81fd6-3330-45c3-a0e8-7b3e7e9ebaca_2_poly_0_">
+<gml:posList>25498936.0513 6674482.4066 15.498199999999999 25498936.949399997 6674486.1303 15.498199999999999 25498930.6307 6674487.6543 15.498199999999999 25498929.7326 6674483.9305 15.498199999999999 25498936.0513 6674482.4066 15.498199999999999</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_552357db-7048-4c9c-bb75-69706b3cba49_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -40683,132 +40872,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_03afb9b3-3ffd-47dc-aa6f-ae832ca1e9d6_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>29.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>03afb9b3-3ffd-47dc-aa6f-ae832ca1e9d6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>11.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>15.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>11.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>15.5</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_f7eea3d9-a919-4cd5-9414-d2ab2d141e1d" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_03afb9b3-3ffd-47dc-aa6f-ae832ca1e9d6_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_03afb9b3-3ffd-47dc-aa6f-ae832ca1e9d6_2_poly_0_">
-<gml:posList>25498937.9544 6674490.297 15.5 25498939.0879 6674494.9965 15.5 25498938.801399995 6674495.065699999 15.5 25498938.562 6674494.0731 15.5 25498936.5301 6674494.5632 15.5 25498936.7696 6674495.555699999 15.5 25498932.7692 6674496.5206 15.5 25498931.6357 6674491.821 15.5 25498937.9544 6674490.297 15.5</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_03b44344-4d8e-4c95-a27c-2257bb8262b7_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>27.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>03b44344-4d8e-4c95-a27c-2257bb8262b7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>15.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>18.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>15.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>18.8</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e431dd7b-b929-4997-b7b9-3ec200400591" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_03b44344-4d8e-4c95-a27c-2257bb8262b7_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_03b44344-4d8e-4c95-a27c-2257bb8262b7_2_poly_0_">
-<gml:posList>25498936.949399997 6674486.1303 18.8436 25498937.9544 6674490.297 18.8436 25498931.6357 6674491.821 18.8436 25498930.6307 6674487.6543 18.8436 25498936.949399997 6674486.1303 18.8436</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_ddc81fd6-3330-45c3-a0e8-7b3e7e9ebaca_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>24.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>ddc81fd6-3330-45c3-a0e8-7b3e7e9ebaca</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>11.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>15.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>11.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>15.5</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_f37e7fca-d42b-467c-8121-0789cb4cfb64" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_ddc81fd6-3330-45c3-a0e8-7b3e7e9ebaca_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_ddc81fd6-3330-45c3-a0e8-7b3e7e9ebaca_2_poly_0_">
-<gml:posList>25498936.0513 6674482.4066 15.498199999999999 25498936.949399997 6674486.1303 15.498199999999999 25498930.6307 6674487.6543 15.498199999999999 25498929.7326 6674483.9305 15.498199999999999 25498936.0513 6674482.4066 15.498199999999999</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_942790a5-be37-49df-a488-78f57e78def7_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -40892,36 +40955,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_7737878d-1f9a-454e-ba4d-20cb14b1191a_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>82.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>7737878d-1f9a-454e-ba4d-20cb14b1191a</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>-0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.6</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_fb3d28bb-7d0d-4234-abcd-9cb05830a40e" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_7737878d-1f9a-454e-ba4d-20cb14b1191a_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_ae9c4527-3e45-4ab4-9307-32093ad6fa37_7737878d-1f9a-454e-ba4d-20cb14b1191a_2_poly_0_">
-<gml:posList>25498936.0513 6674482.4066 3.56 25498929.7326 6674483.9305 3.56 25498932.7692 6674496.5206 3.56 25498936.7696 6674495.555699999 3.56 25498936.5301 6674494.5632 3.56 25498938.562 6674494.0731 3.56 25498938.801399995 6674495.065699999 3.56 25498939.0879 6674494.9965 3.56 25498936.0513 6674482.4066 3.56</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -40973,7 +41006,7 @@
 <gen:value>bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125134822.323</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>666</gen:value>
@@ -40982,7 +41015,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>1.01</gen:value>
+<gen:value>0.06</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">16.9</bldg:measuredHeight>
@@ -41008,6 +41041,78 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5_c1b2dfb6-95b3-40b6-b853-3e3140ed897a_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>4.47</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>c1b2dfb6-95b3-40b6-b853-3e3140ed897a</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>7.59</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_551b0769-6bc9-478f-9369-6ef0ed54343a" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5_c1b2dfb6-95b3-40b6-b853-3e3140ed897a_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5_c1b2dfb6-95b3-40b6-b853-3e3140ed897a_2_poly_0_">
+<gml:posList>25498935.775 6674626.149 7.589 25498935.726 6674626.062 7.589 25498935.552 6674626.161 7.589 25498936.748 6674628.264 7.589 25498936.922 6674628.165 7.589 25498936.823 6674627.991 7.589 25498938.257 6674627.175 7.589 25498938.356 6674627.349 7.589 25498938.53 6674627.25 7.589 25498937.334 6674625.147 7.589 25498937.16 6674625.246 7.589 25498937.209 6674625.333 7.589 25498935.775 6674626.149 7.589</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5_5740b914-fe26-4f8a-ab7b-9699b06ef15a_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>4.47</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>5740b914-fe26-4f8a-ab7b-9699b06ef15a</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>16.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>24.49</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>16.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>24.49</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_13275c51-0977-4d85-8417-623251a70d15" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5_5740b914-fe26-4f8a-ab7b-9699b06ef15a_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5_5740b914-fe26-4f8a-ab7b-9699b06ef15a_2_poly_0_">
+<gml:posList>25498937.209 6674625.333 24.488 25498937.16 6674625.246 24.488 25498937.334 6674625.147 24.488 25498938.53 6674627.25 24.488 25498938.356 6674627.349 24.488 25498938.257 6674627.175 24.488 25498936.823 6674627.991 24.488 25498936.922 6674628.165 24.488 25498936.748 6674628.264 24.488 25498935.552 6674626.161 24.488 25498935.726 6674626.062 24.488 25498935.775 6674626.149 24.488 25498937.209 6674625.333 24.488</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5_22944d5a-a358-4783-8e7e-ef0f9976f876_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -41171,78 +41276,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5_c1b2dfb6-95b3-40b6-b853-3e3140ed897a_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>4.47</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c1b2dfb6-95b3-40b6-b853-3e3140ed897a</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>7.59</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_551b0769-6bc9-478f-9369-6ef0ed54343a" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5_c1b2dfb6-95b3-40b6-b853-3e3140ed897a_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5_c1b2dfb6-95b3-40b6-b853-3e3140ed897a_2_poly_0_">
-<gml:posList>25498935.775 6674626.149 7.589 25498935.726 6674626.062 7.589 25498935.552 6674626.161 7.589 25498936.748 6674628.264 7.589 25498936.922 6674628.165 7.589 25498936.823 6674627.991 7.589 25498938.257 6674627.175 7.589 25498938.356 6674627.349 7.589 25498938.53 6674627.25 7.589 25498937.334 6674625.147 7.589 25498937.16 6674625.246 7.589 25498937.209 6674625.333 7.589 25498935.775 6674626.149 7.589</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5_5740b914-fe26-4f8a-ab7b-9699b06ef15a_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>4.47</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>5740b914-fe26-4f8a-ab7b-9699b06ef15a</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>16.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>24.49</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>16.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>24.49</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_13275c51-0977-4d85-8417-623251a70d15" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5_5740b914-fe26-4f8a-ab7b-9699b06ef15a_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5_5740b914-fe26-4f8a-ab7b-9699b06ef15a_2_poly_0_">
-<gml:posList>25498937.209 6674625.333 24.488 25498937.16 6674625.246 24.488 25498937.334 6674625.147 24.488 25498938.53 6674627.25 24.488 25498938.356 6674627.349 24.488 25498938.257 6674627.175 24.488 25498936.823 6674627.991 24.488 25498936.922 6674628.165 24.488 25498936.748 6674628.264 24.488 25498935.552 6674626.161 24.488 25498935.726 6674626.062 24.488 25498935.775 6674626.149 24.488 25498937.209 6674625.333 24.488</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5_71a28113-6875-4683-8a81-653243e11b91_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -41379,7 +41412,7 @@
 <gen:value>c714cf2e-9ec4-4d75-a13d-7013c0a58966</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125103507.863</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>669</gen:value>
@@ -41388,7 +41421,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>210.85</gen:value>
+<gen:value>0.02</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">3.0</bldg:measuredHeight>
@@ -41406,6 +41439,36 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_c714cf2e-9ec4-4d75-a13d-7013c0a58966_96f1a01f-7d86-458a-8a38-15800abe539b_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>12.91</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>96f1a01f-7d86-458a-8a38-15800abe539b</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>7.7</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_dea8368f-eb6f-4863-87c2-d10e52d481b5" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c714cf2e-9ec4-4d75-a13d-7013c0a58966_96f1a01f-7d86-458a-8a38-15800abe539b_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c714cf2e-9ec4-4d75-a13d-7013c0a58966_96f1a01f-7d86-458a-8a38-15800abe539b_2_poly_0_">
+<gml:posList>25498884.993 6674669.665 7.697 25498882.371 6674665.071 7.697 25498880.252 6674666.281 7.697 25498882.874 6674670.875 7.697 25498884.993 6674669.665 7.697</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_c714cf2e-9ec4-4d75-a13d-7013c0a58966_c8af23b5-e2eb-435c-b9f8-d9820322743e_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -41616,36 +41679,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_c714cf2e-9ec4-4d75-a13d-7013c0a58966_96f1a01f-7d86-458a-8a38-15800abe539b_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>12.91</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>96f1a01f-7d86-458a-8a38-15800abe539b</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>7.7</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_dea8368f-eb6f-4863-87c2-d10e52d481b5" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c714cf2e-9ec4-4d75-a13d-7013c0a58966_96f1a01f-7d86-458a-8a38-15800abe539b_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c714cf2e-9ec4-4d75-a13d-7013c0a58966_96f1a01f-7d86-458a-8a38-15800abe539b_2_poly_0_">
-<gml:posList>25498884.993 6674669.665 7.697 25498882.371 6674665.071 7.697 25498880.252 6674666.281 7.697 25498882.874 6674670.875 7.697 25498884.993 6674669.665 7.697</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -41738,7 +41771,7 @@
 <gen:value>103529164E</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125190331.82</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>679</gen:value>
@@ -41747,7 +41780,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="J">
-<gen:value>11378272.0</gen:value>
+<gen:value>11387438.0</gen:value>
 </gen:stringAttribute>
 <bldg:function>039</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -41782,6 +41815,78 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_c6c36d17-6fc8-4d7b-a0c9-182adc969178_36b16a58-1404-4f26-9bf0-5544803ee94d_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>690.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>36b16a58-1404-4f26-9bf0-5544803ee94d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>-0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.2</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_64f26fc6-7d19-46a0-bdc3-ccb6fd2adb74" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c6c36d17-6fc8-4d7b-a0c9-182adc969178_36b16a58-1404-4f26-9bf0-5544803ee94d_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c6c36d17-6fc8-4d7b-a0c9-182adc969178_36b16a58-1404-4f26-9bf0-5544803ee94d_2_poly_0_">
+<gml:posList>25499100.008499995 6674615.9348 3.167 25499098.303399995 6674608.3732 3.167 25499100.7303 6674607.8215 3.167 25499099.2755 6674601.3866 3.167 25499096.8443 6674601.9233 3.167 25499094.0968 6674589.8249 3.167 25499096.5386 6674589.2811 3.167 25499095.579 6674585.037099999 3.167 25499093.1526 6674585.5771 3.167 25499091.9281 6674580.1591 3.167 25499094.3546 6674579.6211 3.167 25499091.6168 6674567.5115 3.167 25499086.135 6674565.4859 3.167 25499078.717099994 6674567.1625 3.167 25499090.1571 6674617.7627 3.167 25499088.251099996 6674618.847 3.167 25499093.2019 6674627.5493 3.167 25499103.8242 6674621.5062 3.167 25499102.4422 6674615.3935 3.167 25499100.008499995 6674615.9348 3.167</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c6c36d17-6fc8-4d7b-a0c9-182adc969178_636b35ab-fae1-4b7b-af26-4cacf25b5c68_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>690.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>636b35ab-fae1-4b7b-af26-4cacf25b5c68</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>29.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>32.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>29.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>32.8</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_a7c8ff60-0d71-4747-938f-e28e300ca5c7" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c6c36d17-6fc8-4d7b-a0c9-182adc969178_636b35ab-fae1-4b7b-af26-4cacf25b5c68_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c6c36d17-6fc8-4d7b-a0c9-182adc969178_636b35ab-fae1-4b7b-af26-4cacf25b5c68_2_poly_0_">
+<gml:posList>25499091.6168 6674567.5115 32.7768 25499094.3546 6674579.6211 32.7768 25499091.9281 6674580.1591 32.7768 25499093.1526 6674585.5771 32.7768 25499095.579 6674585.037099999 32.7768 25499096.5386 6674589.2811 32.7768 25499094.0968 6674589.8249 32.7768 25499096.8443 6674601.9233 32.7768 25499099.2755 6674601.3866 32.7768 25499100.7303 6674607.8215 32.7768 25499098.303399995 6674608.3732 32.7768 25499100.008499995 6674615.9348 32.7768 25499102.4422 6674615.3935 32.7768 25499103.8242 6674621.5062 32.7768 25499093.2019 6674627.5493 32.7768 25499088.251099996 6674618.847 32.7768 25499090.1571 6674617.7627 32.7768 25499078.717099994 6674567.1625 32.7768 25499086.135 6674565.4859 32.7768 25499091.6168 6674567.5115 32.7768</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c6c36d17-6fc8-4d7b-a0c9-182adc969178_5fb8574c-3ed9-4e98-a2b7-5ad66676317a_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -42075,78 +42180,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_c6c36d17-6fc8-4d7b-a0c9-182adc969178_36b16a58-1404-4f26-9bf0-5544803ee94d_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>690.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>36b16a58-1404-4f26-9bf0-5544803ee94d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>-0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.2</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_64f26fc6-7d19-46a0-bdc3-ccb6fd2adb74" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c6c36d17-6fc8-4d7b-a0c9-182adc969178_36b16a58-1404-4f26-9bf0-5544803ee94d_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c6c36d17-6fc8-4d7b-a0c9-182adc969178_36b16a58-1404-4f26-9bf0-5544803ee94d_2_poly_0_">
-<gml:posList>25499100.008499995 6674615.9348 3.167 25499098.303399995 6674608.3732 3.167 25499100.7303 6674607.8215 3.167 25499099.2755 6674601.3866 3.167 25499096.8443 6674601.9233 3.167 25499094.0968 6674589.8249 3.167 25499096.5386 6674589.2811 3.167 25499095.579 6674585.037099999 3.167 25499093.1526 6674585.5771 3.167 25499091.9281 6674580.1591 3.167 25499094.3546 6674579.6211 3.167 25499091.6168 6674567.5115 3.167 25499086.135 6674565.4859 3.167 25499078.717099994 6674567.1625 3.167 25499090.1571 6674617.7627 3.167 25499088.251099996 6674618.847 3.167 25499093.2019 6674627.5493 3.167 25499103.8242 6674621.5062 3.167 25499102.4422 6674615.3935 3.167 25499100.008499995 6674615.9348 3.167</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c6c36d17-6fc8-4d7b-a0c9-182adc969178_636b35ab-fae1-4b7b-af26-4cacf25b5c68_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>690.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>636b35ab-fae1-4b7b-af26-4cacf25b5c68</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>29.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>32.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>29.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>32.8</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_a7c8ff60-0d71-4747-938f-e28e300ca5c7" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c6c36d17-6fc8-4d7b-a0c9-182adc969178_636b35ab-fae1-4b7b-af26-4cacf25b5c68_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c6c36d17-6fc8-4d7b-a0c9-182adc969178_636b35ab-fae1-4b7b-af26-4cacf25b5c68_2_poly_0_">
-<gml:posList>25499091.6168 6674567.5115 32.7768 25499094.3546 6674579.6211 32.7768 25499091.9281 6674580.1591 32.7768 25499093.1526 6674585.5771 32.7768 25499095.579 6674585.037099999 32.7768 25499096.5386 6674589.2811 32.7768 25499094.0968 6674589.8249 32.7768 25499096.8443 6674601.9233 32.7768 25499099.2755 6674601.3866 32.7768 25499100.7303 6674607.8215 32.7768 25499098.303399995 6674608.3732 32.7768 25499100.008499995 6674615.9348 32.7768 25499102.4422 6674615.3935 32.7768 25499103.8242 6674621.5062 32.7768 25499093.2019 6674627.5493 32.7768 25499088.251099996 6674618.847 32.7768 25499090.1571 6674617.7627 32.7768 25499078.717099994 6674567.1625 32.7768 25499086.135 6674565.4859 32.7768 25499091.6168 6674567.5115 32.7768</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c6c36d17-6fc8-4d7b-a0c9-182adc969178_3db3554b-8d09-4df3-9963-4529210bbcda_2">
@@ -42706,7 +42739,7 @@
 <gen:value>Redi</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113949.679</gen:value>
+<gen:value>20201125190331.82</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>680</gen:value>
@@ -42714,8 +42747,11 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
+<gen:stringAttribute name="W">
+<gen:value>0.05</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="J">
-<gen:value>16143.26</gen:value>
+<gen:value>2.84</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">102.6</bldg:measuredHeight>
@@ -42738,6 +42774,162 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_db5a896d-4e21-467a-a829-3f4ef0626c6f_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>858.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>db5a896d-4e21-467a-a829-3f4ef0626c6f</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>-0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>1.9</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_9c03da6f-b3c6-433a-956b-a5c2d6fb4368" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_db5a896d-4e21-467a-a829-3f4ef0626c6f_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_db5a896d-4e21-467a-a829-3f4ef0626c6f_2_poly_0_">
+<gml:posList>25498802.0718 6674814.1331 1.865 25498782.7157 6674819.9783 1.865 25498778.6557 6674821.204299999 1.865 25498780.6145 6674827.571999999 1.865 25498781.7592 6674831.3746 1.865 25498789.6232 6674857.4997 1.865 25498810.1359 6674849.602599999 1.865 25498802.0718 6674814.1331 1.865</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_81c59690-8997-4a3d-a87d-91b8d84edf42_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>95.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>81c59690-8997-4a3d-a87d-91b8d84edf42</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>68.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>70.4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>68.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>70.4</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_efbf69bf-ed73-4d52-916f-083b8dc89a51" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_81c59690-8997-4a3d-a87d-91b8d84edf42_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_81c59690-8997-4a3d-a87d-91b8d84edf42_2_poly_0_">
+<gml:posList>25498802.0718 6674814.1331 70.35 25498802.3748 6674815.4658 70.35 25498780.5489 6674827.3586 70.35 25498778.6557 6674821.204299999 70.35 25498802.0718 6674814.1331 70.35</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_21285c83-917b-446e-a06e-892a10d3dfd0_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>84.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>21285c83-917b-446e-a06e-892a10d3dfd0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>89.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>90.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>89.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>90.9</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_a023584b-03e4-4c40-8c9c-342c361a595e" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_21285c83-917b-446e-a06e-892a10d3dfd0_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_21285c83-917b-446e-a06e-892a10d3dfd0_2_poly_0_">
+<gml:posList>25498803.5052 6674820.4377 90.93 25498781.115699995 6674829.237 90.93 25498780.6145 6674827.571999999 90.93 25498780.5489 6674827.3586 90.93 25498802.3748 6674815.4658 90.93 25498803.5052 6674820.4377 90.93</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_ca14b04b-c5cf-4408-9ddd-d4f2847d0f01_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>679.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>ca14b04b-c5cf-4408-9ddd-d4f2847d0f01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>102.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>104.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>102.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>104.5</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_1280250a-c8a5-42b9-a6cb-c8a7d45aac69" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_ca14b04b-c5cf-4408-9ddd-d4f2847d0f01_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_ca14b04b-c5cf-4408-9ddd-d4f2847d0f01_2_poly_0_">
+<gml:posList>25498781.115699995 6674829.237 104.4644 25498803.5052 6674820.4377 104.4644 25498810.1359 6674849.602599999 104.4644 25498789.6232 6674857.4997 104.4644 25498781.115699995 6674829.237 104.4644</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_695e56b5-9935-4088-825b-8b11887f866e_2">
 <core:creationDate>2019-01-28</core:creationDate>
@@ -42919,36 +43111,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_db5a896d-4e21-467a-a829-3f4ef0626c6f_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>858.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>db5a896d-4e21-467a-a829-3f4ef0626c6f</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>-0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>1.9</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_9c03da6f-b3c6-433a-956b-a5c2d6fb4368" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_db5a896d-4e21-467a-a829-3f4ef0626c6f_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_db5a896d-4e21-467a-a829-3f4ef0626c6f_2_poly_0_">
-<gml:posList>25498802.0718 6674814.1331 1.865 25498782.7157 6674819.9783 1.865 25498778.6557 6674821.204299999 1.865 25498780.6145 6674827.571999999 1.865 25498781.7592 6674831.3746 1.865 25498789.6232 6674857.4997 1.865 25498810.1359 6674849.602599999 1.865 25498802.0718 6674814.1331 1.865</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_f23797a1-73cf-4e7b-8e50-abf22a55cf75_2">
 <core:creationDate>2019-01-28</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -43019,132 +43181,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_81c59690-8997-4a3d-a87d-91b8d84edf42_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>95.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>81c59690-8997-4a3d-a87d-91b8d84edf42</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>68.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>70.4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>68.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>70.4</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_efbf69bf-ed73-4d52-916f-083b8dc89a51" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_81c59690-8997-4a3d-a87d-91b8d84edf42_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_81c59690-8997-4a3d-a87d-91b8d84edf42_2_poly_0_">
-<gml:posList>25498802.0718 6674814.1331 70.35 25498802.3748 6674815.4658 70.35 25498780.5489 6674827.3586 70.35 25498778.6557 6674821.204299999 70.35 25498802.0718 6674814.1331 70.35</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_21285c83-917b-446e-a06e-892a10d3dfd0_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>84.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>21285c83-917b-446e-a06e-892a10d3dfd0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>89.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>90.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>89.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>90.9</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_a023584b-03e4-4c40-8c9c-342c361a595e" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_21285c83-917b-446e-a06e-892a10d3dfd0_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_21285c83-917b-446e-a06e-892a10d3dfd0_2_poly_0_">
-<gml:posList>25498803.5052 6674820.4377 90.93 25498781.115699995 6674829.237 90.93 25498780.6145 6674827.571999999 90.93 25498780.5489 6674827.3586 90.93 25498802.3748 6674815.4658 90.93 25498803.5052 6674820.4377 90.93</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_ca14b04b-c5cf-4408-9ddd-d4f2847d0f01_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>679.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>ca14b04b-c5cf-4408-9ddd-d4f2847d0f01</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>102.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>104.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>102.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>104.5</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_1280250a-c8a5-42b9-a6cb-c8a7d45aac69" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_ca14b04b-c5cf-4408-9ddd-d4f2847d0f01_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c73cd9f0-a016-4905-bed5-a76622d0c010_ca14b04b-c5cf-4408-9ddd-d4f2847d0f01_2_poly_0_">
-<gml:posList>25498781.115699995 6674829.237 104.4644 25498803.5052 6674820.4377 104.4644 25498810.1359 6674849.602599999 104.4644 25498789.6232 6674857.4997 104.4644 25498781.115699995 6674829.237 104.4644</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
@@ -43239,7 +43275,7 @@
 <gen:value>2014-04-25</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125190332.797</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>692</gen:value>
@@ -43248,7 +43284,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>258.75</gen:value>
+<gen:value>4.97</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.95</bldg:measuredHeight>
@@ -43274,6 +43310,162 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_7bd242a4-13fe-45f1-99d1-8bf79299fbbf_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>82.31</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>7bd242a4-13fe-45f1-99d1-8bf79299fbbf</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.81</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_29910290-edfa-404c-b283-c88d32b87ed3" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_7bd242a4-13fe-45f1-99d1-8bf79299fbbf_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_7bd242a4-13fe-45f1-99d1-8bf79299fbbf_2_poly_0_">
+<gml:posList>25498961.882 6674643.182 4.81 25498958.183 6674645.284 4.81 25498958.926 6674646.594 4.81 25498956.629 6674647.899 4.81 25498961.827 6674657.052 4.81 25498964.839 6674655.31 4.81 25498965.318 6674656.187 4.81 25498968.299 6674654.463 4.81 25498961.882 6674643.182 4.81</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_21cb99b2-519e-439f-ad9d-e17141ccf867_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>62.07</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>21cb99b2-519e-439f-ad9d-e17141ccf867</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>11.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.69</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>11.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.69</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_9808544d-5056-409e-ba35-9ac4214b1c5f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_21cb99b2-519e-439f-ad9d-e17141ccf867_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_21cb99b2-519e-439f-ad9d-e17141ccf867_2_poly_0_">
+<gml:posList>25498963.605 6674646.211 16.69 25498968.299 6674654.463 16.69 25498965.318 6674656.187 16.69 25498964.839 6674655.31 16.69 25498961.827 6674657.052 16.69 25498957.632 6674649.666 16.69 25498963.605 6674646.211 16.69</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_674653c3-ded1-474a-97d2-2d94ed86df5a_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>14.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>674653c3-ded1-474a-97d2-2d94ed86df5a</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>9.44</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.25</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>9.44</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>14.25</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_f7fd1ae2-114f-4d1b-b863-2e6d8b4ae47a" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_674653c3-ded1-474a-97d2-2d94ed86df5a_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_674653c3-ded1-474a-97d2-2d94ed86df5a_2_poly_0_">
+<gml:posList>25498961.882 6674643.182 14.25 25498963.605 6674646.211 14.25 25498959.921 6674648.342 14.25 25498958.926 6674646.594 14.25 25498958.183 6674645.284 14.25 25498961.882 6674643.182 14.25</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_9e0e4859-29eb-4171-b2d0-5d668d599307_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>5.34</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>9e0e4859-29eb-4171-b2d0-5d668d599307</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>7.79</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>12.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>7.79</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>12.6</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_9d0b2b56-b3f5-4470-b66c-bd3cc081b47e" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_9e0e4859-29eb-4171-b2d0-5d668d599307_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_9e0e4859-29eb-4171-b2d0-5d668d599307_2_poly_0_">
+<gml:posList>25498958.926 6674646.594 12.6 25498959.921 6674648.342 12.6 25498957.632 6674649.666 12.6 25498956.629 6674647.899 12.6 25498958.926 6674646.594 12.6</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_0ea43949-d16d-44c2-8994-c9f13585a6c8_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -43485,120 +43677,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_7bd242a4-13fe-45f1-99d1-8bf79299fbbf_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>82.31</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>7bd242a4-13fe-45f1-99d1-8bf79299fbbf</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.81</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_29910290-edfa-404c-b283-c88d32b87ed3" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_7bd242a4-13fe-45f1-99d1-8bf79299fbbf_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_7bd242a4-13fe-45f1-99d1-8bf79299fbbf_2_poly_0_">
-<gml:posList>25498961.882 6674643.182 4.81 25498958.183 6674645.284 4.81 25498958.926 6674646.594 4.81 25498956.629 6674647.899 4.81 25498961.827 6674657.052 4.81 25498964.839 6674655.31 4.81 25498965.318 6674656.187 4.81 25498968.299 6674654.463 4.81 25498961.882 6674643.182 4.81</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_21cb99b2-519e-439f-ad9d-e17141ccf867_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>62.07</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>21cb99b2-519e-439f-ad9d-e17141ccf867</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>11.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>11.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.69</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_9808544d-5056-409e-ba35-9ac4214b1c5f" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_21cb99b2-519e-439f-ad9d-e17141ccf867_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_21cb99b2-519e-439f-ad9d-e17141ccf867_2_poly_0_">
-<gml:posList>25498963.605 6674646.211 16.69 25498968.299 6674654.463 16.69 25498965.318 6674656.187 16.69 25498964.839 6674655.31 16.69 25498961.827 6674657.052 16.69 25498957.632 6674649.666 16.69 25498963.605 6674646.211 16.69</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_674653c3-ded1-474a-97d2-2d94ed86df5a_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>14.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>674653c3-ded1-474a-97d2-2d94ed86df5a</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>9.44</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.25</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>9.44</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>14.25</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_f7fd1ae2-114f-4d1b-b863-2e6d8b4ae47a" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_674653c3-ded1-474a-97d2-2d94ed86df5a_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_674653c3-ded1-474a-97d2-2d94ed86df5a_2_poly_0_">
-<gml:posList>25498961.882 6674643.182 14.25 25498963.605 6674646.211 14.25 25498959.921 6674648.342 14.25 25498958.926 6674646.594 14.25 25498958.183 6674645.284 14.25 25498961.882 6674643.182 14.25</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_99bb8686-7f2d-4a2a-9fe2-79ea586d4369_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -43732,48 +43810,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_9e0e4859-29eb-4171-b2d0-5d668d599307_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>5.34</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>9e0e4859-29eb-4171-b2d0-5d668d599307</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>7.79</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>12.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>7.79</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>12.6</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_9d0b2b56-b3f5-4470-b66c-bd3cc081b47e" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_9e0e4859-29eb-4171-b2d0-5d668d599307_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_9e0e4859-29eb-4171-b2d0-5d668d599307_2_poly_0_">
-<gml:posList>25498958.926 6674646.594 12.6 25498959.921 6674648.342 12.6 25498957.632 6674649.666 12.6 25498956.629 6674647.899 12.6 25498958.926 6674646.594 12.6</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c8b8fe97-f857-44f7-910f-667eb0e28ae7_84b41af0-1006-4ac7-8764-9daf902e691f_2">
@@ -43921,7 +43957,7 @@
 <gen:value>2012-11-27</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125140849.749</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>695</gen:value>
@@ -43930,7 +43966,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.64</gen:value>
+<gen:value>0.01</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">22.77</bldg:measuredHeight>
@@ -44001,6 +44037,36 @@
 </gml:Solid>
 </bldg:lod2Solid>
 <bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_fa1df2f1-485e-48a6-9b73-2a6a400459c5_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>756.23</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>fa1df2f1-485e-48a6-9b73-2a6a400459c5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>2.72</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_c625851e-e9f5-451e-80a2-8a1907a09cd2" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_fa1df2f1-485e-48a6-9b73-2a6a400459c5_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_fa1df2f1-485e-48a6-9b73-2a6a400459c5_2_poly_0_">
+<gml:posList>25498989.526 6674709.541 2.72 25498979.012 6674715.522 2.72 25498972.527 6674719.212 2.72 25498969.456 6674720.959 2.72 25498970.544 6674722.871 2.72 25498968.31 6674724.142 2.72 25498969.72 6674726.619 2.72 25498969.744 6674726.662 2.72 25498969.701 6674726.687 2.72 25498962.209 6674730.95 2.72 25498962.165 6674730.974 2.72 25498962.14 6674730.931 2.72 25498960.731 6674728.454 2.72 25498959.008 6674729.434 2.72 25498958.445 6674729.754 2.72 25498957.357 6674727.842 2.72 25498955.349 6674728.984 2.72 25498948.605 6674732.821 2.72 25498949.653 6674734.664 2.72 25498946.866 6674736.25 2.72 25498947.329 6674738.302 2.72 25498947.54 6674739.237 2.72 25498947.563 6674739.337 2.72 25498948.543 6674743.679 2.72 25498948.568 6674743.788 2.72 25498949.495 6674747.898 2.72 25498949.714 6674748.868 2.72 25498951.538 6674756.944 2.72 25498954.6 6674756.252 2.72 25498955.014 6674758.086 2.72 25498961.088 6674756.715 2.72 25498961.584 6674756.603 2.72 25498961.969 6674756.516 2.72 25498961.555 6674754.682 2.72 25498964.506 6674754.016 2.72 25498962.177 6674743.701 2.72 25498958.841 6674744.454 2.72 25498958.686 6674743.765 2.72 25498958.467 6674742.794 2.72 25498958.455 6674742.743 2.72 25498961.607 6674740.95 2.72 25498966.36 6674738.246 2.72 25498973.809 6674734.009 2.72 25498973.852 6674733.984 2.72 25498979.2 6674730.942 2.72 25498985.685 6674727.252 2.72 25498988.932 6674725.405 2.72 25498987.768 6674723.358 2.72 25498990.839 6674721.611 2.72 25498991.069 6674719.486 2.72 25498991.649 6674714.143 2.72 25498991.728 6674713.414 2.72 25498989.526 6674709.541 2.72</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_62a5a4db-37eb-43a0-9a93-69038c0f3b39_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -44041,48 +44107,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_22df5ea8-968a-4f54-b10d-3fb28e476426_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>80.69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>22df5ea8-968a-4f54-b10d-3fb28e476426</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>22.84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>25.56</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>2.72</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_89201804-7263-467b-a4d7-28f2939a93f8" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_22df5ea8-968a-4f54-b10d-3fb28e476426_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_22df5ea8-968a-4f54-b10d-3fb28e476426_2_poly_0_">
-<gml:posList>25498987.768 6674723.358 2.72 25498987.768 6674723.358 25.561 25498990.839 6674721.611 25.561 25498990.839 6674721.611 2.72 25498987.768 6674723.358 2.72</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_889e349e-1440-4148-ae1b-c9e52ffd0a76_2">
@@ -44237,6 +44261,150 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_c6a515d3-4a44-42c2-9ed1-811bb1ce1b7a_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>120.46</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>c6a515d3-4a44-42c2-9ed1-811bb1ce1b7a</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>25.57</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>28.29</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>25.57</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>28.29</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_65900b84-bf22-47a4-9880-d940b7945827" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_c6a515d3-4a44-42c2-9ed1-811bb1ce1b7a_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_c6a515d3-4a44-42c2-9ed1-811bb1ce1b7a_2_poly_0_">
+<gml:posList>25498949.653 6674734.664 28.29 25498948.605 6674732.821 28.29 25498955.349 6674728.984 28.29 25498956.511 6674734.133 28.29 25498957.514 6674738.576 28.29 25498958.455 6674742.743 28.29 25498958.467 6674742.794 28.29 25498958.686 6674743.765 28.29 25498953.581 6674746.669 28.29 25498953.007 6674745.9 28.29 25498950.511 6674742.56 28.29 25498947.882 6674739.042 28.29 25498947.329 6674738.302 28.29 25498946.866 6674736.25 28.29 25498949.653 6674734.664 28.29</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_bb7992eb-7a45-4143-a2d7-5a229138f5aa_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>5.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>bb7992eb-7a45-4143-a2d7-5a229138f5aa</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>294.44</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>72.47</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>23.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>25.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>22.28</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>25.0</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_63de74cf-dcd8-4750-8850-e322f3a389ed" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_bb7992eb-7a45-4143-a2d7-5a229138f5aa_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_bb7992eb-7a45-4143-a2d7-5a229138f5aa_2_poly_0_0_">
+<gml:posList>25498950.511 6674742.56 25.724 25498951.216 6674746.919 25.357 25498948.568 6674743.788 25.004 25498948.543 6674743.679 25.011 25498950.511 6674742.56 25.724</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_bb7992eb-7a45-4143-a2d7-5a229138f5aa_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_bb7992eb-7a45-4143-a2d7-5a229138f5aa_2_poly_1_0_">
+<gml:posList>25498947.882 6674739.042 25.724 25498950.511 6674742.56 25.724 25498947.563 6674739.337 25.011 25498947.54 6674739.237 25.08 25498947.882 6674739.042 25.724</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_bb7992eb-7a45-4143-a2d7-5a229138f5aa_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_bb7992eb-7a45-4143-a2d7-5a229138f5aa_2_poly_2_0_">
+<gml:posList>25498950.511 6674742.56 25.724 25498948.543 6674743.679 25.011 25498947.563 6674739.337 25.011 25498950.511 6674742.56 25.724</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_22df5ea8-968a-4f54-b10d-3fb28e476426_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>80.69</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>22df5ea8-968a-4f54-b10d-3fb28e476426</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>22.84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>25.56</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>2.72</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_89201804-7263-467b-a4d7-28f2939a93f8" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_22df5ea8-968a-4f54-b10d-3fb28e476426_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_22df5ea8-968a-4f54-b10d-3fb28e476426_2_poly_0_">
+<gml:posList>25498987.768 6674723.358 2.72 25498987.768 6674723.358 25.561 25498990.839 6674721.611 25.561 25498990.839 6674721.611 2.72 25498987.768 6674723.358 2.72</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_7f55a80b-a71e-4eb5-843e-12f4aa243d43_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -44357,48 +44525,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_c6a515d3-4a44-42c2-9ed1-811bb1ce1b7a_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>120.46</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c6a515d3-4a44-42c2-9ed1-811bb1ce1b7a</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>25.57</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>28.29</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>25.57</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>28.29</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_65900b84-bf22-47a4-9880-d940b7945827" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_c6a515d3-4a44-42c2-9ed1-811bb1ce1b7a_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_c6a515d3-4a44-42c2-9ed1-811bb1ce1b7a_2_poly_0_">
-<gml:posList>25498949.653 6674734.664 28.29 25498948.605 6674732.821 28.29 25498955.349 6674728.984 28.29 25498956.511 6674734.133 28.29 25498957.514 6674738.576 28.29 25498958.455 6674742.743 28.29 25498958.467 6674742.794 28.29 25498958.686 6674743.765 28.29 25498953.581 6674746.669 28.29 25498953.007 6674745.9 28.29 25498950.511 6674742.56 28.29 25498947.882 6674739.042 28.29 25498947.329 6674738.302 28.29 25498946.866 6674736.25 28.29 25498949.653 6674734.664 28.29</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_bf144ccd-64b0-4da9-9114-c9c2d763c7e2_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -44439,66 +44565,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_bb7992eb-7a45-4143-a2d7-5a229138f5aa_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>5.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>bb7992eb-7a45-4143-a2d7-5a229138f5aa</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>294.44</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>72.47</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>23.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>25.72</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>22.28</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>25.0</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_63de74cf-dcd8-4750-8850-e322f3a389ed" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_bb7992eb-7a45-4143-a2d7-5a229138f5aa_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_bb7992eb-7a45-4143-a2d7-5a229138f5aa_2_poly_0_0_">
-<gml:posList>25498950.511 6674742.56 25.724 25498951.216 6674746.919 25.357 25498948.568 6674743.788 25.004 25498948.543 6674743.679 25.011 25498950.511 6674742.56 25.724</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_bb7992eb-7a45-4143-a2d7-5a229138f5aa_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_bb7992eb-7a45-4143-a2d7-5a229138f5aa_2_poly_1_0_">
-<gml:posList>25498947.882 6674739.042 25.724 25498950.511 6674742.56 25.724 25498947.563 6674739.337 25.011 25498947.54 6674739.237 25.08 25498947.882 6674739.042 25.724</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_bb7992eb-7a45-4143-a2d7-5a229138f5aa_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_bb7992eb-7a45-4143-a2d7-5a229138f5aa_2_poly_2_0_">
-<gml:posList>25498950.511 6674742.56 25.724 25498948.543 6674743.679 25.011 25498947.563 6674739.337 25.011 25498950.511 6674742.56 25.724</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_dfddcbd5-95be-48e4-9740-51c306fd567e_2">
@@ -44703,36 +44769,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_fa1df2f1-485e-48a6-9b73-2a6a400459c5_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>756.23</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>fa1df2f1-485e-48a6-9b73-2a6a400459c5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>2.72</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_c625851e-e9f5-451e-80a2-8a1907a09cd2" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_fa1df2f1-485e-48a6-9b73-2a6a400459c5_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_fa1df2f1-485e-48a6-9b73-2a6a400459c5_2_poly_0_">
-<gml:posList>25498989.526 6674709.541 2.72 25498979.012 6674715.522 2.72 25498972.527 6674719.212 2.72 25498969.456 6674720.959 2.72 25498970.544 6674722.871 2.72 25498968.31 6674724.142 2.72 25498969.72 6674726.619 2.72 25498969.744 6674726.662 2.72 25498969.701 6674726.687 2.72 25498962.209 6674730.95 2.72 25498962.165 6674730.974 2.72 25498962.14 6674730.931 2.72 25498960.731 6674728.454 2.72 25498959.008 6674729.434 2.72 25498958.445 6674729.754 2.72 25498957.357 6674727.842 2.72 25498955.349 6674728.984 2.72 25498948.605 6674732.821 2.72 25498949.653 6674734.664 2.72 25498946.866 6674736.25 2.72 25498947.329 6674738.302 2.72 25498947.54 6674739.237 2.72 25498947.563 6674739.337 2.72 25498948.543 6674743.679 2.72 25498948.568 6674743.788 2.72 25498949.495 6674747.898 2.72 25498949.714 6674748.868 2.72 25498951.538 6674756.944 2.72 25498954.6 6674756.252 2.72 25498955.014 6674758.086 2.72 25498961.088 6674756.715 2.72 25498961.584 6674756.603 2.72 25498961.969 6674756.516 2.72 25498961.555 6674754.682 2.72 25498964.506 6674754.016 2.72 25498962.177 6674743.701 2.72 25498958.841 6674744.454 2.72 25498958.686 6674743.765 2.72 25498958.467 6674742.794 2.72 25498958.455 6674742.743 2.72 25498961.607 6674740.95 2.72 25498966.36 6674738.246 2.72 25498973.809 6674734.009 2.72 25498973.852 6674733.984 2.72 25498979.2 6674730.942 2.72 25498985.685 6674727.252 2.72 25498988.932 6674725.405 2.72 25498987.768 6674723.358 2.72 25498990.839 6674721.611 2.72 25498991.069 6674719.486 2.72 25498991.649 6674714.143 2.72 25498991.728 6674713.414 2.72 25498989.526 6674709.541 2.72</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_d1ebc713-dbbb-4e42-95d4-4b00e70dc67f_0af691f3-1b8a-40ff-8653-69ce17ec86eb_2">
@@ -45642,7 +45678,7 @@
 <gen:value>2014-01-09</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125140849.749</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>698</gen:value>
@@ -45651,7 +45687,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>165.31</gen:value>
+<gen:value>0.06</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">12.14</bldg:measuredHeight>
@@ -45678,6 +45714,213 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_9ab7e27c-0964-4a18-a22d-829fcdf97737_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>336.06</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>9ab7e27c-0964-4a18-a22d-829fcdf97737</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.36</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_e5d3d249-7418-4c36-b969-2a63f71d8daf" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_9ab7e27c-0964-4a18-a22d-829fcdf97737_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_9ab7e27c-0964-4a18-a22d-829fcdf97737_2_poly_0_">
+<gml:posList>25498987.473 6674599.751 4.36 25498958.529 6674616.217 4.36 25498963.52 6674624.988 4.36 25498992.463 6674608.522 4.36 25498987.473 6674599.751 4.36</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_a93a70cb-5d11-4641-addd-e0b84e8015f7_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>45.78</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>a93a70cb-5d11-4641-addd-e0b84e8015f7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>8.58</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>12.94</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>8.58</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>12.94</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_5118a0e7-40db-45c1-9838-e89cd6dbc860" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_a93a70cb-5d11-4641-addd-e0b84e8015f7_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_a93a70cb-5d11-4641-addd-e0b84e8015f7_2_poly_0_0_">
+<gml:posList>25498977.522 6674609.344 12.94 25498975.832 6674606.373 12.94 25498987.473 6674599.751 12.94 25498989.163 6674602.722 12.94 25498977.522 6674609.344 12.94</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_a93a70cb-5d11-4641-addd-e0b84e8015f7_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_a93a70cb-5d11-4641-addd-e0b84e8015f7_2_poly_1_0_">
+<gml:posList>25498973.001 6674607.984 12.941 25498974.692 6674610.955 12.941 25498966.558 6674615.582 12.941 25498964.868 6674612.61 12.941 25498973.001 6674607.984 12.941</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_3d387f3e-3632-4d7d-83e4-e9ebb3868d08_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>219.94</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>3d387f3e-3632-4d7d-83e4-e9ebb3868d08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>12.14</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>12.14</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.5</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_7035d181-b61e-484c-a1b4-4791049b63b4" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_3d387f3e-3632-4d7d-83e4-e9ebb3868d08_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_3d387f3e-3632-4d7d-83e4-e9ebb3868d08_2_poly_0_">
+<gml:posList>25498989.163 6674602.722 16.5 25498992.463 6674608.522 16.5 25498965.864 6674623.655 16.5 25498960.873 6674614.883 16.5 25498964.868 6674612.61 16.5 25498966.558 6674615.582 16.5 25498989.163 6674602.722 16.5</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_e84e2a82-f40a-4141-84df-a04ea55af8be_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>11.56</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>e84e2a82-f40a-4141-84df-a04ea55af8be</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>299.64</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>74.35</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>11.12</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>15.48</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>10.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>14.57</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_f0ceb5b1-31c8-4a64-bc3d-f17d12351e28" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_e84e2a82-f40a-4141-84df-a04ea55af8be_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_e84e2a82-f40a-4141-84df-a04ea55af8be_2_poly_0_">
+<gml:posList>25498975.832 6674606.373 15.481 25498977.522 6674609.344 15.481 25498974.692 6674610.955 14.569 25498973.001 6674607.984 14.569 25498975.832 6674606.373 15.481</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_9f300678-98ea-46d7-a9f5-d7dccbb467d1_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>28.97</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>9f300678-98ea-46d7-a9f5-d7dccbb467d1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>299.64</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>69.95</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>8.93</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>13.29</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>7.94</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>12.31</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_7e16387a-450b-4c56-88da-691627e96297" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_9f300678-98ea-46d7-a9f5-d7dccbb467d1_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_9f300678-98ea-46d7-a9f5-d7dccbb467d1_2_poly_0_">
+<gml:posList>25498960.873 6674614.883 13.292 25498965.864 6674623.655 13.292 25498963.52 6674624.988 12.307 25498958.529 6674616.217 12.307 25498960.873 6674614.883 13.292</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_05355450-f9be-403b-9c0a-56ad0333496f_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -45761,87 +46004,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_a93a70cb-5d11-4641-addd-e0b84e8015f7_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>45.78</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>a93a70cb-5d11-4641-addd-e0b84e8015f7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>8.58</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>12.94</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>8.58</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>12.94</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_5118a0e7-40db-45c1-9838-e89cd6dbc860" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_a93a70cb-5d11-4641-addd-e0b84e8015f7_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_a93a70cb-5d11-4641-addd-e0b84e8015f7_2_poly_0_0_">
-<gml:posList>25498977.522 6674609.344 12.94 25498975.832 6674606.373 12.94 25498987.473 6674599.751 12.94 25498989.163 6674602.722 12.94 25498977.522 6674609.344 12.94</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_a93a70cb-5d11-4641-addd-e0b84e8015f7_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_a93a70cb-5d11-4641-addd-e0b84e8015f7_2_poly_1_0_">
-<gml:posList>25498973.001 6674607.984 12.941 25498974.692 6674610.955 12.941 25498966.558 6674615.582 12.941 25498964.868 6674612.61 12.941 25498973.001 6674607.984 12.941</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_9ab7e27c-0964-4a18-a22d-829fcdf97737_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>336.06</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>9ab7e27c-0964-4a18-a22d-829fcdf97737</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.36</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e5d3d249-7418-4c36-b969-2a63f71d8daf" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_9ab7e27c-0964-4a18-a22d-829fcdf97737_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_9ab7e27c-0964-4a18-a22d-829fcdf97737_2_poly_0_">
-<gml:posList>25498987.473 6674599.751 4.36 25498958.529 6674616.217 4.36 25498963.52 6674624.988 4.36 25498992.463 6674608.522 4.36 25498987.473 6674599.751 4.36</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_be0f8466-effa-4a81-9a35-56ee445c3455_2">
@@ -46012,90 +46174,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_3d387f3e-3632-4d7d-83e4-e9ebb3868d08_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>219.94</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>3d387f3e-3632-4d7d-83e4-e9ebb3868d08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>12.14</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>12.14</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.5</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_7035d181-b61e-484c-a1b4-4791049b63b4" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_3d387f3e-3632-4d7d-83e4-e9ebb3868d08_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_3d387f3e-3632-4d7d-83e4-e9ebb3868d08_2_poly_0_">
-<gml:posList>25498989.163 6674602.722 16.5 25498992.463 6674608.522 16.5 25498965.864 6674623.655 16.5 25498960.873 6674614.883 16.5 25498964.868 6674612.61 16.5 25498966.558 6674615.582 16.5 25498989.163 6674602.722 16.5</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_e84e2a82-f40a-4141-84df-a04ea55af8be_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>11.56</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>e84e2a82-f40a-4141-84df-a04ea55af8be</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>299.64</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>74.35</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>11.12</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>15.48</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>10.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>14.57</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_f0ceb5b1-31c8-4a64-bc3d-f17d12351e28" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_e84e2a82-f40a-4141-84df-a04ea55af8be_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_e84e2a82-f40a-4141-84df-a04ea55af8be_2_poly_0_">
-<gml:posList>25498975.832 6674606.373 15.481 25498977.522 6674609.344 15.481 25498974.692 6674610.955 14.569 25498973.001 6674607.984 14.569 25498975.832 6674606.373 15.481</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_a0f2c919-7418-437f-9af4-1c758bb9a6a0_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -46221,48 +46299,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_9f300678-98ea-46d7-a9f5-d7dccbb467d1_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>28.97</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>9f300678-98ea-46d7-a9f5-d7dccbb467d1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>299.64</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>69.95</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>8.93</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>13.29</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>7.94</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>12.31</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_7e16387a-450b-4c56-88da-691627e96297" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_9f300678-98ea-46d7-a9f5-d7dccbb467d1_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d766a7f7-1f7e-420b-82ff-f50acb2f800b_9f300678-98ea-46d7-a9f5-d7dccbb467d1_2_poly_0_">
-<gml:posList>25498960.873 6674614.883 13.292 25498965.864 6674623.655 13.292 25498963.52 6674624.988 12.307 25498958.529 6674616.217 12.307 25498960.873 6674614.883 13.292</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -46367,16 +46403,19 @@
 <gen:value>2015-06-15</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125190337.665</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
-<gen:value>693</gen:value>
+<gen:value>829</gen:value>
 </gen:intAttribute>
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>336.21</gen:value>
+<gen:value>5.89</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="A">
+<gen:value>0.03</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">29.83</bldg:measuredHeight>
@@ -46448,6 +46487,213 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_0663ef57-8b6b-4ae3-9cd7-3eff33d81040_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>811.38</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>0663ef57-8b6b-4ae3-9cd7-3eff33d81040</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.69</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_2b7f228c-ee27-426c-bc0c-19c298d724fc" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_0663ef57-8b6b-4ae3-9cd7-3eff33d81040_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_0663ef57-8b6b-4ae3-9cd7-3eff33d81040_2_poly_0_">
+<gml:posList>25498886.666 6674701.057 3.69 25498880.151 6674689.606 3.69 25498876.283 6674691.806 3.69 25498877.47 6674693.892 3.69 25498874.923 6674695.341 3.69 25498873.736 6674693.255 3.69 25498860.936 6674700.536 3.69 25498866.254 6674708.409 3.69 25498866.751 6674708.073 3.69 25498868.15 6674710.144 3.69 25498867.653 6674710.48 3.69 25498868.045 6674711.06 3.69 25498868.542 6674710.725 3.69 25498869.382 6674711.968 3.69 25498868.884 6674712.303 3.69 25498870.424 6674714.582 3.69 25498870.921 6674714.246 3.69 25498872.04 6674715.904 3.69 25498871.543 6674716.24 3.69 25498871.935 6674716.82 3.69 25498872.432 6674716.484 3.69 25498874.027 6674718.845 3.69 25498873.53 6674719.181 3.69 25498873.866 6674719.679 3.69 25498874.198 6674719.455 3.69 25498881.623 6674730.448 3.69 25498881.789 6674730.336 3.69 25498883.468 6674732.822 3.69 25498882.945 6674733.12 3.69 25498883.291 6674733.728 3.69 25498883.813 6674733.431 3.69 25498884.41 6674734.481 3.69 25498883.888 6674734.778 3.69 25498886.386 6674739.167 3.69 25498886.907 6674738.871 3.69 25498889.182 6674742.869 3.69 25498888.66 6674743.166 3.69 25498888.982 6674743.731 3.69 25498905.465 6674734.353 3.69 25498899.428 6674723.74 3.69 25498896.451 6674725.653 3.69 25498894.917 6674723.265 3.69 25498891.739 6674725.307 3.69 25498880.21 6674708.189 3.69 25498880.534 6674707.971 3.69 25498879.228 6674706.076 3.69 25498886.666 6674701.057 3.69</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_49f9274b-4cf8-4962-a044-d663cc39ac7f_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>51.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>49f9274b-4cf8-4962-a044-d663cc39ac7f</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>23.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>26.77</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>23.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>26.77</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_d99b2e0d-2bec-41d2-a9b2-16c185199b0f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_49f9274b-4cf8-4962-a044-d663cc39ac7f_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_49f9274b-4cf8-4962-a044-d663cc39ac7f_2_poly_0_">
+<gml:posList>25498899.428 6674723.74 26.77 25498905.465 6674734.353 26.77 25498900.961 6674736.915 26.77 25498898.482 6674732.84 26.77 25498899.992 6674731.878 26.77 25498896.451 6674725.653 26.77 25498899.428 6674723.74 26.77</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_5b91650c-629c-41a9-be82-657995d1972c_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>514.41</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>5b91650c-629c-41a9-be82-657995d1972c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>29.83</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>33.52</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>29.83</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>33.52</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_24f90924-9d42-4ff5-97eb-efd1b630fad6" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_5b91650c-629c-41a9-be82-657995d1972c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_5b91650c-629c-41a9-be82-657995d1972c_2_poly_0_">
+<gml:posList>25498892.005 6674736.966 33.52 25498887.979 6674730.777 33.52 25498883.813 6674733.431 33.52 25498883.291 6674733.728 33.52 25498882.945 6674733.12 33.52 25498883.468 6674732.822 33.52 25498881.789 6674730.336 33.52 25498881.623 6674730.448 33.52 25498874.198 6674719.455 33.52 25498873.866 6674719.679 33.52 25498873.53 6674719.181 33.52 25498874.027 6674718.845 33.52 25498872.432 6674716.484 33.52 25498871.935 6674716.82 33.52 25498871.543 6674716.24 33.52 25498872.04 6674715.904 33.52 25498870.921 6674714.246 33.52 25498870.424 6674714.582 33.52 25498868.884 6674712.303 33.52 25498869.382 6674711.968 33.52 25498868.542 6674710.725 33.52 25498868.045 6674711.06 33.52 25498867.653 6674710.48 33.52 25498868.15 6674710.144 33.52 25498867.307 6674708.897 33.52 25498872.009 6674706.222 33.52 25498866.32 6674697.474 33.52 25498873.736 6674693.255 33.52 25498874.923 6674695.341 33.52 25498875.485 6674695.021 33.52 25498881.34 6674704.651 33.52 25498879.228 6674706.076 33.52 25498880.534 6674707.971 33.52 25498880.21 6674708.189 33.52 25498891.739 6674725.307 33.52 25498894.917 6674723.265 33.52 25498896.451 6674725.653 33.52 25498899.992 6674731.878 33.52 25498892.005 6674736.966 33.52</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_99b29638-4c5f-4b5a-8eba-050e220fb09d_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>83.12</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>99b29638-4c5f-4b5a-8eba-050e220fb09d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.18</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>23.87</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>20.18</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.87</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_a64c42fa-3fe3-4dda-a479-31d197730aa4" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_99b29638-4c5f-4b5a-8eba-050e220fb09d_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_99b29638-4c5f-4b5a-8eba-050e220fb09d_2_poly_0_">
+<gml:posList>25498877.47 6674693.892 23.875 25498876.283 6674691.806 23.875 25498880.151 6674689.606 23.875 25498886.666 6674701.057 23.875 25498881.34 6674704.651 23.875 25498875.485 6674695.021 23.875 25498877.47 6674693.892 23.875</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_513a0869-cdd7-452e-830c-08c998e5c9ae_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>99.78</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>513a0869-cdd7-452e-830c-08c998e5c9ae</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>26.05</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>29.74</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>26.05</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>29.74</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_012cd62b-755d-4c5d-b618-78692aa90834" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_513a0869-cdd7-452e-830c-08c998e5c9ae_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_513a0869-cdd7-452e-830c-08c998e5c9ae_2_poly_0_0_">
+<gml:posList>25498887.979 6674730.777 29.74 25498892.005 6674736.966 29.74 25498898.482 6674732.84 29.74 25498900.961 6674736.915 29.74 25498888.982 6674743.731 29.74 25498888.66 6674743.166 29.74 25498889.182 6674742.869 29.74 25498886.907 6674738.871 29.74 25498886.386 6674739.167 29.74 25498883.888 6674734.778 29.74 25498884.41 6674734.481 29.74 25498883.813 6674733.431 29.74 25498887.979 6674730.777 29.74</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_513a0869-cdd7-452e-830c-08c998e5c9ae_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_513a0869-cdd7-452e-830c-08c998e5c9ae_2_poly_1_0_">
+<gml:posList>25498866.32 6674697.474 29.74 25498872.009 6674706.222 29.74 25498867.307 6674708.897 29.74 25498866.751 6674708.073 29.74 25498866.254 6674708.409 29.74 25498860.936 6674700.536 29.74 25498866.32 6674697.474 29.74</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_2f409b7e-5197-4dee-917b-9566a49edcec_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -47331,48 +47577,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_49f9274b-4cf8-4962-a044-d663cc39ac7f_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>51.08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>49f9274b-4cf8-4962-a044-d663cc39ac7f</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>23.08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>26.77</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>23.08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>26.77</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_d99b2e0d-2bec-41d2-a9b2-16c185199b0f" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_49f9274b-4cf8-4962-a044-d663cc39ac7f_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_49f9274b-4cf8-4962-a044-d663cc39ac7f_2_poly_0_">
-<gml:posList>25498899.428 6674723.74 26.77 25498905.465 6674734.353 26.77 25498900.961 6674736.915 26.77 25498898.482 6674732.84 26.77 25498899.992 6674731.878 26.77 25498896.451 6674725.653 26.77 25498899.428 6674723.74 26.77</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_94287983-5fe0-4e89-8eaa-272f40dc5d0d_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -47676,141 +47880,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_5b91650c-629c-41a9-be82-657995d1972c_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>514.41</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>5b91650c-629c-41a9-be82-657995d1972c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>29.83</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>33.52</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>29.83</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>33.52</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_24f90924-9d42-4ff5-97eb-efd1b630fad6" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_5b91650c-629c-41a9-be82-657995d1972c_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_5b91650c-629c-41a9-be82-657995d1972c_2_poly_0_">
-<gml:posList>25498892.005 6674736.966 33.52 25498887.979 6674730.777 33.52 25498883.813 6674733.431 33.52 25498883.291 6674733.728 33.52 25498882.945 6674733.12 33.52 25498883.468 6674732.822 33.52 25498881.789 6674730.336 33.52 25498881.623 6674730.448 33.52 25498874.198 6674719.455 33.52 25498873.866 6674719.679 33.52 25498873.53 6674719.181 33.52 25498874.027 6674718.845 33.52 25498872.432 6674716.484 33.52 25498871.935 6674716.82 33.52 25498871.543 6674716.24 33.52 25498872.04 6674715.904 33.52 25498870.921 6674714.246 33.52 25498870.424 6674714.582 33.52 25498868.884 6674712.303 33.52 25498869.382 6674711.968 33.52 25498868.542 6674710.725 33.52 25498868.045 6674711.06 33.52 25498867.653 6674710.48 33.52 25498868.15 6674710.144 33.52 25498867.307 6674708.897 33.52 25498872.009 6674706.222 33.52 25498866.32 6674697.474 33.52 25498873.736 6674693.255 33.52 25498874.923 6674695.341 33.52 25498875.485 6674695.021 33.52 25498881.34 6674704.651 33.52 25498879.228 6674706.076 33.52 25498880.534 6674707.971 33.52 25498880.21 6674708.189 33.52 25498891.739 6674725.307 33.52 25498894.917 6674723.265 33.52 25498896.451 6674725.653 33.52 25498899.992 6674731.878 33.52 25498892.005 6674736.966 33.52</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_99b29638-4c5f-4b5a-8eba-050e220fb09d_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>83.12</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>99b29638-4c5f-4b5a-8eba-050e220fb09d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.18</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>23.87</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>20.18</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.87</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_a64c42fa-3fe3-4dda-a479-31d197730aa4" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_99b29638-4c5f-4b5a-8eba-050e220fb09d_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_99b29638-4c5f-4b5a-8eba-050e220fb09d_2_poly_0_">
-<gml:posList>25498877.47 6674693.892 23.875 25498876.283 6674691.806 23.875 25498880.151 6674689.606 23.875 25498886.666 6674701.057 23.875 25498881.34 6674704.651 23.875 25498875.485 6674695.021 23.875 25498877.47 6674693.892 23.875</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_513a0869-cdd7-452e-830c-08c998e5c9ae_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>99.78</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>513a0869-cdd7-452e-830c-08c998e5c9ae</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>26.05</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>29.74</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>26.05</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>29.74</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_012cd62b-755d-4c5d-b618-78692aa90834" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_513a0869-cdd7-452e-830c-08c998e5c9ae_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_513a0869-cdd7-452e-830c-08c998e5c9ae_2_poly_0_0_">
-<gml:posList>25498887.979 6674730.777 29.74 25498892.005 6674736.966 29.74 25498898.482 6674732.84 29.74 25498900.961 6674736.915 29.74 25498888.982 6674743.731 29.74 25498888.66 6674743.166 29.74 25498889.182 6674742.869 29.74 25498886.907 6674738.871 29.74 25498886.386 6674739.167 29.74 25498883.888 6674734.778 29.74 25498884.41 6674734.481 29.74 25498883.813 6674733.431 29.74 25498887.979 6674730.777 29.74</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_513a0869-cdd7-452e-830c-08c998e5c9ae_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_513a0869-cdd7-452e-830c-08c998e5c9ae_2_poly_1_0_">
-<gml:posList>25498866.32 6674697.474 29.74 25498872.009 6674706.222 29.74 25498867.307 6674708.897 29.74 25498866.751 6674708.073 29.74 25498866.254 6674708.409 29.74 25498860.936 6674700.536 29.74 25498866.32 6674697.474 29.74</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_b237a7d7-b096-44b0-9b98-0cb56d7afa2f_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -47944,36 +48013,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_0663ef57-8b6b-4ae3-9cd7-3eff33d81040_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>811.38</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>0663ef57-8b6b-4ae3-9cd7-3eff33d81040</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.69</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_2b7f228c-ee27-426c-bc0c-19c298d724fc" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_0663ef57-8b6b-4ae3-9cd7-3eff33d81040_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_0663ef57-8b6b-4ae3-9cd7-3eff33d81040_2_poly_0_">
-<gml:posList>25498886.666 6674701.057 3.69 25498880.151 6674689.606 3.69 25498876.283 6674691.806 3.69 25498877.47 6674693.892 3.69 25498874.923 6674695.341 3.69 25498873.736 6674693.255 3.69 25498860.936 6674700.536 3.69 25498866.254 6674708.409 3.69 25498866.751 6674708.073 3.69 25498868.15 6674710.144 3.69 25498867.653 6674710.48 3.69 25498868.045 6674711.06 3.69 25498868.542 6674710.725 3.69 25498869.382 6674711.968 3.69 25498868.884 6674712.303 3.69 25498870.424 6674714.582 3.69 25498870.921 6674714.246 3.69 25498872.04 6674715.904 3.69 25498871.543 6674716.24 3.69 25498871.935 6674716.82 3.69 25498872.432 6674716.484 3.69 25498874.027 6674718.845 3.69 25498873.53 6674719.181 3.69 25498873.866 6674719.679 3.69 25498874.198 6674719.455 3.69 25498881.623 6674730.448 3.69 25498881.789 6674730.336 3.69 25498883.468 6674732.822 3.69 25498882.945 6674733.12 3.69 25498883.291 6674733.728 3.69 25498883.813 6674733.431 3.69 25498884.41 6674734.481 3.69 25498883.888 6674734.778 3.69 25498886.386 6674739.167 3.69 25498886.907 6674738.871 3.69 25498889.182 6674742.869 3.69 25498888.66 6674743.166 3.69 25498888.982 6674743.731 3.69 25498905.465 6674734.353 3.69 25498899.428 6674723.74 3.69 25498896.451 6674725.653 3.69 25498894.917 6674723.265 3.69 25498891.739 6674725.307 3.69 25498880.21 6674708.189 3.69 25498880.534 6674707.971 3.69 25498879.228 6674706.076 3.69 25498886.666 6674701.057 3.69</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb_746e7b08-f9b3-4564-b3d1-64eab09960ea_2">
@@ -48334,7 +48373,7 @@
 <gen:value>2014-03-04</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125134823.222</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>696</gen:value>
@@ -48343,7 +48382,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.56</gen:value>
+<gen:value>0.03</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">13.51</bldg:measuredHeight>
@@ -48371,6 +48410,120 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_8c66c75f-fd63-483d-8e17-fafeade8ba8d_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>84.43</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>8c66c75f-fd63-483d-8e17-fafeade8ba8d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.24</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_4f05985b-0b34-4916-bc3e-b4ef0f12d77f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_8c66c75f-fd63-483d-8e17-fafeade8ba8d_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_8c66c75f-fd63-483d-8e17-fafeade8ba8d_2_poly_0_">
+<gml:posList>25498984.615 6674630.239 3.24 25498991.048 6674641.547 3.24 25498991.358 6674641.37 3.24 25498990.879 6674640.493 3.24 25498993.201 6674639.174 3.24 25498993.68 6674640.051 3.24 25498997.052 6674638.135 3.24 25498990.625 6674626.817 3.24 25498986.61 6674629.104 3.24 25498987.343 6674630.396 3.24 25498985.691 6674631.334 3.24 25498984.958 6674630.043 3.24 25498984.615 6674630.239 3.24</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_e9a94b31-7c80-4df6-923d-38bf3aaaef1d_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>21.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>e9a94b31-7c80-4df6-923d-38bf3aaaef1d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>9.36</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>12.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>9.36</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>12.6</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_6800a74c-899b-4749-ad13-bf40f82dcdfe" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_e9a94b31-7c80-4df6-923d-38bf3aaaef1d_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_e9a94b31-7c80-4df6-923d-38bf3aaaef1d_2_poly_0_">
+<gml:posList>25498984.958 6674630.043 12.6 25498985.691 6674631.334 12.6 25498987.343 6674630.396 12.6 25498986.61 6674629.104 12.6 25498990.625 6674626.817 12.6 25498992.334 6674629.826 12.6 25498986.323 6674633.241 12.6 25498984.615 6674630.239 12.6 25498984.958 6674630.043 12.6</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_3e4ae96f-5afc-4f70-88ef-577d0768807f_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>63.35</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>3e4ae96f-5afc-4f70-88ef-577d0768807f</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>13.45</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.69</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>13.45</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.69</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_067b0607-0f9a-48af-b792-b1d1600e8f0f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_3e4ae96f-5afc-4f70-88ef-577d0768807f_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_3e4ae96f-5afc-4f70-88ef-577d0768807f_2_poly_0_">
+<gml:posList>25498992.334 6674629.826 16.69 25498997.052 6674638.135 16.69 25498993.68 6674640.051 16.69 25498993.201 6674639.174 16.69 25498990.879 6674640.493 16.69 25498991.358 6674641.37 16.69 25498991.048 6674641.547 16.69 25498986.323 6674633.241 16.69 25498992.334 6674629.826 16.69</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_4d5e2950-0249-4066-adbb-75b04e11c318_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -48532,78 +48685,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_8c66c75f-fd63-483d-8e17-fafeade8ba8d_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>84.43</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>8c66c75f-fd63-483d-8e17-fafeade8ba8d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.24</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_4f05985b-0b34-4916-bc3e-b4ef0f12d77f" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_8c66c75f-fd63-483d-8e17-fafeade8ba8d_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_8c66c75f-fd63-483d-8e17-fafeade8ba8d_2_poly_0_">
-<gml:posList>25498984.615 6674630.239 3.24 25498991.048 6674641.547 3.24 25498991.358 6674641.37 3.24 25498990.879 6674640.493 3.24 25498993.201 6674639.174 3.24 25498993.68 6674640.051 3.24 25498997.052 6674638.135 3.24 25498990.625 6674626.817 3.24 25498986.61 6674629.104 3.24 25498987.343 6674630.396 3.24 25498985.691 6674631.334 3.24 25498984.958 6674630.043 3.24 25498984.615 6674630.239 3.24</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_e9a94b31-7c80-4df6-923d-38bf3aaaef1d_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>21.08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>e9a94b31-7c80-4df6-923d-38bf3aaaef1d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>9.36</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>12.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>9.36</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>12.6</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_6800a74c-899b-4749-ad13-bf40f82dcdfe" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_e9a94b31-7c80-4df6-923d-38bf3aaaef1d_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_e9a94b31-7c80-4df6-923d-38bf3aaaef1d_2_poly_0_">
-<gml:posList>25498984.958 6674630.043 12.6 25498985.691 6674631.334 12.6 25498987.343 6674630.396 12.6 25498986.61 6674629.104 12.6 25498990.625 6674626.817 12.6 25498992.334 6674629.826 12.6 25498986.323 6674633.241 12.6 25498984.615 6674630.239 12.6 25498984.958 6674630.043 12.6</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_335d5e78-8295-404d-b568-676604f71ed9_2">
@@ -48774,48 +48855,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_3e4ae96f-5afc-4f70-88ef-577d0768807f_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>63.35</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>3e4ae96f-5afc-4f70-88ef-577d0768807f</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>13.45</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>13.45</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.69</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_067b0607-0f9a-48af-b792-b1d1600e8f0f" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_3e4ae96f-5afc-4f70-88ef-577d0768807f_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_3e4ae96f-5afc-4f70-88ef-577d0768807f_2_poly_0_">
-<gml:posList>25498992.334 6674629.826 16.69 25498997.052 6674638.135 16.69 25498993.68 6674640.051 16.69 25498993.201 6674639.174 16.69 25498990.879 6674640.493 16.69 25498991.358 6674641.37 16.69 25498991.048 6674641.547 16.69 25498986.323 6674633.241 16.69 25498992.334 6674629.826 16.69</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_d7d20675-f284-410a-8bc3-2a323e60c3bf_dea864e4-e946-4e78-85f8-f462bca14304_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -48964,7 +49003,7 @@
 <gen:value>e9dcb3f5-fbda-4188-ab00-9b0b805eab29</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125135842.095</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>699</gen:value>
@@ -48973,7 +49012,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>187.02</gen:value>
+<gen:value>0.33</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>2100</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">3.0</bldg:measuredHeight>
@@ -48992,40 +49031,34 @@
 </gml:Solid>
 </bldg:lod2Solid>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_e9dcb3f5-fbda-4188-ab00-9b0b805eab29_2c210f01-55d5-4b72-ba3c-921c29393020_2">
+<bldg:GroundSurface gml:id="BID_e9dcb3f5-fbda-4188-ab00-9b0b805eab29_76e52c22-9b15-41e0-915d-ee3f9faf3cf9_2">
 <core:creationDate>2019-11-20</core:creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>7.6</gen:value>
+<gen:value>4.3</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>2c210f01-55d5-4b72-ba3c-921c29393020</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>3.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>6.5</gen:value>
+<gen:value>76e52c22-9b15-41e0-915d-ee3f9faf3cf9</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>0.0</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMinASL">
-<gen:value>3.0</gen:value>
+<gen:value>3.5</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_afc1537a-1ba2-4e6c-bc8b-9abf8f3b738e" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_9c66c242-f8ac-4190-94a9-2fb777605950" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9dcb3f5-fbda-4188-ab00-9b0b805eab29_2c210f01-55d5-4b72-ba3c-921c29393020_2_poly">
+<gml:Polygon gml:id="BID_e9dcb3f5-fbda-4188-ab00-9b0b805eab29_76e52c22-9b15-41e0-915d-ee3f9faf3cf9_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_e9dcb3f5-fbda-4188-ab00-9b0b805eab29_2c210f01-55d5-4b72-ba3c-921c29393020_2_poly_0_">
-<gml:posList>25498933.077299997 6674801.4399 3.49 25498933.077299997 6674801.4399 6.4624 25498930.9622 6674802.8603 6.4628 25498930.9622 6674802.8603 3.49 25498933.077299997 6674801.4399 3.49</gml:posList>
+<gml:LinearRing gml:id="BID_e9dcb3f5-fbda-4188-ab00-9b0b805eab29_76e52c22-9b15-41e0-915d-ee3f9faf3cf9_2_poly_0_">
+<gml:posList>25498930.9622 6674802.8603 3.49 25498931.9184 6674804.2614 3.49 25498934.0431 6674802.8313 3.49 25498933.077299997 6674801.4399 3.49 25498930.9622 6674802.8603 3.49</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:WallSurface>
+</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_e9dcb3f5-fbda-4188-ab00-9b0b805eab29_0e09742b-26b1-4db8-9e23-f04182166297_2">
@@ -49070,34 +49103,40 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_e9dcb3f5-fbda-4188-ab00-9b0b805eab29_76e52c22-9b15-41e0-915d-ee3f9faf3cf9_2">
+<bldg:WallSurface gml:id="BID_e9dcb3f5-fbda-4188-ab00-9b0b805eab29_2c210f01-55d5-4b72-ba3c-921c29393020_2">
 <core:creationDate>2019-11-20</core:creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>4.3</gen:value>
+<gen:value>7.6</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>76e52c22-9b15-41e0-915d-ee3f9faf3cf9</gen:value>
+<gen:value>2c210f01-55d5-4b72-ba3c-921c29393020</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>3.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>6.5</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>0.0</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMinASL">
-<gen:value>3.5</gen:value>
+<gen:value>3.0</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_9c66c242-f8ac-4190-94a9-2fb777605950" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_afc1537a-1ba2-4e6c-bc8b-9abf8f3b738e" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9dcb3f5-fbda-4188-ab00-9b0b805eab29_76e52c22-9b15-41e0-915d-ee3f9faf3cf9_2_poly">
+<gml:Polygon gml:id="BID_e9dcb3f5-fbda-4188-ab00-9b0b805eab29_2c210f01-55d5-4b72-ba3c-921c29393020_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_e9dcb3f5-fbda-4188-ab00-9b0b805eab29_76e52c22-9b15-41e0-915d-ee3f9faf3cf9_2_poly_0_">
-<gml:posList>25498930.9622 6674802.8603 3.49 25498931.9184 6674804.2614 3.49 25498934.0431 6674802.8313 3.49 25498933.077299997 6674801.4399 3.49 25498930.9622 6674802.8603 3.49</gml:posList>
+<gml:LinearRing gml:id="BID_e9dcb3f5-fbda-4188-ab00-9b0b805eab29_2c210f01-55d5-4b72-ba3c-921c29393020_2_poly_0_">
+<gml:posList>25498933.077299997 6674801.4399 3.49 25498933.077299997 6674801.4399 6.4624 25498930.9622 6674802.8603 6.4628 25498930.9622 6674802.8603 3.49 25498933.077299997 6674801.4399 3.49</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:GroundSurface>
+</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_e9dcb3f5-fbda-4188-ab00-9b0b805eab29_8b28c971-ab4a-4b43-b8d2-ed9fc2f7b055_2">
@@ -49282,7 +49321,7 @@
 <gen:value>e89fde40-8ae2-4f20-a409-62b129b13f72</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125190332.797</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>694</gen:value>
@@ -49291,7 +49330,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>224.67</gen:value>
+<gen:value>3.33</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">22.2</bldg:measuredHeight>
@@ -49341,6 +49380,171 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_fa2100b7-5079-4ee8-8209-aa7daef8b259_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1620.41</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>fa2100b7-5079-4ee8-8209-aa7daef8b259</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.29</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_9e933a74-88c2-4ffc-a917-e067ddae1d91" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_fa2100b7-5079-4ee8-8209-aa7daef8b259_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_fa2100b7-5079-4ee8-8209-aa7daef8b259_2_poly_0_">
+<gml:posList>25499090.348 6674659.71 3.29 25499090.695 6674659.749 3.29 25499090.194 6674664.205 3.29 25499089.846 6674664.166 3.29 25499089.338 6674668.675 3.29 25499091.971 6674668.972 3.29 25499089.693 6674689.898 3.29 25499087.059 6674689.611 3.29 25499086.563 6674694.163 3.29 25499086.911 6674694.201 3.29 25499086.434 6674698.579 3.29 25499086.086 6674698.541 3.29 25499085.591 6674703.093 3.29 25499088.225 6674703.38 3.29 25499085.298 6674730.27 3.29 25499082.664 6674729.984 3.29 25499080.072 6674753.805 3.29 25499082.707 6674754.091 3.29 25499081.574 6674764.446 3.29 25499094.293 6674765.879 3.29 25499095.778 6674752.695 3.29 25499097.836 6674734.414 3.29 25499097.609 6674731.927 3.29 25499098.096 6674731.979 3.29 25499098.612 6674727.527 3.29 25499096.972 6674727.342 3.29 25499094.926 6674718.256 3.29 25499090.375 6674719.354 3.29 25499090.861 6674715.031 3.29 25499100.257 6674712.92 3.29 25499102.388 6674693.991 3.29 25499106.246 6674659.731 3.29 25499108.242 6674642.004 3.29 25499094.049 6674650.078 3.29 25499093.439 6674655.49 3.29 25499090.856 6674655.199 3.29 25499090.348 6674659.71 3.29</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_e08e9e02-1ac6-4d85-9a4d-460c3df7795f_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>0.33</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>e08e9e02-1ac6-4d85-9a4d-460c3df7795f</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>353.57</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>83.38</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.03</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>23.33</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.98</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.28</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_3ae7f495-c31a-43c1-84c1-30ae0450e30d" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_e08e9e02-1ac6-4d85-9a4d-460c3df7795f_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_e08e9e02-1ac6-4d85-9a4d-460c3df7795f_2_poly_0_0_">
+<gml:posList>25499094.926 6674718.256 23.329 25499095.033 6674718.733 23.275 25499093.614 6674718.573 23.275 25499094.926 6674718.256 23.329</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_e08e9e02-1ac6-4d85-9a4d-460c3df7795f_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_e08e9e02-1ac6-4d85-9a4d-460c3df7795f_2_poly_1_0_">
+<gml:posList>25499086.086 6674698.541 25.487 25499086.434 6674698.579 25.487 25499086.911 6674694.201 25.998 25499086.563 6674694.163 25.998 25499087.059 6674689.611 26.529 25499089.693 6674689.898 26.531 25499091.971 6674668.972 28.973 25499089.338 6674668.675 28.973 25499089.846 6674664.166 29.499 25499090.194 6674664.205 29.499 25499090.695 6674659.749 30.02 25499090.348 6674659.71 30.02 25499090.737 6674656.256 30.423 25499098.758 6674713.257 23.955 25499090.861 6674715.031 23.648 25499090.502 6674718.222 23.275 25499086.657 6674717.789 23.275 25499088.225 6674703.38 24.957 25499085.591 6674703.093 24.956 25499086.086 6674698.541 25.487</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_0b917fe7-dc02-41fc-a363-0e6221489f28_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>644.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>0b917fe7-dc02-41fc-a363-0e6221489f28</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>173.57</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>83.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>25.33</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>28.62</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.98</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.28</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_528a132d-1519-4cd4-a720-fd878759d7b7" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_0b917fe7-dc02-41fc-a363-0e6221489f28_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_0b917fe7-dc02-41fc-a363-0e6221489f28_2_poly_0_">
+<gml:posList>25499094.293 6674765.879 28.62 25499081.574 6674764.446 28.62 25499082.707 6674754.091 27.434 25499080.072 6674753.805 27.435 25499082.664 6674729.984 24.706 25499085.298 6674730.27 24.705 25499086.657 6674717.789 23.275 25499090.502 6674718.222 23.275 25499090.375 6674719.354 23.405 25499093.614 6674718.573 23.275 25499095.033 6674718.733 23.275 25499096.972 6674727.342 24.225 25499098.612 6674727.527 24.225 25499098.096 6674731.979 24.735 25499097.609 6674731.927 24.736 25499097.836 6674734.414 25.014 25499094.293 6674765.879 28.62</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_31bb0aa9-5564-4098-b9b2-0df06017ac54_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>637.24</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>31bb0aa9-5564-4098-b9b2-0df06017ac54</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>29.63</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>83.11</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>27.58</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>30.87</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>20.61</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.9</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_cf2f3e2b-cdfe-4e0b-868d-d93ffc310ff9" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_31bb0aa9-5564-4098-b9b2-0df06017ac54_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_31bb0aa9-5564-4098-b9b2-0df06017ac54_2_poly_0_">
+<gml:posList>25499100.257 6674712.92 23.901 25499098.758 6674713.257 23.955 25499090.737 6674656.256 30.423 25499090.856 6674655.199 30.527 25499093.439 6674655.49 30.342 25499094.049 6674650.078 30.874 25499108.242 6674642.004 30.874 25499100.257 6674712.92 23.901</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_36d44006-4212-4745-b20a-d37eef298aa2_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -49684,36 +49888,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_fa2100b7-5079-4ee8-8209-aa7daef8b259_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1620.41</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>fa2100b7-5079-4ee8-8209-aa7daef8b259</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.29</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_9e933a74-88c2-4ffc-a917-e067ddae1d91" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_fa2100b7-5079-4ee8-8209-aa7daef8b259_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_fa2100b7-5079-4ee8-8209-aa7daef8b259_2_poly_0_">
-<gml:posList>25499090.348 6674659.71 3.29 25499090.695 6674659.749 3.29 25499090.194 6674664.205 3.29 25499089.846 6674664.166 3.29 25499089.338 6674668.675 3.29 25499091.971 6674668.972 3.29 25499089.693 6674689.898 3.29 25499087.059 6674689.611 3.29 25499086.563 6674694.163 3.29 25499086.911 6674694.201 3.29 25499086.434 6674698.579 3.29 25499086.086 6674698.541 3.29 25499085.591 6674703.093 3.29 25499088.225 6674703.38 3.29 25499085.298 6674730.27 3.29 25499082.664 6674729.984 3.29 25499080.072 6674753.805 3.29 25499082.707 6674754.091 3.29 25499081.574 6674764.446 3.29 25499094.293 6674765.879 3.29 25499095.778 6674752.695 3.29 25499097.836 6674734.414 3.29 25499097.609 6674731.927 3.29 25499098.096 6674731.979 3.29 25499098.612 6674727.527 3.29 25499096.972 6674727.342 3.29 25499094.926 6674718.256 3.29 25499090.375 6674719.354 3.29 25499090.861 6674715.031 3.29 25499100.257 6674712.92 3.29 25499102.388 6674693.991 3.29 25499106.246 6674659.731 3.29 25499108.242 6674642.004 3.29 25499094.049 6674650.078 3.29 25499093.439 6674655.49 3.29 25499090.856 6674655.199 3.29 25499090.348 6674659.71 3.29</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_99017379-142e-4059-913c-d0f39ae8dadb_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -49907,57 +50081,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_e08e9e02-1ac6-4d85-9a4d-460c3df7795f_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>0.33</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>e08e9e02-1ac6-4d85-9a4d-460c3df7795f</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>353.57</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>83.38</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.03</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>23.33</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.98</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.28</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_3ae7f495-c31a-43c1-84c1-30ae0450e30d" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_e08e9e02-1ac6-4d85-9a4d-460c3df7795f_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_e08e9e02-1ac6-4d85-9a4d-460c3df7795f_2_poly_0_0_">
-<gml:posList>25499094.926 6674718.256 23.329 25499095.033 6674718.733 23.275 25499093.614 6674718.573 23.275 25499094.926 6674718.256 23.329</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_e08e9e02-1ac6-4d85-9a4d-460c3df7795f_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_e08e9e02-1ac6-4d85-9a4d-460c3df7795f_2_poly_1_0_">
-<gml:posList>25499086.086 6674698.541 25.487 25499086.434 6674698.579 25.487 25499086.911 6674694.201 25.998 25499086.563 6674694.163 25.998 25499087.059 6674689.611 26.529 25499089.693 6674689.898 26.531 25499091.971 6674668.972 28.973 25499089.338 6674668.675 28.973 25499089.846 6674664.166 29.499 25499090.194 6674664.205 29.499 25499090.695 6674659.749 30.02 25499090.348 6674659.71 30.02 25499090.737 6674656.256 30.423 25499098.758 6674713.257 23.955 25499090.861 6674715.031 23.648 25499090.502 6674718.222 23.275 25499086.657 6674717.789 23.275 25499088.225 6674703.38 24.957 25499085.591 6674703.093 24.956 25499086.086 6674698.541 25.487</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_b8e7ef66-0bfa-48b8-af18-b61e53377405_2">
@@ -50170,48 +50293,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_0b917fe7-dc02-41fc-a363-0e6221489f28_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>644.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>0b917fe7-dc02-41fc-a363-0e6221489f28</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>173.57</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>83.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>25.33</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>28.62</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.98</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.28</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_528a132d-1519-4cd4-a720-fd878759d7b7" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_0b917fe7-dc02-41fc-a363-0e6221489f28_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_0b917fe7-dc02-41fc-a363-0e6221489f28_2_poly_0_">
-<gml:posList>25499094.293 6674765.879 28.62 25499081.574 6674764.446 28.62 25499082.707 6674754.091 27.434 25499080.072 6674753.805 27.435 25499082.664 6674729.984 24.706 25499085.298 6674730.27 24.705 25499086.657 6674717.789 23.275 25499090.502 6674718.222 23.275 25499090.375 6674719.354 23.405 25499093.614 6674718.573 23.275 25499095.033 6674718.733 23.275 25499096.972 6674727.342 24.225 25499098.612 6674727.527 24.225 25499098.096 6674731.979 24.735 25499097.609 6674731.927 24.736 25499097.836 6674734.414 25.014 25499094.293 6674765.879 28.62</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_23000d7d-9bb1-4408-9bd4-8f351d9a72a9_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -50322,48 +50403,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_31bb0aa9-5564-4098-b9b2-0df06017ac54_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>637.24</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>31bb0aa9-5564-4098-b9b2-0df06017ac54</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>29.63</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>83.11</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>27.58</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>30.87</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>20.61</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.9</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_cf2f3e2b-cdfe-4e0b-868d-d93ffc310ff9" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_31bb0aa9-5564-4098-b9b2-0df06017ac54_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e89fde40-8ae2-4f20-a409-62b129b13f72_31bb0aa9-5564-4098-b9b2-0df06017ac54_2_poly_0_">
-<gml:posList>25499100.257 6674712.92 23.901 25499098.758 6674713.257 23.955 25499090.737 6674656.256 30.423 25499090.856 6674655.199 30.527 25499093.439 6674655.49 30.342 25499094.049 6674650.078 30.874 25499108.242 6674642.004 30.874 25499100.257 6674712.92 23.901</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -50423,7 +50462,7 @@
 <gen:value>ee463cb5-e2d7-4d31-8610-94931d304dbd</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125140849.749</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>697</gen:value>
@@ -50432,7 +50471,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.51</gen:value>
+<gen:value>0.01</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">3.0</bldg:measuredHeight>
@@ -50450,6 +50489,78 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_ee463cb5-e2d7-4d31-8610-94931d304dbd_4e180d28-30ba-4a13-8a30-2053792c88b1_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>23.84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>4e180d28-30ba-4a13-8a30-2053792c88b1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>7.88</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_1a920e24-cb08-4156-b2d1-9584eba970b7" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_ee463cb5-e2d7-4d31-8610-94931d304dbd_4e180d28-30ba-4a13-8a30-2053792c88b1_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_ee463cb5-e2d7-4d31-8610-94931d304dbd_4e180d28-30ba-4a13-8a30-2053792c88b1_2_poly_0_">
+<gml:posList>25498875.963 6674775.449 7.885 25498870.354 6674778.829 7.885 25498872.324 6674781.994 7.885 25498877.846 6674778.456 7.885 25498875.963 6674775.449 7.885</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_ee463cb5-e2d7-4d31-8610-94931d304dbd_7e031d28-69da-4433-bac2-677452d10696_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>23.84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>7e031d28-69da-4433-bac2-677452d10696</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>3.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>10.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>3.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>10.88</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_29be3d06-8f14-48c4-8ad8-64ad6e425219" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_ee463cb5-e2d7-4d31-8610-94931d304dbd_7e031d28-69da-4433-bac2-677452d10696_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_ee463cb5-e2d7-4d31-8610-94931d304dbd_7e031d28-69da-4433-bac2-677452d10696_2_poly_0_">
+<gml:posList>25498877.846 6674778.456 10.885 25498872.324 6674781.994 10.885 25498870.354 6674778.829 10.885 25498875.963 6674775.449 10.885 25498877.846 6674778.456 10.885</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_ee463cb5-e2d7-4d31-8610-94931d304dbd_d482ee02-a562-4649-a82d-5707dae51378_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -50577,36 +50688,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_ee463cb5-e2d7-4d31-8610-94931d304dbd_4e180d28-30ba-4a13-8a30-2053792c88b1_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>23.84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>4e180d28-30ba-4a13-8a30-2053792c88b1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>7.88</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_1a920e24-cb08-4156-b2d1-9584eba970b7" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_ee463cb5-e2d7-4d31-8610-94931d304dbd_4e180d28-30ba-4a13-8a30-2053792c88b1_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_ee463cb5-e2d7-4d31-8610-94931d304dbd_4e180d28-30ba-4a13-8a30-2053792c88b1_2_poly_0_">
-<gml:posList>25498875.963 6674775.449 7.885 25498870.354 6674778.829 7.885 25498872.324 6674781.994 7.885 25498877.846 6674778.456 7.885 25498875.963 6674775.449 7.885</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_ee463cb5-e2d7-4d31-8610-94931d304dbd_73fc0dd7-6d11-4e41-85ad-e33e50b929a0_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -50647,48 +50728,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_ee463cb5-e2d7-4d31-8610-94931d304dbd_7e031d28-69da-4433-bac2-677452d10696_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>23.84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>7e031d28-69da-4433-bac2-677452d10696</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>3.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>10.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>3.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>10.88</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_29be3d06-8f14-48c4-8ad8-64ad6e425219" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_ee463cb5-e2d7-4d31-8610-94931d304dbd_7e031d28-69da-4433-bac2-677452d10696_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_ee463cb5-e2d7-4d31-8610-94931d304dbd_7e031d28-69da-4433-bac2-677452d10696_2_poly_0_">
-<gml:posList>25498877.846 6674778.456 10.885 25498872.324 6674781.994 10.885 25498870.354 6674778.829 10.885 25498875.963 6674775.449 10.885 25498877.846 6674778.456 10.885</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
@@ -50773,7 +50812,7 @@
 <gen:value>f76c9ab3-beb9-4be5-894b-0099d8b4303c</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125140849.749</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>700</gen:value>
@@ -50782,7 +50821,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>114.78</gen:value>
+<gen:value>1.03</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">20.6</bldg:measuredHeight>
@@ -50818,6 +50857,171 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_557fd1c8-84bb-461c-8c83-e3d7a406f8b5_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>740.11</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>557fd1c8-84bb-461c-8c83-e3d7a406f8b5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.77</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_ceb57201-5e48-4d2a-82b3-ad35573026de" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_557fd1c8-84bb-461c-8c83-e3d7a406f8b5_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_557fd1c8-84bb-461c-8c83-e3d7a406f8b5_2_poly_0_">
+<gml:posList>25499061.503 6674724.763 3.77 25499061.161 6674724.835 3.77 25499060.252 6674720.526 3.77 25499060.595 6674720.454 3.77 25499059.712 6674716.267 3.77 25499055.798 6674717.092 3.77 25499055.868 6674715.661 3.77 25499042.552 6674714.204 3.77 25499049.929 6674746.922 3.77 25499042.666 6674748.56 3.77 25499043.238 6674751.097 3.77 25499040.995 6674751.603 3.77 25499048.143 6674758.01 3.77 25499061.058 6674755.187 3.77 25499061.511 6674757.34 3.77 25499065.894 6674756.416 3.77 25499065.382 6674753.987 3.77 25499067.566 6674753.526 3.77 25499061.503 6674724.763 3.77</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_d08c9372-6296-421e-8c89-4ca7d4cf239b_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>242.97</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>d08c9372-6296-421e-8c89-4ca7d4cf239b</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>192.21</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>80.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>21.25</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>25.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.56</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.33</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_0ea3edaa-b13e-4b97-ae51-4cb21661dfb7" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_d08c9372-6296-421e-8c89-4ca7d4cf239b_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_d08c9372-6296-421e-8c89-4ca7d4cf239b_2_poly_0_">
+<gml:posList>25499048.143 6674758.01 25.025 25499040.995 6674751.603 23.776 25499043.238 6674751.097 23.773 25499042.666 6674748.56 23.356 25499049.929 6674746.922 23.345 25499049.909 6674746.836 23.331 25499065.446 6674743.47 23.33 25499067.566 6674753.526 24.98 25499065.382 6674753.987 24.978 25499065.435 6674754.239 25.02 25499061.058 6674755.187 25.02 25499048.143 6674758.01 25.025</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_1d7c3d15-4972-4f52-8a83-f8020291f81e_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>268.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>1d7c3d15-4972-4f52-8a83-f8020291f81e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>353.76</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>84.39</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>22.67</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>26.45</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.37</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_69ecb9fa-5869-48d0-a3ff-cb805a6eeaef" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_1d7c3d15-4972-4f52-8a83-f8020291f81e_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_1d7c3d15-4972-4f52-8a83-f8020291f81e_2_poly_0_0_">
+<gml:posList>25499042.552 6674714.204 26.445 25499055.868 6674715.661 26.445 25499055.798 6674717.092 26.305 25499059.632 6674716.284 26.425 25499049.833 6674746.498 23.369 25499042.552 6674714.204 26.445</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_1d7c3d15-4972-4f52-8a83-f8020291f81e_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_1d7c3d15-4972-4f52-8a83-f8020291f81e_2_poly_1_0_">
+<gml:posList>25499059.632 6674716.284 26.425 25499059.712 6674716.267 26.424 25499060.595 6674720.454 25.948 25499060.252 6674720.526 25.948 25499061.161 6674724.835 25.458 25499061.503 6674724.763 25.458 25499065.446 6674743.47 23.33 25499049.909 6674746.836 23.331 25499049.833 6674746.498 23.369 25499059.632 6674716.284 26.425</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_d51b7b43-0bd2-4e6d-8109-9c9b5d791a01_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>9.91</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>d51b7b43-0bd2-4e6d-8109-9c9b5d791a01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>19.58</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>23.35</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.58</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.35</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_f494399e-7186-43ac-81fd-64a782f0bcbc" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_d51b7b43-0bd2-4e6d-8109-9c9b5d791a01_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_d51b7b43-0bd2-4e6d-8109-9c9b5d791a01_2_poly_0_">
+<gml:posList>25499065.435 6674754.239 23.35 25499065.894 6674756.416 23.35 25499061.511 6674757.34 23.35 25499061.058 6674755.187 23.35 25499065.435 6674754.239 23.35</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_cb7c2641-f2c9-42e5-8ed4-228c24bddd4d_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -51209,78 +51413,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_d08c9372-6296-421e-8c89-4ca7d4cf239b_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>242.97</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>d08c9372-6296-421e-8c89-4ca7d4cf239b</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>192.21</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>80.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>21.25</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>25.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.56</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.33</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_0ea3edaa-b13e-4b97-ae51-4cb21661dfb7" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_d08c9372-6296-421e-8c89-4ca7d4cf239b_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_d08c9372-6296-421e-8c89-4ca7d4cf239b_2_poly_0_">
-<gml:posList>25499048.143 6674758.01 25.025 25499040.995 6674751.603 23.776 25499043.238 6674751.097 23.773 25499042.666 6674748.56 23.356 25499049.929 6674746.922 23.345 25499049.909 6674746.836 23.331 25499065.446 6674743.47 23.33 25499067.566 6674753.526 24.98 25499065.382 6674753.987 24.978 25499065.435 6674754.239 25.02 25499061.058 6674755.187 25.02 25499048.143 6674758.01 25.025</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_557fd1c8-84bb-461c-8c83-e3d7a406f8b5_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>740.11</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>557fd1c8-84bb-461c-8c83-e3d7a406f8b5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.77</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_ceb57201-5e48-4d2a-82b3-ad35573026de" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_557fd1c8-84bb-461c-8c83-e3d7a406f8b5_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_557fd1c8-84bb-461c-8c83-e3d7a406f8b5_2_poly_0_">
-<gml:posList>25499061.503 6674724.763 3.77 25499061.161 6674724.835 3.77 25499060.252 6674720.526 3.77 25499060.595 6674720.454 3.77 25499059.712 6674716.267 3.77 25499055.798 6674717.092 3.77 25499055.868 6674715.661 3.77 25499042.552 6674714.204 3.77 25499049.929 6674746.922 3.77 25499042.666 6674748.56 3.77 25499043.238 6674751.097 3.77 25499040.995 6674751.603 3.77 25499048.143 6674758.01 3.77 25499061.058 6674755.187 3.77 25499061.511 6674757.34 3.77 25499065.894 6674756.416 3.77 25499065.382 6674753.987 3.77 25499067.566 6674753.526 3.77 25499061.503 6674724.763 3.77</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_5f01dfe8-374b-4cf7-af8a-8fdbafa2c5f4_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -51449,57 +51581,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_1d7c3d15-4972-4f52-8a83-f8020291f81e_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>268.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>1d7c3d15-4972-4f52-8a83-f8020291f81e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>353.76</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>84.39</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>22.67</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>26.45</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.37</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_69ecb9fa-5869-48d0-a3ff-cb805a6eeaef" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_1d7c3d15-4972-4f52-8a83-f8020291f81e_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_1d7c3d15-4972-4f52-8a83-f8020291f81e_2_poly_0_0_">
-<gml:posList>25499042.552 6674714.204 26.445 25499055.868 6674715.661 26.445 25499055.798 6674717.092 26.305 25499059.632 6674716.284 26.425 25499049.833 6674746.498 23.369 25499042.552 6674714.204 26.445</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_1d7c3d15-4972-4f52-8a83-f8020291f81e_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_1d7c3d15-4972-4f52-8a83-f8020291f81e_2_poly_1_0_">
-<gml:posList>25499059.632 6674716.284 26.425 25499059.712 6674716.267 26.424 25499060.595 6674720.454 25.948 25499060.252 6674720.526 25.948 25499061.161 6674724.835 25.458 25499061.503 6674724.763 25.458 25499065.446 6674743.47 23.33 25499049.909 6674746.836 23.331 25499049.833 6674746.498 23.369 25499059.632 6674716.284 26.425</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_3990219b-24d6-4757-ac6c-a50e35454c49_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -51540,48 +51621,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_d51b7b43-0bd2-4e6d-8109-9c9b5d791a01_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>9.91</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>d51b7b43-0bd2-4e6d-8109-9c9b5d791a01</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>19.58</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>23.35</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.58</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.35</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_f494399e-7186-43ac-81fd-64a782f0bcbc" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_d51b7b43-0bd2-4e6d-8109-9c9b5d791a01_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_f76c9ab3-beb9-4be5-894b-0099d8b4303c_d51b7b43-0bd2-4e6d-8109-9c9b5d791a01_2_poly_0_">
-<gml:posList>25499065.435 6674754.239 23.35 25499065.894 6674756.416 23.35 25499061.511 6674757.34 23.35 25499061.058 6674755.187 23.35 25499065.435 6674754.239 23.35</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
@@ -51645,7 +51684,7 @@
 <gen:value>Suvilahti</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125190332.797</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>683</gen:value>
@@ -51654,7 +51693,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>233.32</gen:value>
+<gen:value>234.76</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">24.9</bldg:measuredHeight>
@@ -51686,6 +51725,293 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_3939ebb6-c5c5-4924-a4c5-c1772956a4cf_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>2225.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>3939ebb6-c5c5-4924-a4c5-c1772956a4cf</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>-0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.1</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_2ed8001f-e758-4479-a3fc-3c873d4812bd" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_3939ebb6-c5c5-4924-a4c5-c1772956a4cf_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_3939ebb6-c5c5-4924-a4c5-c1772956a4cf_2_poly_0_">
+<gml:posList>25499091.9622 6674567.6781 3.08 25499079.6442 6674563.3578 3.08 25499070.851999998 6674560.2741 3.08 25499060.3492 6674556.5904 3.08 25499051.1377 6674637.5216 3.08 25499051.1074 6674637.7881 3.08 25499049.4203 6674652.6108 3.08 25499103.9963 6674621.566999999 3.08 25499091.9622 6674567.6781 3.08</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+<gml:interior>
+<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_3939ebb6-c5c5-4924-a4c5-c1772956a4cf_2_poly_1_">
+<gml:posList>25499062.8398 6674631.172 3.08 25499062.8465 6674631.1107 3.08 25499064.3934 6674617.018199999 3.08 25499069.109699998 6674574.052599999 3.08 25499069.2505 6674572.7693 3.08 25499069.4225 6674572.8331 3.08 25499079.3671 6674576.5204 3.08 25499082.883099996 6674577.8241 3.08 25499091.2475 6674615.0132 3.08 25499062.8398 6674631.172 3.08</gml:posList>
+</gml:LinearRing>
+</gml:interior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_3b130ddb-181b-48b4-b2cc-a3a30810a076_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>0.4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>3b130ddb-181b-48b4-b2cc-a3a30810a076</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>3.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>6.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>3.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>6.3</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_f98f05e0-4992-4249-8ebb-c83beffffba7" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_3b130ddb-181b-48b4-b2cc-a3a30810a076_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_3b130ddb-181b-48b4-b2cc-a3a30810a076_2_poly_0_">
+<gml:posList>25499064.3934 6674617.018199999 6.3 25499062.8465 6674631.1107 6.3 25499062.7855 6674631.1454 6.3 25499064.3934 6674617.018199999 6.3</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_52c2d6f6-85f1-43b0-a0bf-828a6788f4f7_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>70.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>52c2d6f6-85f1-43b0-a0bf-828a6788f4f7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>160.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>82.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>20.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>16.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>19.3</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_e3e2c1a5-548b-4e37-b970-379740cbbabe" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_52c2d6f6-85f1-43b0-a0bf-828a6788f4f7_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_52c2d6f6-85f1-43b0-a0bf-828a6788f4f7_2_poly_0_">
+<gml:posList>25499070.851999998 6674560.2741 19.2963 25499069.4225 6674572.8331 20.8369 25499069.2505 6674572.7693 20.8362 25499060.3492 6674556.5904 19.2964 25499070.851999998 6674560.2741 19.2963</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_4d6509cf-188a-4d32-aae9-a3a0dad08002_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>444.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>4d6509cf-188a-4d32-aae9-a3a0dad08002</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>170.4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>83.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>24.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>28.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>16.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>19.3</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_65255399-c2b0-4933-ac4a-1de0c9da52f8" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_4d6509cf-188a-4d32-aae9-a3a0dad08002_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_4d6509cf-188a-4d32-aae9-a3a0dad08002_2_poly_0_">
+<gml:posList>25499060.3492 6674556.5904 19.2964 25499069.2505 6674572.7693 20.8362 25499069.109699998 6674574.052599999 20.973499999999998 25499051.1377 6674637.5216 27.9573 25499060.3492 6674556.5904 19.2964</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_43d816bd-f23e-4d38-ac84-a64a11267232_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>318.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>43d816bd-f23e-4d38-ac84-a64a11267232</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>209.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>81.4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>24.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>28.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>17.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>21.0</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_e43cc936-b4c0-4bf4-85d6-dc6956147c90" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_43d816bd-f23e-4d38-ac84-a64a11267232_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_43d816bd-f23e-4d38-ac84-a64a11267232_2_poly_0_">
+<gml:posList>25499051.1377 6674637.5216 27.9573 25499069.109699998 6674574.052599999 20.973499999999998 25499064.3934 6674617.018199999 26.256999999999998 25499062.7855 6674631.1454 27.99 25499051.1074 6674637.7881 27.99 25499051.1377 6674637.5216 27.9573</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_ef9b3060-ab2d-4242-8b1f-c92c1443a902_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1252.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>ef9b3060-ab2d-4242-8b1f-c92c1443a902</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>24.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>28.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>24.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>28.0</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_d737f22e-e637-4c56-b104-16b8064bcfb2" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_ef9b3060-ab2d-4242-8b1f-c92c1443a902_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_ef9b3060-ab2d-4242-8b1f-c92c1443a902_2_poly_0_">
+<gml:posList>25499051.1074 6674637.7881 27.99 25499062.7855 6674631.1454 27.99 25499062.8465 6674631.1107 27.99 25499062.8398 6674631.172 27.99 25499091.2475 6674615.0132 27.99 25499082.883099996 6674577.8241 27.99 25499082.8569 6674577.7444 27.99 25499079.6442 6674563.3578 27.99 25499091.9622 6674567.6781 27.99 25499103.9963 6674621.566999999 27.99 25499049.4203 6674652.6108 27.99 25499051.1074 6674637.7881 27.99</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_0563444f-8b34-4d2d-8eb8-79b609708d86_2">
+<core:creationDate>2019-01-28</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>146.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>0563444f-8b34-4d2d-8eb8-79b609708d86</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>3.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>6.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>3.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>6.3</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_5ef522b0-1be6-4688-84a0-94c3c67cb4eb" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_0563444f-8b34-4d2d-8eb8-79b609708d86_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_0563444f-8b34-4d2d-8eb8-79b609708d86_2_poly_0_">
+<gml:posList>25499070.851999998 6674560.2741 6.3 25499079.6442 6674563.3578 6.3 25499082.8569 6674577.7444 6.3 25499082.883099996 6674577.8241 6.3 25499079.3671 6674576.5204 6.3 25499069.4225 6674572.8331 6.3 25499070.851999998 6674560.2741 6.3</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_d592eb7c-4ae1-4ba2-9927-95ada1dbff18_2">
 <core:creationDate>2019-01-28</core:creationDate>
@@ -51757,41 +52083,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_3939ebb6-c5c5-4924-a4c5-c1772956a4cf_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>2225.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>3939ebb6-c5c5-4924-a4c5-c1772956a4cf</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>-0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.1</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_2ed8001f-e758-4479-a3fc-3c873d4812bd" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_3939ebb6-c5c5-4924-a4c5-c1772956a4cf_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_3939ebb6-c5c5-4924-a4c5-c1772956a4cf_2_poly_0_">
-<gml:posList>25499091.9622 6674567.6781 3.08 25499079.6442 6674563.3578 3.08 25499070.851999998 6674560.2741 3.08 25499060.3492 6674556.5904 3.08 25499051.1377 6674637.5216 3.08 25499051.1074 6674637.7881 3.08 25499049.4203 6674652.6108 3.08 25499103.9963 6674621.566999999 3.08 25499091.9622 6674567.6781 3.08</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-<gml:interior>
-<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_3939ebb6-c5c5-4924-a4c5-c1772956a4cf_2_poly_1_">
-<gml:posList>25499062.8398 6674631.172 3.08 25499062.8465 6674631.1107 3.08 25499064.3934 6674617.018199999 3.08 25499069.109699998 6674574.052599999 3.08 25499069.2505 6674572.7693 3.08 25499069.4225 6674572.8331 3.08 25499079.3671 6674576.5204 3.08 25499082.883099996 6674577.8241 3.08 25499091.2475 6674615.0132 3.08 25499062.8398 6674631.172 3.08</gml:posList>
-</gml:LinearRing>
-</gml:interior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_ade47e31-af7b-4e61-8867-f69369f89c80_2">
@@ -52154,258 +52445,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_3b130ddb-181b-48b4-b2cc-a3a30810a076_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>0.4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>3b130ddb-181b-48b4-b2cc-a3a30810a076</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>3.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>6.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>3.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>6.3</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_f98f05e0-4992-4249-8ebb-c83beffffba7" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_3b130ddb-181b-48b4-b2cc-a3a30810a076_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_3b130ddb-181b-48b4-b2cc-a3a30810a076_2_poly_0_">
-<gml:posList>25499064.3934 6674617.018199999 6.3 25499062.8465 6674631.1107 6.3 25499062.7855 6674631.1454 6.3 25499064.3934 6674617.018199999 6.3</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_52c2d6f6-85f1-43b0-a0bf-828a6788f4f7_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>70.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>52c2d6f6-85f1-43b0-a0bf-828a6788f4f7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>160.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>82.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>20.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>16.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>19.3</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e3e2c1a5-548b-4e37-b970-379740cbbabe" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_52c2d6f6-85f1-43b0-a0bf-828a6788f4f7_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_52c2d6f6-85f1-43b0-a0bf-828a6788f4f7_2_poly_0_">
-<gml:posList>25499070.851999998 6674560.2741 19.2963 25499069.4225 6674572.8331 20.8369 25499069.2505 6674572.7693 20.8362 25499060.3492 6674556.5904 19.2964 25499070.851999998 6674560.2741 19.2963</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_4d6509cf-188a-4d32-aae9-a3a0dad08002_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>444.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>4d6509cf-188a-4d32-aae9-a3a0dad08002</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>170.4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>83.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>24.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>28.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>16.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>19.3</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_65255399-c2b0-4933-ac4a-1de0c9da52f8" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_4d6509cf-188a-4d32-aae9-a3a0dad08002_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_4d6509cf-188a-4d32-aae9-a3a0dad08002_2_poly_0_">
-<gml:posList>25499060.3492 6674556.5904 19.2964 25499069.2505 6674572.7693 20.8362 25499069.109699998 6674574.052599999 20.973499999999998 25499051.1377 6674637.5216 27.9573 25499060.3492 6674556.5904 19.2964</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_43d816bd-f23e-4d38-ac84-a64a11267232_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>318.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>43d816bd-f23e-4d38-ac84-a64a11267232</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>209.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>81.4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>24.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>28.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>17.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>21.0</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e43cc936-b4c0-4bf4-85d6-dc6956147c90" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_43d816bd-f23e-4d38-ac84-a64a11267232_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_43d816bd-f23e-4d38-ac84-a64a11267232_2_poly_0_">
-<gml:posList>25499051.1377 6674637.5216 27.9573 25499069.109699998 6674574.052599999 20.973499999999998 25499064.3934 6674617.018199999 26.256999999999998 25499062.7855 6674631.1454 27.99 25499051.1074 6674637.7881 27.99 25499051.1377 6674637.5216 27.9573</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_ef9b3060-ab2d-4242-8b1f-c92c1443a902_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1252.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>ef9b3060-ab2d-4242-8b1f-c92c1443a902</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>24.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>28.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>24.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>28.0</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_d737f22e-e637-4c56-b104-16b8064bcfb2" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_ef9b3060-ab2d-4242-8b1f-c92c1443a902_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_ef9b3060-ab2d-4242-8b1f-c92c1443a902_2_poly_0_">
-<gml:posList>25499051.1074 6674637.7881 27.99 25499062.7855 6674631.1454 27.99 25499062.8465 6674631.1107 27.99 25499062.8398 6674631.172 27.99 25499091.2475 6674615.0132 27.99 25499082.883099996 6674577.8241 27.99 25499082.8569 6674577.7444 27.99 25499079.6442 6674563.3578 27.99 25499091.9622 6674567.6781 27.99 25499103.9963 6674621.566999999 27.99 25499049.4203 6674652.6108 27.99 25499051.1074 6674637.7881 27.99</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_0563444f-8b34-4d2d-8eb8-79b609708d86_2">
-<core:creationDate>2019-01-28</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>146.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>0563444f-8b34-4d2d-8eb8-79b609708d86</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>3.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>6.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>3.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>6.3</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_5ef522b0-1be6-4688-84a0-94c3c67cb4eb" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_0563444f-8b34-4d2d-8eb8-79b609708d86_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_0563444f-8b34-4d2d-8eb8-79b609708d86_2_poly_0_">
-<gml:posList>25499070.851999998 6674560.2741 6.3 25499079.6442 6674563.3578 6.3 25499082.8569 6674577.7444 6.3 25499082.883099996 6674577.8241 6.3 25499079.3671 6674576.5204 6.3 25499069.4225 6674572.8331 6.3 25499070.851999998 6674560.2741 6.3</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_fa481205-0375-45c1-99cc-7c230469919d_d87c21f5-ca9d-4e43-9ff9-e0106f5fcd91_2">
 <core:creationDate>2019-01-28</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -52534,7 +52573,7 @@
 <gen:value>2012-08-16</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125140849.749</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>686</gen:value>
@@ -52543,7 +52582,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.69</gen:value>
+<gen:value>0.06</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">16.66</bldg:measuredHeight>
@@ -52565,6 +52604,120 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_52086d9a-a55c-4146-8127-54eb04bcde61_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>547.29</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>52086d9a-a55c-4146-8127-54eb04bcde61</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.8</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_54171fd8-99eb-49ef-9f92-f491e4da94c7" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_52086d9a-a55c-4146-8127-54eb04bcde61_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_52086d9a-a55c-4146-8127-54eb04bcde61_2_poly_0_">
+<gml:posList>25498905.741 6674635.827 4.8 25498893.104 6674638.68 4.8 25498881.888 6674657.145 4.8 25498886.718 6674668.68 4.8 25498910.14 6674655.309 4.8 25498905.741 6674635.827 4.8</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_b5680c5d-5684-4e99-8bb1-342be9e21202_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>191.25</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>b5680c5d-5684-4e99-8bb1-342be9e21202</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.28</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>25.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>20.28</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>25.08</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_e0bc8318-f38c-4ff2-b3c7-a555201b5ff9" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_b5680c5d-5684-4e99-8bb1-342be9e21202_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_b5680c5d-5684-4e99-8bb1-342be9e21202_2_poly_0_">
+<gml:posList>25498905.741 6674635.827 25.08 25498909.701 6674653.364 25.08 25498899.325 6674655.707 25.08 25498895.365 6674638.169 25.08 25498905.741 6674635.827 25.08</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_863e05b9-a40e-4016-ac55-20ef1bc0528a_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>356.04</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>863e05b9-a40e-4016-ac55-20ef1bc0528a</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>16.67</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>21.47</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>16.67</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>21.47</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_b4158912-e27a-46c8-b6d6-49a27042e244" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_863e05b9-a40e-4016-ac55-20ef1bc0528a_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_863e05b9-a40e-4016-ac55-20ef1bc0528a_2_poly_0_">
+<gml:posList>25498893.104 6674638.68 21.47 25498895.365 6674638.169 21.47 25498899.325 6674655.707 21.47 25498909.701 6674653.364 21.47 25498910.14 6674655.309 21.47 25498886.718 6674668.68 21.47 25498881.888 6674657.145 21.47 25498893.104 6674638.68 21.47</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_96f43314-217b-4c96-aed7-b6074e35919a_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -52734,78 +52887,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_b5680c5d-5684-4e99-8bb1-342be9e21202_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>191.25</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>b5680c5d-5684-4e99-8bb1-342be9e21202</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.28</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>25.08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>20.28</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>25.08</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e0bc8318-f38c-4ff2-b3c7-a555201b5ff9" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_b5680c5d-5684-4e99-8bb1-342be9e21202_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_b5680c5d-5684-4e99-8bb1-342be9e21202_2_poly_0_">
-<gml:posList>25498905.741 6674635.827 25.08 25498909.701 6674653.364 25.08 25498899.325 6674655.707 25.08 25498895.365 6674638.169 25.08 25498905.741 6674635.827 25.08</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_52086d9a-a55c-4146-8127-54eb04bcde61_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>547.29</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>52086d9a-a55c-4146-8127-54eb04bcde61</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.8</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_54171fd8-99eb-49ef-9f92-f491e4da94c7" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_52086d9a-a55c-4146-8127-54eb04bcde61_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_52086d9a-a55c-4146-8127-54eb04bcde61_2_poly_0_">
-<gml:posList>25498905.741 6674635.827 4.8 25498893.104 6674638.68 4.8 25498881.888 6674657.145 4.8 25498886.718 6674668.68 4.8 25498910.14 6674655.309 4.8 25498905.741 6674635.827 4.8</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_5f0a6511-43a0-42e0-b6ed-c44f2f3153f5_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -52888,48 +52969,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_863e05b9-a40e-4016-ac55-20ef1bc0528a_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>356.04</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>863e05b9-a40e-4016-ac55-20ef1bc0528a</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>16.67</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>21.47</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>16.67</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>21.47</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_b4158912-e27a-46c8-b6d6-49a27042e244" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_863e05b9-a40e-4016-ac55-20ef1bc0528a_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_863e05b9-a40e-4016-ac55-20ef1bc0528a_2_poly_0_">
-<gml:posList>25498893.104 6674638.68 21.47 25498895.365 6674638.169 21.47 25498899.325 6674655.707 21.47 25498909.701 6674653.364 21.47 25498910.14 6674655.309 21.47 25498886.718 6674668.68 21.47 25498881.888 6674657.145 21.47 25498893.104 6674638.68 21.47</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_fa9d1697-4297-4949-9a81-e4eed574e177_63edbf13-4deb-4593-9ad5-3fcf93fa8c0d_2">
@@ -53032,7 +53071,7 @@
 <gen:value>fbaf871d-b6b3-4952-9c88-562bcb77b210</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125112555.749</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>689</gen:value>
@@ -53041,7 +53080,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>137.14</gen:value>
+<gen:value>0.02</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">3.0</bldg:measuredHeight>
@@ -53060,25 +53099,13 @@
 </gml:Solid>
 </bldg:lod2Solid>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_fbaf871d-b6b3-4952-9c88-562bcb77b210_abe4e7c1-4f44-4755-a4a3-b59a0933f28d_2">
+<bldg:GroundSurface gml:id="BID_fbaf871d-b6b3-4952-9c88-562bcb77b210_e7f88f12-9502-4790-ad68-f7619139d90a_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>6.26</gen:value>
+<gen:value>3.85</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>abe4e7c1-4f44-4755-a4a3-b59a0933f28d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>3.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>10.78</gen:value>
+<gen:value>e7f88f12-9502-4790-ad68-f7619139d90a</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>0.0</gen:value>
@@ -53087,19 +53114,19 @@
 <gen:value>7.78</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_b6b2d921-dbf3-4d7a-bce1-0045c497e739" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_6fd35105-80c4-4efd-81cc-33fd50ed9294" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_fbaf871d-b6b3-4952-9c88-562bcb77b210_abe4e7c1-4f44-4755-a4a3-b59a0933f28d_2_poly">
+<gml:Polygon gml:id="BID_fbaf871d-b6b3-4952-9c88-562bcb77b210_e7f88f12-9502-4790-ad68-f7619139d90a_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_fbaf871d-b6b3-4952-9c88-562bcb77b210_abe4e7c1-4f44-4755-a4a3-b59a0933f28d_2_poly_0_">
-<gml:posList>25498980.486 6674761.935 10.778 25498982.513 6674761.444 10.778 25498982.513 6674761.444 7.778 25498980.486 6674761.935 7.778 25498980.486 6674761.935 10.778</gml:posList>
+<gml:LinearRing gml:id="BID_fbaf871d-b6b3-4952-9c88-562bcb77b210_e7f88f12-9502-4790-ad68-f7619139d90a_2_poly_0_">
+<gml:posList>25498980.126 6674760.11 7.778 25498980.486 6674761.935 7.778 25498982.513 6674761.444 7.778 25498982.124 6674759.626 7.778 25498980.126 6674760.11 7.778</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:WallSurface>
+</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_fbaf871d-b6b3-4952-9c88-562bcb77b210_1f658299-0689-428c-8ef9-61756e6160a5_2">
@@ -53142,6 +53169,48 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_fbaf871d-b6b3-4952-9c88-562bcb77b210_abe4e7c1-4f44-4755-a4a3-b59a0933f28d_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>6.26</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>abe4e7c1-4f44-4755-a4a3-b59a0933f28d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>3.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>10.78</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>7.78</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_b6b2d921-dbf3-4d7a-bce1-0045c497e739" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fbaf871d-b6b3-4952-9c88-562bcb77b210_abe4e7c1-4f44-4755-a4a3-b59a0933f28d_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fbaf871d-b6b3-4952-9c88-562bcb77b210_abe4e7c1-4f44-4755-a4a3-b59a0933f28d_2_poly_0_">
+<gml:posList>25498980.486 6674761.935 10.778 25498982.513 6674761.444 10.778 25498982.513 6674761.444 7.778 25498980.486 6674761.935 7.778 25498980.486 6674761.935 10.778</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_fbaf871d-b6b3-4952-9c88-562bcb77b210_83c8d936-3a70-4aa6-aadf-9ac8a237847c_2">
@@ -53269,36 +53338,6 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_fbaf871d-b6b3-4952-9c88-562bcb77b210_e7f88f12-9502-4790-ad68-f7619139d90a_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>3.85</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>e7f88f12-9502-4790-ad68-f7619139d90a</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>7.78</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_6fd35105-80c4-4efd-81cc-33fd50ed9294" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fbaf871d-b6b3-4952-9c88-562bcb77b210_e7f88f12-9502-4790-ad68-f7619139d90a_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fbaf871d-b6b3-4952-9c88-562bcb77b210_e7f88f12-9502-4790-ad68-f7619139d90a_2_poly_0_">
-<gml:posList>25498980.126 6674760.11 7.778 25498980.486 6674761.935 7.778 25498982.513 6674761.444 7.778 25498982.124 6674759.626 7.778 25498980.126 6674760.11 7.778</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
 <core:Address><core:xalAddress><xAL:AddressDetails>
               <xAL:Country>
@@ -53403,7 +53442,7 @@
 <gen:value>2013-12-20</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201123113950.762</gen:value>
+<gen:value>20201125190332.797</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>684</gen:value>
@@ -53412,7 +53451,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>233.84</gen:value>
+<gen:value>235.32</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">17.52</bldg:measuredHeight>
@@ -53483,6 +53522,143 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_06bd36fc-635d-4331-bffa-912a67aa5616_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>993.77</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>06bd36fc-635d-4331-bffa-912a67aa5616</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.7</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_b0631121-ed14-407a-858c-8a48663b701d" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_06bd36fc-635d-4331-bffa-912a67aa5616_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_06bd36fc-635d-4331-bffa-912a67aa5616_2_poly_0_">
+<gml:posList>25498949.965 6674623.183 4.7 25498948.63 6674620.837 4.7 25498947.326 6674621.579 4.7 25498946.153 6674619.516 4.7 25498945.472 6674618.32 4.7 25498946.776 6674617.578 4.7 25498943.502 6674611.824 4.7 25498942.199 6674612.566 4.7 25498940.344 6674609.306 4.7 25498941.648 6674608.565 4.7 25498938.162 6674602.437 4.7 25498936.858 6674603.179 4.7 25498935.004 6674599.919 4.7 25498936.308 6674599.177 4.7 25498933.761 6674594.701 4.7 25498935.967 6674593.446 4.7 25498934.364 6674586.36 4.7 25498931.124 6674587.048 4.7 25498930.135 6674585.31 4.7 25498924.924 6674588.274 4.7 25498917.632 6674592.423 4.7 25498918.291 6674595.442 4.7 25498915.428 6674596.996 4.7 25498917.109 6674604.443 4.7 25498918.572 6674604.113 4.7 25498919.394 6674607.751 4.7 25498917.93 6674608.082 4.7 25498919.476 6674614.929 4.7 25498920.939 6674614.599 4.7 25498921.761 6674618.237 4.7 25498920.298 6674618.567 4.7 25498921.738 6674624.947 4.7 25498921.857 6674625.476 4.7 25498923.32 6674625.145 4.7 25498924.048 6674628.369 4.7 25498924.142 6674628.784 4.7 25498922.679 6674629.114 4.7 25498923.94 6674634.701 4.7 25498925.217 6674640.356 4.7 25498925.727 6674642.617 4.7 25498927.971 6674642.11 4.7 25498929.308 6674644.462 4.7 25498950.039 6674632.668 4.7 25498951.774 6674631.681 4.7 25498949.895 6674628.378 4.7 25498952.18 6674627.078 4.7 25498949.965 6674623.183 4.7</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+<gml:interior>
+<gml:LinearRing gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_06bd36fc-635d-4331-bffa-912a67aa5616_2_poly_1_">
+<gml:posList>25498932.587 6674632.76 4.7 25498931.996 6674630.118 4.7 25498931.295 6674626.99 4.7 25498930.405 6674623.019 4.7 25498925.085 6674599.269 4.7 25498926.519 6674598.453 4.7 25498927.864 6674600.817 4.7 25498927.256 6674601.163 4.7 25498928.836 6674603.951 4.7 25498937.495 6674619.232 4.7 25498938.607 6674621.194 4.7 25498940.82 6674625.098 4.7 25498942.096 6674627.35 4.7 25498932.587 6674632.76 4.7</gml:posList>
+</gml:LinearRing>
+</gml:interior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_fcc14a79-2964-4d88-b282-89fb57650d24_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>76.01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>fcc14a79-2964-4d88-b282-89fb57650d24</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>21.11</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>25.81</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>21.11</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>25.81</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_de77511f-aa0b-4874-9a53-5e6584adf588" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_fcc14a79-2964-4d88-b282-89fb57650d24_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_fcc14a79-2964-4d88-b282-89fb57650d24_2_poly_0_0_">
+<gml:posList>25498932.407 6674601.5 25.81 25498941.131 6674616.921 25.81 25498937.495 6674619.232 25.81 25498928.836 6674603.951 25.81 25498932.407 6674601.5 25.81</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_fcc14a79-2964-4d88-b282-89fb57650d24_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_fcc14a79-2964-4d88-b282-89fb57650d24_2_poly_1_0_">
+<gml:posList>25498930.405 6674623.019 25.71 25498931.295 6674626.99 25.71 25498924.048 6674628.369 25.71 25498923.32 6674625.145 25.71 25498921.857 6674625.476 25.71 25498921.738 6674624.947 25.71 25498930.405 6674623.019 25.71</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_fcc14a79-2964-4d88-b282-89fb57650d24_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_fcc14a79-2964-4d88-b282-89fb57650d24_2_poly_2_0_">
+<gml:posList>25498931.996 6674630.118 25.942 25498932.587 6674632.76 25.942 25498942.096 6674627.35 25.942 25498940.82 6674625.098 25.942 25498944.555 6674622.973 25.942 25498945.21 6674624.132 25.942 25498947.286 6674627.801 25.942 25498928.17 6674638.676 25.942 25498925.838 6674633.621 25.942 25498931.996 6674630.118 25.942</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_7860decb-f6cf-41b7-9fe2-c6f182d9b48c_2">
+<core:creationDate>2019-07-29</core:creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>794.35</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>7860decb-f6cf-41b7-9fe2-c6f182d9b48c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.51</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>22.21</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>17.51</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>22.21</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_a81d7b69-e472-456b-86d8-b37e6fc75b11" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_7860decb-f6cf-41b7-9fe2-c6f182d9b48c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_7860decb-f6cf-41b7-9fe2-c6f182d9b48c_2_poly_0_">
+<gml:posList>25498918.291 6674595.442 22.21 25498917.632 6674592.423 22.21 25498924.924 6674588.274 22.21 25498930.135 6674585.31 22.21 25498931.124 6674587.048 22.21 25498934.364 6674586.36 22.21 25498935.967 6674593.446 22.21 25498933.761 6674594.701 22.21 25498936.308 6674599.177 22.21 25498935.004 6674599.919 22.21 25498936.858 6674603.179 22.21 25498938.162 6674602.437 22.21 25498941.648 6674608.565 22.21 25498940.344 6674609.306 22.21 25498942.199 6674612.566 22.21 25498943.502 6674611.824 22.21 25498946.776 6674617.578 22.21 25498945.472 6674618.32 22.21 25498946.153 6674619.516 22.21 25498947.326 6674621.579 22.21 25498948.63 6674620.837 22.21 25498949.965 6674623.183 22.21 25498952.18 6674627.078 22.21 25498949.895 6674628.378 22.21 25498951.774 6674631.681 22.21 25498950.039 6674632.668 22.21 25498929.308 6674644.462 22.21 25498927.971 6674642.11 22.21 25498925.727 6674642.617 22.21 25498925.217 6674640.356 22.21 25498923.94 6674634.701 22.21 25498922.679 6674629.114 22.21 25498924.142 6674628.784 22.21 25498924.048 6674628.369 22.21 25498931.295 6674626.99 22.21 25498931.996 6674630.118 22.21 25498925.838 6674633.621 22.21 25498928.17 6674638.676 22.21 25498947.286 6674627.801 22.21 25498945.21 6674624.132 22.21 25498944.555 6674622.973 22.21 25498940.82 6674625.098 22.21 25498938.607 6674621.194 22.21 25498937.495 6674619.232 22.21 25498941.131 6674616.921 22.21 25498932.407 6674601.5 22.21 25498928.836 6674603.951 22.21 25498927.256 6674601.163 22.21 25498927.864 6674600.817 22.21 25498926.519 6674598.453 22.21 25498925.085 6674599.269 22.21 25498930.405 6674623.019 22.21 25498921.738 6674624.947 22.21 25498920.298 6674618.567 22.21 25498921.761 6674618.237 22.21 25498920.939 6674614.599 22.21 25498919.476 6674614.929 22.21 25498917.93 6674608.082 22.21 25498919.394 6674607.751 22.21 25498918.572 6674604.113 22.21 25498917.109 6674604.443 22.21 25498915.428 6674596.996 22.21 25498918.291 6674595.442 22.21</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_15a63712-fb66-4fc5-a206-85807e6654f9_2">
 <core:creationDate>2019-07-29</core:creationDate>
@@ -53898,66 +54074,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_fcc14a79-2964-4d88-b282-89fb57650d24_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>76.01</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>fcc14a79-2964-4d88-b282-89fb57650d24</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>21.11</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>25.81</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>21.11</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>25.81</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_de77511f-aa0b-4874-9a53-5e6584adf588" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_fcc14a79-2964-4d88-b282-89fb57650d24_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_fcc14a79-2964-4d88-b282-89fb57650d24_2_poly_0_0_">
-<gml:posList>25498932.407 6674601.5 25.81 25498941.131 6674616.921 25.81 25498937.495 6674619.232 25.81 25498928.836 6674603.951 25.81 25498932.407 6674601.5 25.81</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_fcc14a79-2964-4d88-b282-89fb57650d24_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_fcc14a79-2964-4d88-b282-89fb57650d24_2_poly_1_0_">
-<gml:posList>25498930.405 6674623.019 25.71 25498931.295 6674626.99 25.71 25498924.048 6674628.369 25.71 25498923.32 6674625.145 25.71 25498921.857 6674625.476 25.71 25498921.738 6674624.947 25.71 25498930.405 6674623.019 25.71</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_fcc14a79-2964-4d88-b282-89fb57650d24_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_fcc14a79-2964-4d88-b282-89fb57650d24_2_poly_2_0_">
-<gml:posList>25498931.996 6674630.118 25.942 25498932.587 6674632.76 25.942 25498942.096 6674627.35 25.942 25498940.82 6674625.098 25.942 25498944.555 6674622.973 25.942 25498945.21 6674624.132 25.942 25498947.286 6674627.801 25.942 25498928.17 6674638.676 25.942 25498925.838 6674633.621 25.942 25498931.996 6674630.118 25.942</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_c1fa5952-4b65-48db-aae6-e1726c2bf724_2">
 <core:creationDate>2019-07-29</core:creationDate>
 <gen:stringAttribute name="Area">
@@ -54133,83 +54249,6 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_7860decb-f6cf-41b7-9fe2-c6f182d9b48c_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>794.35</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>7860decb-f6cf-41b7-9fe2-c6f182d9b48c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.51</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>22.21</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>17.51</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>22.21</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_a81d7b69-e472-456b-86d8-b37e6fc75b11" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_7860decb-f6cf-41b7-9fe2-c6f182d9b48c_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_7860decb-f6cf-41b7-9fe2-c6f182d9b48c_2_poly_0_">
-<gml:posList>25498918.291 6674595.442 22.21 25498917.632 6674592.423 22.21 25498924.924 6674588.274 22.21 25498930.135 6674585.31 22.21 25498931.124 6674587.048 22.21 25498934.364 6674586.36 22.21 25498935.967 6674593.446 22.21 25498933.761 6674594.701 22.21 25498936.308 6674599.177 22.21 25498935.004 6674599.919 22.21 25498936.858 6674603.179 22.21 25498938.162 6674602.437 22.21 25498941.648 6674608.565 22.21 25498940.344 6674609.306 22.21 25498942.199 6674612.566 22.21 25498943.502 6674611.824 22.21 25498946.776 6674617.578 22.21 25498945.472 6674618.32 22.21 25498946.153 6674619.516 22.21 25498947.326 6674621.579 22.21 25498948.63 6674620.837 22.21 25498949.965 6674623.183 22.21 25498952.18 6674627.078 22.21 25498949.895 6674628.378 22.21 25498951.774 6674631.681 22.21 25498950.039 6674632.668 22.21 25498929.308 6674644.462 22.21 25498927.971 6674642.11 22.21 25498925.727 6674642.617 22.21 25498925.217 6674640.356 22.21 25498923.94 6674634.701 22.21 25498922.679 6674629.114 22.21 25498924.142 6674628.784 22.21 25498924.048 6674628.369 22.21 25498931.295 6674626.99 22.21 25498931.996 6674630.118 22.21 25498925.838 6674633.621 22.21 25498928.17 6674638.676 22.21 25498947.286 6674627.801 22.21 25498945.21 6674624.132 22.21 25498944.555 6674622.973 22.21 25498940.82 6674625.098 22.21 25498938.607 6674621.194 22.21 25498937.495 6674619.232 22.21 25498941.131 6674616.921 22.21 25498932.407 6674601.5 22.21 25498928.836 6674603.951 22.21 25498927.256 6674601.163 22.21 25498927.864 6674600.817 22.21 25498926.519 6674598.453 22.21 25498925.085 6674599.269 22.21 25498930.405 6674623.019 22.21 25498921.738 6674624.947 22.21 25498920.298 6674618.567 22.21 25498921.761 6674618.237 22.21 25498920.939 6674614.599 22.21 25498919.476 6674614.929 22.21 25498917.93 6674608.082 22.21 25498919.394 6674607.751 22.21 25498918.572 6674604.113 22.21 25498917.109 6674604.443 22.21 25498915.428 6674596.996 22.21 25498918.291 6674595.442 22.21</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_06bd36fc-635d-4331-bffa-912a67aa5616_2">
-<core:creationDate>2019-07-29</core:creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>993.77</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>06bd36fc-635d-4331-bffa-912a67aa5616</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.7</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_b0631121-ed14-407a-858c-8a48663b701d" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_06bd36fc-635d-4331-bffa-912a67aa5616_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_06bd36fc-635d-4331-bffa-912a67aa5616_2_poly_0_">
-<gml:posList>25498949.965 6674623.183 4.7 25498948.63 6674620.837 4.7 25498947.326 6674621.579 4.7 25498946.153 6674619.516 4.7 25498945.472 6674618.32 4.7 25498946.776 6674617.578 4.7 25498943.502 6674611.824 4.7 25498942.199 6674612.566 4.7 25498940.344 6674609.306 4.7 25498941.648 6674608.565 4.7 25498938.162 6674602.437 4.7 25498936.858 6674603.179 4.7 25498935.004 6674599.919 4.7 25498936.308 6674599.177 4.7 25498933.761 6674594.701 4.7 25498935.967 6674593.446 4.7 25498934.364 6674586.36 4.7 25498931.124 6674587.048 4.7 25498930.135 6674585.31 4.7 25498924.924 6674588.274 4.7 25498917.632 6674592.423 4.7 25498918.291 6674595.442 4.7 25498915.428 6674596.996 4.7 25498917.109 6674604.443 4.7 25498918.572 6674604.113 4.7 25498919.394 6674607.751 4.7 25498917.93 6674608.082 4.7 25498919.476 6674614.929 4.7 25498920.939 6674614.599 4.7 25498921.761 6674618.237 4.7 25498920.298 6674618.567 4.7 25498921.738 6674624.947 4.7 25498921.857 6674625.476 4.7 25498923.32 6674625.145 4.7 25498924.048 6674628.369 4.7 25498924.142 6674628.784 4.7 25498922.679 6674629.114 4.7 25498923.94 6674634.701 4.7 25498925.217 6674640.356 4.7 25498925.727 6674642.617 4.7 25498927.971 6674642.11 4.7 25498929.308 6674644.462 4.7 25498950.039 6674632.668 4.7 25498951.774 6674631.681 4.7 25498949.895 6674628.378 4.7 25498952.18 6674627.078 4.7 25498949.965 6674623.183 4.7</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-<gml:interior>
-<gml:LinearRing gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_06bd36fc-635d-4331-bffa-912a67aa5616_2_poly_1_">
-<gml:posList>25498932.587 6674632.76 4.7 25498931.996 6674630.118 4.7 25498931.295 6674626.99 4.7 25498930.405 6674623.019 4.7 25498925.085 6674599.269 4.7 25498926.519 6674598.453 4.7 25498927.864 6674600.817 4.7 25498927.256 6674601.163 4.7 25498928.836 6674603.951 4.7 25498937.495 6674619.232 4.7 25498938.607 6674621.194 4.7 25498940.82 6674625.098 4.7 25498942.096 6674627.35 4.7 25498932.587 6674632.76 4.7</gml:posList>
-</gml:LinearRing>
-</gml:interior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_fcdec70c-ff33-4849-b60e-acd58112f7e4_531b09aa-0527-4095-a14d-1a6bbea80027_2">
