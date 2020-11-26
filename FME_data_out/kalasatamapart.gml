@@ -67,7 +67,7 @@
 <gen:value>103557252H</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210519.552</gen:value>
+<gen:value>20201126164034.675</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>831</gen:value>
@@ -79,7 +79,7 @@
 <gen:value>0.35</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="J">
-<gen:value>12644444.0</gen:value>
+<gen:value>12644447.0</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>2100</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">23.4</bldg:measuredHeight>
@@ -1414,7 +1414,7 @@
 <gen:value>2013-08-15</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210959.366</gen:value>
+<gen:value>20201126164501.849</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>842</gen:value>
@@ -1426,7 +1426,7 @@
 <gen:value>37.2</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>0.01</gen:value>
+<gen:value>0.19</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
 <gen:value>0.03</gen:value>
@@ -2336,7 +2336,7 @@
 <gen:value>0b3e6442-6beb-4d51-9da5-2f92c5264482</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125140849.749</gen:value>
+<gen:value>20201126164028.913</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>687</gen:value>
@@ -3427,7 +3427,7 @@
 <gen:value>103520365L</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125111548.824</gen:value>
+<gen:value>20201126115546.822</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>690</gen:value>
@@ -3436,7 +3436,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>0.09</gen:value>
+<gen:value>0.03</gen:value>
 </gen:stringAttribute>
 <bldg:function>011</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -4223,7 +4223,7 @@
 <gen:value>SÃ¶rnÃ¤istenniemi</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210513.901</gen:value>
+<gen:value>20201126164028.913</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>685</gen:value>
@@ -4232,7 +4232,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>234.13</gen:value>
+<gen:value>232.26</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000;3500;2100;2100;3500;2100</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.5</bldg:measuredHeight>
@@ -6226,7 +6226,7 @@
 <gen:value>1017733410</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125140849.749</gen:value>
+<gen:value>20201126164028.913</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>688</gen:value>
@@ -7921,7 +7921,7 @@
 <gen:value>2014-02-25</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125103508.996</gen:value>
+<gen:value>20201126104436.473</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>691</gen:value>
@@ -7930,7 +7930,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>30.57</gen:value>
+<gen:value>30.99</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.89</bldg:measuredHeight>
@@ -8569,7 +8569,7 @@
 <gen:value>13923f39-b605-4f81-9173-c14c21630685</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210513.901</gen:value>
+<gen:value>20201126164028.913</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>701</gen:value>
@@ -8578,7 +8578,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="J">
-<gen:value>11072765.0</gen:value>
+<gen:value>11072793.0</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">10.33</bldg:measuredHeight>
@@ -10045,7 +10045,7 @@
 <gen:value>2013-11-28</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210513.901</gen:value>
+<gen:value>20201126164028.913</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>702</gen:value>
@@ -10054,7 +10054,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="J">
-<gen:value>19.29</gen:value>
+<gen:value>27.31</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.85</bldg:measuredHeight>
@@ -10669,7 +10669,7 @@
 <gen:value>1b33d422-98b1-4781-82f2-243f308b4505</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210519.552</gen:value>
+<gen:value>20201126164034.675</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>832</gen:value>
@@ -10678,7 +10678,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>0.8</gen:value>
+<gen:value>0.92</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
 <gen:value>0.02</gen:value>
@@ -11031,7 +11031,7 @@
 <gen:value>103520366M</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210512.992</gen:value>
+<gen:value>20201126164027.671</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>661</gen:value>
@@ -11040,7 +11040,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>236.56</gen:value>
+<gen:value>233.56</gen:value>
 </gen:stringAttribute>
 <bldg:function>011</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -11381,7 +11381,7 @@
 <gen:value>1017733421</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125134822.323</gen:value>
+<gen:value>20201126135805.817</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>664</gen:value>
@@ -11390,7 +11390,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.05</gen:value>
+<gen:value>0.06</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">23.1</bldg:measuredHeight>
@@ -14195,7 +14195,7 @@
 <gen:value>2014-01-30</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125130748.549</gen:value>
+<gen:value>20201126131721.115</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>738</gen:value>
@@ -14204,7 +14204,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>203.9</gen:value>
+<gen:value>278.3</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.91</bldg:measuredHeight>
@@ -14843,7 +14843,7 @@
 <gen:value>2c6d3819-a3c3-4477-af31-9d73be2ca30b</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125130748.549</gen:value>
+<gen:value>20201126120601.234</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>739</gen:value>
@@ -14852,7 +14852,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.01</gen:value>
+<gen:value>0.06</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">19.83</bldg:measuredHeight>
@@ -16394,7 +16394,7 @@
 <gen:value>Suvilahti</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125211012.268</gen:value>
+<gen:value>20201126164515.082</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>837</gen:value>
@@ -17032,7 +17032,7 @@
 <gen:value>103509649X</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125112557.452</gen:value>
+<gen:value>20201126120601.234</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>740</gen:value>
@@ -17041,7 +17041,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.01</gen:value>
+<gen:value>0.05</gen:value>
 </gen:stringAttribute>
 <bldg:function>039</bldg:function>
 <bldg:roofType>2100;1000</bldg:roofType>
@@ -17741,7 +17741,7 @@
 <gen:value>2015-03-23</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125211012.268</gen:value>
+<gen:value>20201126164515.082</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>837</gen:value>
@@ -19373,7 +19373,7 @@
 <gen:value>2012-11-27</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125130748.549</gen:value>
+<gen:value>20201126131721.115</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>741</gen:value>
@@ -20461,7 +20461,7 @@
 <gen:value>46f83126-ec43-4819-b7a1-cd2da959b5cb</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125211012.268</gen:value>
+<gen:value>20201126164515.082</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>837</gen:value>
@@ -21449,7 +21449,7 @@
 <gen:value>103520368P</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210512.992</gen:value>
+<gen:value>20201126164027.671</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>670</gen:value>
@@ -21458,7 +21458,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>6.06</gen:value>
+<gen:value>8.06</gen:value>
 </gen:stringAttribute>
 <bldg:function>011</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -22189,7 +22189,7 @@
 <gen:value>103520362H</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125134822.323</gen:value>
+<gen:value>20201126135805.817</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>673</gen:value>
@@ -22509,7 +22509,7 @@
 <gen:value>56a3eb26-dc20-431b-8ed8-67ac3af46f13</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125134822.323</gen:value>
+<gen:value>20201126135805.817</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>676</gen:value>
@@ -22518,7 +22518,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>3.36</gen:value>
+<gen:value>4.08</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">1.68</bldg:measuredHeight>
@@ -22835,7 +22835,7 @@
 <gen:value>5559c323-540f-4a4a-8ccc-adcb94ca5804</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210512.992</gen:value>
+<gen:value>20201126164027.671</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>671</gen:value>
@@ -22844,7 +22844,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>8.73</gen:value>
+<gen:value>11.49</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">1.69</bldg:measuredHeight>
@@ -23206,7 +23206,7 @@
 <gen:value>2013-04-23</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125134822.323</gen:value>
+<gen:value>20201126134753.481</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>674</gen:value>
@@ -24795,7 +24795,7 @@
 <gen:value>2014-12-19</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125134822.323</gen:value>
+<gen:value>20201126135805.817</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>677</gen:value>
@@ -24804,7 +24804,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>1.27</gen:value>
+<gen:value>-0.68</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">20.18</bldg:measuredHeight>
@@ -26716,7 +26716,7 @@
 <gen:value>2014-02-25</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210512.992</gen:value>
+<gen:value>20201126164027.671</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>672</gen:value>
@@ -26725,10 +26725,10 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>8.35</gen:value>
+<gen:value>10.86</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.03</gen:value>
+<gen:value>0.04</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.86</bldg:measuredHeight>
@@ -28229,7 +28229,7 @@
 <gen:value>Suvilahti</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210519.552</gen:value>
+<gen:value>20201126164034.675</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>834</gen:value>
@@ -28238,10 +28238,10 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>6.06</gen:value>
+<gen:value>8.06</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="J">
-<gen:value>2.91</gen:value>
+<gen:value>2.68</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">64.8</bldg:measuredHeight>
@@ -28759,7 +28759,7 @@
 <gen:value>2014-01-09</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125134822.323</gen:value>
+<gen:value>20201126135805.817</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>673</gen:value>
@@ -29441,7 +29441,7 @@
 <gen:value>2012-09-27</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125134822.323</gen:value>
+<gen:value>20201126135805.817</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>676</gen:value>
@@ -29450,7 +29450,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>3.36</gen:value>
+<gen:value>4.08</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">17.24</bldg:measuredHeight>
@@ -30567,7 +30567,7 @@
 <gen:value>1037724446</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210512.992</gen:value>
+<gen:value>20201126164027.671</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>671</gen:value>
@@ -30576,7 +30576,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>8.73</gen:value>
+<gen:value>11.49</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>3500</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.4</bldg:measuredHeight>
@@ -30928,7 +30928,7 @@
 <gen:value>70d040f6-af90-4106-bc61-1f94ebebcfd6</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125134822.323</gen:value>
+<gen:value>20201126134753.481</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>674</gen:value>
@@ -31674,7 +31674,7 @@
 <gen:value>Redi</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125211012.268</gen:value>
+<gen:value>20201126164515.082</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>837</gen:value>
@@ -31686,10 +31686,10 @@
 <gen:value>42.7</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>154.29</gen:value>
+<gen:value>150.32</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>1.27</gen:value>
+<gen:value>-0.68</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="J">
 <gen:value>26172823</gen:value>
@@ -32094,7 +32094,7 @@
 <gen:value>83581717-fe0f-4ccd-8ef1-9ba487bbf1a9</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210512.992</gen:value>
+<gen:value>20201126164027.671</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>672</gen:value>
@@ -32103,7 +32103,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>8.35</gen:value>
+<gen:value>10.86</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">9.0</bldg:measuredHeight>
@@ -32450,7 +32450,7 @@
 <gen:value>1032851589</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125134822.323</gen:value>
+<gen:value>20201126135805.817</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>675</gen:value>
@@ -32459,7 +32459,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.03</gen:value>
+<gen:value>0.04</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">14.6</bldg:measuredHeight>
@@ -32768,7 +32768,7 @@
 <gen:value>904cdd41-311a-4ff7-a3c1-110630c81954</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125134822.323</gen:value>
+<gen:value>20201126135805.817</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>678</gen:value>
@@ -32777,7 +32777,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>2.87</gen:value>
+<gen:value>5.63</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">9.0</bldg:measuredHeight>
@@ -33182,7 +33182,7 @@
 <gen:value>2013-10-22</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210512.992</gen:value>
+<gen:value>20201126164027.671</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>661</gen:value>
@@ -33191,7 +33191,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>236.56</gen:value>
+<gen:value>233.56</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">21.09</bldg:measuredHeight>
@@ -35427,7 +35427,7 @@
 <gen:value>2013-12-20</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210519.552</gen:value>
+<gen:value>20201126164034.675</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>826</gen:value>
@@ -35436,10 +35436,10 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>28.95</gen:value>
+<gen:value>33.07</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.05</gen:value>
+<gen:value>0.06</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">20.92</bldg:measuredHeight>
@@ -37208,7 +37208,7 @@
 <gen:value>2015-06-15</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125105528.864</gen:value>
+<gen:value>20201126123631.581</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>667</gen:value>
@@ -37217,7 +37217,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>0.16</gen:value>
+<gen:value>0.2</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">17.58</bldg:measuredHeight>
@@ -37771,7 +37771,7 @@
 <gen:value>2013-08-19</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210512.992</gen:value>
+<gen:value>20201126164027.671</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>662</gen:value>
@@ -37780,7 +37780,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>236.52</gen:value>
+<gen:value>234.06</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">25.83</bldg:measuredHeight>
@@ -39283,7 +39283,7 @@
 <gen:value>ade71a63-c4aa-4420-a894-ebeba4e2dcfb</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125134822.323</gen:value>
+<gen:value>20201126135805.817</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>665</gen:value>
@@ -39983,7 +39983,7 @@
 <gen:value>b218c435-e0b1-4baa-b216-cfbeeefc168b</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125111547.875</gen:value>
+<gen:value>20201126114537.866</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>668</gen:value>
@@ -39992,7 +39992,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>0.06</gen:value>
+<gen:value>0.04</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">9.0</bldg:measuredHeight>
@@ -40342,7 +40342,7 @@
 <gen:value>103520367N</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210512.992</gen:value>
+<gen:value>20201126164027.671</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>663</gen:value>
@@ -40351,7 +40351,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>234.44</gen:value>
+<gen:value>232.54</gen:value>
 </gen:stringAttribute>
 <bldg:function>011</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -41006,7 +41006,7 @@
 <gen:value>bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125134822.323</gen:value>
+<gen:value>20201126135805.817</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>666</gen:value>
@@ -41412,7 +41412,7 @@
 <gen:value>c714cf2e-9ec4-4d75-a13d-7013c0a58966</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125103507.863</gen:value>
+<gen:value>20201126123631.581</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>669</gen:value>
@@ -41421,7 +41421,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>0.02</gen:value>
+<gen:value>0.07</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">3.0</bldg:measuredHeight>
@@ -41771,7 +41771,7 @@
 <gen:value>103529164E</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210512.992</gen:value>
+<gen:value>20201126164027.671</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>679</gen:value>
@@ -41780,7 +41780,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="J">
-<gen:value>11387438.0</gen:value>
+<gen:value>11387441.0</gen:value>
 </gen:stringAttribute>
 <bldg:function>039</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -42739,7 +42739,7 @@
 <gen:value>Redi</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210512.992</gen:value>
+<gen:value>20201126164027.671</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>680</gen:value>
@@ -42748,10 +42748,10 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>0.05</gen:value>
+<gen:value>0.01</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="J">
-<gen:value>2.84</gen:value>
+<gen:value>2.82</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">102.6</bldg:measuredHeight>
@@ -43275,7 +43275,7 @@
 <gen:value>2014-04-25</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210513.901</gen:value>
+<gen:value>20201126164028.913</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>692</gen:value>
@@ -43284,7 +43284,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>3.0</gen:value>
+<gen:value>3.39</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.95</bldg:measuredHeight>
@@ -43957,7 +43957,7 @@
 <gen:value>2012-11-27</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125140849.749</gen:value>
+<gen:value>20201126163021.421</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>695</gen:value>
@@ -43966,7 +43966,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.01</gen:value>
+<gen:value>-0.01</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">22.77</bldg:measuredHeight>
@@ -45678,7 +45678,7 @@
 <gen:value>2014-01-09</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125140849.749</gen:value>
+<gen:value>20201126164028.913</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>698</gen:value>
@@ -45687,7 +45687,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>0.06</gen:value>
+<gen:value>-0.11</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">12.14</bldg:measuredHeight>
@@ -46403,7 +46403,7 @@
 <gen:value>2015-06-15</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210519.552</gen:value>
+<gen:value>20201126164034.675</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>829</gen:value>
@@ -46412,7 +46412,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>3.68</gen:value>
+<gen:value>4.24</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
 <gen:value>0.03</gen:value>
@@ -48373,7 +48373,7 @@
 <gen:value>2014-03-04</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125134823.222</gen:value>
+<gen:value>20201126140814.651</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>696</gen:value>
@@ -48382,7 +48382,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.03</gen:value>
+<gen:value>0.01</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">13.51</bldg:measuredHeight>
@@ -49003,7 +49003,7 @@
 <gen:value>e9dcb3f5-fbda-4188-ab00-9b0b805eab29</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125135842.095</gen:value>
+<gen:value>20201126164028.913</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>699</gen:value>
@@ -49012,7 +49012,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>0.33</gen:value>
+<gen:value>-0.11</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>2100</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">3.0</bldg:measuredHeight>
@@ -49321,7 +49321,7 @@
 <gen:value>e89fde40-8ae2-4f20-a409-62b129b13f72</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210513.901</gen:value>
+<gen:value>20201126164028.913</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>694</gen:value>
@@ -49330,7 +49330,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>2.04</gen:value>
+<gen:value>123.86</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">22.2</bldg:measuredHeight>
@@ -50462,7 +50462,7 @@
 <gen:value>ee463cb5-e2d7-4d31-8610-94931d304dbd</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125140849.749</gen:value>
+<gen:value>20201126164028.913</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>697</gen:value>
@@ -50812,7 +50812,7 @@
 <gen:value>f76c9ab3-beb9-4be5-894b-0099d8b4303c</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125140849.749</gen:value>
+<gen:value>20201126164028.913</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>700</gen:value>
@@ -50821,7 +50821,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>1.03</gen:value>
+<gen:value>0.99</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">20.6</bldg:measuredHeight>
@@ -51684,7 +51684,7 @@
 <gen:value>Suvilahti</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210513.901</gen:value>
+<gen:value>20201126164028.913</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>683</gen:value>
@@ -51693,7 +51693,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>235.96</gen:value>
+<gen:value>233.42</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">24.9</bldg:measuredHeight>
@@ -52573,7 +52573,7 @@
 <gen:value>2012-08-16</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125140849.749</gen:value>
+<gen:value>20201126164028.913</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>686</gen:value>
@@ -52582,7 +52582,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="A">
-<gen:value>0.06</gen:value>
+<gen:value>0.05</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">16.66</bldg:measuredHeight>
@@ -53071,7 +53071,7 @@
 <gen:value>fbaf871d-b6b3-4952-9c88-562bcb77b210</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125112555.749</gen:value>
+<gen:value>20201126122624.716</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>689</gen:value>
@@ -53080,7 +53080,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="W">
-<gen:value>0.02</gen:value>
+<gen:value>0.04</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">3.0</bldg:measuredHeight>
@@ -53442,7 +53442,7 @@
 <gen:value>2013-12-20</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="resulttime">
-<gen:value>20201125210513.901</gen:value>
+<gen:value>20201126164028.913</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>684</gen:value>
@@ -53451,7 +53451,7 @@
 <gen:value></gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="V">
-<gen:value>236.06</gen:value>
+<gen:value>233.95</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">17.52</bldg:measuredHeight>
