@@ -78,17 +78,23 @@ function active3DTilePicker() {
 }
 
 function generateFeatureInfoTable(picked3DtileFeature) {
+    console.log(picked3DtileFeature);
     var selectedEntity = new Cesium.Entity();
     let gml_id = picked3DtileFeature.getProperty('gml_id');
     let highestRoof =  picked3DtileFeature.getProperty('HighestRoof');
     let kerroksia =  picked3DtileFeature.getProperty('Kerroksia');
     let kerrosala =  picked3DtileFeature.getProperty('Kerrosala');
     let valmistunut =  picked3DtileFeature.getProperty('Valmistunut');
-    let bel_spl =  picked3DtileFeature.getProperty('Bel_SPL');
-    let volt =  picked3DtileFeature.getProperty('V');
-    let ampere =  picked3DtileFeature.getProperty('A');
-    let watt =  picked3DtileFeature.getProperty('W');
-    let joule =  picked3DtileFeature.getProperty('J');
+    let bel_spl =  picked3DtileFeature.getProperty('bel_spl');
+    let volt =  picked3DtileFeature.getProperty('v');
+    let ampere =  picked3DtileFeature.getProperty('a');
+    let watt =  picked3DtileFeature.getProperty('w');
+    let joule =  picked3DtileFeature.getProperty('j');
+    let name = picked3DtileFeature.getProperty('light_name');
+    let description = picked3DtileFeature.getProperty('light_description');
+    let height = picked3DtileFeature.getProperty('height');
+    let lumen = picked3DtileFeature.getProperty('lumen');
+    let result = picked3DtileFeature.getProperty('result');
 
     selectedEntity.name = "GML_ID: " + gml_id + "";
     selectedEntity.description = 'Loading <div class="cesium-infoBox-loading"></div>';
@@ -131,6 +137,24 @@ function generateFeatureInfoTable(picked3DtileFeature) {
     if (joule !== undefined && joule !== null ) {
         selectedEntity.description += '<tr><th>J</th><td>' + joule + '</td></tr>';
     } 
+    
+//    if (name !== undefined && name !== null ) {
+        selectedEntity.description += '<tr><th>Name</th><td>' + name + '</td></tr>';
+//    }
+    
+//    if (description !== undefined && description !== null ) {
+        selectedEntity.description += '<tr><th>Description</th><td>' + description + '</td></tr>';
+//    }
+
+    if (height !== undefined && height !== null ) {
+        selectedEntity.description += '<tr><th>Height</th><td>' + height + '</td></tr>';
+    }
+
+ //   if (lumen !== undefined && name !== null ) {
+        selectedEntity.description += '<tr><th>Lumen</th><td>' + lumen + '</td></tr>';
+ //       selectedEntity.description += '<tr><th>Result</th><td>' + result + '</td></tr>';
+
+ //   }
 }
 
 active3DTilePicker();

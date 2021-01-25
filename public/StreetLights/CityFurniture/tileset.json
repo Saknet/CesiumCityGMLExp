@@ -1,0 +1,54 @@
+{
+	"asset" : {
+		"version" : "0.0"
+	},
+	"properties" : {
+		"gml_id" : {},
+		"gml_parent_id" : {},
+		"citygml_target_uri" : {},
+		"citygml_feature_role" : {},
+		"citygml_feature_role_attr_name" : {},
+		"citygml_feature_role_attr_val" : {},
+		"gml_description" : {},
+		"gml_name" : {},
+		"citygml_creationDate" : {},
+		"citygml_terminationDate" : {},
+		"externalReference{}.externalObject.name" : {},
+		"externalReference{}.externalObject.uri" : {},
+		"externalReference{}.informationSystem" : {},
+		"citygml_generalizes_to{}.xlink_href" : {},
+		"citygml_relative_to_terrain" : {},
+		"citygml_relative_to_water" : {},
+		"citygml_appearance{}.xlink_href" : {},
+		"citygml_class" : {},
+		"citygml_class_codeSpace" : {},
+		"citygml_function{}" : {},
+		"citygml_function{}.codeSpace" : {},
+		"citygml_usage{}" : {},
+		"citygml_usage{}.codeSpace" : {},
+		"citygml_level_of_detail{}" : {},
+		"datastream_id" : {},
+		"lat" : {},
+		"location_link" : {},
+		"lod1Geometry" : {},
+		"long" : {},
+		"result" : {},
+		"resulttime" : {},
+		"street light height" : {},
+		"thing_link" : {},
+		"unitofmeasurement" : {}
+	},
+	"geometricError" : 0,
+	"root" : {
+		"boundingVolume" : {
+			"box" : [ -1593971.0526356832, 6175757.6470962055, -1011.7455714634395, 1.2495568830054253, 0, 0, 0, 4.841333267278969, 0, 0, 0, 1 ]
+		},
+		"refine" : "ADD",
+		"content" : {
+			"boundingVolume" : {
+				"box" : [ -1593971.0526356832, 6175757.6470962055, -1011.7455714634395, 1.2495568830054253, 0, 0, 0, 4.841333267278969, 0, 0, 0, 1 ]
+			},
+			"url" : "data/data0.b3dm"
+		}
+	}
+}

@@ -66,20 +66,32 @@
 <gen:stringAttribute name="VTJ_PRT">
 <gen:value>103557252H</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164034.675</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>j</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
-<gen:value>831</gen:value>
+<gen:value>833</gen:value>
 </gen:intAttribute>
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>0.35</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>12678710.0</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="J">
-<gen:value>12644447.0</gen:value>
+<gen:stringAttribute name="time">
+<gen:value>20201229013745.571</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>TotalEnergy</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092354.053001+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>2100</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">23.4</bldg:measuredHeight>
@@ -366,6 +378,9 @@
 <core:name>059d0a21-a2a7-4aa5-b427-2975517f09ba</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>17.58</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -1347,6 +1362,9 @@
 <core:name>0a3a6049-77d6-4c9e-8486-c3469fe49cc7</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>29.7</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -1413,8 +1431,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2013-08-15</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164501.849</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>bel_spl</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>842</gen:value>
@@ -1422,14 +1440,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="Bel_SPL">
-<gen:value>37.2</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>48.2</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>0.19</gen:value>
+<gen:stringAttribute name="time">
+<gen:value>20201229013657.304</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.03</gen:value>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>n_val</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>Noise-TA120-T246182</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.8472948+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">26.49</bldg:measuredHeight>
@@ -2290,6 +2317,9 @@
 <core:name>0b3e6442-6beb-4d51-9da5-2f92c5264482</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>29.64</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -2335,8 +2365,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>0b3e6442-6beb-4d51-9da5-2f92c5264482</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164028.913</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>687</gen:value>
@@ -2344,8 +2374,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.05</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201230101313.245</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentPhase2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092543.1930343+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">26.2</bldg:measuredHeight>
@@ -3426,8 +3471,8 @@
 <gen:stringAttribute name="VTJ_PRT">
 <gen:value>103520365L</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126115546.822</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>w</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>690</gen:value>
@@ -3435,8 +3480,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>0.03</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.07</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201230101313.245</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>OutputPhase2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092543.2000555+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:function>011</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -4222,8 +4282,8 @@
 <gen:stringAttribute name="SUUNNITELMA_ALUE">
 <gen:value>SÃ¶rnÃ¤istenniemi</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164028.913</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>685</gen:value>
@@ -4231,8 +4291,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>232.26</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>232.22</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013739.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltagePhase3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.8031677+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000;3500;2100;2100;3500;2100</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.5</bldg:measuredHeight>
@@ -6225,8 +6300,8 @@
 <gen:stringAttribute name="VTJ_PRT">
 <gen:value>1017733410</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164028.913</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>688</gen:value>
@@ -6234,8 +6309,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.05</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.03</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201230101313.245</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentPhase3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092542.870364+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:function>039</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -7857,6 +7947,9 @@
 <core:name>13005811-5a00-43ba-b755-2a1e42572656</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>16.7</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -7920,8 +8013,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2014-02-25</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126104436.473</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>w</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>691</gen:value>
@@ -7929,8 +8022,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>30.99</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>47.66</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20210101084946.778</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>OutputPhase3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092758.67467+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.89</bldg:measuredHeight>
@@ -8523,6 +8631,9 @@
 <core:name>13923f39-b605-4f81-9173-c14c21630685</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>14.46</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -8568,8 +8679,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>13923f39-b605-4f81-9173-c14c21630685</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164028.913</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>j</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>701</gen:value>
@@ -8577,8 +8688,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="J">
-<gen:value>11072793.0</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>11079840.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013739.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>TotalEnergy</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.8100187+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">10.33</bldg:measuredHeight>
@@ -9978,6 +10104,9 @@
 <core:name>1a5fce29-0583-4330-9ca2-a6995352a15c</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>16.69</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -10044,8 +10173,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2013-11-28</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164028.913</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>j</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>702</gen:value>
@@ -10053,8 +10182,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="J">
-<gen:value>27.31</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201230101313.245</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>DailyEnery</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092542.8846535+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.85</bldg:measuredHeight>
@@ -10647,6 +10791,9 @@
 <core:name>1b33d422-98b1-4781-82f2-243f308b4505</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>16.83</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -10668,20 +10815,32 @@
 <gen:stringAttribute name="UUID">
 <gen:value>1b33d422-98b1-4781-82f2-243f308b4505</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164034.675</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>w</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
-<gen:value>832</gen:value>
+<gen:value>830</gen:value>
 </gen:intAttribute>
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>0.92</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>19.68</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.02</gen:value>
+<gen:stringAttribute name="time">
+<gen:value>20201229090334.454</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>OutputString1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092417.548113+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">9.0</bldg:measuredHeight>
@@ -11030,8 +11189,8 @@
 <gen:stringAttribute name="VTJ_PRT">
 <gen:value>103520366M</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164027.671</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>661</gen:value>
@@ -11039,8 +11198,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
+<gen:stringAttribute name="value">
 <gen:value>233.56</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013738.609</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltagePhase1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.7234698+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:function>011</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -11380,8 +11554,8 @@
 <gen:stringAttribute name="VTJ_PRT">
 <gen:value>1017733421</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126135805.817</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>664</gen:value>
@@ -11389,8 +11563,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.06</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.04</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229090327.688</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentPhase1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092417.0670716+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">23.1</bldg:measuredHeight>
@@ -14128,6 +14317,9 @@
 <core:name>3850179f-e8cf-4bd4-ae00-54caa080655c</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>16.8</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -14194,8 +14386,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2014-01-30</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126131721.115</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>738</gen:value>
@@ -14203,8 +14395,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>278.3</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>344.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229082258.933</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltageString3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092414.9158843+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.91</bldg:measuredHeight>
@@ -14797,6 +15004,9 @@
 <core:name>2c6d3819-a3c3-4477-af31-9d73be2ca30b</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>22.45</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -14842,8 +15052,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>2c6d3819-a3c3-4477-af31-9d73be2ca30b</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126120601.234</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>739</gen:value>
@@ -14851,8 +15061,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.06</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.05</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201230105347.225</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentString1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092546.6428505+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">19.83</bldg:measuredHeight>
@@ -16393,8 +16618,8 @@
 <gen:stringAttribute name="SUUNNITELMA_ALUE">
 <gen:value>Suvilahti</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164515.082</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>bel_spl</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>837</gen:value>
@@ -16402,8 +16627,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="Bel_SPL">
-<gen:value>42.7</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>37.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013604.431</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>n_val</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>Noise-TA120-T246174</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.8163836+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">12.0</bldg:measuredHeight>
@@ -17031,8 +17271,8 @@
 <gen:stringAttribute name="VTJ_PRT">
 <gen:value>103509649X</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126120601.234</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>740</gen:value>
@@ -17040,8 +17280,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
+<gen:stringAttribute name="value">
 <gen:value>0.05</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201230105347.225</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentString2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092546.6601871+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:function>039</bldg:function>
 <bldg:roofType>2100;1000</bldg:roofType>
@@ -17674,6 +17929,9 @@
 <core:name>3e957ce2-fbf4-457d-8610-5f29b97b59e9</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>26.54</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -17740,8 +17998,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2015-03-23</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164515.082</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>bel_spl</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>837</gen:value>
@@ -17749,8 +18007,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="Bel_SPL">
-<gen:value>42.7</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>37.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013604.431</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>n_val</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>Noise-TA120-T246174</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.8236572+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">23.63</bldg:measuredHeight>
@@ -19306,6 +19579,9 @@
 <core:name>45df470a-9e9f-4bb4-82b0-d7b2874f97a6</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>25.55</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -19372,8 +19648,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2012-11-27</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126131721.115</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>741</gen:value>
@@ -19381,8 +19657,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
+<gen:stringAttribute name="value">
 <gen:value>0.01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229083306.699</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentString3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092415.6709238+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">21.8</bldg:measuredHeight>
@@ -20415,6 +20706,9 @@
 <core:name>46f83126-ec43-4819-b7a1-cd2da959b5cb</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>29.39</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -20460,8 +20754,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>46f83126-ec43-4819-b7a1-cd2da959b5cb</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164515.082</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>bel_spl</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>837</gen:value>
@@ -20469,8 +20763,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="Bel_SPL">
-<gen:value>42.7</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>37.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013604.431</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>n_val</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>Noise-TA120-T246174</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.8350712+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">26.59</bldg:measuredHeight>
@@ -21448,8 +21757,8 @@
 <gen:stringAttribute name="VTJ_PRT">
 <gen:value>103520368P</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164027.671</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>670</gen:value>
@@ -21457,8 +21766,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>8.06</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>42.33</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013738.609</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltageString1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.674914+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:function>011</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -22188,8 +22512,8 @@
 <gen:stringAttribute name="VTJ_PRT">
 <gen:value>103520362H</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126135805.817</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>673</gen:value>
@@ -22197,8 +22521,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
+<gen:stringAttribute name="value">
 <gen:value>0.03</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229090327.688</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentString1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092416.929761+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:function>011</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -22487,6 +22826,9 @@
 <core:name>56a3eb26-dc20-431b-8ed8-67ac3af46f13</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>9.48</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -22508,8 +22850,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>56a3eb26-dc20-431b-8ed8-67ac3af46f13</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126135805.817</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>w</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>676</gen:value>
@@ -22517,8 +22859,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>4.08</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>9.26</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229090327.688</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>OutputString1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092416.9652431+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">1.68</bldg:measuredHeight>
@@ -22813,6 +23170,9 @@
 <core:name>5559c323-540f-4a4a-8ccc-adcb94ca5804</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>9.48</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -22834,8 +23194,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>5559c323-540f-4a4a-8ccc-adcb94ca5804</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164027.671</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>671</gen:value>
@@ -22843,8 +23203,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>11.49</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>42.74</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013738.609</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltageString2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.6911024+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">1.69</bldg:measuredHeight>
@@ -23139,6 +23514,9 @@
 <core:name>5908c7b2-2810-4659-a241-cd31fddaf19b</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>25.05</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -23205,8 +23583,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2013-04-23</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126134753.481</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>674</gen:value>
@@ -23214,8 +23592,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.01</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.06</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229090327.688</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentString2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092416.994065+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">20.7</bldg:measuredHeight>
@@ -24728,6 +25121,9 @@
 <core:name>609039c8-7b22-4349-8f6b-8d0c76d5970a</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>23.55</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -24794,8 +25190,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2014-12-19</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126135805.817</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>w</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>677</gen:value>
@@ -24803,8 +25199,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>-0.68</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>6.96</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229090327.688</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>OutputString2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092417.0085078+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">20.18</bldg:measuredHeight>
@@ -26649,6 +27060,9 @@
 <core:name>61fd8e16-42cf-44cf-b397-22d229fb597b</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>16.71</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -26715,8 +27129,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2014-02-25</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164027.671</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>672</gen:value>
@@ -26724,11 +27138,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>10.86</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>42.11</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.04</gen:value>
+<gen:stringAttribute name="time">
+<gen:value>20201229013738.609</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltageString3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.70954+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.86</bldg:measuredHeight>
@@ -28228,20 +28654,32 @@
 <gen:stringAttribute name="SUUNNITELMA_ALUE">
 <gen:value>Suvilahti</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164034.675</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
-<gen:value>834</gen:value>
+<gen:value>670</gen:value>
 </gen:intAttribute>
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>8.06</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>42.33</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="J">
-<gen:value>2.68</gen:value>
+<gen:stringAttribute name="time">
+<gen:value>20201229013738.609</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltageString1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.6845424+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">64.8</bldg:measuredHeight>
@@ -28692,6 +29130,9 @@
 <core:name>707cb3d8-9ae3-4d3f-ba03-4884735b9fc8</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>16.51</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -28758,8 +29199,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2014-01-09</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126135805.817</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>673</gen:value>
@@ -28767,8 +29208,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
+<gen:stringAttribute name="value">
 <gen:value>0.03</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229090327.688</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentString1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092416.942583+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">12.35</bldg:measuredHeight>
@@ -29374,6 +29830,9 @@
 <core:name>6f2f9ec4-bbdc-4da6-a41a-2c54ff7ee150</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>20.1</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -29440,8 +29899,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2012-09-27</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126135805.817</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>w</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>676</gen:value>
@@ -29449,8 +29908,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>4.08</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>9.26</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229090327.688</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>OutputString1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092416.9705571+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">17.24</bldg:measuredHeight>
@@ -30566,8 +31040,8 @@
 <gen:stringAttribute name="VTJ_PRT">
 <gen:value>1037724446</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164027.671</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>671</gen:value>
@@ -30575,8 +31049,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>11.49</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>42.74</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013738.609</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltageString2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.6998061+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>3500</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.4</bldg:measuredHeight>
@@ -30882,6 +31371,9 @@
 <core:name>70d040f6-af90-4106-bc61-1f94ebebcfd6</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>21.48</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -30927,8 +31419,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>70d040f6-af90-4106-bc61-1f94ebebcfd6</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126134753.481</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>674</gen:value>
@@ -30936,8 +31428,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.01</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.06</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229090327.688</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentString2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092417.0022685+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">16.43</bldg:measuredHeight>
@@ -31673,8 +32180,8 @@
 <gen:stringAttribute name="SUUNNITELMA_ALUE">
 <gen:value>Redi</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164515.082</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>bel_spl</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>837</gen:value>
@@ -31682,20 +32189,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="Bel_SPL">
-<gen:value>42.7</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>37.3</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>150.32</gen:value>
+<gen:stringAttribute name="time">
+<gen:value>20201229013604.431</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>-0.68</gen:value>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="J">
-<gen:value>26172823</gen:value>
+<gen:stringAttribute name="sensor_link">
+<gen:value>n_val</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.06</gen:value>
+<gen:stringAttribute name="thing_link">
+<gen:value>Noise-TA120-T246174</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.8416691+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">118.1</bldg:measuredHeight>
@@ -32072,6 +32582,9 @@
 <core:name>83581717-fe0f-4ccd-8ef1-9ba487bbf1a9</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>16.86</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -32093,8 +32606,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>83581717-fe0f-4ccd-8ef1-9ba487bbf1a9</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164027.671</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>672</gen:value>
@@ -32102,8 +32615,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>10.86</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>42.11</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013738.609</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltageString3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.7166419+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">9.0</bldg:measuredHeight>
@@ -32449,8 +32977,8 @@
 <gen:stringAttribute name="VTJ_PRT">
 <gen:value>1032851589</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126135805.817</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>675</gen:value>
@@ -32458,8 +32986,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.04</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229090327.688</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentString3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092417.0420319+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">14.6</bldg:measuredHeight>
@@ -32746,6 +33289,9 @@
 <core:name>904cdd41-311a-4ff7-a3c1-110630c81954</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>16.51</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -32767,8 +33313,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>904cdd41-311a-4ff7-a3c1-110630c81954</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126135805.817</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>w</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>678</gen:value>
@@ -32776,8 +33322,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>5.63</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>20.33</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229090327.688</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>OutputString3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092417.0482227+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">9.0</bldg:measuredHeight>
@@ -33115,6 +33676,9 @@
 <core:name>84c0879b-667d-4052-b22c-870ed33a4005</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>25.06</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -33181,8 +33745,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2013-10-22</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164027.671</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>661</gen:value>
@@ -33190,8 +33754,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
+<gen:stringAttribute name="value">
 <gen:value>233.56</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013738.609</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltagePhase1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.7342341+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">21.09</bldg:measuredHeight>
@@ -35360,6 +35939,9 @@
 <core:name>95c19986-26fe-47ea-8181-469586a18581</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>24.86</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -35426,8 +36008,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2013-12-20</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164034.675</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>826</gen:value>
@@ -35435,11 +36017,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>33.07</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>43.17</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.06</gen:value>
+<gen:stringAttribute name="time">
+<gen:value>20201229013745.571</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltageString3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092354.0471687+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">20.92</bldg:measuredHeight>
@@ -37141,6 +37735,9 @@
 <core:name>aaf93473-8f29-4ff0-8571-a40875316561</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>22.03</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -37207,8 +37804,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2015-06-15</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126123631.581</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>w</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>667</gen:value>
@@ -37216,8 +37813,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>0.2</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.05</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229090327.688</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>OutputPhase1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092417.0796117+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">17.58</bldg:measuredHeight>
@@ -37704,6 +38316,9 @@
 <core:name>a12c5958-35a0-482d-a6d4-452b2cfb0d77</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>30.0</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -37770,8 +38385,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2013-08-19</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164027.671</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>662</gen:value>
@@ -37779,8 +38394,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>234.06</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>234.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013738.609</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltagePhase2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.741847+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">25.83</bldg:measuredHeight>
@@ -39237,6 +39867,9 @@
 <core:name>ade71a63-c4aa-4420-a894-ebeba4e2dcfb</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>27.15</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -39282,8 +39915,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>ade71a63-c4aa-4420-a894-ebeba4e2dcfb</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126135805.817</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>665</gen:value>
@@ -39291,8 +39924,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.07</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.04</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229090327.688</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentPhase2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092417.0961+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">23.34</bldg:measuredHeight>
@@ -39961,6 +40609,9 @@
 <core:name>b218c435-e0b1-4baa-b216-cfbeeefc168b</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>16.83</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -39982,8 +40633,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>b218c435-e0b1-4baa-b216-cfbeeefc168b</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126114537.866</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>w</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>668</gen:value>
@@ -39991,8 +40642,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
+<gen:stringAttribute name="value">
 <gen:value>0.04</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229090327.688</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>OutputPhase2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092417.1022389+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">9.0</bldg:measuredHeight>
@@ -40341,8 +41007,8 @@
 <gen:stringAttribute name="VTJ_PRT">
 <gen:value>103520367N</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164027.671</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>663</gen:value>
@@ -40350,8 +41016,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>232.54</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>232.36</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013738.609</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltagePhase3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.7478418+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:function>011</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -40984,6 +41665,9 @@
 <core:name>bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>24.49</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -41005,8 +41689,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>bf84af73-05b8-409d-a9c5-c7d3e8dfc0e5</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126135805.817</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>666</gen:value>
@@ -41014,8 +41698,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.06</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229090327.688</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentPhase3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092417.114879+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">16.9</bldg:measuredHeight>
@@ -41390,6 +42089,9 @@
 <core:name>c714cf2e-9ec4-4d75-a13d-7013c0a58966</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>10.7</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -41411,8 +42113,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>c714cf2e-9ec4-4d75-a13d-7013c0a58966</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126123631.581</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>w</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>669</gen:value>
@@ -41420,8 +42122,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>0.07</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229092343.145</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>OutputPhase3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092418.5730393+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">3.0</bldg:measuredHeight>
@@ -41770,8 +42487,8 @@
 <gen:stringAttribute name="VTJ_PRT">
 <gen:value>103529164E</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164027.671</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>j</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>679</gen:value>
@@ -41779,8 +42496,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="J">
-<gen:value>11387441.0</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>11417394.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013738.609</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>TotalEnergy</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.7816091+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:function>039</bldg:function>
 <bldg:roofType>1000</bldg:roofType>
@@ -42738,8 +43470,8 @@
 <gen:stringAttribute name="SUUNNITELMA_ALUE">
 <gen:value>Redi</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164027.671</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>j</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>680</gen:value>
@@ -42747,11 +43479,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>0.01</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.07</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="J">
-<gen:value>2.82</gen:value>
+<gen:stringAttribute name="time">
+<gen:value>20201229090327.688</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>DailyEnery</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092417.1352606+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">102.6</bldg:measuredHeight>
@@ -43208,6 +43952,9 @@
 <core:name>c8b8fe97-f857-44f7-910f-667eb0e28ae7</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>16.77</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -43274,8 +44021,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2014-04-25</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164028.913</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>692</gen:value>
@@ -43283,8 +44030,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>3.39</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>6.98</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013739.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltageString1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.7889912+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">11.95</bldg:measuredHeight>
@@ -43890,6 +44652,9 @@
 <core:name>d1ebc713-dbbb-4e42-95d4-4b00e70dc67f</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>25.5</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -43956,8 +44721,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2012-11-27</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126163021.421</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>695</gen:value>
@@ -43965,8 +44730,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>-0.01</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201230101313.245</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentString1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092543.1205307+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">22.77</bldg:measuredHeight>
@@ -45611,6 +46391,9 @@
 <core:name>d766a7f7-1f7e-420b-82ff-f50acb2f800b</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>16.5</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -45677,8 +46460,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2014-01-09</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164028.913</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>w</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>698</gen:value>
@@ -45686,8 +46469,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>-0.11</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>2.54</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201230101313.245</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>OutputString1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092543.1270999+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">12.14</bldg:measuredHeight>
@@ -46336,6 +47134,9 @@
 <core:name>d3ce9c37-e52e-44c4-a1fe-5b5e23e23ffb</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>33.52</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -46402,20 +47203,32 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2015-06-15</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164034.675</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
-<gen:value>829</gen:value>
+<gen:value>693</gen:value>
 </gen:intAttribute>
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>4.24</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>5.65</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.03</gen:value>
+<gen:stringAttribute name="time">
+<gen:value>20201229013739.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltageString2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.5161722+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">29.83</bldg:measuredHeight>
@@ -48306,6 +49119,9 @@
 <core:name>d7d20675-f284-410a-8bc3-2a323e60c3bf</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>16.75</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -48372,8 +49188,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2014-03-04</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126140814.651</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>696</gen:value>
@@ -48381,8 +49197,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.01</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.04</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201230101313.245</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentString2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092543.1417183+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">13.51</bldg:measuredHeight>
@@ -49002,8 +49833,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>e9dcb3f5-fbda-4188-ab00-9b0b805eab29</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164028.913</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>w</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>699</gen:value>
@@ -49011,8 +49842,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>-0.11</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>13.28</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201230101313.245</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>OutputString2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092543.1471659+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>2100</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">3.0</bldg:measuredHeight>
@@ -49275,6 +50121,9 @@
 <core:name>e89fde40-8ae2-4f20-a409-62b129b13f72</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>25.49</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -49320,8 +50169,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>e89fde40-8ae2-4f20-a409-62b129b13f72</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164028.913</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>694</gen:value>
@@ -49329,8 +50178,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>123.86</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>3.98</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013739.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltageString3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.6598757+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">22.2</bldg:measuredHeight>
@@ -50440,6 +51304,9 @@
 <core:name>ee463cb5-e2d7-4d31-8610-94931d304dbd</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>10.88</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -50461,8 +51328,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>ee463cb5-e2d7-4d31-8610-94931d304dbd</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164028.913</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>697</gen:value>
@@ -50470,8 +51337,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
-<gen:value>0.01</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.03</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201230101313.245</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentString3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092543.1605788+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">3.0</bldg:measuredHeight>
@@ -50766,6 +51648,9 @@
 <core:name>f76c9ab3-beb9-4be5-894b-0099d8b4303c</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>24.37</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -50811,8 +51696,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>f76c9ab3-beb9-4be5-894b-0099d8b4303c</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164028.913</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>w</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>700</gen:value>
@@ -50820,8 +51705,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>0.99</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>7.03</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201230101313.245</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>OutputString3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092543.1657665+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">20.6</bldg:measuredHeight>
@@ -51683,8 +52583,8 @@
 <gen:stringAttribute name="SUUNNITELMA_ALUE">
 <gen:value>Suvilahti</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164028.913</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>683</gen:value>
@@ -51692,8 +52592,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>233.42</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>233.14</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013739.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltagePhase1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.6675193+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">24.9</bldg:measuredHeight>
@@ -52506,6 +53421,9 @@
 <core:name>fa9d1697-4297-4949-9a81-e4eed574e177</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>21.46</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -52572,8 +53490,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2012-08-16</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164028.913</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>a</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>686</gen:value>
@@ -52581,8 +53499,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="A">
+<gen:stringAttribute name="value">
 <gen:value>0.05</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201230101313.245</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>CurrentPhase1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092543.1789627+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">16.66</bldg:measuredHeight>
@@ -53049,6 +53982,9 @@
 <core:name>fbaf871d-b6b3-4952-9c88-562bcb77b210</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>10.78</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -53070,8 +54006,8 @@
 <gen:stringAttribute name="UUID">
 <gen:value>fbaf871d-b6b3-4952-9c88-562bcb77b210</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126122624.716</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>w</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>689</gen:value>
@@ -53079,8 +54015,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="W">
-<gen:value>0.04</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>0.07</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201230104337.247</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>OutputPhase1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092545.5013055+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">3.0</bldg:measuredHeight>
@@ -53375,6 +54326,9 @@
 <core:name>fcdec70c-ff33-4849-b60e-acd58112f7e4</core:name>
 </core:externalObject>
 </core:externalReference>
+<gen:stringAttribute name="BREC_BuildingHeightNN">
+<gen:value>22.23</gen:value>
+</gen:stringAttribute>
 <gen:stringAttribute name="BREC_RoofNames">
 <gen:value>flat</gen:value>
 </gen:stringAttribute>
@@ -53441,8 +54395,8 @@
 <gen:stringAttribute name="Valmistunut">
 <gen:value>2013-12-20</gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="resulttime">
-<gen:value>20201126164028.913</gen:value>
+<gen:stringAttribute name="uom">
+<gen:value>v</gen:value>
 </gen:stringAttribute>
 <gen:intAttribute name="datastream_id">
 <gen:value>684</gen:value>
@@ -53450,8 +54404,23 @@
 <gen:stringAttribute name="featureofintrest_link">
 <gen:value></gen:value>
 </gen:stringAttribute>
-<gen:stringAttribute name="V">
-<gen:value>233.95</gen:value>
+<gen:stringAttribute name="value">
+<gen:value>233.74</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="time">
+<gen:value>20201229013739.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="observedproperty_link">
+<gen:value></gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="sensor_link">
+<gen:value>VoltagePhase2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="thing_link">
+<gen:value>ViikkiSolar-Inv2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="latesttimestamp">
+<gen:value>20210121092353.7961312+02:00</gen:value>
 </gen:stringAttribute>
 <bldg:roofType>1000</bldg:roofType>
 <bldg:measuredHeight uom="urn:adv:uom:m">17.52</bldg:measuredHeight>

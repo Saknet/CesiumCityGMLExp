@@ -1,0 +1,21 @@
+{
+	"asset" : {
+		"version" : "0.0"
+	},
+	"properties" : {
+		"gml_id" : {},
+		"citygml_target_uri" : {},
+		"gml_description" : {},
+		"gml_name" : {},
+		"citygml_city_object_member{}.xlink_href" : {},
+		"citygml_appearance_member{}.xlink_href" : {},
+		"gml_feature_member{}.xlink_href" : {}
+	},
+	"geometricError" : 0,
+	"root" : {
+		"boundingVolume" : {
+			"box" : [ 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1 ]
+		},
+		"refine" : "ADD"
+	}
+}

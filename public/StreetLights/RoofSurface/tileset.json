@@ -1,0 +1,39 @@
+{
+	"asset" : {
+		"version" : "0.0"
+	},
+	"properties" : {
+		"gml_id" : {},
+		"gml_parent_id" : {},
+		"citygml_target_uri" : {},
+		"citygml_feature_role" : {},
+		"citygml_feature_role_attr_name" : {},
+		"citygml_feature_role_attr_val" : {},
+		"gml_description" : {},
+		"gml_name" : {},
+		"citygml_creationDate" : {},
+		"citygml_terminationDate" : {},
+		"externalReference{}.externalObject.name" : {},
+		"externalReference{}.externalObject.uri" : {},
+		"externalReference{}.informationSystem" : {},
+		"citygml_generalizes_to{}.xlink_href" : {},
+		"citygml_relative_to_terrain" : {},
+		"citygml_relative_to_water" : {},
+		"citygml_appearance{}.xlink_href" : {},
+		"citygml_level_of_detail{}" : {},
+		"citygml_opening{}.xlink_href" : {}
+	},
+	"geometricError" : 80.40411100140773,
+	"root" : {
+		"boundingVolume" : {
+			"box" : [ 2881873.5940595735, 1342645.755432941, 5510788.934440564, 368.43707450525835, 0, 0, 0, 369.3282112379093, 0, 0, 0, 291.7085262853652 ]
+		},
+		"refine" : "ADD",
+		"content" : {
+			"boundingVolume" : {
+				"box" : [ 2881873.5940595735, 1342645.755432941, 5510788.934440564, 368.43707450525835, 0, 0, 0, 369.3282112379093, 0, 0, 0, 291.7085262853652 ]
+			},
+			"url" : "data/data0.b3dm"
+		}
+	}
+}

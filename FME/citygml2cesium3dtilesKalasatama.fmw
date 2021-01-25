@@ -4,6 +4,10 @@
 #        "C:\Program Files\FME\fme.exe" C:\Users\Demo\CesiumCityGMLExp\FME\citygml2cesium3dtilesKalasatama.fmw
 #              --SourceDataset_CITYGML "C:\Users\Demo\CesiumCityGMLExp\FME_data_out\kalasatamapart.gml"
 #              --DestDataset_CESIUM3DTILES "C:\Users\Demo\CesiumCityGMLExp\public"
+#              --DestDataset_CESIUM3DTILES_3 "C:\Users\Demo\CesiumCityGMLExp\FME_data_out\Test_Tiles"
+#              --SourceDataset_POSTGRES "3dcitydblocal"
+#              --DestDataset_JSON "C:\Users\Demo\CesiumCityGMLExp\FME_data_out\Test_Tiles\test2.json"
+#              --DestDataset_JSON_3 "C:\Users\Demo\CesiumCityGMLExp\FME_data_out\Test_Tiles\test1.json"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -12,14 +16,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="3719 875.5"
-#!   DOC_TOP_LEFT="-50 -890"
+#!   DOC_EXTENTS="3719 1819.64"
+#!   DOC_TOP_LEFT="-50 -1834.14"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="20632"
-#!   FME_DOCUMENT_GUID="4712683a-2bff-4b9d-bc8f-9c050202a00d"
-#!   FME_DOCUMENT_PRIORGUID="a37dc167-5ff3-4bfd-9df8-30bb70af8429,dce7feb0-afa4-4115-a7d4-13c1fa353c23"
+#!   FME_DOCUMENT_GUID="c38c30e3-4788-441c-9b7b-f944827f2741"
+#!   FME_DOCUMENT_PRIORGUID="a37dc167-5ff3-4bfd-9df8-30bb70af8429,dce7feb0-afa4-4115-a7d4-13c1fa353c23,4712683a-2bff-4b9d-bc8f-9c050202a00d,c4fe9499-427d-4837-82d8-9def08c9c38e,6569e7d2-40fb-4104-9818-2c3f6ad8e272,a8a89163-d94f-4011-b007-9c215ad9fa4f"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -28,7 +32,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2020.1.3.0 (20201001 - Build 20632 - WIN64)"
-#!   LAST_SAVE_DATE="2020-11-23T14:44:41"
+#!   LAST_SAVE_DATE="2020-12-07T18:38:21"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -47,7 +51,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-525.005 -3687.54"
+#!   VIEW_POSITION="-325.003 218.752"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -66,7 +70,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="citygml_orientation_matrix xml_buffer citygml_wrap_mode xml_char(16) citygml_diffuse_color xml_buffer citygml_specular_color xml_buffer multi_reader_full_id xml_int32 citygml_image_uri xml_buffer fme_dataset xml_char(50) citygml_library_object xml_buffer gml_parent_id xml_buffer citygml_prefer_world_file xml_boolean fme_fill_color xml_char(50) fme_text_size xml_real64 fme_start_angle xml_real64 fme_basename xml_char(50) citygml_target{}.world_to_texture_matrix xml_buffer citygml_target{}.coordinate_list{}.coordinates xml_buffer citygml_is_front xml_boolean citygml_border_color xml_buffer citygml_target{}.uri xml_buffer citygml_level_of_detail xml_ubyte citygml_transparency xml_real64 fme_text_string xml_char(50) citygml_mime_type xml_buffer citygml_transformation_matrix xml_buffer fme_geometry xml_char(50) citygml_theme xml_buffer citygml_emissive_color xml_buffer multi_reader_type xml_char(50) fme_sweep_angle xml_real64 citygml_texture_type xml_char(16) citygml_shininess xml_real64 fme_rotation xml_real64 citygml_target{}.coordinate_list{}.ring xml_buffer fme_primary_axis xml_real64 citygml_lod_name xml_buffer fme_color xml_char(50) fme_feature_type xml_char(50) citygml_ambient_intensity xml_real64 citygml_is_smooth xml_boolean fme_type xml_char(50) fme_secondary_axis xml_real64 citygml_target xml_buffer multi_reader_keyword xml_char(50) gml_id xml_buffer multi_reader_id xml_int32"
+#!   EXPOSABLE_ATTRS="citygml_ambient_intensity xml_real64 citygml_target{}.world_to_texture_matrix xml_buffer citygml_theme xml_buffer fme_basename xml_char(50) fme_fill_color xml_char(50) citygml_level_of_detail xml_ubyte citygml_lod_name xml_buffer fme_feature_type xml_char(50) multi_reader_full_id xml_int32 citygml_border_color xml_buffer fme_geometry xml_char(50) citygml_image_uri xml_buffer citygml_mime_type xml_buffer fme_sweep_angle xml_real64 citygml_prefer_world_file xml_boolean multi_reader_keyword xml_char(50) citygml_target xml_buffer citygml_orientation_matrix xml_buffer citygml_library_object xml_buffer gml_id xml_buffer fme_dataset xml_char(50) fme_text_size xml_real64 multi_reader_type xml_char(50) citygml_target{}.uri xml_buffer citygml_wrap_mode xml_char(16) fme_start_angle xml_real64 citygml_is_smooth xml_boolean fme_rotation xml_real64 citygml_emissive_color xml_buffer fme_secondary_axis xml_real64 fme_type xml_char(50) fme_primary_axis xml_real64 citygml_texture_type xml_char(16) citygml_shininess xml_real64 multi_reader_id xml_int32 citygml_target{}.coordinate_list{}.coordinates xml_buffer fme_color xml_char(50) gml_parent_id xml_buffer fme_text_string xml_char(50) citygml_diffuse_color xml_buffer citygml_is_front xml_boolean citygml_specular_color xml_buffer citygml_transformation_matrix xml_buffer citygml_transparency xml_real64 citygml_target{}.coordinate_list{}.ring xml_buffer"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -105,6 +109,77 @@
 #! />
 #! </DATASET>
 #! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="POSTGRES"
+#!   DATASET="$(SourceDataset_POSTGRES)"
+#!   KEYWORD="POSTGRES_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_where_clause &quot;&quot; postgres_sql_statement &quot;&quot;"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_type char(50) fme_text_string char(50) fme_fill_color char(50) multi_reader_type char(50) fme_sweep_angle float8 fme_feature_type char(50) multi_reader_full_id int4 postgres_type char(50) fme_text_size float8 fme_secondary_axis float8 fme_rotation float8 fme_dataset char(50) multi_reader_keyword char(50) fme_geometry char(50) fme_basename char(50) fme_color char(50) fme_primary_axis float8 postgres_oid int4 multi_reader_id int4 fme_start_angle float8"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgres_query_settings_group postgres_sql_where_clause%postgres_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_where_clause MODE,WHERE;FORMAT,POSTGRES WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_statement MODE,SQL;FORMAT,POSTGRES SELECT Statement&quot; &quot;&quot; "
+#!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="DATABASE"
+#!   FTTR_TYPE="LISTBOX_ENCODED"
+#!   GENERATE_FME_BUILD_NUM="20632"
+#!   COORDSYS=""
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="POSTGRES_IN_FEATURES_PER_FETCH POSTGRES_IN_BEGIN_SQL POSTGRES_IN_END_SQL POSTGRES_OUT_BULK_COPY POSTGRES_OUT_TRANSACTION_INTERVAL POSTGRES_OUT_BEGIN_SQL POSTGRES_OUT_END_SQL"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE_ATTRS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING_HISTORIC"
+#!   VALUE="ALL"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="PARAMS_TO_NOT_PROPAGATE_ON_INSPECT"
+#!   VALUE="BEGIN_SQL END_SQL"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="SUPPORTS_SCHEMA_IN_FEATURE_TYPE_NAME"
+#!   VALUE="YES"
+#! />
+#! </DATASET>
+#! <DATASET
 #!   IS_SOURCE="false"
 #!   ROLE="WRITER"
 #!   FORMAT="CESIUM3DTILES"
@@ -117,7 +192,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_primary_axis float fme_dataset string fme_fill_color string fme_secondary_axis float fme_type string fme_color string cesium_priority float fme_basename string fme_sweep_angle float fme_text_size float fme_feature_type string fme_start_angle float fme_text_string string fme_geometry string fme_rotation float"
+#!   EXPOSABLE_ATTRS="fme_feature_type string fme_secondary_axis float fme_geometry string fme_start_angle float fme_text_string string fme_type string fme_rotation float fme_basename string fme_color string fme_text_size float fme_dataset string cesium_priority float fme_sweep_angle float fme_primary_axis float fme_fill_color string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -152,8 +227,342 @@
 #!   VALUE="Specify a name for the Cesium 3D Tileset"
 #! />
 #! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="CESIUM3DTILES"
+#!   DATASET="$(DestDataset_CESIUM3DTILES_3)"
+#!   KEYWORD="CESIUM3DTILES_2"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="600"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_feature_type string fme_secondary_axis float fme_geometry string fme_start_angle float fme_text_string string fme_rotation float fme_type string fme_basename string fme_color string fme_text_size float cesium_priority float fme_dataset string fme_sweep_angle float fme_fill_color string fme_primary_axis float"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   FTTR_TYPE=""
+#!   GENERATE_FME_BUILD_NUM="20632"
+#!   COORDSYS=""
+#!   FANOUT_EXPRESSION=""
+#!   FANOUT_GROUP="NO"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="Cesium 3D Tiles"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="tileset"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Cesium 3D Tileset"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Cesium 3D Tileset"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the Cesium 3D Tileset"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="JSON"
+#!   DATASET="$(DestDataset_JSON)"
+#!   KEYWORD="JSON_1"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="600"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_feature_type string fme_secondary_axis float fme_geometry string fme_start_angle float fme_text_string string fme_rotation float fme_type string fme_basename string fme_color string fme_text_size float fme_dataset string fme_sweep_angle float fme_fill_color string fme_primary_axis float"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE"
+#!   FTTR_TYPE=""
+#!   GENERATE_FME_BUILD_NUM="20632"
+#!   COORDSYS=""
+#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
+#!   FANOUT_GROUP="NO"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="json file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE="application/json ADD_DISPOSITION"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the JSON file(s) or Specify the JSON URL"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the JSON file"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="JSON"
+#!   DATASET="$(DestDataset_JSON_3)"
+#!   KEYWORD="JSON_2"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="600"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_feature_type string fme_secondary_axis float fme_geometry string fme_start_angle float fme_text_string string fme_rotation float fme_type string fme_basename string fme_color string fme_text_size float fme_dataset string fme_sweep_angle float fme_fill_color string fme_primary_axis float"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE"
+#!   FTTR_TYPE=""
+#!   GENERATE_FME_BUILD_NUM="20632"
+#!   COORDSYS=""
+#!   FANOUT_EXPRESSION=""
+#!   FANOUT_GROUP="NO"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="json file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE="application/json ADD_DISPOSITION"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the JSON file(s) or Specify the JSON URL"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the JSON file"
+#! />
+#! </DATASET>
 #! </DATASETS>
 #! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="bool"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="varchar(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="json"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="jsonb"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="bytea"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="bytea"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="bytea"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int2"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int2"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int2"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int4"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int4"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int8"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int8"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="numeric(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="numeric(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oid"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="serial"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float4"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="money"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float8"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="timetz"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="timestamp"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="timestamptz"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="uuid"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="bit(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="varbit"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="varbit(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="POSTGRES"
+#! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="xml_char(width)"
@@ -484,8 +893,236 @@
 #!   FME_TYPE="fme_json"
 #!   FORMAT="CESIUM3DTILES"
 #! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="JSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="JSON"
+#! />
 #! </DATA_TYPES>
 #! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="POSTGRES"
+#! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="xml_no_geom"
@@ -677,6 +1314,96 @@
 #!   FORMAT_TYPE="fme_no_map"
 #!   FME_TYPE="fme_feature_table"
 #!   FORMAT="CESIUM3DTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="JSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="JSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="JSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_text"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="JSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_ellipse"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="JSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_arc"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="JSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_rectangle"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="JSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_rounded_rectangle"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="JSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_raster"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="JSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_no_geom"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="JSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_collection"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="JSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_line"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="JSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_line"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="JSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_polygon"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="JSON"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json_no_geom"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="JSON"
 #! />
 #! </GEOM_TYPES>
 #! <FEATURE_TYPES>
@@ -1193,11 +1920,11 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="VTJ_PRT" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="Valmistunut" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="result" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="A" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="Bel_SPL" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="J" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="V" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="W" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="a" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="bel_spl" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="j" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="v" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="w" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="true"
@@ -1257,6 +1984,387 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="gml_name" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_address" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="Building"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="24"
+#!   FEAT_GEOMTYPE="All"
+#!   POSITION="2142.8594685946859 -1122.5050000500003"
+#!   BOUNDING_RECT="2142.8594685946859 -1122.5050000500003 454 71"
+#!   ORDER="500000000000114"
+#!   COLLAPSED="false"
+#!   KEYWORD="CESIUM3DTILES_2"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_target_uri" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_feature_role" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_feature_role_attr_name" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_feature_role_attr_val" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_description" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_name" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_creationDate" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_terminationDate" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="externalReference{}.externalObject.name" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="externalReference{}.externalObject.uri" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="externalReference{}.informationSystem" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_generalizes_to{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_relative_to_terrain" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_relative_to_water" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_appearance{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_class" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_class_codeSpace" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_function{}" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_function{}.codeSpace" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_usage{}" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_usage{}.codeSpace" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_year_of_construction" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_year_of_demolition" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_roof_type" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_roof_type_codeSpace" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_measured_height" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_measured_height_units" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storeys_above_ground" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storeys_below_ground" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_above_ground" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_above_ground_units" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_below_ground" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_below_ground_units" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_outer_building_installation{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_interior_building_installation{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_bounded_by{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_level_of_detail{}" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_interior_room{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_consists_of_building_part{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_address{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="BREC_BuildingHeightNN" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="BREC_RoofNames" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="BuildingHeightNN" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="CODE" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="C_KAYTTARK" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="GroundLevel" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="HighestRoof" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ID" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="I_KEROSAL" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="I_KERRLKM" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="KG_KRAKENN" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Katuosoite" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Kayttotarkoitus" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Kerroksia" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Kerrosala" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Kokonaisala" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="LowestRoof" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="RATU" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="REPAIRED" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Rakennuksen_tila" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Rakennusaine" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="RoofNames" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="SUUNNITELMA_ALUE" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="TILA" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="TILA_KOODI" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="TYYPPI" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Tilavuus" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="UUID" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="VTJ_PRT" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Valmistunut" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="bel_spl" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="a" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="j" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="v" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="w" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Building"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER="citydb"
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="27"
+#!   FEAT_GEOMTYPE="postgres_none"
+#!   POSITION="20 -1516.2628126281261"
+#!   BOUNDING_RECT="20 -1516.2628126281261 454 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="POSTGRES_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   READ_SELECT_ATTRS="true"
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_target_uri" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_feature_role" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_feature_role_attr_name" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_feature_role_attr_val" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_description" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_name" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_creationdate" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_terminationdate" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="externalreference{}_externalobject_name" ATTR_TYPE="xml" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="externalreference{}_externalobject_uri" ATTR_TYPE="xml" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="externalreference{}_informationsystem" ATTR_TYPE="xml" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_generalizes_to{}_xlink_href" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_relative_to_terrain" ATTR_TYPE="varchar(33)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_relative_to_water" ATTR_TYPE="varchar(38)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_class" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_class_codespace" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_function{}" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_function{}_codespace" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_usage{}" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_usage{}_codespace" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_year_of_construction" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_year_of_demolition" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_roof_type" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_roof_type_codespace" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_measured_height" ATTR_TYPE="float8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_measured_height_units" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storeys_above_ground" ATTR_TYPE="numeric(20,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storeys_below_ground" ATTR_TYPE="numeric(20,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_above_ground" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_above_ground_units" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_below_ground" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_below_ground_units" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_outer_building_installation{}_xlink_href" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_interior_building_installation{}_xlink_href" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_bounded_by{}_xlink_href" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_level_of_detail{}" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_interior_room{}_xlink_href" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_consists_of_building_part{}_xlink_href" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_address{}_xlink_href" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="brec_buildingheightnn" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="brec_roofnames" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="buildingheightnn" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="code" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="c_kayttark" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="groundlevel" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="highestroof" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="id" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="i_kerosal" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="i_kerrlkm" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kg_krakenn" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="katuosoite" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kayttotarkoitus" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kerroksia" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kerrosala" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kokonaisala" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="lowestroof" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ratu" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="repaired" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="rakennuksen_tila" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="rakennusaine" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="rakennustunnus__ratu_" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="rakennustunnus__vtj_prt_" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="roofnames" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="suunnitelma_alue" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="tila" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="tila_koodi" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="tyyppi" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="tilavuus" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="uuid" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="vtj_prt" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="valmistunut" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="bel_spl" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="v" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="w" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="j" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="a" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_query_settings_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_sql_statement" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="postgres_sql_where_clause" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="Building"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="25"
+#!   FEAT_GEOMTYPE="json_collection json_arc json_polygon json_line json_no_geom json_point"
+#!   POSITION="1045.9734997349974 -1763.1364063640635"
+#!   BOUNDING_RECT="1045.9734997349974 -1763.1364063640635 454 71"
+#!   ORDER="500000000000115"
+#!   COLLAPSED="true"
+#!   KEYWORD="JSON_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_target_uri" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_feature_role" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_feature_role_attr_name" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_feature_role_attr_val" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_description" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_name" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_creationDate" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_terminationDate" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="externalReference{}.externalObject.name" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="externalReference{}.externalObject.uri" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="externalReference{}.informationSystem" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_generalizes_to{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_relative_to_terrain" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_relative_to_water" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_appearance{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_class" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_class_codeSpace" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_function{}" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_function{}.codeSpace" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_usage{}" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_usage{}.codeSpace" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_year_of_construction" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_year_of_demolition" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_roof_type" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_roof_type_codeSpace" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_measured_height" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_measured_height_units" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storeys_above_ground" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storeys_below_ground" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_above_ground" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_above_ground_units" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_below_ground" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_below_ground_units" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_outer_building_installation{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_interior_building_installation{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_bounded_by{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_level_of_detail{}" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_interior_room{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_consists_of_building_part{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_address{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="BREC_BuildingHeightNN" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="BREC_RoofNames" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="BuildingHeightNN" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="CODE" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="C_KAYTTARK" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="GroundLevel" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="HighestRoof" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ID" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="I_KEROSAL" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="I_KERRLKM" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="KG_KRAKENN" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Katuosoite" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Kayttotarkoitus" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Kerroksia" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Kerrosala" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Kokonaisala" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="LowestRoof" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="RATU" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="REPAIRED" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Rakennuksen_tila" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Rakennusaine" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="RoofNames" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="SUUNNITELMA_ALUE" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="TILA" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="TILA_KOODI" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="TYYPPI" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Tilavuus" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="UUID" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="VTJ_PRT" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Valmistunut" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="result" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="Building"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="28"
+#!   FEAT_GEOMTYPE="json_collection json_arc json_polygon json_line json_no_geom json_point"
+#!   POSITION="1427.2273122731226 -1516.2628126281261"
+#!   BOUNDING_RECT="1427.2273122731226 -1516.2628126281261 454 71"
+#!   ORDER="500000000000116"
+#!   COLLAPSED="true"
+#!   KEYWORD="JSON_2"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_target_uri" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_feature_role" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_feature_role_attr_name" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_feature_role_attr_val" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_description" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_name" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_creationDate" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_terminationDate" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="externalReference{}.externalObject.name" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="externalReference{}.externalObject.uri" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="externalReference{}.informationSystem" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_generalizes_to{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_relative_to_terrain" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_relative_to_water" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_appearance{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_class" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_class_codeSpace" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_function{}" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_function{}.codeSpace" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_usage{}" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_usage{}.codeSpace" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_year_of_construction" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_year_of_demolition" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_roof_type" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_roof_type_codeSpace" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_measured_height" ATTR_TYPE="float" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_measured_height_units" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storeys_above_ground" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storeys_below_ground" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_above_ground" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_above_ground_units" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_below_ground" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_storey_heights_below_ground_units" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_outer_building_installation{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_interior_building_installation{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_bounded_by{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_level_of_detail{}" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_interior_room{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_consists_of_building_part{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="citygml_address{}.xlink_href" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="BREC_BuildingHeightNN" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="BREC_RoofNames" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="BuildingHeightNN" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="CODE" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="C_KAYTTARK" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="GroundLevel" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="HighestRoof" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ID" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="I_KEROSAL" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="I_KERRLKM" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="KG_KRAKENN" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Katuosoite" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Kayttotarkoitus" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Kerroksia" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Kerrosala" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Kokonaisala" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="LowestRoof" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="RATU" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="REPAIRED" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Rakennuksen_tila" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Rakennusaine" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="RoofNames" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="SUUNNITELMA_ALUE" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="TILA" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="TILA_KOODI" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="TYYPPI" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Tilavuus" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="UUID" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="VTJ_PRT" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Valmistunut" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="result" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
 #! <READER_DATASETS>
@@ -1272,6 +2380,21 @@
 #!   OVERRIDE="-CESIUM3DTILES_1_DATASET"
 #!   DATASET="CESIUM3DTILES_1/public"
 #! />
+#! <DATASET
+#!   NAME="CESIUM3DTILES_2"
+#!   OVERRIDE="-CESIUM3DTILES_2_DATASET"
+#!   DATASET="CESIUM3DTILES_2/Test_Tiles"
+#! />
+#! <DATASET
+#!   NAME="JSON_2"
+#!   OVERRIDE="-JSON_2_DATASET"
+#!   DATASET="JSON_2/test1.json"
+#! />
+#! <DATASET
+#!   NAME="JSON_1"
+#!   OVERRIDE="-JSON_1_DATASET"
+#!   DATASET="JSON_1/test2.json"
+#! />
 #! </WRITER_DATASETS>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
@@ -1285,6 +2408,26 @@
 #!   DEFAULT_VALUE="C:\Users\Demo\CesiumCityGMLExp\public"
 #!   IS_STAND_ALONE="false"
 #! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI DIRNAME DestDataset_CESIUM3DTILES_3 Destination Cesium 3D Tiles Folder:"
+#!   DEFAULT_VALUE="C:\Users\Demo\CesiumCityGMLExp\FME_data_out\Test_Tiles"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGRES FMT:POSTGRES%FAMILY:PostgreSQL Connection:"
+#!   DEFAULT_VALUE="3dcitydblocal"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI FILENAME DestDataset_JSON JSON_Files(*.json)|*.json|All_Files|* Destination JSON (JavaScript Object Notation) File:"
+#!   DEFAULT_VALUE="C:\Users\Demo\CesiumCityGMLExp\FME_data_out\Test_Tiles\test2.json"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI FILENAME DestDataset_JSON_3 JSON_Files(*.json)|*.json|All_Files|* Destination JSON (JavaScript Object Notation) File:"
+#!   DEFAULT_VALUE="C:\Users\Demo\CesiumCityGMLExp\FME_data_out\Test_Tiles\test1.json"
+#!   IS_STAND_ALONE="false"
+#! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
 #! </COMMENTS>
@@ -1296,13 +2439,13 @@
 #!   NAME="Reader Feature Types"
 #!   DESCRIPTION=""
 #!   TOP_LEFT="-50 -14.5"
-#!   ORDER="500000000000000"
+#!   ORDER="500000000000118.13"
 #!   PALETTE_COLOR="Reader/Writer"
 #!   BOTTOM_RIGHT="589 -890"
 #!   BOUNDING_RECT="-50 -14.5 639 875.5"
 #!   STICKY="true"
 #!   COLOUR="0.83529411764705885,0.71764705882352942,0.58039215686274515,1"
-#!   CONTENTS="2 10 4 12 6 8 "
+#!   CONTENTS="6 12 10 2 8 4 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1316,7 +2459,7 @@
 #!   BOUNDING_RECT="3035 -14.5 634 875.5"
 #!   STICKY="true"
 #!   COLOUR="0.83529411764705885,0.71764705882352942,0.58039215686274515,1"
-#!   CONTENTS="3 9 13 11 7 5 "
+#!   CONTENTS="3 5 9 7 11 13 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -1354,13 +2497,73 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="26"
+#!   SOURCE_NODE="10"
+#!   TARGET_NODE="24"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS="1265 -828"
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="18"
 #!   SOURCE_NODE="10"
 #!   TARGET_NODE="11"
 #!   SOURCE_PORT_DESC="-1"
 #!   TARGET_PORT_DESC="-1"
 #!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="29"
+#!   SOURCE_NODE="10"
+#!   TARGET_NODE="28"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="2"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="23"
+#!   SOURCE_NODE="27"
+#!   TARGET_NODE="24"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="false"
 #!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="30"
+#!   SOURCE_NODE="27"
+#!   TARGET_NODE="25"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
 #!   HIDDEN="false"
 #!   COLOUR="0,0,0,1"
 #!   PEN_WIDTH="4"
@@ -1373,49 +2576,77 @@
 #! </BREAKPOINTS>
 #! <ATTR_LINKS>
 #! <ATTR_LINK
-#!   IDENTIFIER="196624"
+#!   IDENTIFIER="65552"
 #!   SOURCE_NODE="6"
 #!   TARGET_NODE="9"
 #!   SOURCE_PORT_DESC="0"
 #!   TARGET_PORT_DESC="0"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="262160"
+#!   IDENTIFIER="131088"
 #!   SOURCE_NODE="6"
 #!   TARGET_NODE="9"
 #!   SOURCE_PORT_DESC="7"
 #!   TARGET_PORT_DESC="3"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="65552"
+#!   IDENTIFIER="196624"
 #!   SOURCE_NODE="6"
 #!   TARGET_NODE="9"
 #!   SOURCE_PORT_DESC="6"
 #!   TARGET_PORT_DESC="2"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="131088"
+#!   IDENTIFIER="262160"
 #!   SOURCE_NODE="6"
 #!   TARGET_NODE="9"
 #!   SOURCE_PORT_DESC="2"
 #!   TARGET_PORT_DESC="1"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="131090"
+#!   IDENTIFIER="65562"
+#!   SOURCE_NODE="10"
+#!   TARGET_NODE="24"
+#!   SOURCE_PORT_DESC="2"
+#!   TARGET_PORT_DESC="2"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="196634"
+#!   SOURCE_NODE="10"
+#!   TARGET_NODE="24"
+#!   SOURCE_PORT_DESC="7"
+#!   TARGET_PORT_DESC="7"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="262170"
+#!   SOURCE_NODE="10"
+#!   TARGET_NODE="24"
+#!   SOURCE_PORT_DESC="6"
+#!   TARGET_PORT_DESC="6"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="131098"
+#!   SOURCE_NODE="10"
+#!   TARGET_NODE="24"
+#!   SOURCE_PORT_DESC="0"
+#!   TARGET_PORT_DESC="0"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="65554"
 #!   SOURCE_NODE="10"
 #!   TARGET_NODE="11"
 #!   SOURCE_PORT_DESC="2"
 #!   TARGET_PORT_DESC="2"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="196626"
+#!   IDENTIFIER="131090"
 #!   SOURCE_NODE="10"
 #!   TARGET_NODE="11"
 #!   SOURCE_PORT_DESC="7"
 #!   TARGET_PORT_DESC="7"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="65554"
+#!   IDENTIFIER="196626"
 #!   SOURCE_NODE="10"
 #!   TARGET_NODE="11"
 #!   SOURCE_PORT_DESC="6"
@@ -1436,13 +2667,25 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 37
-GUI IGNORE SourceDataset_CITYGML_1,CITYGML_IN_FME_GROUP_NAMED1_CITYGML_1,CITYGML_IN_USE_CITYGML_SCHEMA_FILES_CITYGML_1,CITYGML_IN_ADE_XSD_DOC_CITYGML_1,CITYGML_IN_VALIDATE_DATASET_CITYGML_1,CITYGML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET_CITYGML_1,CITYGML_IN_ADD_NAMESPACE_PREFIX_TO_FEATURE_TYPES_CITYGML_1,CITYGML_IN_MAX_ATTRIBUTES_PER_NESTED_ATTRIBUTE_CITYGML_1,CITYGML_IN_FME_GROUP_NAMED3_CITYGML_1,CITYGML_IN_USE_XLINK_HREF_GEOMETRY_TRAITS_CITYGML_1,CITYGML_IN_LODS_TO_READ_CITYGML_1,CITYGML_IN_FME_GROUP_NAMED4_CITYGML_1,CITYGML_IN_SRS_AXIS_ORDER_CITYGML_1,CITYGML_IN_TEXTURE_COORDINATES_ORDER_FIX_CITYGML_1,CITYGML_IN_USE_SEARCH_ENVELOPE_CITYGML_1,CITYGML_IN_SEARCH_ENVELOPE_MINX_CITYGML_1,CITYGML_IN_SEARCH_ENVELOPE_MINY_CITYGML_1,CITYGML_IN_SEARCH_ENVELOPE_MAXX_CITYGML_1,CITYGML_IN_SEARCH_ENVELOPE_MAXY_CITYGML_1,CITYGML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_CITYGML_1,CITYGML_IN_CLIP_TO_ENVELOPE_CITYGML_1,CITYGML_IN_NETWORK_AUTHENTICATION_CITYGML_1,DestDataset_CESIUM3DTILES_1,CESIUM3DTILES_OUT_WRITER_PARAMS_CESIUM3DTILES_1,CESIUM3DTILES_OUT_MAX_FEATURES_PER_TILE_CESIUM3DTILES_1
+GUI IGNORE SourceDataset_CITYGML_1,CITYGML_IN_FME_GROUP_NAMED1_CITYGML_1,CITYGML_IN_USE_CITYGML_SCHEMA_FILES_CITYGML_1,CITYGML_IN_ADE_XSD_DOC_CITYGML_1,CITYGML_IN_VALIDATE_DATASET_CITYGML_1,CITYGML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET_CITYGML_1,CITYGML_IN_ADD_NAMESPACE_PREFIX_TO_FEATURE_TYPES_CITYGML_1,CITYGML_IN_MAX_ATTRIBUTES_PER_NESTED_ATTRIBUTE_CITYGML_1,CITYGML_IN_FME_GROUP_NAMED3_CITYGML_1,CITYGML_IN_USE_XLINK_HREF_GEOMETRY_TRAITS_CITYGML_1,CITYGML_IN_LODS_TO_READ_CITYGML_1,CITYGML_IN_FME_GROUP_NAMED4_CITYGML_1,CITYGML_IN_SRS_AXIS_ORDER_CITYGML_1,CITYGML_IN_TEXTURE_COORDINATES_ORDER_FIX_CITYGML_1,CITYGML_IN_USE_SEARCH_ENVELOPE_CITYGML_1,CITYGML_IN_SEARCH_ENVELOPE_MINX_CITYGML_1,CITYGML_IN_SEARCH_ENVELOPE_MINY_CITYGML_1,CITYGML_IN_SEARCH_ENVELOPE_MAXX_CITYGML_1,CITYGML_IN_SEARCH_ENVELOPE_MAXY_CITYGML_1,CITYGML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_CITYGML_1,CITYGML_IN_CLIP_TO_ENVELOPE_CITYGML_1,CITYGML_IN_NETWORK_AUTHENTICATION_CITYGML_1,SourceDataset_POSTGRES_1,POSTGRES_IN_FME_CONNECTION_GROUP_POSTGRES_1,POSTGRES_IN_FME_GROUP_NAMED1_POSTGRES_1,POSTGRES_IN_WHERE_CLAUSE_POSTGRES_1,POSTGRES_IN_ADVANCED_POSTGRES_1,POSTGRES_IN_FEATURES_PER_FETCH_POSTGRES_1,POSTGRES_IN_BEGIN_SQL_POSTGRES_1,POSTGRES_IN_END_SQL_POSTGRES_1,POSTGRES_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGRES_1,DestDataset_CESIUM3DTILES_1,CESIUM3DTILES_OUT_WRITER_PARAMS_CESIUM3DTILES_1,CESIUM3DTILES_OUT_MAX_FEATURES_PER_TILE_CESIUM3DTILES_1,DestDataset_CESIUM3DTILES_2,CESIUM3DTILES_OUT_WRITER_PARAMS_CESIUM3DTILES_2,CESIUM3DTILES_OUT_MAX_FEATURES_PER_TILE_CESIUM3DTILES_2,DestDataset_JSON_1,JSON_OUT_WRITE_FEATURE_TYPE_KEY_JSON_1,JSON_OUT_FEATURE_TYPE_KEY_JSON_1,JSON_OUT_WRITE_GEOMETRY_JSON_1,JSON_OUT_GEOMETRY_KEY_JSON_1,JSON_OUT_GEOMETRY_FORMAT_JSON_1,JSON_OUT_WRITE_COORDINATE_SYSTEM_JSON_1,JSON_OUT_COORDINATE_SYSTEM_KEY_JSON_1,JSON_OUT_COORDINATE_SYSTEM_FORMAT_JSON_1,JSON_OUT_FME_GROUP_NAMED1_JSON_1,JSON_OUT_WRITER_CHARSET_JSON_1,JSON_OUT_WRITE_BOM_JSON_1,JSON_OUT_FME_GROUP_NAMED2_JSON_1,JSON_OUT_PRETTY_PRINT_JSON_1,JSON_OUT_INDENT_SIZE_JSON_1,JSON_OUT_MAX_COORDINATE_PRECISION_JSON_1,JSON_OUT_FME_GROUP_NAMED3_JSON_1,JSON_OUT_JSONP_FUNC_NAME_JSON_1,DestDataset_JSON_2,JSON_OUT_WRITE_FEATURE_TYPE_KEY_JSON_2,JSON_OUT_FEATURE_TYPE_KEY_JSON_2,JSON_OUT_WRITE_GEOMETRY_JSON_2,JSON_OUT_GEOMETRY_KEY_JSON_2,JSON_OUT_GEOMETRY_FORMAT_JSON_2,JSON_OUT_WRITE_COORDINATE_SYSTEM_JSON_2,JSON_OUT_COORDINATE_SYSTEM_KEY_JSON_2,JSON_OUT_COORDINATE_SYSTEM_FORMAT_JSON_2,JSON_OUT_FME_GROUP_NAMED1_JSON_2,JSON_OUT_WRITER_CHARSET_JSON_2,JSON_OUT_WRITE_BOM_JSON_2,JSON_OUT_FME_GROUP_NAMED2_JSON_2,JSON_OUT_PRETTY_PRINT_JSON_2,JSON_OUT_INDENT_SIZE_JSON_2,JSON_OUT_MAX_COORDINATE_PRECISION_JSON_2,JSON_OUT_FME_GROUP_NAMED3_JSON_2,JSON_OUT_JSONP_FUNC_NAME_JSON_2
 DEFAULT_MACRO SourceDataset_CITYGML C:\Users\Demo\CesiumCityGMLExp\FME_data_out\kalasatamapart.gml
 GUI MULTIFILE SourceDataset_CITYGML CityGML_Files(*.gml;*.xml;*.gz)|*.gml;*.xml;*.gz|CityGML_Files(*.gml)|*.gml|CityGML_Files(*.xml)|*.xml|Compressed_CityGML_Files(*.gz)|*.gz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files|* Source CityGML File(s):
 DEFAULT_MACRO DestDataset_CESIUM3DTILES C:\Users\Demo\CesiumCityGMLExp\public
 GUI DIRNAME DestDataset_CESIUM3DTILES Destination Cesium 3D Tiles Folder:
+DEFAULT_MACRO DestDataset_CESIUM3DTILES_3 C:\Users\Demo\CesiumCityGMLExp\FME_data_out\Test_Tiles
+GUI DIRNAME DestDataset_CESIUM3DTILES_3 Destination Cesium 3D Tiles Folder:
+DEFAULT_MACRO SourceDataset_POSTGRES 3dcitydblocal
+GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGRES FMT:POSTGRES%FAMILY:PostgreSQL Connection:
+DEFAULT_MACRO DestDataset_JSON C:\Users\Demo\CesiumCityGMLExp\FME_data_out\Test_Tiles\test2.json
+GUI FILENAME DestDataset_JSON JSON_Files(*.json)|*.json|All_Files|* Destination JSON (JavaScript Object Notation) File:
+DEFAULT_MACRO DestDataset_JSON_3 C:\Users\Demo\CesiumCityGMLExp\FME_data_out\Test_Tiles\test1.json
+GUI FILENAME DestDataset_JSON_3 JSON_Files(*.json)|*.json|All_Files|* Destination JSON (JavaScript Object Notation) File:
 INCLUDE [ if {{$(SourceDataset_CITYGML)} == {}} { puts_real {Parameter 'SourceDataset_CITYGML' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(DestDataset_CESIUM3DTILES)} == {}} { puts_real {Parameter 'DestDataset_CESIUM3DTILES' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_CESIUM3DTILES_3)} == {}} { puts_real {Parameter 'DestDataset_CESIUM3DTILES_3' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SourceDataset_POSTGRES)} == {}} { puts_real {Parameter 'SourceDataset_POSTGRES' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_JSON)} == {}} { puts_real {Parameter 'DestDataset_JSON' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_JSON_3)} == {}} { puts_real {Parameter 'DestDataset_JSON_3' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! encoding="utf-8"
 #! WORKSPACE_VERSION 1
@@ -1498,11 +2741,20 @@ READER_TYPE MULTI_READER
 MULTI_READER_TYPE{0} CITYGML
 MULTI_READER_KEYWORD{0} CITYGML_1
 MULTI_READER_GEN_DIRECTIVES{0} USE_CITYGML_SCHEMA_FILES,Yes,VALIDATE_DATASET,no,SKIP_SCHEMA_LOCATION_IN_DATASET,No,ADD_NAMESPACE_PREFIX_TO_FEATURE_TYPES,No,VERSION,2.0,MAX_ATTRIBUTES_PER_NESTED_ATTRIBUTE,400,ONLY_FEATURE_TYPES_IN_DATASET,YES,GENERIC_ATTRS_AS_FEATURES,No,MATERIAL_FEATURES,No,GENERIC_ATTRS_AS_SCHEMA_ATTRS,Yes,USE_XLINK_HREF_GEOMETRY_TRAITS,Yes,LODS_TO_READ,0<space>1<space>2<space>3<space>4,TEXTURE_COORDINATES_ORDER_FIX,No,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MAXY,0,CLIP_TO_ENVELOPE,NO,SourceDataset,C:<backslash>Users<backslash>Demo<backslash>FME<space>Data<space>In<backslash>kalasatamapart.gml,FME_GEOMETRY_HANDLING,Enhanced
+MULTI_READER_TYPE{1} POSTGRES
+MULTI_READER_KEYWORD{1} POSTGRES_1
+MULTI_READER_GEN_DIRECTIVES{1} READ_TIME_WITH_TIMEZONE,Yes,SCHEMAS_FOR_TABLE_LISTING,citydb,POSTGRES_EXPOSE_FORMAT_ATTRS,,BEGIN_SQL,,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,EXPOSE_ATTRS_GROUP,,NAMED_CONNECTION,3dcitydblocal,WHERE_CLAUSE,,TABLELIST,citydb.Building,ADVANCED,,END_SQL,,_MERGE_SCHEMAS,YES,FEATURES_PER_FETCH,10000,CREATE_FEATURE_TABLES_FROM_DATA,Yes
 WRITER_TYPE MULTI_WRITER
 MULTI_WRITER_DATASET_ORDER BY_ID
 MULTI_WRITER_FIRST_WRITER_ID 0
 MULTI_WRITER_TYPE{0} CESIUM3DTILES
 MULTI_WRITER_KEYWORD{0} CESIUM3DTILES_1
+MULTI_WRITER_TYPE{1} CESIUM3DTILES
+MULTI_WRITER_KEYWORD{1} CESIUM3DTILES_2
+MULTI_WRITER_TYPE{2} JSON
+MULTI_WRITER_KEYWORD{2} JSON_1
+MULTI_WRITER_TYPE{3} JSON
+MULTI_WRITER_KEYWORD{3} JSON_2
 #! END_WB_HEADER
 #! START_WB_HEADER
 MACRO WB_KEYWORD "CITYGML_1"
@@ -1642,6 +2894,57 @@ CITYGML_1_GENERATE_FME_BUILD_NUM 20632
 CITYGML_1_DATASET "$(SourceDataset_CITYGML_1)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
+MACRO WB_KEYWORD "POSTGRES_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER POSTGRES POSTGRES_1
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_POSTGRES_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER POSTGRES POSTGRES_1
+DEFAULT_MACRO SourceDataset_POSTGRES_1 $(SourceDataset_POSTGRES)
+GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGRES_1 FMT:POSTGRES Connection:
+DEFAULT_MACRO POSTGRES_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGRES_1 Yes
+POSTGRES_1_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(POSTGRES_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGRES_1)"
+DEFAULT_MACRO POSTGRES_IN_READ_TIME_WITH_TIMEZONE_POSTGRES_1 Yes
+POSTGRES_1_READ_TIME_WITH_TIMEZONE "$(POSTGRES_IN_READ_TIME_WITH_TIMEZONE_POSTGRES_1)"
+DEFAULT_MACRO POSTGRES_IN_FME_CONNECTION_GROUP_POSTGRES_1 
+GUI OPTIONAL DISCLOSUREGROUP POSTGRES_IN_FME_CONNECTION_GROUP_POSTGRES_1 POSTGRES_IN_NAMED_CONNECTION%POSTGRES_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGRES_1 Database Connection
+DEFAULT_MACRO POSTGRES_IN_FME_GROUP_NAMED1_POSTGRES_1 
+GUI OPTIONAL DISCLOSUREGROUP POSTGRES_IN_FME_GROUP_NAMED1_POSTGRES_1 POSTGRES_IN_TABLELIST%POSTGRES_IN_WHERE_CLAUSE_POSTGRES_1 Constraints
+DEFAULT_MACRO POSTGRES_IN_WHERE_CLAUSE_POSTGRES_1 
+POSTGRES_1_WHERE_CLAUSE "$(POSTGRES_IN_WHERE_CLAUSE_POSTGRES_1)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG POSTGRES_IN_WHERE_CLAUSE_POSTGRES_1 MODE,WHERE;FORMAT,POSTGRES WHERE Clause:
+DEFAULT_MACRO POSTGRES_IN_EXPOSE_ATTRS_GROUP_POSTGRES_1 
+POSTGRES_1_EXPOSE_ATTRS_GROUP "$(POSTGRES_IN_EXPOSE_ATTRS_GROUP_POSTGRES_1)"
+DEFAULT_MACRO POSTGRES_IN_ADVANCED_POSTGRES_1 
+GUI OPTIONAL DISCLOSUREGROUP POSTGRES_IN_ADVANCED_POSTGRES_1 POSTGRES_IN_FEATURES_PER_FETCH_POSTGRES_1%POSTGRES_IN_BEGIN_SQL_POSTGRES_1%POSTGRES_IN_END_SQL_POSTGRES_1 Advanced
+DEFAULT_MACRO POSTGRES_IN_FEATURES_PER_FETCH_POSTGRES_1 10000
+POSTGRES_1_FEATURES_PER_FETCH "$(POSTGRES_IN_FEATURES_PER_FETCH_POSTGRES_1)"
+GUI FLOAT POSTGRES_IN_FEATURES_PER_FETCH_POSTGRES_1 Number Of Records To Fetch At A Time
+DEFAULT_MACRO POSTGRES_IN_BEGIN_SQL_POSTGRES_1 
+POSTGRES_1_BEGIN_SQL "$(POSTGRES_IN_BEGIN_SQL_POSTGRES_1)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG POSTGRES_IN_BEGIN_SQL_POSTGRES_1 MODE,SQL;FORMAT,POSTGRES SQL To Run Before Read
+DEFAULT_MACRO POSTGRES_IN_END_SQL_POSTGRES_1 
+POSTGRES_1_END_SQL "$(POSTGRES_IN_END_SQL_POSTGRES_1)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG POSTGRES_IN_END_SQL_POSTGRES_1 MODE,SQL;FORMAT,POSTGRES SQL To Run After Read
+DEFAULT_MACRO POSTGRES_IN_CREATE_FEATURE_TABLES_FROM_DATA_POSTGRES_1 Yes
+POSTGRES_1_CREATE_FEATURE_TABLES_FROM_DATA "$(POSTGRES_IN_CREATE_FEATURE_TABLES_FROM_DATA_POSTGRES_1)"
+# ============================================================================ 
+DEFAULT_MACRO POSTGRES_IN_ATTRIBUTE_READING_POSTGRES_1 DEFLINE_ATTRS
+POSTGRES_1_ATTRIBUTE_READING "$(POSTGRES_IN_ATTRIBUTE_READING_POSTGRES_1)"
+# ============================================================================ 
+POSTGRES_1_GENERATE_FME_BUILD_NUM 20632
+DEFAULT_MACRO POSTGRES_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGRES_1 citydb
+GUI OPTIONAL TEXT POSTGRES_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGRES_1 Schemas for Tables:
+POSTGRES_1_SCHEMAS_FOR_TABLE_LISTING $(POSTGRES_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGRES_1)
+POSTGRES_1_DATASET "$(SourceDataset_POSTGRES_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
 MACRO WB_KEYWORD "CESIUM3DTILES_1"
 #! END_WB_HEADER
 #! START_DEST_HEADER CESIUM3DTILES CESIUM3DTILES_1
@@ -1668,11 +2971,183 @@ CESIUM3DTILES_1_GENERATE_FME_BUILD_NUM 20632
 CESIUM3DTILES_1_DATASET "$(DestDataset_CESIUM3DTILES_1)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
+MACRO WB_KEYWORD "CESIUM3DTILES_2"
+#! END_WB_HEADER
+#! START_DEST_HEADER CESIUM3DTILES CESIUM3DTILES_2
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_CESIUM3DTILES_2 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER CESIUM3DTILES CESIUM3DTILES_2
+DEFAULT_MACRO DestDataset_CESIUM3DTILES_2 $(DestDataset_CESIUM3DTILES_3)
+GUI DIRNAME DestDataset_CESIUM3DTILES_2 Destination Cesium 3D Tiles Folder:
+DEFAULT_MACRO CESIUM3DTILES_OUT_WRITER_PARAMS_CESIUM3DTILES_2 
+GUI OPTIONAL DISCLOSUREGROUP CESIUM3DTILES_OUT_WRITER_PARAMS_CESIUM3DTILES_2 CESIUM3DTILES_OUT_MAX_FEATURES_PER_TILE_CESIUM3DTILES_2 Writer Parameters
+DEFAULT_MACRO CESIUM3DTILES_OUT_MAX_FEATURES_PER_TILE_CESIUM3DTILES_2 300
+CESIUM3DTILES_2_MAX_FEATURES_PER_TILE "$(CESIUM3DTILES_OUT_MAX_FEATURES_PER_TILE_CESIUM3DTILES_2)"
+GUI RANGE_SLIDER CESIUM3DTILES_OUT_MAX_FEATURES_PER_TILE_CESIUM3DTILES_2 1%MAX%0 Maximum Number of Features Per Tile:
+DEFAULT_MACRO CESIUM3DTILES_OUT_COORDINATE_SYSTEM_GRANULARITY_CESIUM3DTILES_2 FEATURE
+CESIUM3DTILES_2_COORDINATE_SYSTEM_GRANULARITY "$(CESIUM3DTILES_OUT_COORDINATE_SYSTEM_GRANULARITY_CESIUM3DTILES_2)"
+# ============================================================================ 
+CESIUM3DTILES_2_GENERATE_FME_BUILD_NUM 20632
+CESIUM3DTILES_2_DATASET "$(DestDataset_CESIUM3DTILES_2)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "JSON_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER JSON JSON_1
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_JSON_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER JSON JSON_1
+DEFAULT_MACRO DestDataset_JSON_1 $(DestDataset_JSON)
+GUI FILENAME DestDataset_JSON_1 JSON_Files(*.json)|*.json|All_Files|* Destination JSON (JavaScript Object Notation) File:
+DEFAULT_MACRO JSON_OUT_WRITE_FEATURE_TYPE_KEY_JSON_1 YES
+JSON_1_WRITE_FEATURE_TYPE_KEY "$(JSON_OUT_WRITE_FEATURE_TYPE_KEY_JSON_1)"
+GUI ACTIVEDISCLOSUREGROUP JSON_OUT_WRITE_FEATURE_TYPE_KEY_JSON_1 JSON_OUT_FEATURE_TYPE_KEY_JSON_1 Write Feature Type Key
+DEFAULT_MACRO JSON_OUT_FEATURE_TYPE_KEY_JSON_1 json_featuretype
+JSON_1_FEATURE_TYPE_KEY "$(JSON_OUT_FEATURE_TYPE_KEY_JSON_1)"
+GUI TEXT JSON_OUT_FEATURE_TYPE_KEY_JSON_1 Feature Type Key Name:
+GUI LOOKUP JSON_OUT_FEATURE_TYPE_KEY_JSON_1 <Unused>,json_featuretype 
+DEFAULT_MACRO JSON_OUT_WRITE_GEOMETRY_JSON_1 YES
+JSON_1_WRITE_GEOMETRY "$(JSON_OUT_WRITE_GEOMETRY_JSON_1)"
+GUI ACTIVEDISCLOSUREGROUP JSON_OUT_WRITE_GEOMETRY_JSON_1 JSON_OUT_GEOMETRY_KEY_JSON_1%JSON_OUT_GEOMETRY_FORMAT_JSON_1%JSON_OUT_WRITE_COORDINATE_SYSTEM_JSON_1 Write Geometry
+DEFAULT_MACRO JSON_OUT_GEOMETRY_KEY_JSON_1 json_geometry
+JSON_1_GEOMETRY_KEY "$(JSON_OUT_GEOMETRY_KEY_JSON_1)"
+GUI TEXT JSON_OUT_GEOMETRY_KEY_JSON_1 Geometry Key Name:
+GUI LOOKUP JSON_OUT_GEOMETRY_KEY_JSON_1 <Unused>,json_geometry 
+DEFAULT_MACRO JSON_OUT_GEOMETRY_FORMAT_JSON_1 GeoJSON
+JSON_1_GEOMETRY_FORMAT "$(JSON_OUT_GEOMETRY_FORMAT_JSON_1)"
+GUI CHOICE JSON_OUT_GEOMETRY_FORMAT_JSON_1 GeoJSON%OGC-WKT%None Geometry Format:
+GUI LOOKUP JSON_OUT_GEOMETRY_FORMAT_JSON_1 <Unused>,GeoJSON 
+DEFAULT_MACRO JSON_OUT_WRITE_COORDINATE_SYSTEM_JSON_1 YES
+JSON_1_WRITE_COORDINATE_SYSTEM "$(JSON_OUT_WRITE_COORDINATE_SYSTEM_JSON_1)"
+GUI ACTIVEDISCLOSUREGROUP JSON_OUT_WRITE_COORDINATE_SYSTEM_JSON_1 JSON_OUT_COORDINATE_SYSTEM_KEY_JSON_1%JSON_OUT_COORDINATE_SYSTEM_FORMAT_JSON_1 Write Coordinate System
+DEFAULT_MACRO JSON_OUT_COORDINATE_SYSTEM_KEY_JSON_1 json_ogc_wkt_crs
+JSON_1_COORDINATE_SYSTEM_KEY "$(JSON_OUT_COORDINATE_SYSTEM_KEY_JSON_1)"
+GUI TEXT JSON_OUT_COORDINATE_SYSTEM_KEY_JSON_1 Coordinate System Key Name:
+DEFAULT_MACRO JSON_OUT_COORDINATE_SYSTEM_FORMAT_JSON_1 OGC-WKT
+JSON_1_COORDINATE_SYSTEM_FORMAT "$(JSON_OUT_COORDINATE_SYSTEM_FORMAT_JSON_1)"
+GUI CHOICE JSON_OUT_COORDINATE_SYSTEM_FORMAT_JSON_1 OGC-WKT%"Name only" Coordinate System Format:
+DEFAULT_MACRO JSON_OUT_FME_GROUP_NAMED1_JSON_1 
+GUI OPTIONAL DISCLOSUREGROUP JSON_OUT_FME_GROUP_NAMED1_JSON_1 JSON_OUT_WRITER_CHARSET_JSON_1%JSON_OUT_WRITE_BOM_JSON_1 Writer Parameters
+DEFAULT_MACRO JSON_OUT_WRITER_CHARSET_JSON_1 UTF-8
+JSON_1_WRITER_CHARSET "$(JSON_OUT_WRITER_CHARSET_JSON_1)"
+GUI CHOICE JSON_OUT_WRITER_CHARSET_JSON_1 UTF-8%UTF-16%UTF-16BE%UTF-16LE%UTF-32%UTF-32BE%UTF-32LE Output Character Set:
+DEFAULT_MACRO JSON_OUT_WRITE_BOM_JSON_1 No
+JSON_1_WRITE_BOM "$(JSON_OUT_WRITE_BOM_JSON_1)"
+GUI CHOICE JSON_OUT_WRITE_BOM_JSON_1 Yes%No Byte Order Marker:
+DEFAULT_MACRO JSON_OUT_FME_GROUP_NAMED2_JSON_1 
+GUI OPTIONAL DISCLOSUREGROUP JSON_OUT_FME_GROUP_NAMED2_JSON_1 JSON_OUT_PRETTY_PRINT_JSON_1%JSON_OUT_INDENT_SIZE_JSON_1%JSON_OUT_MAX_COORDINATE_PRECISION_JSON_1 Formatting Parameters
+DEFAULT_MACRO JSON_OUT_PRETTY_PRINT_JSON_1 YES
+JSON_1_PRETTY_PRINT "$(JSON_OUT_PRETTY_PRINT_JSON_1)"
+GUI ACTIVECHOICE_LOOKUP JSON_OUT_PRETTY_PRINT_JSON_1 Pretty<space>Print,YES%Linear,NO,JSON_OUT_INDENT_SIZE_JSON_1 Formatting Type:
+DEFAULT_MACRO JSON_OUT_INDENT_SIZE_JSON_1 0
+JSON_1_INDENT_SIZE "$(JSON_OUT_INDENT_SIZE_JSON_1)"
+GUI LOOKUP_CHOICE JSON_OUT_INDENT_SIZE_JSON_1 Tabs,0%1<space>space,1%2<space>spaces,2%3<space>spaces,3%4<space>spaces,4%5<space>spaces,5%6<space>spaces,6%7<space>spaces,7%8<space>spaces,8 Indent Size:
+DEFAULT_MACRO JSON_OUT_MAX_COORDINATE_PRECISION_JSON_1 10
+JSON_1_MAX_COORDINATE_PRECISION "$(JSON_OUT_MAX_COORDINATE_PRECISION_JSON_1)"
+GUI RANGE_SLIDER JSON_OUT_MAX_COORDINATE_PRECISION_JSON_1 1%15%0%ON Coordinate Precision (Maximum Number of Fractional Digits):
+DEFAULT_MACRO JSON_OUT_FME_GROUP_NAMED3_JSON_1 
+GUI OPTIONAL DISCLOSUREGROUP JSON_OUT_FME_GROUP_NAMED3_JSON_1 JSON_OUT_JSONP_FUNC_NAME_JSON_1 JSONP
+DEFAULT_MACRO JSON_OUT_JSONP_FUNC_NAME_JSON_1 
+JSON_1_JSONP_FUNC_NAME "$(JSON_OUT_JSONP_FUNC_NAME_JSON_1)"
+GUI OPTIONAL TEXT JSON_OUT_JSONP_FUNC_NAME_JSON_1 JSONP Function Name:
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO JSON_OUT_DESTINATION_DATASETTYPE_VALIDATION_JSON_1 Yes
+JSON_1_DESTINATION_DATASETTYPE_VALIDATION "$(JSON_OUT_DESTINATION_DATASETTYPE_VALIDATION_JSON_1)"
+# ============================================================================ 
+JSON_1_GENERATE_FME_BUILD_NUM 20632
+JSON_1_DATASET "$(DestDataset_JSON_1)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "JSON_2"
+#! END_WB_HEADER
+#! START_DEST_HEADER JSON JSON_2
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_JSON_2 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER JSON JSON_2
+DEFAULT_MACRO DestDataset_JSON_2 $(DestDataset_JSON_3)
+GUI FILENAME DestDataset_JSON_2 JSON_Files(*.json)|*.json|All_Files|* Destination JSON (JavaScript Object Notation) File:
+DEFAULT_MACRO JSON_OUT_WRITE_FEATURE_TYPE_KEY_JSON_2 YES
+JSON_2_WRITE_FEATURE_TYPE_KEY "$(JSON_OUT_WRITE_FEATURE_TYPE_KEY_JSON_2)"
+GUI ACTIVEDISCLOSUREGROUP JSON_OUT_WRITE_FEATURE_TYPE_KEY_JSON_2 JSON_OUT_FEATURE_TYPE_KEY_JSON_2 Write Feature Type Key
+DEFAULT_MACRO JSON_OUT_FEATURE_TYPE_KEY_JSON_2 json_featuretype
+JSON_2_FEATURE_TYPE_KEY "$(JSON_OUT_FEATURE_TYPE_KEY_JSON_2)"
+GUI TEXT JSON_OUT_FEATURE_TYPE_KEY_JSON_2 Feature Type Key Name:
+GUI LOOKUP JSON_OUT_FEATURE_TYPE_KEY_JSON_2 <Unused>,json_featuretype 
+DEFAULT_MACRO JSON_OUT_WRITE_GEOMETRY_JSON_2 YES
+JSON_2_WRITE_GEOMETRY "$(JSON_OUT_WRITE_GEOMETRY_JSON_2)"
+GUI ACTIVEDISCLOSUREGROUP JSON_OUT_WRITE_GEOMETRY_JSON_2 JSON_OUT_GEOMETRY_KEY_JSON_2%JSON_OUT_GEOMETRY_FORMAT_JSON_2%JSON_OUT_WRITE_COORDINATE_SYSTEM_JSON_2 Write Geometry
+DEFAULT_MACRO JSON_OUT_GEOMETRY_KEY_JSON_2 json_geometry
+JSON_2_GEOMETRY_KEY "$(JSON_OUT_GEOMETRY_KEY_JSON_2)"
+GUI TEXT JSON_OUT_GEOMETRY_KEY_JSON_2 Geometry Key Name:
+GUI LOOKUP JSON_OUT_GEOMETRY_KEY_JSON_2 <Unused>,json_geometry 
+DEFAULT_MACRO JSON_OUT_GEOMETRY_FORMAT_JSON_2 GeoJSON
+JSON_2_GEOMETRY_FORMAT "$(JSON_OUT_GEOMETRY_FORMAT_JSON_2)"
+GUI CHOICE JSON_OUT_GEOMETRY_FORMAT_JSON_2 GeoJSON%OGC-WKT%None Geometry Format:
+GUI LOOKUP JSON_OUT_GEOMETRY_FORMAT_JSON_2 <Unused>,GeoJSON 
+DEFAULT_MACRO JSON_OUT_WRITE_COORDINATE_SYSTEM_JSON_2 YES
+JSON_2_WRITE_COORDINATE_SYSTEM "$(JSON_OUT_WRITE_COORDINATE_SYSTEM_JSON_2)"
+GUI ACTIVEDISCLOSUREGROUP JSON_OUT_WRITE_COORDINATE_SYSTEM_JSON_2 JSON_OUT_COORDINATE_SYSTEM_KEY_JSON_2%JSON_OUT_COORDINATE_SYSTEM_FORMAT_JSON_2 Write Coordinate System
+DEFAULT_MACRO JSON_OUT_COORDINATE_SYSTEM_KEY_JSON_2 json_ogc_wkt_crs
+JSON_2_COORDINATE_SYSTEM_KEY "$(JSON_OUT_COORDINATE_SYSTEM_KEY_JSON_2)"
+GUI TEXT JSON_OUT_COORDINATE_SYSTEM_KEY_JSON_2 Coordinate System Key Name:
+DEFAULT_MACRO JSON_OUT_COORDINATE_SYSTEM_FORMAT_JSON_2 OGC-WKT
+JSON_2_COORDINATE_SYSTEM_FORMAT "$(JSON_OUT_COORDINATE_SYSTEM_FORMAT_JSON_2)"
+GUI CHOICE JSON_OUT_COORDINATE_SYSTEM_FORMAT_JSON_2 OGC-WKT%"Name only" Coordinate System Format:
+DEFAULT_MACRO JSON_OUT_FME_GROUP_NAMED1_JSON_2 
+GUI OPTIONAL DISCLOSUREGROUP JSON_OUT_FME_GROUP_NAMED1_JSON_2 JSON_OUT_WRITER_CHARSET_JSON_2%JSON_OUT_WRITE_BOM_JSON_2 Writer Parameters
+DEFAULT_MACRO JSON_OUT_WRITER_CHARSET_JSON_2 UTF-8
+JSON_2_WRITER_CHARSET "$(JSON_OUT_WRITER_CHARSET_JSON_2)"
+GUI CHOICE JSON_OUT_WRITER_CHARSET_JSON_2 UTF-8%UTF-16%UTF-16BE%UTF-16LE%UTF-32%UTF-32BE%UTF-32LE Output Character Set:
+DEFAULT_MACRO JSON_OUT_WRITE_BOM_JSON_2 No
+JSON_2_WRITE_BOM "$(JSON_OUT_WRITE_BOM_JSON_2)"
+GUI CHOICE JSON_OUT_WRITE_BOM_JSON_2 Yes%No Byte Order Marker:
+DEFAULT_MACRO JSON_OUT_FME_GROUP_NAMED2_JSON_2 
+GUI OPTIONAL DISCLOSUREGROUP JSON_OUT_FME_GROUP_NAMED2_JSON_2 JSON_OUT_PRETTY_PRINT_JSON_2%JSON_OUT_INDENT_SIZE_JSON_2%JSON_OUT_MAX_COORDINATE_PRECISION_JSON_2 Formatting Parameters
+DEFAULT_MACRO JSON_OUT_PRETTY_PRINT_JSON_2 YES
+JSON_2_PRETTY_PRINT "$(JSON_OUT_PRETTY_PRINT_JSON_2)"
+GUI ACTIVECHOICE_LOOKUP JSON_OUT_PRETTY_PRINT_JSON_2 Pretty<space>Print,YES%Linear,NO,JSON_OUT_INDENT_SIZE_JSON_2 Formatting Type:
+DEFAULT_MACRO JSON_OUT_INDENT_SIZE_JSON_2 0
+JSON_2_INDENT_SIZE "$(JSON_OUT_INDENT_SIZE_JSON_2)"
+GUI LOOKUP_CHOICE JSON_OUT_INDENT_SIZE_JSON_2 Tabs,0%1<space>space,1%2<space>spaces,2%3<space>spaces,3%4<space>spaces,4%5<space>spaces,5%6<space>spaces,6%7<space>spaces,7%8<space>spaces,8 Indent Size:
+DEFAULT_MACRO JSON_OUT_MAX_COORDINATE_PRECISION_JSON_2 10
+JSON_2_MAX_COORDINATE_PRECISION "$(JSON_OUT_MAX_COORDINATE_PRECISION_JSON_2)"
+GUI RANGE_SLIDER JSON_OUT_MAX_COORDINATE_PRECISION_JSON_2 1%15%0%ON Coordinate Precision (Maximum Number of Fractional Digits):
+DEFAULT_MACRO JSON_OUT_FME_GROUP_NAMED3_JSON_2 
+GUI OPTIONAL DISCLOSUREGROUP JSON_OUT_FME_GROUP_NAMED3_JSON_2 JSON_OUT_JSONP_FUNC_NAME_JSON_2 JSONP
+DEFAULT_MACRO JSON_OUT_JSONP_FUNC_NAME_JSON_2 
+JSON_2_JSONP_FUNC_NAME "$(JSON_OUT_JSONP_FUNC_NAME_JSON_2)"
+GUI OPTIONAL TEXT JSON_OUT_JSONP_FUNC_NAME_JSON_2 JSONP Function Name:
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO JSON_OUT_DESTINATION_DATASETTYPE_VALIDATION_JSON_2 Yes
+JSON_2_DESTINATION_DATASETTYPE_VALIDATION "$(JSON_OUT_DESTINATION_DATASETTYPE_VALIDATION_JSON_2)"
+# ============================================================================ 
+JSON_2_GENERATE_FME_BUILD_NUM 20632
+JSON_2_DATASET "$(DestDataset_JSON_2)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
 #! END_WB_HEADER
 #! END_HEADER
 
 LOG_FILENAME "$(FME_MF_DIR)citygml2cesium3dtilesKalasatama.log"
-LOG_APPEND NO
+LOG_APPEND YES
+LOG_TIMINGS YES
 LOG_FILTER_MASK -1
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
@@ -1681,10 +3156,18 @@ FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
 DEFAULT_MACRO DATASET_KEYWORD_CITYGML_1 CITYGML_1
+DEFAULT_MACRO DATASET_KEYWORD_POSTGRES_1 POSTGRES_1
 DEFAULT_MACRO DATASET_KEYWORD_CESIUM3DTILES_1 CESIUM3DTILES_1
+DEFAULT_MACRO DATASET_KEYWORD_CESIUM3DTILES_2 CESIUM3DTILES_2
+DEFAULT_MACRO DATASET_KEYWORD_JSON_1 JSON_1
+DEFAULT_MACRO DATASET_KEYWORD_JSON_2 JSON_2
 # -------------------------------------------------------------------------
 
 CITYGML_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+POSTGRES_1_READER_META_ATTRIBUTES fme_feature_type
 
 # -------------------------------------------------------------------------
 
@@ -1695,26 +3178,27 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 MACRO WORKSPACE_NAME citygml2cesium3dtilesKalasatama
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
-CITYGML_1_DEF Address   citygml_target_uri           xml_buffer   citygml_feature_role         xml_buffer   citygml_feature_role_attr_name xml_buffer   citygml_feature_role_attr_val xml_buffer   gml_description              xml_buffer   gml_name                     xml_buffer   citygml_address              xml_xml
+CITYGML_1_DEF WallSurface   citygml_target_uri           xml_buffer   citygml_feature_role         xml_buffer   citygml_feature_role_attr_name xml_buffer   citygml_feature_role_attr_val xml_buffer   gml_description              xml_buffer   gml_name                     xml_buffer   citygml_creationDate         xml_date   citygml_terminationDate      xml_date   externalReference{}.externalObject.name xml_xml   externalReference{}.externalObject.uri xml_xml   externalReference{}.informationSystem xml_xml   citygml_generalizes_to{}.xlink_href xml_buffer   citygml_relative_to_terrain  xml_char(33)   citygml_relative_to_water    xml_char(38)   citygml_appearance{}.xlink_href xml_buffer   citygml_level_of_detail{}    xml_buffer   citygml_opening{}.xlink_href xml_buffer   Area                         xml_buffer   FaceUUID                     xml_buffer   PolyAreaAbs                  xml_buffer   PolyAreaRel                  xml_buffer   ZMax                         xml_buffer   ZMaxASL                      xml_buffer   ZMin                         xml_buffer   ZMinASL                      xml_buffer
 # -------------------------------------------------------------------------
 CITYGML_1_DEF GroundSurface   citygml_target_uri           xml_buffer   citygml_feature_role         xml_buffer   citygml_feature_role_attr_name xml_buffer   citygml_feature_role_attr_val xml_buffer   gml_description              xml_buffer   gml_name                     xml_buffer   citygml_creationDate         xml_date   citygml_terminationDate      xml_date   externalReference{}.externalObject.name xml_xml   externalReference{}.externalObject.uri xml_xml   externalReference{}.informationSystem xml_xml   citygml_generalizes_to{}.xlink_href xml_buffer   citygml_relative_to_terrain  xml_char(33)   citygml_relative_to_water    xml_char(38)   citygml_appearance{}.xlink_href xml_buffer   citygml_level_of_detail{}    xml_buffer   citygml_opening{}.xlink_href xml_buffer   Area                         xml_buffer   FaceUUID                     xml_buffer   ZMin                         xml_buffer   ZMinASL                      xml_buffer
+# -------------------------------------------------------------------------
+CITYGML_1_DEF Address   citygml_target_uri           xml_buffer   citygml_feature_role         xml_buffer   citygml_feature_role_attr_name xml_buffer   citygml_feature_role_attr_val xml_buffer   gml_description              xml_buffer   gml_name                     xml_buffer   citygml_address              xml_xml
 # -------------------------------------------------------------------------
 CITYGML_1_DEF RoofSurface   citygml_target_uri           xml_buffer   citygml_feature_role         xml_buffer   citygml_feature_role_attr_name xml_buffer   citygml_feature_role_attr_val xml_buffer   gml_description              xml_buffer   gml_name                     xml_buffer   citygml_creationDate         xml_date   citygml_terminationDate      xml_date   externalReference{}.externalObject.name xml_xml   externalReference{}.externalObject.uri xml_xml   externalReference{}.informationSystem xml_xml   citygml_generalizes_to{}.xlink_href xml_buffer   citygml_relative_to_terrain  xml_char(33)   citygml_relative_to_water    xml_char(38)   citygml_appearance{}.xlink_href xml_buffer   citygml_level_of_detail{}    xml_buffer   citygml_opening{}.xlink_href xml_buffer   Area                         xml_buffer   FaceUUID                     xml_buffer   RoofOrientation              xml_buffer   RoofPitch                    xml_buffer   ZMax                         xml_buffer   ZMaxASL                      xml_buffer   ZMin                         xml_buffer   ZMinASL                      xml_buffer
 # -------------------------------------------------------------------------
 CITYGML_1_DEF CityModel   citygml_target_uri           xml_buffer   gml_description              xml_buffer   gml_name                     xml_buffer   citygml_city_object_member{}.xlink_href xml_buffer   citygml_appearance_member{}.xlink_href xml_buffer   gml_feature_member{}.xlink_href xml_buffer
 # -------------------------------------------------------------------------
-CITYGML_1_DEF WallSurface   citygml_target_uri           xml_buffer   citygml_feature_role         xml_buffer   citygml_feature_role_attr_name xml_buffer   citygml_feature_role_attr_val xml_buffer   gml_description              xml_buffer   gml_name                     xml_buffer   citygml_creationDate         xml_date   citygml_terminationDate      xml_date   externalReference{}.externalObject.name xml_xml   externalReference{}.externalObject.uri xml_xml   externalReference{}.informationSystem xml_xml   citygml_generalizes_to{}.xlink_href xml_buffer   citygml_relative_to_terrain  xml_char(33)   citygml_relative_to_water    xml_char(38)   citygml_appearance{}.xlink_href xml_buffer   citygml_level_of_detail{}    xml_buffer   citygml_opening{}.xlink_href xml_buffer   Area                         xml_buffer   FaceUUID                     xml_buffer   PolyAreaAbs                  xml_buffer   PolyAreaRel                  xml_buffer   ZMax                         xml_buffer   ZMaxASL                      xml_buffer   ZMin                         xml_buffer   ZMinASL                      xml_buffer
-# -------------------------------------------------------------------------
 CITYGML_1_DEF Building   citygml_target_uri           xml_buffer   citygml_feature_role         xml_buffer   citygml_feature_role_attr_name xml_buffer   citygml_feature_role_attr_val xml_buffer   gml_description              xml_buffer   gml_name                     xml_buffer   citygml_creationDate         xml_date   citygml_terminationDate      xml_date   externalReference{}.externalObject.name xml_xml   externalReference{}.externalObject.uri xml_xml   externalReference{}.informationSystem xml_xml   citygml_generalizes_to{}.xlink_href xml_buffer   citygml_relative_to_terrain  xml_char(33)   citygml_relative_to_water    xml_char(38)   citygml_appearance{}.xlink_href xml_buffer   citygml_class                xml_buffer   citygml_class_codeSpace      xml_buffer   citygml_function{}           xml_buffer   citygml_function{}.codeSpace xml_buffer   citygml_usage{}              xml_buffer   citygml_usage{}.codeSpace    xml_buffer   citygml_year_of_construction xml_buffer   citygml_year_of_demolition   xml_buffer   citygml_roof_type            xml_buffer   citygml_roof_type_codeSpace  xml_buffer   citygml_measured_height      xml_real64   citygml_measured_height_units xml_buffer   citygml_storeys_above_ground xml_uint64   citygml_storeys_below_ground xml_uint64   citygml_storey_heights_above_ground xml_buffer   citygml_storey_heights_above_ground_units xml_buffer   citygml_storey_heights_below_ground xml_buffer   citygml_storey_heights_below_ground_units xml_buffer   citygml_outer_building_installation{}.xlink_href xml_buffer   citygml_interior_building_installation{}.xlink_href xml_buffer   citygml_bounded_by{}.xlink_href xml_buffer   citygml_level_of_detail{}    xml_buffer   citygml_interior_room{}.xlink_href xml_buffer   citygml_consists_of_building_part{}.xlink_href xml_buffer   citygml_address{}.xlink_href xml_buffer   BREC_BuildingHeightNN        xml_buffer   BREC_RoofNames               xml_buffer   BuildingHeightNN             xml_buffer   CODE                         xml_buffer   C_KAYTTARK                   xml_buffer   GroundLevel                  xml_buffer   HighestRoof                  xml_buffer   ID                           xml_buffer   I_KEROSAL                    xml_buffer   I_KERRLKM                    xml_buffer   KG_KRAKENN                   xml_buffer   Katuosoite                   xml_buffer   Kayttotarkoitus              xml_buffer   Kerroksia                    xml_buffer   Kerrosala                    xml_buffer   Kokonaisala                  xml_buffer   LowestRoof                   xml_buffer   RATU                         xml_buffer   REPAIRED                     xml_buffer   Rakennuksen_tila             xml_buffer   Rakennusaine                 xml_buffer   RoofNames                    xml_buffer   SUUNNITELMA_ALUE             xml_buffer   TILA                         xml_buffer   TILA_KOODI                   xml_buffer   TYYPPI                       xml_buffer   Tilavuus                     xml_buffer   UUID                         xml_buffer   VTJ_PRT                      xml_buffer   Valmistunut                  xml_buffer   result                       xml_buffer
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD $(DATASET_KEYWORD_CITYGML_1)   INPUT FEATURE_TYPE *    ROUTE CITYGML CITYGML_1::Address multi_reader_keyword,$(DATASET_KEYWORD_CITYGML_1) TO FME_GENERIC ::Address ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::GroundSurface multi_reader_keyword,$(DATASET_KEYWORD_CITYGML_1) TO FME_GENERIC ::GroundSurface ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::RoofSurface multi_reader_keyword,$(DATASET_KEYWORD_CITYGML_1) TO FME_GENERIC ::RoofSurface ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::CityModel multi_reader_keyword,$(DATASET_KEYWORD_CITYGML_1) TO FME_GENERIC ::CityModel ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::WallSurface multi_reader_keyword,$(DATASET_KEYWORD_CITYGML_1) TO FME_GENERIC ::WallSurface ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::Building multi_reader_keyword,$(DATASET_KEYWORD_CITYGML_1) TO FME_GENERIC ::Building ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-CITYGML_1_MERGE_DEF CITYGML_1::Address EXACT Address
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE CITYGML CITYGML_1::WallSurface multi_reader_keyword,$(DATASET_KEYWORD_CITYGML_1) TO FME_GENERIC ::WallSurface ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::GroundSurface multi_reader_keyword,$(DATASET_KEYWORD_CITYGML_1) TO FME_GENERIC ::GroundSurface ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::Address multi_reader_keyword,$(DATASET_KEYWORD_CITYGML_1) TO FME_GENERIC ::Address ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::RoofSurface multi_reader_keyword,$(DATASET_KEYWORD_CITYGML_1) TO FME_GENERIC ::RoofSurface ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::CityModel multi_reader_keyword,$(DATASET_KEYWORD_CITYGML_1) TO FME_GENERIC ::CityModel ALIAS_GEOMETRY    ROUTE CITYGML CITYGML_1::Building multi_reader_keyword,$(DATASET_KEYWORD_CITYGML_1) TO FME_GENERIC ::Building ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::citydb.Building multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::citydb.Building ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+CITYGML_1_MERGE_DEF CITYGML_1::WallSurface EXACT WallSurface
 CITYGML_1_MERGE_DEF CITYGML_1::GroundSurface EXACT GroundSurface
+CITYGML_1_MERGE_DEF CITYGML_1::Address EXACT Address
 CITYGML_1_MERGE_DEF CITYGML_1::RoofSurface EXACT RoofSurface
 CITYGML_1_MERGE_DEF CITYGML_1::CityModel EXACT CityModel
-CITYGML_1_MERGE_DEF CITYGML_1::WallSurface EXACT WallSurface
 CITYGML_1_MERGE_DEF CITYGML_1::Building EXACT Building
+POSTGRES_1_MERGE_DEF POSTGRES_1::citydb.Building EXACT citydb.Building DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,gml_id,text,gml_parent_id,text,citygml_target_uri,text,citygml_feature_role,text,citygml_feature_role_attr_name,text,citygml_feature_role_attr_val,text,gml_description,text,gml_name,text,citygml_creationdate,text,citygml_terminationdate,text,externalreference<opencurly><closecurly>_externalobject_name,xml,externalreference<opencurly><closecurly>_externalobject_uri,xml,externalreference<opencurly><closecurly>_informationsystem,xml,citygml_generalizes_to<opencurly><closecurly>_xlink_href,text,citygml_relative_to_terrain,varchar<openparen>33<closeparen>,citygml_relative_to_water,varchar<openparen>38<closeparen>,citygml_class,text,citygml_class_codespace,text,citygml_function<opencurly><closecurly>,text,citygml_function<opencurly><closecurly>_codespace,text,citygml_usage<opencurly><closecurly>,text,citygml_usage<opencurly><closecurly>_codespace,text,citygml_year_of_construction,text,citygml_year_of_demolition,text,citygml_roof_type,text,citygml_roof_type_codespace,text,citygml_measured_height,float8,citygml_measured_height_units,text,citygml_storeys_above_ground,numeric<openparen>20<comma>0<closeparen>,citygml_storeys_below_ground,numeric<openparen>20<comma>0<closeparen>,citygml_storey_heights_above_ground,text,citygml_storey_heights_above_ground_units,text,citygml_storey_heights_below_ground,text,citygml_storey_heights_below_ground_units,text,citygml_outer_building_installation<opencurly><closecurly>_xlink_href,text,citygml_interior_building_installation<opencurly><closecurly>_xlink_href,text,citygml_bounded_by<opencurly><closecurly>_xlink_href,text,citygml_level_of_detail<opencurly><closecurly>,text,citygml_interior_room<opencurly><closecurly>_xlink_href,text,citygml_consists_of_building_part<opencurly><closecurly>_xlink_href,text,citygml_address<opencurly><closecurly>_xlink_href,text,brec_buildingheightnn,text,brec_roofnames,text,buildingheightnn,text,code,text,c_kayttark,text,groundlevel,text,highestroof,text,id,text,i_kerosal,text,i_kerrlkm,text,kg_krakenn,text,katuosoite,text,kayttotarkoitus,text,kerroksia,text,kerrosala,text,kokonaisala,text,lowestroof,text,ratu,text,repaired,text,rakennuksen_tila,text,rakennusaine,text,rakennustunnus__ratu_,text,rakennustunnus__vtj_prt_,text,roofnames,text,suunnitelma_alue,text,tila,text,tila_koodi,text,tyyppi,text,tilavuus,text,uuid,text,vtj_prt,text,valmistunut,text,bel_spl,text,v,text,w,text,j,text,a,text
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "WallSurface_CITYGML_1 Splitter"    INPUT FEATURE_TYPE WallSurface
@@ -1729,27 +3213,37 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME "GroundSurface_CITYGML_1 Splitter"    I
 FACTORY_DEF * TeeFactory    FACTORY_NAME "CityModel_CITYGML_1 Splitter"    INPUT FEATURE_TYPE CityModel    OUTPUT FEATURE_TYPE CityModel_CITYGML_1
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "Building_CITYGML_1 Splitter"    INPUT FEATURE_TYPE Building    OUTPUT FEATURE_TYPE Building_CITYGML_1
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Building_CITYGML_1 Splitter"    INPUT FEATURE_TYPE Building    OUTPUT FEATURE_TYPE Building_CITYGML_1_0_4iOikccc8bo=    OUTPUT FEATURE_TYPE Building_CITYGML_1_1_VEhnkVDIS8E=    OUTPUT FEATURE_TYPE Building_CITYGML_1_2_XcjMkrxPyy8=
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "Address_CITYGML_1 Splitter"    INPUT FEATURE_TYPE Address
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "citydb.Building_POSTGRES_1 Splitter"    INPUT FEATURE_TYPE citydb.Building    OUTPUT FEATURE_TYPE citydb.Building_POSTGRES_1_0_mMYuQ2PPY1w=    OUTPUT FEATURE_TYPE citydb.Building_POSTGRES_1_1_L8gzn1yJ7Ok=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "citydb.Building_POSTGRES_1_0_mMYuQ2PPY1w= Disabled Nuker -1 23"   INPUT FEATURE_TYPE citydb.Building_POSTGRES_1_0_mMYuQ2PPY1w=
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC GroundSurface_CITYGML_1 TO CESIUM3DTILES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>CityModel<closeparen> GEOMETRY    ROUTE FME_GENERIC CityModel_CITYGML_1 TO CESIUM3DTILES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>CityModel<closeparen> GEOMETRY    ROUTE FME_GENERIC Building_CITYGML_1 TO CESIUM3DTILES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Building<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC citydb.Building_POSTGRES_1_1_L8gzn1yJ7Ok= TO JSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Building<closeparen> GEOMETRY    ROUTE FME_GENERIC Building_CITYGML_1_2_XcjMkrxPyy8= TO JSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,3,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Building<closeparen> GEOMETRY    ROUTE FME_GENERIC Building_CITYGML_1_0_4iOikccc8bo= TO CESIUM3DTILES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Building<closeparen> GEOMETRY    ROUTE FME_GENERIC citydb.Building_POSTGRES_1_0_mMYuQ2PPY1w= TO CESIUM3DTILES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Building<closeparen> GEOMETRY    ROUTE FME_GENERIC GroundSurface_CITYGML_1 TO CESIUM3DTILES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>CityModel<closeparen> GEOMETRY    ROUTE FME_GENERIC CityModel_CITYGML_1 TO CESIUM3DTILES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>CityModel<closeparen> GEOMETRY    ROUTE FME_GENERIC Building_CITYGML_1_1_VEhnkVDIS8E= TO CESIUM3DTILES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Building<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-CESIUM3DTILES_1_DEF Address   gml_id                       string   gml_parent_id                string   citygml_target_uri           string   citygml_feature_role         string   citygml_feature_role_attr_name string   citygml_feature_role_attr_val string   gml_description              string   gml_name                     string   citygml_address              string
+CESIUM3DTILES_1_DEF WallSurface   gml_id                       string   gml_parent_id                string   citygml_target_uri           string   citygml_feature_role         string   citygml_feature_role_attr_name string   citygml_feature_role_attr_val string   gml_description              string   gml_name                     string   citygml_creationDate         string   citygml_terminationDate      string   externalReference{}.externalObject.name string   externalReference{}.externalObject.uri string   externalReference{}.informationSystem string   citygml_generalizes_to{}.xlink_href string   citygml_relative_to_terrain  string   citygml_relative_to_water    string   citygml_appearance{}.xlink_href string   citygml_level_of_detail{}    string   citygml_opening{}.xlink_href string   Area                         string   FaceUUID                     string   PolyAreaAbs                  string   PolyAreaRel                  string   ZMax                         string   ZMaxASL                      string   ZMin                         string   ZMinASL                      string
 # -------------------------------------------------------------------------
 CESIUM3DTILES_1_DEF GroundSurface   gml_id                       string   gml_parent_id                string   citygml_target_uri           string   citygml_feature_role         string   citygml_feature_role_attr_name string   citygml_feature_role_attr_val string   gml_description              string   gml_name                     string   citygml_creationDate         string   citygml_terminationDate      string   externalReference{}.externalObject.name string   externalReference{}.externalObject.uri string   externalReference{}.informationSystem string   citygml_generalizes_to{}.xlink_href string   citygml_relative_to_terrain  string   citygml_relative_to_water    string   citygml_appearance{}.xlink_href string   citygml_level_of_detail{}    string   citygml_opening{}.xlink_href string   Area                         string   FaceUUID                     string   ZMin                         string   ZMinASL                      string
+# -------------------------------------------------------------------------
+CESIUM3DTILES_1_DEF Address   gml_id                       string   gml_parent_id                string   citygml_target_uri           string   citygml_feature_role         string   citygml_feature_role_attr_name string   citygml_feature_role_attr_val string   gml_description              string   gml_name                     string   citygml_address              string
 # -------------------------------------------------------------------------
 CESIUM3DTILES_1_DEF RoofSurface   gml_id                       string   gml_parent_id                string   citygml_target_uri           string   citygml_feature_role         string   citygml_feature_role_attr_name string   citygml_feature_role_attr_val string   gml_description              string   gml_name                     string   citygml_creationDate         string   citygml_terminationDate      string   externalReference{}.externalObject.name string   externalReference{}.externalObject.uri string   externalReference{}.informationSystem string   citygml_generalizes_to{}.xlink_href string   citygml_relative_to_terrain  string   citygml_relative_to_water    string   citygml_appearance{}.xlink_href string   citygml_level_of_detail{}    string   citygml_opening{}.xlink_href string   Area                         string   FaceUUID                     string   RoofOrientation              string   RoofPitch                    string   ZMax                         string   ZMaxASL                      string   ZMin                         string   ZMinASL                      string
 # -------------------------------------------------------------------------
 CESIUM3DTILES_1_DEF CityModel   gml_id                       string   citygml_target_uri           string   gml_description              string   gml_name                     string   citygml_city_object_member{}.xlink_href string   citygml_appearance_member{}.xlink_href string   gml_feature_member{}.xlink_href string
 # -------------------------------------------------------------------------
-CESIUM3DTILES_1_DEF WallSurface   gml_id                       string   gml_parent_id                string   citygml_target_uri           string   citygml_feature_role         string   citygml_feature_role_attr_name string   citygml_feature_role_attr_val string   gml_description              string   gml_name                     string   citygml_creationDate         string   citygml_terminationDate      string   externalReference{}.externalObject.name string   externalReference{}.externalObject.uri string   externalReference{}.informationSystem string   citygml_generalizes_to{}.xlink_href string   citygml_relative_to_terrain  string   citygml_relative_to_water    string   citygml_appearance{}.xlink_href string   citygml_level_of_detail{}    string   citygml_opening{}.xlink_href string   Area                         string   FaceUUID                     string   PolyAreaAbs                  string   PolyAreaRel                  string   ZMax                         string   ZMaxASL                      string   ZMin                         string   ZMinASL                      string
+CESIUM3DTILES_1_DEF Building   gml_id                       string   gml_parent_id                string   citygml_target_uri           string   citygml_feature_role         string   citygml_feature_role_attr_name string   citygml_feature_role_attr_val string   gml_description              string   gml_name                     string   citygml_creationDate         string   citygml_terminationDate      string   externalReference{}.externalObject.name string   externalReference{}.externalObject.uri string   externalReference{}.informationSystem string   citygml_generalizes_to{}.xlink_href string   citygml_relative_to_terrain  string   citygml_relative_to_water    string   citygml_appearance{}.xlink_href string   citygml_class                string   citygml_class_codeSpace      string   citygml_function{}           string   citygml_function{}.codeSpace string   citygml_usage{}              string   citygml_usage{}.codeSpace    string   citygml_year_of_construction string   citygml_year_of_demolition   string   citygml_roof_type            string   citygml_roof_type_codeSpace  string   citygml_measured_height      float   citygml_measured_height_units string   citygml_storeys_above_ground string   citygml_storeys_below_ground string   citygml_storey_heights_above_ground string   citygml_storey_heights_above_ground_units string   citygml_storey_heights_below_ground string   citygml_storey_heights_below_ground_units string   citygml_outer_building_installation{}.xlink_href string   citygml_interior_building_installation{}.xlink_href string   citygml_bounded_by{}.xlink_href string   citygml_level_of_detail{}    string   citygml_interior_room{}.xlink_href string   citygml_consists_of_building_part{}.xlink_href string   citygml_address{}.xlink_href string   BREC_BuildingHeightNN        string   BREC_RoofNames               string   BuildingHeightNN             string   CODE                         string   C_KAYTTARK                   string   GroundLevel                  string   HighestRoof                  string   ID                           string   I_KEROSAL                    string   I_KERRLKM                    string   KG_KRAKENN                   string   Katuosoite                   string   Kayttotarkoitus              string   Kerroksia                    string   Kerrosala                    string   Kokonaisala                  string   LowestRoof                   string   RATU                         string   REPAIRED                     string   Rakennuksen_tila             string   Rakennusaine                 string   RoofNames                    string   SUUNNITELMA_ALUE             string   TILA                         string   TILA_KOODI                   string   TYYPPI                       string   Tilavuus                     string   UUID                         string   VTJ_PRT                      string   Valmistunut                  string   result                       string   a                            string   bel_spl                      string   j                            string   v                            string   w                            string
 # -------------------------------------------------------------------------
-CESIUM3DTILES_1_DEF Building   gml_id                       string   gml_parent_id                string   citygml_target_uri           string   citygml_feature_role         string   citygml_feature_role_attr_name string   citygml_feature_role_attr_val string   gml_description              string   gml_name                     string   citygml_creationDate         string   citygml_terminationDate      string   externalReference{}.externalObject.name string   externalReference{}.externalObject.uri string   externalReference{}.informationSystem string   citygml_generalizes_to{}.xlink_href string   citygml_relative_to_terrain  string   citygml_relative_to_water    string   citygml_appearance{}.xlink_href string   citygml_class                string   citygml_class_codeSpace      string   citygml_function{}           string   citygml_function{}.codeSpace string   citygml_usage{}              string   citygml_usage{}.codeSpace    string   citygml_year_of_construction string   citygml_year_of_demolition   string   citygml_roof_type            string   citygml_roof_type_codeSpace  string   citygml_measured_height      float   citygml_measured_height_units string   citygml_storeys_above_ground string   citygml_storeys_below_ground string   citygml_storey_heights_above_ground string   citygml_storey_heights_above_ground_units string   citygml_storey_heights_below_ground string   citygml_storey_heights_below_ground_units string   citygml_outer_building_installation{}.xlink_href string   citygml_interior_building_installation{}.xlink_href string   citygml_bounded_by{}.xlink_href string   citygml_level_of_detail{}    string   citygml_interior_room{}.xlink_href string   citygml_consists_of_building_part{}.xlink_href string   citygml_address{}.xlink_href string   BREC_BuildingHeightNN        string   BREC_RoofNames               string   BuildingHeightNN             string   CODE                         string   C_KAYTTARK                   string   GroundLevel                  string   HighestRoof                  string   ID                           string   I_KEROSAL                    string   I_KERRLKM                    string   KG_KRAKENN                   string   Katuosoite                   string   Kayttotarkoitus              string   Kerroksia                    string   Kerrosala                    string   Kokonaisala                  string   LowestRoof                   string   RATU                         string   REPAIRED                     string   Rakennuksen_tila             string   Rakennusaine                 string   RoofNames                    string   SUUNNITELMA_ALUE             string   TILA                         string   TILA_KOODI                   string   TYYPPI                       string   Tilavuus                     string   UUID                         string   VTJ_PRT                      string   Valmistunut                  string   result                       string   A                            string   Bel_SPL                      string   J                            string   V                            string   W                            string
+CESIUM3DTILES_2_DEF Building   gml_id                       string   gml_parent_id                string   citygml_target_uri           string   citygml_feature_role         string   citygml_feature_role_attr_name string   citygml_feature_role_attr_val string   gml_description              string   gml_name                     string   citygml_creationDate         string   citygml_terminationDate      string   externalReference{}.externalObject.name string   externalReference{}.externalObject.uri string   externalReference{}.informationSystem string   citygml_generalizes_to{}.xlink_href string   citygml_relative_to_terrain  string   citygml_relative_to_water    string   citygml_appearance{}.xlink_href string   citygml_class                string   citygml_class_codeSpace      string   citygml_function{}           string   citygml_function{}.codeSpace string   citygml_usage{}              string   citygml_usage{}.codeSpace    string   citygml_year_of_construction string   citygml_year_of_demolition   string   citygml_roof_type            string   citygml_roof_type_codeSpace  string   citygml_measured_height      float   citygml_measured_height_units string   citygml_storeys_above_ground string   citygml_storeys_below_ground string   citygml_storey_heights_above_ground string   citygml_storey_heights_above_ground_units string   citygml_storey_heights_below_ground string   citygml_storey_heights_below_ground_units string   citygml_outer_building_installation{}.xlink_href string   citygml_interior_building_installation{}.xlink_href string   citygml_bounded_by{}.xlink_href string   citygml_level_of_detail{}    string   citygml_interior_room{}.xlink_href string   citygml_consists_of_building_part{}.xlink_href string   citygml_address{}.xlink_href string   BREC_BuildingHeightNN        string   BREC_RoofNames               string   BuildingHeightNN             string   CODE                         string   C_KAYTTARK                   string   GroundLevel                  string   HighestRoof                  string   ID                           string   I_KEROSAL                    string   I_KERRLKM                    string   KG_KRAKENN                   string   Katuosoite                   string   Kayttotarkoitus              string   Kerroksia                    string   Kerrosala                    string   Kokonaisala                  string   LowestRoof                   string   RATU                         string   REPAIRED                     string   Rakennuksen_tila             string   Rakennusaine                 string   RoofNames                    string   SUUNNITELMA_ALUE             string   TILA                         string   TILA_KOODI                   string   TYYPPI                       string   Tilavuus                     string   UUID                         string   VTJ_PRT                      string   Valmistunut                  string   bel_spl                      string   a                            string   j                            string   v                            string   w                            string
+# -------------------------------------------------------------------------
+JSON_1_DEF Building   gml_id                       string   gml_parent_id                string   citygml_target_uri           string   citygml_feature_role         string   citygml_feature_role_attr_name string   citygml_feature_role_attr_val string   gml_description              string   gml_name                     string   citygml_creationDate         string   citygml_terminationDate      string   externalReference{}.externalObject.name string   externalReference{}.externalObject.uri string   externalReference{}.informationSystem string   citygml_generalizes_to{}.xlink_href string   citygml_relative_to_terrain  string   citygml_relative_to_water    string   citygml_appearance{}.xlink_href string   citygml_class                string   citygml_class_codeSpace      string   citygml_function{}           string   citygml_function{}.codeSpace string   citygml_usage{}              string   citygml_usage{}.codeSpace    string   citygml_year_of_construction string   citygml_year_of_demolition   string   citygml_roof_type            string   citygml_roof_type_codeSpace  string   citygml_measured_height      float   citygml_measured_height_units string   citygml_storeys_above_ground string   citygml_storeys_below_ground string   citygml_storey_heights_above_ground string   citygml_storey_heights_above_ground_units string   citygml_storey_heights_below_ground string   citygml_storey_heights_below_ground_units string   citygml_outer_building_installation{}.xlink_href string   citygml_interior_building_installation{}.xlink_href string   citygml_bounded_by{}.xlink_href string   citygml_level_of_detail{}    string   citygml_interior_room{}.xlink_href string   citygml_consists_of_building_part{}.xlink_href string   citygml_address{}.xlink_href string   BREC_BuildingHeightNN        string   BREC_RoofNames               string   BuildingHeightNN             string   CODE                         string   C_KAYTTARK                   string   GroundLevel                  string   HighestRoof                  string   ID                           string   I_KEROSAL                    string   I_KERRLKM                    string   KG_KRAKENN                   string   Katuosoite                   string   Kayttotarkoitus              string   Kerroksia                    string   Kerrosala                    string   Kokonaisala                  string   LowestRoof                   string   RATU                         string   REPAIRED                     string   Rakennuksen_tila             string   Rakennusaine                 string   RoofNames                    string   SUUNNITELMA_ALUE             string   TILA                         string   TILA_KOODI                   string   TYYPPI                       string   Tilavuus                     string   UUID                         string   VTJ_PRT                      string   Valmistunut                  string   result                       string
+# -------------------------------------------------------------------------
+JSON_2_DEF Building   gml_id                       string   gml_parent_id                string   citygml_target_uri           string   citygml_feature_role         string   citygml_feature_role_attr_name string   citygml_feature_role_attr_val string   gml_description              string   gml_name                     string   citygml_creationDate         string   citygml_terminationDate      string   externalReference{}.externalObject.name string   externalReference{}.externalObject.uri string   externalReference{}.informationSystem string   citygml_generalizes_to{}.xlink_href string   citygml_relative_to_terrain  string   citygml_relative_to_water    string   citygml_appearance{}.xlink_href string   citygml_class                string   citygml_class_codeSpace      string   citygml_function{}           string   citygml_function{}.codeSpace string   citygml_usage{}              string   citygml_usage{}.codeSpace    string   citygml_year_of_construction string   citygml_year_of_demolition   string   citygml_roof_type            string   citygml_roof_type_codeSpace  string   citygml_measured_height      float   citygml_measured_height_units string   citygml_storeys_above_ground string   citygml_storeys_below_ground string   citygml_storey_heights_above_ground string   citygml_storey_heights_above_ground_units string   citygml_storey_heights_below_ground string   citygml_storey_heights_below_ground_units string   citygml_outer_building_installation{}.xlink_href string   citygml_interior_building_installation{}.xlink_href string   citygml_bounded_by{}.xlink_href string   citygml_level_of_detail{}    string   citygml_interior_room{}.xlink_href string   citygml_consists_of_building_part{}.xlink_href string   citygml_address{}.xlink_href string   BREC_BuildingHeightNN        string   BREC_RoofNames               string   BuildingHeightNN             string   CODE                         string   C_KAYTTARK                   string   GroundLevel                  string   HighestRoof                  string   ID                           string   I_KEROSAL                    string   I_KERRLKM                    string   KG_KRAKENN                   string   Katuosoite                   string   Kayttotarkoitus              string   Kerroksia                    string   Kerrosala                    string   Kokonaisala                  string   LowestRoof                   string   RATU                         string   REPAIRED                     string   Rakennuksen_tila             string   Rakennusaine                 string   RoofNames                    string   SUUNNITELMA_ALUE             string   TILA                         string   TILA_KOODI                   string   TYYPPI                       string   Tilavuus                     string   UUID                         string   VTJ_PRT                      string   Valmistunut                  string   result                       string

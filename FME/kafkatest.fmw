@@ -1,0 +1,277 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    Command-line to run this workspace:
+#        "C:\Program Files\FME\fme.exe" C:\Users\Demo\CesiumCityGMLExp\FME\kafkatest.fmw
+#    
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   BEGIN_TCL=""
+#!   CATEGORY=""
+#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="1966.86 135.923"
+#!   DOC_TOP_LEFT="644.708 -530.463"
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="20632"
+#!   FME_DOCUMENT_GUID="4f2fe3b3-98bb-460b-bcd6-ccd9ffc609b2"
+#!   FME_DOCUMENT_PRIORGUID=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2020.1.3.0 (20201001 - Build 20632 - WIN64)"
+#!   LAST_SAVE_DATE="2021-01-22T15:29:48"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="37"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="YES"
+#!   TITLE=""
+#!   USAGE=""
+#!   USE_MARKDOWN=""
+#!   VIEW_POSITION="0 0"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="100"
+#! >
+#! <DATASETS>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <DEPENDENCIES>
+#! <PACKAGES>
+#! <PACKAGE
+#!   NAME="safe.kafka"
+#!   VERSION="1.1.2"
+#! />
+#! </PACKAGES>
+#! </DEPENDENCIES>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="2"
+#!   TYPE="Creator"
+#!   VERSION="5"
+#!   POSITION="644.70783449196551 -394.54061029496279"
+#!   BOUNDING_RECT="644.70783449196551 -394.54061029496279 514.00106825772946 71"
+#!   ORDER="500000000000174"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20632"
+#! >
+#!     <OUTPUT_FEAT NAME="CREATED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="Kafka" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="yes"/>
+#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="Kafka"/>
+#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="defaultPointMetadata"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="3"
+#!   TYPE="safe.kafka.KafkaConnector"
+#!   VERSION="2"
+#!   POSITION="1446.5250631905687 -459.46347215516107"
+#!   BOUNDING_RECT="1446.5250631905687 -459.46347215516107 454 71"
+#!   ORDER="500000000000184"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20632"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="Kafka" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_topic" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_connector_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="Kafka" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="Kafka" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="KafkaConnector"/>
+#!     <XFORM_PARM PARM_NAME="__kafka_action_multiparam" PARM_VALUE="__kafka_topics_list]test.arista.spatineo]__kafka_receive_mode]batch]__kafka_max_messages]&lt;Unused&gt;]__kafka_batch_size]10]__kafka_consumer_group_id]demo-group]__kafka_starting_offset]earliest]__kafka_partition]&lt;Unused&gt;]__kafka_custom_offset]&lt;Unused&gt;]__kafka_auto_commit]YES]__kafka_advanced_options_group]FME_DISCLOSURE_OPEN]__kafka_advanced_options]]__kafka_message_options_group]FME_DISCLOSURE_OPEN]__kafka_message_schema]avro]__kafka_value_encoding]&lt;Unused&gt;]__kafka_schema_registry]https://finest-citygml-exp:dm2mqmiionbkdiin@kafka-28a49ead-fvh-331-datatrials.aivencloud.com:12128]__kafka_attributes_to_add]&quot;_timestamp _topic _value&quot;]FME_CONTROLLER_QUERY_FILE]kafka_deps&lt;solidus&gt;Receive.fme"/>
+#!     <XFORM_PARM PARM_NAME="__kafka_brokers_group" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="__kafka_brokers_list" PARM_VALUE="kafka-28a49ead-fvh-331-datatrials.aivencloud.com:12125"/>
+#!     <XFORM_PARM PARM_NAME="__kafka_connection" PARM_VALUE="finest-citygml-exp"/>
+#!     <XFORM_PARM PARM_NAME="__kafka_credential_group" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="__kafka_credential_source" PARM_VALUE="webconn"/>
+#!     <XFORM_PARM PARM_NAME="__kafka_embed_connection_group" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="__kafka_operation_type" PARM_VALUE="Receive"/>
+#!     <XFORM_PARM PARM_NAME="__kafka_password" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="__kafka_request_group" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="__kafka_sasl_mechanisms" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="__kafka_security_group" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="__kafka_security_protocol" PARM_VALUE="SSL"/>
+#!     <XFORM_PARM PARM_NAME="__kafka_ssl_ca_location" PARM_VALUE="C:\Users\Demo\Downloads\cerf.ca"/>
+#!     <XFORM_PARM PARM_NAME="__kafka_username" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="4"
+#!   TYPE="AttributeRenamer"
+#!   VERSION="4"
+#!   POSITION="2157.57193909649 -459.46347215516107"
+#!   BOUNDING_RECT="2157.57193909649 -459.46347215516107 454 71"
+#!   ORDER="500000000000185"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20632"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="Kafka" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_topic" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_connector_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_3"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="5"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="3"
+#!   SOURCE_PORT_DESC="fo 0 CREATED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="6"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+
+FME_PYTHON_VERSION 37
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+WRITER_TYPE NULL
+WRITER_KEYWORD NULL_DEST
+NULL_DEST_DATASET null
+#! END_WB_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)kafkatest.log"
+LOG_APPEND YES
+LOG_TIMINGS YES
+LOG_FILTER_MASK -1
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME kafkatest
+MACRO FME_VIEWER_APP fmedatainspector
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+Tcl2 proc defaultPointMetadata_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
+MACRO defaultPointMetadata_XML     NOT_ACTIVATED
+MACRO defaultPointMetadata_CLASSIC NOT_ACTIVATED
+MACRO defaultPointMetadata_2D3D    2D_GEOMETRY
+MACRO defaultPointMetadata_COORDS  <Unused>
+INCLUDE [ if { {Geometry Object} == {Geometry Object} } {            puts {MACRO defaultPointMetadata_XML *} } ]
+INCLUDE [ if { {Geometry Object} == {2D Coordinate List} } {            puts {MACRO defaultPointMetadata_2D3D 2D_GEOMETRY};            puts {MACRO defaultPointMetadata_CLASSIC *} } ]
+INCLUDE [ if { {Geometry Object} == {3D Coordinate List} } {            puts {MACRO defaultPointMetadata_2D3D 3D_GEOMETRY};            puts {MACRO defaultPointMetadata_CLASSIC *} } ]
+INCLUDE [ if { {Geometry Object} == {2D Min/Max Box} } {            set comment {                We need to turn the COORDS which are                    minX minY maxX maxY                into a full polygon list of coordinates            };            set splitCoords [split [string trim {<Unused>}]];            if { [llength $splitCoords] > 4} {               set trimmedCoords {};               foreach item $splitCoords { if { $item != {} } {lappend trimmedCoords $item} };               set splitCoords $trimmedCoords;            };            if { [llength $splitCoords] != 4 } {                error {defaultPointMetadata: Coordinate list is expected to be a space delimited list of four numbers as 'minx miny maxx maxy' - `<Unused>' is invalid};            };            set minX [lindex $splitCoords 0];            set minY [lindex $splitCoords 1];            set maxX [lindex $splitCoords 2];            set maxY [lindex $splitCoords 3];            puts "MACRO defaultPointMetadata_COORDS $minX $minY $minX $maxY $maxX $maxY $maxX $minY $minX $minY";            puts {MACRO defaultPointMetadata_2D3D 2D_GEOMETRY};            puts {MACRO defaultPointMetadata_CLASSIC *} } ]
+FACTORY_DEF $(defaultPointMetadata_XML) CreationFactory    FACTORY_NAME defaultPointMetadata_XML_Creator    CREATE_AT_END yes    OUTPUT FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<space>dimension=<quote>2<quote><gt><lt>null<solidus><gt><lt><solidus>geometry<gt>)
+FACTORY_DEF $(defaultPointMetadata_CLASSIC) CreationFactory    FACTORY_NAME defaultPointMetadata_CLASSIC_Creator    $(defaultPointMetadata_2D3D) $(defaultPointMetadata_COORDS)    CREATE_AT_END yes    OUTPUT FEATURE_TYPE _____CREATED______
+FACTORY_DEF * TeeFactory    FACTORY_NAME defaultPointMetadata_Cloner    INPUT FEATURE_TYPE _____CREATED______        @Tcl2(defaultPointMetadata_CoordSysRemover)        @CoordSys()    NUMBER_OF_COPIES 1    COPY_NUMBER_ATTRIBUTE "Kafka"    OUTPUT FEATURE_TYPE defaultPointMetadata_CREATED        fme_feature_type defaultPointMetadata
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "defaultPointMetadata_CREATED Brancher -1 5"   INPUT FEATURE_TYPE defaultPointMetadata_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { KafkaConnector_CATCHER }    INPUT  FEATURE_TYPE defaultPointMetadata_CREATED    OUTPUT { FEATURE_TYPE KafkaConnector_INITIATOR }    OUTPUT { FEATURE_TYPE KafkaConnector       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)           __kafka_credential_source webconn     __kafka_connection finest-citygml-exp     __kafka_username <Unused>     __kafka_password <Unused>     __kafka_security_protocol SSL     __kafka_sasl_mechanisms <Unused>     __kafka_ssl_ca_location "C:\Users\Demo\Downloads\cerf.ca"     __kafka_brokers_list kafka-28a49ead-fvh-331-datatrials.aivencloud.com:12125     __kafka_operation_type Receive     __kafka_topics_list test.arista.spatineo     __kafka_receive_mode batch     __kafka_max_messages <Unused>     __kafka_batch_size 10     __kafka_consumer_group_id demo-group     __kafka_starting_offset earliest     __kafka_partition <Unused>     __kafka_custom_offset <Unused>     __kafka_auto_commit YES     __kafka_advanced_options ""     __kafka_message_schema avro     __kafka_value_encoding <Unused>     __kafka_schema_registry https://finest-citygml-exp:dm2mqmiionbkdiin@kafka-28a49ead-fvh-331-datatrials.aivencloud.com:12128     __kafka_attributes_to_add "_timestamp _topic _value"  }
+FACTORY_DEF {*} PythonFactory     INPUT { FEATURE_TYPE KafkaConnector }     PYTHON_NAMESPACE FMEOBJECTS     SYMBOL_NAME fmepy_kafka.KafkaConnector     OUTPUT { PYOUTPUT FEATURE_TYPE KafkaConnector_PROCESSED }
+FACTORY_DEF {*} TestFactory     FACTORY_NAME { KafkaConnector_ROUTER }     INPUT { FEATURE_TYPE KafkaConnector_PROCESSED }     TEST &fme_rejection_code == ""     OUTPUT { PASSED FEATURE_TYPE KafkaConnector_OUTPUT         @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)          }     OUTPUT { FAILED FEATURE_TYPE KafkaConnector_<REJECTED>         @RemoveAttributes(___fme_rejection_code___)          }
+FACTORY_DEF * TeeFactory   FACTORY_NAME "KafkaConnector INITIATOR Transformer Output Nuker"   INPUT FEATURE_TYPE KafkaConnector_INITIATOR
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME KafkaConnector_<Rejected> INPUT FEATURE_TYPE KafkaConnector_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, KafkaConnector<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeRenamer_3    INPUT  FEATURE_TYPE KafkaConnector_OUTPUT 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
