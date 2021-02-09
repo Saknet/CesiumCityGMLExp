@@ -10,19 +10,13 @@
 <xs:import namespace="http://www.opengis.net/swe/2.0" schemaLocation="http://schemas.opengis.net/sweCommon/2.0/swe.xsd"/>
 <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
 
-  <xs:complexType name="Asset" substitutionGroup="core:_GenericApplicationPropertyOfCityObject">
+  <xs:complexType name="Sensor"substitutionGroup="core:_GenericApplicationPropertyOfCityObject">
       <xs:sequence>
           <xs:element name="linkeddata" type="xs:string"/>
-          <xs:element name="sensor" type="Sensor" maxOccurs="unbounded"/>
           <xs:element name="process" type="Process" maxOccurs="unbounded"/>
           <xs:element name="location" type="Location" maxOccurs="unbounded"/>
-          <xs:element name="accessControl" type="AccessControl"/>
-      </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="Sensor">
-      <xs:sequence>
-          <xs:element name="linkeddata" type="xs:string"/>
-          <xs:element name="timeseries" type="TimeseriesTVP"/>
+          <xs:element name="accessControl" type="AccessControl" maxOccurs="unbounded"/>
+          <xs:element name="timeseries" type="TimeseriesTVP" maxOccurs="unbounded"/>
       </xs:sequence>
   </xs:complexType>
   <xs:complexType name="Process">
