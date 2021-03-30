@@ -2,7 +2,7 @@ Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOi
 
 var viewer = new Cesium.Viewer('cesiumContainer');
 var tileset = viewer.scene.primitives.add(new Cesium.Cesium3DTileset({
-    url: "../StreetLights/Building/tileset.json"
+    url: "../Building/tileset.json"
 }))
 
 Cesium.when(tileset.readyPromise).then(function (tileset) {viewer.flyTo(tileset)})
@@ -123,6 +123,7 @@ function lumen() {
         color: {
             conditions: [
                 ['${lumen} === null', 'color("white")'],
+                ['${light_name} === "pole"', 'color("silver")'],
                 ['Number(${lumen}) === undefined', 'color("white")'],
                 ['Number(${lumen}) >= 8000', 'color("teal")'],
                 ['Number(${lumen}) >= 5000', 'color("yellow")'],
