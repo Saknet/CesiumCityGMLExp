@@ -1,179 +1,140 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-	xmlns:tsml="http://www.opengis.net/timeseriesml/1.2" 
-	xmlns:gml="http://www.opengis.net/gml/3.2" 
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	xmlns:sensorasset="http://www.citygml.org/ade/sensorasset" targetNamespace="http://www.citygml.org/ade/sensorasset"
+	xmlns:gml="http://www.opengis.net/gml" 
 	xmlns:core="http://www.opengis.net/citygml/2.0"
-	xmlns:swe="http://www.opengis.net/swe/2.0" 
-	elementFormDefault="qualified" 
-	targetNamespace="http://www.opengis.net/timeseriesml/1.2" version="1.2.0">
-<xs:include schemaLocation="timeseriesMetadata.xsd"/>
-<xs:import namespace="http://www.opengis.net/swe/2.0" schemaLocation="http://schemas.opengis.net/sweCommon/2.0/swe.xsd"/>
-<xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+	xmlns:bldg="http://www.opengis.net/citygml/building/2.0">
+<import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd"/>
+<import namespace="http://www.opengis.net/citygml/2.0" schemaLocation="http://schemas.opengis.net/citygml/2.0/cityGMLBase.xsd" />
+<import namespace="http://www.opengis.net/citygml/building/2.0" schemaLocation="http://schemas.opengis.net/citygml/building/2.0/building.xsd"/>
+  
+  <element name="sensor" type="gml:ReferenceType" substitutionGroup="bldg:_GenericApplicationPropertyOfAbstractBuilding" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
+  
+  <element name="Sensor" type="sensorasset:SensorType" substitutionGroup="core:_CityObject" form="qualified"/>
+  <complexType name="SensorType">
+    <complexContent>
+      <extension base="core:AbstractCityObjectType">
+        <sequence>
+		  <element name="timeValuePair" type="sensorasset:TimeValuePairPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
+		  <element name="location" type="sensorasset:LocationPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
+		  <element name="accessControl" type="sensorasset:AccessControlPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
+		  <element name="process" type="sensorasset:ProcessPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
+          <element name="description" type="string" minOccurs="0"/>
+		  <element name="uom" type="string" minOccurs="0"/>
+		  <element name="located" minOccurs="0" type="gml:ReferenceType" form="qualified">
+            <annotation>
+              <appinfo>
+                <gml:targetElement>bldg:_Building</gml:targetElement>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+	  </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="SensorPropertyType">
+    <sequence>
+      <element ref="sensorasset:Sensor" minOccurs="0"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType>     
+  
+  <element name="Timeseries" substitutionGroup="gml:_Feature" type="sensorasset:TimeseriesType"/>
+  <complexType name="TimeseriesType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+		  <element name="uom" type="string" minOccurs="0"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="TimeseriesPropertyType">
+    <sequence>
+      <element ref="sensorasset:Timeseries" minOccurs="0"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType> 
 
-  <xs:complexType name="Sensor"substitutionGroup="core:_GenericApplicationPropertyOfCityObject">
-      <xs:sequence>
-          <xs:element name="linkeddata" type="xs:string"/>
-          <xs:element name="process" type="Process" maxOccurs="unbounded"/>
-          <xs:element name="location" type="Location" maxOccurs="unbounded"/>
-          <xs:element name="accessControl" type="AccessControl" maxOccurs="unbounded"/>
-          <xs:element name="timeseries" type="TimeseriesTVP" maxOccurs="unbounded"/>
-      </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="Process">
-      <xs:sequence>
-          <xs:element name="name" type="xs:string"/>
-          <xs:element name="description" type="xs:string"/>
-          <xs:element name="startTime" type="xs:dateTime"/>
-          <xs:element name="api" type="xs:string"/>
-          <xs:element name="status" type="xs:string"/>
-      </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="Location">
-      <xs:sequence>
-          <xs:element name="longitude" type="xs:double"/>
-          <xs:element name="latitude" type="xs:double"/>
-          <xs:element name="height" type="xs:double"/>
-          <xs:element name="time" type="xs:dateTime"/>
-      </xs:sequence>
-  </xs:complexType>
-    <xs:complexType name="AccessControl">
-      <xs:sequence>
-          <xs:element name="email" type="xs:string"/>
-          <xs:element name="role" type="xs:string"/>
-          <xs:element name="permissions" type="xs:string"/>
-      </xs:sequence>
-  </xs:complexType>
+  <element name="TimeValuePair" substitutionGroup="gml:_Feature" type="sensorasset:TimeValuePairType"/>
+  <complexType name="TimeValuePairType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+		  <element name="time" type="dateTime" minOccurs="0"/>
+		  <element name="value" type="string" minOccurs="0"/>
+		  <element name="sensor" type="sensorasset:SensorPropertyType" minOccurs="0" form="qualified"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="TimeValuePairPropertyType">
+    <sequence>
+      <element ref="sensorasset:TimeValuePair" minOccurs="0"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType> 
+  
+  <element name="Location" substitutionGroup="gml:_Feature" type="sensorasset:LocationType"/>
+  <complexType name="LocationType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="longitude" type="double" minOccurs="0"/>
+          <element name="latitude" type="double" minOccurs="0"/>
+          <element name="height" type="gml:LengthType" minOccurs="0"/>
+          <element name="time" type="dateTime" minOccurs="0"/>
+		  <element name="description" type="string" minOccurs="0"/>
+		  <element name="sensor" type="sensorasset:SensorPropertyType" minOccurs="0" form="qualified"/>
+		  <element minOccurs="0" name="realization" type="gml:PointPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="LocationPropertyType">
+    <sequence>
+      <element ref="sensorasset:Location" minOccurs="0"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType> 
 
-<xs:annotation>
-<xs:documentation>The Time Value Pair (TVP) Encoding schema contains types suitable for encoding TimeSeries (both Measurement and Categorical) in a sequence of time, value pairs. Note that this time, value pair encoding of timeseries encoding takes the name 'Timeseries'. The domain range encoding equivalent takes the name TimeseriesDomainRange. </xs:documentation>
-</xs:annotation>
-<xs:element name="CategoricalTVP" type="tsml:CategoricalTVPType" substitutionGroup="tsml:TimeValuePair">
-<xs:annotation>
-<xs:documentation>CategoricalTVP is the encoding for time,value pairs where the value is a category.</xs:documentation>
-</xs:annotation>
-</xs:element>
-<xs:complexType name="CategoricalTVPType">
-<xs:complexContent>
-<xs:extension base="tsml:TimeValuePairType">
-<xs:sequence>
-<xs:element name="value" type="swe:CategoryPropertyType" nillable="true">
-<xs:annotation>
-<xs:documentation>The categorical value of the data point (e.g. 'High')</xs:documentation>
-</xs:annotation>
-</xs:element>
-</xs:sequence>
-</xs:extension>
-</xs:complexContent>
-</xs:complexType>
-<xs:complexType name="CategoricalTVPPropertyType">
-<xs:sequence minOccurs="0">
-<xs:element ref="tsml:CategoricalTVP"/>
-</xs:sequence>
-<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
-</xs:complexType>
-<xs:element name="MeasurementTVP" type="tsml:MeasurementTVPType" substitutionGroup="tsml:TimeValuePair">
-<xs:annotation>
-<xs:documentation>MeasurementTVP is the encoding for time,value pairs where the value is a measure.</xs:documentation>
-</xs:annotation>
-</xs:element>
-<xs:complexType name="MeasurementTVPType">
-<xs:complexContent>
-<xs:extension base="tsml:TimeValuePairType">
-<xs:sequence>
-<xs:element name="value" type="tsml:MeasureType" nillable="true">
-<xs:annotation>
-<xs:documentation>The measurement value for this data point (e.g. 5.3m)</xs:documentation>
-</xs:annotation>
-</xs:element>
-</xs:sequence>
-</xs:extension>
-</xs:complexContent>
-</xs:complexType>
-<xs:complexType name="MeasurementTVPPropertyType">
-<xs:sequence minOccurs="0">
-<xs:element ref="tsml:MeasurementTVP"/>
-</xs:sequence>
-<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
-</xs:complexType>
-<xs:element name="TimeseriesTVP" type="tsml:TimeseriesTVPType" substitutionGroup="core:_GenericApplicationPropertyOfCityObject">
-<xs:annotation>
-<xs:documentation>The core class for the timeseries time, value pair encoding.</xs:documentation>
-</xs:annotation>
-</xs:element>
-<xs:complexType name="TimeseriesTVPType">
-<xs:complexContent>
-<xs:extension base="gml:AbstractGMLType">
-<xs:sequence>
-<xs:element name="metadata" type="tsml:TimeseriesMetadataPropertyType" minOccurs="0" maxOccurs="1">
-<xs:annotation>
-<xs:documentation>Metadata about the timeseries</xs:documentation>
-</xs:annotation>
-</xs:element>
-<xs:element name="defaultPointMetadata" minOccurs="0" maxOccurs="1">
-<xs:annotation>
-<xs:documentation>Default metadata for each point in the timeseries (can be over-ridden on a per-point basis).</xs:documentation>
-</xs:annotation>
-<xs:complexType>
-<xs:complexContent>
-<xs:extension base="gml:AbstractMemberType">
-<xs:sequence>
-<xs:element ref="tsml:PointMetadata"/>
-</xs:sequence>
-</xs:extension>
-</xs:complexContent>
-</xs:complexType>
-</xs:element>
-<xs:element name="point" type="tsml:TimeValuePairPropertyType" minOccurs="0" maxOccurs="unbounded">
-<xs:annotation>
-<xs:documentation>Data points (time, value pairs) for the timeseries.</xs:documentation>
-</xs:annotation>
-</xs:element>
-</xs:sequence>
-</xs:extension>
-</xs:complexContent>
-</xs:complexType>
-<xs:complexType name="TimeseriesTVPPropertyType">
-<xs:sequence minOccurs="0">
-<xs:element ref="tsml:TimeseriesTVP"/>
-</xs:sequence>
-<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
-</xs:complexType>
-<xs:element name="TimeValuePair" type="tsml:TimeValuePairType" substitutionGroup="gml:AbstractObject" abstract="true">
-<xs:annotation>
-<xs:documentation>A base class for different time, value pair implementations.</xs:documentation>
-</xs:annotation>
-</xs:element>
-<xs:complexType name="TimeValuePairType" abstract="true">
-<xs:sequence>
-<xs:element name="metadata" type="tsml:PointMetadataPropertyType" minOccurs="0" maxOccurs="1">
-<xs:annotation>
-<xs:documentation>Point metadata for this point (over-rides any default point metadata for the timeseries).</xs:documentation>
-</xs:annotation>
-</xs:element>
-<xs:element name="time" type="gml:TimePositionType" minOccurs="0" maxOccurs="1">
-<xs:annotation>
-<xs:documentation>Time component of the time value pair. (A point on the timeseries).</xs:documentation>
-</xs:annotation>
-</xs:element>
-</xs:sequence>
-</xs:complexType>
-<xs:complexType name="TimeValuePairPropertyType">
-<xs:sequence>
-<xs:element ref="tsml:TimeValuePair"/>
-</xs:sequence>
-<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
-</xs:complexType>
-<xs:complexType name="MeasureType">
-<xs:annotation>
-<xs:documentation>gml:MeasureType supports recording an amount encoded as a value of XML Schema double, together with a units of measure indicated by an attribute uom, short for "units Of measure". The value of the uom attribute identifies a reference system for the amount, usually a ratio or interval scale. OGC TimeSeriesML alters this definition to make uom optional as this value is defaulted for a series.</xs:documentation>
-</xs:annotation>
-<xs:simpleContent>
-<xs:extension base="xs:double">
-<xs:attribute name="uom" type="gml:UomSymbol"/>
-</xs:extension>
-</xs:simpleContent>
-</xs:complexType>
-</xs:schema>
+  <element name="AccessControl" substitutionGroup="gml:_Feature" type="sensorasset:AccessControlType"/>
+  <complexType name="AccessControlType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+		  <element name="role" type="string" minOccurs="0"/>
+		  <element name="email" type="string" minOccurs="0"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AccessControlPropertyType">
+    <sequence>
+      <element ref="sensorasset:AccessControl" minOccurs="0"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType>  
+  
+  <element name="Process" substitutionGroup="gml:_Feature" type="sensorasset:ProcessType"/>
+  <complexType name="ProcessType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="name" type="string" minOccurs="0"/>
+          <element name="description" type="string" minOccurs="0"/>
+          <element name="startTime" type="dateTime" minOccurs="0"/>
+		  <element name="api" type="string" minOccurs="0"/>
+		  <element name="status" type="string" minOccurs="0"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="ProcessPropertyType">
+    <sequence minOccurs="0">
+      <element ref="sensorasset:Process"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType>   
+   
+</schema>

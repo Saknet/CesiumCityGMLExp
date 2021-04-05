@@ -29,7 +29,10 @@
 		"citygml_year_of_demolition" : {},
 		"citygml_roof_type" : {},
 		"citygml_roof_type_codeSpace" : {},
-		"citygml_measured_height" : {},
+		"citygml_measured_height" : {
+			"minimum" : 2.5,
+			"maximum" : 24.7
+		},
 		"citygml_measured_height_units" : {},
 		"citygml_storeys_above_ground" : {},
 		"citygml_storeys_below_ground" : {},
@@ -157,11 +160,17 @@
 		"sensors" : {},
 		"sensorasset" : {}
 	},
-	"geometricError" : 0,
+	"geometricError" : 128.1468854690902,
 	"root" : {
 		"boundingVolume" : {
-			"box" : [ 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1 ]
+			"box" : [ 14189015.667671865, 4010797.889145392, 2756580.3814721904, 22623695.799373526, 0, 0, 0, 5336665.06085524, 0, 0, 0, 5513160.762944381 ]
 		},
-		"refine" : "ADD"
+		"refine" : "ADD",
+		"content" : {
+			"boundingVolume" : {
+				"box" : [ 14189015.667671865, 4010797.889145392, 2756580.3814721904, 22623695.799373526, 0, 0, 0, 5336665.06085524, 0, 0, 0, 5513160.762944381 ]
+			},
+			"url" : "data/data0.b3dm"
+		}
 	}
 }
