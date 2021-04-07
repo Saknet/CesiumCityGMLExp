@@ -15,7 +15,7 @@
     <complexContent>
       <extension base="core:AbstractCityObjectType">
         <sequence>
-		  <element name="timeValuePair" type="sensorasset:TimeValuePairPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
+		  <element name="timeseriesTVP" type="sensorasset:TimeseriesTVPPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
 		  <element name="location" type="sensorasset:LocationPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
 		  <element name="accessControl" type="sensorasset:AccessControlPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
 		  <element name="process" type="sensorasset:ProcessPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
@@ -39,19 +39,21 @@
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
   </complexType>     
   
-  <element name="Timeseries" substitutionGroup="gml:_Feature" type="sensorasset:TimeseriesType"/>
-  <complexType name="TimeseriesType">
+  <element name="TimeseriesTVP" substitutionGroup="gml:_Feature" type="sensorasset:TimeseriesTVPType"/>
+  <complexType name="TimeseriesTVPType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
-		  <element name="uom" type="string" minOccurs="0"/>
+		  <element name="timeValuePair" type="sensorasset:TimeValuePairPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
+		  <element name="defaultPointMetadata" type="sensorasset:PointMetadataPropertyType" maxOccurs="1" minOccurs="0" form="qualified"/>
+		  <element name="sensor" type="sensorasset:SensorPropertyType" minOccurs="0" form="qualified"/>
         </sequence>
       </extension>
     </complexContent>
   </complexType>
-  <complexType name="TimeseriesPropertyType">
+  <complexType name="TimeseriesTVPPropertyType">
     <sequence>
-      <element ref="sensorasset:Timeseries" minOccurs="0"/>
+      <element ref="sensorasset:TimeseriesTVP" minOccurs="0"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
   </complexType> 
@@ -63,7 +65,7 @@
         <sequence>
 		  <element name="time" type="dateTime" minOccurs="0"/>
 		  <element name="value" type="string" minOccurs="0"/>
-		  <element name="sensor" type="sensorasset:SensorPropertyType" minOccurs="0" form="qualified"/>
+		  <element name="timeseries" type="sensorasset:TimeseriesTVPPropertyType" minOccurs="0" form="qualified"/>
         </sequence>
       </extension>
     </complexContent>
@@ -71,6 +73,24 @@
   <complexType name="TimeValuePairPropertyType">
     <sequence>
       <element ref="sensorasset:TimeValuePair" minOccurs="0"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+  </complexType> 
+  
+  <element name="PointMetadata" substitutionGroup="gml:_Feature" type="sensorasset:PointMetadataType"/>
+  <complexType name="PointMetadataType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+		  <element name="uom" type="string" minOccurs="0"/>
+		  <element name="timeseries" type="sensorasset:TimeseriesTVPPropertyType" minOccurs="0" form="qualified"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="PointMetadataPropertyType">
+    <sequence>
+      <element ref="sensorasset:PointMetadata" minOccurs="0"/>
     </sequence>
     <attributeGroup ref="gml:AssociationAttributeGroup"/>
   </complexType> 
