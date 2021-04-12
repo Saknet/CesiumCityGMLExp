@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CityModel xmlns:brid="http://www.opengis.net/citygml/bridge/2.0" xmlns:tran="http://www.opengis.net/citygml/transportation/2.0" xmlns:frn="http://www.opengis.net/citygml/cityfurniture/2.0" xmlns:wtr="http://www.opengis.net/citygml/waterbody/2.0" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:veg="http://www.opengis.net/citygml/vegetation/2.0" xmlns:sensorasset="http://www.citygml.org/ade/sensorasset" xmlns:tun="http://www.opengis.net/citygml/tunnel/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tex="http://www.opengis.net/citygml/texturedsurface/2.0" xmlns:gml="http://www.opengis.net/gml" xmlns:gen="http://www.opengis.net/citygml/generics/2.0" xmlns:dem="http://www.opengis.net/citygml/relief/2.0" xmlns:app="http://www.opengis.net/citygml/appearance/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil20lang="http://www.w3.org/2001/SMIL20/Language" xmlns:pbase="http://www.opengis.net/citygml/profiles/base/2.0" xmlns:smil20="http://www.w3.org/2001/SMIL20/" xmlns:bldg="http://www.opengis.net/citygml/building/2.0" xmlns:grp="http://www.opengis.net/citygml/cityobjectgroup/2.0" xmlns="http://www.opengis.net/citygml/2.0" xmlns:luse="http://www.opengis.net/citygml/landuse/2.0" xmlns:xAL="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" gml:id="fme-gen-2c5dc203-4c92-4eba-95ee-913342eb8ca7">
+<CityModel xmlns:brid="http://www.opengis.net/citygml/bridge/2.0" xmlns:tran="http://www.opengis.net/citygml/transportation/2.0" xmlns:frn="http://www.opengis.net/citygml/cityfurniture/2.0" xmlns:wtr="http://www.opengis.net/citygml/waterbody/2.0" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:veg="http://www.opengis.net/citygml/vegetation/2.0" xmlns:sensorasset="http://www.citygml.org/ade/sensorasset" xmlns:tun="http://www.opengis.net/citygml/tunnel/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tex="http://www.opengis.net/citygml/texturedsurface/2.0" xmlns:gml="http://www.opengis.net/gml" xmlns:gen="http://www.opengis.net/citygml/generics/2.0" xmlns:dem="http://www.opengis.net/citygml/relief/2.0" xmlns:app="http://www.opengis.net/citygml/appearance/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil20lang="http://www.w3.org/2001/SMIL20/Language" xmlns:pbase="http://www.opengis.net/citygml/profiles/base/2.0" xmlns:smil20="http://www.w3.org/2001/SMIL20/" xmlns:bldg="http://www.opengis.net/citygml/building/2.0" xmlns:grp="http://www.opengis.net/citygml/cityobjectgroup/2.0" xmlns="http://www.opengis.net/citygml/2.0" xmlns:luse="http://www.opengis.net/citygml/landuse/2.0" xmlns:xAL="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" gml:id="fme-gen-42e55b12-444d-41c9-bc7d-09b850de2b1b">
 <gml:boundedBy>
 <gml:Envelope srsName="EPSG:3879" srsDimension="3">
 <gml:lowerCorner>25500635.226 6679062.999 2.35</gml:lowerCorner>
@@ -321,132 +321,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_e07faab2-91ba-439f-a09d-0d45fd993dcc_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>9.46</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>e07faab2-91ba-439f-a09d-0d45fd993dcc</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>7.54</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>15.84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>4.97</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>13.27</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_496fa03f-d8d0-4da6-a437-02c7a5e71387" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_e07faab2-91ba-439f-a09d-0d45fd993dcc_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_e07faab2-91ba-439f-a09d-0d45fd993dcc_2_poly_0_">
-<gml:posList>25500957.963 6679478.22 13.271 25500957.963 6679478.22 15.84 25500961.596 6679478.814 15.84 25500961.596 6679478.814 13.27 25500957.963 6679478.22 13.271</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_b4ef2d26-e88c-4b87-babc-98692610456e_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>58.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>b4ef2d26-e88c-4b87-babc-98692610456e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>6.89</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>15.19</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>8.3</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_70a6d036-4279-4414-bad4-9a10d2f276d6" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_b4ef2d26-e88c-4b87-babc-98692610456e_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_b4ef2d26-e88c-4b87-babc-98692610456e_2_poly_0_">
-<gml:posList>25500913.019 6679473.274 8.3 25500914.795 6679462.409 8.3 25500914.795 6679462.409 12.49 25500913.638 6679469.487 15.189 25500913.638 6679469.487 13.87 25500913.019 6679473.274 12.3 25500913.019 6679473.274 8.3</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_f043871e-b0a2-422e-affa-ce019a737c90_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>397.13</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>f043871e-b0a2-422e-affa-ce019a737c90</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>4.19</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>12.49</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>8.3</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_eed0eafd-da09-447e-98e4-654061b05a8c" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_f043871e-b0a2-422e-affa-ce019a737c90_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_f043871e-b0a2-422e-affa-ce019a737c90_2_poly_0_">
-<gml:posList>25501008.353 6679477.703 8.3 25501008.353 6679477.703 12.489 25500914.795 6679462.409 12.49 25500914.795 6679462.409 8.3 25501008.353 6679477.703 8.3</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_d2374109-a853-4b9c-82c8-bd947f8207d2_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -540,6 +414,90 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_e07faab2-91ba-439f-a09d-0d45fd993dcc_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>9.46</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>e07faab2-91ba-439f-a09d-0d45fd993dcc</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>7.54</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>15.84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>4.97</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>13.27</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_496fa03f-d8d0-4da6-a437-02c7a5e71387" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_e07faab2-91ba-439f-a09d-0d45fd993dcc_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_e07faab2-91ba-439f-a09d-0d45fd993dcc_2_poly_0_">
+<gml:posList>25500957.963 6679478.22 13.271 25500957.963 6679478.22 15.84 25500961.596 6679478.814 15.84 25500961.596 6679478.814 13.27 25500957.963 6679478.22 13.271</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_b4ef2d26-e88c-4b87-babc-98692610456e_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>58.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>b4ef2d26-e88c-4b87-babc-98692610456e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>6.89</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>15.19</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>8.3</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_70a6d036-4279-4414-bad4-9a10d2f276d6" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_b4ef2d26-e88c-4b87-babc-98692610456e_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_b4ef2d26-e88c-4b87-babc-98692610456e_2_poly_0_">
+<gml:posList>25500913.019 6679473.274 8.3 25500914.795 6679462.409 8.3 25500914.795 6679462.409 12.49 25500913.638 6679469.487 15.189 25500913.638 6679469.487 13.87 25500913.019 6679473.274 12.3 25500913.019 6679473.274 8.3</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:GroundSurface gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_06f82bbd-66d7-406e-9c6b-fab5fba16b4b_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -569,8 +527,50 @@
 </bldg:lod2MultiSurface>
 </bldg:GroundSurface>
 </bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_f043871e-b0a2-422e-affa-ce019a737c90_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>397.13</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>f043871e-b0a2-422e-affa-ce019a737c90</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>4.19</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>12.49</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>8.3</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_eed0eafd-da09-447e-98e4-654061b05a8c" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_f043871e-b0a2-422e-affa-ce019a737c90_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_058efb9d-dad1-40d8-9940-082d2a21f5a9_f043871e-b0a2-422e-affa-ce019a737c90_2_poly_0_">
+<gml:posList>25501008.353 6679477.703 8.3 25501008.353 6679477.703 12.489 25500914.795 6679462.409 12.49 25500914.795 6679462.409 8.3 25501008.353 6679477.703 8.3</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-f500a97a-629e-4587-bb23-68016693ec1f"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-b9c78fc7-d36e-44b9-9b51-daf7e628ef6e"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -581,7 +581,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-47146897-28e9-4f2c-b386-4115dc16ea55"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-150e9ad6-a0d6-4844-af61-a54fd2cc7dd5"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -816,6 +816,48 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_e87e1720-d6a2-4d76-80ad-aec36167bf71_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>141.53</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>e87e1720-d6a2-4d76-80ad-aec36167bf71</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>13.26</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>17.93</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>13.26</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>17.93</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_47fb2838-fb5d-40c3-8d28-5804c2103c8f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_e87e1720-d6a2-4d76-80ad-aec36167bf71_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_e87e1720-d6a2-4d76-80ad-aec36167bf71_2_poly_0_">
+<gml:posList>25500926.603 6679199.371 17.93 25500933.027 6679201.807 17.93 25500932.404 6679203.451 17.93 25500934.029 6679204.067 17.93 25500931.473 6679210.723 17.93 25500931.311 6679210.66 17.93 25500928.414 6679218.201 17.93 25500920.535 6679215.176 17.93 25500926.603 6679199.371 17.93</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_8a9324f3-778f-4ff5-b8b3-546fb6dbb9ce_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -1027,6 +1069,57 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_f1ce0cc2-c887-4f9b-88eb-3557478f29f9_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>39.76</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>f1ce0cc2-c887-4f9b-88eb-3557478f29f9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>67.86</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>47.26</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>27.49</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>32.16</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>25.11</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>29.78</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_fb4dce96-a379-4c54-9d7a-f71721060293" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_f1ce0cc2-c887-4f9b-88eb-3557478f29f9_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_f1ce0cc2-c887-4f9b-88eb-3557478f29f9_2_poly_0_0_">
+<gml:posList>25500949.569 6679180.748 32.161 25500951.978 6679181.667 29.779 25500947.704 6679192.166 29.781 25500945.299 6679191.248 32.159 25500949.569 6679180.748 32.161</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_f1ce0cc2-c887-4f9b-88eb-3557478f29f9_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_f1ce0cc2-c887-4f9b-88eb-3557478f29f9_2_poly_1_0_">
+<gml:posList>25500943.638 6679195.325 32.16 25500946.048 6679196.244 29.78 25500944.204 6679200.769 29.78 25500941.795 6679199.85 32.16 25500943.638 6679195.325 32.16</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_09f40a93-ed91-4b8e-bb65-8f78ae23ea06_2">
@@ -1902,6 +1995,36 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_09b98cd9-01ab-4a82-abfc-06227016e9e3_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>3381.58</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>09b98cd9-01ab-4a82-abfc-06227016e9e3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.67</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_9b301859-71de-4357-9707-b02fbeacb419" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_09b98cd9-01ab-4a82-abfc-06227016e9e3_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_09b98cd9-01ab-4a82-abfc-06227016e9e3_2_poly_0_">
+<gml:posList>25500999.83 6679183.74 4.67 25500999.938 6679183.46 4.67 25500996.697 6679182.216 4.67 25500996.484 6679182.134 4.67 25500958.786 6679167.66 4.67 25500952.822 6679165.37 4.67 25500952.215 6679166.946 4.67 25500949.059 6679165.735 4.67 25500946.642 6679172.004 4.67 25500946.077 6679171.83 4.67 25500943.522 6679178.421 4.67 25500941.485 6679183.676 4.67 25500941.4 6679183.643 4.67 25500940.529 6679183.302 4.67 25500939.558 6679185.822 4.67 25500940.434 6679186.159 4.67 25500940.537 6679186.199 4.67 25500936.117 6679197.664 4.67 25500935.822 6679198.428 4.67 25500936.435 6679198.663 4.67 25500935.186 6679201.915 4.67 25500934.317 6679204.176 4.67 25500934.029 6679204.067 4.67 25500932.404 6679203.451 4.67 25500933.027 6679201.807 4.67 25500926.603 6679199.371 4.67 25500920.535 6679215.176 4.67 25500928.414 6679218.201 4.67 25500931.311 6679210.66 4.67 25500931.473 6679210.723 4.67 25500932.216 6679211.008 4.67 25500931.507 6679212.855 4.67 25500918.904 6679245.702 4.67 25500920.924 6679246.439 4.67 25500933.514 6679213.626 4.67 25500934.223 6679211.779 4.67 25500934.908 6679212.042 4.67 25500934.302 6679213.62 4.67 25500971.465 6679227.896 4.67 25500971.364 6679228.158 4.67 25500970.637 6679230.053 4.67 25500967.364 6679228.796 4.67 25500963.435 6679239.028 4.67 25500990.956 6679249.595 4.67 25500994.765 6679239.675 4.67 25500999.552 6679227.208 4.67 25500994.602 6679225.308 4.67 25500993.217 6679224.776 4.67 25500985.277 6679221.728 4.67 25500984.56 6679223.595 4.67 25500984.44 6679223.548 4.67 25500983.123 6679223.043 4.67 25500983.84 6679221.176 4.67 25500982.056 6679220.491 4.67 25500981.795 6679220.391 4.67 25500983.473 6679216.022 4.67 25500980.607 6679214.921 4.67 25500980.666 6679214.767 4.67 25500988.056 6679195.519 4.67 25500988.112 6679195.373 4.67 25500990.978 6679196.473 4.67 25500992.684 6679192.03 4.67 25500992.897 6679192.111 4.67 25500994.645 6679192.782 4.67 25500995.326 6679191.009 4.67 25500996.959 6679191.636 4.67 25500999.97 6679183.794 4.67 25500999.83 6679183.74 4.67</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_2979ef19-5ff4-4fab-a1cb-4f2910fe861e_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -1993,6 +2116,62 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_4fa6b30b-1fe3-4981-b03d-33b007426e69_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>534.79</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>4fa6b30b-1fe3-4981-b03d-33b007426e69</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>7.97</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>12.64</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>7.96</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>12.64</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_bcff76d2-f3a9-4499-914a-91e4f7c90d0e" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_4fa6b30b-1fe3-4981-b03d-33b007426e69_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_4fa6b30b-1fe3-4981-b03d-33b007426e69_2_poly_0_0_">
+<gml:posList>25500967.364 6679228.796 12.638 25500970.637 6679230.053 12.638 25500971.364 6679228.158 12.638 25500978.116 6679230.751 12.638 25500978.329 6679230.196 12.638 25500981.43 6679231.387 12.639 25500984.44 6679223.548 12.639 25500984.56 6679223.595 12.639 25500985.277 6679221.728 12.639 25500993.217 6679224.776 12.64 25500994.602 6679225.308 12.64 25500999.552 6679227.208 12.64 25500994.765 6679239.675 12.639 25500990.956 6679249.595 12.639 25500963.435 6679239.028 12.637 25500967.364 6679228.796 12.638</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+<gml:interior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_4fa6b30b-1fe3-4981-b03d-33b007426e69_2_poly_0_1_">
+<gml:posList>25500989.777 6679237.875 12.639 25500992.726 6679230.195 12.64 25500991.34 6679229.663 12.639 25500988.391 6679237.343 12.639 25500989.777 6679237.875 12.639</gml:posList>
+</gml:LinearRing>
+</gml:interior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_4fa6b30b-1fe3-4981-b03d-33b007426e69_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_4fa6b30b-1fe3-4981-b03d-33b007426e69_2_poly_1_0_">
+<gml:posList>25500931.507 6679212.855 12.76 25500933.514 6679213.626 12.76 25500920.924 6679246.439 12.76 25500918.904 6679245.702 12.76 25500931.507 6679212.855 12.76</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_bfc1fb76-38cc-435a-bc19-c24a074d4a7f_2">
@@ -2191,6 +2370,57 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_646f929d-4d05-4278-8e25-3a709f036b24_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>995.44</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>646f929d-4d05-4278-8e25-3a709f036b24</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>24.63</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>29.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>24.63</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>29.3</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_f298e792-d13c-48b1-b6d1-e0692cda7c07" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_646f929d-4d05-4278-8e25-3a709f036b24_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_646f929d-4d05-4278-8e25-3a709f036b24_2_poly_0_0_">
+<gml:posList>25500934.029 6679204.067 29.3 25500934.317 6679204.176 29.3 25500935.186 6679201.915 29.3 25500936.435 6679198.663 29.3 25500935.822 6679198.428 29.3 25500936.117 6679197.664 29.3 25500941.795 6679199.85 29.3 25500944.204 6679200.769 29.3 25500946.048 6679196.244 29.3 25500943.638 6679195.325 29.3 25500945.299 6679191.248 29.3 25500947.704 6679192.166 29.3 25500951.978 6679181.667 29.3 25500949.569 6679180.748 29.3 25500943.522 6679178.421 29.3 25500946.077 6679171.83 29.3 25500946.642 6679172.004 29.3 25500949.059 6679165.735 29.3 25500952.215 6679166.946 29.3 25500952.822 6679165.37 29.3 25500958.786 6679167.66 29.3 25500996.484 6679182.134 29.3 25500996.697 6679182.216 29.3 25500995.407 6679185.575 29.3 25500957.496 6679171.02 29.3 25500953.224 6679182.145 29.3 25500967.329 6679187.561 29.3 25500968.451 6679187.991 29.3 25500961.06 6679207.24 29.3 25500945.657 6679201.326 29.3 25500944.115 6679205.343 29.3 25500941.554 6679212.013 29.3 25500979.689 6679226.655 29.3 25500978.329 6679230.196 29.3 25500978.116 6679230.751 29.3 25500971.364 6679228.158 29.3 25500971.465 6679227.896 29.3 25500934.302 6679213.62 29.3 25500934.908 6679212.042 29.3 25500934.223 6679211.779 29.3 25500933.514 6679213.626 29.3 25500931.507 6679212.855 29.3 25500932.216 6679211.008 29.3 25500931.473 6679210.723 29.3 25500934.029 6679204.067 29.3</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_646f929d-4d05-4278-8e25-3a709f036b24_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_646f929d-4d05-4278-8e25-3a709f036b24_2_poly_1_0_">
+<gml:posList>25500940.537 6679186.199 29.77 25500940.434 6679186.159 29.77 25500941.4 6679183.643 29.77 25500941.485 6679183.676 29.77 25500943.522 6679178.421 29.77 25500949.569 6679180.748 29.77 25500945.299 6679191.248 29.77 25500943.638 6679195.325 29.77 25500941.795 6679199.85 29.77 25500936.117 6679197.664 29.77 25500940.537 6679186.199 29.77</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_00a1ed80-09b3-44e3-9e16-f467e2509745_2">
@@ -2421,6 +2651,57 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_448b882b-ec92-4f16-b087-46ba9eb1bc0e_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>35.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>448b882b-ec92-4f16-b087-46ba9eb1bc0e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>27.21</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>31.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>27.21</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>31.88</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_934bce16-8073-4f91-b2f4-b22da335a97e" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_448b882b-ec92-4f16-b087-46ba9eb1bc0e_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_448b882b-ec92-4f16-b087-46ba9eb1bc0e_2_poly_0_0_">
+<gml:posList>25500995.407 6679185.575 31.88 25500996.697 6679182.216 31.88 25500999.938 6679183.46 31.88 25500999.83 6679183.74 31.88 25500999.97 6679183.794 31.88 25500996.959 6679191.636 31.88 25500995.326 6679191.009 31.88 25500994.645 6679192.782 31.88 25500992.897 6679192.111 31.88 25500995.407 6679185.575 31.88</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_448b882b-ec92-4f16-b087-46ba9eb1bc0e_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_448b882b-ec92-4f16-b087-46ba9eb1bc0e_2_poly_1_0_">
+<gml:posList>25500979.689 6679226.655 31.87 25500982.056 6679220.491 31.87 25500983.84 6679221.176 31.87 25500983.123 6679223.043 31.87 25500984.44 6679223.548 31.87 25500981.43 6679231.387 31.87 25500978.329 6679230.196 31.87 25500979.689 6679226.655 31.87</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_cf8631e4-8b9f-43aa-87c8-e9509e29816b_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -2616,6 +2897,57 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_2306e346-16a5-4d5b-b287-3bd224981ed2_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>433.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>2306e346-16a5-4d5b-b287-3bd224981ed2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>5.14</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>9.81</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>5.14</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>9.81</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_d7cc6978-d355-4411-82f0-97d302448fce" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_2306e346-16a5-4d5b-b287-3bd224981ed2_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_2306e346-16a5-4d5b-b287-3bd224981ed2_2_poly_0_0_">
+<gml:posList>25500968.451 6679187.991 9.81 25500988.056 6679195.519 9.81 25500980.666 6679214.767 9.81 25500961.06 6679207.24 9.81 25500968.451 6679187.991 9.81</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_2306e346-16a5-4d5b-b287-3bd224981ed2_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_2306e346-16a5-4d5b-b287-3bd224981ed2_2_poly_1_0_">
+<gml:posList>25500940.529 6679183.302 9.97 25500941.4 6679183.643 9.97 25500940.434 6679186.159 9.97 25500939.558 6679185.822 9.97 25500940.529 6679183.302 9.97</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_1fc352dd-3364-4920-9a49-555dd51477ad_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -2665,6 +2997,57 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_308f62ce-20d4-4a7b-87c0-80b8d211e738_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>482.36</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>308f62ce-20d4-4a7b-87c0-80b8d211e738</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>28.86</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>33.53</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>28.86</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>33.53</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_85aea605-e4f2-4249-b0a2-600536eb4bc9" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_308f62ce-20d4-4a7b-87c0-80b8d211e738_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_308f62ce-20d4-4a7b-87c0-80b8d211e738_2_poly_0_0_">
+<gml:posList>25500957.496 6679171.02 33.532 25500995.407 6679185.575 33.532 25500992.897 6679192.111 33.532 25500992.684 6679192.03 33.532 25500990.978 6679196.473 33.532 25500988.112 6679195.373 33.532 25500988.056 6679195.519 33.532 25500968.451 6679187.991 33.532 25500967.329 6679187.561 33.532 25500953.224 6679182.145 33.532 25500957.496 6679171.02 33.532</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_308f62ce-20d4-4a7b-87c0-80b8d211e738_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_308f62ce-20d4-4a7b-87c0-80b8d211e738_2_poly_1_0_">
+<gml:posList>25500944.115 6679205.343 33.64 25500945.657 6679201.326 33.64 25500961.06 6679207.24 33.64 25500980.666 6679214.767 33.64 25500980.607 6679214.921 33.64 25500983.473 6679216.022 33.64 25500981.795 6679220.391 33.64 25500982.056 6679220.491 33.64 25500979.689 6679226.655 33.64 25500941.554 6679212.013 33.64 25500944.115 6679205.343 33.64</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_4c42595d-ca66-40e2-9274-ec9c15a53426_2">
@@ -2811,6 +3194,48 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_ee78b15e-4a65-455f-bf24-0a2dda3785ed_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>15.4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>ee78b15e-4a65-455f-bf24-0a2dda3785ed</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>248.99</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>52.47</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>9.68</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.35</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>8.54</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>13.21</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_3cefb3f2-ce52-428c-9716-fd5d95adf856" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_ee78b15e-4a65-455f-bf24-0a2dda3785ed_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_ee78b15e-4a65-455f-bf24-0a2dda3785ed_2_poly_0_">
+<gml:posList>25500991.34 6679229.663 13.21 25500992.726 6679230.195 14.35 25500989.777 6679237.875 14.35 25500988.391 6679237.343 13.21 25500991.34 6679229.663 13.21</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_e0a3a8b3-9388-45fb-b282-79b1ef6fe068_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -2903,433 +3328,8 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_e87e1720-d6a2-4d76-80ad-aec36167bf71_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>141.53</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>e87e1720-d6a2-4d76-80ad-aec36167bf71</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>13.26</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>17.93</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>13.26</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>17.93</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_47fb2838-fb5d-40c3-8d28-5804c2103c8f" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_e87e1720-d6a2-4d76-80ad-aec36167bf71_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_e87e1720-d6a2-4d76-80ad-aec36167bf71_2_poly_0_">
-<gml:posList>25500926.603 6679199.371 17.93 25500933.027 6679201.807 17.93 25500932.404 6679203.451 17.93 25500934.029 6679204.067 17.93 25500931.473 6679210.723 17.93 25500931.311 6679210.66 17.93 25500928.414 6679218.201 17.93 25500920.535 6679215.176 17.93 25500926.603 6679199.371 17.93</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_f1ce0cc2-c887-4f9b-88eb-3557478f29f9_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>39.76</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>f1ce0cc2-c887-4f9b-88eb-3557478f29f9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>67.86</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>47.26</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>27.49</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>32.16</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>25.11</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>29.78</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_fb4dce96-a379-4c54-9d7a-f71721060293" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_f1ce0cc2-c887-4f9b-88eb-3557478f29f9_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_f1ce0cc2-c887-4f9b-88eb-3557478f29f9_2_poly_0_0_">
-<gml:posList>25500949.569 6679180.748 32.161 25500951.978 6679181.667 29.779 25500947.704 6679192.166 29.781 25500945.299 6679191.248 32.159 25500949.569 6679180.748 32.161</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_f1ce0cc2-c887-4f9b-88eb-3557478f29f9_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_f1ce0cc2-c887-4f9b-88eb-3557478f29f9_2_poly_1_0_">
-<gml:posList>25500943.638 6679195.325 32.16 25500946.048 6679196.244 29.78 25500944.204 6679200.769 29.78 25500941.795 6679199.85 32.16 25500943.638 6679195.325 32.16</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_4fa6b30b-1fe3-4981-b03d-33b007426e69_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>534.79</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>4fa6b30b-1fe3-4981-b03d-33b007426e69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>7.97</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>12.64</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>7.96</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>12.64</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_bcff76d2-f3a9-4499-914a-91e4f7c90d0e" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_4fa6b30b-1fe3-4981-b03d-33b007426e69_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_4fa6b30b-1fe3-4981-b03d-33b007426e69_2_poly_0_0_">
-<gml:posList>25500967.364 6679228.796 12.638 25500970.637 6679230.053 12.638 25500971.364 6679228.158 12.638 25500978.116 6679230.751 12.638 25500978.329 6679230.196 12.638 25500981.43 6679231.387 12.639 25500984.44 6679223.548 12.639 25500984.56 6679223.595 12.639 25500985.277 6679221.728 12.639 25500993.217 6679224.776 12.64 25500994.602 6679225.308 12.64 25500999.552 6679227.208 12.64 25500994.765 6679239.675 12.639 25500990.956 6679249.595 12.639 25500963.435 6679239.028 12.637 25500967.364 6679228.796 12.638</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-<gml:interior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_4fa6b30b-1fe3-4981-b03d-33b007426e69_2_poly_0_1_">
-<gml:posList>25500989.777 6679237.875 12.639 25500992.726 6679230.195 12.64 25500991.34 6679229.663 12.639 25500988.391 6679237.343 12.639 25500989.777 6679237.875 12.639</gml:posList>
-</gml:LinearRing>
-</gml:interior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_4fa6b30b-1fe3-4981-b03d-33b007426e69_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_4fa6b30b-1fe3-4981-b03d-33b007426e69_2_poly_1_0_">
-<gml:posList>25500931.507 6679212.855 12.76 25500933.514 6679213.626 12.76 25500920.924 6679246.439 12.76 25500918.904 6679245.702 12.76 25500931.507 6679212.855 12.76</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_646f929d-4d05-4278-8e25-3a709f036b24_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>995.44</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>646f929d-4d05-4278-8e25-3a709f036b24</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>24.63</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>29.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>24.63</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>29.3</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_f298e792-d13c-48b1-b6d1-e0692cda7c07" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_646f929d-4d05-4278-8e25-3a709f036b24_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_646f929d-4d05-4278-8e25-3a709f036b24_2_poly_0_0_">
-<gml:posList>25500934.029 6679204.067 29.3 25500934.317 6679204.176 29.3 25500935.186 6679201.915 29.3 25500936.435 6679198.663 29.3 25500935.822 6679198.428 29.3 25500936.117 6679197.664 29.3 25500941.795 6679199.85 29.3 25500944.204 6679200.769 29.3 25500946.048 6679196.244 29.3 25500943.638 6679195.325 29.3 25500945.299 6679191.248 29.3 25500947.704 6679192.166 29.3 25500951.978 6679181.667 29.3 25500949.569 6679180.748 29.3 25500943.522 6679178.421 29.3 25500946.077 6679171.83 29.3 25500946.642 6679172.004 29.3 25500949.059 6679165.735 29.3 25500952.215 6679166.946 29.3 25500952.822 6679165.37 29.3 25500958.786 6679167.66 29.3 25500996.484 6679182.134 29.3 25500996.697 6679182.216 29.3 25500995.407 6679185.575 29.3 25500957.496 6679171.02 29.3 25500953.224 6679182.145 29.3 25500967.329 6679187.561 29.3 25500968.451 6679187.991 29.3 25500961.06 6679207.24 29.3 25500945.657 6679201.326 29.3 25500944.115 6679205.343 29.3 25500941.554 6679212.013 29.3 25500979.689 6679226.655 29.3 25500978.329 6679230.196 29.3 25500978.116 6679230.751 29.3 25500971.364 6679228.158 29.3 25500971.465 6679227.896 29.3 25500934.302 6679213.62 29.3 25500934.908 6679212.042 29.3 25500934.223 6679211.779 29.3 25500933.514 6679213.626 29.3 25500931.507 6679212.855 29.3 25500932.216 6679211.008 29.3 25500931.473 6679210.723 29.3 25500934.029 6679204.067 29.3</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_646f929d-4d05-4278-8e25-3a709f036b24_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_646f929d-4d05-4278-8e25-3a709f036b24_2_poly_1_0_">
-<gml:posList>25500940.537 6679186.199 29.77 25500940.434 6679186.159 29.77 25500941.4 6679183.643 29.77 25500941.485 6679183.676 29.77 25500943.522 6679178.421 29.77 25500949.569 6679180.748 29.77 25500945.299 6679191.248 29.77 25500943.638 6679195.325 29.77 25500941.795 6679199.85 29.77 25500936.117 6679197.664 29.77 25500940.537 6679186.199 29.77</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_448b882b-ec92-4f16-b087-46ba9eb1bc0e_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>35.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>448b882b-ec92-4f16-b087-46ba9eb1bc0e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>27.21</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>31.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>27.21</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>31.88</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_934bce16-8073-4f91-b2f4-b22da335a97e" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_448b882b-ec92-4f16-b087-46ba9eb1bc0e_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_448b882b-ec92-4f16-b087-46ba9eb1bc0e_2_poly_0_0_">
-<gml:posList>25500995.407 6679185.575 31.88 25500996.697 6679182.216 31.88 25500999.938 6679183.46 31.88 25500999.83 6679183.74 31.88 25500999.97 6679183.794 31.88 25500996.959 6679191.636 31.88 25500995.326 6679191.009 31.88 25500994.645 6679192.782 31.88 25500992.897 6679192.111 31.88 25500995.407 6679185.575 31.88</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_448b882b-ec92-4f16-b087-46ba9eb1bc0e_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_448b882b-ec92-4f16-b087-46ba9eb1bc0e_2_poly_1_0_">
-<gml:posList>25500979.689 6679226.655 31.87 25500982.056 6679220.491 31.87 25500983.84 6679221.176 31.87 25500983.123 6679223.043 31.87 25500984.44 6679223.548 31.87 25500981.43 6679231.387 31.87 25500978.329 6679230.196 31.87 25500979.689 6679226.655 31.87</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_2306e346-16a5-4d5b-b287-3bd224981ed2_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>433.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>2306e346-16a5-4d5b-b287-3bd224981ed2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>5.14</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>9.81</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>5.14</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>9.81</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_d7cc6978-d355-4411-82f0-97d302448fce" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_2306e346-16a5-4d5b-b287-3bd224981ed2_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_2306e346-16a5-4d5b-b287-3bd224981ed2_2_poly_0_0_">
-<gml:posList>25500968.451 6679187.991 9.81 25500988.056 6679195.519 9.81 25500980.666 6679214.767 9.81 25500961.06 6679207.24 9.81 25500968.451 6679187.991 9.81</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_2306e346-16a5-4d5b-b287-3bd224981ed2_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_2306e346-16a5-4d5b-b287-3bd224981ed2_2_poly_1_0_">
-<gml:posList>25500940.529 6679183.302 9.97 25500941.4 6679183.643 9.97 25500940.434 6679186.159 9.97 25500939.558 6679185.822 9.97 25500940.529 6679183.302 9.97</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_308f62ce-20d4-4a7b-87c0-80b8d211e738_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>482.36</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>308f62ce-20d4-4a7b-87c0-80b8d211e738</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>28.86</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>33.53</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>28.86</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>33.53</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_85aea605-e4f2-4249-b0a2-600536eb4bc9" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_308f62ce-20d4-4a7b-87c0-80b8d211e738_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_308f62ce-20d4-4a7b-87c0-80b8d211e738_2_poly_0_0_">
-<gml:posList>25500957.496 6679171.02 33.532 25500995.407 6679185.575 33.532 25500992.897 6679192.111 33.532 25500992.684 6679192.03 33.532 25500990.978 6679196.473 33.532 25500988.112 6679195.373 33.532 25500988.056 6679195.519 33.532 25500968.451 6679187.991 33.532 25500967.329 6679187.561 33.532 25500953.224 6679182.145 33.532 25500957.496 6679171.02 33.532</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_308f62ce-20d4-4a7b-87c0-80b8d211e738_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_308f62ce-20d4-4a7b-87c0-80b8d211e738_2_poly_1_0_">
-<gml:posList>25500944.115 6679205.343 33.64 25500945.657 6679201.326 33.64 25500961.06 6679207.24 33.64 25500980.666 6679214.767 33.64 25500980.607 6679214.921 33.64 25500983.473 6679216.022 33.64 25500981.795 6679220.391 33.64 25500982.056 6679220.491 33.64 25500979.689 6679226.655 33.64 25500941.554 6679212.013 33.64 25500944.115 6679205.343 33.64</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_ee78b15e-4a65-455f-bf24-0a2dda3785ed_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>15.4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>ee78b15e-4a65-455f-bf24-0a2dda3785ed</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>248.99</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>52.47</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>9.68</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.35</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>8.54</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>13.21</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_3cefb3f2-ce52-428c-9716-fd5d95adf856" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_ee78b15e-4a65-455f-bf24-0a2dda3785ed_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_ee78b15e-4a65-455f-bf24-0a2dda3785ed_2_poly_0_">
-<gml:posList>25500991.34 6679229.663 13.21 25500992.726 6679230.195 14.35 25500989.777 6679237.875 14.35 25500988.391 6679237.343 13.21 25500991.34 6679229.663 13.21</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_09b98cd9-01ab-4a82-abfc-06227016e9e3_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>3381.58</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>09b98cd9-01ab-4a82-abfc-06227016e9e3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.67</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_9b301859-71de-4357-9707-b02fbeacb419" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_09b98cd9-01ab-4a82-abfc-06227016e9e3_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_0ba21978-3711-4e8e-9aa9-28a1101e2ebf_09b98cd9-01ab-4a82-abfc-06227016e9e3_2_poly_0_">
-<gml:posList>25500999.83 6679183.74 4.67 25500999.938 6679183.46 4.67 25500996.697 6679182.216 4.67 25500996.484 6679182.134 4.67 25500958.786 6679167.66 4.67 25500952.822 6679165.37 4.67 25500952.215 6679166.946 4.67 25500949.059 6679165.735 4.67 25500946.642 6679172.004 4.67 25500946.077 6679171.83 4.67 25500943.522 6679178.421 4.67 25500941.485 6679183.676 4.67 25500941.4 6679183.643 4.67 25500940.529 6679183.302 4.67 25500939.558 6679185.822 4.67 25500940.434 6679186.159 4.67 25500940.537 6679186.199 4.67 25500936.117 6679197.664 4.67 25500935.822 6679198.428 4.67 25500936.435 6679198.663 4.67 25500935.186 6679201.915 4.67 25500934.317 6679204.176 4.67 25500934.029 6679204.067 4.67 25500932.404 6679203.451 4.67 25500933.027 6679201.807 4.67 25500926.603 6679199.371 4.67 25500920.535 6679215.176 4.67 25500928.414 6679218.201 4.67 25500931.311 6679210.66 4.67 25500931.473 6679210.723 4.67 25500932.216 6679211.008 4.67 25500931.507 6679212.855 4.67 25500918.904 6679245.702 4.67 25500920.924 6679246.439 4.67 25500933.514 6679213.626 4.67 25500934.223 6679211.779 4.67 25500934.908 6679212.042 4.67 25500934.302 6679213.62 4.67 25500971.465 6679227.896 4.67 25500971.364 6679228.158 4.67 25500970.637 6679230.053 4.67 25500967.364 6679228.796 4.67 25500963.435 6679239.028 4.67 25500990.956 6679249.595 4.67 25500994.765 6679239.675 4.67 25500999.552 6679227.208 4.67 25500994.602 6679225.308 4.67 25500993.217 6679224.776 4.67 25500985.277 6679221.728 4.67 25500984.56 6679223.595 4.67 25500984.44 6679223.548 4.67 25500983.123 6679223.043 4.67 25500983.84 6679221.176 4.67 25500982.056 6679220.491 4.67 25500981.795 6679220.391 4.67 25500983.473 6679216.022 4.67 25500980.607 6679214.921 4.67 25500980.666 6679214.767 4.67 25500988.056 6679195.519 4.67 25500988.112 6679195.373 4.67 25500990.978 6679196.473 4.67 25500992.684 6679192.03 4.67 25500992.897 6679192.111 4.67 25500994.645 6679192.782 4.67 25500995.326 6679191.009 4.67 25500996.959 6679191.636 4.67 25500999.97 6679183.794 4.67 25500999.83 6679183.74 4.67</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-9cd46bc7-5005-42f1-8bd0-c776749feb2e"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-ad53a719-349f-488f-af12-768f4a171ee4"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -3340,7 +3340,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-d1b46d66-59ca-488b-89f7-72968b5cba8a"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-aa723c50-3f5d-411f-8037-92e15a1df16d"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -3405,6 +3405,36 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_38e25181-461e-4e50-bcbf-2589756fb1c1_624d0af4-0643-4841-bc41-05a4a8a18edb_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>21.32</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>624d0af4-0643-4841-bc41-05a4a8a18edb</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.31</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_16ee8825-051b-4780-beb4-b9b9cd46ade2" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_38e25181-461e-4e50-bcbf-2589756fb1c1_624d0af4-0643-4841-bc41-05a4a8a18edb_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_38e25181-461e-4e50-bcbf-2589756fb1c1_624d0af4-0643-4841-bc41-05a4a8a18edb_2_poly_0_">
+<gml:posList>25500949.318 6679277.972 4.31 25500950.622 6679274.465 4.31 25500945.266 6679272.495 4.31 25500943.978 6679276.008 4.31 25500949.318 6679277.972 4.31</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_38e25181-461e-4e50-bcbf-2589756fb1c1_4b0a3ad6-422a-4d6b-a061-789fc6c7b251_2">
 <creationDate>2019-07-29</creationDate>
@@ -3532,48 +3562,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_38e25181-461e-4e50-bcbf-2589756fb1c1_e1e1d7cd-c440-4362-9f6c-f13fc501875f_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>17.07</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>e1e1d7cd-c440-4362-9f6c-f13fc501875f</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>3.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>7.31</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.31</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_02cda98c-da27-4f32-a938-c349b38e8e4b" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_38e25181-461e-4e50-bcbf-2589756fb1c1_e1e1d7cd-c440-4362-9f6c-f13fc501875f_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_38e25181-461e-4e50-bcbf-2589756fb1c1_e1e1d7cd-c440-4362-9f6c-f13fc501875f_2_poly_0_">
-<gml:posList>25500943.978 6679276.008 7.31 25500949.318 6679277.972 7.31 25500949.318 6679277.972 4.31 25500943.978 6679276.008 4.31 25500943.978 6679276.008 7.31</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_38e25181-461e-4e50-bcbf-2589756fb1c1_f573fa3f-2810-4833-a7a1-8eca251801ec_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -3616,13 +3604,25 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_38e25181-461e-4e50-bcbf-2589756fb1c1_624d0af4-0643-4841-bc41-05a4a8a18edb_2">
+<bldg:WallSurface gml:id="BID_38e25181-461e-4e50-bcbf-2589756fb1c1_e1e1d7cd-c440-4362-9f6c-f13fc501875f_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>21.32</gen:value>
+<gen:value>17.07</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>624d0af4-0643-4841-bc41-05a4a8a18edb</gen:value>
+<gen:value>e1e1d7cd-c440-4362-9f6c-f13fc501875f</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>3.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>7.31</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>0.0</gen:value>
@@ -3631,22 +3631,22 @@
 <gen:value>4.31</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_16ee8825-051b-4780-beb4-b9b9cd46ade2" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_02cda98c-da27-4f32-a938-c349b38e8e4b" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_38e25181-461e-4e50-bcbf-2589756fb1c1_624d0af4-0643-4841-bc41-05a4a8a18edb_2_poly">
+<gml:Polygon gml:id="BID_38e25181-461e-4e50-bcbf-2589756fb1c1_e1e1d7cd-c440-4362-9f6c-f13fc501875f_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_38e25181-461e-4e50-bcbf-2589756fb1c1_624d0af4-0643-4841-bc41-05a4a8a18edb_2_poly_0_">
-<gml:posList>25500949.318 6679277.972 4.31 25500950.622 6679274.465 4.31 25500945.266 6679272.495 4.31 25500943.978 6679276.008 4.31 25500949.318 6679277.972 4.31</gml:posList>
+<gml:LinearRing gml:id="BID_38e25181-461e-4e50-bcbf-2589756fb1c1_e1e1d7cd-c440-4362-9f6c-f13fc501875f_2_poly_0_">
+<gml:posList>25500943.978 6679276.008 7.31 25500949.318 6679277.972 7.31 25500949.318 6679277.972 4.31 25500943.978 6679276.008 4.31 25500943.978 6679276.008 7.31</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:GroundSurface>
+</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-a65184b1-0c6a-433c-bb80-db994f9d5fd3"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-00e9d468-76c8-4f3d-84f5-52184cd483d1"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -3657,7 +3657,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-3b7a0cfb-72c2-4034-9969-6907d65072fe"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-f650a6e9-5eb0-4c74-b277-23b00278bcdb"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -4189,48 +4189,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_4264ce16-4964-4e89-b838-3fdc1b197115_c308fa6d-84e7-42fd-be02-875223252a01_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>135.18</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c308fa6d-84e7-42fd-be02-875223252a01</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>16.74</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>19.09</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>2.35</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_921ea8da-8269-4cf8-8550-79f14aae8f48" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_4264ce16-4964-4e89-b838-3fdc1b197115_c308fa6d-84e7-42fd-be02-875223252a01_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_4264ce16-4964-4e89-b838-3fdc1b197115_c308fa6d-84e7-42fd-be02-875223252a01_2_poly_0_">
-<gml:posList>25500725.886 6679088.469 19.09 25500718.172 6679090.858 19.09 25500718.172 6679090.858 2.35 25500725.886 6679088.469 2.35 25500725.886 6679088.469 19.09</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_4264ce16-4964-4e89-b838-3fdc1b197115_4baaf224-19d0-419e-9f5a-7783b33d4866_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -4273,6 +4231,48 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_4264ce16-4964-4e89-b838-3fdc1b197115_c308fa6d-84e7-42fd-be02-875223252a01_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>135.18</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>c308fa6d-84e7-42fd-be02-875223252a01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>16.74</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>19.09</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>2.35</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_921ea8da-8269-4cf8-8550-79f14aae8f48" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_4264ce16-4964-4e89-b838-3fdc1b197115_c308fa6d-84e7-42fd-be02-875223252a01_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_4264ce16-4964-4e89-b838-3fdc1b197115_c308fa6d-84e7-42fd-be02-875223252a01_2_poly_0_">
+<gml:posList>25500725.886 6679088.469 19.09 25500718.172 6679090.858 19.09 25500718.172 6679090.858 2.35 25500725.886 6679088.469 2.35 25500725.886 6679088.469 19.09</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:GroundSurface gml:id="BID_4264ce16-4964-4e89-b838-3fdc1b197115_82f9e911-3873-4622-98cc-3bd6a259c1a7_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -4303,7 +4303,7 @@
 </bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-b17165c3-c1ea-4404-b45e-add9ba9e31cf"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-a14f2251-7217-4bf8-bc4a-8a3cf852252e"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -4314,7 +4314,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-e450f4ed-acd8-40cd-bc4c-bc19c9aa27bd"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-fd052d34-7cb4-456a-8e3b-ab4a7171293d"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -4709,6 +4709,147 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0e37eaa3-1b43-4750-9782-5df64f5a63c6_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>444.73</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>0e37eaa3-1b43-4750-9782-5df64f5a63c6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>16.31</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>19.68</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>16.31</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>19.68</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_7cc236c4-ac43-488c-8310-afa356031188" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0e37eaa3-1b43-4750-9782-5df64f5a63c6_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0e37eaa3-1b43-4750-9782-5df64f5a63c6_2_poly_0_0_">
+<gml:posList>25500865.502 6679257.384 19.68 25500852.276 6679273.06 19.68 25500852.346 6679273.164 19.68 25500851.641 6679273.99 19.68 25500848.654 6679269.644 19.68 25500849.612 6679268.873 19.68 25500829.79 6679240.023 19.68 25500864.77 6679254.524 19.68 25500866.529 6679255.253 19.68 25500865.697 6679257.464 19.68 25500865.502 6679257.384 19.68</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0e37eaa3-1b43-4750-9782-5df64f5a63c6_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0e37eaa3-1b43-4750-9782-5df64f5a63c6_2_poly_1_0_">
+<gml:posList>25500799.94 6679271.879 19.63 25500828.542 6679296.08 19.63 25500831.012 6679298.17 19.63 25500817.482 6679314.075 19.63 25500817.567 6679314.278 19.63 25500815.971 6679316.168 19.63 25500814.845 6679313.469 19.63 25500795.936 6679268.141 19.63 25500799.94 6679271.879 19.63</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_484765ae-b370-4ed2-bb0d-d1a20f422a4e_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1334.36</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>484765ae-b370-4ed2-bb0d-d1a20f422a4e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>15.09</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>18.46</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>15.09</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>18.46</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_c2fe60bf-ae69-46b5-9315-d81a97bd729b" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_484765ae-b370-4ed2-bb0d-d1a20f422a4e_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_484765ae-b370-4ed2-bb0d-d1a20f422a4e_2_poly_0_0_">
+<gml:posList>25500838.409 6679277.065 18.46 25500806.637 6679229.996 18.46 25500819.781 6679221.147 18.46 25500828.492 6679233.948 18.46 25500827.478 6679236.56 18.46 25500820.349 6679226.283 18.46 25500813.568 6679230.814 18.46 25500843.242 6679274.001 18.46 25500848.654 6679269.644 18.46 25500851.641 6679273.99 18.46 25500852.346 6679273.164 18.46 25500858.57 6679282.477 18.46 25500847.238 6679290.144 18.46 25500846.257 6679288.703 18.46 25500845.992 6679288.397 18.46 25500843.538 6679290.652 18.46 25500848.799 6679295.132 18.46 25500839.989 6679305.572 18.46 25500831.092 6679298.076 18.46 25500831.012 6679298.17 18.46 25500828.542 6679296.08 18.46 25500834.208 6679289.369 18.46 25500798.724 6679259.625 18.46 25500794.618 6679264.981 18.46 25500793.586 6679262.508 18.46 25500790.114 6679263.966 18.46 25500779.931 6679255.344 18.46 25500788.934 6679244.681 18.46 25500834.661 6679283.177 18.46 25500838.409 6679277.065 18.46</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_484765ae-b370-4ed2-bb0d-d1a20f422a4e_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_484765ae-b370-4ed2-bb0d-d1a20f422a4e_2_poly_1_0_">
+<gml:posList>25500805.918 6679326.967 18.39 25500781.335 6679268.035 18.39 25500786.058 6679266.069 18.39 25500786.477 6679267.075 18.39 25500782.946 6679268.558 18.39 25500784.263 6679271.717 18.39 25500787.795 6679270.234 18.39 25500807.035 6679316.357 18.39 25500808.018 6679318.714 18.39 25500810.625 6679317.619 18.39 25500809.69 6679315.375 18.39 25500814.845 6679313.469 18.39 25500815.971 6679316.168 18.39 25500817.567 6679314.278 18.39 25500820.363 6679320.902 18.39 25500805.918 6679326.967 18.39</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_484765ae-b370-4ed2-bb0d-d1a20f422a4e_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_484765ae-b370-4ed2-bb0d-d1a20f422a4e_2_poly_2_0_">
+<gml:posList>25500878.482 6679245.765 18.49 25500872.495 6679260.259 18.49 25500865.697 6679257.464 18.49 25500866.529 6679255.253 18.49 25500864.77 6679254.524 18.49 25500867.113 6679249.252 18.49 25500872.292 6679251.418 18.49 25500873.368 6679248.998 18.49 25500868.189 6679246.831 18.49 25500868.182 6679246.845 18.49 25500833.77 6679232.561 18.49 25500835.367 6679228.967 18.49 25500832.618 6679227.828 18.49 25500831.021 6679231.421 18.49 25500829.808 6679230.918 18.49 25500831.681 6679226.364 18.49 25500878.482 6679245.765 18.49</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_437187f8-67b8-460f-9e7e-014ef5f83d5e_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>4697.21</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>437187f8-67b8-460f-9e7e-014ef5f83d5e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.37</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_edf74cf7-b046-48e0-9815-789a6e9b7098" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_437187f8-67b8-460f-9e7e-014ef5f83d5e_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_437187f8-67b8-460f-9e7e-014ef5f83d5e_2_poly_0_">
+<gml:posList>25500831.681 6679226.364 3.37 25500828.535 6679234.012 3.37 25500819.781 6679221.147 3.37 25500806.637 6679229.996 3.37 25500838.409 6679277.065 3.37 25500834.661 6679283.177 3.37 25500788.934 6679244.681 3.37 25500779.931 6679255.344 3.37 25500790.442 6679264.243 3.37 25500781.335 6679268.035 3.37 25500805.918 6679326.967 3.37 25500820.363 6679320.902 3.37 25500817.482 6679314.075 3.37 25500831.092 6679298.076 3.37 25500839.989 6679305.572 3.37 25500848.799 6679295.132 3.37 25500843.538 6679290.652 3.37 25500845.992 6679288.397 3.37 25500846.257 6679288.703 3.37 25500847.238 6679290.144 3.37 25500858.57 6679282.477 3.37 25500852.276 6679273.06 3.37 25500865.502 6679257.384 3.37 25500872.495 6679260.259 3.37 25500878.482 6679245.765 3.37 25500831.681 6679226.364 3.37</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_2b34bffa-6dca-446d-8381-9ea815aa6835_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -4944,6 +5085,75 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>14.87</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>85c2d335-89e6-4ea3-a3aa-9536ead90f5e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.65</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>21.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>17.65</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>21.02</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_4c70c453-68c1-49c8-ba29-faa2c29a8f25" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_0_0_">
+<gml:posList>25500868.182 6679246.845 21.02 25500868.189 6679246.831 21.02 25500873.368 6679248.998 21.02 25500872.292 6679251.418 21.02 25500867.113 6679249.252 21.02 25500868.182 6679246.845 21.02</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_1_0_">
+<gml:posList>25500786.477 6679267.075 21.05 25500787.795 6679270.234 21.05 25500784.263 6679271.717 21.05 25500782.946 6679268.558 21.05 25500786.477 6679267.075 21.05</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_2_0_">
+<gml:posList>25500809.69 6679315.375 21.06 25500810.625 6679317.619 21.06 25500808.018 6679318.714 21.06 25500807.035 6679316.357 21.06 25500809.69 6679315.375 21.06</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_3_0_">
+<gml:posList>25500832.618 6679227.828 21.002 25500835.367 6679228.967 21.002 25500833.77 6679232.561 21.002 25500831.021 6679231.421 21.002 25500832.618 6679227.828 21.002</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_680f2f30-0ab1-41ed-aacc-97a330bfd380_2">
@@ -6323,6 +6533,57 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0329de92-ad06-4a54-859d-f9a77d9311b9_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>769.34</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>0329de92-ad06-4a54-859d-f9a77d9311b9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>19.69</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>23.06</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.69</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.06</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_fff71b60-1261-4e79-a7ba-2ee605edf7e9" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0329de92-ad06-4a54-859d-f9a77d9311b9_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0329de92-ad06-4a54-859d-f9a77d9311b9_2_poly_0_0_">
+<gml:posList>25500833.77 6679232.561 23.06 25500868.182 6679246.845 23.06 25500864.77 6679254.524 23.06 25500829.79 6679240.023 23.06 25500849.612 6679268.873 23.06 25500843.242 6679274.001 23.06 25500813.568 6679230.814 23.06 25500820.349 6679226.283 23.06 25500827.478 6679236.56 23.06 25500828.492 6679233.948 23.06 25500828.535 6679234.012 23.06 25500829.808 6679230.918 23.06 25500833.77 6679232.561 23.06</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0329de92-ad06-4a54-859d-f9a77d9311b9_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0329de92-ad06-4a54-859d-f9a77d9311b9_2_poly_1_0_">
+<gml:posList>25500807.035 6679316.357 23.07 25500786.058 6679266.069 23.07 25500790.442 6679264.243 23.07 25500790.114 6679263.966 23.07 25500793.586 6679262.508 23.07 25500794.618 6679264.981 23.07 25500798.724 6679259.625 23.07 25500834.208 6679289.369 23.07 25500828.542 6679296.08 23.07 25500799.94 6679271.879 23.07 25500795.936 6679268.141 23.07 25500814.845 6679313.469 23.07 25500807.035 6679316.357 23.07</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_d9e5b5ad-a82a-4c77-b3df-6691da9abc17_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -6592,269 +6853,8 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0e37eaa3-1b43-4750-9782-5df64f5a63c6_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>444.73</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>0e37eaa3-1b43-4750-9782-5df64f5a63c6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>16.31</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>19.68</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>16.31</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>19.68</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_7cc236c4-ac43-488c-8310-afa356031188" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0e37eaa3-1b43-4750-9782-5df64f5a63c6_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0e37eaa3-1b43-4750-9782-5df64f5a63c6_2_poly_0_0_">
-<gml:posList>25500865.502 6679257.384 19.68 25500852.276 6679273.06 19.68 25500852.346 6679273.164 19.68 25500851.641 6679273.99 19.68 25500848.654 6679269.644 19.68 25500849.612 6679268.873 19.68 25500829.79 6679240.023 19.68 25500864.77 6679254.524 19.68 25500866.529 6679255.253 19.68 25500865.697 6679257.464 19.68 25500865.502 6679257.384 19.68</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0e37eaa3-1b43-4750-9782-5df64f5a63c6_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0e37eaa3-1b43-4750-9782-5df64f5a63c6_2_poly_1_0_">
-<gml:posList>25500799.94 6679271.879 19.63 25500828.542 6679296.08 19.63 25500831.012 6679298.17 19.63 25500817.482 6679314.075 19.63 25500817.567 6679314.278 19.63 25500815.971 6679316.168 19.63 25500814.845 6679313.469 19.63 25500795.936 6679268.141 19.63 25500799.94 6679271.879 19.63</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_484765ae-b370-4ed2-bb0d-d1a20f422a4e_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1334.36</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>484765ae-b370-4ed2-bb0d-d1a20f422a4e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>15.09</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>18.46</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>15.09</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>18.46</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_c2fe60bf-ae69-46b5-9315-d81a97bd729b" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_484765ae-b370-4ed2-bb0d-d1a20f422a4e_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_484765ae-b370-4ed2-bb0d-d1a20f422a4e_2_poly_0_0_">
-<gml:posList>25500838.409 6679277.065 18.46 25500806.637 6679229.996 18.46 25500819.781 6679221.147 18.46 25500828.492 6679233.948 18.46 25500827.478 6679236.56 18.46 25500820.349 6679226.283 18.46 25500813.568 6679230.814 18.46 25500843.242 6679274.001 18.46 25500848.654 6679269.644 18.46 25500851.641 6679273.99 18.46 25500852.346 6679273.164 18.46 25500858.57 6679282.477 18.46 25500847.238 6679290.144 18.46 25500846.257 6679288.703 18.46 25500845.992 6679288.397 18.46 25500843.538 6679290.652 18.46 25500848.799 6679295.132 18.46 25500839.989 6679305.572 18.46 25500831.092 6679298.076 18.46 25500831.012 6679298.17 18.46 25500828.542 6679296.08 18.46 25500834.208 6679289.369 18.46 25500798.724 6679259.625 18.46 25500794.618 6679264.981 18.46 25500793.586 6679262.508 18.46 25500790.114 6679263.966 18.46 25500779.931 6679255.344 18.46 25500788.934 6679244.681 18.46 25500834.661 6679283.177 18.46 25500838.409 6679277.065 18.46</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_484765ae-b370-4ed2-bb0d-d1a20f422a4e_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_484765ae-b370-4ed2-bb0d-d1a20f422a4e_2_poly_1_0_">
-<gml:posList>25500805.918 6679326.967 18.39 25500781.335 6679268.035 18.39 25500786.058 6679266.069 18.39 25500786.477 6679267.075 18.39 25500782.946 6679268.558 18.39 25500784.263 6679271.717 18.39 25500787.795 6679270.234 18.39 25500807.035 6679316.357 18.39 25500808.018 6679318.714 18.39 25500810.625 6679317.619 18.39 25500809.69 6679315.375 18.39 25500814.845 6679313.469 18.39 25500815.971 6679316.168 18.39 25500817.567 6679314.278 18.39 25500820.363 6679320.902 18.39 25500805.918 6679326.967 18.39</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_484765ae-b370-4ed2-bb0d-d1a20f422a4e_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_484765ae-b370-4ed2-bb0d-d1a20f422a4e_2_poly_2_0_">
-<gml:posList>25500878.482 6679245.765 18.49 25500872.495 6679260.259 18.49 25500865.697 6679257.464 18.49 25500866.529 6679255.253 18.49 25500864.77 6679254.524 18.49 25500867.113 6679249.252 18.49 25500872.292 6679251.418 18.49 25500873.368 6679248.998 18.49 25500868.189 6679246.831 18.49 25500868.182 6679246.845 18.49 25500833.77 6679232.561 18.49 25500835.367 6679228.967 18.49 25500832.618 6679227.828 18.49 25500831.021 6679231.421 18.49 25500829.808 6679230.918 18.49 25500831.681 6679226.364 18.49 25500878.482 6679245.765 18.49</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>14.87</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>85c2d335-89e6-4ea3-a3aa-9536ead90f5e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.65</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>21.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>17.65</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>21.02</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_4c70c453-68c1-49c8-ba29-faa2c29a8f25" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_0_0_">
-<gml:posList>25500868.182 6679246.845 21.02 25500868.189 6679246.831 21.02 25500873.368 6679248.998 21.02 25500872.292 6679251.418 21.02 25500867.113 6679249.252 21.02 25500868.182 6679246.845 21.02</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_1_0_">
-<gml:posList>25500786.477 6679267.075 21.05 25500787.795 6679270.234 21.05 25500784.263 6679271.717 21.05 25500782.946 6679268.558 21.05 25500786.477 6679267.075 21.05</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_2_0_">
-<gml:posList>25500809.69 6679315.375 21.06 25500810.625 6679317.619 21.06 25500808.018 6679318.714 21.06 25500807.035 6679316.357 21.06 25500809.69 6679315.375 21.06</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_85c2d335-89e6-4ea3-a3aa-9536ead90f5e_2_poly_3_0_">
-<gml:posList>25500832.618 6679227.828 21.002 25500835.367 6679228.967 21.002 25500833.77 6679232.561 21.002 25500831.021 6679231.421 21.002 25500832.618 6679227.828 21.002</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0329de92-ad06-4a54-859d-f9a77d9311b9_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>769.34</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>0329de92-ad06-4a54-859d-f9a77d9311b9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>19.69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>23.06</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.06</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_fff71b60-1261-4e79-a7ba-2ee605edf7e9" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0329de92-ad06-4a54-859d-f9a77d9311b9_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0329de92-ad06-4a54-859d-f9a77d9311b9_2_poly_0_0_">
-<gml:posList>25500833.77 6679232.561 23.06 25500868.182 6679246.845 23.06 25500864.77 6679254.524 23.06 25500829.79 6679240.023 23.06 25500849.612 6679268.873 23.06 25500843.242 6679274.001 23.06 25500813.568 6679230.814 23.06 25500820.349 6679226.283 23.06 25500827.478 6679236.56 23.06 25500828.492 6679233.948 23.06 25500828.535 6679234.012 23.06 25500829.808 6679230.918 23.06 25500833.77 6679232.561 23.06</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0329de92-ad06-4a54-859d-f9a77d9311b9_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_0329de92-ad06-4a54-859d-f9a77d9311b9_2_poly_1_0_">
-<gml:posList>25500807.035 6679316.357 23.07 25500786.058 6679266.069 23.07 25500790.442 6679264.243 23.07 25500790.114 6679263.966 23.07 25500793.586 6679262.508 23.07 25500794.618 6679264.981 23.07 25500798.724 6679259.625 23.07 25500834.208 6679289.369 23.07 25500828.542 6679296.08 23.07 25500799.94 6679271.879 23.07 25500795.936 6679268.141 23.07 25500814.845 6679313.469 23.07 25500807.035 6679316.357 23.07</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_437187f8-67b8-460f-9e7e-014ef5f83d5e_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>4697.21</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>437187f8-67b8-460f-9e7e-014ef5f83d5e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.37</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_edf74cf7-b046-48e0-9815-789a6e9b7098" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_437187f8-67b8-460f-9e7e-014ef5f83d5e_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_287b7996-d12e-4cf6-9ede-a141fa45a06a_437187f8-67b8-460f-9e7e-014ef5f83d5e_2_poly_0_">
-<gml:posList>25500831.681 6679226.364 3.37 25500828.535 6679234.012 3.37 25500819.781 6679221.147 3.37 25500806.637 6679229.996 3.37 25500838.409 6679277.065 3.37 25500834.661 6679283.177 3.37 25500788.934 6679244.681 3.37 25500779.931 6679255.344 3.37 25500790.442 6679264.243 3.37 25500781.335 6679268.035 3.37 25500805.918 6679326.967 3.37 25500820.363 6679320.902 3.37 25500817.482 6679314.075 3.37 25500831.092 6679298.076 3.37 25500839.989 6679305.572 3.37 25500848.799 6679295.132 3.37 25500843.538 6679290.652 3.37 25500845.992 6679288.397 3.37 25500846.257 6679288.703 3.37 25500847.238 6679290.144 3.37 25500858.57 6679282.477 3.37 25500852.276 6679273.06 3.37 25500865.502 6679257.384 3.37 25500872.495 6679260.259 3.37 25500878.482 6679245.765 3.37 25500831.681 6679226.364 3.37</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-1fc9ecab-7f20-42a7-a1d1-88143ce5fa45"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-457361ae-a7ca-43e2-ab5b-2d27d8034f24"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -6865,7 +6865,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-9c67a301-d2cb-40c2-a9ad-981c055b050b"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-fe1f93ef-c39a-404d-ae54-86a84b0682e0"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -7313,6 +7313,48 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_48605c90-e5e9-46a7-9255-9884865508d3_91972994-d9ae-4906-82ec-be7e62cc181a_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>396.44</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>91972994-d9ae-4906-82ec-be7e62cc181a</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>16.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>19.86</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>16.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>19.86</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_fc9460b3-49d2-49c0-8f99-90cca0864856" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_48605c90-e5e9-46a7-9255-9884865508d3_91972994-d9ae-4906-82ec-be7e62cc181a_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_48605c90-e5e9-46a7-9255-9884865508d3_91972994-d9ae-4906-82ec-be7e62cc181a_2_poly_0_">
+<gml:posList>25500784.985 6679094.355 19.86 25500789.548 6679095.415 19.86 25500790.116 6679093.747 19.86 25500785.224 6679091.515 19.86 25500789.626 6679081.918 19.86 25500797.197 6679085.39 19.86 25500805.076 6679087.156 19.86 25500802.7 6679097.763 19.86 25500796.876 6679110.465 19.86 25500789.833 6679107.236 19.86 25500782.465 6679105.583 19.86 25500784.985 6679094.355 19.86</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_48605c90-e5e9-46a7-9255-9884865508d3_f87d2496-40b9-4803-a9b0-bdf23f02d90a_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -7353,6 +7395,36 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_48605c90-e5e9-46a7-9255-9884865508d3_c549bc4b-b9c7-4071-b869-c823fbb9d3fa_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>396.44</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>c549bc4b-b9c7-4071-b869-c823fbb9d3fa</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.16</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_2dec01a6-92ef-456b-8296-e038bb75977e" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_48605c90-e5e9-46a7-9255-9884865508d3_c549bc4b-b9c7-4071-b869-c823fbb9d3fa_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_48605c90-e5e9-46a7-9255-9884865508d3_c549bc4b-b9c7-4071-b869-c823fbb9d3fa_2_poly_0_">
+<gml:posList>25500782.465 6679105.583 3.16 25500789.833 6679107.236 3.16 25500796.876 6679110.465 3.16 25500802.7 6679097.763 3.16 25500805.076 6679087.156 3.16 25500797.197 6679085.39 3.16 25500789.626 6679081.918 3.16 25500785.224 6679091.515 3.16 25500790.116 6679093.747 3.16 25500789.548 6679095.415 3.16 25500784.985 6679094.355 3.16 25500782.465 6679105.583 3.16</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_48605c90-e5e9-46a7-9255-9884865508d3_5f8632d8-5fe1-4ceb-b5fe-e56ba3640d9e_2">
@@ -7438,80 +7510,8 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_48605c90-e5e9-46a7-9255-9884865508d3_91972994-d9ae-4906-82ec-be7e62cc181a_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>396.44</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>91972994-d9ae-4906-82ec-be7e62cc181a</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>16.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>19.86</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>16.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>19.86</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_fc9460b3-49d2-49c0-8f99-90cca0864856" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_48605c90-e5e9-46a7-9255-9884865508d3_91972994-d9ae-4906-82ec-be7e62cc181a_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_48605c90-e5e9-46a7-9255-9884865508d3_91972994-d9ae-4906-82ec-be7e62cc181a_2_poly_0_">
-<gml:posList>25500784.985 6679094.355 19.86 25500789.548 6679095.415 19.86 25500790.116 6679093.747 19.86 25500785.224 6679091.515 19.86 25500789.626 6679081.918 19.86 25500797.197 6679085.39 19.86 25500805.076 6679087.156 19.86 25500802.7 6679097.763 19.86 25500796.876 6679110.465 19.86 25500789.833 6679107.236 19.86 25500782.465 6679105.583 19.86 25500784.985 6679094.355 19.86</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_48605c90-e5e9-46a7-9255-9884865508d3_c549bc4b-b9c7-4071-b869-c823fbb9d3fa_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>396.44</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c549bc4b-b9c7-4071-b869-c823fbb9d3fa</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.16</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_2dec01a6-92ef-456b-8296-e038bb75977e" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_48605c90-e5e9-46a7-9255-9884865508d3_c549bc4b-b9c7-4071-b869-c823fbb9d3fa_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_48605c90-e5e9-46a7-9255-9884865508d3_c549bc4b-b9c7-4071-b869-c823fbb9d3fa_2_poly_0_">
-<gml:posList>25500782.465 6679105.583 3.16 25500789.833 6679107.236 3.16 25500796.876 6679110.465 3.16 25500802.7 6679097.763 3.16 25500805.076 6679087.156 3.16 25500797.197 6679085.39 3.16 25500789.626 6679081.918 3.16 25500785.224 6679091.515 3.16 25500790.116 6679093.747 3.16 25500789.548 6679095.415 3.16 25500784.985 6679094.355 3.16 25500782.465 6679105.583 3.16</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-63b562d9-5a8c-456d-80a7-f2152b26012d"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-f0379e6b-c957-45da-8009-444ccc2a99d4"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -7522,7 +7522,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-228de59d-c439-4c01-bb0d-2826e35b0fd9"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-be000d8f-0dc3-4537-b614-797fc7cf8375"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -7718,132 +7718,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_dd6993af-09aa-446e-9c2e-e7b796dd17fc_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>205.37</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>dd6993af-09aa-446e-9c2e-e7b796dd17fc</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>4.74</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>10.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>6.16</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_82956380-e515-481d-832b-30c3a2051117" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_dd6993af-09aa-446e-9c2e-e7b796dd17fc_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_dd6993af-09aa-446e-9c2e-e7b796dd17fc_2_poly_0_">
-<gml:posList>25500710.735 6679341.578 10.898 25500710.735 6679341.578 6.16 25500667.836 6679348.085 6.16 25500667.836 6679348.085 10.888 25500710.735 6679341.578 10.898</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_4418ab8e-589f-4506-a4b1-fb6632744ab4_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>66.22</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>4418ab8e-589f-4506-a4b1-fb6632744ab4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>4.74</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>10.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>6.16</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_9dba8e56-f59f-45dc-afd2-3289e4ed4fab" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_4418ab8e-589f-4506-a4b1-fb6632744ab4_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_4418ab8e-589f-4506-a4b1-fb6632744ab4_2_poly_0_">
-<gml:posList>25500709.374 6679332.065 10.886 25500708.752 6679327.723 10.893 25500708.752 6679327.723 6.16 25500710.735 6679341.578 6.16 25500710.735 6679341.578 10.898 25500709.374 6679332.065 10.886</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_51bdb9a1-74b0-4f44-84fb-9f891b609344_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>97.12</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>51bdb9a1-74b0-4f44-84fb-9f891b609344</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>8.42</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.59</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>6.16</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e982f1a3-b05c-43da-b4c8-6936350d527a" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_51bdb9a1-74b0-4f44-84fb-9f891b609344_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_51bdb9a1-74b0-4f44-84fb-9f891b609344_2_poly_0_">
-<gml:posList>25500667.836 6679348.085 6.16 25500665.84 6679334.217 6.16 25500665.84 6679334.217 10.893 25500666.465 6679338.559 13.75 25500666.654 6679339.878 14.585 25500667.025 6679342.451 14.585 25500667.214 6679343.769 13.75 25500667.836 6679348.085 10.888 25500667.836 6679348.085 6.16</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_ae61b14b-1a7d-41f9-9e3a-b98eedb734c0_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -7895,6 +7769,78 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_0f890ab3-396a-497a-b6aa-1c11f81f494e_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>607.68</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>0f890ab3-396a-497a-b6aa-1c11f81f494e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>6.16</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_423a49c9-6813-47ee-8acf-54609a5591fe" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_0f890ab3-396a-497a-b6aa-1c11f81f494e_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_0f890ab3-396a-497a-b6aa-1c11f81f494e_2_poly_0_">
+<gml:posList>25500708.752 6679327.723 6.16 25500665.84 6679334.217 6.16 25500667.836 6679348.085 6.16 25500710.735 6679341.578 6.16 25500708.752 6679327.723 6.16</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_dd6993af-09aa-446e-9c2e-e7b796dd17fc_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>205.37</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>dd6993af-09aa-446e-9c2e-e7b796dd17fc</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>4.74</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>10.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>6.16</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_82956380-e515-481d-832b-30c3a2051117" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_dd6993af-09aa-446e-9c2e-e7b796dd17fc_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_dd6993af-09aa-446e-9c2e-e7b796dd17fc_2_poly_0_">
+<gml:posList>25500710.735 6679341.578 10.898 25500710.735 6679341.578 6.16 25500667.836 6679348.085 6.16 25500667.836 6679348.085 10.888 25500710.735 6679341.578 10.898</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_c4afee0f-731f-450d-90eb-701c62ec909f_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -7935,6 +7881,48 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_4418ab8e-589f-4506-a4b1-fb6632744ab4_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>66.22</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>4418ab8e-589f-4506-a4b1-fb6632744ab4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>4.74</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>10.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>6.16</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_9dba8e56-f59f-45dc-afd2-3289e4ed4fab" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_4418ab8e-589f-4506-a4b1-fb6632744ab4_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_4418ab8e-589f-4506-a4b1-fb6632744ab4_2_poly_0_">
+<gml:posList>25500709.374 6679332.065 10.886 25500708.752 6679327.723 10.893 25500708.752 6679327.723 6.16 25500710.735 6679341.578 6.16 25500710.735 6679341.578 10.898 25500709.374 6679332.065 10.886</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_fcc449cd-2539-43f5-8483-43e7af7d7203_2">
@@ -8039,13 +8027,25 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_0f890ab3-396a-497a-b6aa-1c11f81f494e_2">
+<bldg:WallSurface gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_51bdb9a1-74b0-4f44-84fb-9f891b609344_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>607.68</gen:value>
+<gen:value>97.12</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>0f890ab3-396a-497a-b6aa-1c11f81f494e</gen:value>
+<gen:value>51bdb9a1-74b0-4f44-84fb-9f891b609344</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>8.42</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.59</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>0.0</gen:value>
@@ -8054,22 +8054,22 @@
 <gen:value>6.16</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_423a49c9-6813-47ee-8acf-54609a5591fe" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_e982f1a3-b05c-43da-b4c8-6936350d527a" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_0f890ab3-396a-497a-b6aa-1c11f81f494e_2_poly">
+<gml:Polygon gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_51bdb9a1-74b0-4f44-84fb-9f891b609344_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_0f890ab3-396a-497a-b6aa-1c11f81f494e_2_poly_0_">
-<gml:posList>25500708.752 6679327.723 6.16 25500665.84 6679334.217 6.16 25500667.836 6679348.085 6.16 25500710.735 6679341.578 6.16 25500708.752 6679327.723 6.16</gml:posList>
+<gml:LinearRing gml:id="BID_7d607e27-a805-43ca-a59e-4a854a32d375_51bdb9a1-74b0-4f44-84fb-9f891b609344_2_poly_0_">
+<gml:posList>25500667.836 6679348.085 6.16 25500665.84 6679334.217 6.16 25500665.84 6679334.217 10.893 25500666.465 6679338.559 13.75 25500666.654 6679339.878 14.585 25500667.025 6679342.451 14.585 25500667.214 6679343.769 13.75 25500667.836 6679348.085 10.888 25500667.836 6679348.085 6.16</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:GroundSurface>
+</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-7430a5b2-c5ac-401f-8335-151613d220f8"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-b6f3bd1f-6d48-4481-ab84-9bc3c15359f9"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -8080,7 +8080,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-60529dd8-aee8-452e-ab36-34baa6afc2b2"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-5b180ab5-e01f-4a15-83ec-5fb8f5ba2ed6"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -8238,6 +8238,48 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_36189ae0-5b6e-4338-b5de-b5b0a9ca532a_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>155.47</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>36189ae0-5b6e-4338-b5de-b5b0a9ca532a</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>247.53</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>80.32</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>8.01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>12.05</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>6.69</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>10.73</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_31bb7a2d-609a-47ff-833b-8d8448887bc7" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_36189ae0-5b6e-4338-b5de-b5b0a9ca532a_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_36189ae0-5b6e-4338-b5de-b5b0a9ca532a_2_poly_0_">
+<gml:posList>25500915.71 6679076.515 10.73 25500921.299 6679062.999 10.73 25500925.55 6679064.757 11.515 25500925.588 6679064.665 11.515 25500928.453 6679065.85 12.044 25500927.077 6679069.176 12.044 25500926.985 6679069.138 12.027 25500925.571 6679072.557 12.027 25500925.696 6679072.609 12.05 25500924.893 6679074.549 12.05 25500924.768 6679074.498 12.027 25500918.594 6679089.429 12.027 25500915.71 6679076.515 10.73</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_2db35d9c-88d6-42ed-b817-7e71a04db0e2_2">
@@ -8444,6 +8486,87 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_c13a7fcc-80c9-4561-9df5-fe75b99c12fc_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>562.79</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>c13a7fcc-80c9-4561-9df5-fe75b99c12fc</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.04</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_1ba696df-4762-4451-b746-8a493cf4e013" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_c13a7fcc-80c9-4561-9df5-fe75b99c12fc_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_c13a7fcc-80c9-4561-9df5-fe75b99c12fc_2_poly_0_">
+<gml:posList>25500915.644 6679076.676 4.04 25500884.317 6679063.722 4.04 25500880.19 6679073.702 4.04 25500918.539 6679089.56 4.04 25500924.768 6679074.498 4.04 25500925.415 6679074.765 4.04 25500926.218 6679072.825 4.04 25500925.571 6679072.557 4.04 25500926.985 6679069.138 4.04 25500927.077 6679069.176 4.04 25500928.453 6679065.85 4.04 25500925.588 6679064.665 4.04 25500925.55 6679064.757 4.04 25500921.299 6679062.999 4.04 25500915.644 6679076.676 4.04</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_151ebf75-dd15-430d-a5b8-ff45a7d22894_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>411.27</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>151ebf75-dd15-430d-a5b8-ff45a7d22894</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>157.53</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>83.17</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>8.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>12.04</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>6.69</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>10.73</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_fbfe615f-a005-47e4-bfdc-c08b89121ab4" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_151ebf75-dd15-430d-a5b8-ff45a7d22894_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_151ebf75-dd15-430d-a5b8-ff45a7d22894_2_poly_0_0_">
+<gml:posList>25500918.539 6679089.56 12.044 25500880.19 6679073.702 12.044 25500884.317 6679063.722 10.751 25500915.644 6679076.676 10.751 25500915.71 6679076.515 10.73 25500918.594 6679089.429 12.027 25500918.539 6679089.56 12.044</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_151ebf75-dd15-430d-a5b8-ff45a7d22894_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_151ebf75-dd15-430d-a5b8-ff45a7d22894_2_poly_1_0_">
+<gml:posList>25500925.696 6679072.609 9.92 25500926.218 6679072.825 9.92 25500925.415 6679074.765 9.92 25500924.893 6679074.549 9.92 25500925.696 6679072.609 9.92</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_ec8730f5-14c4-4013-a38a-1a01e50786da_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -8629,131 +8752,8 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_36189ae0-5b6e-4338-b5de-b5b0a9ca532a_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>155.47</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>36189ae0-5b6e-4338-b5de-b5b0a9ca532a</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>247.53</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>80.32</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>8.01</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>12.05</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>6.69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>10.73</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_31bb7a2d-609a-47ff-833b-8d8448887bc7" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_36189ae0-5b6e-4338-b5de-b5b0a9ca532a_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_36189ae0-5b6e-4338-b5de-b5b0a9ca532a_2_poly_0_">
-<gml:posList>25500915.71 6679076.515 10.73 25500921.299 6679062.999 10.73 25500925.55 6679064.757 11.515 25500925.588 6679064.665 11.515 25500928.453 6679065.85 12.044 25500927.077 6679069.176 12.044 25500926.985 6679069.138 12.027 25500925.571 6679072.557 12.027 25500925.696 6679072.609 12.05 25500924.893 6679074.549 12.05 25500924.768 6679074.498 12.027 25500918.594 6679089.429 12.027 25500915.71 6679076.515 10.73</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_151ebf75-dd15-430d-a5b8-ff45a7d22894_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>411.27</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>151ebf75-dd15-430d-a5b8-ff45a7d22894</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>157.53</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>83.17</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>8.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>12.04</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>6.69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>10.73</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_fbfe615f-a005-47e4-bfdc-c08b89121ab4" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_151ebf75-dd15-430d-a5b8-ff45a7d22894_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_151ebf75-dd15-430d-a5b8-ff45a7d22894_2_poly_0_0_">
-<gml:posList>25500918.539 6679089.56 12.044 25500880.19 6679073.702 12.044 25500884.317 6679063.722 10.751 25500915.644 6679076.676 10.751 25500915.71 6679076.515 10.73 25500918.594 6679089.429 12.027 25500918.539 6679089.56 12.044</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_151ebf75-dd15-430d-a5b8-ff45a7d22894_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_151ebf75-dd15-430d-a5b8-ff45a7d22894_2_poly_1_0_">
-<gml:posList>25500925.696 6679072.609 9.92 25500926.218 6679072.825 9.92 25500925.415 6679074.765 9.92 25500924.893 6679074.549 9.92 25500925.696 6679072.609 9.92</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_c13a7fcc-80c9-4561-9df5-fe75b99c12fc_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>562.79</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c13a7fcc-80c9-4561-9df5-fe75b99c12fc</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.04</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_1ba696df-4762-4451-b746-8a493cf4e013" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_c13a7fcc-80c9-4561-9df5-fe75b99c12fc_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_7fc06be5-6024-4b33-bb0c-ba6e5c9fdd99_c13a7fcc-80c9-4561-9df5-fe75b99c12fc_2_poly_0_">
-<gml:posList>25500915.644 6679076.676 4.04 25500884.317 6679063.722 4.04 25500880.19 6679073.702 4.04 25500918.539 6679089.56 4.04 25500924.768 6679074.498 4.04 25500925.415 6679074.765 4.04 25500926.218 6679072.825 4.04 25500925.571 6679072.557 4.04 25500926.985 6679069.138 4.04 25500927.077 6679069.176 4.04 25500928.453 6679065.85 4.04 25500925.588 6679064.665 4.04 25500925.55 6679064.757 4.04 25500921.299 6679062.999 4.04 25500915.644 6679076.676 4.04</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-1a69ded0-e409-430a-8885-61597bb69f2b"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-ff016b59-d034-4a9e-b72a-c23d62dd77fa"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -8764,7 +8764,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-ea11958d-9e89-44f8-897f-4fc419b08685"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-ea92eb2c-dff2-4c0a-a23e-03be081254eb"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -8904,6 +8904,129 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_55ac66bf-0c25-4f6b-9029-a51029e0585d_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>947.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>55ac66bf-0c25-4f6b-9029-a51029e0585d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>5.44</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>13.99</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>5.44</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>13.99</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_e8bb817b-3486-4210-82c8-8fa90ce183fd" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_55ac66bf-0c25-4f6b-9029-a51029e0585d_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_55ac66bf-0c25-4f6b-9029-a51029e0585d_2_poly_0_0_">
+<gml:posList>25500778.5 6679467.563 13.99 25500789.944 6679469.317 13.99 25500791.166 6679461.757 13.99 25500820.141 6679466.44 13.99 25500819.361 6679471.156 13.99 25500818.143 6679478.519 13.99 25500789.173 6679473.786 13.99 25500787.611 6679483.437 13.99 25500823.387 6679489.282 13.99 25500822.842 6679492.574 13.99 25500822.723 6679492.557 13.99 25500821.85 6679497.643 13.99 25500780.758 6679490.929 13.99 25500780.247 6679494.085 13.99 25500774.363 6679493.127 13.99 25500778.5 6679467.563 13.99</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_55ac66bf-0c25-4f6b-9029-a51029e0585d_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_55ac66bf-0c25-4f6b-9029-a51029e0585d_2_poly_1_0_">
+<gml:posList>25500828.233 6679472.59 14.005 25500829.013 6679467.874 14.005 25500870.003 6679474.5 14.005 25500868.56 6679483.425 14.005 25500868.665 6679483.442 14.005 25500868.127 6679486.685 14.005 25500827.013 6679479.968 14.005 25500828.233 6679472.59 14.005</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_78618505-249b-4aec-82c6-791ee9372637_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>791.81</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>78618505-249b-4aec-82c6-791ee9372637</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>6.98</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>15.53</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>6.98</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>15.53</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_cc1e7232-4348-4a60-8852-0ceaef2696e4" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_78618505-249b-4aec-82c6-791ee9372637_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_78618505-249b-4aec-82c6-791ee9372637_2_poly_0_">
+<gml:posList>25500822.992 6679472.069 15.53 25500827.83 6679472.851 15.53 25500827.881 6679472.534 15.53 25500828.233 6679472.59 15.53 25500827.013 6679479.968 15.53 25500875.741 6679487.929 15.53 25500874.151 6679497.525 15.53 25500825.326 6679489.548 15.53 25500825.318 6679489.598 15.53 25500823.387 6679489.282 15.53 25500823.967 6679485.78 15.53 25500788.178 6679479.933 15.53 25500789.173 6679473.786 15.53 25500818.143 6679478.519 15.53 25500819.361 6679471.156 15.53 25500823.044 6679471.752 15.53 25500822.992 6679472.069 15.53</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_7f7f4445-e570-40bb-b783-7da9d85cad3c_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>2556.81</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>7f7f4445-e570-40bb-b783-7da9d85cad3c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>8.55</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_30b325cc-e758-4fa4-9403-9469d5d40ec6" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_7f7f4445-e570-40bb-b783-7da9d85cad3c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_7f7f4445-e570-40bb-b783-7da9d85cad3c_2_poly_0_">
+<gml:posList>25500868.56 6679483.425 8.55 25500870.003 6679474.5 8.55 25500828.644 6679467.815 8.55 25500827.83 6679472.851 8.55 25500822.992 6679472.069 8.55 25500823.489 6679469.009 8.55 25500820.587 6679468.538 8.55 25500820.907 6679466.564 8.55 25500791.166 6679461.757 8.55 25500789.944 6679469.317 8.55 25500778.5 6679467.563 8.55 25500774.363 6679493.127 8.55 25500821.313 6679500.769 8.55 25500822.723 6679492.557 8.55 25500824.831 6679492.851 8.55 25500825.326 6679489.548 8.55 25500874.151 6679497.525 8.55 25500876.276 6679484.699 8.55 25500868.56 6679483.425 8.55</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_535a1dff-764f-4562-82c5-54f5fef32394_2">
 <creationDate>2019-07-29</creationDate>
@@ -9403,6 +9526,66 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_52ecca54-76d4-4607-8964-9d7c09e5a375_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1.74</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>52ecca54-76d4-4607-8964-9d7c09e5a375</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>3.55</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>12.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>3.55</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>12.1</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_08a0fae3-eace-4538-b296-7f168bece207" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_52ecca54-76d4-4607-8964-9d7c09e5a375_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_52ecca54-76d4-4607-8964-9d7c09e5a375_2_poly_0_0_">
+<gml:posList>25500828.644 6679467.815 12.099 25500829.013 6679467.874 12.099 25500828.233 6679472.59 12.099 25500827.881 6679472.534 12.099 25500828.644 6679467.815 12.099</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_52ecca54-76d4-4607-8964-9d7c09e5a375_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_52ecca54-76d4-4607-8964-9d7c09e5a375_2_poly_1_0_">
+<gml:posList>25500820.141 6679466.44 12.47 25500820.907 6679466.564 12.47 25500820.587 6679468.538 12.47 25500823.489 6679469.009 12.47 25500823.044 6679471.752 12.47 25500819.361 6679471.156 12.47 25500820.141 6679466.44 12.47</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_52ecca54-76d4-4607-8964-9d7c09e5a375_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_52ecca54-76d4-4607-8964-9d7c09e5a375_2_poly_2_0_">
+<gml:posList>25500823.387 6679489.282 12.291 25500825.318 6679489.598 12.291 25500824.831 6679492.851 12.291 25500822.842 6679492.574 12.291 25500823.387 6679489.282 12.291</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_b7e31b6c-d170-4a2f-a6cf-1fb1727a0367_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -9452,6 +9635,48 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_56dfc216-d475-4fe2-aee2-dbc32e09a5c7_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>25.48</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>56dfc216-d475-4fe2-aee2-dbc32e09a5c7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>170.87</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>83.37</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>4.13</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>12.68</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>3.75</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>12.3</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_20971478-5adf-45f7-8ab7-45580ebe7be7" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_56dfc216-d475-4fe2-aee2-dbc32e09a5c7_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_56dfc216-d475-4fe2-aee2-dbc32e09a5c7_2_poly_0_">
+<gml:posList>25500868.665 6679483.442 12.299 25500876.276 6679484.699 12.303 25500875.741 6679487.929 12.684 25500868.127 6679486.685 12.682 25500868.665 6679483.442 12.299</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_0013ccb8-e590-46ff-8d08-a7790e55b31b_2">
@@ -9760,6 +9985,48 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_dd5c1077-b7e9-4a03-936f-375ff13a7476_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>136.09</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>dd5c1077-b7e9-4a03-936f-375ff13a7476</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>170.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>71.03</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>8.2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.75</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>6.98</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>15.53</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_6d14fe1e-0edc-46ed-b131-4848d5904058" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_dd5c1077-b7e9-4a03-936f-375ff13a7476_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_dd5c1077-b7e9-4a03-936f-375ff13a7476_2_poly_0_">
+<gml:posList>25500788.178 6679479.933 15.53 25500823.967 6679485.78 15.53 25500823.387 6679489.282 16.75 25500787.611 6679483.437 16.75 25500788.178 6679479.933 15.53</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_0de6a18f-ea1b-46ce-b662-99beb5e52f6d_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -9820,243 +10087,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_55ac66bf-0c25-4f6b-9029-a51029e0585d_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>947.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>55ac66bf-0c25-4f6b-9029-a51029e0585d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>5.44</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>13.99</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>5.44</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>13.99</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e8bb817b-3486-4210-82c8-8fa90ce183fd" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_55ac66bf-0c25-4f6b-9029-a51029e0585d_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_55ac66bf-0c25-4f6b-9029-a51029e0585d_2_poly_0_0_">
-<gml:posList>25500778.5 6679467.563 13.99 25500789.944 6679469.317 13.99 25500791.166 6679461.757 13.99 25500820.141 6679466.44 13.99 25500819.361 6679471.156 13.99 25500818.143 6679478.519 13.99 25500789.173 6679473.786 13.99 25500787.611 6679483.437 13.99 25500823.387 6679489.282 13.99 25500822.842 6679492.574 13.99 25500822.723 6679492.557 13.99 25500821.85 6679497.643 13.99 25500780.758 6679490.929 13.99 25500780.247 6679494.085 13.99 25500774.363 6679493.127 13.99 25500778.5 6679467.563 13.99</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_55ac66bf-0c25-4f6b-9029-a51029e0585d_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_55ac66bf-0c25-4f6b-9029-a51029e0585d_2_poly_1_0_">
-<gml:posList>25500828.233 6679472.59 14.005 25500829.013 6679467.874 14.005 25500870.003 6679474.5 14.005 25500868.56 6679483.425 14.005 25500868.665 6679483.442 14.005 25500868.127 6679486.685 14.005 25500827.013 6679479.968 14.005 25500828.233 6679472.59 14.005</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_78618505-249b-4aec-82c6-791ee9372637_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>791.81</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>78618505-249b-4aec-82c6-791ee9372637</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>6.98</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>15.53</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>6.98</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>15.53</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_cc1e7232-4348-4a60-8852-0ceaef2696e4" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_78618505-249b-4aec-82c6-791ee9372637_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_78618505-249b-4aec-82c6-791ee9372637_2_poly_0_">
-<gml:posList>25500822.992 6679472.069 15.53 25500827.83 6679472.851 15.53 25500827.881 6679472.534 15.53 25500828.233 6679472.59 15.53 25500827.013 6679479.968 15.53 25500875.741 6679487.929 15.53 25500874.151 6679497.525 15.53 25500825.326 6679489.548 15.53 25500825.318 6679489.598 15.53 25500823.387 6679489.282 15.53 25500823.967 6679485.78 15.53 25500788.178 6679479.933 15.53 25500789.173 6679473.786 15.53 25500818.143 6679478.519 15.53 25500819.361 6679471.156 15.53 25500823.044 6679471.752 15.53 25500822.992 6679472.069 15.53</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_52ecca54-76d4-4607-8964-9d7c09e5a375_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1.74</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>52ecca54-76d4-4607-8964-9d7c09e5a375</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>3.55</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>12.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>3.55</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>12.1</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_08a0fae3-eace-4538-b296-7f168bece207" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_52ecca54-76d4-4607-8964-9d7c09e5a375_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_52ecca54-76d4-4607-8964-9d7c09e5a375_2_poly_0_0_">
-<gml:posList>25500828.644 6679467.815 12.099 25500829.013 6679467.874 12.099 25500828.233 6679472.59 12.099 25500827.881 6679472.534 12.099 25500828.644 6679467.815 12.099</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_52ecca54-76d4-4607-8964-9d7c09e5a375_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_52ecca54-76d4-4607-8964-9d7c09e5a375_2_poly_1_0_">
-<gml:posList>25500820.141 6679466.44 12.47 25500820.907 6679466.564 12.47 25500820.587 6679468.538 12.47 25500823.489 6679469.009 12.47 25500823.044 6679471.752 12.47 25500819.361 6679471.156 12.47 25500820.141 6679466.44 12.47</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_52ecca54-76d4-4607-8964-9d7c09e5a375_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_52ecca54-76d4-4607-8964-9d7c09e5a375_2_poly_2_0_">
-<gml:posList>25500823.387 6679489.282 12.291 25500825.318 6679489.598 12.291 25500824.831 6679492.851 12.291 25500822.842 6679492.574 12.291 25500823.387 6679489.282 12.291</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_56dfc216-d475-4fe2-aee2-dbc32e09a5c7_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>25.48</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>56dfc216-d475-4fe2-aee2-dbc32e09a5c7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>170.87</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>83.37</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>4.13</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>12.68</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>3.75</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>12.3</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_20971478-5adf-45f7-8ab7-45580ebe7be7" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_56dfc216-d475-4fe2-aee2-dbc32e09a5c7_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_56dfc216-d475-4fe2-aee2-dbc32e09a5c7_2_poly_0_">
-<gml:posList>25500868.665 6679483.442 12.299 25500876.276 6679484.699 12.303 25500875.741 6679487.929 12.684 25500868.127 6679486.685 12.682 25500868.665 6679483.442 12.299</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_dd5c1077-b7e9-4a03-936f-375ff13a7476_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>136.09</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>dd5c1077-b7e9-4a03-936f-375ff13a7476</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>170.72</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>71.03</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>8.2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.75</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>6.98</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>15.53</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_6d14fe1e-0edc-46ed-b131-4848d5904058" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_dd5c1077-b7e9-4a03-936f-375ff13a7476_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_dd5c1077-b7e9-4a03-936f-375ff13a7476_2_poly_0_">
-<gml:posList>25500788.178 6679479.933 15.53 25500823.967 6679485.78 15.53 25500823.387 6679489.282 16.75 25500787.611 6679483.437 16.75 25500788.178 6679479.933 15.53</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_5c94d5c5-b582-4260-9351-79da3543d613_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -10098,38 +10128,8 @@
 </bldg:lod2MultiSurface>
 </bldg:RoofSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_7f7f4445-e570-40bb-b783-7da9d85cad3c_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>2556.81</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>7f7f4445-e570-40bb-b783-7da9d85cad3c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>8.55</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_30b325cc-e758-4fa4-9403-9469d5d40ec6" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_7f7f4445-e570-40bb-b783-7da9d85cad3c_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_81368450-febe-4d69-aa98-b3dddb777036_7f7f4445-e570-40bb-b783-7da9d85cad3c_2_poly_0_">
-<gml:posList>25500868.56 6679483.425 8.55 25500870.003 6679474.5 8.55 25500828.644 6679467.815 8.55 25500827.83 6679472.851 8.55 25500822.992 6679472.069 8.55 25500823.489 6679469.009 8.55 25500820.587 6679468.538 8.55 25500820.907 6679466.564 8.55 25500791.166 6679461.757 8.55 25500789.944 6679469.317 8.55 25500778.5 6679467.563 8.55 25500774.363 6679493.127 8.55 25500821.313 6679500.769 8.55 25500822.723 6679492.557 8.55 25500824.831 6679492.851 8.55 25500825.326 6679489.548 8.55 25500874.151 6679497.525 8.55 25500876.276 6679484.699 8.55 25500868.56 6679483.425 8.55</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-111e06ac-7395-412e-86c4-bc6e29334612"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-2bcaa933-7f74-4c6f-923a-bf48820d560e"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -10140,7 +10140,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-6862f874-c150-4350-93b6-03094e73c27e"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-206ad52e-026f-413f-96b5-484af5c871df"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -10446,7 +10446,7 @@
 </bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-9e04dff7-46ec-4cf7-ae4c-4392b82db337"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-beb9f7f0-2897-4bf6-aa9e-bd18520cc2fc"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -10457,7 +10457,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-2abd618f-47d5-4114-acb3-77235bbc20bc"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-03d32ac6-53ec-4a51-b16c-3fabd0edb854"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -10649,25 +10649,13 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_993e387c-aa19-4636-a074-d9fdd960018e_b00f4132-80c5-4fe3-bbf1-fa86b0c93316_2">
+<bldg:GroundSurface gml:id="BID_993e387c-aa19-4636-a074-d9fdd960018e_7e7827ec-0973-4ecb-979e-9ff31b07edc0_2">
 <creationDate>2019-07-26</creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>19.39</gen:value>
+<gen:value>22.03</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>b00f4132-80c5-4fe3-bbf1-fa86b0c93316</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>3.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>10.7</gen:value>
+<gen:value>7e7827ec-0973-4ecb-979e-9ff31b07edc0</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>0.0</gen:value>
@@ -10676,19 +10664,19 @@
 <gen:value>7.67</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_b9ab8946-acd9-40ef-9a26-dd26804970b3" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_967bdab8-790b-46f9-8ced-9454d5228c49" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_993e387c-aa19-4636-a074-d9fdd960018e_b00f4132-80c5-4fe3-bbf1-fa86b0c93316_2_poly">
+<gml:Polygon gml:id="BID_993e387c-aa19-4636-a074-d9fdd960018e_7e7827ec-0973-4ecb-979e-9ff31b07edc0_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_993e387c-aa19-4636-a074-d9fdd960018e_b00f4132-80c5-4fe3-bbf1-fa86b0c93316_2_poly_0_">
-<gml:posList>25501023.706 6679427.714 7.673 25501023.706 6679427.714 10.695 25501022.581 6679434.028 10.695 25501022.581 6679434.028 7.673 25501023.706 6679427.714 7.673</gml:posList>
+<gml:LinearRing gml:id="BID_993e387c-aa19-4636-a074-d9fdd960018e_7e7827ec-0973-4ecb-979e-9ff31b07edc0_2_poly_0_">
+<gml:posList>25501022.581 6679434.028 7.673 25501025.966 6679434.609 7.673 25501027.091 6679428.295 7.673 25501023.706 6679427.714 7.673 25501022.581 6679434.028 7.673</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:WallSurface>
+</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_993e387c-aa19-4636-a074-d9fdd960018e_e18bd2b9-f698-495c-a404-20ebc4b7b3b1_2">
@@ -10733,13 +10721,25 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_993e387c-aa19-4636-a074-d9fdd960018e_7e7827ec-0973-4ecb-979e-9ff31b07edc0_2">
+<bldg:WallSurface gml:id="BID_993e387c-aa19-4636-a074-d9fdd960018e_b00f4132-80c5-4fe3-bbf1-fa86b0c93316_2">
 <creationDate>2019-07-26</creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>22.03</gen:value>
+<gen:value>19.39</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>7e7827ec-0973-4ecb-979e-9ff31b07edc0</gen:value>
+<gen:value>b00f4132-80c5-4fe3-bbf1-fa86b0c93316</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>3.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>10.7</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>0.0</gen:value>
@@ -10748,22 +10748,22 @@
 <gen:value>7.67</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_967bdab8-790b-46f9-8ced-9454d5228c49" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_b9ab8946-acd9-40ef-9a26-dd26804970b3" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_993e387c-aa19-4636-a074-d9fdd960018e_7e7827ec-0973-4ecb-979e-9ff31b07edc0_2_poly">
+<gml:Polygon gml:id="BID_993e387c-aa19-4636-a074-d9fdd960018e_b00f4132-80c5-4fe3-bbf1-fa86b0c93316_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_993e387c-aa19-4636-a074-d9fdd960018e_7e7827ec-0973-4ecb-979e-9ff31b07edc0_2_poly_0_">
-<gml:posList>25501022.581 6679434.028 7.673 25501025.966 6679434.609 7.673 25501027.091 6679428.295 7.673 25501023.706 6679427.714 7.673 25501022.581 6679434.028 7.673</gml:posList>
+<gml:LinearRing gml:id="BID_993e387c-aa19-4636-a074-d9fdd960018e_b00f4132-80c5-4fe3-bbf1-fa86b0c93316_2_poly_0_">
+<gml:posList>25501023.706 6679427.714 7.673 25501023.706 6679427.714 10.695 25501022.581 6679434.028 10.695 25501022.581 6679434.028 7.673 25501023.706 6679427.714 7.673</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:GroundSurface>
+</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-2f477d43-0059-4926-9852-6be7db3ba061"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-ab9eeb36-beae-42f2-954d-21d583cb9b59"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -10774,7 +10774,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-2ebb557a-30fa-4258-a437-3dfbbcb24ac4"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-172808d9-b89b-4f9b-beb0-65f158584729"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -11380,6 +11380,126 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_9c62dbe1-eb53-4172-9dc7-c81573e638d9_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>128.89</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>9c62dbe1-eb53-4172-9dc7-c81573e638d9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>9.89</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.24</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>9.89</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>14.24</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_0fe59491-ce87-430e-a6ce-9c9e43c89821" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_9c62dbe1-eb53-4172-9dc7-c81573e638d9_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_9c62dbe1-eb53-4172-9dc7-c81573e638d9_2_poly_0_">
+<gml:posList>25500908.37 6679282.483 14.24 25500910.731 6679283.656 14.24 25500915.224 6679274.712 14.24 25500912.865 6679273.53 14.24 25500913.251 6679272.409 14.24 25500915.756 6679273.653 14.24 25500916.88 6679274.212 14.24 25500916.965 6679274.042 14.24 25500920.041 6679275.582 14.24 25500919.961 6679275.742 14.24 25500924.373 6679277.933 14.24 25500918.3 6679289.164 14.24 25500914.286 6679287.17 14.24 25500914.208 6679287.327 14.24 25500911.128 6679285.796 14.24 25500911.205 6679285.64 14.24 25500910.029 6679285.056 14.24 25500907.647 6679283.873 14.24 25500908.37 6679282.483 14.24</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>11.62</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>3bebda8b-484e-4824-86d5-5586237ebc59</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>244.52</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>26.01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>12.64</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.99</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>8.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>12.45</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_0480f41d-33b9-4c18-acd4-86ca562748c8" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_0_0_">
+<gml:posList>25500899.725 6679270.136 12.453 25500901.257 6679271.036 16.08 25500901.366 6679271.1 16.337 25500901.641 6679271.261 16.989 25500898.506 6679274.742 14.258 25500899.725 6679270.136 12.453</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_1_0_">
+<gml:posList>25500899.725 6679270.136 12.453 25500898.506 6679274.742 14.258 25500896.957 6679273.911 10.72 25500899.725 6679270.136 12.453</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_2_0_">
+<gml:posList>25500898.993 6679269.706 10.72 25500899.725 6679270.136 12.453 25500896.957 6679273.911 10.72 25500898.993 6679269.706 10.72</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_3_0_">
+<gml:posList>25500901.641 6679271.261 16.989 25500900.897 6679276.024 19.72 25500898.506 6679274.742 14.258 25500901.641 6679271.261 16.989</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_4">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_4_0_">
+<gml:posList>25500901.641 6679271.261 16.989 25500902.796 6679271.936 19.72 25500900.897 6679276.024 19.72 25500901.641 6679271.261 16.989</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_02369651-c26d-4a52-922b-bc3f3e2cc10d_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -11504,6 +11624,57 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_b1e875f5-9329-445b-acc8-7e94e01e0372_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>266.82</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>b1e875f5-9329-445b-acc8-7e94e01e0372</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>23.22</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>27.57</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>23.22</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>27.57</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_e1236618-9540-45e7-aadc-84dcf1c14fdd" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_b1e875f5-9329-445b-acc8-7e94e01e0372_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_b1e875f5-9329-445b-acc8-7e94e01e0372_2_poly_0_0_">
+<gml:posList>25500931.038 6679242.463 27.57 25500944.303 6679247.299 27.57 25500955.964 6679251.551 27.57 25500958.809 6679252.588 27.57 25500954.343 6679264.838 27.57 25500951.124 6679263.655 27.57 25500954.637 6679254.87 27.57 25500943.212 6679250.276 27.57 25500939.829 6679259.5 27.57 25500926.6 6679254.634 27.57 25500931.038 6679242.463 27.57</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_b1e875f5-9329-445b-acc8-7e94e01e0372_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_b1e875f5-9329-445b-acc8-7e94e01e0372_2_poly_1_0_">
+<gml:posList>25500901.578 6679305.066 27.52 25500920.667 6679317.364 27.52 25500921.057 6679316.631 27.52 25500926.876 6679320.379 27.52 25500919.315 6679332.114 27.52 25500894.466 6679316.106 27.52 25500901.578 6679305.066 27.52</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_9fe2ba8a-e2b2-4b26-81a0-18fdc801a0ee_2">
@@ -11648,6 +11819,36 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_342c1c95-53a4-4f40-8013-4c8051cf892d_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>3142.41</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>342c1c95-53a4-4f40-8013-4c8051cf892d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.35</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_6859dd14-9186-46d0-a48b-d12aa2eb2561" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_342c1c95-53a4-4f40-8013-4c8051cf892d_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_342c1c95-53a4-4f40-8013-4c8051cf892d_2_poly_0_">
+<gml:posList>25500955.964 6679251.551 4.349 25500944.303 6679247.299 4.349 25500931.038 6679242.463 4.349 25500926.6 6679254.634 4.349 25500926.516 6679254.864 4.349 25500923.453 6679253.747 4.349 25500920.315 6679252.603 4.349 25500920.405 6679252.356 4.349 25500922.37 6679246.966 4.349 25500918.011 6679245.377 4.349 25500920.477 6679238.612 4.349 25500915.159 6679233.957 4.349 25500913.519 6679232.522 4.349 25500912.182 6679231.352 4.349 25500898.285 6679269.29 4.349 25500898.24 6679269.413 4.349 25500897.231 6679268.927 4.349 25500895.31 6679272.916 4.349 25500895.223 6679272.866 4.349 25500895.179 6679272.957 4.349 25500890.86 6679281.927 4.349 25500887.378 6679288.249 4.349 25500884.26 6679293.377 4.349 25500880.947 6679298.38 4.349 25500874.093 6679307.822 4.349 25500875.837 6679308.173 4.349 25500878.015 6679308.611 4.349 25500885.017 6679310.019 4.349 25500888.916 6679303.966 4.349 25500892.816 6679306.479 4.349 25500896.066 6679301.435 4.349 25500896.275 6679301.57 4.349 25500901.614 6679305.009 4.349 25500901.578 6679305.066 4.349 25500894.466 6679316.106 4.349 25500919.315 6679332.114 4.349 25500926.876 6679320.379 4.349 25500921.057 6679316.631 4.349 25500920.823 6679316.48 4.349 25500922.936 6679313.202 4.349 25500923.164 6679313.349 4.349 25500924.323 6679314.095 4.349 25500924.447 6679314.168 4.349 25500924.577 6679314.229 4.349 25500924.712 6679314.279 4.349 25500924.851 6679314.317 4.349 25500924.993 6679314.343 4.349 25500925.136 6679314.356 4.349 25500925.28 6679314.357 4.349 25500925.423 6679314.345 4.349 25500925.565 6679314.321 4.349 25500925.704 6679314.284 4.349 25500925.84 6679314.236 4.349 25500925.971 6679314.175 4.349 25500926.096 6679314.104 4.349 25500926.214 6679314.022 4.349 25500926.325 6679313.93 4.349 25500926.427 6679313.829 4.349 25500926.52 6679313.719 4.349 25500926.603 6679313.602 4.349 25500926.676 6679313.477 4.349 25500926.737 6679313.347 4.349 25500926.787 6679313.212 4.349 25500926.825 6679313.073 4.349 25500926.851 6679312.932 4.349 25500926.864 6679312.788 4.349 25500926.865 6679312.644 4.349 25500926.853 6679312.501 4.349 25500926.829 6679312.359 4.349 25500926.792 6679312.22 4.349 25500926.744 6679312.084 4.349 25500926.683 6679311.954 4.349 25500926.612 6679311.829 4.349 25500926.53 6679311.71 4.349 25500926.438 6679311.599 4.349 25500926.337 6679311.497 4.349 25500926.227 6679311.404 4.349 25500926.11 6679311.321 4.349 25500924.955 6679310.577 4.349 25500924.723 6679310.427 4.349 25500927.972 6679305.383 4.349 25500903.831 6679289.831 4.349 25500903.627 6679289.7 4.349 25500905.008 6679287.556 4.349 25500905.211 6679287.687 4.349 25500905.933 6679288.151 4.349 25500907.286 6679286.049 4.349 25500906.564 6679285.585 4.349 25500906.361 6679285.453 4.349 25500907.443 6679283.772 4.349 25500907.647 6679283.873 4.349 25500910.029 6679285.056 4.349 25500911.205 6679285.64 4.349 25500911.128 6679285.796 4.349 25500910.805 6679286.446 4.349 25500913.886 6679287.976 4.349 25500914.208 6679287.327 4.349 25500914.286 6679287.17 4.349 25500918.3 6679289.164 4.349 25500931.771 6679295.854 4.349 25500931.842 6679295.713 4.349 25500937.447 6679284.426 4.349 25500924.544 6679278.018 4.349 25500924.373 6679277.933 4.349 25500919.961 6679275.742 4.349 25500920.041 6679275.582 4.349 25500920.361 6679274.936 4.349 25500917.28 6679273.406 4.349 25500916.965 6679274.042 4.349 25500916.88 6679274.212 4.349 25500915.756 6679273.653 4.349 25500913.251 6679272.409 4.349 25500913.118 6679272.343 4.349 25500913.924 6679270.135 4.349 25500914.062 6679270.185 4.349 25500914.958 6679270.511 4.349 25500915.814 6679268.162 4.349 25500914.923 6679267.838 4.349 25500914.78 6679267.786 4.349 25500915.483 6679265.857 4.349 25500915.533 6679265.719 4.349 25500922.215 6679268.155 4.349 25500933.071 6679272.113 4.349 25500942.741 6679275.639 4.349 25500944.777 6679270.059 4.349 25500944.947 6679270.121 4.349 25500946.515 6679270.692 4.349 25500946.652 6679270.736 4.349 25500946.792 6679270.767 4.349 25500946.935 6679270.786 4.349 25500947.079 6679270.792 4.349 25500947.223 6679270.786 4.349 25500947.365 6679270.767 4.349 25500947.506 6679270.736 4.349 25500947.643 6679270.693 4.349 25500947.776 6679270.638 4.349 25500947.904 6679270.571 4.349 25500948.025 6679270.494 4.349 25500948.14 6679270.407 4.349 25500948.246 6679270.309 4.349 25500948.343 6679270.203 4.349 25500948.431 6679270.089 4.349 25500948.508 6679269.968 4.349 25500948.575 6679269.84 4.349 25500948.63 6679269.707 4.349 25500948.673 6679269.57 4.349 25500948.704 6679269.429 4.349 25500948.723 6679269.287 4.349 25500948.73 6679269.143 4.349 25500948.723 6679268.999 4.349 25500948.705 6679268.856 4.349 25500948.674 6679268.716 4.349 25500948.63 6679268.579 4.349 25500948.575 6679268.446 4.349 25500948.509 6679268.318 4.349 25500948.432 6679268.196 4.349 25500948.344 6679268.082 4.349 25500948.247 6679267.976 4.349 25500948.141 6679267.879 4.349 25500948.027 6679267.791 4.349 25500947.905 6679267.714 4.349 25500947.778 6679267.647 4.349 25500947.645 6679267.592 4.349 25500946.083 6679267.023 4.349 25500945.907 6679266.958 4.349 25500946.66 6679264.891 4.349 25500946.841 6679264.957 4.349 25500949.065 6679265.768 4.349 25500949.668 6679264.115 4.349 25500949.886 6679264.194 4.349 25500954.027 6679265.704 4.349 25500954.343 6679264.838 4.349 25500958.809 6679252.588 4.349 25500955.964 6679251.551 4.349</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_daa1a6f7-5c4c-41e6-a33e-faf6f795cc26_2">
@@ -12691,6 +12892,66 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7e7bfbd3-0f9e-4528-ac01-ce3c35128997_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>22.48</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>7e7bfbd3-0f9e-4528-ac01-ce3c35128997</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>245.09</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>70.07</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>21.67</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>26.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.47</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.82</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_1356e017-a72a-4ca2-b1e0-42aa0399bf98" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7e7bfbd3-0f9e-4528-ac01-ce3c35128997_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7e7bfbd3-0f9e-4528-ac01-ce3c35128997_2_poly_0_0_">
+<gml:posList>25500900.897 6679276.024 23.82 25500902.796 6679271.936 23.82 25500905.296 6679280.956 26.02 25500899.861 6679278.255 23.82 25500900.897 6679276.024 23.82</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7e7bfbd3-0f9e-4528-ac01-ce3c35128997_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7e7bfbd3-0f9e-4528-ac01-ce3c35128997_2_poly_1_0_">
+<gml:posList>25500909.66 6679271.925 26.02 25500905.296 6679280.956 26.02 25500902.796 6679271.936 23.82 25500909.66 6679271.925 26.02</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7e7bfbd3-0f9e-4528-ac01-ce3c35128997_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7e7bfbd3-0f9e-4528-ac01-ce3c35128997_2_poly_2_0_">
+<gml:posList>25500904.096 6679269.138 23.82 25500909.66 6679271.925 26.02 25500902.796 6679271.936 23.82 25500904.096 6679269.138 23.82</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_66813d73-3cce-4271-8775-601148edf5d2_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -12868,6 +13129,62 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_96806d22-6d51-4400-a50c-e8b048a7cf05_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>346.5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>96806d22-6d51-4400-a50c-e8b048a7cf05</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>27.04</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>31.39</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>27.04</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>31.39</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_1e81b237-d8be-4024-bc20-d91d6daf0b6b" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_96806d22-6d51-4400-a50c-e8b048a7cf05_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_96806d22-6d51-4400-a50c-e8b048a7cf05_2_poly_0_0_">
+<gml:posList>25500916.541 6679260.258 31.39 25500918.138 6679255.732 31.39 25500922.181 6679257.353 31.39 25500923.453 6679253.747 31.39 25500926.516 6679254.864 31.39 25500926.6 6679254.634 31.39 25500939.829 6679259.5 31.39 25500940.778 6679259.849 31.39 25500947.126 6679262.184 31.39 25500947.771 6679262.421 31.39 25500946.841 6679264.957 31.39 25500946.66 6679264.891 31.39 25500945.907 6679266.958 31.39 25500946.083 6679267.023 31.39 25500944.947 6679270.121 31.39 25500944.777 6679270.059 31.39 25500942.741 6679275.639 31.39 25500933.071 6679272.113 31.39 25500922.215 6679268.155 31.39 25500915.533 6679265.719 31.39 25500915.483 6679265.857 31.39 25500914.672 6679265.558 31.39 25500916.541 6679260.258 31.39</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+<gml:interior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_96806d22-6d51-4400-a50c-e8b048a7cf05_2_poly_0_1_">
+<gml:posList>25500933.968 6679269.794 31.39 25500935.811 6679265.028 31.39 25500925.189 6679260.767 31.39 25500923.156 6679265.817 31.39 25500933.968 6679269.794 31.39</gml:posList>
+</gml:LinearRing>
+</gml:interior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_96806d22-6d51-4400-a50c-e8b048a7cf05_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_96806d22-6d51-4400-a50c-e8b048a7cf05_2_poly_1_0_">
+<gml:posList>25500896.634 6679301.011 31.49 25500897.472 6679301.552 31.49 25500899.528 6679298.357 31.49 25500898.69 6679297.818 31.49 25500900.902 6679294.381 31.49 25500903.831 6679289.831 31.49 25500927.972 6679305.383 31.49 25500924.723 6679310.427 31.49 25500924.955 6679310.577 31.49 25500923.164 6679313.349 31.49 25500922.936 6679313.202 31.49 25500920.823 6679316.48 31.49 25500921.057 6679316.631 31.49 25500920.667 6679317.364 31.49 25500901.578 6679305.066 31.49 25500901.614 6679305.009 31.49 25500896.275 6679301.57 31.49 25500896.634 6679301.011 31.49</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_854c2c3d-0991-48a5-a6e5-026dd421e178_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -12908,6 +13225,66 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7c1c98a0-054f-41d5-a09d-d6cda4688bcf_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>32.33</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>7c1c98a0-054f-41d5-a09d-d6cda4688bcf</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>63.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>70.07</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>21.67</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>26.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.47</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.82</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_37981b55-affb-4da9-b273-f4f82e2f0de5" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7c1c98a0-054f-41d5-a09d-d6cda4688bcf_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7c1c98a0-054f-41d5-a09d-d6cda4688bcf_2_poly_1_0_">
+<gml:posList>25500909.66 6679271.925 26.02 25500912.865 6679273.53 24.753 25500905.296 6679280.956 26.02 25500909.66 6679271.925 26.02</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7c1c98a0-054f-41d5-a09d-d6cda4688bcf_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7c1c98a0-054f-41d5-a09d-d6cda4688bcf_2_poly_2_0_">
+<gml:posList>25500912.865 6679273.53 24.753 25500915.224 6679274.712 23.82 25500910.731 6679283.656 23.82 25500912.865 6679273.53 24.753</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7c1c98a0-054f-41d5-a09d-d6cda4688bcf_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7c1c98a0-054f-41d5-a09d-d6cda4688bcf_2_poly_0_0_">
+<gml:posList>25500912.865 6679273.53 24.753 25500910.731 6679283.656 23.82 25500908.37 6679282.483 24.776 25500905.296 6679280.956 26.02 25500912.865 6679273.53 24.753</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_9b1396ef-0b74-4a94-8d4c-4c636e6b34df_2">
@@ -13873,6 +14250,108 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_8bf58b62-2502-45f3-a9d5-2a7b60c821c4_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>4.09</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>8bf58b62-2502-45f3-a9d5-2a7b60c821c4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>19.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>23.65</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>19.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.65</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_cbb4c869-dabe-441a-81dc-489a046741be" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_8bf58b62-2502-45f3-a9d5-2a7b60c821c4_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_8bf58b62-2502-45f3-a9d5-2a7b60c821c4_2_poly_0_">
+<gml:posList>25500950.208 6679263.317 23.65 25500951.124 6679263.655 23.65 25500954.343 6679264.838 23.65 25500954.027 6679265.704 23.65 25500949.886 6679264.194 23.65 25500950.208 6679263.317 23.65</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_c598402c-d92a-4373-b5d5-09c36882e33d_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>6.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>c598402c-d92a-4373-b5d5-09c36882e33d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>24.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>29.23</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>24.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>29.23</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_6372b7c2-55c0-4bae-b91b-faad8aabd2dc" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_c598402c-d92a-4373-b5d5-09c36882e33d_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_c598402c-d92a-4373-b5d5-09c36882e33d_2_poly_0_0_">
+<gml:posList>25500947.771 6679262.421 29.23 25500950.208 6679263.317 29.23 25500949.886 6679264.194 29.23 25500949.668 6679264.115 29.23 25500949.065 6679265.768 29.23 25500946.841 6679264.957 29.23 25500947.771 6679262.421 29.23</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_c598402c-d92a-4373-b5d5-09c36882e33d_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_c598402c-d92a-4373-b5d5-09c36882e33d_2_poly_1_0_">
+<gml:posList>25500924.955 6679310.577 29.55 25500926.11 6679311.321 29.55 25500926.227 6679311.404 29.55 25500926.337 6679311.497 29.55 25500926.438 6679311.599 29.55 25500926.53 6679311.71 29.55 25500926.612 6679311.829 29.55 25500926.683 6679311.954 29.55 25500926.744 6679312.084 29.55 25500926.792 6679312.22 29.55 25500926.829 6679312.359 29.55 25500926.853 6679312.501 29.55 25500926.865 6679312.644 29.55 25500926.864 6679312.788 29.55 25500926.851 6679312.932 29.55 25500926.825 6679313.073 29.55 25500926.787 6679313.212 29.55 25500926.737 6679313.347 29.55 25500926.676 6679313.477 29.55 25500926.603 6679313.602 29.55 25500926.52 6679313.719 29.55 25500926.427 6679313.829 29.55 25500926.325 6679313.93 29.55 25500926.214 6679314.022 29.55 25500926.096 6679314.104 29.55 25500925.971 6679314.175 29.55 25500925.84 6679314.236 29.55 25500925.704 6679314.284 29.55 25500925.565 6679314.321 29.55 25500925.423 6679314.345 29.55 25500925.28 6679314.357 29.55 25500925.136 6679314.356 29.55 25500924.993 6679314.343 29.55 25500924.851 6679314.317 29.55 25500924.712 6679314.279 29.55 25500924.577 6679314.229 29.55 25500924.447 6679314.168 29.55 25500924.323 6679314.095 29.55 25500923.164 6679313.349 29.55 25500924.955 6679310.577 29.55</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_c598402c-d92a-4373-b5d5-09c36882e33d_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_c598402c-d92a-4373-b5d5-09c36882e33d_2_poly_2_0_">
+<gml:posList>25500946.083 6679267.023 29.24 25500947.645 6679267.592 29.24 25500947.778 6679267.647 29.24 25500947.905 6679267.714 29.24 25500948.027 6679267.791 29.24 25500948.141 6679267.879 29.24 25500948.247 6679267.976 29.24 25500948.344 6679268.082 29.24 25500948.432 6679268.196 29.24 25500948.509 6679268.318 29.24 25500948.575 6679268.446 29.24 25500948.63 6679268.579 29.24 25500948.674 6679268.716 29.24 25500948.705 6679268.856 29.24 25500948.723 6679268.999 29.24 25500948.73 6679269.143 29.24 25500948.723 6679269.287 29.24 25500948.704 6679269.429 29.24 25500948.673 6679269.57 29.24 25500948.63 6679269.707 29.24 25500948.575 6679269.84 29.24 25500948.508 6679269.968 29.24 25500948.431 6679270.089 29.24 25500948.343 6679270.203 29.24 25500948.246 6679270.309 29.24 25500948.14 6679270.407 29.24 25500948.025 6679270.494 29.24 25500947.904 6679270.571 29.24 25500947.776 6679270.638 29.24 25500947.643 6679270.693 29.24 25500947.506 6679270.736 29.24 25500947.365 6679270.767 29.24 25500947.223 6679270.786 29.24 25500947.079 6679270.792 29.24 25500946.935 6679270.786 29.24 25500946.792 6679270.767 29.24 25500946.652 6679270.736 29.24 25500946.515 6679270.692 29.24 25500944.947 6679270.121 29.24 25500946.083 6679267.023 29.24</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_d149e631-45a4-4eaf-8f39-b558d36253a9_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -14224,6 +14703,57 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_993653fe-6c78-4928-a08c-c4288cbaa932_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>2.46</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>993653fe-6c78-4928-a08c-c4288cbaa932</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>2.01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>6.36</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>2.01</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>6.36</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_ab2fa646-cb94-4970-b79b-4f9b85366d9e" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_993653fe-6c78-4928-a08c-c4288cbaa932_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_993653fe-6c78-4928-a08c-c4288cbaa932_2_poly_0_0_">
+<gml:posList>25500917.28 6679273.406 6.36 25500920.361 6679274.936 6.36 25500920.041 6679275.582 6.36 25500916.965 6679274.042 6.36 25500917.28 6679273.406 6.36</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_993653fe-6c78-4928-a08c-c4288cbaa932_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_993653fe-6c78-4928-a08c-c4288cbaa932_2_poly_1_0_">
+<gml:posList>25500911.128 6679285.796 6.86 25500914.208 6679287.327 6.86 25500913.886 6679287.976 6.86 25500910.805 6679286.446 6.86 25500911.128 6679285.796 6.86</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_473ef17d-3856-4b56-8c67-e919fe44883f_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -14266,6 +14796,48 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_53ba7ca2-beb1-46e2-8e18-514c62ff85cc_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>25.45</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>53ba7ca2-beb1-46e2-8e18-514c62ff85cc</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>70.22</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>83.92</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>29.56</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>33.91</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>28.86</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>33.21</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_12b4e86e-1f48-4005-95d2-947bee59d85f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_53ba7ca2-beb1-46e2-8e18-514c62ff85cc_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_53ba7ca2-beb1-46e2-8e18-514c62ff85cc_2_poly_0_">
+<gml:posList>25500917.391 6679251.247 33.908 25500920.405 6679252.356 33.567 25500920.315 6679252.603 33.567 25500923.453 6679253.747 33.211 25500922.181 6679257.353 33.208 25500918.138 6679255.732 33.672 25500916.375 6679255.024 33.874 25500916.053 6679254.896 33.911 25500917.391 6679251.247 33.908</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_869313d7-6d9a-4cfb-b774-767a755c66a7_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -14306,6 +14878,99 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_bc38c9ef-a859-4cc8-8e65-cf2d8072504e_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>117.37</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>bc38c9ef-a859-4cc8-8e65-cf2d8072504e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>23.83</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>28.18</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>23.83</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>28.18</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_bfb35d21-f97d-46c0-90b9-5e28561b3a77" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_bc38c9ef-a859-4cc8-8e65-cf2d8072504e_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_bc38c9ef-a859-4cc8-8e65-cf2d8072504e_2_poly_0_">
+<gml:posList>25500943.212 6679250.276 28.18 25500954.637 6679254.87 28.18 25500951.124 6679263.655 28.18 25500950.208 6679263.317 28.18 25500947.771 6679262.421 28.18 25500947.126 6679262.184 28.18 25500940.778 6679259.849 28.18 25500939.829 6679259.5 28.18 25500943.212 6679250.276 28.18</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_237f18e1-e0b8-400e-8617-3a66e0cd91b8_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>109.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>237f18e1-e0b8-400e-8617-3a66e0cd91b8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>63.33</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>56.37</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>10.17</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.52</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.55</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.9</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_71664bf6-9e72-4089-92f9-3ed41660048b" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_237f18e1-e0b8-400e-8617-3a66e0cd91b8_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_237f18e1-e0b8-400e-8617-3a66e0cd91b8_2_poly_0_0_">
+<gml:posList>25500937.447 6679284.426 4.935 25500931.842 6679295.713 4.897 25500924.544 6679278.018 14.516 25500937.447 6679284.426 4.935</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_237f18e1-e0b8-400e-8617-3a66e0cd91b8_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_237f18e1-e0b8-400e-8617-3a66e0cd91b8_2_poly_1_0_">
+<gml:posList>25500924.373 6679277.933 14.64 25500924.544 6679278.018 14.516 25500931.842 6679295.713 4.897 25500931.771 6679295.854 4.893 25500918.3 6679289.164 14.64 25500924.373 6679277.933 14.64</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_c720db4c-b3bb-48b6-92bb-873c976adc0a_2">
@@ -14473,6 +15138,57 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2e319ed7-0f5e-499a-8315-d2b88bb382c0_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>60.58</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>2e319ed7-0f5e-499a-8315-d2b88bb382c0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>29.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>34.07</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>29.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>34.07</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_eab24c2c-d1d4-4c9b-9e74-60c9be2439dc" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2e319ed7-0f5e-499a-8315-d2b88bb382c0_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2e319ed7-0f5e-499a-8315-d2b88bb382c0_2_poly_0_0_">
+<gml:posList>25500925.189 6679260.767 34.07 25500935.811 6679265.028 34.07 25500933.968 6679269.794 34.07 25500923.156 6679265.817 34.07 25500925.189 6679260.767 34.07</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2e319ed7-0f5e-499a-8315-d2b88bb382c0_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2e319ed7-0f5e-499a-8315-d2b88bb382c0_2_poly_1_0_">
+<gml:posList>25500895.538 6679295.935 33.74 25500896.27 6679296.372 33.74 25500898.69 6679297.818 33.74 25500899.528 6679298.357 33.74 25500897.472 6679301.552 33.74 25500896.634 6679301.011 33.74 25500893.552 6679299.019 33.74 25500895.538 6679295.935 33.74</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_bc6e23a0-2d91-47cf-b029-6f2b8295c67f_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -14524,6 +15240,57 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2b0d8151-b2ca-4a10-b13e-ae322c99dc20_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>77.84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>2b0d8151-b2ca-4a10-b13e-ae322c99dc20</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>11.73</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>11.73</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.08</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_45c7bdd5-e5a6-4d00-a994-d5bbc3cb1e4f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2b0d8151-b2ca-4a10-b13e-ae322c99dc20_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2b0d8151-b2ca-4a10-b13e-ae322c99dc20_2_poly_0_0_">
+<gml:posList>25500913.519 6679232.522 16.08 25500915.159 6679233.957 16.08 25500901.366 6679271.1 16.08 25500901.257 6679271.036 16.08 25500899.725 6679270.136 16.08 25500913.519 6679232.522 16.08</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2b0d8151-b2ca-4a10-b13e-ae322c99dc20_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2b0d8151-b2ca-4a10-b13e-ae322c99dc20_2_poly_1_0_">
+<gml:posList>25500884.919 6679295.115 16.28 25500887.239 6679291.51 16.28 25500894.509 6679277.538 16.28 25500896.412 6679273.618 16.28 25500896.957 6679273.911 16.28 25500898.506 6679274.742 16.28 25500889.386 6679292.263 16.28 25500878.015 6679308.611 16.28 25500875.837 6679308.173 16.28 25500884.919 6679295.115 16.28</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7f58b6f6-7e6e-4847-a89c-dabf2210733d_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -14573,6 +15340,150 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83a3a9c2-ec2e-4be1-8023-257202adc056_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>66.41</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>83a3a9c2-ec2e-4be1-8023-257202adc056</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>8.13</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>12.48</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>8.13</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>12.48</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_ee351dcb-3a39-41c0-b6f7-b52ca7fdd146" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83a3a9c2-ec2e-4be1-8023-257202adc056_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83a3a9c2-ec2e-4be1-8023-257202adc056_2_poly_0_0_">
+<gml:posList>25500912.182 6679231.352 12.48 25500913.519 6679232.522 12.48 25500899.725 6679270.136 12.48 25500898.993 6679269.706 12.48 25500898.285 6679269.29 12.48 25500912.182 6679231.352 12.48</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83a3a9c2-ec2e-4be1-8023-257202adc056_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83a3a9c2-ec2e-4be1-8023-257202adc056_2_poly_1_0_">
+<gml:posList>25500880.947 6679298.38 12.63 25500884.26 6679293.377 12.63 25500887.378 6679288.249 12.63 25500890.86 6679281.927 12.63 25500895.179 6679272.957 12.63 25500896.412 6679273.618 12.63 25500894.509 6679277.538 12.63 25500887.239 6679291.51 12.63 25500884.919 6679295.115 12.63 25500875.837 6679308.173 12.63 25500874.093 6679307.822 12.63 25500880.947 6679298.38 12.63</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_0324bf7f-e1cf-480b-a1b5-a38ddf079564_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>8.86</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>0324bf7f-e1cf-480b-a1b5-a38ddf079564</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>5.25</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>9.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>5.25</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>9.6</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_1ea3d43c-2581-49bc-b79e-0c7c596e9609" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_0324bf7f-e1cf-480b-a1b5-a38ddf079564_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_0324bf7f-e1cf-480b-a1b5-a38ddf079564_2_poly_0_">
+<gml:posList>25500895.223 6679272.866 9.599 25500895.31 6679272.916 9.599 25500897.231 6679268.927 9.599 25500898.24 6679269.413 9.599 25500898.285 6679269.29 9.599 25500898.993 6679269.706 9.599 25500896.957 6679273.911 9.599 25500896.412 6679273.618 9.599 25500895.179 6679272.957 9.599 25500895.223 6679272.866 9.599</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_77fa3aa0-2f51-4cbb-84ea-9cac087b9ea1_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>9.67</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>77fa3aa0-2f51-4cbb-84ea-9cac087b9ea1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>22.28</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>26.63</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>22.28</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>26.63</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_6fd52312-cc90-48f0-8c18-113e14c02dd9" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_77fa3aa0-2f51-4cbb-84ea-9cac087b9ea1_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_77fa3aa0-2f51-4cbb-84ea-9cac087b9ea1_2_poly_0_0_">
+<gml:posList>25500916.375 6679255.024 26.63 25500918.138 6679255.732 26.63 25500916.541 6679260.258 26.63 25500914.559 6679259.463 26.63 25500916.375 6679255.024 26.63</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_77fa3aa0-2f51-4cbb-84ea-9cac087b9ea1_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_77fa3aa0-2f51-4cbb-84ea-9cac087b9ea1_2_poly_1_0_">
+<gml:posList>25500898.481 6679292.936 26.72 25500900.902 6679294.381 26.72 25500898.69 6679297.818 26.72 25500896.27 6679296.372 26.72 25500898.481 6679292.936 26.72</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_0a5d8e8a-8745-4660-8d49-e0b5ffd984bd_2">
@@ -14651,6 +15562,108 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83ddbec2-7a53-47e1-8831-b9a6d417d983_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>2.38</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>83ddbec2-7a53-47e1-8831-b9a6d417d983</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>2.99</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>7.34</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>2.99</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>7.34</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_b809de78-441d-4076-bd33-f2184a180c09" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83ddbec2-7a53-47e1-8831-b9a6d417d983_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83ddbec2-7a53-47e1-8831-b9a6d417d983_2_poly_0_">
+<gml:posList>25500914.923 6679267.838 7.34 25500915.814 6679268.162 7.34 25500914.958 6679270.511 7.34 25500914.062 6679270.185 7.34 25500914.923 6679267.838 7.34</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2d207fdb-0f95-4243-a41d-01d4f53fc484_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>2.15</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>2d207fdb-0f95-4243-a41d-01d4f53fc484</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>15.71</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>20.06</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>15.71</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>20.06</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_22ffd93c-6af9-43d6-a904-c7ef82177215" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2d207fdb-0f95-4243-a41d-01d4f53fc484_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2d207fdb-0f95-4243-a41d-01d4f53fc484_2_poly_0_0_">
+<gml:posList>25500906.564 6679285.585 20.06 25500907.286 6679286.049 20.06 25500905.933 6679288.151 20.06 25500905.211 6679287.687 20.06 25500906.564 6679285.585 20.06</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2d207fdb-0f95-4243-a41d-01d4f53fc484_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2d207fdb-0f95-4243-a41d-01d4f53fc484_2_poly_1_0_">
+<gml:posList>25500889.386 6679292.263 19.96 25500898.506 6679274.742 19.96 25500900.897 6679276.024 19.96 25500899.861 6679278.255 19.96 25500905.296 6679280.956 19.96 25500908.37 6679282.483 19.96 25500907.647 6679283.873 19.96 25500907.443 6679283.772 19.96 25500906.361 6679285.453 19.96 25500906.564 6679285.585 19.96 25500905.211 6679287.687 19.96 25500905.008 6679287.556 19.96 25500903.627 6679289.7 19.96 25500903.831 6679289.831 19.96 25500900.902 6679294.381 19.96 25500898.481 6679292.936 19.96 25500896.27 6679296.372 19.96 25500895.538 6679295.935 19.96 25500893.552 6679299.019 19.96 25500896.634 6679301.011 19.96 25500896.275 6679301.57 19.96 25500896.066 6679301.435 19.96 25500892.816 6679306.479 19.96 25500888.916 6679303.966 19.96 25500885.017 6679310.019 19.96 25500878.015 6679308.611 19.96 25500889.386 6679292.263 19.96</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2d207fdb-0f95-4243-a41d-01d4f53fc484_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2d207fdb-0f95-4243-a41d-01d4f53fc484_2_poly_2_0_">
+<gml:posList>25500915.159 6679233.957 20.03 25500920.477 6679238.612 20.03 25500918.011 6679245.377 20.03 25500922.37 6679246.966 20.03 25500920.405 6679252.356 20.03 25500917.391 6679251.247 20.03 25500916.053 6679254.896 20.03 25500916.375 6679255.024 20.03 25500914.559 6679259.463 20.03 25500916.541 6679260.258 20.03 25500914.672 6679265.558 20.03 25500915.483 6679265.857 20.03 25500914.78 6679267.786 20.03 25500914.923 6679267.838 20.03 25500914.062 6679270.185 20.03 25500913.924 6679270.135 20.03 25500913.118 6679272.343 20.03 25500913.251 6679272.409 20.03 25500912.865 6679273.53 20.03 25500909.66 6679271.925 20.03 25500904.096 6679269.138 20.03 25500902.796 6679271.936 20.03 25500901.641 6679271.261 20.03 25500901.366 6679271.1 20.03 25500915.159 6679233.957 20.03</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_03034c69-d3ba-4dac-a39a-90bdf00c7461_2">
@@ -15366,1021 +16379,8 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_9c62dbe1-eb53-4172-9dc7-c81573e638d9_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>128.89</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>9c62dbe1-eb53-4172-9dc7-c81573e638d9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>9.89</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.24</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>9.89</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>14.24</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_0fe59491-ce87-430e-a6ce-9c9e43c89821" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_9c62dbe1-eb53-4172-9dc7-c81573e638d9_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_9c62dbe1-eb53-4172-9dc7-c81573e638d9_2_poly_0_">
-<gml:posList>25500908.37 6679282.483 14.24 25500910.731 6679283.656 14.24 25500915.224 6679274.712 14.24 25500912.865 6679273.53 14.24 25500913.251 6679272.409 14.24 25500915.756 6679273.653 14.24 25500916.88 6679274.212 14.24 25500916.965 6679274.042 14.24 25500920.041 6679275.582 14.24 25500919.961 6679275.742 14.24 25500924.373 6679277.933 14.24 25500918.3 6679289.164 14.24 25500914.286 6679287.17 14.24 25500914.208 6679287.327 14.24 25500911.128 6679285.796 14.24 25500911.205 6679285.64 14.24 25500910.029 6679285.056 14.24 25500907.647 6679283.873 14.24 25500908.37 6679282.483 14.24</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>11.62</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>3bebda8b-484e-4824-86d5-5586237ebc59</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>244.52</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>26.01</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>12.64</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.99</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>8.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>12.45</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_0480f41d-33b9-4c18-acd4-86ca562748c8" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_0_0_">
-<gml:posList>25500899.725 6679270.136 12.453 25500901.257 6679271.036 16.08 25500901.366 6679271.1 16.337 25500901.641 6679271.261 16.989 25500898.506 6679274.742 14.258 25500899.725 6679270.136 12.453</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_1_0_">
-<gml:posList>25500899.725 6679270.136 12.453 25500898.506 6679274.742 14.258 25500896.957 6679273.911 10.72 25500899.725 6679270.136 12.453</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_2_0_">
-<gml:posList>25500898.993 6679269.706 10.72 25500899.725 6679270.136 12.453 25500896.957 6679273.911 10.72 25500898.993 6679269.706 10.72</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_3_0_">
-<gml:posList>25500901.641 6679271.261 16.989 25500900.897 6679276.024 19.72 25500898.506 6679274.742 14.258 25500901.641 6679271.261 16.989</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_4">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_3bebda8b-484e-4824-86d5-5586237ebc59_2_poly_4_0_">
-<gml:posList>25500901.641 6679271.261 16.989 25500902.796 6679271.936 19.72 25500900.897 6679276.024 19.72 25500901.641 6679271.261 16.989</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_b1e875f5-9329-445b-acc8-7e94e01e0372_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>266.82</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>b1e875f5-9329-445b-acc8-7e94e01e0372</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>23.22</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>27.57</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>23.22</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>27.57</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e1236618-9540-45e7-aadc-84dcf1c14fdd" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_b1e875f5-9329-445b-acc8-7e94e01e0372_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_b1e875f5-9329-445b-acc8-7e94e01e0372_2_poly_0_0_">
-<gml:posList>25500931.038 6679242.463 27.57 25500944.303 6679247.299 27.57 25500955.964 6679251.551 27.57 25500958.809 6679252.588 27.57 25500954.343 6679264.838 27.57 25500951.124 6679263.655 27.57 25500954.637 6679254.87 27.57 25500943.212 6679250.276 27.57 25500939.829 6679259.5 27.57 25500926.6 6679254.634 27.57 25500931.038 6679242.463 27.57</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_b1e875f5-9329-445b-acc8-7e94e01e0372_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_b1e875f5-9329-445b-acc8-7e94e01e0372_2_poly_1_0_">
-<gml:posList>25500901.578 6679305.066 27.52 25500920.667 6679317.364 27.52 25500921.057 6679316.631 27.52 25500926.876 6679320.379 27.52 25500919.315 6679332.114 27.52 25500894.466 6679316.106 27.52 25500901.578 6679305.066 27.52</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7e7bfbd3-0f9e-4528-ac01-ce3c35128997_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>22.48</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>7e7bfbd3-0f9e-4528-ac01-ce3c35128997</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>245.09</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>70.07</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>21.67</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>26.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.47</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.82</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_1356e017-a72a-4ca2-b1e0-42aa0399bf98" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7e7bfbd3-0f9e-4528-ac01-ce3c35128997_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7e7bfbd3-0f9e-4528-ac01-ce3c35128997_2_poly_0_0_">
-<gml:posList>25500900.897 6679276.024 23.82 25500902.796 6679271.936 23.82 25500905.296 6679280.956 26.02 25500899.861 6679278.255 23.82 25500900.897 6679276.024 23.82</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7e7bfbd3-0f9e-4528-ac01-ce3c35128997_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7e7bfbd3-0f9e-4528-ac01-ce3c35128997_2_poly_1_0_">
-<gml:posList>25500909.66 6679271.925 26.02 25500905.296 6679280.956 26.02 25500902.796 6679271.936 23.82 25500909.66 6679271.925 26.02</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7e7bfbd3-0f9e-4528-ac01-ce3c35128997_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7e7bfbd3-0f9e-4528-ac01-ce3c35128997_2_poly_2_0_">
-<gml:posList>25500904.096 6679269.138 23.82 25500909.66 6679271.925 26.02 25500902.796 6679271.936 23.82 25500904.096 6679269.138 23.82</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_96806d22-6d51-4400-a50c-e8b048a7cf05_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>346.5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>96806d22-6d51-4400-a50c-e8b048a7cf05</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>27.04</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>31.39</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>27.04</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>31.39</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_1e81b237-d8be-4024-bc20-d91d6daf0b6b" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_96806d22-6d51-4400-a50c-e8b048a7cf05_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_96806d22-6d51-4400-a50c-e8b048a7cf05_2_poly_0_0_">
-<gml:posList>25500916.541 6679260.258 31.39 25500918.138 6679255.732 31.39 25500922.181 6679257.353 31.39 25500923.453 6679253.747 31.39 25500926.516 6679254.864 31.39 25500926.6 6679254.634 31.39 25500939.829 6679259.5 31.39 25500940.778 6679259.849 31.39 25500947.126 6679262.184 31.39 25500947.771 6679262.421 31.39 25500946.841 6679264.957 31.39 25500946.66 6679264.891 31.39 25500945.907 6679266.958 31.39 25500946.083 6679267.023 31.39 25500944.947 6679270.121 31.39 25500944.777 6679270.059 31.39 25500942.741 6679275.639 31.39 25500933.071 6679272.113 31.39 25500922.215 6679268.155 31.39 25500915.533 6679265.719 31.39 25500915.483 6679265.857 31.39 25500914.672 6679265.558 31.39 25500916.541 6679260.258 31.39</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-<gml:interior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_96806d22-6d51-4400-a50c-e8b048a7cf05_2_poly_0_1_">
-<gml:posList>25500933.968 6679269.794 31.39 25500935.811 6679265.028 31.39 25500925.189 6679260.767 31.39 25500923.156 6679265.817 31.39 25500933.968 6679269.794 31.39</gml:posList>
-</gml:LinearRing>
-</gml:interior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_96806d22-6d51-4400-a50c-e8b048a7cf05_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_96806d22-6d51-4400-a50c-e8b048a7cf05_2_poly_1_0_">
-<gml:posList>25500896.634 6679301.011 31.49 25500897.472 6679301.552 31.49 25500899.528 6679298.357 31.49 25500898.69 6679297.818 31.49 25500900.902 6679294.381 31.49 25500903.831 6679289.831 31.49 25500927.972 6679305.383 31.49 25500924.723 6679310.427 31.49 25500924.955 6679310.577 31.49 25500923.164 6679313.349 31.49 25500922.936 6679313.202 31.49 25500920.823 6679316.48 31.49 25500921.057 6679316.631 31.49 25500920.667 6679317.364 31.49 25500901.578 6679305.066 31.49 25500901.614 6679305.009 31.49 25500896.275 6679301.57 31.49 25500896.634 6679301.011 31.49</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7c1c98a0-054f-41d5-a09d-d6cda4688bcf_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>32.33</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>7c1c98a0-054f-41d5-a09d-d6cda4688bcf</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>63.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>70.07</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>21.67</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>26.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.47</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.82</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_37981b55-affb-4da9-b273-f4f82e2f0de5" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7c1c98a0-054f-41d5-a09d-d6cda4688bcf_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7c1c98a0-054f-41d5-a09d-d6cda4688bcf_2_poly_1_0_">
-<gml:posList>25500909.66 6679271.925 26.02 25500912.865 6679273.53 24.753 25500905.296 6679280.956 26.02 25500909.66 6679271.925 26.02</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7c1c98a0-054f-41d5-a09d-d6cda4688bcf_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7c1c98a0-054f-41d5-a09d-d6cda4688bcf_2_poly_2_0_">
-<gml:posList>25500912.865 6679273.53 24.753 25500915.224 6679274.712 23.82 25500910.731 6679283.656 23.82 25500912.865 6679273.53 24.753</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7c1c98a0-054f-41d5-a09d-d6cda4688bcf_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_7c1c98a0-054f-41d5-a09d-d6cda4688bcf_2_poly_0_0_">
-<gml:posList>25500912.865 6679273.53 24.753 25500910.731 6679283.656 23.82 25500908.37 6679282.483 24.776 25500905.296 6679280.956 26.02 25500912.865 6679273.53 24.753</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_8bf58b62-2502-45f3-a9d5-2a7b60c821c4_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>4.09</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>8bf58b62-2502-45f3-a9d5-2a7b60c821c4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>19.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>23.65</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>19.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.65</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_cbb4c869-dabe-441a-81dc-489a046741be" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_8bf58b62-2502-45f3-a9d5-2a7b60c821c4_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_8bf58b62-2502-45f3-a9d5-2a7b60c821c4_2_poly_0_">
-<gml:posList>25500950.208 6679263.317 23.65 25500951.124 6679263.655 23.65 25500954.343 6679264.838 23.65 25500954.027 6679265.704 23.65 25500949.886 6679264.194 23.65 25500950.208 6679263.317 23.65</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_c598402c-d92a-4373-b5d5-09c36882e33d_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>6.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c598402c-d92a-4373-b5d5-09c36882e33d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>24.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>29.23</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>24.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>29.23</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_6372b7c2-55c0-4bae-b91b-faad8aabd2dc" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_c598402c-d92a-4373-b5d5-09c36882e33d_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_c598402c-d92a-4373-b5d5-09c36882e33d_2_poly_0_0_">
-<gml:posList>25500947.771 6679262.421 29.23 25500950.208 6679263.317 29.23 25500949.886 6679264.194 29.23 25500949.668 6679264.115 29.23 25500949.065 6679265.768 29.23 25500946.841 6679264.957 29.23 25500947.771 6679262.421 29.23</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_c598402c-d92a-4373-b5d5-09c36882e33d_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_c598402c-d92a-4373-b5d5-09c36882e33d_2_poly_1_0_">
-<gml:posList>25500924.955 6679310.577 29.55 25500926.11 6679311.321 29.55 25500926.227 6679311.404 29.55 25500926.337 6679311.497 29.55 25500926.438 6679311.599 29.55 25500926.53 6679311.71 29.55 25500926.612 6679311.829 29.55 25500926.683 6679311.954 29.55 25500926.744 6679312.084 29.55 25500926.792 6679312.22 29.55 25500926.829 6679312.359 29.55 25500926.853 6679312.501 29.55 25500926.865 6679312.644 29.55 25500926.864 6679312.788 29.55 25500926.851 6679312.932 29.55 25500926.825 6679313.073 29.55 25500926.787 6679313.212 29.55 25500926.737 6679313.347 29.55 25500926.676 6679313.477 29.55 25500926.603 6679313.602 29.55 25500926.52 6679313.719 29.55 25500926.427 6679313.829 29.55 25500926.325 6679313.93 29.55 25500926.214 6679314.022 29.55 25500926.096 6679314.104 29.55 25500925.971 6679314.175 29.55 25500925.84 6679314.236 29.55 25500925.704 6679314.284 29.55 25500925.565 6679314.321 29.55 25500925.423 6679314.345 29.55 25500925.28 6679314.357 29.55 25500925.136 6679314.356 29.55 25500924.993 6679314.343 29.55 25500924.851 6679314.317 29.55 25500924.712 6679314.279 29.55 25500924.577 6679314.229 29.55 25500924.447 6679314.168 29.55 25500924.323 6679314.095 29.55 25500923.164 6679313.349 29.55 25500924.955 6679310.577 29.55</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_c598402c-d92a-4373-b5d5-09c36882e33d_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_c598402c-d92a-4373-b5d5-09c36882e33d_2_poly_2_0_">
-<gml:posList>25500946.083 6679267.023 29.24 25500947.645 6679267.592 29.24 25500947.778 6679267.647 29.24 25500947.905 6679267.714 29.24 25500948.027 6679267.791 29.24 25500948.141 6679267.879 29.24 25500948.247 6679267.976 29.24 25500948.344 6679268.082 29.24 25500948.432 6679268.196 29.24 25500948.509 6679268.318 29.24 25500948.575 6679268.446 29.24 25500948.63 6679268.579 29.24 25500948.674 6679268.716 29.24 25500948.705 6679268.856 29.24 25500948.723 6679268.999 29.24 25500948.73 6679269.143 29.24 25500948.723 6679269.287 29.24 25500948.704 6679269.429 29.24 25500948.673 6679269.57 29.24 25500948.63 6679269.707 29.24 25500948.575 6679269.84 29.24 25500948.508 6679269.968 29.24 25500948.431 6679270.089 29.24 25500948.343 6679270.203 29.24 25500948.246 6679270.309 29.24 25500948.14 6679270.407 29.24 25500948.025 6679270.494 29.24 25500947.904 6679270.571 29.24 25500947.776 6679270.638 29.24 25500947.643 6679270.693 29.24 25500947.506 6679270.736 29.24 25500947.365 6679270.767 29.24 25500947.223 6679270.786 29.24 25500947.079 6679270.792 29.24 25500946.935 6679270.786 29.24 25500946.792 6679270.767 29.24 25500946.652 6679270.736 29.24 25500946.515 6679270.692 29.24 25500944.947 6679270.121 29.24 25500946.083 6679267.023 29.24</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_993653fe-6c78-4928-a08c-c4288cbaa932_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>2.46</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>993653fe-6c78-4928-a08c-c4288cbaa932</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>2.01</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>6.36</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>2.01</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>6.36</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_ab2fa646-cb94-4970-b79b-4f9b85366d9e" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_993653fe-6c78-4928-a08c-c4288cbaa932_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_993653fe-6c78-4928-a08c-c4288cbaa932_2_poly_0_0_">
-<gml:posList>25500917.28 6679273.406 6.36 25500920.361 6679274.936 6.36 25500920.041 6679275.582 6.36 25500916.965 6679274.042 6.36 25500917.28 6679273.406 6.36</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_993653fe-6c78-4928-a08c-c4288cbaa932_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_993653fe-6c78-4928-a08c-c4288cbaa932_2_poly_1_0_">
-<gml:posList>25500911.128 6679285.796 6.86 25500914.208 6679287.327 6.86 25500913.886 6679287.976 6.86 25500910.805 6679286.446 6.86 25500911.128 6679285.796 6.86</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_53ba7ca2-beb1-46e2-8e18-514c62ff85cc_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>25.45</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>53ba7ca2-beb1-46e2-8e18-514c62ff85cc</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>70.22</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>83.92</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>29.56</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>33.91</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>28.86</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>33.21</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_12b4e86e-1f48-4005-95d2-947bee59d85f" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_53ba7ca2-beb1-46e2-8e18-514c62ff85cc_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_53ba7ca2-beb1-46e2-8e18-514c62ff85cc_2_poly_0_">
-<gml:posList>25500917.391 6679251.247 33.908 25500920.405 6679252.356 33.567 25500920.315 6679252.603 33.567 25500923.453 6679253.747 33.211 25500922.181 6679257.353 33.208 25500918.138 6679255.732 33.672 25500916.375 6679255.024 33.874 25500916.053 6679254.896 33.911 25500917.391 6679251.247 33.908</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_bc38c9ef-a859-4cc8-8e65-cf2d8072504e_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>117.37</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>bc38c9ef-a859-4cc8-8e65-cf2d8072504e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>23.83</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>28.18</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>23.83</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>28.18</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_bfb35d21-f97d-46c0-90b9-5e28561b3a77" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_bc38c9ef-a859-4cc8-8e65-cf2d8072504e_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_bc38c9ef-a859-4cc8-8e65-cf2d8072504e_2_poly_0_">
-<gml:posList>25500943.212 6679250.276 28.18 25500954.637 6679254.87 28.18 25500951.124 6679263.655 28.18 25500950.208 6679263.317 28.18 25500947.771 6679262.421 28.18 25500947.126 6679262.184 28.18 25500940.778 6679259.849 28.18 25500939.829 6679259.5 28.18 25500943.212 6679250.276 28.18</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_237f18e1-e0b8-400e-8617-3a66e0cd91b8_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>109.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>237f18e1-e0b8-400e-8617-3a66e0cd91b8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>63.33</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>56.37</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>10.17</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.52</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.55</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.9</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_71664bf6-9e72-4089-92f9-3ed41660048b" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_237f18e1-e0b8-400e-8617-3a66e0cd91b8_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_237f18e1-e0b8-400e-8617-3a66e0cd91b8_2_poly_0_0_">
-<gml:posList>25500937.447 6679284.426 4.935 25500931.842 6679295.713 4.897 25500924.544 6679278.018 14.516 25500937.447 6679284.426 4.935</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_237f18e1-e0b8-400e-8617-3a66e0cd91b8_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_237f18e1-e0b8-400e-8617-3a66e0cd91b8_2_poly_1_0_">
-<gml:posList>25500924.373 6679277.933 14.64 25500924.544 6679278.018 14.516 25500931.842 6679295.713 4.897 25500931.771 6679295.854 4.893 25500918.3 6679289.164 14.64 25500924.373 6679277.933 14.64</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2e319ed7-0f5e-499a-8315-d2b88bb382c0_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>60.58</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>2e319ed7-0f5e-499a-8315-d2b88bb382c0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>29.72</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>34.07</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>29.72</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>34.07</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_eab24c2c-d1d4-4c9b-9e74-60c9be2439dc" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2e319ed7-0f5e-499a-8315-d2b88bb382c0_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2e319ed7-0f5e-499a-8315-d2b88bb382c0_2_poly_0_0_">
-<gml:posList>25500925.189 6679260.767 34.07 25500935.811 6679265.028 34.07 25500933.968 6679269.794 34.07 25500923.156 6679265.817 34.07 25500925.189 6679260.767 34.07</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2e319ed7-0f5e-499a-8315-d2b88bb382c0_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2e319ed7-0f5e-499a-8315-d2b88bb382c0_2_poly_1_0_">
-<gml:posList>25500895.538 6679295.935 33.74 25500896.27 6679296.372 33.74 25500898.69 6679297.818 33.74 25500899.528 6679298.357 33.74 25500897.472 6679301.552 33.74 25500896.634 6679301.011 33.74 25500893.552 6679299.019 33.74 25500895.538 6679295.935 33.74</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2b0d8151-b2ca-4a10-b13e-ae322c99dc20_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>77.84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>2b0d8151-b2ca-4a10-b13e-ae322c99dc20</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>11.73</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>11.73</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.08</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_45c7bdd5-e5a6-4d00-a994-d5bbc3cb1e4f" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2b0d8151-b2ca-4a10-b13e-ae322c99dc20_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2b0d8151-b2ca-4a10-b13e-ae322c99dc20_2_poly_0_0_">
-<gml:posList>25500913.519 6679232.522 16.08 25500915.159 6679233.957 16.08 25500901.366 6679271.1 16.08 25500901.257 6679271.036 16.08 25500899.725 6679270.136 16.08 25500913.519 6679232.522 16.08</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2b0d8151-b2ca-4a10-b13e-ae322c99dc20_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2b0d8151-b2ca-4a10-b13e-ae322c99dc20_2_poly_1_0_">
-<gml:posList>25500884.919 6679295.115 16.28 25500887.239 6679291.51 16.28 25500894.509 6679277.538 16.28 25500896.412 6679273.618 16.28 25500896.957 6679273.911 16.28 25500898.506 6679274.742 16.28 25500889.386 6679292.263 16.28 25500878.015 6679308.611 16.28 25500875.837 6679308.173 16.28 25500884.919 6679295.115 16.28</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83a3a9c2-ec2e-4be1-8023-257202adc056_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>66.41</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>83a3a9c2-ec2e-4be1-8023-257202adc056</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>8.13</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>12.48</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>8.13</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>12.48</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_ee351dcb-3a39-41c0-b6f7-b52ca7fdd146" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83a3a9c2-ec2e-4be1-8023-257202adc056_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83a3a9c2-ec2e-4be1-8023-257202adc056_2_poly_0_0_">
-<gml:posList>25500912.182 6679231.352 12.48 25500913.519 6679232.522 12.48 25500899.725 6679270.136 12.48 25500898.993 6679269.706 12.48 25500898.285 6679269.29 12.48 25500912.182 6679231.352 12.48</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83a3a9c2-ec2e-4be1-8023-257202adc056_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83a3a9c2-ec2e-4be1-8023-257202adc056_2_poly_1_0_">
-<gml:posList>25500880.947 6679298.38 12.63 25500884.26 6679293.377 12.63 25500887.378 6679288.249 12.63 25500890.86 6679281.927 12.63 25500895.179 6679272.957 12.63 25500896.412 6679273.618 12.63 25500894.509 6679277.538 12.63 25500887.239 6679291.51 12.63 25500884.919 6679295.115 12.63 25500875.837 6679308.173 12.63 25500874.093 6679307.822 12.63 25500880.947 6679298.38 12.63</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_0324bf7f-e1cf-480b-a1b5-a38ddf079564_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>8.86</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>0324bf7f-e1cf-480b-a1b5-a38ddf079564</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>5.25</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>9.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>5.25</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>9.6</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_1ea3d43c-2581-49bc-b79e-0c7c596e9609" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_0324bf7f-e1cf-480b-a1b5-a38ddf079564_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_0324bf7f-e1cf-480b-a1b5-a38ddf079564_2_poly_0_">
-<gml:posList>25500895.223 6679272.866 9.599 25500895.31 6679272.916 9.599 25500897.231 6679268.927 9.599 25500898.24 6679269.413 9.599 25500898.285 6679269.29 9.599 25500898.993 6679269.706 9.599 25500896.957 6679273.911 9.599 25500896.412 6679273.618 9.599 25500895.179 6679272.957 9.599 25500895.223 6679272.866 9.599</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_77fa3aa0-2f51-4cbb-84ea-9cac087b9ea1_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>9.67</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>77fa3aa0-2f51-4cbb-84ea-9cac087b9ea1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>22.28</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>26.63</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>22.28</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>26.63</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_6fd52312-cc90-48f0-8c18-113e14c02dd9" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_77fa3aa0-2f51-4cbb-84ea-9cac087b9ea1_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_77fa3aa0-2f51-4cbb-84ea-9cac087b9ea1_2_poly_0_0_">
-<gml:posList>25500916.375 6679255.024 26.63 25500918.138 6679255.732 26.63 25500916.541 6679260.258 26.63 25500914.559 6679259.463 26.63 25500916.375 6679255.024 26.63</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_77fa3aa0-2f51-4cbb-84ea-9cac087b9ea1_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_77fa3aa0-2f51-4cbb-84ea-9cac087b9ea1_2_poly_1_0_">
-<gml:posList>25500898.481 6679292.936 26.72 25500900.902 6679294.381 26.72 25500898.69 6679297.818 26.72 25500896.27 6679296.372 26.72 25500898.481 6679292.936 26.72</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83ddbec2-7a53-47e1-8831-b9a6d417d983_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>2.38</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>83ddbec2-7a53-47e1-8831-b9a6d417d983</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>2.99</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>7.34</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>2.99</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>7.34</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_b809de78-441d-4076-bd33-f2184a180c09" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83ddbec2-7a53-47e1-8831-b9a6d417d983_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_83ddbec2-7a53-47e1-8831-b9a6d417d983_2_poly_0_">
-<gml:posList>25500914.923 6679267.838 7.34 25500915.814 6679268.162 7.34 25500914.958 6679270.511 7.34 25500914.062 6679270.185 7.34 25500914.923 6679267.838 7.34</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2d207fdb-0f95-4243-a41d-01d4f53fc484_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>2.15</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>2d207fdb-0f95-4243-a41d-01d4f53fc484</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>15.71</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>20.06</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>15.71</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>20.06</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_22ffd93c-6af9-43d6-a904-c7ef82177215" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2d207fdb-0f95-4243-a41d-01d4f53fc484_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2d207fdb-0f95-4243-a41d-01d4f53fc484_2_poly_0_0_">
-<gml:posList>25500906.564 6679285.585 20.06 25500907.286 6679286.049 20.06 25500905.933 6679288.151 20.06 25500905.211 6679287.687 20.06 25500906.564 6679285.585 20.06</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2d207fdb-0f95-4243-a41d-01d4f53fc484_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2d207fdb-0f95-4243-a41d-01d4f53fc484_2_poly_1_0_">
-<gml:posList>25500889.386 6679292.263 19.96 25500898.506 6679274.742 19.96 25500900.897 6679276.024 19.96 25500899.861 6679278.255 19.96 25500905.296 6679280.956 19.96 25500908.37 6679282.483 19.96 25500907.647 6679283.873 19.96 25500907.443 6679283.772 19.96 25500906.361 6679285.453 19.96 25500906.564 6679285.585 19.96 25500905.211 6679287.687 19.96 25500905.008 6679287.556 19.96 25500903.627 6679289.7 19.96 25500903.831 6679289.831 19.96 25500900.902 6679294.381 19.96 25500898.481 6679292.936 19.96 25500896.27 6679296.372 19.96 25500895.538 6679295.935 19.96 25500893.552 6679299.019 19.96 25500896.634 6679301.011 19.96 25500896.275 6679301.57 19.96 25500896.066 6679301.435 19.96 25500892.816 6679306.479 19.96 25500888.916 6679303.966 19.96 25500885.017 6679310.019 19.96 25500878.015 6679308.611 19.96 25500889.386 6679292.263 19.96</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2d207fdb-0f95-4243-a41d-01d4f53fc484_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_2d207fdb-0f95-4243-a41d-01d4f53fc484_2_poly_2_0_">
-<gml:posList>25500915.159 6679233.957 20.03 25500920.477 6679238.612 20.03 25500918.011 6679245.377 20.03 25500922.37 6679246.966 20.03 25500920.405 6679252.356 20.03 25500917.391 6679251.247 20.03 25500916.053 6679254.896 20.03 25500916.375 6679255.024 20.03 25500914.559 6679259.463 20.03 25500916.541 6679260.258 20.03 25500914.672 6679265.558 20.03 25500915.483 6679265.857 20.03 25500914.78 6679267.786 20.03 25500914.923 6679267.838 20.03 25500914.062 6679270.185 20.03 25500913.924 6679270.135 20.03 25500913.118 6679272.343 20.03 25500913.251 6679272.409 20.03 25500912.865 6679273.53 20.03 25500909.66 6679271.925 20.03 25500904.096 6679269.138 20.03 25500902.796 6679271.936 20.03 25500901.641 6679271.261 20.03 25500901.366 6679271.1 20.03 25500915.159 6679233.957 20.03</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_342c1c95-53a4-4f40-8013-4c8051cf892d_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>3142.41</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>342c1c95-53a4-4f40-8013-4c8051cf892d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.35</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_6859dd14-9186-46d0-a48b-d12aa2eb2561" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_342c1c95-53a4-4f40-8013-4c8051cf892d_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_77eefc7c-e277-49e6-b83a-bd59ebccb6fb_342c1c95-53a4-4f40-8013-4c8051cf892d_2_poly_0_">
-<gml:posList>25500955.964 6679251.551 4.349 25500944.303 6679247.299 4.349 25500931.038 6679242.463 4.349 25500926.6 6679254.634 4.349 25500926.516 6679254.864 4.349 25500923.453 6679253.747 4.349 25500920.315 6679252.603 4.349 25500920.405 6679252.356 4.349 25500922.37 6679246.966 4.349 25500918.011 6679245.377 4.349 25500920.477 6679238.612 4.349 25500915.159 6679233.957 4.349 25500913.519 6679232.522 4.349 25500912.182 6679231.352 4.349 25500898.285 6679269.29 4.349 25500898.24 6679269.413 4.349 25500897.231 6679268.927 4.349 25500895.31 6679272.916 4.349 25500895.223 6679272.866 4.349 25500895.179 6679272.957 4.349 25500890.86 6679281.927 4.349 25500887.378 6679288.249 4.349 25500884.26 6679293.377 4.349 25500880.947 6679298.38 4.349 25500874.093 6679307.822 4.349 25500875.837 6679308.173 4.349 25500878.015 6679308.611 4.349 25500885.017 6679310.019 4.349 25500888.916 6679303.966 4.349 25500892.816 6679306.479 4.349 25500896.066 6679301.435 4.349 25500896.275 6679301.57 4.349 25500901.614 6679305.009 4.349 25500901.578 6679305.066 4.349 25500894.466 6679316.106 4.349 25500919.315 6679332.114 4.349 25500926.876 6679320.379 4.349 25500921.057 6679316.631 4.349 25500920.823 6679316.48 4.349 25500922.936 6679313.202 4.349 25500923.164 6679313.349 4.349 25500924.323 6679314.095 4.349 25500924.447 6679314.168 4.349 25500924.577 6679314.229 4.349 25500924.712 6679314.279 4.349 25500924.851 6679314.317 4.349 25500924.993 6679314.343 4.349 25500925.136 6679314.356 4.349 25500925.28 6679314.357 4.349 25500925.423 6679314.345 4.349 25500925.565 6679314.321 4.349 25500925.704 6679314.284 4.349 25500925.84 6679314.236 4.349 25500925.971 6679314.175 4.349 25500926.096 6679314.104 4.349 25500926.214 6679314.022 4.349 25500926.325 6679313.93 4.349 25500926.427 6679313.829 4.349 25500926.52 6679313.719 4.349 25500926.603 6679313.602 4.349 25500926.676 6679313.477 4.349 25500926.737 6679313.347 4.349 25500926.787 6679313.212 4.349 25500926.825 6679313.073 4.349 25500926.851 6679312.932 4.349 25500926.864 6679312.788 4.349 25500926.865 6679312.644 4.349 25500926.853 6679312.501 4.349 25500926.829 6679312.359 4.349 25500926.792 6679312.22 4.349 25500926.744 6679312.084 4.349 25500926.683 6679311.954 4.349 25500926.612 6679311.829 4.349 25500926.53 6679311.71 4.349 25500926.438 6679311.599 4.349 25500926.337 6679311.497 4.349 25500926.227 6679311.404 4.349 25500926.11 6679311.321 4.349 25500924.955 6679310.577 4.349 25500924.723 6679310.427 4.349 25500927.972 6679305.383 4.349 25500903.831 6679289.831 4.349 25500903.627 6679289.7 4.349 25500905.008 6679287.556 4.349 25500905.211 6679287.687 4.349 25500905.933 6679288.151 4.349 25500907.286 6679286.049 4.349 25500906.564 6679285.585 4.349 25500906.361 6679285.453 4.349 25500907.443 6679283.772 4.349 25500907.647 6679283.873 4.349 25500910.029 6679285.056 4.349 25500911.205 6679285.64 4.349 25500911.128 6679285.796 4.349 25500910.805 6679286.446 4.349 25500913.886 6679287.976 4.349 25500914.208 6679287.327 4.349 25500914.286 6679287.17 4.349 25500918.3 6679289.164 4.349 25500931.771 6679295.854 4.349 25500931.842 6679295.713 4.349 25500937.447 6679284.426 4.349 25500924.544 6679278.018 4.349 25500924.373 6679277.933 4.349 25500919.961 6679275.742 4.349 25500920.041 6679275.582 4.349 25500920.361 6679274.936 4.349 25500917.28 6679273.406 4.349 25500916.965 6679274.042 4.349 25500916.88 6679274.212 4.349 25500915.756 6679273.653 4.349 25500913.251 6679272.409 4.349 25500913.118 6679272.343 4.349 25500913.924 6679270.135 4.349 25500914.062 6679270.185 4.349 25500914.958 6679270.511 4.349 25500915.814 6679268.162 4.349 25500914.923 6679267.838 4.349 25500914.78 6679267.786 4.349 25500915.483 6679265.857 4.349 25500915.533 6679265.719 4.349 25500922.215 6679268.155 4.349 25500933.071 6679272.113 4.349 25500942.741 6679275.639 4.349 25500944.777 6679270.059 4.349 25500944.947 6679270.121 4.349 25500946.515 6679270.692 4.349 25500946.652 6679270.736 4.349 25500946.792 6679270.767 4.349 25500946.935 6679270.786 4.349 25500947.079 6679270.792 4.349 25500947.223 6679270.786 4.349 25500947.365 6679270.767 4.349 25500947.506 6679270.736 4.349 25500947.643 6679270.693 4.349 25500947.776 6679270.638 4.349 25500947.904 6679270.571 4.349 25500948.025 6679270.494 4.349 25500948.14 6679270.407 4.349 25500948.246 6679270.309 4.349 25500948.343 6679270.203 4.349 25500948.431 6679270.089 4.349 25500948.508 6679269.968 4.349 25500948.575 6679269.84 4.349 25500948.63 6679269.707 4.349 25500948.673 6679269.57 4.349 25500948.704 6679269.429 4.349 25500948.723 6679269.287 4.349 25500948.73 6679269.143 4.349 25500948.723 6679268.999 4.349 25500948.705 6679268.856 4.349 25500948.674 6679268.716 4.349 25500948.63 6679268.579 4.349 25500948.575 6679268.446 4.349 25500948.509 6679268.318 4.349 25500948.432 6679268.196 4.349 25500948.344 6679268.082 4.349 25500948.247 6679267.976 4.349 25500948.141 6679267.879 4.349 25500948.027 6679267.791 4.349 25500947.905 6679267.714 4.349 25500947.778 6679267.647 4.349 25500947.645 6679267.592 4.349 25500946.083 6679267.023 4.349 25500945.907 6679266.958 4.349 25500946.66 6679264.891 4.349 25500946.841 6679264.957 4.349 25500949.065 6679265.768 4.349 25500949.668 6679264.115 4.349 25500949.886 6679264.194 4.349 25500954.027 6679265.704 4.349 25500954.343 6679264.838 4.349 25500958.809 6679252.588 4.349 25500955.964 6679251.551 4.349</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-3f3a64b7-b2dd-4bf3-a107-a7ed55c4873d"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-27d26a7e-fd43-4115-a430-bc3e8f2fdd52"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -16391,7 +16391,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-9291003f-96dd-4c52-a223-317ea7b27284"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-e8678678-5715-45cd-bb83-c07aadbea3aa"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -16456,6 +16456,36 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_a5b3cb8a-6aa7-4b72-8598-b1ad31883a73_6205d9c5-f998-443d-8829-22aee4f52fde_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>11.73</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>6205d9c5-f998-443d-8829-22aee4f52fde</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>8.94</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_cd007255-d4ac-4948-99fa-9bfca02e6dc9" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a5b3cb8a-6aa7-4b72-8598-b1ad31883a73_6205d9c5-f998-443d-8829-22aee4f52fde_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a5b3cb8a-6aa7-4b72-8598-b1ad31883a73_6205d9c5-f998-443d-8829-22aee4f52fde_2_poly_0_">
+<gml:posList>25500804.324 6679448.107 8.941 25500805.861 6679453.956 8.941 25500807.736 6679453.463 8.941 25500806.199 6679447.614 8.941 25500804.324 6679448.107 8.941</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_a5b3cb8a-6aa7-4b72-8598-b1ad31883a73_2a6098a7-868f-4c75-ba0a-18d079739e0e_2">
 <creationDate>2019-07-29</creationDate>
@@ -16583,48 +16613,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_a5b3cb8a-6aa7-4b72-8598-b1ad31883a73_f3b9d7df-8891-4e76-b6f2-4b609c15c7a0_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>18.14</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>f3b9d7df-8891-4e76-b6f2-4b609c15c7a0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>3.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>11.94</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>8.94</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_9e414d85-d0f3-4235-beb2-7c55826bca3b" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a5b3cb8a-6aa7-4b72-8598-b1ad31883a73_f3b9d7df-8891-4e76-b6f2-4b609c15c7a0_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a5b3cb8a-6aa7-4b72-8598-b1ad31883a73_f3b9d7df-8891-4e76-b6f2-4b609c15c7a0_2_poly_0_">
-<gml:posList>25500807.736 6679453.463 11.941 25500806.199 6679447.614 11.941 25500806.199 6679447.614 8.941 25500807.736 6679453.463 8.941 25500807.736 6679453.463 11.941</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_a5b3cb8a-6aa7-4b72-8598-b1ad31883a73_1b6bb3bf-0249-4c69-860a-5705c4dee27e_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -16667,13 +16655,25 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_a5b3cb8a-6aa7-4b72-8598-b1ad31883a73_6205d9c5-f998-443d-8829-22aee4f52fde_2">
+<bldg:WallSurface gml:id="BID_a5b3cb8a-6aa7-4b72-8598-b1ad31883a73_f3b9d7df-8891-4e76-b6f2-4b609c15c7a0_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>11.73</gen:value>
+<gen:value>18.14</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>6205d9c5-f998-443d-8829-22aee4f52fde</gen:value>
+<gen:value>f3b9d7df-8891-4e76-b6f2-4b609c15c7a0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>3.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>11.94</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>0.0</gen:value>
@@ -16682,22 +16682,22 @@
 <gen:value>8.94</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_cd007255-d4ac-4948-99fa-9bfca02e6dc9" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_9e414d85-d0f3-4235-beb2-7c55826bca3b" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_a5b3cb8a-6aa7-4b72-8598-b1ad31883a73_6205d9c5-f998-443d-8829-22aee4f52fde_2_poly">
+<gml:Polygon gml:id="BID_a5b3cb8a-6aa7-4b72-8598-b1ad31883a73_f3b9d7df-8891-4e76-b6f2-4b609c15c7a0_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_a5b3cb8a-6aa7-4b72-8598-b1ad31883a73_6205d9c5-f998-443d-8829-22aee4f52fde_2_poly_0_">
-<gml:posList>25500804.324 6679448.107 8.941 25500805.861 6679453.956 8.941 25500807.736 6679453.463 8.941 25500806.199 6679447.614 8.941 25500804.324 6679448.107 8.941</gml:posList>
+<gml:LinearRing gml:id="BID_a5b3cb8a-6aa7-4b72-8598-b1ad31883a73_f3b9d7df-8891-4e76-b6f2-4b609c15c7a0_2_poly_0_">
+<gml:posList>25500807.736 6679453.463 11.941 25500806.199 6679447.614 11.941 25500806.199 6679447.614 8.941 25500807.736 6679453.463 8.941 25500807.736 6679453.463 11.941</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:GroundSurface>
+</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-3f5d790c-e0ef-4d1e-9c32-69b91d49576d"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-5b9cc946-6303-494b-943e-40f1869d8ab7"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -16708,7 +16708,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-654d2270-ae27-458c-9b80-180c02bba1dc"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-81aa4f10-2ca3-4735-ac3c-58f4d72d98e1"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -16816,6 +16816,90 @@
 </gml:Solid>
 </bldg:lod2Solid>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_946e276a-f062-4a6d-96c8-e26d40cd155c_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>22.15</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>946e276a-f062-4a6d-96c8-e26d40cd155c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>12.42</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>64.97</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>5.69</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>11.21</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>3.56</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>9.07</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_671f99cc-d6c4-41d8-842d-4752276b36ce" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_946e276a-f062-4a6d-96c8-e26d40cd155c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_946e276a-f062-4a6d-96c8-e26d40cd155c_2_poly_0_">
+<gml:posList>25500730.008 6679329.344 9.075 25500721.607 6679331.023 9.153 25500721.541 6679330.721 9.297 25500724.669 6679325.838 11.21 25500729.986 6679329.243 9.123 25500730.008 6679329.344 9.075</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_acaef224-4bf7-48b2-a411-e6f9a6f159c4_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>23.33</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>acaef224-4bf7-48b2-a411-e6f9a6f159c4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>282.31</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>64.97</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>5.69</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>11.21</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>3.77</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>9.29</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_19564870-bb72-4630-8d11-b3c0774a76d4" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_acaef224-4bf7-48b2-a411-e6f9a6f159c4_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_acaef224-4bf7-48b2-a411-e6f9a6f159c4_2_poly_0_">
+<gml:posList>25500724.445 6679324.812 11.21 25500724.669 6679325.838 11.21 25500721.541 6679330.721 9.297 25500719.558 6679321.683 9.292 25500724.445 6679324.812 11.21</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_19ee733a-622e-41c7-b97e-ce00d8c92443_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -16898,6 +16982,78 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_ef00bf74-51ea-42de-addc-28d9b77d18fc_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>18.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>ef00bf74-51ea-42de-addc-28d9b77d18fc</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>192.42</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>64.96</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>5.69</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>11.21</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>3.76</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>9.28</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_7fa3c73d-8a8e-4312-a926-d95e5704b34e" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_ef00bf74-51ea-42de-addc-28d9b77d18fc_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_ef00bf74-51ea-42de-addc-28d9b77d18fc_2_poly_0_">
+<gml:posList>25500727.603 6679319.883 9.279 25500724.445 6679324.812 11.21 25500719.558 6679321.683 9.292 25500719.552 6679321.656 9.279 25500727.603 6679319.883 9.279</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_b1a3260e-db90-47ab-b01b-927ee79cf36d_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>82.91</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>b1a3260e-db90-47ab-b01b-927ee79cf36d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>5.52</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_ea77ef95-4380-4c27-963c-17cd6b8c3d25" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_b1a3260e-db90-47ab-b01b-927ee79cf36d_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_b1a3260e-db90-47ab-b01b-927ee79cf36d_2_poly_0_">
+<gml:posList>25500727.928 6679319.812 5.52 25500719.552 6679321.656 5.52 25500721.607 6679331.023 5.52 25500730.008 6679329.344 5.52 25500727.928 6679319.812 5.52</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_6b440f51-18f3-4958-b894-f05476fb8f4b_2">
@@ -16984,132 +17140,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_946e276a-f062-4a6d-96c8-e26d40cd155c_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>22.15</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>946e276a-f062-4a6d-96c8-e26d40cd155c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>12.42</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>64.97</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>5.69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>11.21</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>3.56</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>9.07</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_671f99cc-d6c4-41d8-842d-4752276b36ce" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_946e276a-f062-4a6d-96c8-e26d40cd155c_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_946e276a-f062-4a6d-96c8-e26d40cd155c_2_poly_0_">
-<gml:posList>25500730.008 6679329.344 9.075 25500721.607 6679331.023 9.153 25500721.541 6679330.721 9.297 25500724.669 6679325.838 11.21 25500729.986 6679329.243 9.123 25500730.008 6679329.344 9.075</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_acaef224-4bf7-48b2-a411-e6f9a6f159c4_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>23.33</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>acaef224-4bf7-48b2-a411-e6f9a6f159c4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>282.31</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>64.97</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>5.69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>11.21</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>3.77</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>9.29</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_19564870-bb72-4630-8d11-b3c0774a76d4" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_acaef224-4bf7-48b2-a411-e6f9a6f159c4_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_acaef224-4bf7-48b2-a411-e6f9a6f159c4_2_poly_0_">
-<gml:posList>25500724.445 6679324.812 11.21 25500724.669 6679325.838 11.21 25500721.541 6679330.721 9.297 25500719.558 6679321.683 9.292 25500724.445 6679324.812 11.21</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_ef00bf74-51ea-42de-addc-28d9b77d18fc_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>18.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>ef00bf74-51ea-42de-addc-28d9b77d18fc</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>192.42</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>64.96</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>5.69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>11.21</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>3.76</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>9.28</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_7fa3c73d-8a8e-4312-a926-d95e5704b34e" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_ef00bf74-51ea-42de-addc-28d9b77d18fc_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_ef00bf74-51ea-42de-addc-28d9b77d18fc_2_poly_0_">
-<gml:posList>25500727.603 6679319.883 9.279 25500724.445 6679324.812 11.21 25500719.558 6679321.683 9.292 25500719.552 6679321.656 9.279 25500727.603 6679319.883 9.279</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_d95d455c-4b74-4319-a378-560c8a5533fa_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -17151,38 +17181,8 @@
 </bldg:lod2MultiSurface>
 </bldg:RoofSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_b1a3260e-db90-47ab-b01b-927ee79cf36d_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>82.91</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>b1a3260e-db90-47ab-b01b-927ee79cf36d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>5.52</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_ea77ef95-4380-4c27-963c-17cd6b8c3d25" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_b1a3260e-db90-47ab-b01b-927ee79cf36d_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c1b8cdcc-5532-4488-9047-fda97080109f_b1a3260e-db90-47ab-b01b-927ee79cf36d_2_poly_0_">
-<gml:posList>25500727.928 6679319.812 5.52 25500719.552 6679321.656 5.52 25500721.607 6679331.023 5.52 25500730.008 6679329.344 5.52 25500727.928 6679319.812 5.52</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-fb346448-8537-40b8-8952-db140f596a2b"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-edb0a479-9b2a-4ab6-961a-633431d56bc0"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -17193,7 +17193,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-0720475e-84aa-4c3f-b21f-fb843dd3dd2b"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-57394305-08e7-4b09-baa8-363a10371adb"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -17683,6 +17683,48 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c4d319db-2f94-44f6-a0e0-966053a23e4b_a1857e25-7529-4828-b777-f2007d92e690_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>396.48</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>a1857e25-7529-4828-b777-f2007d92e690</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>16.52</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>20.31</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>16.52</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>20.31</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_1fc54723-ffef-4dfd-bb17-451c00dbb926" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c4d319db-2f94-44f6-a0e0-966053a23e4b_a1857e25-7529-4828-b777-f2007d92e690_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c4d319db-2f94-44f6-a0e0-966053a23e4b_a1857e25-7529-4828-b777-f2007d92e690_2_poly_0_">
+<gml:posList>25500819.962 6679103.453 20.31 25500824.311 6679105.266 20.31 25500825.13 6679103.745 20.31 25500820.686 6679100.697 20.31 25500826.673 6679092 20.31 25500833.534 6679096.723 20.31 25500840.992 6679099.817 20.31 25500836.827 6679109.857 20.31 25500828.906 6679121.369 20.31 25500822.523 6679116.977 20.31 25500815.549 6679114.08 20.31 25500819.962 6679103.453 20.31</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c4d319db-2f94-44f6-a0e0-966053a23e4b_12cd8546-592d-4233-9839-467b7e964022_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -17767,48 +17809,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c4d319db-2f94-44f6-a0e0-966053a23e4b_a1857e25-7529-4828-b777-f2007d92e690_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>396.48</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>a1857e25-7529-4828-b777-f2007d92e690</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>16.52</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>20.31</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>16.52</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>20.31</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_1fc54723-ffef-4dfd-bb17-451c00dbb926" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c4d319db-2f94-44f6-a0e0-966053a23e4b_a1857e25-7529-4828-b777-f2007d92e690_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c4d319db-2f94-44f6-a0e0-966053a23e4b_a1857e25-7529-4828-b777-f2007d92e690_2_poly_0_">
-<gml:posList>25500819.962 6679103.453 20.31 25500824.311 6679105.266 20.31 25500825.13 6679103.745 20.31 25500820.686 6679100.697 20.31 25500826.673 6679092 20.31 25500833.534 6679096.723 20.31 25500840.992 6679099.817 20.31 25500836.827 6679109.857 20.31 25500828.906 6679121.369 20.31 25500822.523 6679116.977 20.31 25500815.549 6679114.08 20.31 25500819.962 6679103.453 20.31</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:GroundSurface gml:id="BID_c4d319db-2f94-44f6-a0e0-966053a23e4b_b92feaa5-1c12-4607-8e03-69e38b759c4b_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -17839,7 +17839,7 @@
 </bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-ebf989e5-caee-4bc1-bd26-3a0d86e86fab"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-3e1bbf35-ee8b-4e41-b3d5-82246d6b2d16"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -17850,7 +17850,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-06618273-cc87-489a-b0f7-2ab3bd6fce8b"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-315f4592-5a0e-469a-8f50-9fd870ddf383"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -18062,6 +18062,48 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_384f5120-5a70-431b-84df-519e540fda5c_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>2.15</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>384f5120-5a70-431b-84df-519e540fda5c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>337.76</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>58.3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>1.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>6.4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>1.34</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>5.86</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_f4a47856-9e4b-480a-8ced-627a5c8bb9ee" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_384f5120-5a70-431b-84df-519e540fda5c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_384f5120-5a70-431b-84df-519e540fda5c_2_poly_0_">
+<gml:posList>25500913.046 6679165.042 6.401 25500912.939 6679165.303 6.227 25500910.364 6679164.243 6.23 25500910.135 6679164.798 5.86 25500907.038 6679162.976 6.178 25500913.046 6679165.042 6.401</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_f0e56be1-1cfb-41cb-8788-cc0374951275_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -18230,6 +18272,66 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_ee209639-b7f7-4209-9467-dbc934258a28_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>4.86</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>ee209639-b7f7-4209-9467-dbc934258a28</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>3.89</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>8.41</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>3.89</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>8.41</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_60f07253-9fc2-4725-a288-f59202cec27b" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_ee209639-b7f7-4209-9467-dbc934258a28_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_ee209639-b7f7-4209-9467-dbc934258a28_2_poly_0_0_">
+<gml:posList>25500897.314 6679121.762 8.41 25500899.535 6679122.671 8.41 25500899.876 6679124.473 8.41 25500896.23 6679122.97 8.41 25500897.314 6679121.762 8.41</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_ee209639-b7f7-4209-9467-dbc934258a28_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_ee209639-b7f7-4209-9467-dbc934258a28_2_poly_1_0_">
+<gml:posList>25500861.646 6679106.981 8.41 25500863.864 6679107.899 8.41 25500863.851 6679109.625 8.41 25500860.193 6679108.117 8.41 25500861.646 6679106.981 8.41</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_ee209639-b7f7-4209-9467-dbc934258a28_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_ee209639-b7f7-4209-9467-dbc934258a28_2_poly_2_0_">
+<gml:posList>25500879.293 6679114.315 8.41 25500881.512 6679115.23 8.41 25500881.849 6679117.043 8.41 25500878.22 6679115.547 8.41 25500879.293 6679114.315 8.41</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_5753ff0c-2fb7-44d9-8861-cb9e5722de89_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -18330,6 +18432,84 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>139.94</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>737aa17a-b1db-4e65-af95-c38b2c1788e8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.27</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>21.79</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>17.27</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>21.79</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_6046c50f-1061-4632-a197-9005639f0f28" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_0_0_">
+<gml:posList>25500887.276 6679136.635 21.794 25500893.853 6679122.323 21.794 25500896.011 6679123.214 21.794 25500896.23 6679122.97 21.794 25500899.876 6679124.473 21.794 25500899.945 6679124.837 21.794 25500903.374 6679126.24 21.794 25500899.332 6679135.978 21.794 25500894.387 6679133.939 21.794 25500892.197 6679138.775 21.794 25500887.276 6679136.635 21.794</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_1_0_">
+<gml:posList>25500847.603 6679121.258 21.55 25500849.972 6679122.238 21.55 25500848.446 6679125.919 21.55 25500846.08 6679124.941 21.55 25500847.603 6679121.258 21.55</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_2_0_">
+<gml:posList>25500848.601 6679125.983 21.82 25500848.446 6679125.919 21.82 25500849.972 6679122.238 21.82 25500850.124 6679122.301 21.82 25500851.469 6679119.06 21.82 25500856.272 6679121.083 21.82 25500851.829 6679131.796 21.82 25500847.02 6679129.807 21.82 25500848.601 6679125.983 21.82</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_3_0_">
+<gml:posList>25500856.527 6679106.874 22.201 25500859.983 6679108.282 22.201 25500860.193 6679108.117 22.201 25500863.851 6679109.625 22.201 25500863.849 6679109.895 22.201 25500866.585 6679111.027 22.201 25500861.262 6679123.186 22.201 25500856.272 6679121.083 22.201 25500851.469 6679119.06 22.201 25500856.527 6679106.874 22.201</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_4">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_4_0_">
+<gml:posList>25500875.287 6679114.628 22.24 25500878.032 6679115.763 22.24 25500878.22 6679115.547 22.24 25500881.849 6679117.043 22.24 25500881.915 6679117.398 22.24 25500884.455 6679118.446 22.24 25500879.091 6679130.697 22.24 25500869.94 6679126.842 22.24 25500875.287 6679114.628 22.24</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_5a193dc5-bbcf-47de-9ff9-bf29e54d9aac_2">
@@ -18959,6 +19139,48 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_2e5739c3-97b2-491f-b2ad-4febe0c9d1ec_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>41.04</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>2e5739c3-97b2-491f-b2ad-4febe0c9d1ec</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>328.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>80.58</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>1.97</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>6.49</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>1.63</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>6.15</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_d894afd1-c956-4dae-91e5-1834d952f65b" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_2e5739c3-97b2-491f-b2ad-4febe0c9d1ec_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_2e5739c3-97b2-491f-b2ad-4febe0c9d1ec_2_poly_0_">
+<gml:posList>25500892.153 6679151.756 6.49 25500913.255 6679164.538 6.49 25500913.046 6679165.042 6.401 25500907.038 6679162.976 6.178 25500896.731 6679156.911 6.152 25500897.132 6679155.94 6.324 25500891.403 6679153.571 6.168 25500892.153 6679151.756 6.49</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_352d692b-483e-47ac-a85a-f5aae5762f4e_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -19041,6 +19263,57 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_180c5b69-93f5-4d38-858c-24cd546f4702_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>151.75</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>180c5b69-93f5-4d38-858c-24cd546f4702</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.63</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>25.15</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>20.63</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>25.15</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_33ecb1bb-e218-4235-86cb-60845be63ddc" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_180c5b69-93f5-4d38-858c-24cd546f4702_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_180c5b69-93f5-4d38-858c-24cd546f4702_2_poly_0_0_">
+<gml:posList>25500887.276 6679136.635 25.15 25500880.324 6679133.61 25.15 25500881.246 6679131.604 25.15 25500879.091 6679130.697 25.15 25500884.455 6679118.446 25.15 25500893.853 6679122.323 25.15 25500887.276 6679136.635 25.15</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_180c5b69-93f5-4d38-858c-24cd546f4702_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_180c5b69-93f5-4d38-858c-24cd546f4702_2_poly_1_0_">
+<gml:posList>25500866.585 6679111.027 25.1 25500875.287 6679114.628 25.1 25500869.94 6679126.842 25.1 25500868.852 6679126.383 25.1 25500868.03 6679128.261 25.1 25500862.287 6679125.763 25.1 25500863.045 6679123.937 25.1 25500861.262 6679123.186 25.1 25500866.585 6679111.027 25.1</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_19ff66cb-c5eb-431d-a98a-133a81f44184_2">
@@ -19517,6 +19790,36 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_18b8218f-425a-4f87-9a12-331b67b2c028_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1720.16</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>18b8218f-425a-4f87-9a12-331b67b2c028</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.52</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_184697fb-fd2b-424d-9a3b-35ac0e42226b" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_18b8218f-425a-4f87-9a12-331b67b2c028_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_18b8218f-425a-4f87-9a12-331b67b2c028_2_poly_0_">
+<gml:posList>25500903.374 6679126.24 4.52 25500899.945 6679124.837 4.52 25500899.535 6679122.671 4.52 25500897.314 6679121.762 4.52 25500896.011 6679123.214 4.52 25500881.915 6679117.398 4.52 25500881.512 6679115.23 4.52 25500879.293 6679114.315 4.52 25500878.032 6679115.763 4.52 25500863.849 6679109.895 4.52 25500863.864 6679107.899 4.52 25500861.646 6679106.981 4.52 25500859.983 6679108.282 4.52 25500856.527 6679106.874 4.52 25500850.124 6679122.301 4.52 25500847.603 6679121.258 4.52 25500846.08 6679124.941 4.52 25500848.601 6679125.983 4.52 25500847.02 6679129.807 4.52 25500893.313 6679148.951 4.52 25500891.403 6679153.571 4.52 25500897.132 6679155.94 4.52 25500896.731 6679156.911 4.52 25500910.135 6679164.798 4.52 25500910.364 6679164.243 4.52 25500912.939 6679165.303 4.52 25500915.051 6679160.194 4.52 25500914.247 6679159.862 4.52 25500913.961 6679138.706 4.52 25500903.758 6679138.826 4.52 25500903.048 6679140.545 4.52 25500901.973 6679140.1 4.52 25500902.565 6679138.668 4.52 25500899.516 6679137.407 4.52 25500898.923 6679138.84 4.52 25500898.258 6679138.564 4.52 25500903.374 6679126.24 4.52</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_38f845a0-024c-45bb-88cb-0c595d3f4791_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -19557,6 +19860,48 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_43a21051-198d-40d4-9740-f6ae27890cc8_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>884.9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>43a21051-198d-40d4-9740-f6ae27890cc8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>21.62</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>26.14</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>21.62</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>26.14</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_5f704985-632e-4654-b0fe-e4449b116c94" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_43a21051-198d-40d4-9740-f6ae27890cc8_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_43a21051-198d-40d4-9740-f6ae27890cc8_2_poly_0_">
+<gml:posList>25500856.272 6679121.083 26.14 25500863.045 6679123.937 26.14 25500862.287 6679125.763 26.14 25500868.03 6679128.261 26.14 25500868.852 6679126.383 26.14 25500881.246 6679131.604 26.14 25500880.324 6679133.61 26.14 25500887.276 6679136.635 26.14 25500892.197 6679138.775 26.14 25500894.387 6679133.939 26.14 25500899.332 6679135.978 26.14 25500898.258 6679138.564 26.14 25500898.923 6679138.84 26.14 25500899.516 6679137.407 26.14 25500902.565 6679138.668 26.14 25500901.973 6679140.1 26.14 25500903.048 6679140.545 26.14 25500903.758 6679138.826 26.14 25500913.961 6679138.706 26.14 25500914.247 6679159.862 26.14 25500915.051 6679160.194 26.14 25500913.255 6679164.538 26.14 25500892.153 6679151.756 26.14 25500893.313 6679148.951 26.14 25500851.829 6679131.796 26.14 25500856.272 6679121.083 26.14</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_bf4c6e12-1ab3-450f-98b4-26fc3d3617d2_2">
@@ -19852,353 +20197,8 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_384f5120-5a70-431b-84df-519e540fda5c_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>2.15</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>384f5120-5a70-431b-84df-519e540fda5c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>337.76</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>58.3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>1.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>6.4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>1.34</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>5.86</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_f4a47856-9e4b-480a-8ced-627a5c8bb9ee" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_384f5120-5a70-431b-84df-519e540fda5c_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_384f5120-5a70-431b-84df-519e540fda5c_2_poly_0_">
-<gml:posList>25500913.046 6679165.042 6.401 25500912.939 6679165.303 6.227 25500910.364 6679164.243 6.23 25500910.135 6679164.798 5.86 25500907.038 6679162.976 6.178 25500913.046 6679165.042 6.401</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_ee209639-b7f7-4209-9467-dbc934258a28_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>4.86</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>ee209639-b7f7-4209-9467-dbc934258a28</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>3.89</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>8.41</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>3.89</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>8.41</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_60f07253-9fc2-4725-a288-f59202cec27b" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_ee209639-b7f7-4209-9467-dbc934258a28_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_ee209639-b7f7-4209-9467-dbc934258a28_2_poly_0_0_">
-<gml:posList>25500897.314 6679121.762 8.41 25500899.535 6679122.671 8.41 25500899.876 6679124.473 8.41 25500896.23 6679122.97 8.41 25500897.314 6679121.762 8.41</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_ee209639-b7f7-4209-9467-dbc934258a28_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_ee209639-b7f7-4209-9467-dbc934258a28_2_poly_1_0_">
-<gml:posList>25500861.646 6679106.981 8.41 25500863.864 6679107.899 8.41 25500863.851 6679109.625 8.41 25500860.193 6679108.117 8.41 25500861.646 6679106.981 8.41</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_ee209639-b7f7-4209-9467-dbc934258a28_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_ee209639-b7f7-4209-9467-dbc934258a28_2_poly_2_0_">
-<gml:posList>25500879.293 6679114.315 8.41 25500881.512 6679115.23 8.41 25500881.849 6679117.043 8.41 25500878.22 6679115.547 8.41 25500879.293 6679114.315 8.41</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>139.94</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>737aa17a-b1db-4e65-af95-c38b2c1788e8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.27</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>21.79</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>17.27</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>21.79</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_6046c50f-1061-4632-a197-9005639f0f28" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_0_0_">
-<gml:posList>25500887.276 6679136.635 21.794 25500893.853 6679122.323 21.794 25500896.011 6679123.214 21.794 25500896.23 6679122.97 21.794 25500899.876 6679124.473 21.794 25500899.945 6679124.837 21.794 25500903.374 6679126.24 21.794 25500899.332 6679135.978 21.794 25500894.387 6679133.939 21.794 25500892.197 6679138.775 21.794 25500887.276 6679136.635 21.794</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_1_0_">
-<gml:posList>25500847.603 6679121.258 21.55 25500849.972 6679122.238 21.55 25500848.446 6679125.919 21.55 25500846.08 6679124.941 21.55 25500847.603 6679121.258 21.55</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_2_0_">
-<gml:posList>25500848.601 6679125.983 21.82 25500848.446 6679125.919 21.82 25500849.972 6679122.238 21.82 25500850.124 6679122.301 21.82 25500851.469 6679119.06 21.82 25500856.272 6679121.083 21.82 25500851.829 6679131.796 21.82 25500847.02 6679129.807 21.82 25500848.601 6679125.983 21.82</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_3_0_">
-<gml:posList>25500856.527 6679106.874 22.201 25500859.983 6679108.282 22.201 25500860.193 6679108.117 22.201 25500863.851 6679109.625 22.201 25500863.849 6679109.895 22.201 25500866.585 6679111.027 22.201 25500861.262 6679123.186 22.201 25500856.272 6679121.083 22.201 25500851.469 6679119.06 22.201 25500856.527 6679106.874 22.201</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_4">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_737aa17a-b1db-4e65-af95-c38b2c1788e8_2_poly_4_0_">
-<gml:posList>25500875.287 6679114.628 22.24 25500878.032 6679115.763 22.24 25500878.22 6679115.547 22.24 25500881.849 6679117.043 22.24 25500881.915 6679117.398 22.24 25500884.455 6679118.446 22.24 25500879.091 6679130.697 22.24 25500869.94 6679126.842 22.24 25500875.287 6679114.628 22.24</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_2e5739c3-97b2-491f-b2ad-4febe0c9d1ec_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>41.04</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>2e5739c3-97b2-491f-b2ad-4febe0c9d1ec</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>328.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>80.58</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>1.97</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>6.49</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>1.63</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>6.15</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_d894afd1-c956-4dae-91e5-1834d952f65b" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_2e5739c3-97b2-491f-b2ad-4febe0c9d1ec_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_2e5739c3-97b2-491f-b2ad-4febe0c9d1ec_2_poly_0_">
-<gml:posList>25500892.153 6679151.756 6.49 25500913.255 6679164.538 6.49 25500913.046 6679165.042 6.401 25500907.038 6679162.976 6.178 25500896.731 6679156.911 6.152 25500897.132 6679155.94 6.324 25500891.403 6679153.571 6.168 25500892.153 6679151.756 6.49</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_180c5b69-93f5-4d38-858c-24cd546f4702_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>151.75</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>180c5b69-93f5-4d38-858c-24cd546f4702</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.63</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>25.15</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>20.63</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>25.15</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_33ecb1bb-e218-4235-86cb-60845be63ddc" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_180c5b69-93f5-4d38-858c-24cd546f4702_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_180c5b69-93f5-4d38-858c-24cd546f4702_2_poly_0_0_">
-<gml:posList>25500887.276 6679136.635 25.15 25500880.324 6679133.61 25.15 25500881.246 6679131.604 25.15 25500879.091 6679130.697 25.15 25500884.455 6679118.446 25.15 25500893.853 6679122.323 25.15 25500887.276 6679136.635 25.15</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_180c5b69-93f5-4d38-858c-24cd546f4702_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_180c5b69-93f5-4d38-858c-24cd546f4702_2_poly_1_0_">
-<gml:posList>25500866.585 6679111.027 25.1 25500875.287 6679114.628 25.1 25500869.94 6679126.842 25.1 25500868.852 6679126.383 25.1 25500868.03 6679128.261 25.1 25500862.287 6679125.763 25.1 25500863.045 6679123.937 25.1 25500861.262 6679123.186 25.1 25500866.585 6679111.027 25.1</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_43a21051-198d-40d4-9740-f6ae27890cc8_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>884.9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>43a21051-198d-40d4-9740-f6ae27890cc8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>21.62</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>26.14</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>21.62</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>26.14</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_5f704985-632e-4654-b0fe-e4449b116c94" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_43a21051-198d-40d4-9740-f6ae27890cc8_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_43a21051-198d-40d4-9740-f6ae27890cc8_2_poly_0_">
-<gml:posList>25500856.272 6679121.083 26.14 25500863.045 6679123.937 26.14 25500862.287 6679125.763 26.14 25500868.03 6679128.261 26.14 25500868.852 6679126.383 26.14 25500881.246 6679131.604 26.14 25500880.324 6679133.61 26.14 25500887.276 6679136.635 26.14 25500892.197 6679138.775 26.14 25500894.387 6679133.939 26.14 25500899.332 6679135.978 26.14 25500898.258 6679138.564 26.14 25500898.923 6679138.84 26.14 25500899.516 6679137.407 26.14 25500902.565 6679138.668 26.14 25500901.973 6679140.1 26.14 25500903.048 6679140.545 26.14 25500903.758 6679138.826 26.14 25500913.961 6679138.706 26.14 25500914.247 6679159.862 26.14 25500915.051 6679160.194 26.14 25500913.255 6679164.538 26.14 25500892.153 6679151.756 26.14 25500893.313 6679148.951 26.14 25500851.829 6679131.796 26.14 25500856.272 6679121.083 26.14</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_18b8218f-425a-4f87-9a12-331b67b2c028_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1720.16</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>18b8218f-425a-4f87-9a12-331b67b2c028</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.52</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_184697fb-fd2b-424d-9a3b-35ac0e42226b" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_18b8218f-425a-4f87-9a12-331b67b2c028_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_a03c680b-a156-473d-b210-ae261d808ebf_18b8218f-425a-4f87-9a12-331b67b2c028_2_poly_0_">
-<gml:posList>25500903.374 6679126.24 4.52 25500899.945 6679124.837 4.52 25500899.535 6679122.671 4.52 25500897.314 6679121.762 4.52 25500896.011 6679123.214 4.52 25500881.915 6679117.398 4.52 25500881.512 6679115.23 4.52 25500879.293 6679114.315 4.52 25500878.032 6679115.763 4.52 25500863.849 6679109.895 4.52 25500863.864 6679107.899 4.52 25500861.646 6679106.981 4.52 25500859.983 6679108.282 4.52 25500856.527 6679106.874 4.52 25500850.124 6679122.301 4.52 25500847.603 6679121.258 4.52 25500846.08 6679124.941 4.52 25500848.601 6679125.983 4.52 25500847.02 6679129.807 4.52 25500893.313 6679148.951 4.52 25500891.403 6679153.571 4.52 25500897.132 6679155.94 4.52 25500896.731 6679156.911 4.52 25500910.135 6679164.798 4.52 25500910.364 6679164.243 4.52 25500912.939 6679165.303 4.52 25500915.051 6679160.194 4.52 25500914.247 6679159.862 4.52 25500913.961 6679138.706 4.52 25500903.758 6679138.826 4.52 25500903.048 6679140.545 4.52 25500901.973 6679140.1 4.52 25500902.565 6679138.668 4.52 25500899.516 6679137.407 4.52 25500898.923 6679138.84 4.52 25500898.258 6679138.564 4.52 25500903.374 6679126.24 4.52</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-2d201a7b-fae3-4de5-bea9-c92579311eaa"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-3a9cfa35-d802-4de7-bab5-a74af9c42741"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -20209,7 +20209,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-ac50acbb-9fc7-4047-9d03-bd989687ee35"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-72698a27-937c-4537-92b5-c7f5c9cc6e84"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -20403,6 +20403,48 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c63647d4-0aea-41b3-a71a-6247fbdf88d8_b1a606d8-d79b-4b09-9565-446a3fff9fa8_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>394.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>b1a606d8-d79b-4b09-9565-446a3fff9fa8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>16.61</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>19.37</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>16.61</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>19.37</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_de3485df-6be5-4c87-a329-4528e1902d9b" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c63647d4-0aea-41b3-a71a-6247fbdf88d8_b1a606d8-d79b-4b09-9565-446a3fff9fa8_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c63647d4-0aea-41b3-a71a-6247fbdf88d8_b1a606d8-d79b-4b09-9565-446a3fff9fa8_2_poly_0_">
+<gml:posList>25500753.995 6679106.248 19.37 25500746.439 6679106.543 19.37 25500746.017 6679095.088 19.37 25500750.712 6679094.899 19.37 25500750.808 6679093.152 19.37 25500745.527 6679092.233 19.37 25500747.309 6679081.868 19.37 25500755.547 6679083.292 19.37 25500763.583 6679082.961 19.37 25500763.935 6679094.081 19.37 25500761.622 6679107.552 19.37 25500753.995 6679106.248 19.37</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c63647d4-0aea-41b3-a71a-6247fbdf88d8_d24e2154-efaa-4a64-81d3-d17d9627115d_2">
@@ -20699,6 +20741,36 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_c63647d4-0aea-41b3-a71a-6247fbdf88d8_3faf6104-1dea-4b14-a629-a7c76e3eb4e6_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>394.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>3faf6104-1dea-4b14-a629-a7c76e3eb4e6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>2.76</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_8e9307b5-c448-4081-82ea-2f94cfcd064e" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c63647d4-0aea-41b3-a71a-6247fbdf88d8_3faf6104-1dea-4b14-a629-a7c76e3eb4e6_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c63647d4-0aea-41b3-a71a-6247fbdf88d8_3faf6104-1dea-4b14-a629-a7c76e3eb4e6_2_poly_0_">
+<gml:posList>25500761.622 6679107.552 2.76 25500763.935 6679094.081 2.76 25500763.583 6679082.961 2.76 25500755.547 6679083.292 2.76 25500747.309 6679081.868 2.76 25500745.527 6679092.233 2.76 25500750.808 6679093.152 2.76 25500750.712 6679094.899 2.76 25500746.017 6679095.088 2.76 25500746.439 6679106.543 2.76 25500753.995 6679106.248 2.76 25500761.622 6679107.552 2.76</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c63647d4-0aea-41b3-a71a-6247fbdf88d8_7cd8eb89-31e0-42fd-a5f9-bca6b990bbb0_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -20782,80 +20854,8 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c63647d4-0aea-41b3-a71a-6247fbdf88d8_b1a606d8-d79b-4b09-9565-446a3fff9fa8_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>394.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>b1a606d8-d79b-4b09-9565-446a3fff9fa8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>16.61</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>19.37</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>16.61</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>19.37</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_de3485df-6be5-4c87-a329-4528e1902d9b" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c63647d4-0aea-41b3-a71a-6247fbdf88d8_b1a606d8-d79b-4b09-9565-446a3fff9fa8_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c63647d4-0aea-41b3-a71a-6247fbdf88d8_b1a606d8-d79b-4b09-9565-446a3fff9fa8_2_poly_0_">
-<gml:posList>25500753.995 6679106.248 19.37 25500746.439 6679106.543 19.37 25500746.017 6679095.088 19.37 25500750.712 6679094.899 19.37 25500750.808 6679093.152 19.37 25500745.527 6679092.233 19.37 25500747.309 6679081.868 19.37 25500755.547 6679083.292 19.37 25500763.583 6679082.961 19.37 25500763.935 6679094.081 19.37 25500761.622 6679107.552 19.37 25500753.995 6679106.248 19.37</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_c63647d4-0aea-41b3-a71a-6247fbdf88d8_3faf6104-1dea-4b14-a629-a7c76e3eb4e6_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>394.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>3faf6104-1dea-4b14-a629-a7c76e3eb4e6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>2.76</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_8e9307b5-c448-4081-82ea-2f94cfcd064e" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c63647d4-0aea-41b3-a71a-6247fbdf88d8_3faf6104-1dea-4b14-a629-a7c76e3eb4e6_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c63647d4-0aea-41b3-a71a-6247fbdf88d8_3faf6104-1dea-4b14-a629-a7c76e3eb4e6_2_poly_0_">
-<gml:posList>25500761.622 6679107.552 2.76 25500763.935 6679094.081 2.76 25500763.583 6679082.961 2.76 25500755.547 6679083.292 2.76 25500747.309 6679081.868 2.76 25500745.527 6679092.233 2.76 25500750.808 6679093.152 2.76 25500750.712 6679094.899 2.76 25500746.017 6679095.088 2.76 25500746.439 6679106.543 2.76 25500753.995 6679106.248 2.76 25500761.622 6679107.552 2.76</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-95897238-527f-4793-b6e6-3e2d8c6728f2"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-108343b2-6b80-4c81-813e-97eeefe618bf"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -20866,7 +20866,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-52fcd337-4080-4318-9aa8-f76688d5d403"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-1014c54a-47fc-41f7-bcc7-5a8d73eb6653"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -21023,6 +21023,48 @@
 </gml:exterior>
 </gml:Solid>
 </bldg:lod2Solid>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_11813ba1-4272-4f36-8d3b-9063ddcd8990_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>207.47</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>11813ba1-4272-4f36-8d3b-9063ddcd8990</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>12.85</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>15.88</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>12.85</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>15.88</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_46fc2065-e078-4f06-b36a-ffff0e81a1ce" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_11813ba1-4272-4f36-8d3b-9063ddcd8990_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_11813ba1-4272-4f36-8d3b-9063ddcd8990_2_poly_0_">
+<gml:posList>25500761.689 6679330.211 15.88 25500746.19 6679272.074 15.88 25500747.264 6679271.79 15.88 25500747.319 6679271.996 15.88 25500749.328 6679271.455 15.88 25500749.255 6679271.262 15.88 25500749.53 6679271.188 15.88 25500765.029 6679329.325 15.88 25500761.689 6679330.211 15.88</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_30b22b94-eec2-4db6-9b70-7fb8de86e954_2">
 <creationDate>2019-07-29</creationDate>
@@ -21226,6 +21268,48 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_849bb126-9bef-4df8-8ded-041753c9ace5_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>849bb126-9bef-4df8-8ded-041753c9ace5</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>2.66</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>5.69</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>2.66</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>5.69</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_39d763c6-a44b-43ca-812c-5532fca78359" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_849bb126-9bef-4df8-8ded-041753c9ace5_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_849bb126-9bef-4df8-8ded-041753c9ace5_2_poly_0_">
+<gml:posList>25500752.556 6679324.285 5.69 25500752.917 6679325.637 5.69 25500751.743 6679325.95 5.69 25500751.382 6679324.598 5.69 25500752.556 6679324.285 5.69</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_9e2ddcb7-3464-4707-875e-02452e5fdb65_2">
@@ -21777,6 +21861,36 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_3522c965-5818-4595-acaf-15772c29e3fc_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>1326.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>3522c965-5818-4595-acaf-15772c29e3fc</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>3.03</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_d260f728-6296-40a7-942d-01432320e7f8" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_3522c965-5818-4595-acaf-15772c29e3fc_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_3522c965-5818-4595-acaf-15772c29e3fc_2_poly_0_">
+<gml:posList>25500773.812 6679327.796 3.03 25500770.781 6679319.855 3.03 25500772.042 6679319.373 3.03 25500771.543 6679318.065 3.03 25500770.282 6679318.547 3.03 25500768.641 6679314.249 3.03 25500769.903 6679313.768 3.03 25500769.403 6679312.46 3.03 25500768.142 6679312.941 3.03 25500764.221 6679303.012 3.03 25500765.902 6679302.37 3.03 25500763.831 6679296.952 3.03 25500765.933 6679296.149 3.03 25500765.761 6679295.7 3.03 25500765.294 6679295.879 3.03 25500754.609 6679267.929 3.03 25500755.076 6679267.751 3.03 25500754.905 6679267.302 3.03 25500748.661 6679269.691 3.03 25500749.328 6679271.455 3.03 25500747.319 6679271.996 3.03 25500743.712 6679258.594 3.03 25500737.32 6679260.315 3.03 25500738.088 6679263.208 3.03 25500736.523 6679263.625 3.03 25500752.687 6679324.25 3.03 25500751.382 6679324.598 3.03 25500751.743 6679325.95 3.03 25500753.047 6679325.603 3.03 25500756.783 6679339.613 3.03 25500761.228 6679338.43 3.03 25500762.778 6679344.192 3.03 25500766.291 6679343.301 3.03 25500763.55 6679332.492 3.03 25500770.857 6679330.639 3.03 25500770.613 6679329.674 3.03 25500774.442 6679328.057 3.03 25500774.268 6679327.626 3.03 25500773.812 6679327.796 3.03</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_222b0b28-bf71-405c-b005-c8816ccdb37a_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -21972,6 +22086,57 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_035e8b3d-5bee-49f5-a440-2136cd01817b_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>477.16</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>035e8b3d-5bee-49f5-a440-2136cd01817b</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>11.36</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.39</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>11.36</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>14.39</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_7d5e4aa8-5bac-4f0f-a660-b79f54d173c7" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_035e8b3d-5bee-49f5-a440-2136cd01817b_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_035e8b3d-5bee-49f5-a440-2136cd01817b_2_poly_0_0_">
+<gml:posList>25500754.905 6679267.302 14.39 25500755.076 6679267.751 14.39 25500754.609 6679267.929 14.39 25500765.294 6679295.879 14.39 25500765.761 6679295.7 14.39 25500765.933 6679296.149 14.39 25500763.831 6679296.952 14.39 25500763.856 6679297.018 14.39 25500762.212 6679297.644 14.39 25500764.333 6679302.969 14.39 25500764.221 6679303.012 14.39 25500768.142 6679312.941 14.39 25500768.285 6679312.887 14.39 25500768.803 6679314.187 14.39 25500768.641 6679314.249 14.39 25500770.282 6679318.547 14.39 25500770.505 6679318.461 14.39 25500771.024 6679319.762 14.39 25500770.781 6679319.855 14.39 25500773.812 6679327.796 14.39 25500774.171 6679327.662 14.39 25500774.345 6679328.098 14.39 25500770.613 6679329.674 14.39 25500770.857 6679330.639 14.39 25500763.609 6679332.478 14.39 25500762.917 6679329.885 14.39 25500765.029 6679329.325 14.39 25500749.53 6679271.188 14.39 25500749.255 6679271.262 14.39 25500748.661 6679269.691 14.39 25500754.905 6679267.302 14.39</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_035e8b3d-5bee-49f5-a440-2136cd01817b_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_035e8b3d-5bee-49f5-a440-2136cd01817b_2_poly_1_0_">
+<gml:posList>25500738.088 6679263.208 14.55 25500737.32 6679260.315 14.55 25500743.712 6679258.594 14.55 25500747.264 6679271.79 14.55 25500746.19 6679272.074 14.55 25500761.689 6679330.211 14.55 25500762.917 6679329.885 14.55 25500763.609 6679332.478 14.55 25500763.55 6679332.492 14.55 25500766.291 6679343.301 14.55 25500762.778 6679344.192 14.55 25500761.228 6679338.43 14.55 25500756.783 6679339.613 14.55 25500753.047 6679325.603 14.55 25500752.917 6679325.637 14.55 25500752.556 6679324.285 14.55 25500752.687 6679324.25 14.55 25500736.523 6679263.625 14.55 25500738.088 6679263.208 14.55</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_b3b36a3c-8e91-451b-8025-c5885d821e31_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -22063,6 +22228,75 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>0.05</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>a9c1dfce-4c7f-4d91-b7c1-003c90d4d721</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>3.38</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>6.41</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>3.38</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>6.41</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_601e6f26-84c8-493d-98a3-8cbe5b6fcfc3" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_0_0_">
+<gml:posList>25500774.268 6679327.626 6.41 25500774.442 6679328.057 6.41 25500774.345 6679328.098 6.41 25500774.171 6679327.662 6.41 25500774.268 6679327.626 6.41</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_1_0_">
+<gml:posList>25500763.856 6679297.018 6.41 25500765.902 6679302.37 6.41 25500764.333 6679302.969 6.41 25500762.212 6679297.644 6.41 25500763.856 6679297.018 6.41</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_2_0_">
+<gml:posList>25500769.403 6679312.46 6.41 25500769.903 6679313.768 6.41 25500768.803 6679314.187 6.41 25500768.285 6679312.887 6.41 25500769.403 6679312.46 6.41</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_3_0_">
+<gml:posList>25500771.543 6679318.065 6.41 25500772.042 6679319.373 6.41 25500771.024 6679319.762 6.41 25500770.505 6679318.461 6.41 25500771.543 6679318.065 6.41</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_b5c301c3-65d3-4ade-9b10-2a43db82c66d_2">
@@ -22397,242 +22631,8 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_11813ba1-4272-4f36-8d3b-9063ddcd8990_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>207.47</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>11813ba1-4272-4f36-8d3b-9063ddcd8990</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>12.85</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>15.88</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>12.85</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>15.88</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_46fc2065-e078-4f06-b36a-ffff0e81a1ce" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_11813ba1-4272-4f36-8d3b-9063ddcd8990_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_11813ba1-4272-4f36-8d3b-9063ddcd8990_2_poly_0_">
-<gml:posList>25500761.689 6679330.211 15.88 25500746.19 6679272.074 15.88 25500747.264 6679271.79 15.88 25500747.319 6679271.996 15.88 25500749.328 6679271.455 15.88 25500749.255 6679271.262 15.88 25500749.53 6679271.188 15.88 25500765.029 6679329.325 15.88 25500761.689 6679330.211 15.88</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_849bb126-9bef-4df8-8ded-041753c9ace5_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>849bb126-9bef-4df8-8ded-041753c9ace5</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>2.66</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>5.69</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>2.66</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>5.69</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_39d763c6-a44b-43ca-812c-5532fca78359" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_849bb126-9bef-4df8-8ded-041753c9ace5_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_849bb126-9bef-4df8-8ded-041753c9ace5_2_poly_0_">
-<gml:posList>25500752.556 6679324.285 5.69 25500752.917 6679325.637 5.69 25500751.743 6679325.95 5.69 25500751.382 6679324.598 5.69 25500752.556 6679324.285 5.69</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_035e8b3d-5bee-49f5-a440-2136cd01817b_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>477.16</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>035e8b3d-5bee-49f5-a440-2136cd01817b</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>11.36</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.39</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>11.36</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>14.39</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_7d5e4aa8-5bac-4f0f-a660-b79f54d173c7" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_035e8b3d-5bee-49f5-a440-2136cd01817b_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_035e8b3d-5bee-49f5-a440-2136cd01817b_2_poly_0_0_">
-<gml:posList>25500754.905 6679267.302 14.39 25500755.076 6679267.751 14.39 25500754.609 6679267.929 14.39 25500765.294 6679295.879 14.39 25500765.761 6679295.7 14.39 25500765.933 6679296.149 14.39 25500763.831 6679296.952 14.39 25500763.856 6679297.018 14.39 25500762.212 6679297.644 14.39 25500764.333 6679302.969 14.39 25500764.221 6679303.012 14.39 25500768.142 6679312.941 14.39 25500768.285 6679312.887 14.39 25500768.803 6679314.187 14.39 25500768.641 6679314.249 14.39 25500770.282 6679318.547 14.39 25500770.505 6679318.461 14.39 25500771.024 6679319.762 14.39 25500770.781 6679319.855 14.39 25500773.812 6679327.796 14.39 25500774.171 6679327.662 14.39 25500774.345 6679328.098 14.39 25500770.613 6679329.674 14.39 25500770.857 6679330.639 14.39 25500763.609 6679332.478 14.39 25500762.917 6679329.885 14.39 25500765.029 6679329.325 14.39 25500749.53 6679271.188 14.39 25500749.255 6679271.262 14.39 25500748.661 6679269.691 14.39 25500754.905 6679267.302 14.39</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_035e8b3d-5bee-49f5-a440-2136cd01817b_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_035e8b3d-5bee-49f5-a440-2136cd01817b_2_poly_1_0_">
-<gml:posList>25500738.088 6679263.208 14.55 25500737.32 6679260.315 14.55 25500743.712 6679258.594 14.55 25500747.264 6679271.79 14.55 25500746.19 6679272.074 14.55 25500761.689 6679330.211 14.55 25500762.917 6679329.885 14.55 25500763.609 6679332.478 14.55 25500763.55 6679332.492 14.55 25500766.291 6679343.301 14.55 25500762.778 6679344.192 14.55 25500761.228 6679338.43 14.55 25500756.783 6679339.613 14.55 25500753.047 6679325.603 14.55 25500752.917 6679325.637 14.55 25500752.556 6679324.285 14.55 25500752.687 6679324.25 14.55 25500736.523 6679263.625 14.55 25500738.088 6679263.208 14.55</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>0.05</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>a9c1dfce-4c7f-4d91-b7c1-003c90d4d721</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>3.38</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>6.41</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>3.38</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>6.41</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_601e6f26-84c8-493d-98a3-8cbe5b6fcfc3" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_0_0_">
-<gml:posList>25500774.268 6679327.626 6.41 25500774.442 6679328.057 6.41 25500774.345 6679328.098 6.41 25500774.171 6679327.662 6.41 25500774.268 6679327.626 6.41</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_1_0_">
-<gml:posList>25500763.856 6679297.018 6.41 25500765.902 6679302.37 6.41 25500764.333 6679302.969 6.41 25500762.212 6679297.644 6.41 25500763.856 6679297.018 6.41</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_2_0_">
-<gml:posList>25500769.403 6679312.46 6.41 25500769.903 6679313.768 6.41 25500768.803 6679314.187 6.41 25500768.285 6679312.887 6.41 25500769.403 6679312.46 6.41</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_a9c1dfce-4c7f-4d91-b7c1-003c90d4d721_2_poly_3_0_">
-<gml:posList>25500771.543 6679318.065 6.41 25500772.042 6679319.373 6.41 25500771.024 6679319.762 6.41 25500770.505 6679318.461 6.41 25500771.543 6679318.065 6.41</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_3522c965-5818-4595-acaf-15772c29e3fc_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>1326.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>3522c965-5818-4595-acaf-15772c29e3fc</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>3.03</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_d260f728-6296-40a7-942d-01432320e7f8" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_3522c965-5818-4595-acaf-15772c29e3fc_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_c5e8bd4e-b772-4617-9616-c6347faea3f6_3522c965-5818-4595-acaf-15772c29e3fc_2_poly_0_">
-<gml:posList>25500773.812 6679327.796 3.03 25500770.781 6679319.855 3.03 25500772.042 6679319.373 3.03 25500771.543 6679318.065 3.03 25500770.282 6679318.547 3.03 25500768.641 6679314.249 3.03 25500769.903 6679313.768 3.03 25500769.403 6679312.46 3.03 25500768.142 6679312.941 3.03 25500764.221 6679303.012 3.03 25500765.902 6679302.37 3.03 25500763.831 6679296.952 3.03 25500765.933 6679296.149 3.03 25500765.761 6679295.7 3.03 25500765.294 6679295.879 3.03 25500754.609 6679267.929 3.03 25500755.076 6679267.751 3.03 25500754.905 6679267.302 3.03 25500748.661 6679269.691 3.03 25500749.328 6679271.455 3.03 25500747.319 6679271.996 3.03 25500743.712 6679258.594 3.03 25500737.32 6679260.315 3.03 25500738.088 6679263.208 3.03 25500736.523 6679263.625 3.03 25500752.687 6679324.25 3.03 25500751.382 6679324.598 3.03 25500751.743 6679325.95 3.03 25500753.047 6679325.603 3.03 25500756.783 6679339.613 3.03 25500761.228 6679338.43 3.03 25500762.778 6679344.192 3.03 25500766.291 6679343.301 3.03 25500763.55 6679332.492 3.03 25500770.857 6679330.639 3.03 25500770.613 6679329.674 3.03 25500774.442 6679328.057 3.03 25500774.268 6679327.626 3.03 25500773.812 6679327.796 3.03</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-a681fbda-f72d-4518-84ae-b06adc71af18"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-f6a40081-e48c-4b75-a7aa-83596dd121b5"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -22643,7 +22643,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-432be844-5510-433d-838f-f2d53ef05f55"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-263f8024-1b92-4d5e-9ebd-e3b9d272799f"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -22875,48 +22875,6 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_dd7c4e8c-d829-4275-b3eb-e6a80672177e_fe5099f3-ede8-4048-a465-4768e263a9b2_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>59.79</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>fe5099f3-ede8-4048-a465-4768e263a9b2</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>7.34</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.8</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>7.46</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_d92c5902-1e1c-405c-9fa4-02dcb70a3126" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_dd7c4e8c-d829-4275-b3eb-e6a80672177e_fe5099f3-ede8-4048-a465-4768e263a9b2_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_dd7c4e8c-d829-4275-b3eb-e6a80672177e_fe5099f3-ede8-4048-a465-4768e263a9b2_2_poly_0_">
-<gml:posList>25500637.309 6679354.776 7.458 25500637.309 6679354.776 12.977 25500641.486 6679354.224 14.801 25500646.713 6679353.534 12.518 25500646.713 6679353.534 7.458 25500637.309 6679354.776 7.458</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_dd7c4e8c-d829-4275-b3eb-e6a80672177e_f70f6ed0-3c4c-4da2-befb-9a5b0f14b92e_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -23030,8 +22988,50 @@
 </bldg:lod2MultiSurface>
 </bldg:GroundSurface>
 </bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_dd7c4e8c-d829-4275-b3eb-e6a80672177e_fe5099f3-ede8-4048-a465-4768e263a9b2_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>59.79</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>fe5099f3-ede8-4048-a465-4768e263a9b2</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>7.34</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.8</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>7.46</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_d92c5902-1e1c-405c-9fa4-02dcb70a3126" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_dd7c4e8c-d829-4275-b3eb-e6a80672177e_fe5099f3-ede8-4048-a465-4768e263a9b2_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_dd7c4e8c-d829-4275-b3eb-e6a80672177e_fe5099f3-ede8-4048-a465-4768e263a9b2_2_poly_0_">
+<gml:posList>25500637.309 6679354.776 7.458 25500637.309 6679354.776 12.977 25500641.486 6679354.224 14.801 25500646.713 6679353.534 12.518 25500646.713 6679353.534 7.458 25500637.309 6679354.776 7.458</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-ea06b94e-ffab-43cf-878a-01fba96c7986"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-a49cfd8b-db90-4c6a-90a8-df0af3eadfb7"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -23042,7 +23042,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-3c59f775-2a57-4e14-beb4-b0d86bbb4c15"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-89e5a95b-a8c4-4da3-9956-23176cf386b1"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -23232,25 +23232,13 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_51795116-c4a9-4d33-a74f-f7f746060333_2">
+<bldg:GroundSurface gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_e6a45e69-5c09-4cd2-b40c-dcda323b5865_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>45.89</gen:value>
+<gen:value>113.14</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>51795116-c4a9-4d33-a74f-f7f746060333</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>6.72</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.6</gen:value>
+<gen:value>e6a45e69-5c09-4cd2-b40c-dcda323b5865</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>0.0</gen:value>
@@ -23259,61 +23247,19 @@
 <gen:value>7.88</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_308e0950-cae1-444d-bfa4-d8389e4b6cd1" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_838a0bb8-4eb8-4ce9-9562-700bf07570bd" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_51795116-c4a9-4d33-a74f-f7f746060333_2_poly">
+<gml:Polygon gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_e6a45e69-5c09-4cd2-b40c-dcda323b5865_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_51795116-c4a9-4d33-a74f-f7f746060333_2_poly_0_">
-<gml:posList>25500638.694 6679365.843 7.881 25500638.694 6679365.843 12.224 25500639.161 6679369.671 14.605 25500639.723 6679374.278 11.739 25500639.723 6679374.278 7.881 25500638.694 6679365.843 7.881</gml:posList>
+<gml:LinearRing gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_e6a45e69-5c09-4cd2-b40c-dcda323b5865_2_poly_0_">
+<gml:posList>25500638.694 6679365.843 7.881 25500639.723 6679374.278 7.881 25500652.995 6679372.532 7.881 25500652.004 6679364.2 7.881 25500638.694 6679365.843 7.881</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:WallSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:WallSurface gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_593638d1-ec4a-4b42-800d-ee353b2ba0b6_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>45.48</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>593638d1-ec4a-4b42-800d-ee353b2ba0b6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaAbs">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="PolyAreaRel">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>6.72</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>14.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>7.88</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_b77ddbee-6592-4de6-a65a-f6b8a4716eb6" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_593638d1-ec4a-4b42-800d-ee353b2ba0b6_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_593638d1-ec4a-4b42-800d-ee353b2ba0b6_2_poly_0_">
-<gml:posList>25500652.995 6679372.532 7.881 25500652.995 6679372.532 11.804 25500652.46 6679368.029 14.605 25500652.004 6679364.2 12.224 25500652.004 6679364.2 7.881 25500652.995 6679372.532 7.881</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:WallSurface>
+</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:RoofSurface gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_110668df-956a-4c6f-8f69-36b1649fdd03_2">
@@ -23400,13 +23346,25 @@
 </bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_e6a45e69-5c09-4cd2-b40c-dcda323b5865_2">
+<bldg:WallSurface gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_51795116-c4a9-4d33-a74f-f7f746060333_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
-<gen:value>113.14</gen:value>
+<gen:value>45.89</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="FaceUUID">
-<gen:value>e6a45e69-5c09-4cd2-b40c-dcda323b5865</gen:value>
+<gen:value>51795116-c4a9-4d33-a74f-f7f746060333</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>6.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.6</gen:value>
 </gen:stringAttribute>
 <gen:stringAttribute name="ZMin">
 <gen:value>0.0</gen:value>
@@ -23415,22 +23373,64 @@
 <gen:value>7.88</gen:value>
 </gen:stringAttribute>
 <bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_838a0bb8-4eb8-4ce9-9562-700bf07570bd" srsName="EPSG:3879" srsDimension="3">
+<gml:MultiSurface gml:id="UUID_308e0950-cae1-444d-bfa4-d8389e4b6cd1" srsName="EPSG:3879" srsDimension="3">
 <gml:surfaceMember>
-<gml:Polygon gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_e6a45e69-5c09-4cd2-b40c-dcda323b5865_2_poly">
+<gml:Polygon gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_51795116-c4a9-4d33-a74f-f7f746060333_2_poly">
 <gml:exterior>
-<gml:LinearRing gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_e6a45e69-5c09-4cd2-b40c-dcda323b5865_2_poly_0_">
-<gml:posList>25500638.694 6679365.843 7.881 25500639.723 6679374.278 7.881 25500652.995 6679372.532 7.881 25500652.004 6679364.2 7.881 25500638.694 6679365.843 7.881</gml:posList>
+<gml:LinearRing gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_51795116-c4a9-4d33-a74f-f7f746060333_2_poly_0_">
+<gml:posList>25500638.694 6679365.843 7.881 25500638.694 6679365.843 12.224 25500639.161 6679369.671 14.605 25500639.723 6679374.278 11.739 25500639.723 6679374.278 7.881 25500638.694 6679365.843 7.881</gml:posList>
 </gml:LinearRing>
 </gml:exterior>
 </gml:Polygon>
 </gml:surfaceMember>
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
-</bldg:GroundSurface>
+</bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:WallSurface gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_593638d1-ec4a-4b42-800d-ee353b2ba0b6_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>45.48</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>593638d1-ec4a-4b42-800d-ee353b2ba0b6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaAbs">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="PolyAreaRel">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>6.72</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>14.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>7.88</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_b77ddbee-6592-4de6-a65a-f6b8a4716eb6" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_593638d1-ec4a-4b42-800d-ee353b2ba0b6_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e5bc14f0-dd21-4d20-861d-5437c2021e4d_593638d1-ec4a-4b42-800d-ee353b2ba0b6_2_poly_0_">
+<gml:posList>25500652.995 6679372.532 7.881 25500652.995 6679372.532 11.804 25500652.46 6679368.029 14.605 25500652.004 6679364.2 12.224 25500652.004 6679364.2 7.881 25500652.995 6679372.532 7.881</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-c69831af-01a5-400a-a8e2-a41c3260cf0f"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-2dcb3c03-b575-4569-8e6b-4cfdd20708dd"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -23441,7 +23441,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-de2d4630-204e-45a2-b55d-cd7d32137242"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-f122273a-a501-49b2-8c9a-b0a93e3b176b"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -23801,6 +23801,93 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>415.85</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>d1dcb053-06c9-45ff-94a2-1d1aa1f31277</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>15.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>23.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>15.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>23.08</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_84674a28-8c5d-4c09-943c-b1fc31eb3089" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_0_0_">
+<gml:posList>25500706.339 6679415.112 23.08 25500709.677 6679414.331 23.08 25500708.602 6679410.118 23.08 25500707.984 6679407.699 23.08 25500704.653 6679408.508 23.08 25500700.686 6679392.969 23.08 25500703.973 6679391.986 23.08 25500712.764 6679389.357 23.08 25500720.652 6679420.258 23.08 25500715.9 6679421.671 23.08 25500711.858 6679422.872 23.08 25500710.372 6679417.05 23.08 25500707.088 6679418.047 23.08 25500688.801 6679422.53 23.08 25500688.02 6679419.47 23.08 25500706.339 6679415.112 23.08</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_1_0_">
+<gml:posList>25500688.296 6679427.695 23.14 25500689.702 6679431.063 23.14 25500684.464 6679432.78 23.14 25500683.467 6679428.876 23.14 25500688.296 6679427.695 23.14</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_2_0_">
+<gml:posList>25500716.536 6679382.2 23.46 25500725.418 6679415.667 23.46 25500725.614 6679415.615 23.46 25500727.054 6679421.253 23.46 25500721.339 6679422.948 23.46 25500720.652 6679420.258 23.46 25500712.764 6679389.357 23.46 25500712.361 6679387.78 23.46 25500712.666 6679387.753 23.46 25500711.543 6679383.525 23.46 25500716.536 6679382.2 23.46</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_3_0_">
+<gml:posList>25500716.692 6679424.774 23.14 25500717.679 6679428.64 23.14 25500713.638 6679429.845 23.14 25500712.651 6679425.979 23.14 25500716.692 6679424.774 23.14</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_4">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_4_0_">
+<gml:posList>25500724.067 6679431.243 23.11 25500727.618 6679445.154 23.11 25500722.222 6679446.434 23.11 25500718.67 6679432.523 23.11 25500724.067 6679431.243 23.11</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_5">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_5_0_">
+<gml:posList>25500740.57 6679421.251 23.21 25500743.004 6679430.784 23.21 25500739.247 6679431.897 23.21 25500736.767 6679422.181 23.21 25500740.57 6679421.251 23.21</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_bcb9d376-e4e3-41ac-9f13-13530b3b760b_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -23883,6 +23970,68 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_9e539e15-ab18-4780-a364-0aa151e33b36_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>2035.97</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>9e539e15-ab18-4780-a364-0aa151e33b36</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>12.32</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>20.38</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>12.32</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>20.38</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_92c0087d-8f15-43c7-8612-e919a15430ac" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_9e539e15-ab18-4780-a364-0aa151e33b36_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_9e539e15-ab18-4780-a364-0aa151e33b36_2_poly_0_">
+<gml:posList>25500682.419 6679415.703 20.38 25500683.901 6679410.267 20.38 25500687.403 6679405.139 20.38 25500695.228 6679402.574 20.38 25500693.723 6679396.677 20.38 25500700.686 6679392.969 20.38 25500704.653 6679408.508 20.38 25500706.339 6679415.112 20.38 25500688.02 6679419.47 20.38 25500688.801 6679422.53 20.38 25500707.088 6679418.047 20.38 25500710.372 6679417.05 20.38 25500711.858 6679422.872 20.38 25500715.9 6679421.671 20.38 25500720.652 6679420.258 20.38 25500721.339 6679422.948 20.38 25500727.054 6679421.253 20.38 25500725.614 6679415.615 20.38 25500744.46 6679410.649 20.38 25500745.734 6679415.641 20.38 25500745.921 6679419.941 20.38 25500746.043 6679422.745 20.38 25500745.116 6679430.157 20.38 25500743.15 6679434.323 20.38 25500738.412 6679441.427 20.38 25500733.48 6679446.424 20.38 25500728.72 6679449.467 20.38 25500725.782 6679451.345 20.38 25500723.002 6679449.492 20.38 25500716.949 6679450.604 20.38 25500717.381 6679454.125 20.38 25500709.845 6679454.372 20.38 25500704.038 6679453.074 20.38 25500698.047 6679450.357 20.38 25500692.734 6679446.465 20.38 25500688.86 6679442.293 20.38 25500687.916 6679441.276 20.38 25500683.822 6679434.95 20.38 25500683.361 6679433.142 20.38 25500682.342 6679429.152 20.38 25500682.11 6679428.242 20.38 25500681.592 6679422.418 20.38 25500682.419 6679415.703 20.38</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+<gml:interior>
+<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_9e539e15-ab18-4780-a364-0aa151e33b36_2_poly_1_">
+<gml:posList>25500684.464 6679432.78 20.38 25500689.702 6679431.063 20.38 25500688.296 6679427.695 20.38 25500683.467 6679428.876 20.38 25500684.464 6679432.78 20.38</gml:posList>
+</gml:LinearRing>
+</gml:interior>
+<gml:interior>
+<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_9e539e15-ab18-4780-a364-0aa151e33b36_2_poly_2_">
+<gml:posList>25500713.638 6679429.845 20.38 25500717.679 6679428.64 20.38 25500716.692 6679424.774 20.38 25500712.651 6679425.979 20.38 25500713.638 6679429.845 20.38</gml:posList>
+</gml:LinearRing>
+</gml:interior>
+<gml:interior>
+<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_9e539e15-ab18-4780-a364-0aa151e33b36_2_poly_3_">
+<gml:posList>25500722.222 6679446.434 20.38 25500727.618 6679445.154 20.38 25500724.067 6679431.243 20.38 25500718.67 6679432.523 20.38 25500722.222 6679446.434 20.38</gml:posList>
+</gml:LinearRing>
+</gml:interior>
+<gml:interior>
+<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_9e539e15-ab18-4780-a364-0aa151e33b36_2_poly_4_">
+<gml:posList>25500739.247 6679431.897 20.38 25500743.004 6679430.784 20.38 25500740.57 6679421.251 20.38 25500736.767 6679422.181 20.38 25500739.247 6679431.897 20.38</gml:posList>
+</gml:LinearRing>
+</gml:interior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_f80d57f5-af35-4d31-9e7e-95c8a26b28c0_2">
@@ -26372,6 +26521,48 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_e6d2d4f5-1e92-4717-b2ac-6e045bbc3759_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>23.42</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>e6d2d4f5-1e92-4717-b2ac-6e045bbc3759</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>20.07</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>28.13</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>20.07</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>28.13</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_c72d43cd-a833-44b1-8c89-c557ffa0e426" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_e6d2d4f5-1e92-4717-b2ac-6e045bbc3759_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_e6d2d4f5-1e92-4717-b2ac-6e045bbc3759_2_poly_0_">
+<gml:posList>25500707.984 6679407.699 28.13 25500708.602 6679410.118 28.13 25500709.677 6679414.331 28.13 25500706.339 6679415.112 28.13 25500704.653 6679408.508 28.13 25500707.984 6679407.699 28.13</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_b1eda892-c780-4200-99f1-7deca6a198ef_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -27047,6 +27238,48 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_381d9d22-3867-498c-99d3-80d853382e3e_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>528.02</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>381d9d22-3867-498c-99d3-80d853382e3e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>13.62</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>21.68</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>13.62</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>21.68</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_b312552a-a56a-4b7a-8dd3-7c2e5fb3f869" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_381d9d22-3867-498c-99d3-80d853382e3e_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_381d9d22-3867-498c-99d3-80d853382e3e_2_poly_0_">
+<gml:posList>25500679.48 6679420.768 21.68 25500679.763 6679417.762 21.68 25500680.305 6679414.792 21.68 25500681.102 6679411.88 21.68 25500682.149 6679409.048 21.68 25500683.437 6679406.318 21.68 25500684.957 6679403.709 21.68 25500686.698 6679401.242 21.68 25500688.645 6679398.935 21.68 25500690.786 6679396.806 21.68 25500693.103 6679394.87 21.68 25500695.579 6679393.142 21.68 25500698.195 6679391.635 21.68 25500700.932 6679390.361 21.68 25500703.769 6679389.329 21.68 25500706.685 6679388.547 21.68 25500709.658 6679388.02 21.68 25500712.361 6679387.78 21.68 25500712.764 6679389.357 21.68 25500703.973 6679391.986 21.68 25500700.686 6679392.969 21.68 25500693.723 6679396.677 21.68 25500695.228 6679402.574 21.68 25500687.403 6679405.139 21.68 25500683.901 6679410.267 21.68 25500682.419 6679415.703 21.68 25500681.592 6679422.418 21.68 25500682.11 6679428.242 21.68 25500682.342 6679429.152 21.68 25500683.361 6679433.142 21.68 25500683.822 6679434.95 21.68 25500687.916 6679441.276 21.68 25500688.86 6679442.293 21.68 25500692.734 6679446.465 21.68 25500698.047 6679450.357 21.68 25500704.038 6679453.074 21.68 25500709.845 6679454.372 21.68 25500717.381 6679454.125 21.68 25500716.949 6679450.604 21.68 25500723.002 6679449.492 21.68 25500725.782 6679451.345 21.68 25500728.72 6679449.467 21.68 25500733.48 6679446.424 21.68 25500738.412 6679441.427 21.68 25500743.15 6679434.323 21.68 25500745.116 6679430.157 21.68 25500746.043 6679422.745 21.68 25500745.921 6679419.941 21.68 25500745.734 6679415.641 21.68 25500744.46 6679410.649 21.68 25500746.726 6679410.051 21.68 25500747.684 6679412.914 21.68 25500748.391 6679415.85 21.68 25500748.84 6679418.835 21.68 25500749.029 6679421.849 21.68 25500748.956 6679424.867 21.68 25500748.622 6679427.867 21.68 25500748.029 6679430.828 21.68 25500747.181 6679433.726 21.68 25500746.086 6679436.539 21.68 25500744.751 6679439.247 21.68 25500743.186 6679441.829 21.68 25500741.403 6679444.265 21.68 25500739.416 6679446.538 21.68 25500737.239 6679448.63 21.68 25500734.889 6679450.526 21.68 25500734.58 6679450.734 21.68 25500732.383 6679452.211 21.68 25500729.741 6679453.672 21.68 25500726.982 6679454.899 21.68 25500724.128 6679455.881 21.68 25500721.199 6679456.613 21.68 25500718.217 6679457.088 21.68 25500715.205 6679457.303 21.68 25500712.187 6679457.256 21.68 25500709.183 6679456.948 21.68 25500706.218 6679456.381 21.68 25500703.313 6679455.558 21.68 25500700.49 6679454.487 21.68 25500697.771 6679453.175 21.68 25500695.175 6679451.633 21.68 25500692.724 6679449.871 21.68 25500690.434 6679447.903 21.68 25500688.323 6679445.745 21.68 25500686.407 6679443.411 21.68 25500684.701 6679440.92 21.68 25500683.217 6679438.291 21.68 25500681.966 6679435.543 21.68 25500680.959 6679432.697 21.68 25500680.202 6679429.774 21.68 25500679.701 6679426.797 21.68 25500679.46 6679423.787 21.68 25500679.48 6679420.768 21.68</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_93fb22c6-61b5-4510-a6cb-115f3057e4d3_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -27138,6 +27371,36 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_e8bba4d7-9ff3-4e93-be01-1a481a859eb3_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>3386.1</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>e8bba4d7-9ff3-4e93-be01-1a481a859eb3</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>8.06</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_0e36ccd3-d50c-4785-a0a8-e5a574a121ad" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_e8bba4d7-9ff3-4e93-be01-1a481a859eb3_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_e8bba4d7-9ff3-4e93-be01-1a481a859eb3_2_poly_0_">
+<gml:posList>25500748.84 6679418.835 8.06 25500748.391 6679415.85 8.06 25500747.684 6679412.914 8.06 25500746.726 6679410.051 8.06 25500744.46 6679410.649 8.06 25500725.614 6679415.615 8.06 25500725.418 6679415.667 8.06 25500716.536 6679382.2 8.06 25500711.543 6679383.525 8.06 25500712.666 6679387.753 8.06 25500712.361 6679387.78 8.06 25500709.658 6679388.02 8.06 25500706.685 6679388.547 8.06 25500703.769 6679389.329 8.06 25500700.932 6679390.361 8.06 25500698.195 6679391.635 8.06 25500695.579 6679393.142 8.06 25500693.103 6679394.87 8.06 25500690.786 6679396.806 8.06 25500688.645 6679398.935 8.06 25500686.698 6679401.242 8.06 25500684.957 6679403.709 8.06 25500683.437 6679406.318 8.06 25500682.149 6679409.048 8.06 25500681.102 6679411.88 8.06 25500680.305 6679414.792 8.06 25500679.763 6679417.762 8.06 25500679.48 6679420.768 8.06 25500679.46 6679423.787 8.06 25500679.701 6679426.797 8.06 25500680.202 6679429.774 8.06 25500680.959 6679432.697 8.06 25500681.966 6679435.543 8.06 25500683.217 6679438.291 8.06 25500684.701 6679440.92 8.06 25500686.407 6679443.411 8.06 25500688.323 6679445.745 8.06 25500690.434 6679447.903 8.06 25500692.724 6679449.871 8.06 25500695.175 6679451.633 8.06 25500697.771 6679453.175 8.06 25500700.49 6679454.487 8.06 25500703.313 6679455.558 8.06 25500706.218 6679456.381 8.06 25500709.183 6679456.948 8.06 25500712.187 6679457.256 8.06 25500715.205 6679457.303 8.06 25500718.217 6679457.088 8.06 25500721.199 6679456.613 8.06 25500724.128 6679455.881 8.06 25500726.982 6679454.899 8.06 25500729.741 6679453.672 8.06 25500732.383 6679452.211 8.06 25500734.58 6679450.734 8.06 25500734.889 6679450.526 8.06 25500737.239 6679448.63 8.06 25500739.416 6679446.538 8.06 25500741.403 6679444.265 8.06 25500743.186 6679441.829 8.06 25500744.751 6679439.247 8.06 25500746.086 6679436.539 8.06 25500747.181 6679433.726 8.06 25500748.029 6679430.828 8.06 25500748.622 6679427.867 8.06 25500748.956 6679424.867 8.06 25500749.029 6679421.849 8.06 25500748.84 6679418.835 8.06</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_e4fbfee4-3bc1-422b-a09a-98f1704e4f19_2">
@@ -27316,271 +27579,8 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>415.85</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>d1dcb053-06c9-45ff-94a2-1d1aa1f31277</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>15.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>23.08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>15.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>23.08</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_84674a28-8c5d-4c09-943c-b1fc31eb3089" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_0_0_">
-<gml:posList>25500706.339 6679415.112 23.08 25500709.677 6679414.331 23.08 25500708.602 6679410.118 23.08 25500707.984 6679407.699 23.08 25500704.653 6679408.508 23.08 25500700.686 6679392.969 23.08 25500703.973 6679391.986 23.08 25500712.764 6679389.357 23.08 25500720.652 6679420.258 23.08 25500715.9 6679421.671 23.08 25500711.858 6679422.872 23.08 25500710.372 6679417.05 23.08 25500707.088 6679418.047 23.08 25500688.801 6679422.53 23.08 25500688.02 6679419.47 23.08 25500706.339 6679415.112 23.08</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_1_0_">
-<gml:posList>25500688.296 6679427.695 23.14 25500689.702 6679431.063 23.14 25500684.464 6679432.78 23.14 25500683.467 6679428.876 23.14 25500688.296 6679427.695 23.14</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_2_0_">
-<gml:posList>25500716.536 6679382.2 23.46 25500725.418 6679415.667 23.46 25500725.614 6679415.615 23.46 25500727.054 6679421.253 23.46 25500721.339 6679422.948 23.46 25500720.652 6679420.258 23.46 25500712.764 6679389.357 23.46 25500712.361 6679387.78 23.46 25500712.666 6679387.753 23.46 25500711.543 6679383.525 23.46 25500716.536 6679382.2 23.46</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_3_0_">
-<gml:posList>25500716.692 6679424.774 23.14 25500717.679 6679428.64 23.14 25500713.638 6679429.845 23.14 25500712.651 6679425.979 23.14 25500716.692 6679424.774 23.14</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_4">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_4_0_">
-<gml:posList>25500724.067 6679431.243 23.11 25500727.618 6679445.154 23.11 25500722.222 6679446.434 23.11 25500718.67 6679432.523 23.11 25500724.067 6679431.243 23.11</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_5">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_d1dcb053-06c9-45ff-94a2-1d1aa1f31277_2_poly_5_0_">
-<gml:posList>25500740.57 6679421.251 23.21 25500743.004 6679430.784 23.21 25500739.247 6679431.897 23.21 25500736.767 6679422.181 23.21 25500740.57 6679421.251 23.21</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_9e539e15-ab18-4780-a364-0aa151e33b36_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>2035.97</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>9e539e15-ab18-4780-a364-0aa151e33b36</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>12.32</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>20.38</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>12.32</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>20.38</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_92c0087d-8f15-43c7-8612-e919a15430ac" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_9e539e15-ab18-4780-a364-0aa151e33b36_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_9e539e15-ab18-4780-a364-0aa151e33b36_2_poly_0_">
-<gml:posList>25500682.419 6679415.703 20.38 25500683.901 6679410.267 20.38 25500687.403 6679405.139 20.38 25500695.228 6679402.574 20.38 25500693.723 6679396.677 20.38 25500700.686 6679392.969 20.38 25500704.653 6679408.508 20.38 25500706.339 6679415.112 20.38 25500688.02 6679419.47 20.38 25500688.801 6679422.53 20.38 25500707.088 6679418.047 20.38 25500710.372 6679417.05 20.38 25500711.858 6679422.872 20.38 25500715.9 6679421.671 20.38 25500720.652 6679420.258 20.38 25500721.339 6679422.948 20.38 25500727.054 6679421.253 20.38 25500725.614 6679415.615 20.38 25500744.46 6679410.649 20.38 25500745.734 6679415.641 20.38 25500745.921 6679419.941 20.38 25500746.043 6679422.745 20.38 25500745.116 6679430.157 20.38 25500743.15 6679434.323 20.38 25500738.412 6679441.427 20.38 25500733.48 6679446.424 20.38 25500728.72 6679449.467 20.38 25500725.782 6679451.345 20.38 25500723.002 6679449.492 20.38 25500716.949 6679450.604 20.38 25500717.381 6679454.125 20.38 25500709.845 6679454.372 20.38 25500704.038 6679453.074 20.38 25500698.047 6679450.357 20.38 25500692.734 6679446.465 20.38 25500688.86 6679442.293 20.38 25500687.916 6679441.276 20.38 25500683.822 6679434.95 20.38 25500683.361 6679433.142 20.38 25500682.342 6679429.152 20.38 25500682.11 6679428.242 20.38 25500681.592 6679422.418 20.38 25500682.419 6679415.703 20.38</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-<gml:interior>
-<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_9e539e15-ab18-4780-a364-0aa151e33b36_2_poly_1_">
-<gml:posList>25500684.464 6679432.78 20.38 25500689.702 6679431.063 20.38 25500688.296 6679427.695 20.38 25500683.467 6679428.876 20.38 25500684.464 6679432.78 20.38</gml:posList>
-</gml:LinearRing>
-</gml:interior>
-<gml:interior>
-<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_9e539e15-ab18-4780-a364-0aa151e33b36_2_poly_2_">
-<gml:posList>25500713.638 6679429.845 20.38 25500717.679 6679428.64 20.38 25500716.692 6679424.774 20.38 25500712.651 6679425.979 20.38 25500713.638 6679429.845 20.38</gml:posList>
-</gml:LinearRing>
-</gml:interior>
-<gml:interior>
-<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_9e539e15-ab18-4780-a364-0aa151e33b36_2_poly_3_">
-<gml:posList>25500722.222 6679446.434 20.38 25500727.618 6679445.154 20.38 25500724.067 6679431.243 20.38 25500718.67 6679432.523 20.38 25500722.222 6679446.434 20.38</gml:posList>
-</gml:LinearRing>
-</gml:interior>
-<gml:interior>
-<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_9e539e15-ab18-4780-a364-0aa151e33b36_2_poly_4_">
-<gml:posList>25500739.247 6679431.897 20.38 25500743.004 6679430.784 20.38 25500740.57 6679421.251 20.38 25500736.767 6679422.181 20.38 25500739.247 6679431.897 20.38</gml:posList>
-</gml:LinearRing>
-</gml:interior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_e6d2d4f5-1e92-4717-b2ac-6e045bbc3759_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>23.42</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>e6d2d4f5-1e92-4717-b2ac-6e045bbc3759</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>20.07</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>28.13</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>20.07</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>28.13</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_c72d43cd-a833-44b1-8c89-c557ffa0e426" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_e6d2d4f5-1e92-4717-b2ac-6e045bbc3759_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_e6d2d4f5-1e92-4717-b2ac-6e045bbc3759_2_poly_0_">
-<gml:posList>25500707.984 6679407.699 28.13 25500708.602 6679410.118 28.13 25500709.677 6679414.331 28.13 25500706.339 6679415.112 28.13 25500704.653 6679408.508 28.13 25500707.984 6679407.699 28.13</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_381d9d22-3867-498c-99d3-80d853382e3e_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>528.02</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>381d9d22-3867-498c-99d3-80d853382e3e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>13.62</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>21.68</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>13.62</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>21.68</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_b312552a-a56a-4b7a-8dd3-7c2e5fb3f869" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_381d9d22-3867-498c-99d3-80d853382e3e_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_381d9d22-3867-498c-99d3-80d853382e3e_2_poly_0_">
-<gml:posList>25500679.48 6679420.768 21.68 25500679.763 6679417.762 21.68 25500680.305 6679414.792 21.68 25500681.102 6679411.88 21.68 25500682.149 6679409.048 21.68 25500683.437 6679406.318 21.68 25500684.957 6679403.709 21.68 25500686.698 6679401.242 21.68 25500688.645 6679398.935 21.68 25500690.786 6679396.806 21.68 25500693.103 6679394.87 21.68 25500695.579 6679393.142 21.68 25500698.195 6679391.635 21.68 25500700.932 6679390.361 21.68 25500703.769 6679389.329 21.68 25500706.685 6679388.547 21.68 25500709.658 6679388.02 21.68 25500712.361 6679387.78 21.68 25500712.764 6679389.357 21.68 25500703.973 6679391.986 21.68 25500700.686 6679392.969 21.68 25500693.723 6679396.677 21.68 25500695.228 6679402.574 21.68 25500687.403 6679405.139 21.68 25500683.901 6679410.267 21.68 25500682.419 6679415.703 21.68 25500681.592 6679422.418 21.68 25500682.11 6679428.242 21.68 25500682.342 6679429.152 21.68 25500683.361 6679433.142 21.68 25500683.822 6679434.95 21.68 25500687.916 6679441.276 21.68 25500688.86 6679442.293 21.68 25500692.734 6679446.465 21.68 25500698.047 6679450.357 21.68 25500704.038 6679453.074 21.68 25500709.845 6679454.372 21.68 25500717.381 6679454.125 21.68 25500716.949 6679450.604 21.68 25500723.002 6679449.492 21.68 25500725.782 6679451.345 21.68 25500728.72 6679449.467 21.68 25500733.48 6679446.424 21.68 25500738.412 6679441.427 21.68 25500743.15 6679434.323 21.68 25500745.116 6679430.157 21.68 25500746.043 6679422.745 21.68 25500745.921 6679419.941 21.68 25500745.734 6679415.641 21.68 25500744.46 6679410.649 21.68 25500746.726 6679410.051 21.68 25500747.684 6679412.914 21.68 25500748.391 6679415.85 21.68 25500748.84 6679418.835 21.68 25500749.029 6679421.849 21.68 25500748.956 6679424.867 21.68 25500748.622 6679427.867 21.68 25500748.029 6679430.828 21.68 25500747.181 6679433.726 21.68 25500746.086 6679436.539 21.68 25500744.751 6679439.247 21.68 25500743.186 6679441.829 21.68 25500741.403 6679444.265 21.68 25500739.416 6679446.538 21.68 25500737.239 6679448.63 21.68 25500734.889 6679450.526 21.68 25500734.58 6679450.734 21.68 25500732.383 6679452.211 21.68 25500729.741 6679453.672 21.68 25500726.982 6679454.899 21.68 25500724.128 6679455.881 21.68 25500721.199 6679456.613 21.68 25500718.217 6679457.088 21.68 25500715.205 6679457.303 21.68 25500712.187 6679457.256 21.68 25500709.183 6679456.948 21.68 25500706.218 6679456.381 21.68 25500703.313 6679455.558 21.68 25500700.49 6679454.487 21.68 25500697.771 6679453.175 21.68 25500695.175 6679451.633 21.68 25500692.724 6679449.871 21.68 25500690.434 6679447.903 21.68 25500688.323 6679445.745 21.68 25500686.407 6679443.411 21.68 25500684.701 6679440.92 21.68 25500683.217 6679438.291 21.68 25500681.966 6679435.543 21.68 25500680.959 6679432.697 21.68 25500680.202 6679429.774 21.68 25500679.701 6679426.797 21.68 25500679.46 6679423.787 21.68 25500679.48 6679420.768 21.68</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_e8bba4d7-9ff3-4e93-be01-1a481a859eb3_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>3386.1</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>e8bba4d7-9ff3-4e93-be01-1a481a859eb3</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>8.06</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_0e36ccd3-d50c-4785-a0a8-e5a574a121ad" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_e8bba4d7-9ff3-4e93-be01-1a481a859eb3_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_caf54733-dc2b-4d0d-8164-020d8f796cc3_e8bba4d7-9ff3-4e93-be01-1a481a859eb3_2_poly_0_">
-<gml:posList>25500748.84 6679418.835 8.06 25500748.391 6679415.85 8.06 25500747.684 6679412.914 8.06 25500746.726 6679410.051 8.06 25500744.46 6679410.649 8.06 25500725.614 6679415.615 8.06 25500725.418 6679415.667 8.06 25500716.536 6679382.2 8.06 25500711.543 6679383.525 8.06 25500712.666 6679387.753 8.06 25500712.361 6679387.78 8.06 25500709.658 6679388.02 8.06 25500706.685 6679388.547 8.06 25500703.769 6679389.329 8.06 25500700.932 6679390.361 8.06 25500698.195 6679391.635 8.06 25500695.579 6679393.142 8.06 25500693.103 6679394.87 8.06 25500690.786 6679396.806 8.06 25500688.645 6679398.935 8.06 25500686.698 6679401.242 8.06 25500684.957 6679403.709 8.06 25500683.437 6679406.318 8.06 25500682.149 6679409.048 8.06 25500681.102 6679411.88 8.06 25500680.305 6679414.792 8.06 25500679.763 6679417.762 8.06 25500679.48 6679420.768 8.06 25500679.46 6679423.787 8.06 25500679.701 6679426.797 8.06 25500680.202 6679429.774 8.06 25500680.959 6679432.697 8.06 25500681.966 6679435.543 8.06 25500683.217 6679438.291 8.06 25500684.701 6679440.92 8.06 25500686.407 6679443.411 8.06 25500688.323 6679445.745 8.06 25500690.434 6679447.903 8.06 25500692.724 6679449.871 8.06 25500695.175 6679451.633 8.06 25500697.771 6679453.175 8.06 25500700.49 6679454.487 8.06 25500703.313 6679455.558 8.06 25500706.218 6679456.381 8.06 25500709.183 6679456.948 8.06 25500712.187 6679457.256 8.06 25500715.205 6679457.303 8.06 25500718.217 6679457.088 8.06 25500721.199 6679456.613 8.06 25500724.128 6679455.881 8.06 25500726.982 6679454.899 8.06 25500729.741 6679453.672 8.06 25500732.383 6679452.211 8.06 25500734.58 6679450.734 8.06 25500734.889 6679450.526 8.06 25500737.239 6679448.63 8.06 25500739.416 6679446.538 8.06 25500741.403 6679444.265 8.06 25500743.186 6679441.829 8.06 25500744.751 6679439.247 8.06 25500746.086 6679436.539 8.06 25500747.181 6679433.726 8.06 25500748.029 6679430.828 8.06 25500748.622 6679427.867 8.06 25500748.956 6679424.867 8.06 25500749.029 6679421.849 8.06 25500748.84 6679418.835 8.06</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-2d5cef68-ffbd-4489-b657-2e956156e8fb"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-91fdab69-3312-40d0-8e7a-e7b3889ae6c6"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -27591,7 +27591,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-d4d010ca-192c-4369-83da-a0525ccbbea6"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-f176cfcf-02ff-4aaa-a7b9-fc4852383f31"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -27897,7 +27897,7 @@
 </bldg:GroundSurface>
 </bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-f1bf2290-5686-4f21-b3b0-22f40756e9ce"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-221a608e-4222-4392-a7b1-d2194d76013a"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -27908,7 +27908,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-c5cb9108-ca2b-4862-b67c-cc160375a6d3"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-1adc3605-29c9-40c7-bf4c-d9da15711671"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -31144,6 +31144,75 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>46.57</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>ccfa921e-b98a-4471-be4e-4de4e286308e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>12.05</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>16.14</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>12.05</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>16.14</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_14b0fbc0-7796-4a82-b27a-3d66daa22bd7" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_0_0_">
+<gml:posList>25500880.477 6679363.284 16.141 25500884.098 6679368.011 16.141 25500877.522 6679372.655 16.141 25500874.127 6679368.114 16.141 25500880.477 6679363.284 16.141</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_1_0_">
+<gml:posList>25500778.081 6679402.918 16.1 25500786.849 6679400.57 16.1 25500788.451 6679406.632 16.1 25500780.664 6679408.845 16.1 25500779.713 6679405.294 16.1 25500778.748 6679405.485 16.1 25500778.081 6679402.918 16.1</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_2_0_">
+<gml:posList>25500834.128 6679392.609 16.144 25500835.96 6679397.414 16.144 25500828.393 6679400.364 16.144 25500826.566 6679395.557 16.144 25500834.128 6679392.609 16.144</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_3_0_">
+<gml:posList>25500876.362 6679327.039 16.46 25500877.003 6679327.644 16.46 25500869.973 6679338.185 16.46 25500869.323 6679337.551 16.46 25500876.362 6679327.039 16.46</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_07e55de3-e18e-4ca9-a9bf-1ce570d346b4_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -31184,6 +31253,126 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_edba22d8-0d03-4838-ae2b-6e477f8a3c92_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>10.38</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>edba22d8-0d03-4838-ae2b-6e477f8a3c92</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>4.26</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>8.35</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>4.26</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>8.35</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_11c3ed5b-d0bd-40ee-9858-27ca34d87e3b" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_edba22d8-0d03-4838-ae2b-6e477f8a3c92_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_edba22d8-0d03-4838-ae2b-6e477f8a3c92_2_poly_0_">
+<gml:posList>25500875.922 6679318.786 8.35 25500877.236 6679319.989 8.35 25500873.443 6679324.134 8.35 25500872.974 6679323.698 8.35 25500872.895 6679323.778 8.35 25500872.013 6679322.919 8.35 25500875.922 6679318.786 8.35</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>0.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>4f759ec8-3c44-48d5-9d6e-3ea42e588844</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>3.22</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>7.31</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>3.22</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>7.31</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_aade6222-52e9-4027-b66b-f4963b71b187" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_0_0_">
+<gml:posList>25500882.805 6679331.464 7.31 25500883.19 6679331.574 7.31 25500882.857 6679333.07 7.31 25500882.487 6679332.763 7.31 25500882.805 6679331.464 7.31</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_1_0_">
+<gml:posList>25500877.645 6679323.999 7.31 25500877.986 6679324.337 7.31 25500875.999 6679326.508 7.31 25500875.646 6679326.181 7.31 25500877.645 6679323.999 7.31</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_2_0_">
+<gml:posList>25500878.196 6679327.255 7.31 25500878.516 6679327.493 7.31 25500877.978 6679328.424 7.31 25500877.65 6679328.114 7.31 25500878.196 6679327.255 7.31</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_3_0_">
+<gml:posList>25500881.742 6679332.142 7.81 25500882.468 6679332.84 7.81 25500882.487 6679332.763 7.81 25500882.857 6679333.07 7.81 25500879.597 6679347.72 7.81 25500879.216 6679347.36 7.81 25500879.245 6679347.231 7.81 25500878.484 6679346.488 7.81 25500881.742 6679332.142 7.81</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_4">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_4_0_">
+<gml:posList>25500880.499 6679329.39 7.31 25500880.886 6679329.546 7.31 25500880.41 6679330.703 7.31 25500880.069 6679330.354 7.31 25500880.499 6679329.39 7.31</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_0443e62d-d530-42c6-b536-359429612b85_2">
@@ -31246,6 +31435,93 @@
 </bldg:WallSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>52.23</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>bdc50887-42b7-4de0-b544-0be1df022642</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>8.45</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>12.54</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>8.45</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>12.54</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_10167c24-20d8-4360-ad4b-820d5a413e80" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_0_0_">
+<gml:posList>25500884.098 6679368.011 12.544 25500887.972 6679373.069 12.544 25500881.448 6679377.903 12.544 25500877.522 6679372.655 12.544 25500884.098 6679368.011 12.544</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_1_0_">
+<gml:posList>25500835.96 6679397.414 12.57 25500838.387 6679403.778 12.57 25500830.786 6679406.66 12.57 25500828.393 6679400.364 12.57 25500835.96 6679397.414 12.57</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_2_0_">
+<gml:posList>25500878.325 6679328.944 12.08 25500879.296 6679329.831 12.671 25500873.308 6679341.438 12.091 25500873.29 6679341.421 12.08 25500878.325 6679328.944 12.08</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_3_0_">
+<gml:posList>25500879.296 6679329.831 12.671 25500879.314 6679329.847 12.68 25500874.446 6679342.549 12.68 25500873.308 6679341.438 12.091 25500879.296 6679329.831 12.671</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_4">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_4_0_">
+<gml:posList>25500880.653 6679331.096 12.08 25500881.742 6679332.142 12.681 25500877.352 6679345.384 12.087 25500877.339 6679345.371 12.08 25500880.653 6679331.096 12.08</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_5">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_5_0_">
+<gml:posList>25500881.742 6679332.142 12.681 25500878.484 6679346.488 12.68 25500877.352 6679345.384 12.087 25500881.742 6679332.142 12.681</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bec73657-b790-4b65-bf16-a252861a467c_2">
 <creationDate>2019-07-29</creationDate>
 <gen:stringAttribute name="Area">
@@ -31286,6 +31562,228 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_548367b2-5b8a-4f86-93bb-f3e835abca2e_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>17.84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>548367b2-5b8a-4f86-93bb-f3e835abca2e</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>42.44</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>77.58</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>1.94</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>6.04</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>1.33</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>5.43</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_cf182330-c346-4983-9fc7-0cf20f0acebb" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_548367b2-5b8a-4f86-93bb-f3e835abca2e_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_548367b2-5b8a-4f86-93bb-f3e835abca2e_2_poly_0_0_">
+<gml:posList>25500840.85 6679358.738 5.43 25500831.273 6679367.509 5.428 25500830.92 6679367.135 5.541 25500831.532 6679366.559 5.544 25500830.488 6679364.475 6.037 25500840.85 6679358.738 5.43</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_548367b2-5b8a-4f86-93bb-f3e835abca2e_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_548367b2-5b8a-4f86-93bb-f3e835abca2e_2_poly_1_0_">
+<gml:posList>25500839.825 6679356.747 6.077 25500840.7 6679358.226 5.575 25500841.647 6679357.365 5.597 25500841.966 6679357.715 5.457 25500840.85 6679358.738 5.43 25500830.488 6679364.475 6.037 25500830.427 6679364.353 6.077 25500839.825 6679356.747 6.077</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_f3e1d9eb-272d-47a5-8037-6e0bf228907c_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>43.4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>f3e1d9eb-272d-47a5-8037-6e0bf228907c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>14.64</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>18.73</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>14.64</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>18.73</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_c23f7ef5-a888-47ec-be6d-a2ef908df6d9" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_f3e1d9eb-272d-47a5-8037-6e0bf228907c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_f3e1d9eb-272d-47a5-8037-6e0bf228907c_2_poly_0_">
+<gml:posList>25500767.57 6679380.773 18.73 25500773.757 6679403.894 18.73 25500771.994 6679404.348 18.73 25500765.832 6679381.281 18.73 25500767.57 6679380.773 18.73</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>224.46</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>7273cac9-c1e1-490e-8603-405cca4e11b0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>15.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>19.79</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>15.7</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>19.79</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_19911c45-27c6-4266-8be3-64517738234a" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_0_0_">
+<gml:posList>25500873.014 6679323.893 19.79 25500872.895 6679323.778 19.79 25500872.974 6679323.698 19.79 25500873.443 6679324.134 19.79 25500873.382 6679324.2 19.79 25500875.557 6679326.278 19.79 25500875.646 6679326.181 19.79 25500875.999 6679326.508 19.79 25500875.907 6679326.609 19.79 25500876.362 6679327.039 19.79 25500869.323 6679337.551 19.79 25500867.123 6679335.404 19.79 25500862.241 6679339.143 19.79 25500860.001 6679336.24 19.79 25500853.628 6679340.835 19.79 25500850.351 6679336.406 19.79 25500850.51 6679336.285 19.79 25500850.406 6679336.148 19.79 25500856.35 6679331.508 19.79 25500866.318 6679322.309 19.79 25500870.474 6679326.46 19.79 25500873.014 6679323.893 19.79</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_1_0_">
+<gml:posList>25500831.974 6679386.96 19.73 25500834.128 6679392.609 19.73 25500826.566 6679395.557 19.73 25500825.122 6679391.758 19.73 25500824.182 6679392.146 19.73 25500823.379 6679390.25 19.73 25500831.974 6679386.96 19.73</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_2_0_">
+<gml:posList>25500877.067 6679358.831 19.737 25500880.477 6679363.284 19.737 25500874.127 6679368.114 19.737 25500871.885 6679365.117 19.737 25500871.699 6679365.258 19.737 25500870.589 6679363.758 19.737 25500877.067 6679358.831 19.737</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_3_0_">
+<gml:posList>25500798.722 6679363.232 19.79 25500806.278 6679360.281 19.79 25500806.345 6679360.501 19.79 25500807.3 6679360.206 19.79 25500809.212 6679365.388 19.79 25500800.781 6679368.813 19.79 25500801.956 6679371.999 19.79 25500796.057 6679373.662 19.79 25500796.357 6679374.848 19.79 25500786.638 6679380.556 19.79 25500786.333 6679379.401 19.79 25500786.198 6679379.437 19.79 25500785.504 6679376.847 19.79 25500781.705 6679377.864 19.79 25500782.395 6679380.442 19.79 25500781.586 6679380.656 19.79 25500786.849 6679400.57 19.79 25500778.081 6679402.918 19.79 25500769.79 6679370.98 19.79 25500798.722 6679363.232 19.79</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_4">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_4_0_">
+<gml:posList>25500839.825 6679356.747 19.79 25500830.427 6679364.353 19.79 25500828.806 6679361.114 19.79 25500823.464 6679363.782 19.79 25500822.075 6679360.174 19.79 25500813.47 6679363.655 19.79 25500811.513 6679358.573 19.79 25500812.299 6679358.257 19.79 25500812.183 6679357.967 19.79 25500820.006 6679354.801 19.79 25500838.44 6679344.785 19.79 25500845.386 6679339.776 19.79 25500845.529 6679339.972 19.79 25500846.212 6679339.471 19.79 25500849.451 6679343.847 19.79 25500841.819 6679349.351 19.79 25500844.107 6679352.443 19.79 25500839.095 6679355.515 19.79 25500839.825 6679356.747 19.79</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_9b429f6f-3aab-4354-924a-e1876c781ad4_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>225.27</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>9b429f6f-3aab-4354-924a-e1876c781ad4</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>22.94</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>27.03</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>22.94</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>27.03</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_151a1270-c727-492a-abbf-65bfc35be7c7" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_9b429f6f-3aab-4354-924a-e1876c781ad4_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_9b429f6f-3aab-4354-924a-e1876c781ad4_2_poly_0_0_">
+<gml:posList>25500860.001 6679336.24 27.029 25500862.241 6679339.143 27.029 25500862.081 6679339.265 27.029 25500877.067 6679358.831 27.029 25500870.589 6679363.758 27.029 25500853.628 6679340.835 27.029 25500860.001 6679336.24 27.029</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_9b429f6f-3aab-4354-924a-e1876c781ad4_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_9b429f6f-3aab-4354-924a-e1876c781ad4_2_poly_1_0_">
+<gml:posList>25500822.075 6679360.174 27.023 25500823.464 6679363.782 27.023 25500823.187 6679363.92 27.023 25500831.974 6679386.96 27.023 25500823.379 6679390.25 27.023 25500813.47 6679363.655 27.023 25500822.075 6679360.174 27.023</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_3b282309-c534-46c8-b54f-d0686c254d2f_2">
@@ -31337,6 +31835,57 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_43a89111-1025-439f-8c7b-014c915c5eec_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>256.47</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>43a89111-1025-439f-8c7b-014c915c5eec</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>26.73</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>30.83</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>26.73</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>30.83</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_424e9cf4-9e35-4ec2-8085-3337450a8d2c" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_43a89111-1025-439f-8c7b-014c915c5eec_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_43a89111-1025-439f-8c7b-014c915c5eec_2_poly_0_0_">
+<gml:posList>25500849.451 6679343.847 30.826 25500865.809 6679365.956 30.826 25500865.118 6679366.465 30.826 25500865.626 6679367.146 30.826 25500859.124 6679371.999 30.826 25500844.441 6679352.239 30.826 25500844.107 6679352.443 30.826 25500841.819 6679349.351 30.826 25500849.451 6679343.847 30.826</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_43a89111-1025-439f-8c7b-014c915c5eec_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_43a89111-1025-439f-8c7b-014c915c5eec_2_poly_1_0_">
+<gml:posList>25500809.212 6679365.388 30.822 25500819.054 6679390.949 30.822 25500818.178 6679391.272 30.822 25500818.478 6679392.067 30.822 25500810.891 6679394.936 30.822 25500802.111 6679371.955 30.822 25500801.956 6679371.999 30.822 25500800.781 6679368.813 30.822 25500809.212 6679365.388 30.822</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_174aa98b-a138-4915-9947-6dc6267e0923_2">
@@ -31430,6 +31979,258 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_419df2c2-108d-45d3-baf6-89e91fbf539c_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>173.31</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>419df2c2-108d-45d3-baf6-89e91fbf539c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>17.51</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>21.6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>17.51</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>21.6</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_e8054369-de39-4b56-aaa6-3b85d25fb260" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_419df2c2-108d-45d3-baf6-89e91fbf539c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_419df2c2-108d-45d3-baf6-89e91fbf539c_2_poly_0_">
+<gml:posList>25500778.748 6679405.485 21.6 25500778.611 6679405.512 21.6 25500778.919 6679406.724 21.6 25500775.009 6679407.719 21.6 25500773.94 6679403.847 21.6 25500773.757 6679403.894 21.6 25500767.57 6679380.773 21.6 25500767.807 6679380.704 21.6 25500764.945 6679369.927 21.6 25500765.6 6679369.753 21.6 25500766.255 6679369.58 21.6 25500766.91 6679369.407 21.6 25500767.565 6679369.236 21.6 25500768.22 6679369.065 21.6 25500768.876 6679368.895 21.6 25500769.442 6679370.918 21.6 25500769.752 6679370.831 21.6 25500778.748 6679405.485 21.6</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>71.08</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>917f1223-1c8d-41dc-80f2-6b4338255f6d</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>7.89</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>11.98</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>7.89</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>11.98</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_f51335ae-7935-4b8d-ba72-a12f9d17dd50" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_0_0_">
+<gml:posList>25500822.905 6679351.17 11.98 25500828.437 6679348.267 11.98 25500833.851 6679345.147 11.98 25500839.137 6679341.816 11.98 25500844.287 6679338.278 11.98 25500845.386 6679339.776 11.98 25500838.44 6679344.785 11.98 25500820.006 6679354.801 11.98 25500812.183 6679357.967 11.98 25500811.516 6679356.308 11.98 25500817.261 6679353.851 11.98 25500822.905 6679351.17 11.98</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_1_0_">
+<gml:posList>25500788.451 6679406.632 12.3 25500790.061 6679412.723 12.3 25500782.277 6679414.869 12.3 25500780.664 6679408.845 12.3 25500788.451 6679406.632 12.3</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_2_0_">
+<gml:posList>25500785.504 6679376.847 11.65 25500786.198 6679379.437 11.65 25500782.395 6679380.442 11.65 25500781.705 6679377.864 11.65 25500785.504 6679376.847 11.65</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_3">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_3_0_">
+<gml:posList>25500851.972 6679332.477 11.98 25500854.657 6679330.273 11.98 25500857.287 6679328.006 11.98 25500859.862 6679325.676 11.98 25500862.381 6679323.285 11.98 25500864.841 6679320.834 11.98 25500866.318 6679322.309 11.98 25500856.35 6679331.508 11.98 25500850.406 6679336.148 11.98 25500849.236 6679334.615 11.98 25500851.972 6679332.477 11.98</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_4">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_4_0_">
+<gml:posList>25500781.252 6679365.635 11.98 25500785.051 6679364.624 11.98 25500788.847 6679363.606 11.98 25500792.642 6679362.58 11.98 25500794.848 6679361.983 11.98 25500797.044 6679361.352 11.98 25500799.231 6679360.688 11.98 25500801.407 6679359.99 11.98 25500803.572 6679359.258 11.98 25500805.726 6679358.494 11.98 25500806.278 6679360.281 11.98 25500798.722 6679363.232 11.98 25500769.79 6679370.98 11.98 25500769.752 6679370.831 11.98 25500770.411 6679370.647 11.98 25500769.846 6679368.624 11.98 25500773.65 6679367.635 11.98 25500777.452 6679366.638 11.98 25500781.252 6679365.635 11.98</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:GroundSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_544feb01-9cbb-4d7d-9c69-e502548f11b9_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>3563.17</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>544feb01-9cbb-4d7d-9c69-e502548f11b9</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>0.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>4.09</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_28d23160-d0fd-4ddb-8770-6ca9c21fdfa9" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_544feb01-9cbb-4d7d-9c69-e502548f11b9_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_544feb01-9cbb-4d7d-9c69-e502548f11b9_2_poly_0_">
+<gml:posList>25500867.123 6679335.404 4.09 25500870.88 6679339.07 4.09 25500870.557 6679340.214 4.09 25500870.996 6679340.312 4.09 25500871.202 6679339.384 4.09 25500874.96 6679343.051 4.09 25500874.598 6679344.367 4.09 25500875.038 6679344.465 4.09 25500875.282 6679343.365 4.09 25500879.245 6679347.231 4.09 25500878.928 6679348.656 4.09 25500879.367 6679348.754 4.09 25500883.19 6679331.574 4.09 25500882.805 6679331.464 4.09 25500882.468 6679332.84 4.09 25500880.363 6679330.817 4.09 25500880.886 6679329.546 4.09 25500880.499 6679329.39 4.09 25500880.011 6679330.484 4.09 25500877.901 6679328.557 4.09 25500878.516 6679327.493 4.09 25500878.196 6679327.255 4.09 25500877.594 6679328.202 4.09 25500875.907 6679326.609 4.09 25500877.986 6679324.337 4.09 25500877.645 6679323.999 4.09 25500875.557 6679326.278 4.09 25500873.382 6679324.2 4.09 25500877.236 6679319.989 4.09 25500875.922 6679318.786 4.09 25500872.013 6679322.919 4.09 25500873.014 6679323.893 4.09 25500870.474 6679326.46 4.09 25500864.841 6679320.834 4.09 25500862.381 6679323.285 4.09 25500859.862 6679325.676 4.09 25500857.287 6679328.006 4.09 25500854.657 6679330.273 4.09 25500851.972 6679332.477 4.09 25500849.236 6679334.615 4.09 25500850.51 6679336.285 4.09 25500849.686 6679336.913 4.09 25500848.412 6679335.244 4.09 25500847.89 6679335.673 4.09 25500847.359 6679336.091 4.09 25500846.819 6679336.497 4.09 25500846.271 6679336.892 4.09 25500845.714 6679337.275 4.09 25500845.15 6679337.646 4.09 25500846.391 6679339.34 4.09 25500845.529 6679339.972 4.09 25500844.287 6679338.278 4.09 25500839.137 6679341.816 4.09 25500833.851 6679345.147 4.09 25500828.437 6679348.267 4.09 25500822.905 6679351.17 4.09 25500817.261 6679353.851 4.09 25500811.516 6679356.308 4.09 25500812.299 6679358.257 4.09 25500811.308 6679358.655 4.09 25500810.525 6679356.706 4.09 25500809.891 6679356.938 4.09 25500809.259 6679357.176 4.09 25500808.629 6679357.419 4.09 25500808.001 6679357.666 4.09 25500807.375 6679357.92 4.09 25500806.751 6679358.178 4.09 25500807.37 6679360.185 4.09 25500806.345 6679360.501 4.09 25500805.726 6679358.494 4.09 25500803.572 6679359.258 4.09 25500801.407 6679359.99 4.09 25500799.231 6679360.688 4.09 25500797.044 6679361.352 4.09 25500794.848 6679361.983 4.09 25500792.642 6679362.58 4.09 25500788.847 6679363.606 4.09 25500785.051 6679364.624 4.09 25500781.252 6679365.635 4.09 25500777.452 6679366.638 4.09 25500773.65 6679367.635 4.09 25500769.846 6679368.624 4.09 25500770.411 6679370.647 4.09 25500769.442 6679370.918 4.09 25500768.876 6679368.895 4.09 25500768.22 6679369.065 4.09 25500767.565 6679369.236 4.09 25500766.91 6679369.407 4.09 25500766.255 6679369.58 4.09 25500765.6 6679369.753 4.09 25500764.945 6679369.927 4.09 25500767.807 6679380.704 4.09 25500765.832 6679381.281 4.09 25500771.994 6679404.348 4.09 25500773.94 6679403.847 4.09 25500775.009 6679407.719 4.09 25500778.919 6679406.724 4.09 25500778.611 6679405.512 4.09 25500779.713 6679405.294 4.09 25500782.277 6679414.869 4.09 25500790.061 6679412.723 4.09 25500781.586 6679380.656 4.09 25500786.333 6679379.401 4.09 25500787.049 6679382.108 4.09 25500786.219 6679382.536 4.09 25500786.462 6679382.961 4.09 25500798.364 6679376.453 4.09 25500798.096 6679375.965 4.09 25500796.816 6679376.667 4.09 25500796.057 6679373.662 4.09 25500802.111 6679371.955 4.09 25500810.891 6679394.936 4.09 25500818.478 6679392.067 4.09 25500818.178 6679391.272 4.09 25500819.206 6679390.892 4.09 25500820.704 6679394.719 4.09 25500824.488 6679393.263 4.09 25500824.075 6679392.19 4.09 25500825.122 6679391.758 4.09 25500830.786 6679406.66 4.09 25500838.387 6679403.778 4.09 25500823.187 6679363.92 4.09 25500828.806 6679361.114 4.09 25500831.532 6679366.559 4.09 25500830.92 6679367.135 4.09 25500831.273 6679367.509 4.09 25500841.966 6679357.715 4.09 25500841.647 6679357.365 4.09 25500840.7 6679358.226 4.09 25500839.095 6679355.515 4.09 25500844.441 6679352.239 4.09 25500859.124 6679371.999 4.09 25500865.626 6679367.146 4.09 25500865.118 6679366.465 4.09 25500866.028 6679365.795 4.09 25500868.463 6679369.107 4.09 25500871.756 6679366.691 4.09 25500871.058 6679365.739 4.09 25500871.885 6679365.117 4.09 25500881.448 6679377.903 4.09 25500887.972 6679373.069 4.09 25500862.081 6679339.265 4.09 25500867.123 6679335.404 4.09</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:GroundSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_c6115abe-c29d-4541-a801-60fc991d4b3c_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>25.81</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>c6115abe-c29d-4541-a801-60fc991d4b3c</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>2.17</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>6.26</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>2.17</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>6.26</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_94dda7b2-a741-4ec4-adbb-2cf97b57e3de" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_c6115abe-c29d-4541-a801-60fc991d4b3c_2_poly">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_c6115abe-c29d-4541-a801-60fc991d4b3c_2_poly_0_">
+<gml:posList>25500798.364 6679376.453 6.26 25500786.462 6679382.961 6.26 25500786.219 6679382.536 6.26 25500787.049 6679382.108 6.26 25500786.638 6679380.556 6.26 25500796.357 6679374.848 6.26 25500796.816 6679376.667 6.26 25500798.096 6679375.965 6.26 25500798.364 6679376.453 6.26</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_d5dbc008-32f1-4428-8a4c-0e49b4e41dd6_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>40.89</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>d5dbc008-32f1-4428-8a4c-0e49b4e41dd6</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>5.84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>9.93</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>5.84</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>9.93</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_f2eb2ea2-72b4-4fdc-8413-fd06eb688798" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_d5dbc008-32f1-4428-8a4c-0e49b4e41dd6_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_d5dbc008-32f1-4428-8a4c-0e49b4e41dd6_2_poly_0_0_">
+<gml:posList>25500870.557 6679340.214 9.93 25500870.88 6679339.07 9.93 25500869.973 6679338.185 9.93 25500877.003 6679327.644 9.93 25500877.594 6679328.202 9.93 25500877.65 6679328.114 9.93 25500877.978 6679328.424 9.93 25500877.901 6679328.557 9.93 25500878.325 6679328.944 9.93 25500873.29 6679341.421 9.93 25500871.202 6679339.384 9.93 25500870.996 6679340.312 9.93 25500870.557 6679340.214 9.93</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_d5dbc008-32f1-4428-8a4c-0e49b4e41dd6_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_d5dbc008-32f1-4428-8a4c-0e49b4e41dd6_2_poly_1_0_">
+<gml:posList>25500879.216 6679347.36 9.93 25500879.597 6679347.72 9.93 25500879.367 6679348.754 9.93 25500878.928 6679348.656 9.93 25500879.216 6679347.36 9.93</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_d5dbc008-32f1-4428-8a4c-0e49b4e41dd6_2_poly_2">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_d5dbc008-32f1-4428-8a4c-0e49b4e41dd6_2_poly_2_0_">
+<gml:posList>25500874.598 6679344.367 9.93 25500874.96 6679343.051 9.93 25500874.446 6679342.549 9.93 25500879.314 6679329.847 9.93 25500880.011 6679330.484 9.93 25500880.069 6679330.354 9.93 25500880.41 6679330.703 9.93 25500880.363 6679330.817 9.93 25500880.653 6679331.096 9.93 25500877.339 6679345.371 9.93 25500875.282 6679343.365 9.93 25500875.038 6679344.465 9.93 25500874.598 6679344.367 9.93</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_d27190a6-6ce4-4a58-a8ee-c53d549fa59b_2">
@@ -32159,6 +32960,57 @@
 </gml:MultiSurface>
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
+</bldg:boundedBy>
+<bldg:boundedBy>
+<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_fb39221d-8f2f-423f-8870-fd9a86264e14_2">
+<creationDate>2019-07-29</creationDate>
+<gen:stringAttribute name="Area">
+<gen:value>197.21</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="FaceUUID">
+<gen:value>fb39221d-8f2f-423f-8870-fd9a86264e14</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofOrientation">
+<gen:value>-1.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="RoofPitch">
+<gen:value>90.0</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMax">
+<gen:value>28.62</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMaxASL">
+<gen:value>32.71</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMin">
+<gen:value>28.62</gen:value>
+</gen:stringAttribute>
+<gen:stringAttribute name="ZMinASL">
+<gen:value>32.71</gen:value>
+</gen:stringAttribute>
+<bldg:lod2MultiSurface>
+<gml:MultiSurface gml:id="UUID_e20112d3-6b5f-4c36-a859-e8915d9f554f" srsName="EPSG:3879" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_fb39221d-8f2f-423f-8870-fd9a86264e14_2_poly_0">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_fb39221d-8f2f-423f-8870-fd9a86264e14_2_poly_0_0_">
+<gml:posList>25500849.686 6679336.913 32.71 25500850.351 6679336.406 32.71 25500871.699 6679365.258 32.71 25500871.058 6679365.739 32.71 25500871.756 6679366.691 32.71 25500868.463 6679369.107 32.71 25500866.028 6679365.795 32.71 25500865.809 6679365.956 32.71 25500846.212 6679339.471 32.71 25500846.391 6679339.34 32.71 25500845.15 6679337.646 32.71 25500845.714 6679337.275 32.71 25500846.271 6679336.892 32.71 25500846.819 6679336.497 32.71 25500847.359 6679336.091 32.71 25500847.89 6679335.673 32.71 25500848.412 6679335.244 32.71 25500849.686 6679336.913 32.71</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_fb39221d-8f2f-423f-8870-fd9a86264e14_2_poly_1">
+<gml:exterior>
+<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_fb39221d-8f2f-423f-8870-fd9a86264e14_2_poly_1_0_">
+<gml:posList>25500811.308 6679358.655 32.52 25500811.513 6679358.573 32.52 25500813.47 6679363.655 32.52 25500823.379 6679390.25 32.52 25500824.182 6679392.146 32.52 25500824.075 6679392.19 32.52 25500824.488 6679393.263 32.52 25500820.704 6679394.719 32.52 25500819.206 6679390.892 32.52 25500819.054 6679390.949 32.52 25500809.212 6679365.388 32.52 25500807.3 6679360.206 32.52 25500807.37 6679360.185 32.52 25500806.751 6679358.178 32.52 25500807.375 6679357.92 32.52 25500808.001 6679357.666 32.52 25500808.629 6679357.419 32.52 25500809.259 6679357.176 32.52 25500809.891 6679356.938 32.52 25500810.525 6679356.706 32.52 25500811.308 6679358.655 32.52</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</bldg:lod2MultiSurface>
+</bldg:RoofSurface>
 </bldg:boundedBy>
 <bldg:boundedBy>
 <bldg:WallSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_1fa58be0-6842-46ff-90b2-1747d5e97d02_2">
@@ -32937,860 +33789,8 @@
 </bldg:lod2MultiSurface>
 </bldg:WallSurface>
 </bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>46.57</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>ccfa921e-b98a-4471-be4e-4de4e286308e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>12.05</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>16.14</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>12.05</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>16.14</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_14b0fbc0-7796-4a82-b27a-3d66daa22bd7" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_0_0_">
-<gml:posList>25500880.477 6679363.284 16.141 25500884.098 6679368.011 16.141 25500877.522 6679372.655 16.141 25500874.127 6679368.114 16.141 25500880.477 6679363.284 16.141</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_1_0_">
-<gml:posList>25500778.081 6679402.918 16.1 25500786.849 6679400.57 16.1 25500788.451 6679406.632 16.1 25500780.664 6679408.845 16.1 25500779.713 6679405.294 16.1 25500778.748 6679405.485 16.1 25500778.081 6679402.918 16.1</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_2_0_">
-<gml:posList>25500834.128 6679392.609 16.144 25500835.96 6679397.414 16.144 25500828.393 6679400.364 16.144 25500826.566 6679395.557 16.144 25500834.128 6679392.609 16.144</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_ccfa921e-b98a-4471-be4e-4de4e286308e_2_poly_3_0_">
-<gml:posList>25500876.362 6679327.039 16.46 25500877.003 6679327.644 16.46 25500869.973 6679338.185 16.46 25500869.323 6679337.551 16.46 25500876.362 6679327.039 16.46</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_edba22d8-0d03-4838-ae2b-6e477f8a3c92_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>10.38</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>edba22d8-0d03-4838-ae2b-6e477f8a3c92</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>4.26</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>8.35</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>4.26</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>8.35</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_11c3ed5b-d0bd-40ee-9858-27ca34d87e3b" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_edba22d8-0d03-4838-ae2b-6e477f8a3c92_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_edba22d8-0d03-4838-ae2b-6e477f8a3c92_2_poly_0_">
-<gml:posList>25500875.922 6679318.786 8.35 25500877.236 6679319.989 8.35 25500873.443 6679324.134 8.35 25500872.974 6679323.698 8.35 25500872.895 6679323.778 8.35 25500872.013 6679322.919 8.35 25500875.922 6679318.786 8.35</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>0.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>4f759ec8-3c44-48d5-9d6e-3ea42e588844</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>3.22</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>7.31</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>3.22</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>7.31</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_aade6222-52e9-4027-b66b-f4963b71b187" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_0_0_">
-<gml:posList>25500882.805 6679331.464 7.31 25500883.19 6679331.574 7.31 25500882.857 6679333.07 7.31 25500882.487 6679332.763 7.31 25500882.805 6679331.464 7.31</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_1_0_">
-<gml:posList>25500877.645 6679323.999 7.31 25500877.986 6679324.337 7.31 25500875.999 6679326.508 7.31 25500875.646 6679326.181 7.31 25500877.645 6679323.999 7.31</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_2_0_">
-<gml:posList>25500878.196 6679327.255 7.31 25500878.516 6679327.493 7.31 25500877.978 6679328.424 7.31 25500877.65 6679328.114 7.31 25500878.196 6679327.255 7.31</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_3_0_">
-<gml:posList>25500881.742 6679332.142 7.81 25500882.468 6679332.84 7.81 25500882.487 6679332.763 7.81 25500882.857 6679333.07 7.81 25500879.597 6679347.72 7.81 25500879.216 6679347.36 7.81 25500879.245 6679347.231 7.81 25500878.484 6679346.488 7.81 25500881.742 6679332.142 7.81</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_4">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_4f759ec8-3c44-48d5-9d6e-3ea42e588844_2_poly_4_0_">
-<gml:posList>25500880.499 6679329.39 7.31 25500880.886 6679329.546 7.31 25500880.41 6679330.703 7.31 25500880.069 6679330.354 7.31 25500880.499 6679329.39 7.31</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>52.23</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>bdc50887-42b7-4de0-b544-0be1df022642</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>8.45</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>12.54</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>8.45</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>12.54</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_10167c24-20d8-4360-ad4b-820d5a413e80" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_0_0_">
-<gml:posList>25500884.098 6679368.011 12.544 25500887.972 6679373.069 12.544 25500881.448 6679377.903 12.544 25500877.522 6679372.655 12.544 25500884.098 6679368.011 12.544</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_1_0_">
-<gml:posList>25500835.96 6679397.414 12.57 25500838.387 6679403.778 12.57 25500830.786 6679406.66 12.57 25500828.393 6679400.364 12.57 25500835.96 6679397.414 12.57</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_2_0_">
-<gml:posList>25500878.325 6679328.944 12.08 25500879.296 6679329.831 12.671 25500873.308 6679341.438 12.091 25500873.29 6679341.421 12.08 25500878.325 6679328.944 12.08</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_3_0_">
-<gml:posList>25500879.296 6679329.831 12.671 25500879.314 6679329.847 12.68 25500874.446 6679342.549 12.68 25500873.308 6679341.438 12.091 25500879.296 6679329.831 12.671</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_4">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_4_0_">
-<gml:posList>25500880.653 6679331.096 12.08 25500881.742 6679332.142 12.681 25500877.352 6679345.384 12.087 25500877.339 6679345.371 12.08 25500880.653 6679331.096 12.08</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_5">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_bdc50887-42b7-4de0-b544-0be1df022642_2_poly_5_0_">
-<gml:posList>25500881.742 6679332.142 12.681 25500878.484 6679346.488 12.68 25500877.352 6679345.384 12.087 25500881.742 6679332.142 12.681</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_548367b2-5b8a-4f86-93bb-f3e835abca2e_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>17.84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>548367b2-5b8a-4f86-93bb-f3e835abca2e</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>42.44</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>77.58</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>1.94</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>6.04</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>1.33</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>5.43</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_cf182330-c346-4983-9fc7-0cf20f0acebb" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_548367b2-5b8a-4f86-93bb-f3e835abca2e_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_548367b2-5b8a-4f86-93bb-f3e835abca2e_2_poly_0_0_">
-<gml:posList>25500840.85 6679358.738 5.43 25500831.273 6679367.509 5.428 25500830.92 6679367.135 5.541 25500831.532 6679366.559 5.544 25500830.488 6679364.475 6.037 25500840.85 6679358.738 5.43</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_548367b2-5b8a-4f86-93bb-f3e835abca2e_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_548367b2-5b8a-4f86-93bb-f3e835abca2e_2_poly_1_0_">
-<gml:posList>25500839.825 6679356.747 6.077 25500840.7 6679358.226 5.575 25500841.647 6679357.365 5.597 25500841.966 6679357.715 5.457 25500840.85 6679358.738 5.43 25500830.488 6679364.475 6.037 25500830.427 6679364.353 6.077 25500839.825 6679356.747 6.077</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_f3e1d9eb-272d-47a5-8037-6e0bf228907c_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>43.4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>f3e1d9eb-272d-47a5-8037-6e0bf228907c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>14.64</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>18.73</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>14.64</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>18.73</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_c23f7ef5-a888-47ec-be6d-a2ef908df6d9" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_f3e1d9eb-272d-47a5-8037-6e0bf228907c_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_f3e1d9eb-272d-47a5-8037-6e0bf228907c_2_poly_0_">
-<gml:posList>25500767.57 6679380.773 18.73 25500773.757 6679403.894 18.73 25500771.994 6679404.348 18.73 25500765.832 6679381.281 18.73 25500767.57 6679380.773 18.73</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>224.46</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>7273cac9-c1e1-490e-8603-405cca4e11b0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>15.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>19.79</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>15.7</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>19.79</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_19911c45-27c6-4266-8be3-64517738234a" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_0_0_">
-<gml:posList>25500873.014 6679323.893 19.79 25500872.895 6679323.778 19.79 25500872.974 6679323.698 19.79 25500873.443 6679324.134 19.79 25500873.382 6679324.2 19.79 25500875.557 6679326.278 19.79 25500875.646 6679326.181 19.79 25500875.999 6679326.508 19.79 25500875.907 6679326.609 19.79 25500876.362 6679327.039 19.79 25500869.323 6679337.551 19.79 25500867.123 6679335.404 19.79 25500862.241 6679339.143 19.79 25500860.001 6679336.24 19.79 25500853.628 6679340.835 19.79 25500850.351 6679336.406 19.79 25500850.51 6679336.285 19.79 25500850.406 6679336.148 19.79 25500856.35 6679331.508 19.79 25500866.318 6679322.309 19.79 25500870.474 6679326.46 19.79 25500873.014 6679323.893 19.79</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_1_0_">
-<gml:posList>25500831.974 6679386.96 19.73 25500834.128 6679392.609 19.73 25500826.566 6679395.557 19.73 25500825.122 6679391.758 19.73 25500824.182 6679392.146 19.73 25500823.379 6679390.25 19.73 25500831.974 6679386.96 19.73</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_2_0_">
-<gml:posList>25500877.067 6679358.831 19.737 25500880.477 6679363.284 19.737 25500874.127 6679368.114 19.737 25500871.885 6679365.117 19.737 25500871.699 6679365.258 19.737 25500870.589 6679363.758 19.737 25500877.067 6679358.831 19.737</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_3_0_">
-<gml:posList>25500798.722 6679363.232 19.79 25500806.278 6679360.281 19.79 25500806.345 6679360.501 19.79 25500807.3 6679360.206 19.79 25500809.212 6679365.388 19.79 25500800.781 6679368.813 19.79 25500801.956 6679371.999 19.79 25500796.057 6679373.662 19.79 25500796.357 6679374.848 19.79 25500786.638 6679380.556 19.79 25500786.333 6679379.401 19.79 25500786.198 6679379.437 19.79 25500785.504 6679376.847 19.79 25500781.705 6679377.864 19.79 25500782.395 6679380.442 19.79 25500781.586 6679380.656 19.79 25500786.849 6679400.57 19.79 25500778.081 6679402.918 19.79 25500769.79 6679370.98 19.79 25500798.722 6679363.232 19.79</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_4">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_7273cac9-c1e1-490e-8603-405cca4e11b0_2_poly_4_0_">
-<gml:posList>25500839.825 6679356.747 19.79 25500830.427 6679364.353 19.79 25500828.806 6679361.114 19.79 25500823.464 6679363.782 19.79 25500822.075 6679360.174 19.79 25500813.47 6679363.655 19.79 25500811.513 6679358.573 19.79 25500812.299 6679358.257 19.79 25500812.183 6679357.967 19.79 25500820.006 6679354.801 19.79 25500838.44 6679344.785 19.79 25500845.386 6679339.776 19.79 25500845.529 6679339.972 19.79 25500846.212 6679339.471 19.79 25500849.451 6679343.847 19.79 25500841.819 6679349.351 19.79 25500844.107 6679352.443 19.79 25500839.095 6679355.515 19.79 25500839.825 6679356.747 19.79</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_9b429f6f-3aab-4354-924a-e1876c781ad4_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>225.27</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>9b429f6f-3aab-4354-924a-e1876c781ad4</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>22.94</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>27.03</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>22.94</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>27.03</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_151a1270-c727-492a-abbf-65bfc35be7c7" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_9b429f6f-3aab-4354-924a-e1876c781ad4_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_9b429f6f-3aab-4354-924a-e1876c781ad4_2_poly_0_0_">
-<gml:posList>25500860.001 6679336.24 27.029 25500862.241 6679339.143 27.029 25500862.081 6679339.265 27.029 25500877.067 6679358.831 27.029 25500870.589 6679363.758 27.029 25500853.628 6679340.835 27.029 25500860.001 6679336.24 27.029</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_9b429f6f-3aab-4354-924a-e1876c781ad4_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_9b429f6f-3aab-4354-924a-e1876c781ad4_2_poly_1_0_">
-<gml:posList>25500822.075 6679360.174 27.023 25500823.464 6679363.782 27.023 25500823.187 6679363.92 27.023 25500831.974 6679386.96 27.023 25500823.379 6679390.25 27.023 25500813.47 6679363.655 27.023 25500822.075 6679360.174 27.023</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_43a89111-1025-439f-8c7b-014c915c5eec_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>256.47</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>43a89111-1025-439f-8c7b-014c915c5eec</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>26.73</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>30.83</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>26.73</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>30.83</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_424e9cf4-9e35-4ec2-8085-3337450a8d2c" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_43a89111-1025-439f-8c7b-014c915c5eec_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_43a89111-1025-439f-8c7b-014c915c5eec_2_poly_0_0_">
-<gml:posList>25500849.451 6679343.847 30.826 25500865.809 6679365.956 30.826 25500865.118 6679366.465 30.826 25500865.626 6679367.146 30.826 25500859.124 6679371.999 30.826 25500844.441 6679352.239 30.826 25500844.107 6679352.443 30.826 25500841.819 6679349.351 30.826 25500849.451 6679343.847 30.826</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_43a89111-1025-439f-8c7b-014c915c5eec_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_43a89111-1025-439f-8c7b-014c915c5eec_2_poly_1_0_">
-<gml:posList>25500809.212 6679365.388 30.822 25500819.054 6679390.949 30.822 25500818.178 6679391.272 30.822 25500818.478 6679392.067 30.822 25500810.891 6679394.936 30.822 25500802.111 6679371.955 30.822 25500801.956 6679371.999 30.822 25500800.781 6679368.813 30.822 25500809.212 6679365.388 30.822</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_419df2c2-108d-45d3-baf6-89e91fbf539c_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>173.31</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>419df2c2-108d-45d3-baf6-89e91fbf539c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>17.51</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>21.6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>17.51</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>21.6</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e8054369-de39-4b56-aaa6-3b85d25fb260" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_419df2c2-108d-45d3-baf6-89e91fbf539c_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_419df2c2-108d-45d3-baf6-89e91fbf539c_2_poly_0_">
-<gml:posList>25500778.748 6679405.485 21.6 25500778.611 6679405.512 21.6 25500778.919 6679406.724 21.6 25500775.009 6679407.719 21.6 25500773.94 6679403.847 21.6 25500773.757 6679403.894 21.6 25500767.57 6679380.773 21.6 25500767.807 6679380.704 21.6 25500764.945 6679369.927 21.6 25500765.6 6679369.753 21.6 25500766.255 6679369.58 21.6 25500766.91 6679369.407 21.6 25500767.565 6679369.236 21.6 25500768.22 6679369.065 21.6 25500768.876 6679368.895 21.6 25500769.442 6679370.918 21.6 25500769.752 6679370.831 21.6 25500778.748 6679405.485 21.6</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>71.08</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>917f1223-1c8d-41dc-80f2-6b4338255f6d</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>7.89</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>11.98</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>7.89</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>11.98</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_f51335ae-7935-4b8d-ba72-a12f9d17dd50" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_0_0_">
-<gml:posList>25500822.905 6679351.17 11.98 25500828.437 6679348.267 11.98 25500833.851 6679345.147 11.98 25500839.137 6679341.816 11.98 25500844.287 6679338.278 11.98 25500845.386 6679339.776 11.98 25500838.44 6679344.785 11.98 25500820.006 6679354.801 11.98 25500812.183 6679357.967 11.98 25500811.516 6679356.308 11.98 25500817.261 6679353.851 11.98 25500822.905 6679351.17 11.98</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_1_0_">
-<gml:posList>25500788.451 6679406.632 12.3 25500790.061 6679412.723 12.3 25500782.277 6679414.869 12.3 25500780.664 6679408.845 12.3 25500788.451 6679406.632 12.3</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_2_0_">
-<gml:posList>25500785.504 6679376.847 11.65 25500786.198 6679379.437 11.65 25500782.395 6679380.442 11.65 25500781.705 6679377.864 11.65 25500785.504 6679376.847 11.65</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_3">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_3_0_">
-<gml:posList>25500851.972 6679332.477 11.98 25500854.657 6679330.273 11.98 25500857.287 6679328.006 11.98 25500859.862 6679325.676 11.98 25500862.381 6679323.285 11.98 25500864.841 6679320.834 11.98 25500866.318 6679322.309 11.98 25500856.35 6679331.508 11.98 25500850.406 6679336.148 11.98 25500849.236 6679334.615 11.98 25500851.972 6679332.477 11.98</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_4">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_917f1223-1c8d-41dc-80f2-6b4338255f6d_2_poly_4_0_">
-<gml:posList>25500781.252 6679365.635 11.98 25500785.051 6679364.624 11.98 25500788.847 6679363.606 11.98 25500792.642 6679362.58 11.98 25500794.848 6679361.983 11.98 25500797.044 6679361.352 11.98 25500799.231 6679360.688 11.98 25500801.407 6679359.99 11.98 25500803.572 6679359.258 11.98 25500805.726 6679358.494 11.98 25500806.278 6679360.281 11.98 25500798.722 6679363.232 11.98 25500769.79 6679370.98 11.98 25500769.752 6679370.831 11.98 25500770.411 6679370.647 11.98 25500769.846 6679368.624 11.98 25500773.65 6679367.635 11.98 25500777.452 6679366.638 11.98 25500781.252 6679365.635 11.98</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_c6115abe-c29d-4541-a801-60fc991d4b3c_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>25.81</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>c6115abe-c29d-4541-a801-60fc991d4b3c</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>2.17</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>6.26</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>2.17</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>6.26</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_94dda7b2-a741-4ec4-adbb-2cf97b57e3de" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_c6115abe-c29d-4541-a801-60fc991d4b3c_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_c6115abe-c29d-4541-a801-60fc991d4b3c_2_poly_0_">
-<gml:posList>25500798.364 6679376.453 6.26 25500786.462 6679382.961 6.26 25500786.219 6679382.536 6.26 25500787.049 6679382.108 6.26 25500786.638 6679380.556 6.26 25500796.357 6679374.848 6.26 25500796.816 6679376.667 6.26 25500798.096 6679375.965 6.26 25500798.364 6679376.453 6.26</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_d5dbc008-32f1-4428-8a4c-0e49b4e41dd6_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>40.89</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>d5dbc008-32f1-4428-8a4c-0e49b4e41dd6</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>5.84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>9.93</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>5.84</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>9.93</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_f2eb2ea2-72b4-4fdc-8413-fd06eb688798" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_d5dbc008-32f1-4428-8a4c-0e49b4e41dd6_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_d5dbc008-32f1-4428-8a4c-0e49b4e41dd6_2_poly_0_0_">
-<gml:posList>25500870.557 6679340.214 9.93 25500870.88 6679339.07 9.93 25500869.973 6679338.185 9.93 25500877.003 6679327.644 9.93 25500877.594 6679328.202 9.93 25500877.65 6679328.114 9.93 25500877.978 6679328.424 9.93 25500877.901 6679328.557 9.93 25500878.325 6679328.944 9.93 25500873.29 6679341.421 9.93 25500871.202 6679339.384 9.93 25500870.996 6679340.312 9.93 25500870.557 6679340.214 9.93</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_d5dbc008-32f1-4428-8a4c-0e49b4e41dd6_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_d5dbc008-32f1-4428-8a4c-0e49b4e41dd6_2_poly_1_0_">
-<gml:posList>25500879.216 6679347.36 9.93 25500879.597 6679347.72 9.93 25500879.367 6679348.754 9.93 25500878.928 6679348.656 9.93 25500879.216 6679347.36 9.93</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_d5dbc008-32f1-4428-8a4c-0e49b4e41dd6_2_poly_2">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_d5dbc008-32f1-4428-8a4c-0e49b4e41dd6_2_poly_2_0_">
-<gml:posList>25500874.598 6679344.367 9.93 25500874.96 6679343.051 9.93 25500874.446 6679342.549 9.93 25500879.314 6679329.847 9.93 25500880.011 6679330.484 9.93 25500880.069 6679330.354 9.93 25500880.41 6679330.703 9.93 25500880.363 6679330.817 9.93 25500880.653 6679331.096 9.93 25500877.339 6679345.371 9.93 25500875.282 6679343.365 9.93 25500875.038 6679344.465 9.93 25500874.598 6679344.367 9.93</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:RoofSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_fb39221d-8f2f-423f-8870-fd9a86264e14_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>197.21</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>fb39221d-8f2f-423f-8870-fd9a86264e14</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofOrientation">
-<gen:value>-1.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="RoofPitch">
-<gen:value>90.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMax">
-<gen:value>28.62</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMaxASL">
-<gen:value>32.71</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>28.62</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>32.71</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_e20112d3-6b5f-4c36-a859-e8915d9f554f" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_fb39221d-8f2f-423f-8870-fd9a86264e14_2_poly_0">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_fb39221d-8f2f-423f-8870-fd9a86264e14_2_poly_0_0_">
-<gml:posList>25500849.686 6679336.913 32.71 25500850.351 6679336.406 32.71 25500871.699 6679365.258 32.71 25500871.058 6679365.739 32.71 25500871.756 6679366.691 32.71 25500868.463 6679369.107 32.71 25500866.028 6679365.795 32.71 25500865.809 6679365.956 32.71 25500846.212 6679339.471 32.71 25500846.391 6679339.34 32.71 25500845.15 6679337.646 32.71 25500845.714 6679337.275 32.71 25500846.271 6679336.892 32.71 25500846.819 6679336.497 32.71 25500847.359 6679336.091 32.71 25500847.89 6679335.673 32.71 25500848.412 6679335.244 32.71 25500849.686 6679336.913 32.71</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_fb39221d-8f2f-423f-8870-fd9a86264e14_2_poly_1">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_fb39221d-8f2f-423f-8870-fd9a86264e14_2_poly_1_0_">
-<gml:posList>25500811.308 6679358.655 32.52 25500811.513 6679358.573 32.52 25500813.47 6679363.655 32.52 25500823.379 6679390.25 32.52 25500824.182 6679392.146 32.52 25500824.075 6679392.19 32.52 25500824.488 6679393.263 32.52 25500820.704 6679394.719 32.52 25500819.206 6679390.892 32.52 25500819.054 6679390.949 32.52 25500809.212 6679365.388 32.52 25500807.3 6679360.206 32.52 25500807.37 6679360.185 32.52 25500806.751 6679358.178 32.52 25500807.375 6679357.92 32.52 25500808.001 6679357.666 32.52 25500808.629 6679357.419 32.52 25500809.259 6679357.176 32.52 25500809.891 6679356.938 32.52 25500810.525 6679356.706 32.52 25500811.308 6679358.655 32.52</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:RoofSurface>
-</bldg:boundedBy>
-<bldg:boundedBy>
-<bldg:GroundSurface gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_544feb01-9cbb-4d7d-9c69-e502548f11b9_2">
-<creationDate>2019-07-29</creationDate>
-<gen:stringAttribute name="Area">
-<gen:value>3563.17</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="FaceUUID">
-<gen:value>544feb01-9cbb-4d7d-9c69-e502548f11b9</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMin">
-<gen:value>0.0</gen:value>
-</gen:stringAttribute>
-<gen:stringAttribute name="ZMinASL">
-<gen:value>4.09</gen:value>
-</gen:stringAttribute>
-<bldg:lod2MultiSurface>
-<gml:MultiSurface gml:id="UUID_28d23160-d0fd-4ddb-8770-6ca9c21fdfa9" srsName="EPSG:3879" srsDimension="3">
-<gml:surfaceMember>
-<gml:Polygon gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_544feb01-9cbb-4d7d-9c69-e502548f11b9_2_poly">
-<gml:exterior>
-<gml:LinearRing gml:id="BID_e9badde1-0425-4336-99ac-6859c7704f4e_544feb01-9cbb-4d7d-9c69-e502548f11b9_2_poly_0_">
-<gml:posList>25500867.123 6679335.404 4.09 25500870.88 6679339.07 4.09 25500870.557 6679340.214 4.09 25500870.996 6679340.312 4.09 25500871.202 6679339.384 4.09 25500874.96 6679343.051 4.09 25500874.598 6679344.367 4.09 25500875.038 6679344.465 4.09 25500875.282 6679343.365 4.09 25500879.245 6679347.231 4.09 25500878.928 6679348.656 4.09 25500879.367 6679348.754 4.09 25500883.19 6679331.574 4.09 25500882.805 6679331.464 4.09 25500882.468 6679332.84 4.09 25500880.363 6679330.817 4.09 25500880.886 6679329.546 4.09 25500880.499 6679329.39 4.09 25500880.011 6679330.484 4.09 25500877.901 6679328.557 4.09 25500878.516 6679327.493 4.09 25500878.196 6679327.255 4.09 25500877.594 6679328.202 4.09 25500875.907 6679326.609 4.09 25500877.986 6679324.337 4.09 25500877.645 6679323.999 4.09 25500875.557 6679326.278 4.09 25500873.382 6679324.2 4.09 25500877.236 6679319.989 4.09 25500875.922 6679318.786 4.09 25500872.013 6679322.919 4.09 25500873.014 6679323.893 4.09 25500870.474 6679326.46 4.09 25500864.841 6679320.834 4.09 25500862.381 6679323.285 4.09 25500859.862 6679325.676 4.09 25500857.287 6679328.006 4.09 25500854.657 6679330.273 4.09 25500851.972 6679332.477 4.09 25500849.236 6679334.615 4.09 25500850.51 6679336.285 4.09 25500849.686 6679336.913 4.09 25500848.412 6679335.244 4.09 25500847.89 6679335.673 4.09 25500847.359 6679336.091 4.09 25500846.819 6679336.497 4.09 25500846.271 6679336.892 4.09 25500845.714 6679337.275 4.09 25500845.15 6679337.646 4.09 25500846.391 6679339.34 4.09 25500845.529 6679339.972 4.09 25500844.287 6679338.278 4.09 25500839.137 6679341.816 4.09 25500833.851 6679345.147 4.09 25500828.437 6679348.267 4.09 25500822.905 6679351.17 4.09 25500817.261 6679353.851 4.09 25500811.516 6679356.308 4.09 25500812.299 6679358.257 4.09 25500811.308 6679358.655 4.09 25500810.525 6679356.706 4.09 25500809.891 6679356.938 4.09 25500809.259 6679357.176 4.09 25500808.629 6679357.419 4.09 25500808.001 6679357.666 4.09 25500807.375 6679357.92 4.09 25500806.751 6679358.178 4.09 25500807.37 6679360.185 4.09 25500806.345 6679360.501 4.09 25500805.726 6679358.494 4.09 25500803.572 6679359.258 4.09 25500801.407 6679359.99 4.09 25500799.231 6679360.688 4.09 25500797.044 6679361.352 4.09 25500794.848 6679361.983 4.09 25500792.642 6679362.58 4.09 25500788.847 6679363.606 4.09 25500785.051 6679364.624 4.09 25500781.252 6679365.635 4.09 25500777.452 6679366.638 4.09 25500773.65 6679367.635 4.09 25500769.846 6679368.624 4.09 25500770.411 6679370.647 4.09 25500769.442 6679370.918 4.09 25500768.876 6679368.895 4.09 25500768.22 6679369.065 4.09 25500767.565 6679369.236 4.09 25500766.91 6679369.407 4.09 25500766.255 6679369.58 4.09 25500765.6 6679369.753 4.09 25500764.945 6679369.927 4.09 25500767.807 6679380.704 4.09 25500765.832 6679381.281 4.09 25500771.994 6679404.348 4.09 25500773.94 6679403.847 4.09 25500775.009 6679407.719 4.09 25500778.919 6679406.724 4.09 25500778.611 6679405.512 4.09 25500779.713 6679405.294 4.09 25500782.277 6679414.869 4.09 25500790.061 6679412.723 4.09 25500781.586 6679380.656 4.09 25500786.333 6679379.401 4.09 25500787.049 6679382.108 4.09 25500786.219 6679382.536 4.09 25500786.462 6679382.961 4.09 25500798.364 6679376.453 4.09 25500798.096 6679375.965 4.09 25500796.816 6679376.667 4.09 25500796.057 6679373.662 4.09 25500802.111 6679371.955 4.09 25500810.891 6679394.936 4.09 25500818.478 6679392.067 4.09 25500818.178 6679391.272 4.09 25500819.206 6679390.892 4.09 25500820.704 6679394.719 4.09 25500824.488 6679393.263 4.09 25500824.075 6679392.19 4.09 25500825.122 6679391.758 4.09 25500830.786 6679406.66 4.09 25500838.387 6679403.778 4.09 25500823.187 6679363.92 4.09 25500828.806 6679361.114 4.09 25500831.532 6679366.559 4.09 25500830.92 6679367.135 4.09 25500831.273 6679367.509 4.09 25500841.966 6679357.715 4.09 25500841.647 6679357.365 4.09 25500840.7 6679358.226 4.09 25500839.095 6679355.515 4.09 25500844.441 6679352.239 4.09 25500859.124 6679371.999 4.09 25500865.626 6679367.146 4.09 25500865.118 6679366.465 4.09 25500866.028 6679365.795 4.09 25500868.463 6679369.107 4.09 25500871.756 6679366.691 4.09 25500871.058 6679365.739 4.09 25500871.885 6679365.117 4.09 25500881.448 6679377.903 4.09 25500887.972 6679373.069 4.09 25500862.081 6679339.265 4.09 25500867.123 6679335.404 4.09</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-</gml:Polygon>
-</gml:surfaceMember>
-</gml:MultiSurface>
-</bldg:lod2MultiSurface>
-</bldg:GroundSurface>
-</bldg:boundedBy>
 <bldg:address>
-<Address gml:id="fme-gen-1ee2a8f5-08e7-4f77-afb2-90ec593bff90"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-4c166c66-e987-4b4c-a8bf-280ee75c11d6"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -33801,7 +33801,7 @@
 </Address>
 </bldg:address>
 <bldg:address>
-<Address gml:id="fme-gen-7bf9763b-ae94-41b8-8b40-fc9aa31b03e1"><xalAddress><xAL:AddressDetails>
+<Address gml:id="fme-gen-62e94fc2-c380-411c-9328-c9a6544dc4b1"><xalAddress><xAL:AddressDetails>
               <xAL:Country>
                 <xAL:CountryName>Finland</xAL:CountryName>
                 <xAL:Locality Type="Town">
@@ -33818,583 +33818,8390 @@
 </bldg:Building>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_3f957efa-a477-490a-94f0-41f65589542f">
-<sensorasset:sensor xlink:href="SensorID_1e245f52-4ffe-443c-a9ac-effa29913a00"/>
-</sensorasset:TimeseriesTVP>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c4f3ce38-dc70-4eff-a52c-51352f506095">
+<sensorasset:time>20210412171546.431</sensorasset:time>
+<sensorasset:value>37</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0830f72-a0f1-4c0f-b66a-77ba81641d54"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6f469446-4d3c-4ec9-97b7-08d98d1990dd">
+<sensorasset:time>20210412172558.073</sensorasset:time>
+<sensorasset:value>37</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0830f72-a0f1-4c0f-b66a-77ba81641d54"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d14c9d97-1f7d-4cba-a24b-526a2c34faa0">
+<sensorasset:time>20210412173609.329</sensorasset:time>
+<sensorasset:value>37</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0830f72-a0f1-4c0f-b66a-77ba81641d54"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3b8d00c8-e3d5-45a1-9803-94e2be4dbd3c">
+<sensorasset:time>20210412174620.75</sensorasset:time>
+<sensorasset:value>37</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0830f72-a0f1-4c0f-b66a-77ba81641d54"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_da54c079-4e03-4592-b75b-1dff046c6b9f">
+<sensorasset:time>20210412175632.203</sensorasset:time>
+<sensorasset:value>37</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0830f72-a0f1-4c0f-b66a-77ba81641d54"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f14f8b03-1386-4fc1-a83b-55f485860fa9">
+<sensorasset:time>20210412180643.84</sensorasset:time>
+<sensorasset:value>37</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0830f72-a0f1-4c0f-b66a-77ba81641d54"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f5c38f9f-18fa-405c-8fed-beae22ba2b1d">
+<sensorasset:time>20210412181655.468</sensorasset:time>
+<sensorasset:value>37</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0830f72-a0f1-4c0f-b66a-77ba81641d54"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e4355bf6-106a-44b7-b55b-03f94397f68e">
+<sensorasset:time>20210412182706.825</sensorasset:time>
+<sensorasset:value>37</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0830f72-a0f1-4c0f-b66a-77ba81641d54"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_76ddce37-14cd-49fa-8322-6667e1a0aeff">
+<sensorasset:time>20210412183718.181</sensorasset:time>
+<sensorasset:value>37</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0830f72-a0f1-4c0f-b66a-77ba81641d54"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_96c89ece-cff3-4d33-ac0b-ca39c45edd65">
+<sensorasset:time>20210412184729.455</sensorasset:time>
+<sensorasset:value>37</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0830f72-a0f1-4c0f-b66a-77ba81641d54"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fc7aff98-a519-46b8-ab6f-7df1f9675937">
+<sensorasset:time>20210412185740.256</sensorasset:time>
+<sensorasset:value>37</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0830f72-a0f1-4c0f-b66a-77ba81641d54"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_26322d78-4642-47d3-ba55-d6f0add522e8">
+<sensorasset:time>20210412190751.307</sensorasset:time>
+<sensorasset:value>37</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0830f72-a0f1-4c0f-b66a-77ba81641d54"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_736c5d15-c0c5-45c3-871d-1d3a0b812378">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>15033.46</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_27934738-0e28-46a6-a034-d2abd046827e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_547ff5f2-8b14-4d11-aee3-28929cdb65bf">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>15033.48</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_27934738-0e28-46a6-a034-d2abd046827e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d6a13c33-c8fd-48a3-ab9b-874d9714c945">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>15033.48</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_27934738-0e28-46a6-a034-d2abd046827e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e9d3fa29-128c-4bcc-a38c-097ce35be890">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>15033.48</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_27934738-0e28-46a6-a034-d2abd046827e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e8078aae-cbde-4436-821e-e187b6038c5f">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>15033.48</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_27934738-0e28-46a6-a034-d2abd046827e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_465ff251-43e3-4a07-a2dd-9ada1d51611e">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>15033.48</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_27934738-0e28-46a6-a034-d2abd046827e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c1d6001a-cbff-44f7-9652-207e712cad41">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>15033.48</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_27934738-0e28-46a6-a034-d2abd046827e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_840a26cd-e07f-40dc-a6eb-5d98e9976c22">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>15033.48</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_27934738-0e28-46a6-a034-d2abd046827e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ae9df538-588b-40fd-abfe-d05b792cbd5b">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>15033.48</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_27934738-0e28-46a6-a034-d2abd046827e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_066d1fd8-3712-424e-b0f3-ad12923bfb36">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>15033.48</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_27934738-0e28-46a6-a034-d2abd046827e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_44dd7101-27df-494b-a306-806d30c3dc13">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>15033.48</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_27934738-0e28-46a6-a034-d2abd046827e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_45478f70-c4c2-4233-8e34-3c57dfc509f0">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>15033.48</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_27934738-0e28-46a6-a034-d2abd046827e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_5b851ce9-75ce-4e2f-b363-f9ab81ba36b1">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>233.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_081223fa-8d31-4f95-bb1a-488d1a621af8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_35b1246d-cb40-4719-83de-e0ecdcd1a21d">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>233.1</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_081223fa-8d31-4f95-bb1a-488d1a621af8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_da08b984-db6e-4b9e-ad06-711c77329c45">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>233.21</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_081223fa-8d31-4f95-bb1a-488d1a621af8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c4147b04-10de-4ef8-bd15-afdf7654f860">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>232.89</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_081223fa-8d31-4f95-bb1a-488d1a621af8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3040eec4-d5de-4d0b-85ca-9bcc47f4c59a">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>232.75</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_081223fa-8d31-4f95-bb1a-488d1a621af8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_41188ad4-794b-4c4d-8f5c-e3ec6e90305f">
+<sensorasset:time>20210412180635.337</sensorasset:time>
+<sensorasset:value>232.79</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_081223fa-8d31-4f95-bb1a-488d1a621af8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d0975bb0-e965-4fe5-a6be-78bd456e7936">
+<sensorasset:time>20210412181647.051</sensorasset:time>
+<sensorasset:value>233.6</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_081223fa-8d31-4f95-bb1a-488d1a621af8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_47eb749f-9d0f-4db4-b0f7-3c976cfdcb55">
+<sensorasset:time>20210412182658.367</sensorasset:time>
+<sensorasset:value>233.84</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_081223fa-8d31-4f95-bb1a-488d1a621af8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_539b974a-6cfc-43a8-aded-07f65d5dfd84">
+<sensorasset:time>20210412183709.852</sensorasset:time>
+<sensorasset:value>234.3</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_081223fa-8d31-4f95-bb1a-488d1a621af8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_727f6946-2169-482f-91f1-1c5526e6d919">
+<sensorasset:time>20210412184721.094</sensorasset:time>
+<sensorasset:value>234.09</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_081223fa-8d31-4f95-bb1a-488d1a621af8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_589cc803-d881-4ee9-a913-f406b7b79ca3">
+<sensorasset:time>20210412185732.361</sensorasset:time>
+<sensorasset:value>234.3</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_081223fa-8d31-4f95-bb1a-488d1a621af8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1900f7c6-0184-48a5-8601-07385f2a81e8">
+<sensorasset:time>20210412190743.21</sensorasset:time>
+<sensorasset:value>233.92</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_081223fa-8d31-4f95-bb1a-488d1a621af8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c40de5c9-ccdd-43d3-817e-2b0e6a1a04d2">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>232.79</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f646a9d3-b732-4568-967d-442faa0c2e4d"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_42282349-0725-487f-8b8f-c1195c3bd1a4">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>232.65</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f646a9d3-b732-4568-967d-442faa0c2e4d"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4d16e57a-991e-4938-97ea-4162921bbc35">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>232.68</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f646a9d3-b732-4568-967d-442faa0c2e4d"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_460eb9ba-96e1-477f-98d2-0f0aa9247c6c">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>232.58</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f646a9d3-b732-4568-967d-442faa0c2e4d"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8bef5437-da75-405d-9d3f-b6b033d86b07">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>232.36</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f646a9d3-b732-4568-967d-442faa0c2e4d"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_45939f76-9cfe-4710-8805-78c7139f9fb8">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>232.43</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f646a9d3-b732-4568-967d-442faa0c2e4d"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b3e1bd0d-aabb-468c-ad65-e4c9c1794d3d">
+<sensorasset:time>20210412181648.709</sensorasset:time>
+<sensorasset:value>233.25</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f646a9d3-b732-4568-967d-442faa0c2e4d"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_082afd5d-e030-4730-8403-7483f9d19831">
+<sensorasset:time>20210412182659.991</sensorasset:time>
+<sensorasset:value>233.42</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f646a9d3-b732-4568-967d-442faa0c2e4d"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_386f61fd-e036-4fff-bd89-a1b75ed50b6f">
+<sensorasset:time>20210412183711.474</sensorasset:time>
+<sensorasset:value>233.95</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f646a9d3-b732-4568-967d-442faa0c2e4d"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_12948994-f673-4c2c-af54-b9d9830c7480">
+<sensorasset:time>20210412184722.56</sensorasset:time>
+<sensorasset:value>233.77</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f646a9d3-b732-4568-967d-442faa0c2e4d"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4cf7ded1-1dd3-4ff3-93d6-7030c5b29cd8">
+<sensorasset:time>20210412185733.815</sensorasset:time>
+<sensorasset:value>233.88</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f646a9d3-b732-4568-967d-442faa0c2e4d"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d2a71c06-be16-4992-8523-5ee7e18f22bd">
+<sensorasset:time>20210412190744.672</sensorasset:time>
+<sensorasset:value>233.49</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f646a9d3-b732-4568-967d-442faa0c2e4d"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0b952bbb-323f-4b93-8c70-907e3b1d1835">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>233.77</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3c4e6979-bf5f-4c8a-9f5f-9cf3c8f168aa"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_320fc972-6528-49e0-9fe3-a53cc1f8e2aa">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>233.99</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3c4e6979-bf5f-4c8a-9f5f-9cf3c8f168aa"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_247450bc-0977-49a7-97db-325a14caa44d">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>233.6</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3c4e6979-bf5f-4c8a-9f5f-9cf3c8f168aa"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_45080506-406e-4495-83d5-d465a57ca2ee">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>233.28</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3c4e6979-bf5f-4c8a-9f5f-9cf3c8f168aa"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4ab1d22f-1a82-4271-9357-3670504980d4">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>232.96</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3c4e6979-bf5f-4c8a-9f5f-9cf3c8f168aa"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_48cb43d4-8c8a-4288-80f3-728d26701506">
+<sensorasset:time>20210412180635.337</sensorasset:time>
+<sensorasset:value>233.39</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3c4e6979-bf5f-4c8a-9f5f-9cf3c8f168aa"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a014c27e-3698-427b-88e0-11ba1c6106b7">
+<sensorasset:time>20210412181647.051</sensorasset:time>
+<sensorasset:value>234.16</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3c4e6979-bf5f-4c8a-9f5f-9cf3c8f168aa"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f4e6fc54-2881-4f26-88e2-ae2cff86d5da">
+<sensorasset:time>20210412182658.367</sensorasset:time>
+<sensorasset:value>234.23</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3c4e6979-bf5f-4c8a-9f5f-9cf3c8f168aa"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d7f07de6-621c-4e29-b11f-44b5ff1ba2c8">
+<sensorasset:time>20210412183709.852</sensorasset:time>
+<sensorasset:value>234.69</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3c4e6979-bf5f-4c8a-9f5f-9cf3c8f168aa"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6241590c-5fc2-4920-a61e-11f75a75b824">
+<sensorasset:time>20210412184721.094</sensorasset:time>
+<sensorasset:value>235.01</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3c4e6979-bf5f-4c8a-9f5f-9cf3c8f168aa"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_beb96a1c-5a00-413f-b0d4-896b973dbbcc">
+<sensorasset:time>20210412185732.361</sensorasset:time>
+<sensorasset:value>234.73</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3c4e6979-bf5f-4c8a-9f5f-9cf3c8f168aa"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8e949d08-926f-45f8-92f2-ce038fdd6d51">
+<sensorasset:time>20210412190743.21</sensorasset:time>
+<sensorasset:value>234.55</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3c4e6979-bf5f-4c8a-9f5f-9cf3c8f168aa"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_899b0fe8-ed55-4df0-8727-9acfc3209434">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>233.46</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2e621ccf-5575-405c-acce-0557b3aa3ab9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_62a4cd6e-65f0-4461-840a-40615e72d36c">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>233.56</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2e621ccf-5575-405c-acce-0557b3aa3ab9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b075b049-1a02-4c69-8ab9-8bf54fe1b377">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>233.14</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2e621ccf-5575-405c-acce-0557b3aa3ab9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c6bdffd2-e44a-4212-af04-de38298bb80b">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>233.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2e621ccf-5575-405c-acce-0557b3aa3ab9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b451a7cc-5367-48f7-8b21-65d3c4f2570c">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>232.65</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2e621ccf-5575-405c-acce-0557b3aa3ab9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a990b59d-9388-4e4a-8fd3-f0d8b6260207">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>233.17</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2e621ccf-5575-405c-acce-0557b3aa3ab9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d7aba031-c586-45e3-be47-36c923f8c8ef">
+<sensorasset:time>20210412181648.709</sensorasset:time>
+<sensorasset:value>233.88</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2e621ccf-5575-405c-acce-0557b3aa3ab9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f71b65f3-85e6-4960-9ea0-f2568e17d7e5">
+<sensorasset:time>20210412182659.991</sensorasset:time>
+<sensorasset:value>233.95</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2e621ccf-5575-405c-acce-0557b3aa3ab9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4b976b3f-2dab-4683-929d-db0c6cbe26dd">
+<sensorasset:time>20210412183711.474</sensorasset:time>
+<sensorasset:value>234.41</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2e621ccf-5575-405c-acce-0557b3aa3ab9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_890c9771-8080-483a-ac3f-416fc95105be">
+<sensorasset:time>20210412184722.56</sensorasset:time>
+<sensorasset:value>234.8</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2e621ccf-5575-405c-acce-0557b3aa3ab9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_334c2aaa-2c00-43bb-af43-af5d92e9ed65">
+<sensorasset:time>20210412185733.815</sensorasset:time>
+<sensorasset:value>234.41</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2e621ccf-5575-405c-acce-0557b3aa3ab9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_21d5b8a1-8dd7-41ff-bb44-0bc5fd741fa1">
+<sensorasset:time>20210412190744.672</sensorasset:time>
+<sensorasset:value>234.23</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2e621ccf-5575-405c-acce-0557b3aa3ab9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3544953d-fc2b-4efd-89db-84822d8d4edc">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>232.54</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_dfa223f1-8e91-4bfa-b876-5963b4bf10cb"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0985d68a-a096-4f1b-8659-3cd5bb3db094">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>232.15</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_dfa223f1-8e91-4bfa-b876-5963b4bf10cb"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d584b9c4-7c3a-48d3-be53-e4067ed94389">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>232.19</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_dfa223f1-8e91-4bfa-b876-5963b4bf10cb"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c9929bb1-b618-4def-8060-80e542aaed42">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>231.91</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_dfa223f1-8e91-4bfa-b876-5963b4bf10cb"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_dc36ceb5-b01f-49cd-99dc-a82020b5de71">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>231.62</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_dfa223f1-8e91-4bfa-b876-5963b4bf10cb"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_9642c93d-e731-4117-8f85-d48e69141c45">
+<sensorasset:time>20210412181648.709</sensorasset:time>
+<sensorasset:value>232.65</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_dfa223f1-8e91-4bfa-b876-5963b4bf10cb"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b9f75253-0379-484c-b082-7340d20ebaa6">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>232.12</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_dfa223f1-8e91-4bfa-b876-5963b4bf10cb"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1c44ff57-ab78-41e4-9f11-ca16fdf84021">
+<sensorasset:time>20210412182659.991</sensorasset:time>
+<sensorasset:value>232.82</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_dfa223f1-8e91-4bfa-b876-5963b4bf10cb"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0a32249e-1a00-4d76-98c2-6851f88c4f11">
+<sensorasset:time>20210412183711.474</sensorasset:time>
+<sensorasset:value>233.14</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_dfa223f1-8e91-4bfa-b876-5963b4bf10cb"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7a17504a-bb1a-43e7-a3b3-c601c14a8406">
+<sensorasset:time>20210412184722.56</sensorasset:time>
+<sensorasset:value>233.56</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_dfa223f1-8e91-4bfa-b876-5963b4bf10cb"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bb0bca59-0c26-49dd-b40c-a03e780b48fa">
+<sensorasset:time>20210412185733.815</sensorasset:time>
+<sensorasset:value>233.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_dfa223f1-8e91-4bfa-b876-5963b4bf10cb"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6abda4e2-1184-4f0f-9ff4-fcf70114db68">
+<sensorasset:time>20210412190744.672</sensorasset:time>
+<sensorasset:value>233.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_dfa223f1-8e91-4bfa-b876-5963b4bf10cb"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1d8899f8-0dd6-4ea7-bde5-74902364e0a1">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_84bf7add-5406-4990-bbe4-eeb547ba589b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b140d907-ccd8-4587-af3d-9b2d8af540bd">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_84bf7add-5406-4990-bbe4-eeb547ba589b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_de7696f1-1f1e-4768-a29e-e3fb0d5e1211">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_84bf7add-5406-4990-bbe4-eeb547ba589b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_367be2c1-afc9-4a69-b781-923107ec6c3e">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_84bf7add-5406-4990-bbe4-eeb547ba589b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a31ad556-2f72-4213-815a-2ff67e90e29d">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_84bf7add-5406-4990-bbe4-eeb547ba589b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fb4cd070-ead5-4a17-9b8c-fce2f39105bc">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_84bf7add-5406-4990-bbe4-eeb547ba589b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a2a9144e-7aa7-4a3a-9f23-eaaa1e5e80d7">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_abc70d6a-09c2-4894-98a9-d9a91f15a715"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e15939cd-0c97-4646-9047-55c0ea713362">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_abc70d6a-09c2-4894-98a9-d9a91f15a715"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0ab3fdb3-ea15-4acf-adc4-9eaee6e20eab">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_abc70d6a-09c2-4894-98a9-d9a91f15a715"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_93d3ae63-5fad-4c2a-9cde-5fbd6a91d4fd">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_abc70d6a-09c2-4894-98a9-d9a91f15a715"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e36a3715-98ba-4317-b520-1a66aa3df1c4">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_abc70d6a-09c2-4894-98a9-d9a91f15a715"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3a6fc9ed-ad9e-4b07-9223-281ceedbbed8">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_abc70d6a-09c2-4894-98a9-d9a91f15a715"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4755b5b1-8f99-4612-9d6d-a0be056b1125">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_539b71fd-2364-478e-b918-f75f861c6fda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_04b5712e-6e86-41b7-8fa1-62493d183f67">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_539b71fd-2364-478e-b918-f75f861c6fda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_502c5bc9-0215-456e-8fc1-713fcc8393bf">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_539b71fd-2364-478e-b918-f75f861c6fda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e8703dcb-1a4c-44bf-83ad-578213b11452">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_539b71fd-2364-478e-b918-f75f861c6fda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4f3afb86-32e5-4d98-a8fa-0ee24b9a4571">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_539b71fd-2364-478e-b918-f75f861c6fda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c137b51d-cee1-4216-b5c0-da0f27848104">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_539b71fd-2364-478e-b918-f75f861c6fda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2d217162-029e-417f-b50c-531b64bdd0c5">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>370.45</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae70d652-0274-4718-a2fd-2c655d69aa1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_44bdc9ac-4e3b-429e-a18d-e8842bb1c254">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>348.8</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae70d652-0274-4718-a2fd-2c655d69aa1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1ce19280-6723-49db-913b-d32f54c42586">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>300.75</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae70d652-0274-4718-a2fd-2c655d69aa1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_233e8337-6b70-447d-be42-48f8f0493969">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>244.63</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae70d652-0274-4718-a2fd-2c655d69aa1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c0a3005a-811a-41b4-aa97-f84ca90475ee">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>180.16</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae70d652-0274-4718-a2fd-2c655d69aa1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8fdf78a8-3831-483f-9c81-8d81502ef996">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>149.31</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae70d652-0274-4718-a2fd-2c655d69aa1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f3b05d7b-0ec2-470e-b73a-99e5bc18a6b7">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>139.08</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae70d652-0274-4718-a2fd-2c655d69aa1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e75eafba-9a91-4023-aba7-e51b72803aaa">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>137.1</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae70d652-0274-4718-a2fd-2c655d69aa1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_67806499-4d93-4de5-9473-f1c2df86134f">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>136.86</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae70d652-0274-4718-a2fd-2c655d69aa1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d314cd6a-0444-41cd-ae6f-3fb9eebfc7c9">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>137.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae70d652-0274-4718-a2fd-2c655d69aa1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_9e3de57e-cde8-4aa5-a757-9f8a4a2f311d">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>138.23</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae70d652-0274-4718-a2fd-2c655d69aa1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e5e50c11-a7cd-4157-b2f9-1f09c71ade76">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>136.56</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae70d652-0274-4718-a2fd-2c655d69aa1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_eccde637-4786-494c-bd25-cce428e4a14c">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>355.22</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fc5e0370-a3a3-42ef-a1f2-0dcbd56ce496"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f47d7571-2e49-4d40-985f-03420d8d6f5d">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>119.38</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fc5e0370-a3a3-42ef-a1f2-0dcbd56ce496"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_55ae478c-886a-4303-959d-2554afae238e">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>119.21</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fc5e0370-a3a3-42ef-a1f2-0dcbd56ce496"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_53b95c7d-e071-4a2f-bf04-a5c3aec97ced">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>119.1</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fc5e0370-a3a3-42ef-a1f2-0dcbd56ce496"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_40504d5c-02fc-48f6-a8fa-c339a1d74c2f">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>119.2</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fc5e0370-a3a3-42ef-a1f2-0dcbd56ce496"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f9d4f21b-662e-48ec-9fe0-7eca32653657">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>50.43</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fc5e0370-a3a3-42ef-a1f2-0dcbd56ce496"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_71191b56-8320-4410-b648-84372a0dec6a">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>27.28</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fc5e0370-a3a3-42ef-a1f2-0dcbd56ce496"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8359bad8-1003-459d-a02b-b1a7918d6cee">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>20.3</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fc5e0370-a3a3-42ef-a1f2-0dcbd56ce496"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_587974bb-68f9-45cd-9b7a-a0ac6c39c0f5">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>21.94</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fc5e0370-a3a3-42ef-a1f2-0dcbd56ce496"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0cbe60de-7f60-430e-92ba-707841bd9a67">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>20.11</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fc5e0370-a3a3-42ef-a1f2-0dcbd56ce496"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fc48483d-2740-4f93-86c7-6dfe6b7c4acf">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>21.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fc5e0370-a3a3-42ef-a1f2-0dcbd56ce496"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4c78f8e9-a536-4fbd-a236-195661f2ae13">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>20.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fc5e0370-a3a3-42ef-a1f2-0dcbd56ce496"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e082989e-9a74-4453-af28-fd787d6fd4d4">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>284.17</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9fe6f2cd-f53e-4c1f-b036-a071d93136ea"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e991dbd1-b9c5-4a52-9bf4-a52e2d791fbf">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>277.39</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9fe6f2cd-f53e-4c1f-b036-a071d93136ea"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f8330ac2-8b4b-4afe-8ae2-ce65f8d7001a">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>250.79</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9fe6f2cd-f53e-4c1f-b036-a071d93136ea"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c78c1342-32d6-4f30-9a14-37ba19654724">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>195.79</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9fe6f2cd-f53e-4c1f-b036-a071d93136ea"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a43104f8-6fc2-4510-8bd9-2c421d4e260d">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>127.52</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9fe6f2cd-f53e-4c1f-b036-a071d93136ea"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d1396ded-5335-40af-877f-bf386dd5147c">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>60.3</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9fe6f2cd-f53e-4c1f-b036-a071d93136ea"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_17eecf93-9ba0-4b02-a93f-5151ab182ecb">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>35.21</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9fe6f2cd-f53e-4c1f-b036-a071d93136ea"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8f0829cf-2f4c-49c9-8947-2f5b5ee1e075">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>29.16</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9fe6f2cd-f53e-4c1f-b036-a071d93136ea"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e79e536a-8cd6-4305-88fe-d7bda681dc3c">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>27.17</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9fe6f2cd-f53e-4c1f-b036-a071d93136ea"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e74e9b98-5fef-4898-a343-2e2bd186f1fb">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>26.96</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9fe6f2cd-f53e-4c1f-b036-a071d93136ea"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a5ed1fb3-3007-4dcc-bdc6-56ba32d4100c">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>28.91</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9fe6f2cd-f53e-4c1f-b036-a071d93136ea"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4e7ff99c-b2c1-423c-9515-f41b814db7cb">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>26.9</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9fe6f2cd-f53e-4c1f-b036-a071d93136ea"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c8b05427-24df-4f02-81d0-cc0a8242036b">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fbad3eca-c056-4165-bfcb-d5aeee12d638"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3b768c94-c096-450e-9b3c-fc913e8c2719">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fbad3eca-c056-4165-bfcb-d5aeee12d638"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_855a319a-3b7b-4939-beb2-b27d713671d8">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fbad3eca-c056-4165-bfcb-d5aeee12d638"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a8437c93-f44c-4601-b7bc-89f4d7659961">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fbad3eca-c056-4165-bfcb-d5aeee12d638"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_604a8e3e-82cf-4882-90f5-654d9816ab76">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fbad3eca-c056-4165-bfcb-d5aeee12d638"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ffad620e-942a-4d80-90fc-ac08ae8908a2">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fbad3eca-c056-4165-bfcb-d5aeee12d638"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3a1179d7-a231-4f77-a3c4-13aa2c7afe7c">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fbad3eca-c056-4165-bfcb-d5aeee12d638"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4a767ba3-95cf-442a-9731-7f4f751f6ab5">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fbad3eca-c056-4165-bfcb-d5aeee12d638"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_42bbf91f-198d-449b-a4ac-b380b7ff0a61">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fbad3eca-c056-4165-bfcb-d5aeee12d638"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b1a10496-c27a-4756-ac7a-7ecc9d6851c3">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fbad3eca-c056-4165-bfcb-d5aeee12d638"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d0a65d31-8d07-4c8f-aa61-8c66f433bc7c">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fbad3eca-c056-4165-bfcb-d5aeee12d638"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1171cf42-8d3b-4e3d-aec9-b84ce9dabae6">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fbad3eca-c056-4165-bfcb-d5aeee12d638"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ae0fa1ef-c74a-4d57-b1a4-f213f2258860">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_05c5af88-3193-4692-84c8-5f1d87485394"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_55b461fa-9a72-41e1-b42a-10c74a2611ee">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>0.08</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_05c5af88-3193-4692-84c8-5f1d87485394"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c2b48323-c81b-4855-931f-6191e0055991">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_05c5af88-3193-4692-84c8-5f1d87485394"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d3831c21-7cb0-4ef0-b24e-97102d3833e2">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_05c5af88-3193-4692-84c8-5f1d87485394"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_02166a44-9e99-4eed-90dd-b70f6ee37125">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_05c5af88-3193-4692-84c8-5f1d87485394"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_adf1383d-07aa-4f6c-88e7-e81c58bc12a6">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_05c5af88-3193-4692-84c8-5f1d87485394"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_5c880c68-ce24-4ab1-8e0b-9e7526a17bed">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_05c5af88-3193-4692-84c8-5f1d87485394"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_31a589c5-27c6-4527-89b5-32d2f4892f10">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_05c5af88-3193-4692-84c8-5f1d87485394"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_dc1ac175-a7e6-4a24-92fb-4e3e157fc33b">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_05c5af88-3193-4692-84c8-5f1d87485394"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_092771ba-c2d6-4f1f-84e3-db3468c61405">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_05c5af88-3193-4692-84c8-5f1d87485394"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_31fe6428-48d1-4303-aa9f-d405456a775c">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_05c5af88-3193-4692-84c8-5f1d87485394"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_db23b2e8-bf65-448f-9d33-ff98f86bb612">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_05c5af88-3193-4692-84c8-5f1d87485394"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1d9d918c-9bdb-46f0-b10e-7a71d234e5b0">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2745d485-521b-4bda-8911-d2fa1bedba09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ae5286d0-c776-4848-80db-0261512b2c9f">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2745d485-521b-4bda-8911-d2fa1bedba09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7aed9877-98e0-4b00-b766-05e9eecae459">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2745d485-521b-4bda-8911-d2fa1bedba09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c1969a18-0c7e-4552-a3b8-323623728bf0">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2745d485-521b-4bda-8911-d2fa1bedba09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4cc58cc7-eead-412e-88e5-a0dc891c48c4">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2745d485-521b-4bda-8911-d2fa1bedba09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_16042431-3483-4b6e-9bd3-aa86df3860bd">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2745d485-521b-4bda-8911-d2fa1bedba09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0642e3f9-64cb-463c-a9c9-f31963468c3b">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2745d485-521b-4bda-8911-d2fa1bedba09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b22c7866-8b0d-4af1-ad86-d418aa953c9e">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2745d485-521b-4bda-8911-d2fa1bedba09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_34e915be-b763-46e0-b956-4f7bccb666bf">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2745d485-521b-4bda-8911-d2fa1bedba09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e7833c07-7af4-4482-80ba-2a971d23da6c">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2745d485-521b-4bda-8911-d2fa1bedba09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2487a44f-7ed7-4976-b171-f5860b06eb25">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2745d485-521b-4bda-8911-d2fa1bedba09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_69e00a98-b388-4075-a081-d99a5eed610a">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2745d485-521b-4bda-8911-d2fa1bedba09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bb9422e3-6f0d-445f-a5a3-e08483841eb5">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>26.34</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_51001c7b-4008-4c66-8f52-908d5272620e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1ffdf049-fc13-4815-856e-b9a898c8f14c">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>23.77</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_51001c7b-4008-4c66-8f52-908d5272620e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7496a0a4-072c-4b85-bc34-e482c6975452">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>20.53</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_51001c7b-4008-4c66-8f52-908d5272620e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d19e7585-bd29-45b4-9e2a-c84578b0f5b1">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>16.55</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_51001c7b-4008-4c66-8f52-908d5272620e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_abc6072b-c445-4eee-a62c-b5666a085827">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>12.28</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_51001c7b-4008-4c66-8f52-908d5272620e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7d0d9c56-049c-4348-a62d-4c8b5c708e17">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>9.96</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_51001c7b-4008-4c66-8f52-908d5272620e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_70fa490a-3d8f-4fcf-a8ac-16f30f877b6b">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>9.51</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_51001c7b-4008-4c66-8f52-908d5272620e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_88577c32-58ef-4a59-9d81-0acabe406b72">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>9.01</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_51001c7b-4008-4c66-8f52-908d5272620e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d71168ef-ea30-4da4-a36c-1a9429fad64c">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>9.27</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_51001c7b-4008-4c66-8f52-908d5272620e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6451b7fe-6357-41e5-a57f-0dd5d47b5c10">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>8.81</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_51001c7b-4008-4c66-8f52-908d5272620e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f8ea3fd0-8bf6-48f6-bc99-3c682c6bf3af">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>9.15</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_51001c7b-4008-4c66-8f52-908d5272620e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_160f6027-02f5-46dc-829f-91c6f9182c81">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>8.81</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_51001c7b-4008-4c66-8f52-908d5272620e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c873451b-cb35-4590-bf89-f3ef225cff23">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>27.09</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3991c33e-2292-429d-bcd5-d1ff1926e8cf"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bc8c34f1-e8ef-4bcc-8538-de550bf08e36">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>8.94</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3991c33e-2292-429d-bcd5-d1ff1926e8cf"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_eedbf630-352d-4fde-bebe-6e585e8207b9">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>7.41</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3991c33e-2292-429d-bcd5-d1ff1926e8cf"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_dcb0c6e0-90fb-4176-83d7-aa356d7fdb42">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>6.52</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3991c33e-2292-429d-bcd5-d1ff1926e8cf"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_9ebae60a-708b-48fc-97a8-375fb849f385">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>6.36</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3991c33e-2292-429d-bcd5-d1ff1926e8cf"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_336b7ae5-0781-4910-9cbf-43b05aaba53e">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>1.6</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3991c33e-2292-429d-bcd5-d1ff1926e8cf"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ca4e39e8-7580-4546-822c-6561e6e3819e">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>0.83</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3991c33e-2292-429d-bcd5-d1ff1926e8cf"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3b016d77-dfac-4640-8a49-1b22d3fcdb4e">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>0.57</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3991c33e-2292-429d-bcd5-d1ff1926e8cf"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4a349fbb-f1f1-47d1-84ba-4cac59132d12">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>0.57</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3991c33e-2292-429d-bcd5-d1ff1926e8cf"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b0a678f1-7fbb-4fb3-90b0-d8736f69f349">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>0.49</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3991c33e-2292-429d-bcd5-d1ff1926e8cf"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d808538b-e968-4503-a873-5fcb2fbcb9d4">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>0.57</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3991c33e-2292-429d-bcd5-d1ff1926e8cf"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2a3ac257-ef0e-4d8b-beca-b0742db684e6">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>0.57</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3991c33e-2292-429d-bcd5-d1ff1926e8cf"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_42f28e2a-1a36-4608-82fb-0daf466b07de">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>21.72</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9030173c-d1a5-4b00-9525-1cd4ec8b08c5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_24ef62e5-8602-4164-8053-473d5a7c31c7">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>17.19</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9030173c-d1a5-4b00-9525-1cd4ec8b08c5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e2490cc7-4369-4695-885c-0f17f5e1e316">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>13.75</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9030173c-d1a5-4b00-9525-1cd4ec8b08c5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c1f59076-93ea-4509-a8c3-af8324c32702">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>10.82</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9030173c-d1a5-4b00-9525-1cd4ec8b08c5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4570a9c0-0dab-4b36-818e-24c4335df5d7">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>7.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9030173c-d1a5-4b00-9525-1cd4ec8b08c5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7572d7fc-12b5-476d-afbe-d09b03e5cef6">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>2.41</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9030173c-d1a5-4b00-9525-1cd4ec8b08c5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_de2bca19-9bc4-406d-ab13-e43dc3499d18">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>1.38</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9030173c-d1a5-4b00-9525-1cd4ec8b08c5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6c8a9616-8919-4cd8-b13b-86d1db58d8cd">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>1.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9030173c-d1a5-4b00-9525-1cd4ec8b08c5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8f863080-c140-4339-b1c1-5e54bea12650">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>1.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9030173c-d1a5-4b00-9525-1cd4ec8b08c5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c251a7bb-7e59-4992-ac15-69fdcdbf77b1">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>0.92</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9030173c-d1a5-4b00-9525-1cd4ec8b08c5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_9f7f4d19-60ee-4555-89af-bb840c0a8186">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>1.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9030173c-d1a5-4b00-9525-1cd4ec8b08c5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6efbe007-d555-4124-99f2-7e150f8d6ebe">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>0.94</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9030173c-d1a5-4b00-9525-1cd4ec8b08c5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a5e7275e-44d9-4072-856c-215c9251c439">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>14182647.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_43166337-6a31-4a62-a022-c186aface1bd"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1672ea0e-4ade-4a42-ace1-871089dbd288">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>14182647.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_43166337-6a31-4a62-a022-c186aface1bd"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_93c3c17b-581d-467a-bd76-d37d42954c25">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>14182647.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_43166337-6a31-4a62-a022-c186aface1bd"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_5316763b-dbed-451b-a4b4-733975fc3274">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>14182647.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_43166337-6a31-4a62-a022-c186aface1bd"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_cf4d4f6f-33a8-414e-a2b6-2f0810e7132f">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>14182647.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_43166337-6a31-4a62-a022-c186aface1bd"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2e00f98f-52c5-4693-9d42-74f05afd5a5f">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>14182647.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_43166337-6a31-4a62-a022-c186aface1bd"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d7391871-7bd8-4904-926d-0983ee2c5d05">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>14182647.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_43166337-6a31-4a62-a022-c186aface1bd"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e14a35aa-f199-4302-83ca-3353283338a8">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>14182647.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_43166337-6a31-4a62-a022-c186aface1bd"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0d12cda8-b678-4196-8bd9-1e5bc6b2689b">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>14182647.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_43166337-6a31-4a62-a022-c186aface1bd"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_5cb7580b-9124-4dd0-823c-c484c1c270b4">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>14182647.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_43166337-6a31-4a62-a022-c186aface1bd"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_9cc67bf8-b65e-40e2-93ca-6599068060dd">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>14182647.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_43166337-6a31-4a62-a022-c186aface1bd"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4c74bf06-e582-4a66-b617-8c409690f5b2">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>14182647.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_43166337-6a31-4a62-a022-c186aface1bd"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_179488db-788f-4cf7-96d9-2e83babc8d63">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>276.27</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a62615d5-dabf-4c06-8057-e8d4cce99729"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_77ebfcd9-c19d-4f4b-a93e-4503a878ef13">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>253.33</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a62615d5-dabf-4c06-8057-e8d4cce99729"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_cacc8713-e12c-4e80-9c4c-30ceeb8c3328">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>220.56</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a62615d5-dabf-4c06-8057-e8d4cce99729"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ad7bbb91-a7e8-46ea-91ce-1564556d1594">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>183.93</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a62615d5-dabf-4c06-8057-e8d4cce99729"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a01bb922-9360-4d5e-b0a6-6e205b59bf73">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>65.41</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a62615d5-dabf-4c06-8057-e8d4cce99729"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_87e59b06-4cf8-4fb7-8f1f-b58141e2e6a8">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>130.93</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a62615d5-dabf-4c06-8057-e8d4cce99729"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_391d27d1-7e21-48d0-a9fe-971d47d20582">
+<sensorasset:time>20210412181648.709</sensorasset:time>
+<sensorasset:value>23.53</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a62615d5-dabf-4c06-8057-e8d4cce99729"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6ad81eef-ade6-474b-9e91-5cd3c8089245">
+<sensorasset:time>20210412182659.991</sensorasset:time>
+<sensorasset:value>8.67</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a62615d5-dabf-4c06-8057-e8d4cce99729"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_86156530-e8ce-49d2-80cf-68e0a2795052">
+<sensorasset:time>20210412183711.474</sensorasset:time>
+<sensorasset:value>4.2</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a62615d5-dabf-4c06-8057-e8d4cce99729"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8869f8ed-05e8-4cb5-b980-e79f616859f5">
+<sensorasset:time>20210412184722.56</sensorasset:time>
+<sensorasset:value>3.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a62615d5-dabf-4c06-8057-e8d4cce99729"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ce3e11c6-33cc-4ea5-a440-6b224efb5eae">
+<sensorasset:time>20210412185733.815</sensorasset:time>
+<sensorasset:value>3.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a62615d5-dabf-4c06-8057-e8d4cce99729"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_16070101-2c2e-4994-91df-00e56c3e22ca">
+<sensorasset:time>20210412190744.672</sensorasset:time>
+<sensorasset:value>2.81</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a62615d5-dabf-4c06-8057-e8d4cce99729"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_25cad84b-8c3b-4e89-9da3-6497aa3705d2">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>315.79</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_14afd644-1d3f-4102-9e6c-b021aa33b128"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_89498deb-d365-4a0f-b10e-92179a4ad7a0">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>119.13</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_14afd644-1d3f-4102-9e6c-b021aa33b128"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fb7ee21c-4a35-49fc-90cd-7cbac9b6dcf5">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>118.82</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_14afd644-1d3f-4102-9e6c-b021aa33b128"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_32f8a8f2-a196-4aec-8d74-bd21335c3d24">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>118.71</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_14afd644-1d3f-4102-9e6c-b021aa33b128"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_de161836-4ceb-41fc-ba4b-d7c1abd8aa3d">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>91.92</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_14afd644-1d3f-4102-9e6c-b021aa33b128"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bb50b2a4-1f0b-44f5-90af-147509e759b8">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>118.41</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_14afd644-1d3f-4102-9e6c-b021aa33b128"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_42674b17-505d-4aa7-a047-1cb1dc81f53b">
+<sensorasset:time>20210412181648.709</sensorasset:time>
+<sensorasset:value>28.18</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_14afd644-1d3f-4102-9e6c-b021aa33b128"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_9a9da08e-b0ff-4c2e-a67d-bf96d45f004f">
+<sensorasset:time>20210412182659.991</sensorasset:time>
+<sensorasset:value>10.76</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_14afd644-1d3f-4102-9e6c-b021aa33b128"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_50edeca9-7f44-4b22-b611-e36b4af4d9c4">
+<sensorasset:time>20210412183711.474</sensorasset:time>
+<sensorasset:value>5.72</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_14afd644-1d3f-4102-9e6c-b021aa33b128"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1032d504-89be-434f-af91-89625b40d31b">
+<sensorasset:time>20210412184722.56</sensorasset:time>
+<sensorasset:value>4.24</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_14afd644-1d3f-4102-9e6c-b021aa33b128"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_435548df-15b9-4240-bc2f-f813c0db22df">
+<sensorasset:time>20210412185733.815</sensorasset:time>
+<sensorasset:value>4.11</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_14afd644-1d3f-4102-9e6c-b021aa33b128"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c49c6659-27a2-4c8b-a432-6f03cb16dbf2">
+<sensorasset:time>20210412190744.672</sensorasset:time>
+<sensorasset:value>3.95</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_14afd644-1d3f-4102-9e6c-b021aa33b128"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b4928f23-3516-4957-81e3-58b2f688c5d5">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>191.67</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e69fa213-2615-41d5-8317-e68691e3c3e9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bf73a9e2-114b-4966-838c-9fe183b83972">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>168.52</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e69fa213-2615-41d5-8317-e68691e3c3e9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_52c1c771-550b-4b22-bd1c-3a3067887c2d">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>160.17</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e69fa213-2615-41d5-8317-e68691e3c3e9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ee96fbc2-3d3a-4cbf-ad9f-0af52a38d58f">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>130.5</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e69fa213-2615-41d5-8317-e68691e3c3e9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b7077413-ab72-4d4e-88e4-fc7dd32abddb">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>116.93</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e69fa213-2615-41d5-8317-e68691e3c3e9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_76153801-339a-44e0-84a8-b097dec6bb7b">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>118.39</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e69fa213-2615-41d5-8317-e68691e3c3e9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f002ddbb-f5e2-4043-b46d-7b535ec1d266">
+<sensorasset:time>20210412181648.709</sensorasset:time>
+<sensorasset:value>17.19</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e69fa213-2615-41d5-8317-e68691e3c3e9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f39f859d-5214-4906-9e58-b9ded114ddff">
+<sensorasset:time>20210412182659.991</sensorasset:time>
+<sensorasset:value>6.48</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e69fa213-2615-41d5-8317-e68691e3c3e9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1355a9ba-1097-4276-b6db-3b99d0b694a2">
+<sensorasset:time>20210412183711.474</sensorasset:time>
+<sensorasset:value>3.14</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e69fa213-2615-41d5-8317-e68691e3c3e9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f23df95f-8f84-4972-b53d-9bdf5b105eb6">
+<sensorasset:time>20210412184722.56</sensorasset:time>
+<sensorasset:value>2.28</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e69fa213-2615-41d5-8317-e68691e3c3e9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_22261775-4a6a-4e79-98c4-0c7c8cf8f9a8">
+<sensorasset:time>20210412185733.815</sensorasset:time>
+<sensorasset:value>2.25</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e69fa213-2615-41d5-8317-e68691e3c3e9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_861cd7ae-5116-4049-aef2-bddaaceba64b">
+<sensorasset:time>20210412190744.672</sensorasset:time>
+<sensorasset:value>2.21</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e69fa213-2615-41d5-8317-e68691e3c3e9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c75a2427-ee20-4f74-a955-d07bc58569ef">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_df4a38c6-baa9-417a-8114-34dccfcd60e7"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_238e8509-b5c6-41b6-a774-d0de32bdae2f">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_df4a38c6-baa9-417a-8114-34dccfcd60e7"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1aa957fd-3767-41d4-a931-ea27d896f05d">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_df4a38c6-baa9-417a-8114-34dccfcd60e7"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_11d7c342-7ce6-462b-bd18-4870683953c7">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_df4a38c6-baa9-417a-8114-34dccfcd60e7"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_dcdf35de-0b66-4e23-92f5-f64f291674f3">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_df4a38c6-baa9-417a-8114-34dccfcd60e7"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d7b190c7-ff81-4a85-b891-a46cddb4eedd">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>0.01</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_df4a38c6-baa9-417a-8114-34dccfcd60e7"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_83a5a6cd-d4a2-4a5c-a004-9da40d3f3596">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_def677dd-7409-4ff7-93a6-8764c3d58292"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a269a5d4-79be-46dc-986f-994ea7da249b">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_def677dd-7409-4ff7-93a6-8764c3d58292"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f115de34-e2a3-414c-b7de-74fb2aac8a92">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_def677dd-7409-4ff7-93a6-8764c3d58292"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_97eaed17-31fd-40f0-904c-533746e10a49">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_def677dd-7409-4ff7-93a6-8764c3d58292"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7d9cea8c-5955-489c-b2d2-f0442b935cc6">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_def677dd-7409-4ff7-93a6-8764c3d58292"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_de603fef-931b-4c4d-8fe5-b20c6f52ff67">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_def677dd-7409-4ff7-93a6-8764c3d58292"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ba4d9119-91e1-4743-b002-1ea8e0116230">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_58111d71-e7c4-4acf-914d-ad2f88b48110"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_37f78ae2-28b0-439b-9145-46d769514fda">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_58111d71-e7c4-4acf-914d-ad2f88b48110"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_01134cd2-029e-4875-abe2-1bbcf54fdad0">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_58111d71-e7c4-4acf-914d-ad2f88b48110"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8ebe1fed-10a0-43e2-9133-96ec59861163">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_58111d71-e7c4-4acf-914d-ad2f88b48110"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_42226ed0-af69-4881-9a05-45213e83ef86">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_58111d71-e7c4-4acf-914d-ad2f88b48110"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_9be29632-072d-440a-b9a3-22d28ad26c3a">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_58111d71-e7c4-4acf-914d-ad2f88b48110"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_341a8226-a0b2-478f-b3a3-06c90b0b849c">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>7.18</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f4fef29e-4f91-459a-b129-161222c9c326"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_896b38ef-e67c-4def-86bd-be11e13ee27e">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>6.59</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f4fef29e-4f91-459a-b129-161222c9c326"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_370c086c-989d-4f98-8782-4c7e00fd8c42">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>5.59</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f4fef29e-4f91-459a-b129-161222c9c326"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_efbb76bd-146b-4e36-ab75-7122d9d6ce71">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>4.69</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f4fef29e-4f91-459a-b129-161222c9c326"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1e23a285-44d2-4fdd-a9b4-578bf8f5fb0f">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>3.28</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f4fef29e-4f91-459a-b129-161222c9c326"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fa09fdd4-b2ed-4b73-9623-d7838da6e0bc">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>0.58</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f4fef29e-4f91-459a-b129-161222c9c326"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8acfe86d-06ae-4085-85cd-1f04f84e8c3d">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>20.68</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_95b7e602-8f06-4e5b-a266-2c541eecd0d2"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_79b59f05-2e3a-4c23-a992-d96ce7c7b3b1">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>9.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_95b7e602-8f06-4e5b-a266-2c541eecd0d2"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_97c6e7fa-016c-4d7c-a688-bd33d2e2cc41">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>6.46</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_95b7e602-8f06-4e5b-a266-2c541eecd0d2"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_489dce2f-8e19-480e-9b6c-16d0c7366816">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>5.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_95b7e602-8f06-4e5b-a266-2c541eecd0d2"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8c102240-1d89-4ac2-8c96-a4707268f067">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>1.75</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_95b7e602-8f06-4e5b-a266-2c541eecd0d2"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c8c3124e-064c-4b46-aa47-859c5c314db0">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>4.64</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_95b7e602-8f06-4e5b-a266-2c541eecd0d2"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1f092246-f5a1-4aeb-8a0f-f66998ee8395">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>9.31</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2f832ae5-4813-460b-b556-217e4e5c3618"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1da22211-dd47-4121-87a8-c30672ac76fd">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>7.08</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2f832ae5-4813-460b-b556-217e4e5c3618"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_dfe9e5e4-cee9-45b5-815b-052c4f1217a1">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>3.78</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2f832ae5-4813-460b-b556-217e4e5c3618"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_35b5e66f-9a42-48dc-a261-53dfe88c9f40">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>2.34</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2f832ae5-4813-460b-b556-217e4e5c3618"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_edb95d89-2446-4c98-a8b3-658e85f1d0f1">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>2.01</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2f832ae5-4813-460b-b556-217e4e5c3618"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b0b31a96-ab16-433c-804a-ef7994437586">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>1.85</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2f832ae5-4813-460b-b556-217e4e5c3618"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_5430ec54-bcd7-4506-a969-22b9c4907530">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>11774193.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c4c205d1-ab3e-46f2-8de5-046dd7be6c7b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_094b729f-34e4-4315-a092-fbb84bc54b8c">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>11774193.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c4c205d1-ab3e-46f2-8de5-046dd7be6c7b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b5973ff3-0307-4cf8-91e7-31f5b41338a3">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>11774193.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c4c205d1-ab3e-46f2-8de5-046dd7be6c7b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_463a2130-611f-4130-b9fb-322df2a901d3">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>11774193.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c4c205d1-ab3e-46f2-8de5-046dd7be6c7b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8ddce626-b9a5-420a-bed1-1b9354317482">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>11774193.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c4c205d1-ab3e-46f2-8de5-046dd7be6c7b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_41748265-794e-483b-96b5-dd8825455077">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>11774193.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c4c205d1-ab3e-46f2-8de5-046dd7be6c7b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_58583545-f2df-4ce6-9aa8-f596a9110399">
+<sensorasset:time>20210412181648.709</sensorasset:time>
+<sensorasset:value>11774193.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c4c205d1-ab3e-46f2-8de5-046dd7be6c7b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_116eda07-f3f4-48bd-8729-0803188cb034">
+<sensorasset:time>20210412182659.991</sensorasset:time>
+<sensorasset:value>11774193.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c4c205d1-ab3e-46f2-8de5-046dd7be6c7b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3e943be4-fb34-4745-85c0-73922dd21b9f">
+<sensorasset:time>20210412183711.474</sensorasset:time>
+<sensorasset:value>11774193.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c4c205d1-ab3e-46f2-8de5-046dd7be6c7b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3bad1f4f-599a-42cd-9785-e51528ab14bb">
+<sensorasset:time>20210412184722.56</sensorasset:time>
+<sensorasset:value>11774193.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c4c205d1-ab3e-46f2-8de5-046dd7be6c7b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0eb9123e-8b6e-4dab-a706-c9d8b1863d25">
+<sensorasset:time>20210412185733.815</sensorasset:time>
+<sensorasset:value>11774193.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c4c205d1-ab3e-46f2-8de5-046dd7be6c7b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c47ba1f9-01de-485b-b4e2-713fca26398d">
+<sensorasset:time>20210412190744.672</sensorasset:time>
+<sensorasset:value>11774193.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c4c205d1-ab3e-46f2-8de5-046dd7be6c7b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0dccfc73-39a2-42f6-90f6-71a2b07e535a">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>233.2</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_768c1df2-16bb-4239-8bc6-3d31381ae9e6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_26bac464-8f55-4e2e-a57b-ce9357e76b37">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>233.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c3e33951-6d84-46a3-aee9-dcc1484ec752"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_59896fc0-84f7-4862-b0a4-c72a77d0c5af">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>233.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c3e33951-6d84-46a3-aee9-dcc1484ec752"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_30c12bcc-4dc0-4110-af23-9069ea1638a2">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>232.86</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c3e33951-6d84-46a3-aee9-dcc1484ec752"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_672f90d9-3ad2-4204-b088-29e52c077f46">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>232.79</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c3e33951-6d84-46a3-aee9-dcc1484ec752"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_cfc3b146-0c5f-43a1-82ad-a94a16f8b107">
+<sensorasset:time>20210412175629.432</sensorasset:time>
+<sensorasset:value>232.61</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c3e33951-6d84-46a3-aee9-dcc1484ec752"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f2b01f1d-986c-4262-a852-c4c13a743540">
+<sensorasset:time>20210412180641.148</sensorasset:time>
+<sensorasset:value>232.72</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c3e33951-6d84-46a3-aee9-dcc1484ec752"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_39a06ee5-d982-49dd-ba41-8c99b9ea6e02">
+<sensorasset:time>20210412181652.865</sensorasset:time>
+<sensorasset:value>233.39</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c3e33951-6d84-46a3-aee9-dcc1484ec752"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_24d940ff-c32f-411e-8798-153773c1d920">
+<sensorasset:time>20210412182704.115</sensorasset:time>
+<sensorasset:value>233.63</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c3e33951-6d84-46a3-aee9-dcc1484ec752"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6a599ef9-f3d1-4b00-9418-1e717fe2fd11">
+<sensorasset:time>20210412183715.585</sensorasset:time>
+<sensorasset:value>234.27</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c3e33951-6d84-46a3-aee9-dcc1484ec752"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_20e9184e-1933-4cd3-ba4e-e33be2b97941">
+<sensorasset:time>20210412184726.804</sensorasset:time>
+<sensorasset:value>234.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c3e33951-6d84-46a3-aee9-dcc1484ec752"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_21bace3c-b99e-4149-a55b-e1f82990e404">
+<sensorasset:time>20210412185737.764</sensorasset:time>
+<sensorasset:value>234.27</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c3e33951-6d84-46a3-aee9-dcc1484ec752"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0d2aab5f-bb44-40d3-8ea1-d5adf5d710b1">
+<sensorasset:time>20210412190748.706</sensorasset:time>
+<sensorasset:value>233.77</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c3e33951-6d84-46a3-aee9-dcc1484ec752"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_eb5c58e5-9614-48ba-b986-89c9cad61395">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>232.4</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_568067bb-e57d-4a96-8072-26590e0657fc"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1e2bf8ea-2de5-432e-bfdc-4f60d8b23e5c">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>233.77</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ac135ca5-963b-4604-8afc-d2fd9ddb39f6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_805d7b64-c201-435a-99ca-fc1cbaebb003">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>233.95</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ac135ca5-963b-4604-8afc-d2fd9ddb39f6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_dd1e02bf-2c72-4d0f-bdcb-137ee81a71ad">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>233.42</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ac135ca5-963b-4604-8afc-d2fd9ddb39f6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1df929a2-24fc-4739-9d7f-74ea6751e14c">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>233.28</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ac135ca5-963b-4604-8afc-d2fd9ddb39f6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_89b18978-a4d5-47a2-88c6-12cade1e9638">
+<sensorasset:time>20210412175629.432</sensorasset:time>
+<sensorasset:value>233.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ac135ca5-963b-4604-8afc-d2fd9ddb39f6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0110baed-a1fd-4bc0-bc8a-69314d05979d">
+<sensorasset:time>20210412180641.148</sensorasset:time>
+<sensorasset:value>233.49</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ac135ca5-963b-4604-8afc-d2fd9ddb39f6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c6a81e99-d4c2-43d4-92cc-8f7a96da5fa8">
+<sensorasset:time>20210412181652.865</sensorasset:time>
+<sensorasset:value>234.09</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ac135ca5-963b-4604-8afc-d2fd9ddb39f6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8f32234e-12dd-4da6-9cf5-3e18dbeeb9e0">
+<sensorasset:time>20210412182704.115</sensorasset:time>
+<sensorasset:value>234.23</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ac135ca5-963b-4604-8afc-d2fd9ddb39f6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_9caeae29-f3ae-459d-8156-3714c1f7c401">
+<sensorasset:time>20210412183715.585</sensorasset:time>
+<sensorasset:value>234.8</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ac135ca5-963b-4604-8afc-d2fd9ddb39f6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_08bafe5a-0ef3-482c-abb6-1f480c24cce4">
+<sensorasset:time>20210412185737.764</sensorasset:time>
+<sensorasset:value>234.8</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ac135ca5-963b-4604-8afc-d2fd9ddb39f6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fe76e6d7-aeb8-4c66-b492-ddbabc963762">
+<sensorasset:time>20210412184726.804</sensorasset:time>
+<sensorasset:value>235.11</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ac135ca5-963b-4604-8afc-d2fd9ddb39f6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0cef6570-eaed-4761-ab28-bf54d93c23ca">
+<sensorasset:time>20210412190748.706</sensorasset:time>
+<sensorasset:value>234.55</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ac135ca5-963b-4604-8afc-d2fd9ddb39f6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ea395467-a64e-4869-a006-492ade1f1c1b">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>234.4</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f5aee350-0f26-4624-b55e-f953e6495f6a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bd44d488-f542-40fc-9ef1-82a42b2b412f">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>232.08</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a13dde36-76a0-457a-9533-1f633560e93f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6faa705c-eb4d-4d9f-a0b8-769a7902d567">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>232.08</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a13dde36-76a0-457a-9533-1f633560e93f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_444bf462-1aaa-4db2-8384-57c7b9e0e61b">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>232.01</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a13dde36-76a0-457a-9533-1f633560e93f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_15785b23-8579-45d2-a3cd-3e56131831e7">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>231.69</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a13dde36-76a0-457a-9533-1f633560e93f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2465e79a-1276-41ae-8fa6-cfb6d61df108">
+<sensorasset:time>20210412175629.432</sensorasset:time>
+<sensorasset:value>231.41</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a13dde36-76a0-457a-9533-1f633560e93f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_10ebf3e7-caf9-467d-8161-36ce2a6aa178">
+<sensorasset:time>20210412180641.148</sensorasset:time>
+<sensorasset:value>231.91</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a13dde36-76a0-457a-9533-1f633560e93f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f7ee8bdf-ec55-4248-b0f8-4b42c0e5b300">
+<sensorasset:time>20210412181652.865</sensorasset:time>
+<sensorasset:value>232.4</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a13dde36-76a0-457a-9533-1f633560e93f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bffd1075-ef13-4dd0-992a-8a55647ab462">
+<sensorasset:time>20210412182704.115</sensorasset:time>
+<sensorasset:value>232.54</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a13dde36-76a0-457a-9533-1f633560e93f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_42bd8a70-58cc-4872-863a-a8668cfb263b">
+<sensorasset:time>20210412183715.585</sensorasset:time>
+<sensorasset:value>232.96</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a13dde36-76a0-457a-9533-1f633560e93f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_54cb7d3f-768e-4fe9-b387-e7f0c532dd5f">
+<sensorasset:time>20210412185737.764</sensorasset:time>
+<sensorasset:value>233.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a13dde36-76a0-457a-9533-1f633560e93f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_caea8f7c-c87d-4efa-8472-269874c4e30e">
+<sensorasset:time>20210412184726.804</sensorasset:time>
+<sensorasset:value>233.32</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a13dde36-76a0-457a-9533-1f633560e93f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_9fc18dd9-23c2-401c-b47b-afa8428dfc08">
+<sensorasset:time>20210412190748.706</sensorasset:time>
+<sensorasset:value>232.86</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a13dde36-76a0-457a-9533-1f633560e93f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_de086480-6ffe-43d3-8a71-50884db1a88d">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4b3f696c-bb99-4b3c-a470-a96a9b3d35de"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_75ed22a3-b902-4056-bf1f-8067eeb2699f">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_5e2d36b4-ebc4-4d9b-a28d-efd32b4e32ff"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0d716b36-53dc-46b9-8a69-b778690715a2">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_5e2d36b4-ebc4-4d9b-a28d-efd32b4e32ff"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_9fb56e2e-d733-4be5-8c96-3c5f1f1c85ad">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_5e2d36b4-ebc4-4d9b-a28d-efd32b4e32ff"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1795b8fb-4283-43a7-80cd-c1872a44d766">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_5e2d36b4-ebc4-4d9b-a28d-efd32b4e32ff"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b4889e3d-0f4c-4a36-bb9a-24b740855c82">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ce63886e-f04a-4883-979d-8fd9aff9f7e3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2538b844-cd07-40d1-ad19-c10b8c71e074">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ce63886e-f04a-4883-979d-8fd9aff9f7e3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_635d32fa-c3f0-4dbf-9ce8-f06989e4dbcc">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ce63886e-f04a-4883-979d-8fd9aff9f7e3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ce811e8e-8fd5-40b0-86ad-66c6883a8307">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ce63886e-f04a-4883-979d-8fd9aff9f7e3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_285368be-984d-4b30-8473-30857f4afc62">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0d90ad73-620d-4913-b87c-b6e74d724bf6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_baf16f76-9d4a-4593-8b41-8a0b473beb80">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0d90ad73-620d-4913-b87c-b6e74d724bf6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8c2c2cb5-35b1-454c-aaf9-df85981170e2">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0d90ad73-620d-4913-b87c-b6e74d724bf6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_25a3f0e2-b91d-4fb5-903f-0732a9dd6b3d">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0d90ad73-620d-4913-b87c-b6e74d724bf6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_31a517b2-331d-493b-92a0-5c2f9abd07e7">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>7</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0d840949-d8b4-4da5-8d6e-650e82370448"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_9abfccb3-05a2-4917-8cc0-b8342184767f">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>261.9</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_33ab49eb-7e7a-41ca-b6da-d2d5fe78138a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8a58db8b-c4cd-441a-a06d-ee32c217bc80">
+<sensorasset:time>20210412172553.947</sensorasset:time>
+<sensorasset:value>322.7</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_33ab49eb-7e7a-41ca-b6da-d2d5fe78138a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b231681a-232a-48f8-b209-44a72c236e89">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>168.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_513c5a2d-872b-4ff8-8922-e00a702a5d28"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f1c731cd-5adf-4067-82f5-da2fe66d6b2d">
+<sensorasset:time>20210412172553.947</sensorasset:time>
+<sensorasset:value>231.2</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_513c5a2d-872b-4ff8-8922-e00a702a5d28"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a8085add-181d-4a6b-befa-2f7e6a2d8423">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>294.8</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ff0c3081-9a28-4cba-8804-04f3b6b6d50b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_37eca74e-faa7-4340-b71b-50904b1c4616">
+<sensorasset:time>20210412172553.947</sensorasset:time>
+<sensorasset:value>323.1</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ff0c3081-9a28-4cba-8804-04f3b6b6d50b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8cd44aef-cffe-4087-8338-418e4b6d513f">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6daecf1d-0984-417f-8f9b-df628fcbe52d"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d8638db1-c31a-48ac-8421-685d80a30510">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0733f6c5-83d6-4faa-9377-9203936bc18b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_924e2ec7-873a-4dfa-a2ed-1997c8f356a4">
+<sensorasset:time>20210412172553.947</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0733f6c5-83d6-4faa-9377-9203936bc18b"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6bcadcfc-bae1-47d8-bef2-5363db118c8d">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6083b9a3-0976-493c-ba06-cfbea37ee968"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bebe7f4f-847d-4011-838d-2ddc040ba2c1">
+<sensorasset:time>20210412172553.947</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6083b9a3-0976-493c-ba06-cfbea37ee968"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3da2fd8d-d817-4031-ab53-16a091215c8b">
+<sensorasset:time>20210412171545.099</sensorasset:time>
+<sensorasset:value>304.4</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e387fa22-f3ca-416a-bf43-e5726984e531"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e42036fb-c3f7-4f51-a268-1db8ade5e2ba">
+<sensorasset:time>20210412172556.829</sensorasset:time>
+<sensorasset:value>269.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e387fa22-f3ca-416a-bf43-e5726984e531"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0f8e0372-c7b2-4a97-a5f6-0aa5b1c188ad">
+<sensorasset:time>20210412171545.099</sensorasset:time>
+<sensorasset:value>227.3</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0df3d233-1baf-476d-8a60-b3f3e29a9161"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b5532096-d784-4612-bd67-bb075d9ae932">
+<sensorasset:time>20210412172556.829</sensorasset:time>
+<sensorasset:value>210.7</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0df3d233-1baf-476d-8a60-b3f3e29a9161"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_cfdb99ab-8e02-44fc-8eb4-12189fa27542">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>233.1</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d5a8d305-6488-4ac4-ba15-03a46a57ae32"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b83e498c-6f4a-4bee-9248-7102a3201d6c">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>232.54</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d5a8d305-6488-4ac4-ba15-03a46a57ae32"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_227e629a-3695-4101-a8d1-075cabc6d204">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>232.65</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d5a8d305-6488-4ac4-ba15-03a46a57ae32"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_5e4adda1-6c0f-4dc1-ac89-7c893c2b0aad">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>232.47</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d5a8d305-6488-4ac4-ba15-03a46a57ae32"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a58d7d4a-fcad-4975-b818-a929f605a041">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>232.19</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d5a8d305-6488-4ac4-ba15-03a46a57ae32"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_86b99470-5541-44c5-b8b1-ad9997b27331">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>232.54</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d5a8d305-6488-4ac4-ba15-03a46a57ae32"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0d84012f-b18a-47fe-a49b-803a50004136">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>233.32</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d5a8d305-6488-4ac4-ba15-03a46a57ae32"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d255173f-f12d-4dd4-88e0-6ed313da391d">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>233.56</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d5a8d305-6488-4ac4-ba15-03a46a57ae32"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e72d981c-ab95-4e0b-8f31-6e6213fbfe68">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>234.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d5a8d305-6488-4ac4-ba15-03a46a57ae32"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_446e7201-d4d3-446e-a740-8f157d136028">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>233.7</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d5a8d305-6488-4ac4-ba15-03a46a57ae32"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_61bb8afd-f8dd-4fed-b4bb-5cb7c25d0ce1">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>234.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d5a8d305-6488-4ac4-ba15-03a46a57ae32"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_151bea21-fee6-4a39-afb5-3ce0194b068e">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>233.6</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d5a8d305-6488-4ac4-ba15-03a46a57ae32"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a02f3cde-627f-4603-ae16-b7f0b34407bc">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>233.46</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_28717b5d-0c30-481e-a707-53a0384b4c9a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bb2ab179-efe7-41b7-b5f4-0851124031ec">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>233.32</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_28717b5d-0c30-481e-a707-53a0384b4c9a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_60273b9d-d595-4132-b0a9-a575402e84c7">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>233.1</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_28717b5d-0c30-481e-a707-53a0384b4c9a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8d485d1a-579d-4298-9330-fe700c697212">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>232.89</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_28717b5d-0c30-481e-a707-53a0384b4c9a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_983ed9d1-9d02-48dc-94b6-34cf4a91a95b">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>232.51</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_28717b5d-0c30-481e-a707-53a0384b4c9a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_07109241-5a8b-4499-ba3d-bf8b90786a66">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>233.25</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_28717b5d-0c30-481e-a707-53a0384b4c9a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1d8b5edb-c12a-4f56-b167-ce4b4a117608">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>233.92</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_28717b5d-0c30-481e-a707-53a0384b4c9a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2fc46e45-56f3-4e26-ad18-6216e9378824">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>234.13</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_28717b5d-0c30-481e-a707-53a0384b4c9a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4f91745f-3a98-467c-a006-826480e94008">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>234.44</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_28717b5d-0c30-481e-a707-53a0384b4c9a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2e697392-d295-48e5-b892-1c5defa1f670">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>234.76</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_28717b5d-0c30-481e-a707-53a0384b4c9a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_75434a73-ada7-4835-9ba7-78100382800d">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>234.44</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_28717b5d-0c30-481e-a707-53a0384b4c9a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_750dd819-f105-4090-8510-87e330437d08">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>234.23</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_28717b5d-0c30-481e-a707-53a0384b4c9a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2c1756f7-e6b7-440f-b6a3-4521341d5ea9">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>232.54</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_856a1f86-527d-4da0-8c3e-78b8a7dbf4a0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_eb3d9c92-fa29-4022-aff0-c2f6f311ed22">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>232.29</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_856a1f86-527d-4da0-8c3e-78b8a7dbf4a0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8570a352-b05f-4dea-a8c5-f376f471eb1c">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>232.29</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_856a1f86-527d-4da0-8c3e-78b8a7dbf4a0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d5c4d838-fdf9-4efb-b61b-e01bd71494e0">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>231.91</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_856a1f86-527d-4da0-8c3e-78b8a7dbf4a0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ae900601-e9df-4d22-b3fc-b5592317b071">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>231.66</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_856a1f86-527d-4da0-8c3e-78b8a7dbf4a0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e6e403b5-0dfb-4a04-b3e5-abeab394cf39">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>232.22</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_856a1f86-527d-4da0-8c3e-78b8a7dbf4a0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3903df8c-8551-4e77-b2b4-e5cb591b21d4">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>232.79</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_856a1f86-527d-4da0-8c3e-78b8a7dbf4a0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_5f50bdb4-cca4-4a9c-ad5c-6b5a4d23279a">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>233.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_856a1f86-527d-4da0-8c3e-78b8a7dbf4a0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e8087be2-8c8b-4f43-a55c-a2e99522e5fd">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>233.42</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_856a1f86-527d-4da0-8c3e-78b8a7dbf4a0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0e878c29-639a-4816-a71d-b310ac713cf5">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>233.6</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_856a1f86-527d-4da0-8c3e-78b8a7dbf4a0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_58421352-14aa-46a6-a28b-b856a69c081e">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>233.28</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_856a1f86-527d-4da0-8c3e-78b8a7dbf4a0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_000db4fb-b7af-4b28-a980-b1951f2185d4">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>233.21</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_856a1f86-527d-4da0-8c3e-78b8a7dbf4a0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e18e70ae-fba1-410c-80ae-3f77855cb8df">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fff811a7-e111-4311-9405-9c581993059f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d38e4b7c-0918-4010-b5b3-a8689f441ced">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fff811a7-e111-4311-9405-9c581993059f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d6a85c4f-5147-4ee0-a347-88b2e25ede5e">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fff811a7-e111-4311-9405-9c581993059f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_527bff32-559c-4c14-bffd-2a98d897bee4">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fff811a7-e111-4311-9405-9c581993059f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_78aacb63-c3f5-450c-8c6e-f25febd6724e">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fff811a7-e111-4311-9405-9c581993059f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a184568a-2ba9-4032-9d60-151cfd80a4c3">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fff811a7-e111-4311-9405-9c581993059f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e31fb807-849e-4c2e-a153-311ff63d92d6">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fff811a7-e111-4311-9405-9c581993059f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7cde1148-542d-47df-aa0e-cb3576710d63">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fff811a7-e111-4311-9405-9c581993059f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7fead82c-3437-4d72-b309-0d9ffb07bc37">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fff811a7-e111-4311-9405-9c581993059f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3f571c0f-f1d6-4b3a-8519-408bdd0a866c">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fff811a7-e111-4311-9405-9c581993059f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_9cccac01-3706-486a-80ff-de783f417646">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fff811a7-e111-4311-9405-9c581993059f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a40297bd-ccce-4884-be9e-691a553f22cd">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fff811a7-e111-4311-9405-9c581993059f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_45568cc1-2934-4f81-93e1-de4f3afe945d">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9156fe2f-d959-4855-a21f-7df691e2942e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1ef98cb0-273e-4902-bc3c-f8cb5d302550">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9156fe2f-d959-4855-a21f-7df691e2942e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0b6b9ee7-d7c5-4edf-a4ec-c6baca73703d">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9156fe2f-d959-4855-a21f-7df691e2942e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_761e23ef-8a9d-4881-a77a-98a272c18c6c">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9156fe2f-d959-4855-a21f-7df691e2942e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e211e5ae-5482-46a0-ac01-f982ec02aee5">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9156fe2f-d959-4855-a21f-7df691e2942e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a3f39db7-47dd-449b-bcac-d6967b388ef4">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9156fe2f-d959-4855-a21f-7df691e2942e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d3bab4e4-ac13-4c24-b360-bcc4a3c69cf8">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9156fe2f-d959-4855-a21f-7df691e2942e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_be4baf6c-337c-4b24-93ed-5e5bda17f184">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9156fe2f-d959-4855-a21f-7df691e2942e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_db869715-e8ee-41d7-86a1-9e5b301c7fd2">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9156fe2f-d959-4855-a21f-7df691e2942e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_dd297afd-3c19-4460-8a81-3d9e7e92cf8f">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9156fe2f-d959-4855-a21f-7df691e2942e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fc9a42b6-ccca-4fd8-b5cb-04c36b144062">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9156fe2f-d959-4855-a21f-7df691e2942e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fde635dd-ce6f-45b2-9809-d2ba49e55fbc">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9156fe2f-d959-4855-a21f-7df691e2942e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4053a6c2-2c5f-482d-827e-c3e3ff11fae0">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d40176da-9360-4e1d-807a-4a886c05b204"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a4526faa-fdae-46a7-bc70-244e44395aaf">
+<sensorasset:time>20210412172559.545</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d40176da-9360-4e1d-807a-4a886c05b204"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ece579d9-c162-418c-8d5b-d2c47d3fee7d">
+<sensorasset:time>20210412173610.818</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d40176da-9360-4e1d-807a-4a886c05b204"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ea7fce0e-bf24-4fbb-aaa7-473b356493ac">
+<sensorasset:time>20210412174622.234</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d40176da-9360-4e1d-807a-4a886c05b204"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_02979618-e29a-4970-81dc-d9ba23db2b58">
+<sensorasset:time>20210412175633.736</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d40176da-9360-4e1d-807a-4a886c05b204"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f6e1436a-c526-4a45-bcbd-001f528970bd">
+<sensorasset:time>20210412180645.385</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d40176da-9360-4e1d-807a-4a886c05b204"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d4445a0b-11e8-40e9-8be5-64d259e24361">
+<sensorasset:time>20210412181656.918</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d40176da-9360-4e1d-807a-4a886c05b204"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_630d770b-eddf-40e5-8fa8-8276852170a3">
+<sensorasset:time>20210412182708.313</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d40176da-9360-4e1d-807a-4a886c05b204"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ab80c5f8-44c6-4b6e-8b21-eb4076ec4e7f">
+<sensorasset:time>20210412183719.597</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d40176da-9360-4e1d-807a-4a886c05b204"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_058a92cf-d4f1-4cdc-8c70-a5c47443ca75">
+<sensorasset:time>20210412184730.907</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d40176da-9360-4e1d-807a-4a886c05b204"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_31592415-00b3-48c1-9816-f325e03d0127">
+<sensorasset:time>20210412185741.653</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d40176da-9360-4e1d-807a-4a886c05b204"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_76aec1d0-b876-4967-b81a-3fb5eebfa55e">
+<sensorasset:time>20210412190752.738</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d40176da-9360-4e1d-807a-4a886c05b204"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e101acf0-8eed-4752-bc5c-e7348fdabc85">
+<sensorasset:time>20210412171547.934</sensorasset:time>
+<sensorasset:value>0.01</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1db9b34c-be63-4eae-b448-c66882d57ff2"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3b7bcfd2-8e29-4323-9f50-f4ee589d76bd">
+<sensorasset:time>20210412171546.431</sensorasset:time>
+<sensorasset:value>26172823</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f3605691-fc0e-4467-b046-84d17c839b6f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7592ecde-dc69-485e-8070-96eecf7496ba">
+<sensorasset:time>20210412172558.073</sensorasset:time>
+<sensorasset:value>26172823</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f3605691-fc0e-4467-b046-84d17c839b6f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_18cf4d81-87f6-4d0b-af65-343b151e36fe">
+<sensorasset:time>20210412173609.329</sensorasset:time>
+<sensorasset:value>26172823</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f3605691-fc0e-4467-b046-84d17c839b6f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4da90672-05f8-446c-999b-92cbdcfb69c8">
+<sensorasset:time>20210412174620.75</sensorasset:time>
+<sensorasset:value>26172823</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f3605691-fc0e-4467-b046-84d17c839b6f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f62af212-5505-4d9e-a27f-5937b671c3c6">
+<sensorasset:time>20210412175632.203</sensorasset:time>
+<sensorasset:value>26172823</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f3605691-fc0e-4467-b046-84d17c839b6f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e0930875-6176-482b-bb06-d2d62a03189f">
+<sensorasset:time>20210412180643.84</sensorasset:time>
+<sensorasset:value>26172823</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f3605691-fc0e-4467-b046-84d17c839b6f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_92f8ae16-82d4-4f53-9698-dbbd9ead29ab">
+<sensorasset:time>20210412181655.468</sensorasset:time>
+<sensorasset:value>26172823</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f3605691-fc0e-4467-b046-84d17c839b6f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_da68e83b-7813-4849-a408-49df0db4bcc1">
+<sensorasset:time>20210412182706.825</sensorasset:time>
+<sensorasset:value>26172823</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f3605691-fc0e-4467-b046-84d17c839b6f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_09b54e7c-0a05-43dd-8c38-748cb54dfcf1">
+<sensorasset:time>20210412183718.181</sensorasset:time>
+<sensorasset:value>26172823</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f3605691-fc0e-4467-b046-84d17c839b6f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_83eb745c-b059-4ac5-a893-d953f8856979">
+<sensorasset:time>20210412184729.455</sensorasset:time>
+<sensorasset:value>26172823</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f3605691-fc0e-4467-b046-84d17c839b6f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0ed9fa6f-4f84-44ca-928a-2b4211da64cc">
+<sensorasset:time>20210412185740.256</sensorasset:time>
+<sensorasset:value>26172823</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f3605691-fc0e-4467-b046-84d17c839b6f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ef7fb60c-8aaf-41c3-a163-68b9f28082fd">
+<sensorasset:time>20210412190751.307</sensorasset:time>
+<sensorasset:value>26172823</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f3605691-fc0e-4467-b046-84d17c839b6f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6279d7cc-2cb7-4009-86e4-990a13b553ba">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>16363.25</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f1c6a1e1-035c-47d8-b519-d26ab3222ca3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fa457a12-81ca-4f3a-931a-28d334eb500c">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>16363.35</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f1c6a1e1-035c-47d8-b519-d26ab3222ca3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3ba3344f-03bf-4c77-a89e-d1c17fbdd435">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>16363.36</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f1c6a1e1-035c-47d8-b519-d26ab3222ca3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e370ea8e-84de-4ad5-b302-a11cad691ca0">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>16363.36</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f1c6a1e1-035c-47d8-b519-d26ab3222ca3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b5ebc473-adef-4d1b-a5f5-da8cb4b95288">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>16363.36</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f1c6a1e1-035c-47d8-b519-d26ab3222ca3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_cb99ee14-cb37-4867-a030-c780ecb2cc5a">
+<sensorasset:time>20210412180635.337</sensorasset:time>
+<sensorasset:value>16363.36</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f1c6a1e1-035c-47d8-b519-d26ab3222ca3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_466862ba-75de-4bba-a6e2-e7207fc5edb0">
+<sensorasset:time>20210412181647.051</sensorasset:time>
+<sensorasset:value>16363.36</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f1c6a1e1-035c-47d8-b519-d26ab3222ca3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_9decc317-024a-4110-98c9-9118b44bdeea">
+<sensorasset:time>20210412182658.367</sensorasset:time>
+<sensorasset:value>16363.36</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f1c6a1e1-035c-47d8-b519-d26ab3222ca3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_80d7ac84-63a7-47bb-aadb-84e01db5bf43">
+<sensorasset:time>20210412183709.852</sensorasset:time>
+<sensorasset:value>16363.36</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f1c6a1e1-035c-47d8-b519-d26ab3222ca3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fb11f6a7-3138-4422-9ef8-08981e62d821">
+<sensorasset:time>20210412184721.094</sensorasset:time>
+<sensorasset:value>16363.36</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f1c6a1e1-035c-47d8-b519-d26ab3222ca3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_99ac638b-2544-4fd2-a21a-86a299c8bdc4">
+<sensorasset:time>20210412185732.361</sensorasset:time>
+<sensorasset:value>16363.36</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f1c6a1e1-035c-47d8-b519-d26ab3222ca3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e29d63c2-db9a-4606-9b3b-224b9368cacf">
+<sensorasset:time>20210412190743.21</sensorasset:time>
+<sensorasset:value>16363.36</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f1c6a1e1-035c-47d8-b519-d26ab3222ca3"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_91e17e4a-6714-4c7b-8deb-120d51e891db">
+<sensorasset:time>20210412171539.545</sensorasset:time>
+<sensorasset:value>12478.39</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ec48d443-a8e8-4191-8aee-49a9f053aa09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_86162a4d-0dd8-4d02-8fba-c14e6ee28353">
+<sensorasset:time>20210412172551.257</sensorasset:time>
+<sensorasset:value>12478.43</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ec48d443-a8e8-4191-8aee-49a9f053aa09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7cdaa5e1-68af-496f-8c09-04136b090c06">
+<sensorasset:time>20210412173602.544</sensorasset:time>
+<sensorasset:value>12478.44</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ec48d443-a8e8-4191-8aee-49a9f053aa09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_5e131178-c04d-4107-ad54-51844fab4042">
+<sensorasset:time>20210412174613.941</sensorasset:time>
+<sensorasset:value>12478.44</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ec48d443-a8e8-4191-8aee-49a9f053aa09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_61ad641d-8b5d-4c7b-8e4a-ca3d85e9b55c">
+<sensorasset:time>20210412175625.341</sensorasset:time>
+<sensorasset:value>12478.44</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ec48d443-a8e8-4191-8aee-49a9f053aa09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_562a41f3-e3d2-436f-b3de-90ebfcb35845">
+<sensorasset:time>20210412181648.709</sensorasset:time>
+<sensorasset:value>12478.44</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ec48d443-a8e8-4191-8aee-49a9f053aa09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_49155343-8d13-4537-9283-6cce5c2847f8">
+<sensorasset:time>20210412180636.837</sensorasset:time>
+<sensorasset:value>12478.44</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ec48d443-a8e8-4191-8aee-49a9f053aa09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_9fd315f3-1165-4f28-95cc-dafbfa7a4797">
+<sensorasset:time>20210412182659.991</sensorasset:time>
+<sensorasset:value>12478.44</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ec48d443-a8e8-4191-8aee-49a9f053aa09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2bb16e90-c489-47c9-bb6d-f5381fb78a58">
+<sensorasset:time>20210412183711.474</sensorasset:time>
+<sensorasset:value>12478.44</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ec48d443-a8e8-4191-8aee-49a9f053aa09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_efc9a3d5-3bf9-4e8f-9afc-51cde1830ca5">
+<sensorasset:time>20210412184722.56</sensorasset:time>
+<sensorasset:value>12478.44</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ec48d443-a8e8-4191-8aee-49a9f053aa09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_07f0e9ae-7952-4460-baad-01018d6904b9">
+<sensorasset:time>20210412185733.815</sensorasset:time>
+<sensorasset:value>12478.44</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ec48d443-a8e8-4191-8aee-49a9f053aa09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bec39d6a-e99d-4f37-86a8-6fb32c0cef83">
+<sensorasset:time>20210412190744.672</sensorasset:time>
+<sensorasset:value>12478.44</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ec48d443-a8e8-4191-8aee-49a9f053aa09"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f5d5dede-e365-41ab-913f-f4ba769526fe">
+<sensorasset:time>20210412171540.932</sensorasset:time>
+<sensorasset:value>3662</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_62b10d44-62e2-4a86-8838-bd51f3b9b384"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e805d86f-9439-4975-883e-1c87ba0466c0">
+<sensorasset:time>20210412172552.639</sensorasset:time>
+<sensorasset:value>3662</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_62b10d44-62e2-4a86-8838-bd51f3b9b384"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fa876804-1bd4-49df-8e36-e8572b55fc37">
+<sensorasset:time>20210412173603.865</sensorasset:time>
+<sensorasset:value>3662</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_62b10d44-62e2-4a86-8838-bd51f3b9b384"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_668b03cc-eaf7-454a-84ca-9a731375578a">
+<sensorasset:time>20210412174615.241</sensorasset:time>
+<sensorasset:value>3662</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_62b10d44-62e2-4a86-8838-bd51f3b9b384"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6063fef4-120b-4ef5-82f6-243730f90fc2">
+<sensorasset:time>20210412175626.63</sensorasset:time>
+<sensorasset:value>3662</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_62b10d44-62e2-4a86-8838-bd51f3b9b384"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_5f2ce6bc-4b92-4a91-89d8-0e9ab3fddb71">
+<sensorasset:time>20210412180638.144</sensorasset:time>
+<sensorasset:value>3662</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_62b10d44-62e2-4a86-8838-bd51f3b9b384"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_5fee31ce-3050-45dd-ba1a-a8ad8827ba7c">
+<sensorasset:time>20210412181650.07</sensorasset:time>
+<sensorasset:value>3662</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_62b10d44-62e2-4a86-8838-bd51f3b9b384"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c3b03028-965c-4bd4-b76c-df0976b50859">
+<sensorasset:time>20210412182701.355</sensorasset:time>
+<sensorasset:value>3662</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_62b10d44-62e2-4a86-8838-bd51f3b9b384"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2371369d-4364-4678-a2e8-a457dc2cd95d">
+<sensorasset:time>20210412183712.814</sensorasset:time>
+<sensorasset:value>3662</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_62b10d44-62e2-4a86-8838-bd51f3b9b384"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f5d3a242-9601-4686-ae77-590b2419a6bd">
+<sensorasset:time>20210412184723.882</sensorasset:time>
+<sensorasset:value>3662</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_62b10d44-62e2-4a86-8838-bd51f3b9b384"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b8cb3583-c2eb-422c-b5eb-19ee968b41c2">
+<sensorasset:time>20210412185735.074</sensorasset:time>
+<sensorasset:value>3662</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_62b10d44-62e2-4a86-8838-bd51f3b9b384"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ed0b08d0-264f-4c50-b22a-c2fc074bc298">
+<sensorasset:time>20210412190746.01</sensorasset:time>
+<sensorasset:value>3662</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_62b10d44-62e2-4a86-8838-bd51f3b9b384"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_863dc28b-5a9b-4557-8b65-8342b5a86543">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>15200</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80d93665-e412-4f08-b676-dce4a333eabc"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fbb7d603-9528-4966-ad82-b09cde08f691">
+<sensorasset:time>20210412172553.947</sensorasset:time>
+<sensorasset:value>15200</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80d93665-e412-4f08-b676-dce4a333eabc"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_183f6c27-ada2-409a-ada7-bb97fbc4d9fe">
+<sensorasset:time>20210412173605.165</sensorasset:time>
+<sensorasset:value>15200</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80d93665-e412-4f08-b676-dce4a333eabc"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7eba75d9-fa3b-4a9b-8455-509b80b156ca">
+<sensorasset:time>20210412174616.578</sensorasset:time>
+<sensorasset:value>15200</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80d93665-e412-4f08-b676-dce4a333eabc"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_718838b6-9dd3-463d-8b86-bcfa83fed62d">
+<sensorasset:time>20210412175627.963</sensorasset:time>
+<sensorasset:value>15200</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80d93665-e412-4f08-b676-dce4a333eabc"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6419fe2b-57f4-4f9b-afea-e1e0d99792ab">
+<sensorasset:time>20210412180639.507</sensorasset:time>
+<sensorasset:value>15200</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80d93665-e412-4f08-b676-dce4a333eabc"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fcab2a31-d7fa-4d47-ae6a-82e4106ec497">
+<sensorasset:time>20210412181651.368</sensorasset:time>
+<sensorasset:value>15200</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80d93665-e412-4f08-b676-dce4a333eabc"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_41258da3-3001-43f1-98cb-5b938b5290ee">
+<sensorasset:time>20210412182702.635</sensorasset:time>
+<sensorasset:value>15200</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80d93665-e412-4f08-b676-dce4a333eabc"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1b4d7134-8bcd-407c-8830-ce5f7f77aaa9">
+<sensorasset:time>20210412183714.128</sensorasset:time>
+<sensorasset:value>15200</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80d93665-e412-4f08-b676-dce4a333eabc"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a8f62a55-46de-4ebb-9b21-9f1f49baed99">
+<sensorasset:time>20210412184725.234</sensorasset:time>
+<sensorasset:value>15200</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80d93665-e412-4f08-b676-dce4a333eabc"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_682f1b59-e21c-4efe-85fe-ea1ac857409f">
+<sensorasset:time>20210412185736.35</sensorasset:time>
+<sensorasset:value>15200</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80d93665-e412-4f08-b676-dce4a333eabc"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a71c53fe-8658-4098-9895-d3e724753d24">
+<sensorasset:time>20210412190747.275</sensorasset:time>
+<sensorasset:value>15200</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80d93665-e412-4f08-b676-dce4a333eabc"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_34a4ae10-4a95-422f-b6ed-ab3e6486af96">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>14473.48</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3e1f0572-0959-45ea-83ab-b193847faac5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d8fbbf24-31bc-416d-b039-74332cc24258">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>14473.49</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3e1f0572-0959-45ea-83ab-b193847faac5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8d1b19f7-fc7c-41d1-80b6-0c7b570dfa9e">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>14473.49</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3e1f0572-0959-45ea-83ab-b193847faac5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0dd510e4-9d5f-4148-8b00-3a65ee435b47">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>14473.5</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3e1f0572-0959-45ea-83ab-b193847faac5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8a8bcad8-04d8-46b4-a810-74be7cf27403">
+<sensorasset:time>20210412175629.432</sensorasset:time>
+<sensorasset:value>14473.51</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3e1f0572-0959-45ea-83ab-b193847faac5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_93e76f49-4300-497e-a2ba-5f83d4fa8661">
+<sensorasset:time>20210412180641.148</sensorasset:time>
+<sensorasset:value>14473.54</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3e1f0572-0959-45ea-83ab-b193847faac5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_661db798-3bf4-44f9-8f00-b13529ecc365">
+<sensorasset:time>20210412181652.865</sensorasset:time>
+<sensorasset:value>14473.54</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3e1f0572-0959-45ea-83ab-b193847faac5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b57aa816-2d39-4c3e-9dfd-ec69f8fe5600">
+<sensorasset:time>20210412182704.115</sensorasset:time>
+<sensorasset:value>14473.54</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3e1f0572-0959-45ea-83ab-b193847faac5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a958c888-d432-4846-9549-07179be480e4">
+<sensorasset:time>20210412183715.585</sensorasset:time>
+<sensorasset:value>14473.54</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3e1f0572-0959-45ea-83ab-b193847faac5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_60022488-4b00-4c2a-907f-4849d8e523c3">
+<sensorasset:time>20210412184726.804</sensorasset:time>
+<sensorasset:value>14473.54</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3e1f0572-0959-45ea-83ab-b193847faac5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_325f7138-65d7-4419-8630-89ddaf0e17b2">
+<sensorasset:time>20210412185737.764</sensorasset:time>
+<sensorasset:value>14473.54</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3e1f0572-0959-45ea-83ab-b193847faac5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6af96fa2-344a-43a7-a9ae-15d6c46867e7">
+<sensorasset:time>20210412190748.706</sensorasset:time>
+<sensorasset:value>14473.54</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3e1f0572-0959-45ea-83ab-b193847faac5"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3765775a-120e-4857-a3aa-96a1b3b2c875">
+<sensorasset:time>20210412171545.099</sensorasset:time>
+<sensorasset:value>12463</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1873ddff-4d25-4833-a0a5-6affad80bb1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_67fc35c8-70b1-4f06-9832-2a4ca0fa141b">
+<sensorasset:time>20210412172556.829</sensorasset:time>
+<sensorasset:value>12463</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1873ddff-4d25-4833-a0a5-6affad80bb1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ecc8cca9-db11-412a-82d7-6d961e6e6af5">
+<sensorasset:time>20210412173608.04</sensorasset:time>
+<sensorasset:value>12463</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1873ddff-4d25-4833-a0a5-6affad80bb1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f8530674-4772-4548-a1ac-ab87bc5f8250">
+<sensorasset:time>20210412174619.397</sensorasset:time>
+<sensorasset:value>12463</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1873ddff-4d25-4833-a0a5-6affad80bb1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_91754138-8175-4f38-b6d9-7141a2823327">
+<sensorasset:time>20210412175630.814</sensorasset:time>
+<sensorasset:value>12463</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1873ddff-4d25-4833-a0a5-6affad80bb1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c6611eea-ad8a-4b67-987a-3ca711b08f62">
+<sensorasset:time>20210412180642.52</sensorasset:time>
+<sensorasset:value>12463</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1873ddff-4d25-4833-a0a5-6affad80bb1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2e12ec8d-84e4-4904-91c3-f80ccc2b06bb">
+<sensorasset:time>20210412181654.177</sensorasset:time>
+<sensorasset:value>12463</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1873ddff-4d25-4833-a0a5-6affad80bb1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ae72f061-f6d0-4045-bc17-0b25f9b71c2a">
+<sensorasset:time>20210412182705.486</sensorasset:time>
+<sensorasset:value>12463</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1873ddff-4d25-4833-a0a5-6affad80bb1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bab73a13-d9cc-4c72-b971-fde24f52c8ce">
+<sensorasset:time>20210412183716.88</sensorasset:time>
+<sensorasset:value>12463</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1873ddff-4d25-4833-a0a5-6affad80bb1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e207b79b-e781-435c-94f5-9e872c2c55ba">
+<sensorasset:time>20210412184728.149</sensorasset:time>
+<sensorasset:value>12463</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1873ddff-4d25-4833-a0a5-6affad80bb1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_747db94c-3bb6-42d2-96e7-8f4b4388510c">
+<sensorasset:time>20210412185738.998</sensorasset:time>
+<sensorasset:value>12463</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1873ddff-4d25-4833-a0a5-6affad80bb1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2d8c1fcb-460f-4cab-98a5-41f832b8bc5f">
+<sensorasset:time>20210412190750.024</sensorasset:time>
+<sensorasset:value>12463</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1873ddff-4d25-4833-a0a5-6affad80bb1f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7801144a-5d25-4441-8de4-7cf9e5ca446e">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>232.47</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_900822f2-8069-45e0-9bea-ab0be7c0a124"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f53bdb65-d4c7-4555-8b05-e43f2e181ac6">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>232.36</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_900822f2-8069-45e0-9bea-ab0be7c0a124"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_310903cd-0f48-4ed8-a336-3d742cceb561">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>232.4</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_900822f2-8069-45e0-9bea-ab0be7c0a124"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2079ec1c-8555-4c2e-9eec-74d4d5dd07c4">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>232.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_900822f2-8069-45e0-9bea-ab0be7c0a124"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d8f4ce2e-4f97-45a9-a9c8-b7a834bec53b">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>231.73</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_900822f2-8069-45e0-9bea-ab0be7c0a124"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7c69d5ba-e440-4ab0-8bd3-ff06947708ab">
+<sensorasset:time>20210412180635.337</sensorasset:time>
+<sensorasset:value>232.29</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_900822f2-8069-45e0-9bea-ab0be7c0a124"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b248b1d2-186f-4239-a743-fd5f0665039d">
+<sensorasset:time>20210412181647.051</sensorasset:time>
+<sensorasset:value>232.72</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_900822f2-8069-45e0-9bea-ab0be7c0a124"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_86b0c7c1-98ed-49d4-9378-e88c697b2a84">
+<sensorasset:time>20210412182658.367</sensorasset:time>
+<sensorasset:value>233.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_900822f2-8069-45e0-9bea-ab0be7c0a124"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_57ae5c29-46ec-4a60-8b71-0aeddac82621">
+<sensorasset:time>20210412183709.852</sensorasset:time>
+<sensorasset:value>233.25</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_900822f2-8069-45e0-9bea-ab0be7c0a124"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c8bdb1ba-6e6a-421a-b375-0febe447c55d">
+<sensorasset:time>20210412184721.094</sensorasset:time>
+<sensorasset:value>233.74</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_900822f2-8069-45e0-9bea-ab0be7c0a124"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_64a885ac-c182-453e-84a1-a84ec5675400">
+<sensorasset:time>20210412185732.361</sensorasset:time>
+<sensorasset:value>233.1</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_900822f2-8069-45e0-9bea-ab0be7c0a124"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_95ae7ccc-42bb-4911-8062-17eee6b83d67">
+<sensorasset:time>20210412190743.21</sensorasset:time>
+<sensorasset:value>233.14</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_900822f2-8069-45e0-9bea-ab0be7c0a124"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b273f5a2-ee0b-483b-affa-0a471473ec12">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80ccee93-73c0-40b0-8435-09cedd8e2e0f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_81b53003-eb21-4cfc-9074-349df526da05">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80ccee93-73c0-40b0-8435-09cedd8e2e0f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6a527140-62c2-4e2b-b6e1-77571dd8271e">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80ccee93-73c0-40b0-8435-09cedd8e2e0f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c0b8c57a-3bad-4f74-a5ad-e13489626d3b">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80ccee93-73c0-40b0-8435-09cedd8e2e0f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_afa52186-3233-47eb-ab83-9aa174cc8e66">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>0.35</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80ccee93-73c0-40b0-8435-09cedd8e2e0f"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_5e894702-7874-46d5-a3e4-bf347fafb5cb">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_126c34da-0ca8-4f43-b503-22f79fed0d3e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_12f90c19-1f5c-4add-9388-eb1d522886e9">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_126c34da-0ca8-4f43-b503-22f79fed0d3e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_245f9d50-e3f3-47a8-aae0-18c0f54781de">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_126c34da-0ca8-4f43-b503-22f79fed0d3e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_905044c6-3672-4f2c-bb96-fbcad86f399d">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_126c34da-0ca8-4f43-b503-22f79fed0d3e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7f12815e-c6ca-473d-922f-2b0e38210859">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>0.39</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_126c34da-0ca8-4f43-b503-22f79fed0d3e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c84f7421-c5e4-4df4-8cc2-8eab50b9eac6">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d3e77108-5adf-4803-8a6b-a8beda1a0822"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a44ccebf-7772-4690-9e27-eaecf40b3f0c">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d3e77108-5adf-4803-8a6b-a8beda1a0822"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_01227597-5ace-4c86-9223-0d69119551c9">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d3e77108-5adf-4803-8a6b-a8beda1a0822"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e14bf929-1bcb-4f27-ac93-cb02dbd94d17">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d3e77108-5adf-4803-8a6b-a8beda1a0822"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8fc13605-6c63-4361-a31c-bdeaee2ca28d">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>0.43</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d3e77108-5adf-4803-8a6b-a8beda1a0822"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1882ce0d-83d6-4b1e-9299-e3ba95bf87d9">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9f97863a-19ea-4be2-b198-ef4c13cd47fc"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0c26d514-a89e-43a7-8fed-0f4681da0cbb">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>0.1</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f38ce752-c24c-4502-bd69-aedb4124af08"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_cabd451e-55b7-42dc-9f76-c666413031c3">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>318.49</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_60546b9e-0a00-4f5d-aa7a-4b34346399f0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_132f0596-2da4-4bc9-a8f1-703c7468eba6">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>299.08</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_60546b9e-0a00-4f5d-aa7a-4b34346399f0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e2891262-070d-4af7-9592-ae06e690a6c2">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>256.3</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_60546b9e-0a00-4f5d-aa7a-4b34346399f0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_35992d85-d66e-4e27-a730-a9d8a93c6b8f">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>112.27</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_60546b9e-0a00-4f5d-aa7a-4b34346399f0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d2cab98b-6aaf-422f-81d2-3e6059bbbbc7">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>200.52</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_60546b9e-0a00-4f5d-aa7a-4b34346399f0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_685a0c9a-21be-4274-8ebe-ff23e7140bdb">
+<sensorasset:time>20210412180635.337</sensorasset:time>
+<sensorasset:value>39.15</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_60546b9e-0a00-4f5d-aa7a-4b34346399f0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bedcbb05-8a53-4c7b-9bd3-dc8b33a314ef">
+<sensorasset:time>20210412181647.051</sensorasset:time>
+<sensorasset:value>17.34</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_60546b9e-0a00-4f5d-aa7a-4b34346399f0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2fd749be-511b-48bb-8098-e2f493e413f8">
+<sensorasset:time>20210412182658.367</sensorasset:time>
+<sensorasset:value>11.48</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_60546b9e-0a00-4f5d-aa7a-4b34346399f0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d98dfeb0-ecc2-4dd2-a261-e9927791201a">
+<sensorasset:time>20210412183709.852</sensorasset:time>
+<sensorasset:value>10.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_60546b9e-0a00-4f5d-aa7a-4b34346399f0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_74b29ab1-13be-43f0-8f60-9dfdd24a850a">
+<sensorasset:time>20210412184721.094</sensorasset:time>
+<sensorasset:value>9.77</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_60546b9e-0a00-4f5d-aa7a-4b34346399f0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2da0f11b-d3f7-4f16-9ff8-474472621615">
+<sensorasset:time>20210412185732.361</sensorasset:time>
+<sensorasset:value>10.14</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_60546b9e-0a00-4f5d-aa7a-4b34346399f0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_260d060d-9414-4ee7-9931-b3ff57602067">
+<sensorasset:time>20210412190743.21</sensorasset:time>
+<sensorasset:value>9.99</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_60546b9e-0a00-4f5d-aa7a-4b34346399f0"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ff67698c-12ea-4ebd-955e-15bcefbdc7a6">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>357.46</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_988554de-72f5-4fb7-9020-3a9b728cd4e6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1b08806f-0c6d-491d-b3c6-4c8508bd97b8">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>118.65</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_988554de-72f5-4fb7-9020-3a9b728cd4e6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3a0888e8-838b-4970-b6d3-2da18f348ef4">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>118.48</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_988554de-72f5-4fb7-9020-3a9b728cd4e6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b5bdc9e0-0c0d-4fbd-875d-b1f094570df4">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>118.38</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_988554de-72f5-4fb7-9020-3a9b728cd4e6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fa215c5b-5f44-4a16-b221-49db86f8f9a1">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>153.77</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_988554de-72f5-4fb7-9020-3a9b728cd4e6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_650134f7-e608-41e7-bdbb-16152db8d88b">
+<sensorasset:time>20210412180635.337</sensorasset:time>
+<sensorasset:value>42.14</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_988554de-72f5-4fb7-9020-3a9b728cd4e6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f128857e-d08a-4ed8-8de0-05948573b43e">
+<sensorasset:time>20210412181647.051</sensorasset:time>
+<sensorasset:value>21.94</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_988554de-72f5-4fb7-9020-3a9b728cd4e6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fc8a0cee-1328-4e1b-a757-f9d0e6e61f72">
+<sensorasset:time>20210412182658.367</sensorasset:time>
+<sensorasset:value>15.61</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_988554de-72f5-4fb7-9020-3a9b728cd4e6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_90cb0b5e-2830-424c-8cb2-36c7a6ced008">
+<sensorasset:time>20210412183709.852</sensorasset:time>
+<sensorasset:value>13.23</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_988554de-72f5-4fb7-9020-3a9b728cd4e6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4fd13804-328e-4e4c-9b56-5cdbcb8d3930">
+<sensorasset:time>20210412184721.094</sensorasset:time>
+<sensorasset:value>12.92</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_988554de-72f5-4fb7-9020-3a9b728cd4e6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1fa6a15b-3860-4dc0-aae9-260930c075bb">
+<sensorasset:time>20210412185732.361</sensorasset:time>
+<sensorasset:value>13.51</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_988554de-72f5-4fb7-9020-3a9b728cd4e6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b70b6c96-ae30-416b-a6e8-d5e2cdb4f675">
+<sensorasset:time>20210412190743.21</sensorasset:time>
+<sensorasset:value>13.5</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_988554de-72f5-4fb7-9020-3a9b728cd4e6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f060ef0e-157c-43d5-8136-57bfd7c1abb3">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>293.45</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_32775f9f-b151-4a2f-aeb4-3026915a3cda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6539bea8-039b-4939-a24c-30b0c76baaef">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>265.3</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_32775f9f-b151-4a2f-aeb4-3026915a3cda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_abd00ae5-9b7a-4d4d-b42f-ed8c22e36750">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>208.09</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_32775f9f-b151-4a2f-aeb4-3026915a3cda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_be95a9af-ea91-430f-bd06-7f10ff0e8e40">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>159.93</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_32775f9f-b151-4a2f-aeb4-3026915a3cda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c7221135-f716-4a51-9053-138d986dc778">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>113.84</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_32775f9f-b151-4a2f-aeb4-3026915a3cda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_07ab4220-e3fc-4923-8629-73032d574360">
+<sensorasset:time>20210412180635.337</sensorasset:time>
+<sensorasset:value>41.4</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_32775f9f-b151-4a2f-aeb4-3026915a3cda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fa89bda2-17d4-4ee3-b4ce-32d44fa9cc96">
+<sensorasset:time>20210412181647.051</sensorasset:time>
+<sensorasset:value>19.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_32775f9f-b151-4a2f-aeb4-3026915a3cda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0a3dad10-041c-4462-a32e-110a57de4001">
+<sensorasset:time>20210412182658.367</sensorasset:time>
+<sensorasset:value>13.17</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_32775f9f-b151-4a2f-aeb4-3026915a3cda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c2dc6cd5-4b4e-4d45-923e-22d0856e46b6">
+<sensorasset:time>20210412183709.852</sensorasset:time>
+<sensorasset:value>11.42</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_32775f9f-b151-4a2f-aeb4-3026915a3cda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_40bf26c4-3e6c-4190-8fb1-bcd20dce8bcf">
+<sensorasset:time>20210412184721.094</sensorasset:time>
+<sensorasset:value>11.15</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_32775f9f-b151-4a2f-aeb4-3026915a3cda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c613685f-11a5-42b2-9502-f300744956bb">
+<sensorasset:time>20210412185732.361</sensorasset:time>
+<sensorasset:value>12.49</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_32775f9f-b151-4a2f-aeb4-3026915a3cda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_04ebfc21-f832-4007-b33a-34e732ed94c8">
+<sensorasset:time>20210412190743.21</sensorasset:time>
+<sensorasset:value>11.4</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_32775f9f-b151-4a2f-aeb4-3026915a3cda"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ba452eba-3207-41f6-971f-ea0bc70b6b19">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_17e6afac-3e1d-4b37-87b2-9d871c122767"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4f4a3fb6-86d0-4d2c-b0cc-2d8d55b69526">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_17e6afac-3e1d-4b37-87b2-9d871c122767"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_84f2e726-8a18-42f3-a310-46a05d6c4bbb">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_17e6afac-3e1d-4b37-87b2-9d871c122767"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7d50e772-9193-4c51-8633-41fb298ca150">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_17e6afac-3e1d-4b37-87b2-9d871c122767"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_cdac5e04-38c9-4ee8-9dc3-bf4420ac9f99">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_17e6afac-3e1d-4b37-87b2-9d871c122767"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f2014397-712d-4d7c-b82d-1016ee4bb8db">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d1abd3e1-a534-472f-b468-44ab58de6fc1"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4423f069-1065-4f26-8eeb-594a258e1f75">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d1abd3e1-a534-472f-b468-44ab58de6fc1"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1ebb6044-2364-4c07-b5ad-4e13b40cd881">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d1abd3e1-a534-472f-b468-44ab58de6fc1"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_82fbf652-a9bb-4df8-8213-e1a5b0d7e0cb">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d1abd3e1-a534-472f-b468-44ab58de6fc1"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_893bf7a6-bb55-4a00-a2e1-17cf62521485">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d1abd3e1-a534-472f-b468-44ab58de6fc1"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0fa19893-f1ef-4136-a2b7-142139d996b3">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>0.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4f88163b-b425-42f2-abf8-823f5e0cc7d7"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_da7bb6e6-283b-4d5e-b7ea-331cd0148cd8">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4f88163b-b425-42f2-abf8-823f5e0cc7d7"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6947a2dc-8975-4d5c-a546-4e6c62ccdc49">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4f88163b-b425-42f2-abf8-823f5e0cc7d7"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f4a75964-7e65-4544-b1a7-1552aa226b15">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4f88163b-b425-42f2-abf8-823f5e0cc7d7"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b79f4e04-b6a2-475d-8a87-f09e383f698f">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4f88163b-b425-42f2-abf8-823f5e0cc7d7"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_45963e19-bddd-426c-8866-fe21c672b7ad">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>10.33</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_855bfd3f-c2f3-4792-afeb-65035dab78b6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a0a2c1d8-d78d-4cbb-9ac5-65dcc8421b17">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>9.87</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_855bfd3f-c2f3-4792-afeb-65035dab78b6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_360fa4ed-1ff0-48e3-9732-ed49a65114ea">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>8.47</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_855bfd3f-c2f3-4792-afeb-65035dab78b6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_089c6160-7d52-4e7b-a9de-93460b44b185">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>3.39</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_855bfd3f-c2f3-4792-afeb-65035dab78b6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_559510e1-8cd4-4e8f-96d4-de6f65a6eb08">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>6.57</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_855bfd3f-c2f3-4792-afeb-65035dab78b6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_df05d130-5b69-4142-8c42-5c244008cd01">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>13.35</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4534c69c-3946-4894-b7ba-eb205e94bea8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_53e878d0-52e6-4c2c-8085-481b802d76c3">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>4.66</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4534c69c-3946-4894-b7ba-eb205e94bea8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d7457b63-19cd-48bf-b022-76dea4eff938">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>2.93</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4534c69c-3946-4894-b7ba-eb205e94bea8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6c25bd35-f700-4044-a562-06deb4497392">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>2.21</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4534c69c-3946-4894-b7ba-eb205e94bea8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2fbae97b-f2c4-4f71-8a94-21218cf37437">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>2.38</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4534c69c-3946-4894-b7ba-eb205e94bea8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d24566d0-32c2-46f7-ad78-94d1f75e8f6c">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>20.28</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_5590bd9b-3e72-48ed-82dd-a32745f9532c"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2c19ebe5-68c4-42c7-b37a-7249cd9fed81">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>16.89</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_5590bd9b-3e72-48ed-82dd-a32745f9532c"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ce3dc8c4-f2cb-46ed-8877-4379f5030abd">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>11.67</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_5590bd9b-3e72-48ed-82dd-a32745f9532c"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_eba60d13-4efc-437b-9625-f4b8d05aaa28">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>8.29</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_5590bd9b-3e72-48ed-82dd-a32745f9532c"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bfde6c1a-9f90-458c-a6aa-381a4d6f109c">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>5.55</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_5590bd9b-3e72-48ed-82dd-a32745f9532c"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7b104d53-a294-4cd5-99fa-43b9a938b617">
+<sensorasset:time>20210412171538.083</sensorasset:time>
+<sensorasset:value>12725569.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4eb4cdc3-8312-4d42-8b10-26b02a2c3b43"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_188a0276-af1c-4eba-baf6-b454bff2bc15">
+<sensorasset:time>20210412172549.598</sensorasset:time>
+<sensorasset:value>12725569.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4eb4cdc3-8312-4d42-8b10-26b02a2c3b43"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b68782cd-fb04-448f-896c-6ae4ab08136f">
+<sensorasset:time>20210412173601.082</sensorasset:time>
+<sensorasset:value>12725569.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4eb4cdc3-8312-4d42-8b10-26b02a2c3b43"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_5af87140-211f-4229-af81-e7e325d947ec">
+<sensorasset:time>20210412174612.438</sensorasset:time>
+<sensorasset:value>12725569.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4eb4cdc3-8312-4d42-8b10-26b02a2c3b43"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_06697e61-ca34-4054-a89b-e544dc03758d">
+<sensorasset:time>20210412175623.818</sensorasset:time>
+<sensorasset:value>12725569.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4eb4cdc3-8312-4d42-8b10-26b02a2c3b43"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_115ef7e3-55af-41e1-89ac-0a9d3eddc021">
+<sensorasset:time>20210412180635.337</sensorasset:time>
+<sensorasset:value>12725569.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4eb4cdc3-8312-4d42-8b10-26b02a2c3b43"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_82b30b67-38a3-49c4-9a7f-0f8e61ae8afc">
+<sensorasset:time>20210412181647.051</sensorasset:time>
+<sensorasset:value>12725569.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4eb4cdc3-8312-4d42-8b10-26b02a2c3b43"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_617b43ad-8f27-45bc-adc1-3f2ece2cb411">
+<sensorasset:time>20210412182658.367</sensorasset:time>
+<sensorasset:value>12725569.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4eb4cdc3-8312-4d42-8b10-26b02a2c3b43"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f7164d44-74e0-4266-b6f7-4492828b24f0">
+<sensorasset:time>20210412183709.852</sensorasset:time>
+<sensorasset:value>12725569.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4eb4cdc3-8312-4d42-8b10-26b02a2c3b43"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_79cb0151-73fc-458f-92f4-fe50c1325d82">
+<sensorasset:time>20210412184721.094</sensorasset:time>
+<sensorasset:value>12725569.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4eb4cdc3-8312-4d42-8b10-26b02a2c3b43"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_964eca86-2eb9-4815-980d-c74412e92943">
+<sensorasset:time>20210412185732.361</sensorasset:time>
+<sensorasset:value>12725569.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4eb4cdc3-8312-4d42-8b10-26b02a2c3b43"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a9426749-591f-4d52-ada4-d17b009416a4">
+<sensorasset:time>20210412190743.21</sensorasset:time>
+<sensorasset:value>12725569.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4eb4cdc3-8312-4d42-8b10-26b02a2c3b43"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c49b3d09-06da-48db-8fa4-5488407d794d">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>319.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f9787b39-bf82-412f-afa9-8149842a7c0e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f7821b01-ecd0-455b-86b9-bc2b9ac22e8c">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>298.84</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f9787b39-bf82-412f-afa9-8149842a7c0e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2573040b-82a8-48c6-830c-fc66f812435a">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>254.74</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f9787b39-bf82-412f-afa9-8149842a7c0e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bebb0246-b67e-4bb8-a8f8-63c0319cc851">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>199.77</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f9787b39-bf82-412f-afa9-8149842a7c0e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4f70c33e-6ff1-4f97-aeb3-0d4a12b36e5c">
+<sensorasset:time>20210412175629.432</sensorasset:time>
+<sensorasset:value>105.2</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f9787b39-bf82-412f-afa9-8149842a7c0e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_5be43829-383c-46a7-8a06-dca21dbcc449">
+<sensorasset:time>20210412180641.148</sensorasset:time>
+<sensorasset:value>44.07</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f9787b39-bf82-412f-afa9-8149842a7c0e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4ff69258-694c-437d-bba6-4cd5dc661004">
+<sensorasset:time>20210412181652.865</sensorasset:time>
+<sensorasset:value>40.68</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f9787b39-bf82-412f-afa9-8149842a7c0e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1fe1ca2c-6911-41c4-8ee5-01b3bad2f175">
+<sensorasset:time>20210412182704.115</sensorasset:time>
+<sensorasset:value>36.94</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f9787b39-bf82-412f-afa9-8149842a7c0e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_18ca2cb6-80a6-4fa9-868d-f4b195f95dfb">
+<sensorasset:time>20210412183715.585</sensorasset:time>
+<sensorasset:value>35.01</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f9787b39-bf82-412f-afa9-8149842a7c0e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a5ac1722-be8c-4bfc-b729-baabd231cdcc">
+<sensorasset:time>20210412184726.804</sensorasset:time>
+<sensorasset:value>34.86</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f9787b39-bf82-412f-afa9-8149842a7c0e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d547a6a8-8012-4c91-9764-0e961a4a88a8">
+<sensorasset:time>20210412185737.764</sensorasset:time>
+<sensorasset:value>35.71</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f9787b39-bf82-412f-afa9-8149842a7c0e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_becfb011-8b34-4e24-aa90-f55d457768db">
+<sensorasset:time>20210412190748.706</sensorasset:time>
+<sensorasset:value>35.98</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f9787b39-bf82-412f-afa9-8149842a7c0e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_72a3cc43-b7cc-4d72-a7e5-178dba49a4e6">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>120.71</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_974fd9c7-2bc6-4ba2-b3b2-0f7cfc1e2455"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ee00eb11-f342-4806-9568-5c7eefaa995f">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>118.81</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_974fd9c7-2bc6-4ba2-b3b2-0f7cfc1e2455"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b8926794-1207-44be-ab76-892ab39e84d9">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>118.62</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_974fd9c7-2bc6-4ba2-b3b2-0f7cfc1e2455"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ee3d7581-84a1-4f23-ade9-b0e54fc1a311">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>118.47</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_974fd9c7-2bc6-4ba2-b3b2-0f7cfc1e2455"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_eb8f5457-d35e-43f2-8ba3-cb7bb9c84c4d">
+<sensorasset:time>20210412175629.432</sensorasset:time>
+<sensorasset:value>105.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_974fd9c7-2bc6-4ba2-b3b2-0f7cfc1e2455"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_301c326b-3089-4d12-a4e6-d96b2065c50a">
+<sensorasset:time>20210412180641.148</sensorasset:time>
+<sensorasset:value>43.77</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_974fd9c7-2bc6-4ba2-b3b2-0f7cfc1e2455"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_86a830ea-39d8-4a21-90a6-a11e23e78264">
+<sensorasset:time>20210412181652.865</sensorasset:time>
+<sensorasset:value>26.4</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_974fd9c7-2bc6-4ba2-b3b2-0f7cfc1e2455"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_27dc28b6-7572-4a96-8710-66222c257635">
+<sensorasset:time>20210412182704.115</sensorasset:time>
+<sensorasset:value>20.35</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_974fd9c7-2bc6-4ba2-b3b2-0f7cfc1e2455"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_72f2b500-373f-4a21-a8f1-1486dc2ad05f">
+<sensorasset:time>20210412183715.585</sensorasset:time>
+<sensorasset:value>18.75</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_974fd9c7-2bc6-4ba2-b3b2-0f7cfc1e2455"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0d8fd9bc-0207-4dea-8f7f-1a644f7e89cd">
+<sensorasset:time>20210412184726.804</sensorasset:time>
+<sensorasset:value>18.5</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_974fd9c7-2bc6-4ba2-b3b2-0f7cfc1e2455"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2d745de7-a004-4414-9ed4-7e05cdffddaa">
+<sensorasset:time>20210412185737.764</sensorasset:time>
+<sensorasset:value>20.8</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_974fd9c7-2bc6-4ba2-b3b2-0f7cfc1e2455"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_74dd3174-ba0f-4d76-b60d-61cb3145d7b8">
+<sensorasset:time>20210412190748.706</sensorasset:time>
+<sensorasset:value>18.57</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_974fd9c7-2bc6-4ba2-b3b2-0f7cfc1e2455"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3b7eefaf-dc04-406d-9214-1bfa2087d754">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>268.47</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae46978d-3856-48c9-a16a-55ed1b091a93"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b4c846d4-d574-4791-9200-a15498fbe9e5">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>258.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae46978d-3856-48c9-a16a-55ed1b091a93"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_928d6fad-6487-46e4-9e90-18d2c06cc856">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>243.97</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae46978d-3856-48c9-a16a-55ed1b091a93"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_662cc2a5-c5a3-47f3-b242-94b32cb273a9">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>159.22</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae46978d-3856-48c9-a16a-55ed1b091a93"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_97dd9372-623a-4f12-880c-021810f92716">
+<sensorasset:time>20210412175629.432</sensorasset:time>
+<sensorasset:value>104.76</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae46978d-3856-48c9-a16a-55ed1b091a93"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2c4090a4-c0ad-46ea-b8e4-e0e2b13b8f8e">
+<sensorasset:time>20210412180641.148</sensorasset:time>
+<sensorasset:value>42.01</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae46978d-3856-48c9-a16a-55ed1b091a93"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4874eb38-bb29-4b73-a1f3-60ffbc41f76c">
+<sensorasset:time>20210412181652.865</sensorasset:time>
+<sensorasset:value>19.09</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae46978d-3856-48c9-a16a-55ed1b091a93"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2c3b154a-01d2-4d25-8846-2dbbe7618f48">
+<sensorasset:time>20210412182704.115</sensorasset:time>
+<sensorasset:value>13.55</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae46978d-3856-48c9-a16a-55ed1b091a93"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_76952b19-3b82-42d6-848c-352f52bc8a71">
+<sensorasset:time>20210412183715.585</sensorasset:time>
+<sensorasset:value>12.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae46978d-3856-48c9-a16a-55ed1b091a93"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bc939954-4af5-4390-b71f-95ad14eba8eb">
+<sensorasset:time>20210412184726.804</sensorasset:time>
+<sensorasset:value>11.77</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae46978d-3856-48c9-a16a-55ed1b091a93"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_07bbe2e2-216b-4b9d-ad1c-bbec45247121">
+<sensorasset:time>20210412185737.764</sensorasset:time>
+<sensorasset:value>14.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae46978d-3856-48c9-a16a-55ed1b091a93"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_550bc1c8-7f95-46bd-9ec3-9f6a74ef9478">
+<sensorasset:time>20210412190748.706</sensorasset:time>
+<sensorasset:value>11.99</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae46978d-3856-48c9-a16a-55ed1b091a93"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_97da2544-8001-4561-8ebd-0a26f541e547">
+<sensorasset:time>20210412171545.099</sensorasset:time>
+<sensorasset:value>304.7</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1b09857c-3e8c-4a28-89bc-e2c663631862"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3ebf7333-456f-4780-bd75-84e62f41ac43">
+<sensorasset:time>20210412172556.829</sensorasset:time>
+<sensorasset:value>269.2</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1b09857c-3e8c-4a28-89bc-e2c663631862"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c15fc4b2-6a2b-4fe0-b3f0-cf81cf2e1fc7">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>0.01</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ffb6843a-8308-4127-8154-1c3a37493396"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_86018942-fe89-4499-81a3-6228c3da206c">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>0.01</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ffb6843a-8308-4127-8154-1c3a37493396"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_686e92aa-40e9-4840-9900-c90162e92746">
+<sensorasset:time>20210412171545.099</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_b909dbb6-aa51-4b26-a581-3e45a313f752"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1edafae9-2da7-4fac-be66-83a7f654d90a">
+<sensorasset:time>20210412172556.829</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_b909dbb6-aa51-4b26-a581-3e45a313f752"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_cc0fed7c-cec6-466a-ae1c-593eadc8097a">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>0.05</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e1699394-6f59-4cfe-84b2-55ff846b7140"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2ec5f45c-d883-4ab3-994d-c3eccfe6f11b">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e1699394-6f59-4cfe-84b2-55ff846b7140"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_dff73434-5d2f-4dc8-8e56-8c79f1961988">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e1699394-6f59-4cfe-84b2-55ff846b7140"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_cbf2c86a-d6bb-4d67-bb3f-f69bcbdd2d77">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>0.02</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e1699394-6f59-4cfe-84b2-55ff846b7140"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d86f6c8e-670b-4713-9e4f-8a572a6dd144">
+<sensorasset:time>20210412171545.099</sensorasset:time>
+<sensorasset:value>0.01</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ec8733d8-7a81-48a1-8ab5-6454594e12b9"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4189c7ad-a38e-4693-b48c-50f64c876217">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>0.06</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0a9d69f-8f56-4386-b471-4cb9952b12be"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d055ad5e-a785-4e83-b6ea-d0017ca17664">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>0.04</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0a9d69f-8f56-4386-b471-4cb9952b12be"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_9d2944ba-8860-46d8-a5d4-8854ed7b4ccd">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0a9d69f-8f56-4386-b471-4cb9952b12be"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_80dd91e7-7ae8-464a-8d57-12337e87aa14">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>0.03</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0a9d69f-8f56-4386-b471-4cb9952b12be"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_263f9981-eedf-47fb-8d7f-b55975206675">
+<sensorasset:time>20210412171545.099</sensorasset:time>
+<sensorasset:value>0.01</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0c4fc8c6-0a59-4f17-a4fb-817edcc3c6ae"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_947adb5e-f308-49f6-a353-449e4fdb58d5">
+<sensorasset:time>20210412172556.829</sensorasset:time>
+<sensorasset:value>0.01</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0c4fc8c6-0a59-4f17-a4fb-817edcc3c6ae"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_48a8af90-8573-4405-8374-92d9afe2fb57">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>5</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9c05ac60-9ee3-4a98-8fa3-9a2cb9bb0541"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_97fc1c1b-eeaf-493b-8f45-5e340a14752f">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>1.2</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3556f821-23a5-43e6-9774-b5482dedfb97"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a019aee2-806e-4ced-8165-9f78dc75b224">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>1.13</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3556f821-23a5-43e6-9774-b5482dedfb97"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a305f915-4e7c-4cc0-b49c-74d8bb29086f">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>1.26</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3556f821-23a5-43e6-9774-b5482dedfb97"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6138b90c-eb05-447d-8a44-9f35478ce40b">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>1.14</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3556f821-23a5-43e6-9774-b5482dedfb97"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ddbd7eef-23ff-464f-870e-664925e61fc3">
+<sensorasset:time>20210412171545.099</sensorasset:time>
+<sensorasset:value>10</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d9a73a34-423a-4d49-b3cf-328e4b37aedb"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4b22cd67-858a-4ef0-8cc5-73363ed1aed8">
+<sensorasset:time>20210412172556.829</sensorasset:time>
+<sensorasset:value>8</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d9a73a34-423a-4d49-b3cf-328e4b37aedb"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3f0d1358-fd58-42a8-89a2-7b7ce53d3fe4">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>11</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_95318865-cd63-466b-ad60-5502f9cda9cf"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_44fce81b-e383-4c93-916a-ae1ddfd8d739">
+<sensorasset:time>20210412172553.947</sensorasset:time>
+<sensorasset:value>5</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_95318865-cd63-466b-ad60-5502f9cda9cf"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_44b42856-5965-4b71-b55d-b09c578c97de">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>5.8</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4bbe6819-b948-4a6c-9977-6473eeacac4e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fd2fd7a1-623c-4306-9da5-b9fa65e9bd79">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>3.68</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4bbe6819-b948-4a6c-9977-6473eeacac4e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_20c0832e-995f-467a-b85a-f8306785baa2">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>1.89</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4bbe6819-b948-4a6c-9977-6473eeacac4e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d0a1d3a0-cfc3-4dac-9072-f8750400eaf3">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>1.46</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4bbe6819-b948-4a6c-9977-6473eeacac4e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fa8ed55a-b30e-4a33-8427-4878b3fcd4e6">
+<sensorasset:time>20210412171545.099</sensorasset:time>
+<sensorasset:value>2</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9350c572-76a1-4ea1-849e-2d176ff1997d"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c15293dd-56e7-426b-ab90-0e9b8c079eed">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>12</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_36dc139c-089d-4682-9a13-692b0fe925b1"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_0a8ab757-5219-49fb-8f9c-424b7dece916">
+<sensorasset:time>20210412172553.947</sensorasset:time>
+<sensorasset:value>6</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_36dc139c-089d-4682-9a13-692b0fe925b1"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3de87966-80f1-4f23-9648-a7084827ba07">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>15.26</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_962fa96f-486b-4f25-970d-bc078efae5da"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f411e192-fed6-4c33-87d1-6f7c895bc6b4">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>10.72</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_962fa96f-486b-4f25-970d-bc078efae5da"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_36955e2c-f40e-4735-b897-6680a3526917">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>6.29</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_962fa96f-486b-4f25-970d-bc078efae5da"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b91cdcff-dabb-497a-9cef-941e2f10519c">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>4.75</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_962fa96f-486b-4f25-970d-bc078efae5da"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_71cea592-7270-4273-9277-c02e8b09c5ab">
+<sensorasset:time>20210412171545.099</sensorasset:time>
+<sensorasset:value>3</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c6f1e514-e111-498c-80ea-ed9a8100cf6e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_b89d2307-b660-4329-a9aa-2020bb301300">
+<sensorasset:time>20210412172556.829</sensorasset:time>
+<sensorasset:value>2</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c6f1e514-e111-498c-80ea-ed9a8100cf6e"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_eb33988f-4f56-4edb-a3c1-10fbc1dd81e9">
+<sensorasset:time>20210412171540.932</sensorasset:time>
+<sensorasset:value>20702854</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a50e6521-cf4b-426d-ad27-4c75b168e96a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_448bb437-fc5c-4844-8410-4f77a6d2cdb9">
+<sensorasset:time>20210412172552.639</sensorasset:time>
+<sensorasset:value>20702854</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a50e6521-cf4b-426d-ad27-4c75b168e96a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3d38f554-dfd3-42e8-bb2e-44039d66a1ee">
+<sensorasset:time>20210412173603.865</sensorasset:time>
+<sensorasset:value>20702854</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a50e6521-cf4b-426d-ad27-4c75b168e96a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_450c5c20-e138-4585-98ff-cec6f98e0c71">
+<sensorasset:time>20210412174615.241</sensorasset:time>
+<sensorasset:value>20702854</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a50e6521-cf4b-426d-ad27-4c75b168e96a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_977cf3f6-ad39-4717-b0f7-405b94cd7f52">
+<sensorasset:time>20210412175626.63</sensorasset:time>
+<sensorasset:value>20702854</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a50e6521-cf4b-426d-ad27-4c75b168e96a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f21b26d1-2234-4c7a-bff3-67f1104917f8">
+<sensorasset:time>20210412181650.07</sensorasset:time>
+<sensorasset:value>20702854</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a50e6521-cf4b-426d-ad27-4c75b168e96a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_54aa8572-ba46-44e4-919b-61028fb5a442">
+<sensorasset:time>20210412180638.144</sensorasset:time>
+<sensorasset:value>20702854</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a50e6521-cf4b-426d-ad27-4c75b168e96a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3acf6f07-dc3a-469c-96f9-874124b9419e">
+<sensorasset:time>20210412182701.355</sensorasset:time>
+<sensorasset:value>20702854</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a50e6521-cf4b-426d-ad27-4c75b168e96a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_16b2c734-0bd8-4c5a-95f9-80cbac196ac3">
+<sensorasset:time>20210412183712.814</sensorasset:time>
+<sensorasset:value>20702854</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a50e6521-cf4b-426d-ad27-4c75b168e96a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e4b24a56-70c3-4c7d-b636-acf9b2ca131d">
+<sensorasset:time>20210412184723.882</sensorasset:time>
+<sensorasset:value>20702854</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a50e6521-cf4b-426d-ad27-4c75b168e96a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ea4c5acc-7f31-4574-8dac-da0767898bc3">
+<sensorasset:time>20210412185735.074</sensorasset:time>
+<sensorasset:value>20702854</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a50e6521-cf4b-426d-ad27-4c75b168e96a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_6aab33f2-b929-401d-804a-9ac2e661d366">
+<sensorasset:time>20210412190746.01</sensorasset:time>
+<sensorasset:value>20702854</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a50e6521-cf4b-426d-ad27-4c75b168e96a"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_7b37ea3d-62aa-4295-afdc-faa0bdc4bb6a">
+<sensorasset:time>20210412171542.267</sensorasset:time>
+<sensorasset:value>45287383</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_48854044-825b-441b-a446-d1e8c05b2df6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d8d515c8-a75c-4de4-93c7-428d14e6ec41">
+<sensorasset:time>20210412172553.947</sensorasset:time>
+<sensorasset:value>45287384</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_48854044-825b-441b-a446-d1e8c05b2df6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_5b303a1b-6fd5-4d46-8442-26e5feba10ae">
+<sensorasset:time>20210412173605.165</sensorasset:time>
+<sensorasset:value>45287384</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_48854044-825b-441b-a446-d1e8c05b2df6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_c1cb14cc-6670-4b2b-a4ca-c96e6f412d82">
+<sensorasset:time>20210412174616.578</sensorasset:time>
+<sensorasset:value>45287384</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_48854044-825b-441b-a446-d1e8c05b2df6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_1c9bf632-ca1b-4bbc-9b29-d1f449f16c98">
+<sensorasset:time>20210412175627.963</sensorasset:time>
+<sensorasset:value>45287384</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_48854044-825b-441b-a446-d1e8c05b2df6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_bf7baacf-1b38-42af-baca-77a2d394f319">
+<sensorasset:time>20210412180639.507</sensorasset:time>
+<sensorasset:value>45287384</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_48854044-825b-441b-a446-d1e8c05b2df6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_61c24e0a-c54b-4880-8fc5-879d76703d46">
+<sensorasset:time>20210412181651.368</sensorasset:time>
+<sensorasset:value>45287384</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_48854044-825b-441b-a446-d1e8c05b2df6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_517919eb-8756-4d68-b337-37d90ac6e487">
+<sensorasset:time>20210412182702.635</sensorasset:time>
+<sensorasset:value>45287384</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_48854044-825b-441b-a446-d1e8c05b2df6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a9471ec0-2001-4687-be24-aba52353da32">
+<sensorasset:time>20210412183714.128</sensorasset:time>
+<sensorasset:value>45287384</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_48854044-825b-441b-a446-d1e8c05b2df6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_d45cba46-3704-4685-9081-70bce387873b">
+<sensorasset:time>20210412184725.234</sensorasset:time>
+<sensorasset:value>45287384</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_48854044-825b-441b-a446-d1e8c05b2df6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3c35e612-0ae8-4142-a84f-bf2ad71f9d0e">
+<sensorasset:time>20210412185736.35</sensorasset:time>
+<sensorasset:value>45287384</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_48854044-825b-441b-a446-d1e8c05b2df6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_384decb2-4502-484c-abaf-35674ef141c9">
+<sensorasset:time>20210412190747.275</sensorasset:time>
+<sensorasset:value>45287384</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_48854044-825b-441b-a446-d1e8c05b2df6"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_af8d0f1b-bdf6-4eb4-af3e-69a368258bba">
+<sensorasset:time>20210412171543.773</sensorasset:time>
+<sensorasset:value>11613703.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6b98ebc9-113b-446e-8eaf-4f82a25dc908"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_a1aaf5fc-edf2-4a7a-8cd1-de649afe97bc">
+<sensorasset:time>20210412172555.454</sensorasset:time>
+<sensorasset:value>11613703.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6b98ebc9-113b-446e-8eaf-4f82a25dc908"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e34b87fa-d22b-44f9-9aa6-3a73c5b0bdc3">
+<sensorasset:time>20210412173606.706</sensorasset:time>
+<sensorasset:value>11613703.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6b98ebc9-113b-446e-8eaf-4f82a25dc908"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fc3f3af2-d801-455f-8ba4-344b3c8d250b">
+<sensorasset:time>20210412174618.025</sensorasset:time>
+<sensorasset:value>11613703.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6b98ebc9-113b-446e-8eaf-4f82a25dc908"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_75f185f7-4fee-4ec5-ba22-947ff284b74f">
+<sensorasset:time>20210412175629.432</sensorasset:time>
+<sensorasset:value>11613703.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6b98ebc9-113b-446e-8eaf-4f82a25dc908"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_ec5dabec-2c95-4765-8066-159e5783e28b">
+<sensorasset:time>20210412180641.148</sensorasset:time>
+<sensorasset:value>11613703.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6b98ebc9-113b-446e-8eaf-4f82a25dc908"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_e2aa8517-0086-4e34-bebf-5dfa21f38177">
+<sensorasset:time>20210412181652.865</sensorasset:time>
+<sensorasset:value>11613703.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6b98ebc9-113b-446e-8eaf-4f82a25dc908"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_8ed30c29-40eb-4618-ac9e-9e3f055825a7">
+<sensorasset:time>20210412182704.115</sensorasset:time>
+<sensorasset:value>11613703.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6b98ebc9-113b-446e-8eaf-4f82a25dc908"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_34777de4-c616-4845-8bd5-6203e9680907">
+<sensorasset:time>20210412183715.585</sensorasset:time>
+<sensorasset:value>11613703.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6b98ebc9-113b-446e-8eaf-4f82a25dc908"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_baa29b0a-5b2a-42d5-8efc-ffd71784b9de">
+<sensorasset:time>20210412184726.804</sensorasset:time>
+<sensorasset:value>11613703.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6b98ebc9-113b-446e-8eaf-4f82a25dc908"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_fa54af0f-e444-4eee-b368-e25e91b9bbbd">
+<sensorasset:time>20210412185737.764</sensorasset:time>
+<sensorasset:value>11613703.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6b98ebc9-113b-446e-8eaf-4f82a25dc908"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_742d042d-a6c9-4f52-b6f0-b71cbf4859f7">
+<sensorasset:time>20210412190748.706</sensorasset:time>
+<sensorasset:value>11613703.0</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6b98ebc9-113b-446e-8eaf-4f82a25dc908"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_df68fc71-0295-4395-ad4d-9e682d428a16">
+<sensorasset:time>20210412172556.829</sensorasset:time>
+<sensorasset:value>40086006</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d806348c-dfac-49c6-b1bb-e528d434c9e8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2d363b1e-0fe7-4e14-9952-4ea897c68caa">
+<sensorasset:time>20210412171545.099</sensorasset:time>
+<sensorasset:value>40086006</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d806348c-dfac-49c6-b1bb-e528d434c9e8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_4170730b-ea27-4612-8f7f-0c88bd0f9270">
+<sensorasset:time>20210412173608.04</sensorasset:time>
+<sensorasset:value>40086006</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d806348c-dfac-49c6-b1bb-e528d434c9e8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_2d4942d0-3e3d-43b5-ab0b-82720dd84c34">
+<sensorasset:time>20210412174619.397</sensorasset:time>
+<sensorasset:value>40086006</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d806348c-dfac-49c6-b1bb-e528d434c9e8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_86562570-bb24-4060-b5bb-647b76e9d4fd">
+<sensorasset:time>20210412175630.814</sensorasset:time>
+<sensorasset:value>40086006</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d806348c-dfac-49c6-b1bb-e528d434c9e8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_3759dcd9-d092-4595-aefc-f3f5e26624a2">
+<sensorasset:time>20210412180642.52</sensorasset:time>
+<sensorasset:value>40086006</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d806348c-dfac-49c6-b1bb-e528d434c9e8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_26e8f472-4d5b-4f8d-aef1-284c1c0bc2a2">
+<sensorasset:time>20210412181654.177</sensorasset:time>
+<sensorasset:value>40086006</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d806348c-dfac-49c6-b1bb-e528d434c9e8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_60c3a0ed-44b6-4a0f-a80b-cdfbc8be17c2">
+<sensorasset:time>20210412182705.486</sensorasset:time>
+<sensorasset:value>40086006</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d806348c-dfac-49c6-b1bb-e528d434c9e8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_22c90224-5844-49ba-9860-6c799484cde0">
+<sensorasset:time>20210412183716.88</sensorasset:time>
+<sensorasset:value>40086006</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d806348c-dfac-49c6-b1bb-e528d434c9e8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_40986371-ad5b-454b-9ab2-3e5eaa3e415e">
+<sensorasset:time>20210412184728.149</sensorasset:time>
+<sensorasset:value>40086006</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d806348c-dfac-49c6-b1bb-e528d434c9e8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_f9dd574d-7e6c-490a-a020-c5f227e0966c">
+<sensorasset:time>20210412185738.998</sensorasset:time>
+<sensorasset:value>40086006</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d806348c-dfac-49c6-b1bb-e528d434c9e8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:TimeValuePair gml:id="TimeValuePairID_5e887e29-02ea-4ce7-b1a1-5912c2d3e77d">
+<sensorasset:time>20210412190750.024</sensorasset:time>
+<sensorasset:value>40086006</sensorasset:value>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d806348c-dfac-49c6-b1bb-e528d434c9e8"/>
+</sensorasset:TimeValuePair>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_2d295dc4-8f76-40bd-a57c-51777be6acb1">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv7-DailyEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_1b284561-92ef-48c0-953a-530343a9811d"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_c472c8e8-be91-461d-9333-6b1e35e6af97">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-DailyEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_e496eadd-7bcf-4121-aa77-1b337a8ed7b4"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_86755179-0963-40b4-ac8c-7233b69ec8c8">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-VoltagePhase1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_3be5ad03-e61c-47e1-97e0-49a09a30b376"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_18338199-2958-4162-95d9-96751709c6e7">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-VoltagePhase1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_b4bd9a4b-7b40-4cb3-a303-ef7864964ce8"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_fcd7c057-b8d0-4766-a298-d5507480125d">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-VoltagePhase2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_c4824910-de20-4bc7-8ee7-77007617e1a4"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_4cce1d46-e30a-41d7-b398-803f0b5e7572">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-VoltagePhase2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_6286eed8-b5bc-46e5-a8fd-c06fac798d6f"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_0075bda4-7d16-46ee-9728-918601afd6eb">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-VoltagePhase3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_eb622aa3-2e96-44d7-b458-e2b774f73e20"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_e0ab6656-4580-4bc7-9d01-134e95d6355b">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-CurrentPhase1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_23ae4acf-e94d-4976-bc65-d96b5f95b7fd"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_4584bbff-088b-4b45-ab6b-15ffead4c6e1">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-CurrentPhase2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_eb96abbd-8b51-4e46-871e-370e1612521b"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_7b91d8de-451e-4448-9703-548dafacc40a">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-CurrentPhase3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_b1bd1506-3956-4440-b89f-6cbbe23ba073"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_68e3c8b4-59df-4ee8-b063-752f262b4eee">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-VoltageString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_b4c9db2d-6a9b-4b68-8e2a-5631dcd88b25"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_775ccfb7-8e13-42c5-8239-17ca6c598ddb">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-VoltageString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_8965dba1-5ab7-497c-8da2-be189c3fc931"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_77b3827e-8548-4ff5-8b51-180fa6418b3f">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-VoltageString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_7e4cadd8-27b7-4e28-b3d1-e76ab76d106f"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_4b665436-2031-44f9-8d61-f38729ba1b78">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-CurrentString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_e4c8c0a3-ca4f-44d4-a9c9-238af845191e"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_2c4aeed2-6f45-446c-b24d-a5acdfc3bd2b">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-CurrentString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_69ec61db-0ae1-47fa-ba77-751102853e6b"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_c5255f7d-c945-461d-a617-f4e2c3fae4cd">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-CurrentString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_622512e0-da5b-4a27-a752-65d5e4dcd9c5"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_da516a84-7e56-4a81-ba63-a406326a5e56">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-OutputString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_04f4b640-e618-432b-bb8d-3be86ca2a334"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_9d20815e-d15b-4340-993f-1f35996b6cb5">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-OutputString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_5c1341ec-b812-4479-b817-9881c33c59b5"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_564bf6e8-acc9-48d3-a66a-556e3881a19a">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-OutputString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_7f8ad9dc-03e8-4ee8-8d5f-844182e7c709"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_c940c1e6-2614-4e94-a08d-f8d60b1892ab">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-TotalEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_558658da-8e2b-4101-9e61-dbb38fc78c2f"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_b13026df-6bf9-4dec-b53d-1082b7f2dd23">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-VoltageString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_96e51540-0cc9-468e-a8c3-3efbafb3ccd1"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_00e03136-109d-423a-bca8-39c4dff6866e">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-VoltageString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_6bf84996-c2a5-47c2-96e2-36ae14c84e6c"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_67e9a827-2dc4-4372-b521-4e36bf385933">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-VoltageString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_4d1f3514-d583-41fd-899f-07534ca07f65"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_dbdc166e-5bd6-4788-8b54-2d83ea18d71d">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-CurrentString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_ed6873f7-c6eb-42a8-a195-b62697f10574"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_a9fee382-5ccb-4136-8f85-25d2bd028044">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-CurrentString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_7ecea09e-435a-45ad-8a50-ccce05c68377"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_c7bfef8a-c0a8-4d64-a624-12228335e92a">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-CurrentString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_1f0ff68a-4d83-4bc4-9c99-fb4dc386557f"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_08cf4a26-e23d-4718-8714-7faf1394bcf5">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-OutputString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_5c44b7d0-7eda-40a1-8078-9debdfe3a6b5"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_dd14a565-ab38-4c69-a09d-b3a525befa1b">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-OutputString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_b7db2e46-622e-430f-9325-01cb8c8dd217"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_00b680df-17db-4f15-82d6-d6355edb01d9">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-OutputString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_4fd11f54-9275-4fa4-acb0-5bac26fb09b4"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_9e072a09-ebad-4c39-be76-dd2ebd1fc3ee">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-TotalEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_9c68e40a-c5ed-4f74-918a-bbe7a106416a"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_06ba5c89-b5d6-4bd5-826b-4a5147fb2af6">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-VoltagePhase1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_7af063c9-4873-4b43-9722-1b568c30616d"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_17437224-7b30-42f8-a6f2-e413ede0f144">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-VoltagePhase1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_54cb10ea-bd39-4fb6-8804-95ccad13edfc"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_2b2c61f1-cfd8-4ba2-bb29-1c93b338ffa5">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-VoltagePhase2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_95f6827b-bdc8-40b4-a24b-edcac357f7cd"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_d190e791-3968-47ce-9c77-fe0bf1b79bb4">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-VoltagePhase2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_871d6289-8908-44ce-a619-df8afb52b756"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_5c45e3ca-aae0-43e2-a0d7-22dc4d97425b">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-VoltagePhase3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_c03ced37-3282-4d03-ad79-fd2df0be855e"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_8d1f772b-1ec0-4e75-9c7d-c55f86deeca2">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-VoltagePhase3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_1b2d6d5a-0a2a-448b-9829-fcda90c865e7"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_85e2c623-a22e-412c-ac75-898e7ccf39fd">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-CurrentPhase1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_6ee73f20-2dda-4f2a-be55-993a54219735"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_dc95d537-ae92-40fb-9380-3338afda442f">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-CurrentPhase1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_b3db0d69-b096-499e-9b1c-d8f9d6db3e89"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_3d4d2f20-9799-48b5-85e8-fea2105f6124">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-CurrentPhase2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_ce8d87d8-5219-42a3-9e23-2af1b2e28257"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_89b4df67-bbe1-426c-84a3-a6996089be4f">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-CurrentPhase3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_7866b385-9d55-4675-9ffd-193a7a0c5c7c"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_1a7866f2-31c9-4fd6-bea0-ae5b18bd15cb">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-OutputPhase1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_daabb09a-1b8e-4efa-82dc-8fd4966693e9"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_0665fe8f-d1af-43ff-a11a-b79a235e9e31">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-VoltageString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_e378ed7a-c214-42b7-91c8-487bfceefecc"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_36d45d05-4748-4934-aede-87359827106f">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-VoltageString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_76e50ca2-481b-457e-ae3c-6d7d8e665256"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_76e0af18-63ab-48d7-b2e4-ff236d12a524">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-VoltageString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_80c6a242-cf88-46ec-a24a-4e915ab17831"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_2cb56b39-24a7-4351-a6e6-46c6a340f7c9">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-CurrentString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_a00a0e6b-d0e3-409b-b2bd-87a8e4cab5a6"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_8f25fc2e-8e51-4a85-906b-5d825565a6c9">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-CurrentString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_28bef0a2-eaa5-4701-a0f6-0bdd557d3cca"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_eac0acf8-7616-4ec5-846b-027091d6fc1b">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-CurrentString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_a0473113-1fc7-424d-8c10-4d696c1c012e"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_71fd6d42-c9f7-46be-80cc-9fbc14d15075">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv6-VoltageString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_ab007dd6-cf58-4815-9203-8ea1cd7a4ed1"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_bb24641b-22f9-4480-8083-f865d68ed652">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv6-VoltageString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_53ce5a36-ac6c-439d-bbd1-4d007604da91"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_925ba52b-7b82-43f4-a540-4acd2a1332a4">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-VoltagePhase1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_8f53105c-2aa1-4744-b937-51a0f9f0c716"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_5e37adcf-75fe-42aa-97aa-884eb6651cb6">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-VoltagePhase2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_39ef25e7-f310-47a7-8019-697a7a5350d8"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_f811543e-ea02-4663-a92b-65105005430f">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-VoltagePhase3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_7dc40eb0-d9dd-41b7-abce-24b6c69417fe"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_d1479ab1-8170-4b40-ab50-15a65be1a591">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-CurrentPhase1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_f4f1e00f-bc05-44c5-bdc9-baa3461454b4"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_60f5643c-7be2-43cc-9be0-1896bd4c2290">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-CurrentPhase2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_7e1d9b1e-d90e-4363-b017-ae229eede93e"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_6d5de298-33ca-4be8-b1c6-aca8cf3b7a34">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-CurrentPhase3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_101c751c-5374-4028-94d9-09abe65c4d2d"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_9afef549-ecfc-4dd6-bf5f-83bde49b7463">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv8-OutputPhase2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_add58ccf-935c-4072-9c29-b06aeec5eaa0"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_e4fcb64e-88d0-46f4-b642-0ad22e9e6402">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv7-TotalEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_dbc2f4ef-26c1-4ac2-a542-05f58063cdf4"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_0a2a43ad-58c5-4e9b-a51b-6849906ecd29">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-DailyEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_18dd935f-67f2-4ab5-9194-993e4c6bcf29"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_a607250a-2757-4e0c-9407-c35e86551974">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv2-DailyEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_fab76ad6-263f-45de-abdb-27437de4fcf1"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_94486530-194c-4d7d-b0f0-1cab09eb494f">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv3-DailyEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_0b7f6cfd-4689-43f4-98eb-0a242661a1b3"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_ecbe6374-4220-4049-9b0e-f6d4e432359c">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-DailyEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_f712e22d-de7c-4141-9f4b-51f39ef9587a"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_955108df-38fc-4710-9179-3c8a15091b1f">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-DailyEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_ff5c2d46-85c5-4e32-825e-a1ee827fce40"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_7193e3d4-4e52-438a-9679-475ef5cb28f9">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv6-DailyEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_e696d8e6-c47c-42fc-a244-32a91185e76f"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_a819a850-20aa-4d1c-8fca-4cb0810ff73d">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-VoltagePhase3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_3af359fc-4e74-4c29-8764-5cf1b8b15885"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_e1ff63a7-dc8d-49ba-8141-25ac49d89a24">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-CurrentPhase1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_be0972d3-bfaf-48f0-81b5-03b802c16272"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_e8656f50-74b6-4bb8-afa0-83b55eaddb83">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-CurrentPhase2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_543ec7e2-2604-41e0-92c6-8b8995e10952"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_ec5221fb-421a-40d0-9980-9b91c7eb8377">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-CurrentPhase3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_158c34bd-cd35-4b56-813e-93ac4afa085f"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_4fe19cdf-09e0-45f1-9cf6-3d303bf1ae5f">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-OutputPhase1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_bde6582e-b0ef-4d2a-9749-c1f1d0b4af11"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_0d4e87b8-5a32-4bcf-892a-44bf347c094f">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-OutputPhase2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_c3fe972c-f412-43b6-b4cb-e3577070970f"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_4b9d60bd-5b29-4490-97fe-0c6cfa60a98a">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-VoltageString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_47a570f4-efc1-4083-bdcb-1b2f65efccfb"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_2f759818-6d82-46a5-b7e8-8d193a9b2a98">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-VoltageString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_acf251b4-2e29-429a-99b2-4918edd535af"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_68203c5d-e69f-49b1-8d75-60a3f33ede52">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-VoltageString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_8b9a8d7b-9dfa-43c7-a998-75003bd1b169"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_ef75c882-7ccd-4517-90bc-5a24ea0bc9fb">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-CurrentString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_069dadd2-aaaa-4ff9-85d9-b87a7a89cffe"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_341de907-3d30-4938-8eb9-5919a66fe7bc">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-CurrentString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_d102d6ca-dfd7-49b1-bb9a-eb9e445ee8f2"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_d73a6f53-3987-41bf-b95e-668879e1c7eb">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-CurrentString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_a16a3fb5-e9b1-4897-b5e8-08b2402d4e5d"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_a1697a86-5924-4811-8f8e-0677bd61ded8">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-OutputString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_ef35f4d6-b483-4b12-b0c6-1b6221d2aed5"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_d973679e-1c82-41a3-a67f-7d3a3b6832f5">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-OutputString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_12233630-1885-468e-8c9f-b9e3b2ed6160"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_dc1205c0-2e2c-4122-9408-b00eb6186b54">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-OutputString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_c16b3853-c358-4123-9af5-91d9f4065f2d"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_d7250862-cc17-4b35-92c8-5e1e1b9a2f4d">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv1-TotalEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_463ec7eb-990e-4402-b182-d67c04d545f8"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_5e805737-0368-454b-97de-28c7a8fa177f">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-VoltageString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_f2f86c52-aa64-4cec-bc92-96a3da6b7748"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_2b392295-0fb3-44e5-940f-2dd7ec741d39">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-VoltageString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_a7ff8f45-8ea4-48b2-a5ee-2e3741e71da1"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_f715754b-1a99-438a-bf19-e1855f27efbc">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-VoltageString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_77878057-b9ea-465e-851d-fc44b5708320"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_48cc1a7e-d66a-4777-822b-53d4f55c0d5f">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv6-VoltageString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_e823cb3d-0e99-44af-9641-1d1227fc689e"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_4f11c60d-defa-464d-9c61-1351f46d0af8">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-CurrentString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_5c3e324d-2c79-4260-b065-4708de5b41ee"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_92c37dc3-161b-4c74-97d0-2ed7db6d1f3c">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv6-CurrentString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_e03203c2-9ca3-49fd-a356-1e6617b4a45d"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_cab9af00-9a0b-4ca3-90b6-4f34fb9a1a12">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-CurrentString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_6ffc8658-7825-4f7f-a087-a5b3a4b996e8"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_a98134fd-82f9-485b-aed5-4f6159e82d4d">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv6-CurrentString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_9ff39a61-0a73-4ef2-b5da-fbefeeb2a74f"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_808adc2c-95c3-46b8-813b-f750cd24b8b2">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-CurrentString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_1876d7da-f733-4e41-ac3b-a8cdd4d85bc8"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_5ee24723-52e7-458d-8b0f-4ab4bd54bfc8">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv6-CurrentString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_e91f7294-c016-466e-a5fe-5b2804cb67d4"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_de0ee081-cb88-4d99-8551-1694f881d110">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-OutputString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_241ba2c7-6db0-4d3b-b14c-d26edb4cf708"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_2daade22-c143-4e1b-a9dc-2975ebce8563">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-OutputString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_68c16ab0-d7d6-465a-b1c7-94533ea72450"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_2d86236e-4e28-4ceb-875a-61ccdbd1a356">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv6-OutputString1</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_75216568-d6cf-4912-9438-44a4c857e334"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_69036302-62b1-46ff-8e9f-7679a4c4be94">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-OutputString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_ead39b24-1efc-4b06-b606-47a04e97eaf7"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_51e80fce-67e7-4a76-8702-40142349cb2e">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-OutputString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_3a753540-c1f7-4bb5-8ee1-33cbdd6aa247"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_00df4f77-7daf-4276-bcf0-c4f74d05295b">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv6-OutputString2</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_aac07eb7-71eb-44ff-a047-35965a47041b"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_e13f031d-564b-455d-8cd6-cae56a547fa7">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-OutputString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_1d10e0f5-940e-4dc6-9f48-0b72b399da8e"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_a1999319-2fa0-4e31-88f8-26da53e728ab">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-OutputString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_2357020d-9b5c-4c7f-bf64-cc66ec011410"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_86f26329-98da-4b96-a0b8-34ba69655ad2">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv6-OutputString3</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_06e683c4-b165-4f00-bb35-1edb27e849b4"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_91dffdbc-0620-44d7-80f7-ca3f4d00b8a1">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv3-TotalEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_dc58ce54-8f65-41f4-894e-3a50085b8e37"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_48906627-a496-4da8-8c3d-4fb71a224c1b">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv4-TotalEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_dbd071f0-8051-4e4f-90aa-8a5680923397"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_2de635f6-efa4-4f0a-be76-3523b307c6f7">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv5-TotalEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_05da8c69-2b2d-4819-99ef-93d2ed0a4c94"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Location gml:id="LocationID_ac2c8407-d943-4865-9b72-637e521c2712">
+<sensorasset:longitude>25.015582</sensorasset:longitude>
+<sensorasset:latitude>60.224904</sensorasset:latitude>
+<sensorasset:description>ViikkiSolar-Inv6-TotalEnergy</sensorasset:description>
+<sensorasset:sensor xlink:href="SensorID_770fe057-8128-40fb-888b-79615df33022"/>
+<sensorasset:realization>
+<gml:Point srsName="EPSG:3879" srsDimension="2">
+<gml:pos>25500863.567358628 6679130.419573012</gml:pos>
+</gml:Point>
+</sensorasset:realization>
+</sensorasset:Location>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_1b284561-92ef-48c0-953a-530343a9811d">
+<sensorasset:description>ViikkiSolar-Inv7-DailyEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_e496eadd-7bcf-4121-aa77-1b337a8ed7b4">
+<sensorasset:description>ViikkiSolar-Inv8-DailyEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_3be5ad03-e61c-47e1-97e0-49a09a30b376">
+<sensorasset:description>ViikkiSolar-Inv1-VoltagePhase1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_b4bd9a4b-7b40-4cb3-a303-ef7864964ce8">
+<sensorasset:description>ViikkiSolar-Inv2-VoltagePhase1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_c4824910-de20-4bc7-8ee7-77007617e1a4">
+<sensorasset:description>ViikkiSolar-Inv1-VoltagePhase2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_6286eed8-b5bc-46e5-a8fd-c06fac798d6f">
+<sensorasset:description>ViikkiSolar-Inv2-VoltagePhase2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_eb622aa3-2e96-44d7-b458-e2b774f73e20">
+<sensorasset:description>ViikkiSolar-Inv2-VoltagePhase3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_23ae4acf-e94d-4976-bc65-d96b5f95b7fd">
+<sensorasset:description>ViikkiSolar-Inv2-CurrentPhase1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_eb96abbd-8b51-4e46-871e-370e1612521b">
+<sensorasset:description>ViikkiSolar-Inv2-CurrentPhase2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_b1bd1506-3956-4440-b89f-6cbbe23ba073">
+<sensorasset:description>ViikkiSolar-Inv2-CurrentPhase3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_b4c9db2d-6a9b-4b68-8e2a-5631dcd88b25">
+<sensorasset:description>ViikkiSolar-Inv8-VoltageString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_8965dba1-5ab7-497c-8da2-be189c3fc931">
+<sensorasset:description>ViikkiSolar-Inv8-VoltageString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_7e4cadd8-27b7-4e28-b3d1-e76ab76d106f">
+<sensorasset:description>ViikkiSolar-Inv8-VoltageString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_e4c8c0a3-ca4f-44d4-a9c9-238af845191e">
+<sensorasset:description>ViikkiSolar-Inv8-CurrentString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_69ec61db-0ae1-47fa-ba77-751102853e6b">
+<sensorasset:description>ViikkiSolar-Inv8-CurrentString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_622512e0-da5b-4a27-a752-65d5e4dcd9c5">
+<sensorasset:description>ViikkiSolar-Inv8-CurrentString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_04f4b640-e618-432b-bb8d-3be86ca2a334">
+<sensorasset:description>ViikkiSolar-Inv8-OutputString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_5c1341ec-b812-4479-b817-9881c33c59b5">
+<sensorasset:description>ViikkiSolar-Inv8-OutputString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_7f8ad9dc-03e8-4ee8-8d5f-844182e7c709">
+<sensorasset:description>ViikkiSolar-Inv8-OutputString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_558658da-8e2b-4101-9e61-dbb38fc78c2f">
+<sensorasset:description>ViikkiSolar-Inv8-TotalEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_96e51540-0cc9-468e-a8c3-3efbafb3ccd1">
+<sensorasset:description>ViikkiSolar-Inv2-VoltageString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_6bf84996-c2a5-47c2-96e2-36ae14c84e6c">
+<sensorasset:description>ViikkiSolar-Inv2-VoltageString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_4d1f3514-d583-41fd-899f-07534ca07f65">
+<sensorasset:description>ViikkiSolar-Inv2-VoltageString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_ed6873f7-c6eb-42a8-a195-b62697f10574">
+<sensorasset:description>ViikkiSolar-Inv2-CurrentString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_7ecea09e-435a-45ad-8a50-ccce05c68377">
+<sensorasset:description>ViikkiSolar-Inv2-CurrentString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_1f0ff68a-4d83-4bc4-9c99-fb4dc386557f">
+<sensorasset:description>ViikkiSolar-Inv2-CurrentString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_5c44b7d0-7eda-40a1-8078-9debdfe3a6b5">
+<sensorasset:description>ViikkiSolar-Inv2-OutputString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_b7db2e46-622e-430f-9325-01cb8c8dd217">
+<sensorasset:description>ViikkiSolar-Inv2-OutputString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_4fd11f54-9275-4fa4-acb0-5bac26fb09b4">
+<sensorasset:description>ViikkiSolar-Inv2-OutputString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_9c68e40a-c5ed-4f74-918a-bbe7a106416a">
+<sensorasset:description>ViikkiSolar-Inv2-TotalEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_7af063c9-4873-4b43-9722-1b568c30616d">
+<sensorasset:description>ViikkiSolar-Inv4-VoltagePhase1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_54cb10ea-bd39-4fb6-8804-95ccad13edfc">
+<sensorasset:description>ViikkiSolar-Inv5-VoltagePhase1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_95f6827b-bdc8-40b4-a24b-edcac357f7cd">
+<sensorasset:description>ViikkiSolar-Inv4-VoltagePhase2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_871d6289-8908-44ce-a619-df8afb52b756">
+<sensorasset:description>ViikkiSolar-Inv5-VoltagePhase2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_c03ced37-3282-4d03-ad79-fd2df0be855e">
+<sensorasset:description>ViikkiSolar-Inv4-VoltagePhase3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_1b2d6d5a-0a2a-448b-9829-fcda90c865e7">
+<sensorasset:description>ViikkiSolar-Inv5-VoltagePhase3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_6ee73f20-2dda-4f2a-be55-993a54219735">
+<sensorasset:description>ViikkiSolar-Inv4-CurrentPhase1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_b3db0d69-b096-499e-9b1c-d8f9d6db3e89">
+<sensorasset:description>ViikkiSolar-Inv5-CurrentPhase1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_ce8d87d8-5219-42a3-9e23-2af1b2e28257">
+<sensorasset:description>ViikkiSolar-Inv5-CurrentPhase2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_7866b385-9d55-4675-9ffd-193a7a0c5c7c">
+<sensorasset:description>ViikkiSolar-Inv5-CurrentPhase3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_daabb09a-1b8e-4efa-82dc-8fd4966693e9">
+<sensorasset:description>ViikkiSolar-Inv4-OutputPhase1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_e378ed7a-c214-42b7-91c8-487bfceefecc">
+<sensorasset:description>ViikkiSolar-Inv4-VoltageString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_76e50ca2-481b-457e-ae3c-6d7d8e665256">
+<sensorasset:description>ViikkiSolar-Inv4-VoltageString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_80c6a242-cf88-46ec-a24a-4e915ab17831">
+<sensorasset:description>ViikkiSolar-Inv4-VoltageString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_a00a0e6b-d0e3-409b-b2bd-87a8e4cab5a6">
+<sensorasset:description>ViikkiSolar-Inv4-CurrentString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_28bef0a2-eaa5-4701-a0f6-0bdd557d3cca">
+<sensorasset:description>ViikkiSolar-Inv4-CurrentString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_a0473113-1fc7-424d-8c10-4d696c1c012e">
+<sensorasset:description>ViikkiSolar-Inv4-CurrentString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_ab007dd6-cf58-4815-9203-8ea1cd7a4ed1">
+<sensorasset:description>ViikkiSolar-Inv6-VoltageString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_53ce5a36-ac6c-439d-bbd1-4d007604da91">
+<sensorasset:description>ViikkiSolar-Inv6-VoltageString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_8f53105c-2aa1-4744-b937-51a0f9f0c716">
+<sensorasset:description>ViikkiSolar-Inv8-VoltagePhase1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_39ef25e7-f310-47a7-8019-697a7a5350d8">
+<sensorasset:description>ViikkiSolar-Inv8-VoltagePhase2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_7dc40eb0-d9dd-41b7-abce-24b6c69417fe">
+<sensorasset:description>ViikkiSolar-Inv8-VoltagePhase3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_f4f1e00f-bc05-44c5-bdc9-baa3461454b4">
+<sensorasset:description>ViikkiSolar-Inv8-CurrentPhase1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_7e1d9b1e-d90e-4363-b017-ae229eede93e">
+<sensorasset:description>ViikkiSolar-Inv8-CurrentPhase2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_101c751c-5374-4028-94d9-09abe65c4d2d">
+<sensorasset:description>ViikkiSolar-Inv8-CurrentPhase3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_add58ccf-935c-4072-9c29-b06aeec5eaa0">
+<sensorasset:description>ViikkiSolar-Inv8-OutputPhase2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_dbc2f4ef-26c1-4ac2-a542-05f58063cdf4">
+<sensorasset:description>ViikkiSolar-Inv7-TotalEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_18dd935f-67f2-4ab5-9194-993e4c6bcf29">
+<sensorasset:description>ViikkiSolar-Inv1-DailyEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_fab76ad6-263f-45de-abdb-27437de4fcf1">
+<sensorasset:description>ViikkiSolar-Inv2-DailyEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_0b7f6cfd-4689-43f4-98eb-0a242661a1b3">
+<sensorasset:description>ViikkiSolar-Inv3-DailyEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_f712e22d-de7c-4141-9f4b-51f39ef9587a">
+<sensorasset:description>ViikkiSolar-Inv4-DailyEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_ff5c2d46-85c5-4e32-825e-a1ee827fce40">
+<sensorasset:description>ViikkiSolar-Inv5-DailyEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_e696d8e6-c47c-42fc-a244-32a91185e76f">
+<sensorasset:description>ViikkiSolar-Inv6-DailyEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_3af359fc-4e74-4c29-8764-5cf1b8b15885">
+<sensorasset:description>ViikkiSolar-Inv1-VoltagePhase3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_be0972d3-bfaf-48f0-81b5-03b802c16272">
+<sensorasset:description>ViikkiSolar-Inv1-CurrentPhase1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_543ec7e2-2604-41e0-92c6-8b8995e10952">
+<sensorasset:description>ViikkiSolar-Inv1-CurrentPhase2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_158c34bd-cd35-4b56-813e-93ac4afa085f">
+<sensorasset:description>ViikkiSolar-Inv1-CurrentPhase3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_bde6582e-b0ef-4d2a-9749-c1f1d0b4af11">
+<sensorasset:description>ViikkiSolar-Inv1-OutputPhase1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_c3fe972c-f412-43b6-b4cb-e3577070970f">
+<sensorasset:description>ViikkiSolar-Inv1-OutputPhase2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_94a3d9a8-d875-4f2a-aec9-bdf5fd380dd6">
-<sensorasset:sensor xlink:href="SensorID_7d576b16-469c-44fd-987c-bbeb9884bbf9"/>
-</sensorasset:TimeseriesTVP>
+<sensorasset:Sensor gml:id="SensorID_47a570f4-efc1-4083-bdcb-1b2f65efccfb">
+<sensorasset:description>ViikkiSolar-Inv1-VoltageString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_8320fccf-82a2-48f7-bc8b-e4ef7f50b7f5">
-<sensorasset:sensor xlink:href="SensorID_a991150f-69f6-4a8c-8512-95a3dbfbb6b0"/>
-</sensorasset:TimeseriesTVP>
+<sensorasset:Sensor gml:id="SensorID_acf251b4-2e29-429a-99b2-4918edd535af">
+<sensorasset:description>ViikkiSolar-Inv1-VoltageString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_cbcc8df1-d7a5-4ec0-83bc-01528c3d33c6">
-<sensorasset:sensor xlink:href="SensorID_d023bd62-3af1-427a-8ef6-0a22bb3c1eb7"/>
-</sensorasset:TimeseriesTVP>
+<sensorasset:Sensor gml:id="SensorID_8b9a8d7b-9dfa-43c7-a998-75003bd1b169">
+<sensorasset:description>ViikkiSolar-Inv1-VoltageString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_a1d8e074-4f28-463d-98a9-59c17b3c97f5">
-<sensorasset:sensor xlink:href="SensorID_d40c719c-07c5-472a-9a30-dc1e38999c4f"/>
-</sensorasset:TimeseriesTVP>
+<sensorasset:Sensor gml:id="SensorID_069dadd2-aaaa-4ff9-85d9-b87a7a89cffe">
+<sensorasset:description>ViikkiSolar-Inv1-CurrentString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_9737418f-8779-4f50-8c93-5bb59d1c3b6c">
-<sensorasset:sensor xlink:href="SensorID_7494eb56-2d37-45b0-9d7e-ae9d0045fb98"/>
-</sensorasset:TimeseriesTVP>
+<sensorasset:Sensor gml:id="SensorID_d102d6ca-dfd7-49b1-bb9a-eb9e445ee8f2">
+<sensorasset:description>ViikkiSolar-Inv1-CurrentString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_3dbd303e-ba66-4f1b-91d5-d723bd209d4f">
-<sensorasset:sensor xlink:href="SensorID_b476d954-f1f1-4e74-811c-0ff4c9658e7f"/>
-</sensorasset:TimeseriesTVP>
+<sensorasset:Sensor gml:id="SensorID_a16a3fb5-e9b1-4897-b5e8-08b2402d4e5d">
+<sensorasset:description>ViikkiSolar-Inv1-CurrentString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_cb36bbae-20ce-4694-a533-00eb3a229243">
-<sensorasset:sensor xlink:href="SensorID_4e23f004-8fe2-460c-bf74-a088a0ce4212"/>
-</sensorasset:TimeseriesTVP>
+<sensorasset:Sensor gml:id="SensorID_ef35f4d6-b483-4b12-b0c6-1b6221d2aed5">
+<sensorasset:description>ViikkiSolar-Inv1-OutputString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_ff484b08-92a8-41bd-8a41-9d47a7321f7e">
-<sensorasset:sensor xlink:href="SensorID_5bb4a62d-a13f-465c-bf8b-6643b36e24b4"/>
-</sensorasset:TimeseriesTVP>
+<sensorasset:Sensor gml:id="SensorID_12233630-1885-468e-8c9f-b9e3b2ed6160">
+<sensorasset:description>ViikkiSolar-Inv1-OutputString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_e3b54974-fa3b-45c9-8faa-cd2798b7e0c6">
-<sensorasset:sensor xlink:href="SensorID_8d88626a-4987-42d4-b7db-6333dee57571"/>
-</sensorasset:TimeseriesTVP>
+<sensorasset:Sensor gml:id="SensorID_c16b3853-c358-4123-9af5-91d9f4065f2d">
+<sensorasset:description>ViikkiSolar-Inv1-OutputString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_80b588a0-be7a-4c66-8439-27fcca733b91">
-<sensorasset:sensor xlink:href="SensorID_4672c021-4139-4194-912b-35573357808b"/>
-</sensorasset:TimeseriesTVP>
+<sensorasset:Sensor gml:id="SensorID_463ec7eb-990e-4402-b182-d67c04d545f8">
+<sensorasset:description>ViikkiSolar-Inv1-TotalEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_a93d09ee-fc01-4a87-9d5a-3bd326977852">
-<sensorasset:sensor xlink:href="SensorID_06d66d04-da98-4ac5-a19f-3b1e1ffdd349"/>
-</sensorasset:TimeseriesTVP>
+<sensorasset:Sensor gml:id="SensorID_f2f86c52-aa64-4cec-bc92-96a3da6b7748">
+<sensorasset:description>ViikkiSolar-Inv5-VoltageString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_57de3bac-f4c1-420a-81ea-baf937b7926c">
-<sensorasset:sensor xlink:href="SensorID_e378a372-602e-4add-a534-ab6c64eb75fb"/>
-</sensorasset:TimeseriesTVP>
+<sensorasset:Sensor gml:id="SensorID_a7ff8f45-8ea4-48b2-a5ee-2e3741e71da1">
+<sensorasset:description>ViikkiSolar-Inv5-VoltageString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_5fa7aaa8-45fa-49e6-be0f-21859f70ee2e">
-<sensorasset:sensor xlink:href="SensorID_8df76cd9-6b3a-46b1-88cc-422256cd4f01"/>
-</sensorasset:TimeseriesTVP>
+<sensorasset:Sensor gml:id="SensorID_77878057-b9ea-465e-851d-fc44b5708320">
+<sensorasset:description>ViikkiSolar-Inv5-VoltageString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_e823cb3d-0e99-44af-9641-1d1227fc689e">
+<sensorasset:description>ViikkiSolar-Inv6-VoltageString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_5c3e324d-2c79-4260-b065-4708de5b41ee">
+<sensorasset:description>ViikkiSolar-Inv5-CurrentString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_e03203c2-9ca3-49fd-a356-1e6617b4a45d">
+<sensorasset:description>ViikkiSolar-Inv6-CurrentString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_6ffc8658-7825-4f7f-a087-a5b3a4b996e8">
+<sensorasset:description>ViikkiSolar-Inv5-CurrentString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_9ff39a61-0a73-4ef2-b5da-fbefeeb2a74f">
+<sensorasset:description>ViikkiSolar-Inv6-CurrentString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_1876d7da-f733-4e41-ac3b-a8cdd4d85bc8">
+<sensorasset:description>ViikkiSolar-Inv5-CurrentString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_e91f7294-c016-466e-a5fe-5b2804cb67d4">
+<sensorasset:description>ViikkiSolar-Inv6-CurrentString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_241ba2c7-6db0-4d3b-b14c-d26edb4cf708">
+<sensorasset:description>ViikkiSolar-Inv4-OutputString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_68c16ab0-d7d6-465a-b1c7-94533ea72450">
+<sensorasset:description>ViikkiSolar-Inv5-OutputString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_75216568-d6cf-4912-9438-44a4c857e334">
+<sensorasset:description>ViikkiSolar-Inv6-OutputString1</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_ead39b24-1efc-4b06-b606-47a04e97eaf7">
+<sensorasset:description>ViikkiSolar-Inv4-OutputString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_3a753540-c1f7-4bb5-8ee1-33cbdd6aa247">
+<sensorasset:description>ViikkiSolar-Inv5-OutputString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_aac07eb7-71eb-44ff-a047-35965a47041b">
+<sensorasset:description>ViikkiSolar-Inv6-OutputString2</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_1d10e0f5-940e-4dc6-9f48-0b72b399da8e">
+<sensorasset:description>ViikkiSolar-Inv4-OutputString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_2357020d-9b5c-4c7f-bf64-cc66ec011410">
+<sensorasset:description>ViikkiSolar-Inv5-OutputString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_06e683c4-b165-4f00-bb35-1edb27e849b4">
+<sensorasset:description>ViikkiSolar-Inv6-OutputString3</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_dc58ce54-8f65-41f4-894e-3a50085b8e37">
+<sensorasset:description>ViikkiSolar-Inv3-TotalEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_dbd071f0-8051-4e4f-90aa-8a5680923397">
+<sensorasset:description>ViikkiSolar-Inv4-TotalEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_05da8c69-2b2d-4819-99ef-93d2ed0a4c94">
+<sensorasset:description>ViikkiSolar-Inv5-TotalEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:Sensor gml:id="SensorID_770fe057-8128-40fb-888b-79615df33022">
+<sensorasset:description>ViikkiSolar-Inv6-TotalEnergy</sensorasset:description>
+<sensorasset:located xlink:href="BID_a03c680b-a156-473d-b210-ae261d808ebf"/>
+</sensorasset:Sensor>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_97aaac2e-c7c0-40ce-89e0-820740b67b1b">
-<sensorasset:sensor xlink:href="SensorID_1b576f8c-db5c-4fbd-9952-e902cfdedb16"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_e0830f72-a0f1-4c0f-b66a-77ba81641d54">
+<sensorasset:sensor xlink:href="SensorID_1b284561-92ef-48c0-953a-530343a9811d"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_75835cb0-b116-4c1e-b22d-5dee718822ea">
-<sensorasset:sensor xlink:href="SensorID_ec08677e-eefa-49c4-9165-aa6b7d398333"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_27934738-0e28-46a6-a034-d2abd046827e">
+<sensorasset:sensor xlink:href="SensorID_e496eadd-7bcf-4121-aa77-1b337a8ed7b4"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_35f3bdf0-5ac2-47c9-9755-394af42620f2">
-<sensorasset:sensor xlink:href="SensorID_6ffa5558-6e3f-47b5-a790-2f2407cd82c6"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_081223fa-8d31-4f95-bb1a-488d1a621af8">
+<sensorasset:sensor xlink:href="SensorID_3be5ad03-e61c-47e1-97e0-49a09a30b376"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_d035d8ae-19a4-4e99-8bfb-779d3e02a677">
-<sensorasset:sensor xlink:href="SensorID_bb4d2c07-2123-40f7-bd39-fa122cca7449"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_f646a9d3-b732-4568-967d-442faa0c2e4d">
+<sensorasset:sensor xlink:href="SensorID_b4bd9a4b-7b40-4cb3-a303-ef7864964ce8"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_74b6a3a3-99eb-4a20-a9ca-019f75abbfa6">
-<sensorasset:sensor xlink:href="SensorID_021bb72d-a936-412d-b1ce-85f119422798"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_3c4e6979-bf5f-4c8a-9f5f-9cf3c8f168aa">
+<sensorasset:sensor xlink:href="SensorID_c4824910-de20-4bc7-8ee7-77007617e1a4"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_235c70c9-7362-4e84-839b-81e6b9c7bd2d">
-<sensorasset:sensor xlink:href="SensorID_b5e5e6c7-357c-4bb5-bf36-7f26d7542100"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_2e621ccf-5575-405c-acce-0557b3aa3ab9">
+<sensorasset:sensor xlink:href="SensorID_6286eed8-b5bc-46e5-a8fd-c06fac798d6f"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_ab5d2142-29e6-48b0-9ce5-e7400073521d">
-<sensorasset:sensor xlink:href="SensorID_14e48532-7ea1-48f9-aa57-e267e8ea54a5"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_dfa223f1-8e91-4bfa-b876-5963b4bf10cb">
+<sensorasset:sensor xlink:href="SensorID_eb622aa3-2e96-44d7-b458-e2b774f73e20"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_c7e2d984-c836-41a8-b441-fffc0040c333">
-<sensorasset:sensor xlink:href="SensorID_29cce3f6-cb64-4118-9283-14ec980d568b"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_84bf7add-5406-4990-bbe4-eeb547ba589b">
+<sensorasset:sensor xlink:href="SensorID_23ae4acf-e94d-4976-bc65-d96b5f95b7fd"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_e67ed75d-af89-44bd-9874-65bf6778f9a0">
-<sensorasset:sensor xlink:href="SensorID_420b49ec-552f-48a8-851a-51f660822e9d"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_abc70d6a-09c2-4894-98a9-d9a91f15a715">
+<sensorasset:sensor xlink:href="SensorID_eb96abbd-8b51-4e46-871e-370e1612521b"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_9d59c08e-dcac-47b1-ab02-5bbd126c0bb1">
-<sensorasset:sensor xlink:href="SensorID_181677c6-f5a6-4681-af6e-3504f32ac1db"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_539b71fd-2364-478e-b918-f75f861c6fda">
+<sensorasset:sensor xlink:href="SensorID_b1bd1506-3956-4440-b89f-6cbbe23ba073"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_c168dbd1-eab2-4b8e-ba12-85420d89515e">
-<sensorasset:sensor xlink:href="SensorID_cf94d858-1907-458e-8542-b1b78fc05a1c"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_ae70d652-0274-4718-a2fd-2c655d69aa1f">
+<sensorasset:sensor xlink:href="SensorID_b4c9db2d-6a9b-4b68-8e2a-5631dcd88b25"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_f3742d06-dc38-418a-af32-1980879f5ca1">
-<sensorasset:sensor xlink:href="SensorID_2348ab57-de4f-4902-beea-584c7fb1a5b2"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_fc5e0370-a3a3-42ef-a1f2-0dcbd56ce496">
+<sensorasset:sensor xlink:href="SensorID_8965dba1-5ab7-497c-8da2-be189c3fc931"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_51703e1f-d720-4c03-9dbd-414c77195951">
-<sensorasset:sensor xlink:href="SensorID_02deee9a-bb16-43ef-8bdf-f2b0e6e67f17"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_9fe6f2cd-f53e-4c1f-b036-a071d93136ea">
+<sensorasset:sensor xlink:href="SensorID_7e4cadd8-27b7-4e28-b3d1-e76ab76d106f"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_811f3efd-40dc-4a3d-88c6-658139756720">
-<sensorasset:sensor xlink:href="SensorID_8bc9f167-d874-47af-9a71-d886efe03a0c"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_fbad3eca-c056-4165-bfcb-d5aeee12d638">
+<sensorasset:sensor xlink:href="SensorID_e4c8c0a3-ca4f-44d4-a9c9-238af845191e"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_224d8bd2-16c5-419e-8b3b-c5dd951cdd1e">
-<sensorasset:sensor xlink:href="SensorID_daf81649-4f30-431f-a280-ace74d126394"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_05c5af88-3193-4692-84c8-5f1d87485394">
+<sensorasset:sensor xlink:href="SensorID_69ec61db-0ae1-47fa-ba77-751102853e6b"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_1370e1a6-fd14-4350-ba92-db05a2a50080">
-<sensorasset:sensor xlink:href="SensorID_871b59dc-4727-4ec8-ae84-775c1540bec2"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_2745d485-521b-4bda-8911-d2fa1bedba09">
+<sensorasset:sensor xlink:href="SensorID_622512e0-da5b-4a27-a752-65d5e4dcd9c5"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_515df8f8-e536-484c-b9d3-ef9c0b80f535">
-<sensorasset:sensor xlink:href="SensorID_786bfb01-8581-4e6d-8816-e21a9b5b403d"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_51001c7b-4008-4c66-8f52-908d5272620e">
+<sensorasset:sensor xlink:href="SensorID_04f4b640-e618-432b-bb8d-3be86ca2a334"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_be8035e2-d7e1-49de-b715-9546492cb444">
-<sensorasset:sensor xlink:href="SensorID_f414c78d-facb-472a-adbc-f872bd45ca97"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_3991c33e-2292-429d-bcd5-d1ff1926e8cf">
+<sensorasset:sensor xlink:href="SensorID_5c1341ec-b812-4479-b817-9881c33c59b5"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_b8d7cb1b-03d9-4f6f-9717-49f788a9b290">
-<sensorasset:sensor xlink:href="SensorID_0ab89d74-1744-47d9-9808-9118a1a42dfa"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_9030173c-d1a5-4b00-9525-1cd4ec8b08c5">
+<sensorasset:sensor xlink:href="SensorID_7f8ad9dc-03e8-4ee8-8d5f-844182e7c709"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_339c2c9c-464a-4133-a42f-b5182dea5ed1">
-<sensorasset:sensor xlink:href="SensorID_042b6947-a501-46d4-8a1a-028285556eb9"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_43166337-6a31-4a62-a022-c186aface1bd">
+<sensorasset:sensor xlink:href="SensorID_558658da-8e2b-4101-9e61-dbb38fc78c2f"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_67ab3340-8bca-4613-875d-746815492a80">
-<sensorasset:sensor xlink:href="SensorID_e7ece488-55eb-484f-acb4-7db437e65f09"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_a62615d5-dabf-4c06-8057-e8d4cce99729">
+<sensorasset:sensor xlink:href="SensorID_96e51540-0cc9-468e-a8c3-3efbafb3ccd1"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_82d1e53a-29af-46b9-88e8-1228e8464fbc">
-<sensorasset:sensor xlink:href="SensorID_05e75809-8304-4ebb-b17d-2fe784f3ef58"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_14afd644-1d3f-4102-9e6c-b021aa33b128">
+<sensorasset:sensor xlink:href="SensorID_6bf84996-c2a5-47c2-96e2-36ae14c84e6c"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_a228fcc3-61c2-4ae2-aff8-181fa1e1d413">
-<sensorasset:sensor xlink:href="SensorID_0c6cd365-edb1-46c3-a41e-361f474ae8f3"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_e69fa213-2615-41d5-8317-e68691e3c3e9">
+<sensorasset:sensor xlink:href="SensorID_4d1f3514-d583-41fd-899f-07534ca07f65"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_7c90a61a-d195-4551-8804-3d9b72f9dfdd">
-<sensorasset:sensor xlink:href="SensorID_7b541d3a-41ec-4a48-8507-b1e2b277f7e7"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_df4a38c6-baa9-417a-8114-34dccfcd60e7">
+<sensorasset:sensor xlink:href="SensorID_ed6873f7-c6eb-42a8-a195-b62697f10574"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_ab68d01e-f3e1-4454-84d0-f4ad095e64ef">
-<sensorasset:sensor xlink:href="SensorID_af9e7151-bf07-43af-9207-0be754b8a0e5"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_def677dd-7409-4ff7-93a6-8764c3d58292">
+<sensorasset:sensor xlink:href="SensorID_7ecea09e-435a-45ad-8a50-ccce05c68377"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_e74b6f48-b2a4-47c4-b044-a180056b0a37">
-<sensorasset:sensor xlink:href="SensorID_49fe84c7-c846-4cc4-97bc-d95416d7ad02"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_58111d71-e7c4-4acf-914d-ad2f88b48110">
+<sensorasset:sensor xlink:href="SensorID_1f0ff68a-4d83-4bc4-9c99-fb4dc386557f"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_40dd0bf3-8654-40e5-a5ad-fe686fabe1d2">
-<sensorasset:sensor xlink:href="SensorID_95ac6bf3-cf60-4423-bb55-c659d5c5d78e"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_f4fef29e-4f91-459a-b129-161222c9c326">
+<sensorasset:sensor xlink:href="SensorID_5c44b7d0-7eda-40a1-8078-9debdfe3a6b5"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_c244e966-b7f9-4514-817b-32b96ba3952a">
-<sensorasset:sensor xlink:href="SensorID_3ee5f665-7fa4-48c6-b590-e30df5649b9e"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_95b7e602-8f06-4e5b-a266-2c541eecd0d2">
+<sensorasset:sensor xlink:href="SensorID_b7db2e46-622e-430f-9325-01cb8c8dd217"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_a69ac361-155a-4ba4-9dd7-384c9289461f">
-<sensorasset:sensor xlink:href="SensorID_1e7b1ef2-a33e-4017-9e6f-4b59b7b95f96"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_2f832ae5-4813-460b-b556-217e4e5c3618">
+<sensorasset:sensor xlink:href="SensorID_4fd11f54-9275-4fa4-acb0-5bac26fb09b4"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_ba410235-0e5e-41e4-9800-4d3f19886a16">
-<sensorasset:sensor xlink:href="SensorID_ccea6137-3465-467d-b905-85d09b1bc58d"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_c4c205d1-ab3e-46f2-8de5-046dd7be6c7b">
+<sensorasset:sensor xlink:href="SensorID_9c68e40a-c5ed-4f74-918a-bbe7a106416a"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_679f4d38-8007-4d2a-8333-383e66bf1f43">
-<sensorasset:sensor xlink:href="SensorID_24e9d6d5-3c2b-4121-88c4-ed5e1523e105"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_768c1df2-16bb-4239-8bc6-3d31381ae9e6">
+<sensorasset:sensor xlink:href="SensorID_7af063c9-4873-4b43-9722-1b568c30616d"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_14e5cb92-41c8-467b-968d-5a32f2b2f52d">
-<sensorasset:sensor xlink:href="SensorID_5b943fbd-3ad1-442d-aa36-9b8b13629d6c"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_c3e33951-6d84-46a3-aee9-dcc1484ec752">
+<sensorasset:sensor xlink:href="SensorID_54cb10ea-bd39-4fb6-8804-95ccad13edfc"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_bffe09af-a6b1-482c-8317-bd8c2837e4e0">
-<sensorasset:sensor xlink:href="SensorID_1efba0fe-d77b-45c0-8fa5-3e4c5425845f"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_568067bb-e57d-4a96-8072-26590e0657fc">
+<sensorasset:sensor xlink:href="SensorID_95f6827b-bdc8-40b4-a24b-edcac357f7cd"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_4454acc2-2199-4b15-a8d9-b1c3dadd980e">
-<sensorasset:sensor xlink:href="SensorID_37047436-ea78-4dd4-aa69-e3e5837f7d48"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_ac135ca5-963b-4604-8afc-d2fd9ddb39f6">
+<sensorasset:sensor xlink:href="SensorID_871d6289-8908-44ce-a619-df8afb52b756"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_fd27c217-0050-4153-887e-1bca30fb7108">
-<sensorasset:sensor xlink:href="SensorID_6b8b5a00-04ea-4908-947a-8dd147093c58"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_f5aee350-0f26-4624-b55e-f953e6495f6a">
+<sensorasset:sensor xlink:href="SensorID_c03ced37-3282-4d03-ad79-fd2df0be855e"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_b593972e-e3e0-4b6f-ab09-520976a9ce71">
-<sensorasset:sensor xlink:href="SensorID_c68d05a3-8d02-4054-b3ff-8eb227a6c7d8"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_a13dde36-76a0-457a-9533-1f633560e93f">
+<sensorasset:sensor xlink:href="SensorID_1b2d6d5a-0a2a-448b-9829-fcda90c865e7"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_c933ea8a-2fc8-4e77-8df1-de6e9f225738">
-<sensorasset:sensor xlink:href="SensorID_1f2e0a58-c666-4120-b485-0b2f5f7c3004"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_4b3f696c-bb99-4b3c-a470-a96a9b3d35de">
+<sensorasset:sensor xlink:href="SensorID_6ee73f20-2dda-4f2a-be55-993a54219735"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_3ec17f2c-c38d-4a3c-b174-5344a72caa9b">
-<sensorasset:sensor xlink:href="SensorID_37fe5f70-1c0f-432a-a938-5ac8de212a38"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_5e2d36b4-ebc4-4d9b-a28d-efd32b4e32ff">
+<sensorasset:sensor xlink:href="SensorID_b3db0d69-b096-499e-9b1c-d8f9d6db3e89"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_eb37cebe-f990-4d8f-b963-eaaa66442dd7">
-<sensorasset:sensor xlink:href="SensorID_40bf902f-e7a8-4a3e-af01-7c3f845394de"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_ce63886e-f04a-4883-979d-8fd9aff9f7e3">
+<sensorasset:sensor xlink:href="SensorID_ce8d87d8-5219-42a3-9e23-2af1b2e28257"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_cd61ccc8-d703-40ff-8add-80decd1043cb">
-<sensorasset:sensor xlink:href="SensorID_a9208828-9452-45e2-97dd-4998df605893"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_0d90ad73-620d-4913-b87c-b6e74d724bf6">
+<sensorasset:sensor xlink:href="SensorID_7866b385-9d55-4675-9ffd-193a7a0c5c7c"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_43f4f6c1-ed69-46e2-abad-257a16a16b19">
-<sensorasset:sensor xlink:href="SensorID_cc0bdec3-2504-4d36-9217-0720c173ad91"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_0d840949-d8b4-4da5-8d6e-650e82370448">
+<sensorasset:sensor xlink:href="SensorID_daabb09a-1b8e-4efa-82dc-8fd4966693e9"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_7b9aa55e-7d15-461a-a396-4339a6052f00">
-<sensorasset:sensor xlink:href="SensorID_7ade5317-88dd-4420-b56d-b67fd962f589"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_33ab49eb-7e7a-41ca-b6da-d2d5fe78138a">
+<sensorasset:sensor xlink:href="SensorID_e378ed7a-c214-42b7-91c8-487bfceefecc"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_c7e3b5c9-26ec-4e23-a790-ff53c335c844">
-<sensorasset:sensor xlink:href="SensorID_696214e8-4e7c-4212-80d0-a03175e2f7cb"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_513c5a2d-872b-4ff8-8922-e00a702a5d28">
+<sensorasset:sensor xlink:href="SensorID_76e50ca2-481b-457e-ae3c-6d7d8e665256"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_380565cd-902f-49ae-9bc1-5cc18f627575">
-<sensorasset:sensor xlink:href="SensorID_fa043cff-d692-4ad1-90dd-2aca60ffee64"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_ff0c3081-9a28-4cba-8804-04f3b6b6d50b">
+<sensorasset:sensor xlink:href="SensorID_80c6a242-cf88-46ec-a24a-4e915ab17831"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_5edd09d9-d51a-4040-ab37-c77cbfedacfe">
-<sensorasset:sensor xlink:href="SensorID_f5eba168-a4af-413d-8180-5261f9fbe378"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_6daecf1d-0984-417f-8f9b-df628fcbe52d">
+<sensorasset:sensor xlink:href="SensorID_a00a0e6b-d0e3-409b-b2bd-87a8e4cab5a6"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_8cda4649-cceb-4232-9b9f-8ed339ec444c">
-<sensorasset:sensor xlink:href="SensorID_169769c8-b6a3-442c-957e-b3accb4fad5f"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_0733f6c5-83d6-4faa-9377-9203936bc18b">
+<sensorasset:sensor xlink:href="SensorID_28bef0a2-eaa5-4701-a0f6-0bdd557d3cca"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_a7c0232e-562f-4625-aa9a-ac2e88e8dd7b">
-<sensorasset:sensor xlink:href="SensorID_ea3d7922-8f05-4f35-b67a-c53fbe2e7403"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_6083b9a3-0976-493c-ba06-cfbea37ee968">
+<sensorasset:sensor xlink:href="SensorID_a0473113-1fc7-424d-8c10-4d696c1c012e"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_2d45e250-8ac4-4eef-8ee3-3d2fd2246519">
-<sensorasset:sensor xlink:href="SensorID_e5082f17-d897-4fb2-a482-d80b89a003b1"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_e387fa22-f3ca-416a-bf43-e5726984e531">
+<sensorasset:sensor xlink:href="SensorID_ab007dd6-cf58-4815-9203-8ea1cd7a4ed1"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_4bb96765-7c7e-419b-b8d6-93715105299e">
-<sensorasset:sensor xlink:href="SensorID_fbc2ef74-0f1d-4db4-842d-c7d81c9f6f5a"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_0df3d233-1baf-476d-8a60-b3f3e29a9161">
+<sensorasset:sensor xlink:href="SensorID_53ce5a36-ac6c-439d-bbd1-4d007604da91"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_891720a4-4770-4768-a471-5163996b4695">
-<sensorasset:sensor xlink:href="SensorID_aede4644-4b1b-4591-9615-5252671e8f55"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_d5a8d305-6488-4ac4-ba15-03a46a57ae32">
+<sensorasset:sensor xlink:href="SensorID_8f53105c-2aa1-4744-b937-51a0f9f0c716"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_8f29e23a-91a2-4232-a1de-c95abb111e6f">
-<sensorasset:sensor xlink:href="SensorID_9dadc136-78b6-4282-9abc-282b78af3f87"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_28717b5d-0c30-481e-a707-53a0384b4c9a">
+<sensorasset:sensor xlink:href="SensorID_39ef25e7-f310-47a7-8019-697a7a5350d8"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_94b09e50-4da0-424e-947f-26dc262e3246">
-<sensorasset:sensor xlink:href="SensorID_10753e88-797d-42c4-be4b-079dcf93fb9d"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_856a1f86-527d-4da0-8c3e-78b8a7dbf4a0">
+<sensorasset:sensor xlink:href="SensorID_7dc40eb0-d9dd-41b7-abce-24b6c69417fe"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_2290ff6c-8dc5-44f1-9a08-406a3364f113">
-<sensorasset:sensor xlink:href="SensorID_0b32c6f5-c4e3-412f-85a6-4781b818ba0c"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_fff811a7-e111-4311-9405-9c581993059f">
+<sensorasset:sensor xlink:href="SensorID_f4f1e00f-bc05-44c5-bdc9-baa3461454b4"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_13572ee7-c6b5-4e99-bd0c-1776c9e3d158">
-<sensorasset:sensor xlink:href="SensorID_bc94fecf-b4c9-4bea-8891-287e2c50894d"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_9156fe2f-d959-4855-a21f-7df691e2942e">
+<sensorasset:sensor xlink:href="SensorID_7e1d9b1e-d90e-4363-b017-ae229eede93e"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_ba67292f-636c-488c-871f-04660c0beb91">
-<sensorasset:sensor xlink:href="SensorID_5204c3d5-538b-431a-afa0-786ab62dc16d"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_d40176da-9360-4e1d-807a-4a886c05b204">
+<sensorasset:sensor xlink:href="SensorID_101c751c-5374-4028-94d9-09abe65c4d2d"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_6a6b41b1-7b58-43d4-ad9c-a52e631b0af7">
-<sensorasset:sensor xlink:href="SensorID_f7e0787e-1d7d-4dff-a7f4-b682130f42c5"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_1db9b34c-be63-4eae-b448-c66882d57ff2">
+<sensorasset:sensor xlink:href="SensorID_add58ccf-935c-4072-9c29-b06aeec5eaa0"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_991afdac-fca2-4478-bbc6-bb0d9fd65bfa">
-<sensorasset:sensor xlink:href="SensorID_8dc45c36-fc16-45e2-93c9-4fe557d5bcfb"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_f3605691-fc0e-4467-b046-84d17c839b6f">
+<sensorasset:sensor xlink:href="SensorID_dbc2f4ef-26c1-4ac2-a542-05f58063cdf4"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_53b7de0b-c22b-4888-9c4b-cf02684bd27c">
-<sensorasset:sensor xlink:href="SensorID_6f13f8a7-15b1-4aea-a1f3-7c58071bf81b"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_f1c6a1e1-035c-47d8-b519-d26ab3222ca3">
+<sensorasset:sensor xlink:href="SensorID_18dd935f-67f2-4ab5-9194-993e4c6bcf29"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_d84a9df1-9dc4-4dd9-af5d-b999dbdc820a">
-<sensorasset:sensor xlink:href="SensorID_a1ca406a-037c-4764-b708-37d260bec65b"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_ec48d443-a8e8-4191-8aee-49a9f053aa09">
+<sensorasset:sensor xlink:href="SensorID_fab76ad6-263f-45de-abdb-27437de4fcf1"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_815395f6-8d81-45b7-b6a3-d657206302b8">
-<sensorasset:sensor xlink:href="SensorID_f21d7fea-fd02-45ee-a639-04ded92ba686"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_62b10d44-62e2-4a86-8838-bd51f3b9b384">
+<sensorasset:sensor xlink:href="SensorID_0b7f6cfd-4689-43f4-98eb-0a242661a1b3"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_80f93306-9d48-4d1e-8cb7-ab22f6ed910f">
-<sensorasset:sensor xlink:href="SensorID_5f1a6f65-ab0e-4b40-8c2c-c5b1e9da345b"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_80d93665-e412-4f08-b676-dce4a333eabc">
+<sensorasset:sensor xlink:href="SensorID_f712e22d-de7c-4141-9f4b-51f39ef9587a"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_5ef349e7-00b2-4788-b780-0f28b6a51d88">
-<sensorasset:sensor xlink:href="SensorID_31ad233a-3709-4681-a2be-28ff7839eeb6"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_3e1f0572-0959-45ea-83ab-b193847faac5">
+<sensorasset:sensor xlink:href="SensorID_ff5c2d46-85c5-4e32-825e-a1ee827fce40"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_3d4f1dd2-c9d4-4fe8-83d6-26d53a5cbd2b">
-<sensorasset:sensor xlink:href="SensorID_9cde6266-5a8a-440a-995d-853d82d5628d"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_1873ddff-4d25-4833-a0a5-6affad80bb1f">
+<sensorasset:sensor xlink:href="SensorID_e696d8e6-c47c-42fc-a244-32a91185e76f"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_061ee90d-00b0-4040-93ec-b3815cfd7cad">
-<sensorasset:sensor xlink:href="SensorID_42fdc80f-6870-451f-9f42-74edb527b2b8"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_900822f2-8069-45e0-9bea-ab0be7c0a124">
+<sensorasset:sensor xlink:href="SensorID_3af359fc-4e74-4c29-8764-5cf1b8b15885"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_cc3168ce-2a74-4da4-a300-3ebc9e206ef9">
-<sensorasset:sensor xlink:href="SensorID_87e11741-9f73-4ce1-8d9e-93398276971a"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_80ccee93-73c0-40b0-8435-09cedd8e2e0f">
+<sensorasset:sensor xlink:href="SensorID_be0972d3-bfaf-48f0-81b5-03b802c16272"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_3d32bc2b-d781-4f98-acc1-15962ce0e6e5">
-<sensorasset:sensor xlink:href="SensorID_a9b6301c-fa6a-4fdc-8669-591aa3d6ce4b"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_126c34da-0ca8-4f43-b503-22f79fed0d3e">
+<sensorasset:sensor xlink:href="SensorID_543ec7e2-2604-41e0-92c6-8b8995e10952"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_453219ec-5571-4412-8e8a-371d2543828d">
-<sensorasset:sensor xlink:href="SensorID_2296a7ed-7cba-45b4-ac49-69ab07a27400"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_d3e77108-5adf-4803-8a6b-a8beda1a0822">
+<sensorasset:sensor xlink:href="SensorID_158c34bd-cd35-4b56-813e-93ac4afa085f"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_da983dfa-3c7b-4762-9a48-bbf32246b795">
-<sensorasset:sensor xlink:href="SensorID_c5620da0-de06-44b3-84b5-ebe69d424836"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_9f97863a-19ea-4be2-b198-ef4c13cd47fc">
+<sensorasset:sensor xlink:href="SensorID_bde6582e-b0ef-4d2a-9749-c1f1d0b4af11"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_f3b4652f-8469-4a74-b268-e9febb120098">
-<sensorasset:sensor xlink:href="SensorID_3b603c4c-d4bc-41bf-849b-79b7b5a605c1"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_f38ce752-c24c-4502-bd69-aedb4124af08">
+<sensorasset:sensor xlink:href="SensorID_c3fe972c-f412-43b6-b4cb-e3577070970f"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_269b6f5b-8b3d-4040-a54d-74c57c220d7e">
-<sensorasset:sensor xlink:href="SensorID_dffac58f-2f6d-4173-bd1a-1d0e40150d13"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_60546b9e-0a00-4f5d-aa7a-4b34346399f0">
+<sensorasset:sensor xlink:href="SensorID_47a570f4-efc1-4083-bdcb-1b2f65efccfb"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_899c3352-cf4e-4da0-8843-f6c04f0205d7">
-<sensorasset:sensor xlink:href="SensorID_502aa64a-aef3-4306-ad39-a72aac7d44d0"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_988554de-72f5-4fb7-9020-3a9b728cd4e6">
+<sensorasset:sensor xlink:href="SensorID_acf251b4-2e29-429a-99b2-4918edd535af"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_bb3f10fe-ee17-4422-8516-ef5a986fec08">
-<sensorasset:sensor xlink:href="SensorID_ddea32e0-cdbb-4b1b-9310-151d434b7524"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_32775f9f-b151-4a2f-aeb4-3026915a3cda">
+<sensorasset:sensor xlink:href="SensorID_8b9a8d7b-9dfa-43c7-a998-75003bd1b169"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_8fba53a0-b5bb-483b-97df-a5a165233875">
-<sensorasset:sensor xlink:href="SensorID_3ae0f605-1fac-493f-b79f-a33b6c7f1eb6"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_17e6afac-3e1d-4b37-87b2-9d871c122767">
+<sensorasset:sensor xlink:href="SensorID_069dadd2-aaaa-4ff9-85d9-b87a7a89cffe"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_c9c5f778-50c1-4f5b-8cf3-994850bf9a56">
-<sensorasset:sensor xlink:href="SensorID_841ad9a9-9acb-4240-9add-a67e2cc762db"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_d1abd3e1-a534-472f-b468-44ab58de6fc1">
+<sensorasset:sensor xlink:href="SensorID_d102d6ca-dfd7-49b1-bb9a-eb9e445ee8f2"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_1f4401d5-0a18-45c5-b2c2-de135e51e6b7">
-<sensorasset:sensor xlink:href="SensorID_d90d0e84-250d-4936-a00e-a0335851a45b"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_4f88163b-b425-42f2-abf8-823f5e0cc7d7">
+<sensorasset:sensor xlink:href="SensorID_a16a3fb5-e9b1-4897-b5e8-08b2402d4e5d"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_146638de-5697-414e-95b7-47c313a4366b">
-<sensorasset:sensor xlink:href="SensorID_e1e1885f-ff4a-47eb-a7ff-8c47a132fbcc"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_855bfd3f-c2f3-4792-afeb-65035dab78b6">
+<sensorasset:sensor xlink:href="SensorID_ef35f4d6-b483-4b12-b0c6-1b6221d2aed5"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_4ae423d4-d3c1-43dd-8e30-53b3b0d37430">
-<sensorasset:sensor xlink:href="SensorID_902d6e4d-0804-4ac8-bdca-55fffed8571f"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_4534c69c-3946-4894-b7ba-eb205e94bea8">
+<sensorasset:sensor xlink:href="SensorID_12233630-1885-468e-8c9f-b9e3b2ed6160"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_37522fee-1ec9-43af-86d7-ccca596de512">
-<sensorasset:sensor xlink:href="SensorID_a84ff594-9694-4c20-8beb-3687db2e9c8c"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_5590bd9b-3e72-48ed-82dd-a32745f9532c">
+<sensorasset:sensor xlink:href="SensorID_c16b3853-c358-4123-9af5-91d9f4065f2d"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_0c21dce5-c863-48cd-a53d-03dfa525eefd">
-<sensorasset:sensor xlink:href="SensorID_26ad039b-95e9-45c0-be81-961584151d78"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_4eb4cdc3-8312-4d42-8b10-26b02a2c3b43">
+<sensorasset:sensor xlink:href="SensorID_463ec7eb-990e-4402-b182-d67c04d545f8"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_dc5291a7-11aa-49bd-9709-791b06a1724e">
-<sensorasset:sensor xlink:href="SensorID_f0ccb5f9-8176-4015-ba1b-dd8d6135d7a3"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_f9787b39-bf82-412f-afa9-8149842a7c0e">
+<sensorasset:sensor xlink:href="SensorID_f2f86c52-aa64-4cec-bc92-96a3da6b7748"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_bd41c8f5-c0ab-48ab-8725-4d08537c1afd">
-<sensorasset:sensor xlink:href="SensorID_78b1f3dc-ef9c-4341-becd-827d95bcb14f"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_974fd9c7-2bc6-4ba2-b3b2-0f7cfc1e2455">
+<sensorasset:sensor xlink:href="SensorID_a7ff8f45-8ea4-48b2-a5ee-2e3741e71da1"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_376768bf-66cc-4621-8717-c97991601090">
-<sensorasset:sensor xlink:href="SensorID_f7e9508c-08d3-4a86-aa20-a10300f1af63"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_ae46978d-3856-48c9-a16a-55ed1b091a93">
+<sensorasset:sensor xlink:href="SensorID_77878057-b9ea-465e-851d-fc44b5708320"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_dbba9d83-8d6c-413e-a4d1-5d676fc09ebc">
-<sensorasset:sensor xlink:href="SensorID_2784ab97-b3eb-42c6-a39f-af423d50ff3f"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_1b09857c-3e8c-4a28-89bc-e2c663631862">
+<sensorasset:sensor xlink:href="SensorID_e823cb3d-0e99-44af-9641-1d1227fc689e"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_1c2a8ad7-1079-40c1-aa96-e8fac23770a5">
-<sensorasset:sensor xlink:href="SensorID_64f5bb5a-1183-496f-a2cb-b305f4c0b3d2"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_ffb6843a-8308-4127-8154-1c3a37493396">
+<sensorasset:sensor xlink:href="SensorID_5c3e324d-2c79-4260-b065-4708de5b41ee"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_b2c7f0d3-e1ba-4534-bb71-163963ea5b64">
-<sensorasset:sensor xlink:href="SensorID_5d50190d-9c13-47bb-b740-457efbce461d"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_b909dbb6-aa51-4b26-a581-3e45a313f752">
+<sensorasset:sensor xlink:href="SensorID_e03203c2-9ca3-49fd-a356-1e6617b4a45d"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_f2d826b9-0035-46b1-85a3-cc1eeac049c2">
-<sensorasset:sensor xlink:href="SensorID_69d68d03-838c-480c-b777-a7a6d50b2c43"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_e1699394-6f59-4cfe-84b2-55ff846b7140">
+<sensorasset:sensor xlink:href="SensorID_6ffc8658-7825-4f7f-a087-a5b3a4b996e8"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_cacba585-79d8-4269-90b3-ba073b11d0a3">
-<sensorasset:sensor xlink:href="SensorID_78ca5180-ab6a-495c-a94e-c1f8166c4d31"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_ec8733d8-7a81-48a1-8ab5-6454594e12b9">
+<sensorasset:sensor xlink:href="SensorID_9ff39a61-0a73-4ef2-b5da-fbefeeb2a74f"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_0fac028b-a38f-458b-91d0-581219201007">
-<sensorasset:sensor xlink:href="SensorID_26c0c808-7871-4802-8820-0b2f7581c432"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_e0a9d69f-8f56-4386-b471-4cb9952b12be">
+<sensorasset:sensor xlink:href="SensorID_1876d7da-f733-4e41-ac3b-a8cdd4d85bc8"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_762e15ed-db41-401f-b007-702f479cda21">
-<sensorasset:sensor xlink:href="SensorID_3c7b54c7-9cf6-421e-a0de-753fefb7384a"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_0c4fc8c6-0a59-4f17-a4fb-817edcc3c6ae">
+<sensorasset:sensor xlink:href="SensorID_e91f7294-c016-466e-a5fe-5b2804cb67d4"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_4c15638f-d220-4930-a3a4-afa6762953e3">
-<sensorasset:sensor xlink:href="SensorID_8a3ef98c-3035-4ba4-9c8a-1add13370cdf"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_9c05ac60-9ee3-4a98-8fa3-9a2cb9bb0541">
+<sensorasset:sensor xlink:href="SensorID_241ba2c7-6db0-4d3b-b14c-d26edb4cf708"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_e47d2b51-532f-4296-bf31-3b7d0455dd4b">
-<sensorasset:sensor xlink:href="SensorID_c886ff3a-0289-4026-9754-5b5a651f9353"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_3556f821-23a5-43e6-9774-b5482dedfb97">
+<sensorasset:sensor xlink:href="SensorID_68c16ab0-d7d6-465a-b1c7-94533ea72450"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_10dcad5f-f7a7-4a07-8070-e3241dce3a84">
-<sensorasset:sensor xlink:href="SensorID_ecfb8987-2500-47c9-a086-18d87f4ef031"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_d9a73a34-423a-4d49-b3cf-328e4b37aedb">
+<sensorasset:sensor xlink:href="SensorID_75216568-d6cf-4912-9438-44a4c857e334"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_b85829d4-0b21-4c3a-aef4-0e0d204ec76f">
-<sensorasset:sensor xlink:href="SensorID_88c08279-60d0-4b48-b2fc-29c560e92524"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_95318865-cd63-466b-ad60-5502f9cda9cf">
+<sensorasset:sensor xlink:href="SensorID_ead39b24-1efc-4b06-b606-47a04e97eaf7"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_28b9ef64-003e-4303-993b-d9fb09cf0593">
-<sensorasset:sensor xlink:href="SensorID_6878351f-e45c-45bf-b944-9c9da47152a4"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_4bbe6819-b948-4a6c-9977-6473eeacac4e">
+<sensorasset:sensor xlink:href="SensorID_3a753540-c1f7-4bb5-8ee1-33cbdd6aa247"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_538b1644-583f-4d44-8f4e-300ceb8b9ac1">
-<sensorasset:sensor xlink:href="SensorID_68d434af-95b1-43e3-b348-1ea47c657334"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_9350c572-76a1-4ea1-849e-2d176ff1997d">
+<sensorasset:sensor xlink:href="SensorID_aac07eb7-71eb-44ff-a047-35965a47041b"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_8f00d753-7c2b-49d1-8019-605d6d815862">
-<sensorasset:sensor xlink:href="SensorID_07cbce3d-1b5f-4ce5-8cc6-665708ae6bb8"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_36dc139c-089d-4682-9a13-692b0fe925b1">
+<sensorasset:sensor xlink:href="SensorID_1d10e0f5-940e-4dc6-9f48-0b72b399da8e"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_ea376715-ed76-4e7e-a997-2848481d27f0">
-<sensorasset:sensor xlink:href="SensorID_8135c637-61f2-49c1-a06e-0d2ee8e7825e"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_962fa96f-486b-4f25-970d-bc078efae5da">
+<sensorasset:sensor xlink:href="SensorID_2357020d-9b5c-4c7f-bf64-cc66ec011410"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_a93856d0-ca94-49cf-bf78-1319e4555d70">
-<sensorasset:sensor xlink:href="SensorID_0c133372-b897-49aa-9a5c-46e6cacaa07a"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_c6f1e514-e111-498c-80ea-ed9a8100cf6e">
+<sensorasset:sensor xlink:href="SensorID_06e683c4-b165-4f00-bb35-1edb27e849b4"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_ac0af8a6-2dd8-43c2-9a88-0c460600fbc6">
-<sensorasset:sensor xlink:href="SensorID_eb900606-7b23-4436-bf50-6ba9f5ea3b9e"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_a50e6521-cf4b-426d-ad27-4c75b168e96a">
+<sensorasset:sensor xlink:href="SensorID_dc58ce54-8f65-41f4-894e-3a50085b8e37"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_84538a7f-d28f-4ba8-8be1-eea6f1b5a90a">
-<sensorasset:sensor xlink:href="SensorID_ba9eef0b-bd3f-4c7a-860e-a1921e3b21f2"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_48854044-825b-441b-a446-d1e8c05b2df6">
+<sensorasset:sensor xlink:href="SensorID_dbd071f0-8051-4e4f-90aa-8a5680923397"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_53a4b236-b08f-4397-a47c-7c43ed7a5653">
-<sensorasset:sensor xlink:href="SensorID_d8bee1ff-9827-4fd5-ab74-ecd9fa9a377f"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_6b98ebc9-113b-446e-8eaf-4f82a25dc908">
+<sensorasset:sensor xlink:href="SensorID_05da8c69-2b2d-4819-99ef-93d2ed0a4c94"/>
 </sensorasset:TimeseriesTVP>
 </cityObjectMember>
 <cityObjectMember>
-<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_97b18ac2-3f02-4417-848a-1e6807d82ffe">
-<sensorasset:sensor xlink:href="SensorID_2281cbcf-601a-4adf-8400-31de6093974f"/>
+<sensorasset:TimeseriesTVP gml:id="TimeseriesTVPID_d806348c-dfac-49c6-b1bb-e528d434c9e8">
+<sensorasset:sensor xlink:href="SensorID_770fe057-8128-40fb-888b-79615df33022"/>
 </sensorasset:TimeseriesTVP>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_4ba56c13-14ef-43a8-b60d-d6ee166ba5f4">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0830f72-a0f1-4c0f-b66a-77ba81641d54"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_c047a6e6-baed-4012-a89f-709c935dc959">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_27934738-0e28-46a6-a034-d2abd046827e"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_a6180b2f-0c05-4890-9e77-fc7f7a73affb">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_081223fa-8d31-4f95-bb1a-488d1a621af8"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_c11271d3-8855-40e3-87bb-bddcd3aa8206">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f646a9d3-b732-4568-967d-442faa0c2e4d"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_3e16e612-d1aa-42e6-a173-331ec82452fe">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3c4e6979-bf5f-4c8a-9f5f-9cf3c8f168aa"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_a1327762-4f67-48d7-8f1c-fa1f676905dd">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2e621ccf-5575-405c-acce-0557b3aa3ab9"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_84930bbd-63d4-4626-b31b-170904201553">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_dfa223f1-8e91-4bfa-b876-5963b4bf10cb"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_c37bc6c6-0807-43dc-a748-6cdf826cfdcb">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_84bf7add-5406-4990-bbe4-eeb547ba589b"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_d2938ece-7363-4fd4-b223-cd27202b335a">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_abc70d6a-09c2-4894-98a9-d9a91f15a715"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_5d1359d7-ef8c-46ab-914b-940f6645d6f1">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_539b71fd-2364-478e-b918-f75f861c6fda"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_7ef73c76-ee5d-45f7-92ad-216a5d9c16e6">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae70d652-0274-4718-a2fd-2c655d69aa1f"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_4e31385a-255a-4080-a39b-e5f197f78c06">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fc5e0370-a3a3-42ef-a1f2-0dcbd56ce496"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_10e65e5c-3499-4ab0-b04c-ec0a513f3210">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9fe6f2cd-f53e-4c1f-b036-a071d93136ea"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_b92b4f63-6980-47eb-82bf-ba5e9e385321">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fbad3eca-c056-4165-bfcb-d5aeee12d638"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_271f4d69-d283-4013-910c-a08f6da15508">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_05c5af88-3193-4692-84c8-5f1d87485394"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_f3c10a7c-4732-435e-91b8-60121efd0e50">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2745d485-521b-4bda-8911-d2fa1bedba09"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_504aedd3-bed3-4a8f-84c5-419e0828eb74">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_51001c7b-4008-4c66-8f52-908d5272620e"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_6d6358b6-0b58-4439-82df-11ff77d2be4e">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3991c33e-2292-429d-bcd5-d1ff1926e8cf"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_134b46ee-9dd5-4a6e-bc80-757442a22323">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9030173c-d1a5-4b00-9525-1cd4ec8b08c5"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_79bb805b-d7b0-429e-a154-3f4a45e2dbb5">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_43166337-6a31-4a62-a022-c186aface1bd"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_d82ff16e-d176-40d0-adcd-f9b30e65654f">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a62615d5-dabf-4c06-8057-e8d4cce99729"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_c2e2c7e1-1301-4f12-acf2-825f9a4f25e8">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_14afd644-1d3f-4102-9e6c-b021aa33b128"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_a69c3c52-9042-42fe-8de1-d4fb94353484">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e69fa213-2615-41d5-8317-e68691e3c3e9"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_497e8572-1113-43e9-94b8-6ab815dd1a47">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_df4a38c6-baa9-417a-8114-34dccfcd60e7"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_2b6bb548-1fcc-41b2-80ad-78ff4d685ee1">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_def677dd-7409-4ff7-93a6-8764c3d58292"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_b2a927c9-9577-4bd9-b199-4be5121ec76d">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_58111d71-e7c4-4acf-914d-ad2f88b48110"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_a16e1617-79a8-4cb0-974b-9e2bb1b6df82">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f4fef29e-4f91-459a-b129-161222c9c326"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_615f03e7-fe0c-4176-83fa-c4127eee9840">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_95b7e602-8f06-4e5b-a266-2c541eecd0d2"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_6da17ca6-a811-4ba0-9b33-16a2e89b2031">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_2f832ae5-4813-460b-b556-217e4e5c3618"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_240a5b71-71a9-4b78-a917-4782b9f95deb">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c4c205d1-ab3e-46f2-8de5-046dd7be6c7b"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_facfcbe2-e56a-450b-a3ef-106b0375d874">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_768c1df2-16bb-4239-8bc6-3d31381ae9e6"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_60e07d21-d831-44ac-97a8-769a9f4511da">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c3e33951-6d84-46a3-aee9-dcc1484ec752"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_6dcb16b2-dac7-4946-8a2f-c9678bcba1b7">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_568067bb-e57d-4a96-8072-26590e0657fc"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_462aadd5-7aff-4337-a219-3a7b645ca956">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ac135ca5-963b-4604-8afc-d2fd9ddb39f6"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_548f0d88-b6b9-460e-a1d4-e1db7021d4c3">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f5aee350-0f26-4624-b55e-f953e6495f6a"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_3803eca1-b898-4295-a030-73720e4810c3">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a13dde36-76a0-457a-9533-1f633560e93f"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_104d0c40-3a91-41a9-8d6d-1b57872a6e78">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4b3f696c-bb99-4b3c-a470-a96a9b3d35de"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_c37df8b3-a45d-468d-a02d-cb25f93cdb27">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_5e2d36b4-ebc4-4d9b-a28d-efd32b4e32ff"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_9086d4ac-c593-4d03-aa21-3d36a6f471b3">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ce63886e-f04a-4883-979d-8fd9aff9f7e3"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_a48e4189-1dea-4235-bc2a-be6fec187e6a">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0d90ad73-620d-4913-b87c-b6e74d724bf6"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_a6a42dd0-d35a-47dd-87fc-74197dff6ca3">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0d840949-d8b4-4da5-8d6e-650e82370448"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_b2bb9910-2f1a-47eb-bc1f-5834f8236310">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_33ab49eb-7e7a-41ca-b6da-d2d5fe78138a"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_02ecfcaf-6ee0-4811-a30b-b0c2ee4c19d9">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_513c5a2d-872b-4ff8-8922-e00a702a5d28"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_010095ef-5e81-4500-9b00-3b56d4c4efbe">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ff0c3081-9a28-4cba-8804-04f3b6b6d50b"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_b28ae05c-ebc7-4b76-9167-0fb7b2e849c9">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6daecf1d-0984-417f-8f9b-df628fcbe52d"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_254e3f4c-ef24-4c59-8864-cbd42d1735f8">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0733f6c5-83d6-4faa-9377-9203936bc18b"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_cb9dd071-e0e8-418d-ae94-4226a686a09a">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6083b9a3-0976-493c-ba06-cfbea37ee968"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_c3a417f2-df03-407a-9ff1-3df019dcfcd1">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e387fa22-f3ca-416a-bf43-e5726984e531"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_6a72b6e5-e0b8-4bd2-ad78-cb858d9b05c3">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0df3d233-1baf-476d-8a60-b3f3e29a9161"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_5d01f731-5845-49ec-9b03-fbc14e26fc32">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d5a8d305-6488-4ac4-ba15-03a46a57ae32"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_7692c41c-2dac-4f47-9d57-e377c6cd052b">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_28717b5d-0c30-481e-a707-53a0384b4c9a"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_08fe9db3-a113-406e-a191-3e8bbfe8489f">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_856a1f86-527d-4da0-8c3e-78b8a7dbf4a0"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_3325df9a-e15b-4773-89c2-b51410ff6852">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_fff811a7-e111-4311-9405-9c581993059f"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_de086095-a6c1-48c9-bafe-872cf6e928c9">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9156fe2f-d959-4855-a21f-7df691e2942e"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_842b51e4-b3bc-4864-82fc-55a7de8f1ffb">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d40176da-9360-4e1d-807a-4a886c05b204"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_dfe523cc-63c5-4ff4-bb34-43749da4230e">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1db9b34c-be63-4eae-b448-c66882d57ff2"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_053da1cb-f0f0-43ab-b4ae-5ef22f9a7225">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f3605691-fc0e-4467-b046-84d17c839b6f"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_5853acbd-9bbf-4952-b9ba-9618f02f152e">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f1c6a1e1-035c-47d8-b519-d26ab3222ca3"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_0f5a7ffe-ac8a-4977-b27d-8808ac7f1638">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ec48d443-a8e8-4191-8aee-49a9f053aa09"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_aa398385-1aef-4e72-82d4-4f9be4afc00e">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_62b10d44-62e2-4a86-8838-bd51f3b9b384"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_aea79661-68de-4e88-9e93-ab56608985ee">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80d93665-e412-4f08-b676-dce4a333eabc"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_79b2d6cc-8a63-49d1-b105-3c6b6231a5a5">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3e1f0572-0959-45ea-83ab-b193847faac5"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_d3984f08-c9c7-4df3-87aa-ea9363652e63">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1873ddff-4d25-4833-a0a5-6affad80bb1f"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_1e9ac7e6-499b-4a1c-9146-9e13aa99035e">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_900822f2-8069-45e0-9bea-ab0be7c0a124"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_b083530a-fd9a-4c4b-b517-c2807cfde891">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_80ccee93-73c0-40b0-8435-09cedd8e2e0f"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_84eb1783-b39a-4d2d-82f7-2aa49dfba1b9">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_126c34da-0ca8-4f43-b503-22f79fed0d3e"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_659a0dbc-c102-4cba-a4c1-f495d0ba6dfe">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d3e77108-5adf-4803-8a6b-a8beda1a0822"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_c437719e-fdd0-4f2a-ae96-a416bd9925e3">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9f97863a-19ea-4be2-b198-ef4c13cd47fc"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_39f002f8-df26-4a27-886b-0a34d4eff0d2">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f38ce752-c24c-4502-bd69-aedb4124af08"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_317f72d5-dbd9-405c-888c-4b06b00e1068">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_60546b9e-0a00-4f5d-aa7a-4b34346399f0"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_f75b9708-c8ef-4f2a-9dd9-1e20521a2244">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_988554de-72f5-4fb7-9020-3a9b728cd4e6"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_32c0676a-7ea2-4bfb-9ec4-da3ffa67c113">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_32775f9f-b151-4a2f-aeb4-3026915a3cda"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_9b9d8e73-de5e-499b-8dfa-9581560d11f8">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_17e6afac-3e1d-4b37-87b2-9d871c122767"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_b3d14a37-11f7-41c8-9957-24bc3b63c199">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d1abd3e1-a534-472f-b468-44ab58de6fc1"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_4453eb13-aa9b-44a1-8dc7-0a0fa237a92b">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4f88163b-b425-42f2-abf8-823f5e0cc7d7"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_7ecdea39-1ad4-4252-8222-1a5fafe13759">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_855bfd3f-c2f3-4792-afeb-65035dab78b6"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_8036ccf4-5e8d-41b4-90b4-24bcb39fd975">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4534c69c-3946-4894-b7ba-eb205e94bea8"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_504e6f76-67d4-47a7-9dd2-79015e271596">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_5590bd9b-3e72-48ed-82dd-a32745f9532c"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_124b6a0d-4509-4467-bdf6-8e0d02aa8667">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4eb4cdc3-8312-4d42-8b10-26b02a2c3b43"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_f4f29075-f742-4f6c-9acc-75a2cbb3052a">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_f9787b39-bf82-412f-afa9-8149842a7c0e"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_bb8c6bc3-0558-4cae-8402-77d33cffcfa7">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_974fd9c7-2bc6-4ba2-b3b2-0f7cfc1e2455"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_f72fcfc5-a451-4dd9-9161-ab165e50d0e8">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ae46978d-3856-48c9-a16a-55ed1b091a93"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_8bed4f37-1f93-401d-82cf-82cff761011e">
+<sensorasset:uom>v</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_1b09857c-3e8c-4a28-89bc-e2c663631862"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_92c51a95-3272-4d7b-88aa-e7c8ee446218">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ffb6843a-8308-4127-8154-1c3a37493396"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_0e1a56f3-cc06-4b7c-b880-b2b9b3356c44">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_b909dbb6-aa51-4b26-a581-3e45a313f752"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_b9c72be4-bc86-4d6b-bb4f-19198c431c69">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e1699394-6f59-4cfe-84b2-55ff846b7140"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_2bf92ffe-4b46-49e4-b574-56df9177d309">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_ec8733d8-7a81-48a1-8ab5-6454594e12b9"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_392ff7a8-e1ec-4b48-84e3-898655afef37">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_e0a9d69f-8f56-4386-b471-4cb9952b12be"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_16d2f902-636d-492b-918a-096f67d82b9d">
+<sensorasset:uom>a</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_0c4fc8c6-0a59-4f17-a4fb-817edcc3c6ae"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_9381a783-4e53-4a5d-8011-acec1d3c9fb5">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9c05ac60-9ee3-4a98-8fa3-9a2cb9bb0541"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_28226549-2165-416f-9cc8-b77c40b8c8b7">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_3556f821-23a5-43e6-9774-b5482dedfb97"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_39b8a1df-1f0a-4efc-9adc-7adc75097552">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d9a73a34-423a-4d49-b3cf-328e4b37aedb"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_913dce87-33c7-45ff-be0a-9f7133eed2bb">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_95318865-cd63-466b-ad60-5502f9cda9cf"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_80307536-3248-45cd-97a6-9c8221e7c0f0">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_4bbe6819-b948-4a6c-9977-6473eeacac4e"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_3528ecc5-21e3-440f-be83-4f72d59bb332">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_9350c572-76a1-4ea1-849e-2d176ff1997d"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_a1b1e216-f4e0-4c54-a644-0199a76e476f">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_36dc139c-089d-4682-9a13-692b0fe925b1"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_6639b298-61c4-45c5-a651-3f6d1c1c8029">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_962fa96f-486b-4f25-970d-bc078efae5da"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_e9e8e85e-c16d-4cbb-9787-595745acdb17">
+<sensorasset:uom>w</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_c6f1e514-e111-498c-80ea-ed9a8100cf6e"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_1f8e9096-b74a-4e5b-982f-c2c03aa79c1f">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_a50e6521-cf4b-426d-ad27-4c75b168e96a"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_f457724b-623d-4112-b89d-5e483f939cc0">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_48854044-825b-441b-a446-d1e8c05b2df6"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_7c41d9b8-5083-4ba0-a70f-709963e82808">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_6b98ebc9-113b-446e-8eaf-4f82a25dc908"/>
+</sensorasset:PointMetadata>
+</cityObjectMember>
+<cityObjectMember>
+<sensorasset:PointMetadata gml:id="PointMetadataID_0875e93b-e714-4d3d-80ac-385e66bafbb5">
+<sensorasset:uom>j</sensorasset:uom>
+<sensorasset:timeseries xlink:href="TimeseriesTVPID_d806348c-dfac-49c6-b1bb-e528d434c9e8"/>
+</sensorasset:PointMetadata>
 </cityObjectMember>
 </CityModel>

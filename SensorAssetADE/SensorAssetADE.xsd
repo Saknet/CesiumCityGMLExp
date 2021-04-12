@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema" 
 	xmlns:sensorasset="http://www.citygml.org/ade/sensorasset" targetNamespace="http://www.citygml.org/ade/sensorasset"
 	xmlns:gml="http://www.opengis.net/gml" 
@@ -15,12 +15,11 @@
     <complexContent>
       <extension base="core:AbstractCityObjectType">
         <sequence>
-		  <element name="timeseriesTVP" type="sensorasset:TimeseriesTVPPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
-		  <element name="location" type="sensorasset:LocationPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
-		  <element name="accessControl" type="sensorasset:AccessControlPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
-		  <element name="process" type="sensorasset:ProcessPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
-          <element name="description" type="string" minOccurs="0"/>
-		  <element name="uom" type="string" minOccurs="0"/>
+		  <element name="timeseries" type="sensorasset:TimeseriesTVPPropertyType" maxOccurs="1" minOccurs="0" form="qualified"/>
+		  <element name="locationMemberMember" type="sensorasset:LocationPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
+		  <element name="accessControlMember" type="sensorasset:AccessControlPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
+		  <element name="processMember" type="sensorasset:ProcessPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
+          <element name="description" type="gml:StringOrRefType" minOccurs="0"/>
 		  <element name="located" minOccurs="0" type="gml:ReferenceType" form="qualified">
             <annotation>
               <appinfo>
@@ -44,7 +43,7 @@
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
-		  <element name="timeValuePair" type="sensorasset:TimeValuePairPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
+		  <element name="pointMember" type="sensorasset:TimeValuePairPropertyType" maxOccurs="unbounded" minOccurs="0" form="qualified"/>
 		  <element name="defaultPointMetadata" type="sensorasset:PointMetadataPropertyType" maxOccurs="1" minOccurs="0" form="qualified"/>
 		  <element name="sensor" type="sensorasset:SensorPropertyType" minOccurs="0" form="qualified"/>
         </sequence>
@@ -63,8 +62,8 @@
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
-		  <element name="time" type="dateTime" minOccurs="0"/>
-		  <element name="value" type="string" minOccurs="0"/>
+		  <element name="time" type="gml:TimePositionType" minOccurs="0" maxOccurs="1"/>
+		  <element name="value" type="gml:MeasureType" maxOccurs="1" minOccurs="0"/>
 		  <element name="timeseries" type="sensorasset:TimeseriesTVPPropertyType" minOccurs="0" form="qualified"/>
         </sequence>
       </extension>
@@ -82,7 +81,7 @@
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
-		  <element name="uom" type="string" minOccurs="0"/>
+		  <element name="uom" type="gml:StringOrRefType" minOccurs="0"/>
 		  <element name="timeseries" type="sensorasset:TimeseriesTVPPropertyType" minOccurs="0" form="qualified"/>
         </sequence>
       </extension>
@@ -100,11 +99,11 @@
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
-          <element name="longitude" type="double" minOccurs="0"/>
-          <element name="latitude" type="double" minOccurs="0"/>
-          <element name="height" type="gml:LengthType" minOccurs="0"/>
-          <element name="time" type="dateTime" minOccurs="0"/>
-		  <element name="description" type="string" minOccurs="0"/>
+          <element name="longitude" type="double" maxOccurs="1" minOccurs="0"/>
+          <element name="latitude" type="double" maxOccurs="1" minOccurs="0"/>
+          <element name="height" type="gml:LengthType" maxOccurs="1" minOccurs="0"/>
+          <element name="time" type="gml:TimePositionType" maxOccurs="1" minOccurs="0"/>
+		  <element name="description" type="gml:StringOrRefType" maxOccurs="1" minOccurs="0"/>
 		  <element name="sensor" type="sensorasset:SensorPropertyType" minOccurs="0" form="qualified"/>
 		  <element minOccurs="0" name="realization" type="gml:PointPropertyType"/>
         </sequence>
@@ -123,8 +122,9 @@
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
-		  <element name="role" type="string" minOccurs="0"/>
-		  <element name="email" type="string" minOccurs="0"/>
+		  <element name="role" type="gml:StringOrRefType" maxOccurs="1" minOccurs="0"/>
+		  <element name="email" type="gml:StringOrRefType" maxOccurs="1" minOccurs="0"/>
+		  <element name="sensor" type="sensorasset:SensorPropertyType" minOccurs="0" form="qualified"/>
         </sequence>
       </extension>
     </complexContent>
@@ -141,11 +141,12 @@
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
-          <element name="name" type="string" minOccurs="0"/>
-          <element name="description" type="string" minOccurs="0"/>
-          <element name="startTime" type="dateTime" minOccurs="0"/>
-		  <element name="api" type="string" minOccurs="0"/>
-		  <element name="status" type="string" minOccurs="0"/>
+          <element name="name" type="gml:StringOrRefType" maxOccurs="1" minOccurs="0"/>
+          <element name="description" type="gml:StringOrRefType" maxOccurs="1" minOccurs="0"/>
+          <element name="startTime" type="gml:TimePositionType" maxOccurs="1" minOccurs="0"/>
+		  <element name="api" type="gml:StringOrRefType" maxOccurs="1" minOccurs="0"/>
+		  <element name="status" type="gml:CodeType" maxOccurs="1" minOccurs="0"/>
+		  <element name="sensor" type="sensorasset:SensorPropertyType" minOccurs="0" form="qualified"/>
         </sequence>
       </extension>
     </complexContent>
