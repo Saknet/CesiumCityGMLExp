@@ -3,6 +3,6 @@ var compression = require('compression');
 var app = express();
 app.use(compression());
 app.use(express.static('public'));
-var server = app.listen('3000', '0.0.0.0', function () {
+var server = app.listen('3010', '0.0.0.0', function () {
     console.log('Application Running: http://localhost:%d', server.address().port);
 });

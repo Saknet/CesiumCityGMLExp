@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Saknet/CesiumCityGMLExp#readme",
   "dependencies": {
-    "cesium": "^1.74.0",
+    "cesium": "^1.83.0",
     "compression": "^1.7.4",
     "express": "^4.17.1"
   }
