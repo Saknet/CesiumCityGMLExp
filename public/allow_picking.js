@@ -123,8 +123,54 @@ function generateFeatureInfoTable(picked3DtileFeature, observations) {
         let total = observations['observations']['w'].timevaluepairs[i].totalvalue;
         let average = observations['observations']['w'].timevaluepairs[i].averagevalue;
         let timeString = String(time);
-        selectedEntity.description += '<tr><th> Total W measured at ' + timeString+ '</th><td>' + total.toFixed(2)+ '</td></tr>';
-        selectedEntity.description += '<tr><th> Average W measured at ' + timeString+ '</th><td>' + average.toFixed(2)+ '</td></tr>';
+        if (total != null) {
+            selectedEntity.description += '<tr><th> Total W measured at ' + timeString+ '</th><td>' + total.toFixed(2)+ '</td></tr>';
+        }
+        if (average != null) {
+            selectedEntity.description += '<tr><th> Average W measured at ' + timeString+ '</th><td>' + average.toFixed(2)+ '</td></tr>';
+        }
+    }
+
+    for (let i = 0; i < observations['observations']['j'].timevaluepairs.length; i++) {
+        let time= new Date()
+        time.setTime(observations['observations']['j'].timevaluepairs[i].time * 1000);
+        let total = observations['observations']['j'].timevaluepairs[i].totalvalue;
+        let average = observations['observations']['j'].timevaluepairs[i].averagevalue;
+        let timeString = String(time);
+        if (total != null) {
+            selectedEntity.description += '<tr><th> Total J measured at ' + timeString+ '</th><td>' + total.toFixed(2)+ '</td></tr>';
+        }
+        if (average != null) {
+            selectedEntity.description += '<tr><th> Average J measured at ' + timeString+ '</th><td>' + average.toFixed(2)+ '</td></tr>';
+        }        
+    }
+
+    for (let i = 0; i < observations['observations']['v'].timevaluepairs.length; i++) {
+        let time= new Date()
+        time.setTime(observations['observations']['v'].timevaluepairs[i].time * 1000);
+        let total = observations['observations']['v'].timevaluepairs[i].totalvalue;
+        let average = observations['observations']['v'].timevaluepairs[i].averagevalue;
+        let timeString = String(time);
+        if (total != null) {
+            selectedEntity.description += '<tr><th> Total V measured at ' + timeString+ '</th><td>' + total.toFixed(2)+ '</td></tr>';
+        }
+        if (average != null) {
+            selectedEntity.description += '<tr><th> Average V measured at ' + timeString+ '</th><td>' + average.toFixed(2)+ '</td></tr>';
+        } 
+    }
+
+    for (let i = 0; i < observations['observations']['a'].timevaluepairs.length; i++) {
+        let time= new Date()
+        time.setTime(observations['observations']['a'].timevaluepairs[i].time * 1000);
+        let total = observations['observations']['a'].timevaluepairs[i].totalvalue;
+        let average = observations['observations']['a'].timevaluepairs[i].averagevalue;
+        let timeString = String(time);
+        if (total != null) {
+            selectedEntity.description += '<tr><th> Total A measured at ' + timeString+ '</th><td>' + total.toFixed(2)+ '</td></tr>';
+        }
+        if (average != null) {
+            selectedEntity.description += '<tr><th> Average A measured at ' + timeString+ '</th><td>' + average.toFixed(2)+ '</td></tr>';
+        }         
     }
   
 }
