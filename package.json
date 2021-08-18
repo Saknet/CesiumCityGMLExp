@@ -1,7 +1,7 @@
 {
   "name": "CesiumCityGMLExp",
   "version": "1.0.0",
-  "description": "Sensor observation data experiements with kalasatama citygml models",
+  "description": "Sensor observation data experiements with Helsinki citygml models",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Saknet/CesiumCityGMLExp#readme",
   "dependencies": {
-    "cesium": "^1.83.0",
+    "cesium": "^1.84.0",
     "compression": "^1.7.4",
     "express": "^4.17.1"
   }
