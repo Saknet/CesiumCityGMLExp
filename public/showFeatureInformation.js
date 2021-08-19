@@ -72,14 +72,33 @@ async function active3DTilePicker() {
                 Cesium.Color.clone(picked3DtileFeature.color, selected.originalColor);
             }
 
-        getObservations( 'http://localhost:3000/observations' ).then( observations => generateFeatureInfoTable( picked3DtileFeature, observations ) );
+        const llcoordinates = toDegrees( viewer.scene.pickPosition( movement.position ) );  
+        const latitude = llcoordinates[ 0 ];
+        const longitude = llcoordinates[ 1 ];
+        console.log(toDegrees(viewer.scene.pickPosition(movement.position)));
+        console.log(toDegrees(latitude, longitude));
+
+        getObservations( 'http://localhost:3000/observations/', latitude, longitude ).then( observations => generateFeatureInfoTable( picked3DtileFeature, observations ) );
 
         }
     }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
 }
 
-async function getObservations (url) {
-    let response = await fetch(url);
+  /* Function that converts cartesian 3 coordinates to ll coordinates */
+function toDegrees( cartesian3Pos ) {
+
+    let pos = Cesium.Cartographic.fromCartesian( cartesian3Pos );
+    return [ pos.latitude / Math.PI * 180, pos.longitude / Math.PI * 180 ];
+
+  }
+
+  /* Function that gets observations from backend */
+async function getObservations ( url, lat , long ) {
+
+    let response = await fetch( url + new URLSearchParams({
+        latitude: lat,
+        longitude: long,
+    }));
 
     if (!response.ok) {
 
@@ -93,8 +112,8 @@ async function getObservations (url) {
 
 }
 
+/* Function that generates feature information table  */
 function generateFeatureInfoTable( picked3DtileFeature, observations ) {
-    console.log(picked3DtileFeature);
     var selectedEntity = new Cesium.Entity();
     let gml_id = picked3DtileFeature.getProperty( 'gml_id' );
     let highestRoof =  picked3DtileFeature.getProperty( 'HighestRoof' );
@@ -154,7 +173,7 @@ function generateFeatureInfoTable( picked3DtileFeature, observations ) {
     }     
 }
 
-/* Function that processes queried data for faster timeseries generation  */
+/* Function that processes found observation data for faster timeseries generation  */
 function findObservationsForUnit( selectedEntity, observations, unit ) {
     for ( let i = 0; i < observations[ 'observations' ][ unit ].timevaluepairs.length; i++ ) {
 
